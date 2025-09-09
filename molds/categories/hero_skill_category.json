@@ -1,0 +1,10 @@
+{
+  "_subtypes": {
+    "category1": {
+      "name": "~hero_skill_category1"
+    },
+    "category2": {
+      "name": "~hero_skill_category2"
+    }
+  }
+}

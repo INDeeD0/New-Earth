@@ -1,0 +1,726 @@
+{
+  "name": null,
+  "name_index": null,
+  "language": "en-US",
+  "created_ts": "+TIMESTAMP",
+  "last_active_ts": "+TIMESTAMP",
+  "last_accessed_ts": "+TIMESTAMP",
+  "vip_complete_base": 300,
+  "carrier_limit": 10,
+  "currencies": [
+    {
+      "subtype": "currency1",
+      "quantity": 1000
+    },
+    {
+      "subtype": "currency3",
+      "quantity": 60000
+    },
+    {
+      "subtype": "currency4",
+      "quantity": 60000
+    },
+    {
+      "subtype": "currency5",
+      "quantity": 60000
+    },
+    {
+      "subtype": "currency6",
+      "quantity": 60000
+    }
+  ],
+  "items": [
+    {
+      "subtype": "player_rename",
+      "quantity": 1
+    },
+    {
+      "subtype": "city_relocate_newbie",
+      "quantity": 1
+    }
+  ],
+  "march_carriers": [
+    {
+      "id": 1,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 2,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 3,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 4,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 5,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 6,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 7,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 8,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 9,
+      "subtype": "generic",
+      "level": 0
+    },
+    {
+      "id": 10,
+      "subtype": "generic",
+      "level": 0
+    }
+  ],
+  "purchase_levels": [
+    {
+      "subtype": "purchase_level_0"
+    },
+    {
+      "subtype": "purchase_level_1"
+    }
+  ],
+  "daily_rewards": [
+    {
+      "subtype": "daily_reward_0"
+    },
+    {
+      "subtype": "daily_reward_1"
+    },
+    {
+      "subtype": "daily_reward_2"
+    },
+    {
+      "subtype": "daily_reward_3"
+    },
+    {
+      "subtype": "daily_reward_4"
+    },
+    {
+      "subtype": "daily_reward_5"
+    },
+    {
+      "subtype": "daily_reward_6"
+    },
+    {
+      "subtype": "daily_reward_7"
+    },
+    {
+      "subtype": "daily_reward_8"
+    },
+    {
+      "subtype": "daily_reward_9"
+    },
+    {
+      "subtype": "daily_reward_10"
+    },
+    {
+      "subtype": "daily_reward_11"
+    },
+    {
+      "subtype": "daily_reward_12"
+    },
+    {
+      "subtype": "daily_reward_13"
+    },
+    {
+      "subtype": "daily_reward_14"
+    },
+    {
+      "subtype": "daily_reward_15"
+    },
+    {
+      "subtype": "daily_reward_16"
+    },
+    {
+      "subtype": "daily_reward_17"
+    },
+    {
+      "subtype": "daily_reward_18"
+    },
+    {
+      "subtype": "daily_reward_19"
+    },
+    {
+      "subtype": "daily_reward_20"
+    },
+    {
+      "subtype": "daily_reward_21"
+    },
+    {
+      "subtype": "daily_reward_22"
+    },
+    {
+      "subtype": "daily_reward_23"
+    },
+    {
+      "subtype": "daily_reward_24"
+    },
+    {
+      "subtype": "daily_reward_25"
+    },
+    {
+      "subtype": "daily_reward_26"
+    },
+    {
+      "subtype": "daily_reward_27"
+    },
+    {
+      "subtype": "daily_reward_28"
+    },
+    {
+      "subtype": "daily_reward_29"
+    },
+    {
+      "subtype": "daily_reward_30"
+    },
+    {
+      "subtype": "daily_reward_31"
+    },
+    {
+      "subtype": "daily_reward_32"
+    },
+    {
+      "subtype": "daily_reward_33"
+    },
+    {
+      "subtype": "daily_reward_34"
+    },
+    {
+      "subtype": "daily_reward_35"
+    },
+    {
+      "subtype": "daily_reward_36"
+    },
+    {
+      "subtype": "daily_reward_37"
+    },
+    {
+      "subtype": "daily_reward_38"
+    },
+    {
+      "subtype": "daily_reward_39"
+    },
+    {
+      "subtype": "daily_reward_40"
+    },
+    {
+      "subtype": "daily_reward_41"
+    },
+    {
+      "subtype": "daily_reward_42"
+    },
+    {
+      "subtype": "daily_reward_43"
+    },
+    {
+      "subtype": "daily_reward_44"
+    },
+    {
+      "subtype": "daily_reward_45"
+    },
+    {
+      "subtype": "daily_reward_46"
+    },
+    {
+      "subtype": "daily_reward_47"
+    },
+    {
+      "subtype": "daily_reward_48"
+    },
+    {
+      "subtype": "daily_reward_49"
+    },
+    {
+      "subtype": "daily_reward_50"
+    },
+    {
+      "subtype": "daily_reward_51"
+    },
+    {
+      "subtype": "daily_reward_52"
+    },
+    {
+      "subtype": "daily_reward_53"
+    },
+    {
+      "subtype": "daily_reward_54"
+    },
+    {
+      "subtype": "daily_reward_55"
+    }
+  ],
+  "period_rewards": [
+    {
+      "min_core_level": 0,
+      "max_core_level": 8,
+      "rewards": [
+        {
+          "subtype": "period_reward_t1_0"
+        },
+        {
+          "subtype": "period_reward_t1_1"
+        },
+        {
+          "subtype": "period_reward_t1_2"
+        },
+        {
+          "subtype": "period_reward_t1_3"
+        },
+        {
+          "subtype": "period_reward_t1_4"
+        },
+        {
+          "subtype": "period_reward_t1_5"
+        },
+        {
+          "subtype": "period_reward_t1_6"
+        },
+        {
+          "subtype": "period_reward_t1_7"
+        },
+        {
+          "subtype": "period_reward_t1_8"
+        },
+        {
+          "subtype": "period_reward_t1_9"
+        },
+        {
+          "subtype": "period_reward_t1_10"
+        },
+        {
+          "subtype": "period_reward_t1_11"
+        },
+        {
+          "subtype": "period_reward_t1_12"
+        }
+      ]
+    },
+    {
+      "min_core_level": 9,
+      "max_core_level": 16,
+      "rewards": [
+        {
+          "subtype": "period_reward_t2_0"
+        },
+        {
+          "subtype": "period_reward_t2_1"
+        },
+        {
+          "subtype": "period_reward_t2_2"
+        },
+        {
+          "subtype": "period_reward_t2_3"
+        },
+        {
+          "subtype": "period_reward_t2_4"
+        },
+        {
+          "subtype": "period_reward_t2_5"
+        },
+        {
+          "subtype": "period_reward_t2_6"
+        },
+        {
+          "subtype": "period_reward_t2_7"
+        },
+        {
+          "subtype": "period_reward_t2_8"
+        },
+        {
+          "subtype": "period_reward_t2_9"
+        },
+        {
+          "subtype": "period_reward_t2_10"
+        },
+        {
+          "subtype": "period_reward_t2_11"
+        },
+        {
+          "subtype": "period_reward_t2_12"
+        },
+        {
+          "subtype": "period_reward_t2_13"
+        },
+        {
+          "subtype": "period_reward_t2_14"
+        },
+        {
+          "subtype": "period_reward_t2_15"
+        }
+      ]
+    },
+    {
+      "min_core_level": 17,
+      "max_core_level": 32,
+      "rewards": [
+        {
+          "subtype": "period_reward_t3_0"
+        },
+        {
+          "subtype": "period_reward_t3_1"
+        },
+        {
+          "subtype": "period_reward_t3_2"
+        },
+        {
+          "subtype": "period_reward_t3_3"
+        },
+        {
+          "subtype": "period_reward_t3_4"
+        },
+        {
+          "subtype": "period_reward_t3_5"
+        },
+        {
+          "subtype": "period_reward_t3_6"
+        },
+        {
+          "subtype": "period_reward_t3_7"
+        },
+        {
+          "subtype": "period_reward_t3_8"
+        },
+        {
+          "subtype": "period_reward_t3_9"
+        },
+        {
+          "subtype": "period_reward_t3_10"
+        },
+        {
+          "subtype": "period_reward_t3_11"
+        },
+        {
+          "subtype": "period_reward_t3_12"
+        },
+        {
+          "subtype": "period_reward_t3_13"
+        },
+        {
+          "subtype": "period_reward_t3_14"
+        }
+      ]
+    }
+  ],
+  "epic_period_rewards": [
+    {
+      "min_core_level": 0,
+      "max_core_level": 8,
+      "rewards": [
+        {
+          "subtype": "epic_period_reward_t1_0"
+        },
+        {
+          "subtype": "epic_period_reward_t1_1"
+        },
+        {
+          "subtype": "epic_period_reward_t1_2"
+        },
+        {
+          "subtype": "epic_period_reward_t1_3"
+        },
+        {
+          "subtype": "epic_period_reward_t1_4"
+        },
+        {
+          "subtype": "epic_period_reward_t1_5"
+        },
+        {
+          "subtype": "epic_period_reward_t1_6"
+        },
+        {
+          "subtype": "epic_period_reward_t1_7"
+        }
+      ]
+    },
+    {
+      "min_core_level": 9,
+      "max_core_level": 16,
+      "rewards": [
+        {
+          "subtype": "epic_period_reward_t2_0"
+        },
+        {
+          "subtype": "epic_period_reward_t2_1"
+        },
+        {
+          "subtype": "epic_period_reward_t2_2"
+        },
+        {
+          "subtype": "epic_period_reward_t2_3"
+        },
+        {
+          "subtype": "epic_period_reward_t2_4"
+        },
+        {
+          "subtype": "epic_period_reward_t2_5"
+        },
+        {
+          "subtype": "epic_period_reward_t2_6"
+        },
+        {
+          "subtype": "epic_period_reward_t2_7"
+        }
+      ]
+    },
+    {
+      "min_core_level": 17,
+      "max_core_level": 32,
+      "rewards": [
+        {
+          "subtype": "epic_period_reward_t3_0"
+        },
+        {
+          "subtype": "epic_period_reward_t3_1"
+        },
+        {
+          "subtype": "epic_period_reward_t3_2"
+        },
+        {
+          "subtype": "epic_period_reward_t3_3"
+        },
+        {
+          "subtype": "epic_period_reward_t3_4"
+        },
+        {
+          "subtype": "epic_period_reward_t3_5"
+        },
+        {
+          "subtype": "epic_period_reward_t3_6"
+        },
+        {
+          "subtype": "epic_period_reward_t3_7"
+        }
+      ]
+    }
+  ],
+  "spin_rewards": [
+    {
+      "subtype": "spin_reward_0"
+    },
+    {
+      "subtype": "spin_reward_1"
+    },
+    {
+      "subtype": "spin_reward_2"
+    },
+    {
+      "subtype": "spin_reward_3"
+    },
+    {
+      "subtype": "spin_reward_4"
+    },
+    {
+      "subtype": "spin_reward_5"
+    },
+    {
+      "subtype": "spin_reward_6"
+    },
+    {
+      "subtype": "spin_reward_7"
+    },
+    {
+      "subtype": "spin_reward_8"
+    },
+    {
+      "subtype": "spin_reward_9"
+    },
+    {
+      "subtype": "spin_reward_10"
+    },
+    {
+      "subtype": "spin_reward_11"
+    },
+    {
+      "subtype": "spin_reward_12"
+    },
+    {
+      "subtype": "spin_reward_13"
+    },
+    {
+      "subtype": "spin_reward_14"
+    },
+    {
+      "subtype": "spin_reward_15"
+    },
+    {
+      "subtype": "spin_reward_16"
+    },
+    {
+      "subtype": "spin_reward_17"
+    },
+    {
+      "subtype": "spin_reward_18"
+    },
+    {
+      "subtype": "spin_reward_19"
+    },
+    {
+      "subtype": "spin_reward_20"
+    }
+  ],
+  "high_spin_rewards": [
+    {
+      "subtype": "premium_spin_reward_0"
+    },
+    {
+      "subtype": "premium_spin_reward_1"
+    },
+    {
+      "subtype": "premium_spin_reward_2"
+    },
+    {
+      "subtype": "premium_spin_reward_3"
+    },
+    {
+      "subtype": "premium_spin_reward_4"
+    },
+    {
+      "subtype": "premium_spin_reward_5"
+    },
+    {
+      "subtype": "premium_spin_reward_6"
+    },
+    {
+      "subtype": "premium_spin_reward_7"
+    },
+    {
+      "subtype": "premium_spin_reward_8"
+    },
+    {
+      "subtype": "premium_spin_reward_9"
+    },
+    {
+      "subtype": "premium_spin_reward_10"
+    },
+    {
+      "subtype": "premium_spin_reward_11"
+    },
+    {
+      "subtype": "premium_spin_reward_12"
+    },
+    {
+      "subtype": "premium_spin_reward_13"
+    },
+    {
+      "subtype": "premium_spin_reward_14"
+    },
+    {
+      "subtype": "premium_spin_reward_15"
+    },
+    {
+      "subtype": "premium_spin_reward_16"
+    },
+    {
+      "subtype": "premium_spin_reward_17"
+    },
+    {
+      "subtype": "premium_spin_reward_18"
+    },
+    {
+      "subtype": "premium_spin_reward_19"
+    },
+    {
+      "subtype": "premium_spin_reward_20"
+    }
+  ],
+  "vip_levels": [
+    {
+      "subtype": "vip_level_0"
+    },
+    {
+      "subtype": "vip_level_1"
+    },
+    {
+      "subtype": "vip_level_2"
+    },
+    {
+      "subtype": "vip_level_3"
+    },
+    {
+      "subtype": "vip_level_4"
+    },
+    {
+      "subtype": "vip_level_5"
+    },
+    {
+      "subtype": "vip_level_6"
+    },
+    {
+      "subtype": "vip_level_7"
+    },
+    {
+      "subtype": "vip_level_8"
+    },
+    {
+      "subtype": "vip_level_9"
+    },
+    {
+      "subtype": "vip_level_10"
+    },
+    {
+      "subtype": "vip_level_11"
+    },
+    {
+      "subtype": "vip_level_12"
+    },
+    {
+      "subtype": "vip_level_13"
+    },
+    {
+      "subtype": "vip_level_14"
+    },
+    {
+      "subtype": "vip_level_15"
+    },
+    {
+      "subtype": "vip_level_16"
+    },
+    {
+      "subtype": "vip_level_17"
+    },
+    {
+      "subtype": "vip_level_18"
+    },
+    {
+      "subtype": "vip_level_19"
+    },
+    {
+      "subtype": "vip_level_20"
+    },
+    {
+      "subtype": "vip_level_21"
+    },
+    {
+      "subtype": "vip_level_22"
+    },
+    {
+      "subtype": "vip_level_23"
+    },
+    {
+      "subtype": "vip_level_24"
+    },
+    {
+      "subtype": "vip_level_25"
+    }
+  ]
+}

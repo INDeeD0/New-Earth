@@ -1,0 +1,10 @@
+{
+  "_subtypes": {
+    "melee": {
+      "name": "~combat_type_melee"
+    },
+    "ranged": {
+      "name": "~combat_type_ranged"
+    }
+  }
+}

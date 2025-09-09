@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Structures List</title>
+
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" 
+        href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Structures</h1>
+
+  <table id="structureTable" class="display">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Faction</th>
+        <th>Location</th>
+        <th>Drop Rate</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+  <script>
+    // Load JSON and initialize DataTable
+    fetch("structures.json")
+      .then(response => response.json())
+      .then(data => {
+        const tbody = document.querySelector("#structureTable tbody");
+
+        data.forEach(structure => {
+          const row = `
+            <tr>
+              <td>${structure.name}</td>
+              <td>${structure.faction}</td>
+              <td>${structure.location}</td>
+              <td>${structure.dropRate}</td>
+            </tr>
+          `;
+          tbody.innerHTML += row;
+        });
+
+        // Initialize DataTables after rows are added
+        new DataTable('#structureTable');
+      })
+      .catch(error => {
+        console.error("Error loading structures.json:", error);
+      });
+  </script>
+
+</body>
+</html>

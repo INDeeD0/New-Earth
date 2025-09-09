@@ -1,0 +1,46 @@
+{
+  "_subtypes": {
+    "chat": {
+      "name": "~alliance_perm_chat"
+    },
+    "chat_alert": {
+      "name": "~alliance_perm_chat_alert"
+    },
+    "leave": {
+      "name": "~alliance_perm_leave"
+    },
+    "invite": {
+      "name": "~alliance_perm_invite"
+    },
+    "kick": {
+      "name": "~alliance_perm_kick"
+    },
+    "promote": {
+      "name": "~alliance_perm_promote"
+    },
+    "demote": {
+      "name": "~alliance_perm_demote"
+    },
+    "edit": {
+      "name": "~alliance_perm_edit"
+    },
+    "rally": {
+      "name": "~alliance_perm_rally"
+    },
+    "activate_location": {
+      "name": "~alliance_perm_activate_location"
+    },
+    "activate_location_target": {
+      "name": "~alliance_perm_activate_location_target"
+    },
+    "grant_alliance_item": {
+      "name": "~alliance_perm_grant_alliance_item"
+    },
+    "claim_trial": {
+      "name": "~alliance_perm_claim_trial"
+    },
+    "change_leader": {
+      "name": "~alliance_perm_change_leader"
+    }
+  }
+}

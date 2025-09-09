@@ -1,0 +1,94 @@
+{
+  "_subtypes": {
+    "category_speedup": {
+      "name": "~item_category_speedup"
+    },
+    "category_heroxp": {
+      "name": "~item_category_heroxp"
+    },
+    "category_heroxpboosts": {
+      "name": "~item_category_heroxpboosts"
+    },
+    "category_heroenergy": {
+      "name": "~item_category_heroenergy"
+    },
+    "category_currencyitem": {
+      "name": "~item_category_currencyitem"
+    },
+    "category_currencyboosts": {
+      "name": "~item_category_currencyboosts"
+    },
+    "category_shielditems": {
+      "name": "~item_category_shielditems"
+    },
+    "category_viptime": {
+      "name": "~item_category_viptime"
+    },
+    "category_vippoints": {
+      "name": "~item_category_vippoints"
+    },
+    "category_misc": {
+      "name": "~item_category_misc"
+    },
+    "category_icon": {
+      "name": "~item_category_icon"
+    },
+    "category_teleports": {
+      "name": "~item_category_teleports"
+    },
+    "category_quest_refreshes": {
+      "name": "~item_category_questrefresh"
+    },
+    "category_radarjamming": {
+      "name": "~item_category_radarjamming"
+    },
+    "category_fake_army": {
+      "name": "~item_category_fake_army"
+    },
+    "category_combatboosts": {
+      "name": "~item_category_combatboosts"
+    },
+    "category_marchitems": {
+      "name": "~item_category_marchitems"
+    },
+    "category_gatheringbuffs": {
+      "name": "~item_category_gatheringbuffs"
+    },
+    "category_coreupgrades": {
+      "name": "~item_category_coreupgrades"
+    },
+    "category_chests": {
+      "name": "~item_category_chests"
+    },
+    "category_rename": {
+      "name": "~item_category_rename"
+    },
+    "category_heroname": {
+      "name": "~item_category_herorename"
+    },
+    "category_mov": {
+      "name": "~item_category_mov"
+    },
+    "category_recall": {
+      "name": "~item_category_recall"
+    },
+    "category_rallyitems": {
+      "name": "~item_category_rallyitems"
+    },
+    "category_reset": {
+      "name": "~item_category_reset"
+    },
+    "category_highspin": {
+      "name": "~item_category_highspin"
+    },
+    "category_craftingcomponents": {
+      "name": "~item_category_craftingcomponents"
+    },
+    "category_gear": {
+      "name": "~item_category_gear"
+    },
+    "category_hospital_speedup": {
+      "name": "~item_category_hospital_speedup"
+    }
+  }
+}

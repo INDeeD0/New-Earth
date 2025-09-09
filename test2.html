@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Progress Tree + Structures</title>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Tree Grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  grid-template-rows: repeat(12, 19px);
+  gap: 5px 20px;
+  justify-content: center;
+  margin: 20px auto;
+  position: relative;
+}
+.section {
+  background-color: #000;
+  border: 1px solid #666;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.section:hover { border-color: #ffcc00; }
+.section.active { border-color: #4287f5; background-color: #111; }
+
+svg#lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Table Styles */
+#filterButtons {
+  margin-bottom: 10px;
+}
+.filter-btn {
+  margin: 2px;
+  padding: 4px 8px;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #eee;
+  color: #000;
+}
+.filter-btn.active {
+  background: #4287f5;
+  color: #fff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white; /* keep table white */
+  color: black;      /* force text to black */
+  margin-top: 30px;
+}
+
+table th,
+table td {
+  color: black;      /* ensure headers and cells are black */
+}
+#tableWrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Structures</h1>
+
+<div class="container" id="mapContainer">
+  <!-- Column 1 -->
+  <div class="section root" data-key="Headquarters" style="grid-row:1 / span 11; grid-column:1;">Headquarters</div>
+  <div class="section" data-key="Outpost Strategic" style="grid-row:12; grid-column:1;">Outpost Strategic</div>
+
+  <!-- Column 2 -->
+  <div class="section" data-key="Bunker" style="grid-row:1; grid-column:2;">Bunker</div>
+  <div class="section" data-key="Black Market" style="grid-row:2 / span 3; grid-column:2;">Black Market</div>
+  <div class="section" data-key="Geoponic Farm" style="grid-row:5; grid-column:2;">Geoponic Farm</div>
+  <div class="section" data-key="Oil Rig" style="grid-row:6 / span 2; grid-column:2;">Oil Rig</div>
+  <div class="section" data-key="Alloy Refinery" style="grid-row:8 / span 2; grid-column:2;">Alloy Refinery</div>
+  <div class="section" data-key="Supply Depot" style="grid-row:10; grid-column:2;">Supply Depot</div>
+  <div class="section" data-key="Situation Room" style="grid-row:11; grid-column:2;">Situation Room</div>
+  <div class="section" data-key="Outpost Harvest" style="grid-row:12; grid-column:2;">Outpost Harvest</div>
+
+  <!-- Column 3 -->
+  <div class="section" data-key="Engineering" style="grid-row:2 / span 3; grid-column:3;">Engineering</div>
+  <div class="section" data-key="Barracks" style="grid-row:5; grid-column:3;">Barracks</div>
+  <div class="section" data-key="Research Lab" style="grid-row:6 / span 2; grid-column:3;">Research Lab</div>
+  <div class="section" data-key="Wall" style="grid-row:8 / span 2; grid-column:3;">Wall</div>
+  <div class="section" data-key="Global Network" style="grid-row:10; grid-column:3;">Global Network</div>
+
+  <!-- Column 4 -->
+  <div class="section" data-key="Experimentation Chamber" style="grid-row:2; grid-column:4;">Experimentation Chamber</div>
+  <div class="section" data-key="Factory" style="grid-row:3; grid-column:4;">Factory</div>
+  <div class="section" data-key="Turret" style="grid-row:4; grid-column:4;">Turret</div>
+  <div class="section" data-key="Medical Bay" style="grid-row:5; grid-column:4;">Medical Bay</div>
+  <div class="section" data-key="Hostile Containment" style="grid-row:6; grid-column:4;">Hostile Containment</div>
+  <div class="section" data-key="Shard Reactor" style="grid-row:7; grid-column:4;">Shard Reactor</div>
+  <div class="section" data-key="Airstrip" style="grid-row:8; grid-column:4;">Airstrip</div>
+  <div class="section" data-key="Satellite Uplink" style="grid-row:9; grid-column:4;">Satellite Uplink</div>
+  <div class="section" data-key="Security Station" style="grid-row:10; grid-column:4;">Security Station</div>
+
+  <!-- Column 5 -->
+  <div class="section" data-key="Robotics Bay" style="grid-row:3; grid-column:5;">Robotics Bay</div>
+  <div class="section" data-key="Command Post" style="grid-row:5; grid-column:5;">Command Post</div>
+  <div class="section" data-key="Alien Genetics Labs" style="grid-row:6; grid-column:5;">Alien Genetics Labs</div>
+
+  <!-- Column 6 -->
+  <div class="section" data-key="Hero Armory" style="grid-row:5; grid-column:6;">Hero Armory</div>
+
+  <svg id="lines"></svg>
+</div>
+
+<div id="tableWrapper" style="max-height: 900px; overflow-y: auto; margin-top: 20px;">
+<table id="structureTable" class="display">
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Level</th>
+      <th>Unit Capacity</th>
+      <th>Power</th>
+      <th>Tech</th>
+      <th>Food</th>
+      <th>Oil</th>
+      <th>Alloy</th>
+      <th>Neutronium</th>
+      <th>Alliance Credits</th>
+      <th>Core Neutronium Crystal</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+</div>
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready(function () {
+    const table = $('#structureTable').DataTable({
+        pageLength: 35,
+        lengthChange: false,
+        paging: false,
+        columnDefs: [{ targets: 0, visible: false }],
+        dom: 'ti'
+    });
+
+    const keyMap = {
+        "Headquarters": "Headquarters",
+        "Black Market": "Blackmarket",
+        "Hydroponicfarm": "Hydroponicfarm",
+        "Oil Rig": "Oilrig",
+        "Alloy Refinery": "Alloyrefinery",
+        "Supply Depot": "Supplydepot",
+        "Situation Room": "War_room",
+        "Engineering": "Engineering",
+        "Barracks": "Barracks",
+        "Research Lab": "Researchlab",
+        "Wall": "Walls",
+        "Global Network": "Globalnetwork",
+        "Experimentation Chamber": "Experimentation_chamber",
+        "Factory": "Factory",
+        "Turret": "Turret",
+        "Medical Bay": "Medicalbay",
+        "Hostile Containment": "Hostilecontainment",
+        "Airstrip": "Airstrip",
+        "Satellite Uplink": "Satelliteuplink",
+        "Security Station": "Securitystation",
+        "Robotics Bay": "Robotics_bay",
+        "Command Post": "Commandpost",
+        "Alien Genetics Labs": "Alien_genetics_lab",
+        "Hero Armory": "Hero_armory",
+        "Bunker": "Shelter",
+        "Shard Reactor": "Shardcondenser",
+        "Outpost Strategic": "Outpost_strategic",
+        "Outpost Harvest": "Outpost_harvest"
+    };
+
+    // Load structure JSON and populate table
+    fetch('molds/categories/structures.json')
+        .then(r => r.json())
+        .then(data => {
+            const subtypes = data._subtypes;
+
+            // Populate table only
+            Object.entries(subtypes).forEach(([key, building]) => {
+                let prevPower = 0;
+                building.levels.forEach((lvl, i) => {
+                    if (Object.keys(lvl).length === 0) return;
+
+                    const levelPower = (lvl.power ?? 0) - prevPower;
+                    prevPower = lvl.power ?? 0;
+
+                    const c3 = lvl.costs?.find(c => c.target_subtype === 'currency3')?.quantity ?? 0;
+                    const c4 = lvl.costs?.find(c => c.target_subtype === 'currency4')?.quantity ?? 0;
+                    const c5 = lvl.costs?.find(c => c.target_subtype === 'currency5')?.quantity ?? 0;
+                    const c6 = lvl.costs?.find(c => c.target_subtype === 'currency6')?.quantity ?? 0;
+                    const c7 = lvl.costs?.find(c => c.target_subtype === 'currency7')?.quantity ?? 0;
+                    const c8 = lvl.costs?.find(c => c.target_subtype === 'currency8')?.quantity ?? 0;
+                    const cnc = lvl.costs?.find(c => c.target_subtype === 'core_neutronium_crystal')?.quantity ?? 0;
+
+                    table.row.add([
+                        key,
+                        i,
+                        lvl.unit_capacity != null ? lvl.unit_capacity.toLocaleString() : "-",
+                        levelPower.toLocaleString(),
+                        c3.toLocaleString(),
+                        c4.toLocaleString(),
+                        c5.toLocaleString(),
+                        c6.toLocaleString(),
+                        c7.toLocaleString(),
+                        c8.toLocaleString(),
+                        cnc
+                    ]);
+                });
+            });
+
+            table.draw();
+        })
+        .catch(err => console.error('Error loading structures.json:', err));
+
+    // Tree buttons filter the table
+    $('.section').on('click', function() {
+        $('.section').removeClass('active');
+        $(this).addClass('active');
+
+        const displayName = $(this).text().trim();
+        const jsonKey = keyMap[displayName] || displayName;
+
+        table.column(0).search(jsonKey, true, false).draw();
+    });
+    $('.section.root').trigger('click');
+});
+
+// Draw tree lines
+function drawLines() {
+  const svg = document.getElementById('lines');
+  svg.innerHTML = '';
+  const container = document.getElementById('mapContainer');
+
+  const treeMap = {
+    "Headquarters": ["Bunker","Black Market","Geoponic Farm","Oil Rig","Alloy Refinery","Supply Depot","Situation Room"],
+    "Bunker": [],
+    "Black Market": ["Engineering"],
+    "Engineering": ["Experimentation Chamber","Factory","Turret"],
+    "Factory": ["Robotics Bay"],
+    "Geoponic Farm": ["Barracks"],
+    "Oil Rig": ["Research Lab"],
+    "Alloy Refinery": ["Wall"],
+    "Barracks": ["Medical Bay"],
+    "Research Lab": ["Hostile Containment","Shard Reactor"],
+    "Medical Bay": ["Command Post"],
+    "Hostile Containment": ["Alien Genetics Labs"],
+    "Wall": ["Airstrip","Satellite Uplink"],
+    "Command Post": ["Hero Armory"],
+    "Robotics Bay": [],
+    "Alien Genetics Labs": [],
+    "Hero Armory": [],
+    "Supply Depot": ["Global Network"],
+    "Global Network": ["Security Station"],
+    "Situation Room": [],
+    "Airstrip": [],
+    "Satellite Uplink": [],
+    "Security Station": [],
+    "Turret": [],
+    "Experimentation Chamber": [],
+    "Shard Reactor": [],
+    "Outpost Harvest": [],
+    "Outpost Strategic": []
+  };
+
+  const elems = Array.from(container.children)
+                     .filter(el=>el.classList.contains('section'))
+                     .reduce((acc, el)=>{ acc[el.innerText.trim()] = el; return acc; },{});
+
+  for(let parentName in treeMap){
+    const children = treeMap[parentName];
+    if(!children.length) continue;
+    const parentEl = elems[parentName];
+    if(!parentEl) continue;
+    const parentRect = parentEl.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+    const startX = parentRect.right - containerRect.left;
+    const startY = parentRect.top - containerRect.top + parentRect.height/2;
+
+    children.forEach(childName=>{
+      const childEl = elems[childName];
+      if(!childEl) return;
+      const childRect = childEl.getBoundingClientRect();
+      const endX = childRect.left - containerRect.left;
+      const endY = childRect.top - containerRect.top + childRect.height/2;
+      const midX = startX + (endX-startX)/2;
+
+      const polyline = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+      polyline.setAttribute('points',`${startX},${startY} ${midX},${startY} ${midX},${endY} ${endX},${endY}`);
+      polyline.setAttribute('stroke','#ffcc00');
+      polyline.setAttribute('stroke-width','2');
+      polyline.setAttribute('fill','none');
+      polyline.setAttribute('stroke-linecap','round');
+      polyline.setAttribute('stroke-linejoin','round');
+      svg.appendChild(polyline);
+    });
+  }
+}
+
+window.onload = drawLines;
+window.onresize = drawLines;
+</script>

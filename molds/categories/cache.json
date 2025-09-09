@@ -1,0 +1,447 @@
+{
+  "_subtypes": {
+    "basic_alliance_cache": {
+      "name": "~cache_basic_alliance",
+      "quantity": 1,
+      "source": 2,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward1"
+        },
+        {
+          "subtype": "cache_reward2"
+        },
+        {
+          "subtype": "cache_reward3"
+        },
+        {
+          "subtype": "cache_reward4"
+        },
+        {
+          "subtype": "cache_reward5"
+        },
+        {
+          "subtype": "cache_reward6"
+        },
+        {
+          "subtype": "cache_reward7"
+        }
+      ]
+    },
+    "bronze_alliance_cache": {
+      "name": "~cache_bronze_alliance",
+      "quantity": 1,
+      "source": 2,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward8"
+        },
+        {
+          "subtype": "cache_reward9"
+        },
+        {
+          "subtype": "cache_reward10"
+        },
+        {
+          "subtype": "cache_reward11"
+        },
+        {
+          "subtype": "cache_reward12"
+        },
+        {
+          "subtype": "cache_reward13"
+        },
+        {
+          "subtype": "cache_reward14"
+        }
+      ]
+    },
+    "silver_alliance_cache": {
+      "name": "~cache_silver_alliance",
+      "quantity": 1,
+      "source": 2,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward15"
+        },
+        {
+          "subtype": "cache_reward16"
+        },
+        {
+          "subtype": "cache_reward17"
+        },
+        {
+          "subtype": "cache_reward18"
+        },
+        {
+          "subtype": "cache_reward19"
+        },
+        {
+          "subtype": "cache_reward20"
+        },
+        {
+          "subtype": "cache_reward21"
+        }
+      ]
+    },
+    "gold_alliance_cache": {
+      "name": "~cache_gold_alliance",
+      "quantity": 1,
+      "source": 2,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward22"
+        },
+        {
+          "subtype": "cache_reward23"
+        },
+        {
+          "subtype": "cache_reward24"
+        },
+        {
+          "subtype": "cache_reward25"
+        },
+        {
+          "subtype": "cache_reward26"
+        },
+        {
+          "subtype": "cache_reward27"
+        },
+        {
+          "subtype": "cache_reward28"
+        }
+      ]
+    },
+    "platinum_alliance_cache": {
+      "name": "~cache_platinum_alliance",
+      "quantity": 1,
+      "source": 2,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward29"
+        },
+        {
+          "subtype": "cache_reward30"
+        },
+        {
+          "subtype": "cache_reward31"
+        },
+        {
+          "subtype": "cache_reward32"
+        },
+        {
+          "subtype": "cache_reward33"
+        },
+        {
+          "subtype": "cache_reward34"
+        },
+        {
+          "subtype": "cache_reward35"
+        }
+      ]
+    },
+    "aliens_minor_alliance_cache": {
+      "name": "~cache_aliens_minor_alliance",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward71"
+        },
+        {
+          "subtype": "cache_reward72"
+        },
+        {
+          "subtype": "cache_reward73"
+        },
+        {
+          "subtype": "cache_reward74"
+        },
+        {
+          "subtype": "cache_reward75"
+        },
+        {
+          "subtype": "cache_reward76"
+        },
+        {
+          "subtype": "cache_reward77"
+        }
+      ]
+    },
+    "aliens_regular_alliance_cache": {
+      "name": "~cache_aliens_regular_alliance",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward36"
+        },
+        {
+          "subtype": "cache_reward37"
+        },
+        {
+          "subtype": "cache_reward38"
+        },
+        {
+          "subtype": "cache_reward39"
+        },
+        {
+          "subtype": "cache_reward40"
+        },
+        {
+          "subtype": "cache_reward41"
+        },
+        {
+          "subtype": "cache_reward42"
+        },
+        {
+          "subtype": "cache_reward43"
+        },
+        {
+          "subtype": "cache_reward44"
+        },
+        {
+          "subtype": "cache_reward45"
+        },
+        {
+          "subtype": "cache_reward46"
+        },
+        {
+          "subtype": "cache_reward47"
+        }
+      ]
+    },
+    "aliens_epic_alliance_cache": {
+      "name": "~cache_aliens_epic_alliance",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward48"
+        },
+        {
+          "subtype": "cache_reward49"
+        },
+        {
+          "subtype": "cache_reward50"
+        },
+        {
+          "subtype": "cache_reward51"
+        },
+        {
+          "subtype": "cache_reward52"
+        },
+        {
+          "subtype": "cache_reward53"
+        },
+        {
+          "subtype": "cache_reward54"
+        },
+        {
+          "subtype": "cache_reward55"
+        },
+        {
+          "subtype": "cache_reward56"
+        },
+        {
+          "subtype": "cache_reward57"
+        },
+        {
+          "subtype": "cache_reward58"
+        },
+        {
+          "subtype": "cache_reward59"
+        }
+      ]
+    },
+    "events_regular_alliance": {
+      "name": "~cache_events_regular_alliance",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward60"
+        },
+        {
+          "subtype": "cache_reward61"
+        },
+        {
+          "subtype": "cache_reward62"
+        },
+        {
+          "subtype": "cache_reward63"
+        },
+        {
+          "subtype": "cache_reward64"
+        },
+        {
+          "subtype": "cache_reward65"
+        },
+        {
+          "subtype": "cache_reward66"
+        },
+        {
+          "subtype": "cache_reward67"
+        },
+        {
+          "subtype": "cache_reward68"
+        },
+        {
+          "subtype": "cache_reward69"
+        }
+      ]
+    },
+    "events_epic_alliance": {
+      "name": "~cache_events_epic_alliance",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward70"
+        }
+      ]
+    },
+    "festive_alliance": {
+      "name": "~cache_festive_alliance",
+      "quantity": 1,
+      "source": 2,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_festive_reward1"
+        },
+        {
+          "subtype": "cache_festive_reward2"
+        },
+        {
+          "subtype": "cache_festive_reward3"
+        },
+        {
+          "subtype": "cache_festive_reward4"
+        },
+        {
+          "subtype": "cache_festive_reward5"
+        },
+        {
+          "subtype": "cache_festive_reward6"
+        },
+        {
+          "subtype": "cache_festive_reward7"
+        },
+        {
+          "subtype": "cache_festive_reward8"
+        }
+      ]
+    },
+    "world_event_alliance": {
+      "name": "~cache_world_event_alliance",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_world_event_reward1"
+        },
+        {
+          "subtype": "cache_world_event_reward2"
+        },
+        {
+          "subtype": "cache_world_event_reward3"
+        },
+        {
+          "subtype": "cache_world_event_reward4"
+        },
+        {
+          "subtype": "cache_world_event_reward5"
+        },
+        {
+          "subtype": "cache_world_event_reward6"
+        },
+        {
+          "subtype": "cache_world_event_reward7"
+        },
+        {
+          "subtype": "cache_world_event_reward8"
+        }
+      ]
+    },
+    "hunting_monster_alliance": {
+      "name": "~cache_hunting_monster_alliance",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward78"
+        },
+        {
+          "subtype": "cache_reward79"
+        },
+        {
+          "subtype": "cache_reward80"
+        },
+        {
+          "subtype": "cache_reward81"
+        },
+        {
+          "subtype": "cache_reward82"
+        },
+        {
+          "subtype": "cache_reward83"
+        },
+        {
+          "subtype": "cache_reward84"
+        },
+        {
+          "subtype": "cache_reward85"
+        },
+        {
+          "subtype": "cache_reward86"
+        },
+        {
+          "subtype": "cache_reward87"
+        },
+        {
+          "subtype": "cache_reward88"
+        },
+        {
+          "subtype": "cache_reward89"
+        },
+        {
+          "subtype": "cache_reward90"
+        },
+        {
+          "subtype": "cache_reward91"
+        },
+        {
+          "subtype": "cache_reward92"
+        },
+        {
+          "subtype": "cache_reward93"
+        },
+        {
+          "subtype": "cache_reward94"
+        },
+        {
+          "subtype": "cache_reward95"
+        },
+        {
+          "subtype": "cache_reward96"
+        },
+        {
+          "subtype": "cache_reward97"
+        }
+      ]
+    }
+  }
+}

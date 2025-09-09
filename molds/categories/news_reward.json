@@ -1,0 +1,172 @@
+{
+  "_subtypes": {
+    "10_shards": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "50_shards": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 50
+          }
+        ]
+      }
+    },
+    "100_shards": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "250_shards": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "500_champion_stamina": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "hero_energy_500",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "1000_champion_stamina": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "1d_vip_time": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_time_1d",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "anniversary_reward": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 5000
+          }
+        ]
+      }
+    },
+    "ufo_bundle": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "bundle_crafting_loot_ufo",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "500_shards": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "1000_shards": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 1000
+          }
+        ]
+      }
+    },
+    "gathering_boost_1d": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "march_gather_boost_24h",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "mov": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "mobile_outpost_vehicle",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "android_downtime": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "bundle_expert_resoure_chest",
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_hospital_8h",
+            "quantity": 15
+          }
+        ]
+      }
+    },
+    "downtime_reward": {
+      "reward": {
+        "items": [
+          {
+            "subtype": "boost_8h",
+            "quantity": 2
+          },
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "broken_do_not_use_this_lightly": {
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 50000
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "end_processed": true,
+  "spawn_weight": 1,
+  "lock_3x3": true,
+  "lock_5x5": true,
+  "created_ts": "+TIMESTAMP",
+  "_subtypes": {
+    "generic": {
+      "size": 550,
+      "challenge_lists": [
+        {
+          "challenges": [
+            {
+              "subtype": "challenge_gain_hero_xp_event"
+            },
+            {
+              "subtype": "challenge_daily_alliance_mission_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_power_event"
+            },
+            {
+              "subtype": "challenge_gain_unit_power_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_any_currency_event"
+            },
+            {
+              "subtype": "challenge_gain_any_currency_event"
+            },
+            {
+              "subtype": "challenge_defeat_aliens_event"
+            }
+          ]
+        },
+        {
+          "challenges": [
+            {
+              "subtype": "challenge_alliance_gain_power_event"
+            },
+            {
+              "subtype": "challenge_gain_any_currency_event"
+            },
+            {
+              "subtype": "challenge_gain_hero_xp_event"
+            },
+            {
+              "subtype": "challenge_casino_spins_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_resources_neutronium_event"
+            },
+            {
+              "subtype": "challenge_gain_power_research_event"
+            },
+            {
+              "subtype": "challenge_defeat_aliens_event"
+            }
+          ]
+        },
+        {
+          "challenges": [
+            {
+              "subtype": "challenge_gain_power_event"
+            },
+            {
+              "subtype": "challenge_gain_power_research_event"
+            },
+            {
+              "subtype": "challenge_daily_alliance_mission_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_hero_xp_event"
+            },
+            {
+              "subtype": "challenge_defeat_aliens_event"
+            },
+            {
+              "subtype": "challenge_alliance_casino_spins_event"
+            },
+            {
+              "subtype": "challenge_gain_any_currency_event"
+            }
+          ]
+        },
+        {
+          "challenges": [
+            {
+              "subtype": "challenge_alliance_gain_power_event"
+            },
+            {
+              "subtype": "challenge_casino_spins_event"
+            },
+            {
+              "subtype": "challenge_gain_power_research_event"
+            },
+            {
+              "subtype": "challenge_gain_unit_power_event"
+            },
+            {
+              "subtype": "challenge_defeat_aliens_event"
+            },
+            {
+              "subtype": "challenge_gain_hero_xp_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_resources_neutronium_event"
+            }
+          ]
+        },
+        {
+          "pvp": true,
+          "challenges": [
+            {
+              "subtype": "challenge_gain_any_currency_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_power_event"
+            },
+            {
+              "subtype": "challenge_gain_hero_xp_event"
+            },
+            {
+              "subtype": "challenge_casino_spins_event"
+            },
+            {
+              "subtype": "challenge_mega_mission_event"
+            },
+            {
+              "subtype": "challenge_alliance_defeat_invaders_event"
+            },
+            {
+              "subtype": "challenge_gain_unit_power_event"
+            }
+          ]
+        },
+        {
+          "pvp": true,
+          "challenges": [
+            {
+              "subtype": "challenge_gain_power_research_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_hero_xp_event"
+            },
+            {
+              "subtype": "challenge_daily_alliance_mission_event"
+            },
+            {
+              "subtype": "challenge_gain_power_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_resources_neutronium_event"
+            },
+            {
+              "subtype": "challenge_defeat_troops_event"
+            },
+            {
+              "subtype": "challenge_gain_unit_power_event"
+            }
+          ]
+        },
+        {
+          "pvp": true,
+          "challenges": [
+            {
+              "subtype": "challenge_gain_unit_power_event"
+            },
+            {
+              "subtype": "challenge_gain_any_currency_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_power_event"
+            },
+            {
+              "subtype": "challenge_gain_hero_xp_event"
+            },
+            {
+              "subtype": "challenge_daily_alliance_mission_event"
+            },
+            {
+              "subtype": "challenge_destroy_outposts_event"
+            },
+            {
+              "subtype": "challenge_defeat_invaders_event"
+            }
+          ]
+        },
+        {
+          "pvp": true,
+          "challenges": [
+            {
+              "subtype": "challenge_casino_spins_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_any_currency_event"
+            },
+            {
+              "subtype": "challenge_gain_power_event"
+            },
+            {
+              "subtype": "challenge_alliance_gain_resources_neutronium_event"
+            },
+            {
+              "subtype": "challenge_damage_enemy_cities_event"
+            },
+            {
+              "subtype": "challenge_alliance_defeat_troops_event"
+            },
+            {
+              "subtype": "challenge_gain_hero_xp_event"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

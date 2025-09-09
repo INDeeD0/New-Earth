@@ -1,0 +1,105 @@
+{
+  "_subtypes": {
+    "storm_surge_set": {
+      "bonuses": [
+        {},
+        {},
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 10,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 10,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 10,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 0.3
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 15000,
+              "modifier": 0
+            }
+          ]
+        }
+      ]
+    },
+    "neural_strike_set": {
+      "bonuses": [
+        {},
+        {},
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 15,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 15,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 0.45
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 15,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 0.45
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 25000,
+              "modifier": 0
+            },
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

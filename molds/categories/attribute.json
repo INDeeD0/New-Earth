@@ -1,0 +1,10 @@
+{
+  "_subtypes": {
+    "attack": {},
+    "defense": {},
+    "health": {},
+    "speed": {},
+    "load": {},
+    "monster_attack": {}
+  }
+}

@@ -1,0 +1,4140 @@
+{
+  "active": true,
+  "_subtypes": {
+    "purchase_double_warpstone_winter_2022": {
+      "premium_multiply": 2,
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "tier5_promo",
+      "duration": 259200,
+      "reoffer_expire_delay": 518400,
+      "reoffer_purchase_delay": 518400,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_sphere_shard_bundle": {
+      "target_purchase": "conversion_pack",
+      "duration": 86400,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "created_days_ago_gte",
+          "level": 180
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_epic_sphere_shard_bundle": {
+      "target_purchase": "epic_conversion_pack",
+      "duration": 604800,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 607392000,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "created_days_ago_gte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_tier6_indomitable": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "tier6_indomitable",
+      "duration": 86400,
+      "reoffer_expire_delay": 2592000,
+      "reoffer_purchase_delay": 2592000,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 5400
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_gte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_promo_tier_41_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "tier4_promo1_discount",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_promo_tier_51_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "tier5_promo1_discount",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_51_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "heavymech_pack_tier51_discount",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_61_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "heavymech_pack_tier61_discount",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_alien_disc_pack_tier51_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_disc_pack_tier51_discount",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_disc_pack_tier61_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "alien_disc_pack_tier61_discount",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mega_tier_51_discount": {
+      "discount": 10,
+      "repurchasable": true,
+      "purchase_limit": 25,
+      "target_purchase": "tier5_mega1_discount",
+      "duration": 1209600,
+      "reoffer_expire_delay": 1209600,
+      "reoffer_purchase_delay": 1209600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mega_tier_41_discount": {
+      "discount": 10,
+      "repurchasable": true,
+      "purchase_limit": 15,
+      "target_purchase": "tier4_mega1_discount",
+      "duration": 1209600,
+      "reoffer_expire_delay": 1209600,
+      "reoffer_purchase_delay": 1209600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 1
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_attack_rover_pack_tier3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "armored_rover_pack_tier_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_attack_rover_pack_tier5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "armored_rover_pack_tier_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_attack_rover_pack_tier6": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "armored_rover_pack_tier_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mobile_cannon_pack_tier3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mobile_cannon_pack_tier_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mobile_cannon_pack_tier5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mobile_cannon_pack_tier_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mobile_cannon_pack_tier6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "mobile_cannon_pack_tier_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_covert_agent_pack_tier31_discount": {
+      "discount": 10,
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "covert_agent_pack_tier_31_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_covert_agent_pack_tier51_discount": {
+      "discount": 10,
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "covert_agent_pack_tier_51_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_covert_agent_pack_tier61_discount": {
+      "discount": 10,
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "covert_agent_pack_tier_61_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_covert_agent_pack_tier3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "covert_agent_pack_tier_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_covert_agent_pack_tier5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "covert_agent_pack_tier_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_covert_agent_pack_tier6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "covert_agent_pack_tier_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 3600,
+      "reoffer_purchase_delay": 3600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_disc_pack_tier1": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_disc_pack_tier1",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 5
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_disc_pack_tier3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_disc_pack_tier3",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 6
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_disc_pack_tier5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_disc_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 21
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_disc_pack_tier6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "alien_disc_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_disc_pack_tier6_custom": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "alien_disc_pack_tier6",
+      "duration": 43200,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_inf_pack_tier2": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_inf_pack_tier2",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 10
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_inf_pack_tier4": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_inf_pack_tier4",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_inf_pack_tier5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_inf_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_alien_inf_pack_tier6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "alien_inf_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_weekend_tier_up_50": {
+      "target_purchase": "advancedprototype_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_weekend_tier_up_100": {
+      "target_purchase": "advancedprototype_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_hero_equipment_override": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "hero_equipment_pack_tier5",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 1209600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "created_days_ago_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_hero_equipment_override_platinum": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "hero_equipment_pack_tier6",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 1209600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "created_days_ago_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        }
+      ]
+    },
+    "purchase_invader_equipment_override_silver": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "invader_equipment_pack_tier2",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 1209600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "created_days_ago_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        }
+      ]
+    },
+    "purchase_invader_equipment_override_gold": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "invader_equipment_pack_tier5",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 1209600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "created_days_ago_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 21
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_invader_equipment_override_platinum": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "invader_equipment_pack_tier6",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 1209600,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "created_days_ago_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        }
+      ]
+    },
+    "purchase_mega_tier_100": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "tier5_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 5400
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 10
+        }
+      ]
+    },
+    "purchase_discout_20_override": {
+      "discount": 20,
+      "target_purchase": "tier3a_mega1_discount",
+      "duration": 10800,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 2419200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 5400
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_trickle_b": {
+      "target_purchase": "trickle_b",
+      "duration": 86400,
+      "active": false,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 1814400,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_advanced_prototype_tier_1": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "advancedprototype_pack_tier1",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 4
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_advanced_prototype_tier_2": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "advancedprototype_pack_tier2",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 10
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_advanced_prototype_tier_3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "advancedprototype_pack_tier3",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        }
+      ]
+    },
+    "purchase_advanced_prototype_tier_4": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "advancedprototype_pack_tier4",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 21
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        }
+      ]
+    },
+    "purchase_advanced_prototype_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "advancedprototype_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_advanced_prototype_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "advancedprototype_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_1": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "heavymech_pack_tier1",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 4
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_2": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "heavymech_pack_tier2",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 10
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "heavymech_pack_tier3",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_4": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "heavymech_pack_tier4",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 21
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "heavymech_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_heavy_mech_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "heavymech_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_prototype_tier_1": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "prototype_pack_tier1",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 4
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_prototype_tier_2": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "prototype_pack_tier2",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 10
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_prototype_tier_3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "prototype_pack_tier3",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        }
+      ]
+    },
+    "purchase_prototype_tier_4": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "prototype_pack_tier4",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 21
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        }
+      ]
+    },
+    "purchase_prototype_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "prototype_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_prototype_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "prototype_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_promo_tier_3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "tier3_promo",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_promo_tier_4": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "tier4_promo",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_promo_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 25,
+      "target_purchase": "tier5_promo",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mech_tier_1": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mech_pack_tier1",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 4
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mech_tier_2": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mech_pack_tier2",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 5
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 10
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_mech_tier_3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mech_pack_tier3",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 20
+        }
+      ]
+    },
+    "purchase_mech_tier_4": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mech_pack_tier4",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 21
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        }
+      ]
+    },
+    "purchase_mech_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mech_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_mech_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "mech_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_behemoth_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "behemoth_pack_tier_5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_behemoth_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "behemoth_pack_tier_6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_hornet_tier_2": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "hornet_pack_tier_2",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 10
+        }
+      ]
+    },
+    "purchase_hornet_tier_3": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "hornet_pack_tier_3",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        }
+      ]
+    },
+    "purchase_hornet_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "hornet_pack_tier_5",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_hornet_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "hornet_pack_tier_6",
+      "duration": 21600,
+      "reoffer_expire_delay": 7200,
+      "reoffer_purchase_delay": 7200,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        }
+      ]
+    },
+    "purchase_hornet_tier_21_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "hornet_pack_tier_21_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 10
+        }
+      ]
+    },
+    "purchase_hornet_tier_31_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "hornet_pack_tier_31_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 11
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 30
+        }
+      ]
+    },
+    "purchase_hornet_tier_51_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "hornet_pack_tier_51_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 31
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_hornet_tier_61_discount": {
+      "discount": 20,
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "hornet_pack_tier_61_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        }
+      ]
+    },
+    "purchase_scorpion_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "scorpion_pack_tier_5",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_scorpion_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "scorpion_pack_tier_6",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_firefly_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "firefly_pack_tier_5",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_firefly_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "firefly_pack_tier_6",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_falcon_tier_5": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "falcon_pack_tier_5",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 50
+        }
+      ]
+    },
+    "purchase_falcon_tier_6": {
+      "repurchasable": true,
+      "purchase_limit": 10,
+      "target_purchase": "falcon_pack_tier_6",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 51
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_ballistic_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "ballistic_launcher_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_ballistic_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 20,
+      "target_purchase": "ballistic_launcher_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_renegade_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_hunter_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_renegade_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 20,
+      "target_purchase": "alien_hunter_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_interceptor_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "orbital_interceptor_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_interceptor_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 20,
+      "target_purchase": "orbital_interceptor_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_new_option_0_0": {
+      "discount": 20,
+      "target_purchase": "tier3a_mega1_discount",
+      "duration": 259200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_new_option_0_1": {
+      "target_purchase": "new_player_bundle",
+      "duration": 86400,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_new_option_1_1": {
+      "target_purchase": "tier1_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_squadron_tier_1": {
+      "target_purchase": "squadron_pack_tier1",
+      "duration": 21600,
+      "reoffer_expire_delay": 259200,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 4
+        },
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        }
+      ]
+    },
+    "purchase_new_option_2_1": {
+      "target_purchase": "tier1_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_new_option_3_1": {
+      "target_purchase": "tier2_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_new_option_4_1": {
+      "target_purchase": "tier4_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_new_option_5_1": {
+      "target_purchase": "tier5_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_new_option_6_1": {
+      "target_purchase": "purchase_epic_1",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_gte_60_mega": {
+      "target_purchase": "tier5_mega",
+      "duration": 21600,
+      "reoffer_expire_delay": 108000,
+      "reoffer_purchase_delay": 86400,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_hiap_plus1_mega": {
+      "target_purchase": "tier2_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 172800,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 0
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 3
+        }
+      ]
+    },
+    "purchase_hiap_plus1_mini": {
+      "target_purchase": "tier2_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 0
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 3
+        }
+      ]
+    },
+    "purchase_hiap_plus1_epic": {
+      "target_purchase": "purchase_epic_2",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 0
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 3
+        }
+      ]
+    },
+    "purchase_hiap_plus1_boost": {
+      "target_purchase": "boost_2",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 0
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 3
+        }
+      ]
+    },
+    "purchase_hiap_plus1_resource": {
+      "target_purchase": "resource_1",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 0
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 3
+        }
+      ]
+    },
+    "purchase_hiap_1_mini": {
+      "target_purchase": "tier1_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 0
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 3
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "last_purchase_days_ago_gte",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_hiap_plus2_mega": {
+      "target_purchase": "tier3_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 172800,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 4
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 7
+        }
+      ]
+    },
+    "purchase_squadron_tier_2": {
+      "target_purchase": "squadron_pack_tier2",
+      "duration": 21600,
+      "reoffer_expire_delay": 259200,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 4
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 7
+        }
+      ]
+    },
+    "purchase_hiap_plus2_mini": {
+      "target_purchase": "tier3_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 4
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 7
+        }
+      ]
+    },
+    "purchase_hiap_plus2_epic": {
+      "target_purchase": "purchase_epic_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 4
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 7
+        }
+      ]
+    },
+    "purchase_hiap_plus2_boost": {
+      "target_purchase": "boost_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 4
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 7
+        }
+      ]
+    },
+    "purchase_hiap_plus2_resource": {
+      "target_purchase": "resource_2",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 4
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 7
+        }
+      ]
+    },
+    "purchase_hiap_2_mini": {
+      "target_purchase": "tier2_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 4
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 7
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "last_purchase_days_ago_gte",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_hiap_plus3_mega": {
+      "target_purchase": "tier3a_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 172800,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 8
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 15
+        }
+      ]
+    },
+    "purchase_squadron_tier_3": {
+      "target_purchase": "squadron_pack_tier3",
+      "duration": 21600,
+      "reoffer_expire_delay": 259200,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 8
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 15
+        }
+      ]
+    },
+    "purchase_hiap_plus3_mini": {
+      "target_purchase": "tier3a_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 8
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 15
+        }
+      ]
+    },
+    "purchase_hiap_plus3_epic": {
+      "target_purchase": "purchase_epic_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 8
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 15
+        }
+      ]
+    },
+    "purchase_hiap_plus3_boost": {
+      "target_purchase": "boost_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 8
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 15
+        }
+      ]
+    },
+    "purchase_hiap_plus3_resource": {
+      "target_purchase": "resource_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 8
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 15
+        }
+      ]
+    },
+    "purchase_hiap_3_mini": {
+      "target_purchase": "tier3_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 8
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 15
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "last_purchase_days_ago_gte",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_hiap_plus4_mega": {
+      "target_purchase": "tier4_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 172800,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 16
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 41
+        }
+      ]
+    },
+    "purchase_squadron_tier_4": {
+      "target_purchase": "squadron_pack_tier4",
+      "duration": 21600,
+      "reoffer_expire_delay": 259200,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 16
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 41
+        }
+      ]
+    },
+    "purchase_hiap_plus4_mini": {
+      "target_purchase": "tier4_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 16
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 41
+        }
+      ]
+    },
+    "purchase_hiap_plus4_epic": {
+      "target_purchase": "purchase_epic_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 16
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 41
+        }
+      ]
+    },
+    "purchase_hiap_plus4_boost": {
+      "target_purchase": "boost_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 16
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 41
+        }
+      ]
+    },
+    "purchase_hiap_plus4_resource": {
+      "target_purchase": "resource_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 16
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 41
+        }
+      ]
+    },
+    "purchase_hiap_4_mini": {
+      "target_purchase": "tier3a_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 16
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 41
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "last_purchase_days_ago_gte",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_hiap_plus5_mega": {
+      "target_purchase": "tier5_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 172800,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 42
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 54
+        }
+      ]
+    },
+    "purchase_squadron_tier_5": {
+      "target_purchase": "squadron_pack_tier5",
+      "duration": 21600,
+      "reoffer_expire_delay": 259200,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 42
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 54
+        }
+      ]
+    },
+    "purchase_hiap_plus5_mini": {
+      "target_purchase": "tier5_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 42
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 54
+        }
+      ]
+    },
+    "purchase_hiap_plus5_epic": {
+      "target_purchase": "purchase_epic_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 42
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 54
+        }
+      ]
+    },
+    "purchase_hiap_plus5_boost": {
+      "target_purchase": "boost_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 42
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 54
+        }
+      ]
+    },
+    "purchase_hiap_plus5_resource": {
+      "target_purchase": "resource_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 42
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 54
+        }
+      ]
+    },
+    "purchase_hiap_5_mini": {
+      "target_purchase": "tier4_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 42
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 54
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "last_purchase_days_ago_gte",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_hiap_plus6_mega": {
+      "target_purchase": "tier5_mega",
+      "duration": 43200,
+      "reoffer_expire_delay": 86400,
+      "reoffer_purchase_delay": 21600,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 55
+        }
+      ]
+    },
+    "purchase_squadron_tier_6": {
+      "target_purchase": "squadron_pack_tier6",
+      "duration": 21600,
+      "reoffer_expire_delay": 259200,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 55
+        }
+      ]
+    },
+    "purchase_hiap_plus6_mini": {
+      "target_purchase": "tier5_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 55
+        }
+      ]
+    },
+    "purchase_hiap_plus6_epic": {
+      "target_purchase": "purchase_epic_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 55
+        }
+      ]
+    },
+    "purchase_hiap_plus6_boost": {
+      "target_purchase": "boost_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 55
+        }
+      ]
+    },
+    "purchase_hiap_plus6_resource": {
+      "target_purchase": "resource_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 55
+        }
+      ]
+    },
+    "purchase_hiap_6_mini": {
+      "target_purchase": "tier4_mini",
+      "duration": 43200,
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 55
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "last_purchase_days_ago_gte",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_tech_3": {
+      "target_purchase": "purchase_tech_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency3_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 19
+        }
+      ]
+    },
+    "purchase_tech_4": {
+      "target_purchase": "purchase_tech_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency3_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 49
+        }
+      ]
+    },
+    "purchase_tech_5": {
+      "target_purchase": "purchase_tech_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency3_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 59
+        }
+      ]
+    },
+    "purchase_tech_6": {
+      "target_purchase": "purchase_tech_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency3_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_food_3": {
+      "target_purchase": "purchase_food_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency4_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 19
+        }
+      ]
+    },
+    "purchase_food_4": {
+      "target_purchase": "purchase_food_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency4_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 49
+        }
+      ]
+    },
+    "purchase_food_5": {
+      "target_purchase": "purchase_food_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency4_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 59
+        }
+      ]
+    },
+    "purchase_food_6": {
+      "target_purchase": "purchase_food_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency4_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_oil_3": {
+      "target_purchase": "purchase_oil_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency5_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 19
+        }
+      ]
+    },
+    "purchase_oil_4": {
+      "target_purchase": "purchase_oil_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency5_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 49
+        }
+      ]
+    },
+    "purchase_oil_5": {
+      "target_purchase": "purchase_oil_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency5_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 59
+        }
+      ]
+    },
+    "purchase_oil_6": {
+      "target_purchase": "purchase_oil_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency5_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_alloy_3": {
+      "target_purchase": "purchase_alloy_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency6_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 19
+        }
+      ]
+    },
+    "purchase_alloy_4": {
+      "target_purchase": "purchase_alloy_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency6_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 49
+        }
+      ]
+    },
+    "purchase_alloy_5": {
+      "target_purchase": "purchase_alloy_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency6_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 59
+        }
+      ]
+    },
+    "purchase_alloy_6": {
+      "target_purchase": "purchase_alloy_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency6_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_neutronium_3": {
+      "target_purchase": "purchase_neutronium_3",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency7_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 19
+        },
+        {
+          "subtype": "structure",
+          "target_subtype": "headquarters",
+          "level": 10
+        }
+      ]
+    },
+    "purchase_neutronium_4": {
+      "target_purchase": "purchase_neutronium_4",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency7_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 20
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 49
+        },
+        {
+          "subtype": "structure",
+          "target_subtype": "headquarters",
+          "level": 10
+        }
+      ]
+    },
+    "purchase_neutronium_5": {
+      "target_purchase": "purchase_neutronium_5",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency7_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 50
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 59
+        },
+        {
+          "subtype": "structure",
+          "target_subtype": "headquarters",
+          "level": 10
+        }
+      ]
+    },
+    "purchase_neutronium_6": {
+      "target_purchase": "purchase_neutronium_6",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 0,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "currency7_shortage",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_gte",
+          "level": 60
+        },
+        {
+          "subtype": "structure",
+          "target_subtype": "headquarters",
+          "level": 10
+        }
+      ]
+    },
+    "purchase_trickle_a": {
+      "target_purchase": "trickle_a",
+      "duration": 86400,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 1814400,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "last_purchase_days_ago_gte",
+          "level": 7
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "current_purchase_tier_lte",
+          "level": 0
+        }
+      ]
+    },
+    "purchase_revenge_small": {
+      "target_purchase": "small_revenge_pack",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 86400,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "facility_zeroed",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 39
+        }
+      ]
+    },
+    "purchase_revenge_large": {
+      "target_purchase": "epic_revenge_pack",
+      "duration": 43200,
+      "reoffer_expire_delay": 43200,
+      "reoffer_purchase_delay": 86400,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "facility_zeroed",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 40
+        }
+      ]
+    },
+    "purchase_daily_offer_tier_1": {
+      "target_purchase": "daily_offer_tier1_bundle",
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 86400,
+      "active": true,
+      "requirements": [
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        },
+        {
+          "subtype": "event",
+          "target_subtype": "daily_offer",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_daily_offer_tier_2": {
+      "target_purchase": "daily_offer_tier2_bundle",
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 86400,
+      "active": true,
+      "requirements": [
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        },
+        {
+          "subtype": "event",
+          "target_subtype": "daily_offer",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_daily_offer_tier_3": {
+      "target_purchase": "daily_offer_tier3_bundle",
+      "reoffer_expire_delay": 0,
+      "reoffer_purchase_delay": 86400,
+      "active": true,
+      "requirements": [
+        {
+          "subtype": "tutorial",
+          "target_subtype": "6_barracks_and_troop_production",
+          "level": 4
+        },
+        {
+          "subtype": "event",
+          "target_subtype": "daily_offer",
+          "level": 1
+        }
+      ]
+    },
+    "purchase_gold_recovery": {
+      "target_purchase": "tier5_trooprecovery_bundle",
+      "duration": 86400,
+      "reoffer_expire_delay": 21600,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "recovery_triggered",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 39
+        }
+      ]
+    },
+    "purchase_platinum_recovery": {
+      "target_purchase": "tier6_trooprecovery_bundle",
+      "duration": 86400,
+      "reoffer_expire_delay": 21600,
+      "reoffer_purchase_delay": 259200,
+      "requirements": [
+        {
+          "subtype": "event",
+          "target_subtype": "recovery_triggered",
+          "level": 1
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_gte",
+          "level": 40
+        }
+      ]
+    },
+    "purchase_tier50_alien_tech_accelerator": {
+      "repurchasable": true,
+      "target_purchase": "tier50_alien_tech_accelerator",
+      "duration": 172800,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 7200
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_gte",
+          "level": 75
+        }
+      ]
+    },
+    "purchase_tier60_alien_tech_accelerator_mega": {
+      "repurchasable": true,
+      "target_purchase": "tier60_alien_tech_accelerator_mega",
+      "duration": 172800,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 7200
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "total_purchase_amount_gte",
+          "level": 150
+        }
+      ]
+    }
+  }
+}

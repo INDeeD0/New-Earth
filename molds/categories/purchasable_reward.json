@@ -1,0 +1,10 @@
+{
+  "_subtypes": {
+    "free_purchasable_reward": {
+      "limit": 1,
+      "reward": {
+        "subtype": "free_shop_reward"
+      }
+    }
+  }
+}

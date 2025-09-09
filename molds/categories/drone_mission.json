@@ -1,0 +1,1744 @@
+{
+  "_subtypes": {
+    "collect_8h": {
+      "category": {
+        "subtype": "collect"
+      },
+      "seconds": 28800,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier1"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier2"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier3"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier4"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier5"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier6"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier7"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier8"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier9"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_collect_8h_tier10"
+        }
+      ]
+    },
+    "collect_16h": {
+      "category": {
+        "subtype": "collect"
+      },
+      "seconds": 57600,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier1"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier2"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier3"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier4"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier5"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier6"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier7"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier8"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier9"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_collect_16h_tier10"
+        }
+      ]
+    },
+    "collect_24h": {
+      "category": {
+        "subtype": "collect"
+      },
+      "seconds": 86400,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier1"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier2"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier3"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier4"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier5"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier6"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier7"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier8"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier9"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_collect_24h_tier10"
+        }
+      ]
+    },
+    "collect_48h": {
+      "category": {
+        "subtype": "collect"
+      },
+      "seconds": 172800,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier1"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier2"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier3"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier4"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier5"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier6"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier7"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier8"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier9"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_collect_48h_tier10"
+        }
+      ]
+    },
+    "collect_72h": {
+      "category": {
+        "subtype": "collect"
+      },
+      "seconds": 259200,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier1"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier2"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier3"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier4"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier5"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier6"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier7"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier8"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier9"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_collect_72h_tier10"
+        }
+      ]
+    },
+    "rescue_8h": {
+      "category": {
+        "subtype": "rescue"
+      },
+      "seconds": 28800,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier1_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier1_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier1_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier2_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier2_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier2_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier3_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier3_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier3_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier4_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier4_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier4_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier5_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier5_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier5_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier6_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier6_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier6_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier7_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier7_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier7_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier8_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier8_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier8_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier9_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier9_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier9_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_rescue_8h_tier10_a"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier10_b"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier10_c"
+        },
+        {
+          "subtype": "drone_rescue_8h_tier10_d"
+        }
+      ]
+    },
+    "rescue_16h": {
+      "category": {
+        "subtype": "rescue"
+      },
+      "seconds": 57600,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier1_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier1_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier1_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier2_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier2_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier2_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier3_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier3_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier3_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier4_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier4_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier4_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier5_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier5_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier5_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier6_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier6_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier6_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier7_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier7_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier7_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier8_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier8_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier8_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier9_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier9_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier9_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_rescue_16h_tier10_a"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier10_b"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier10_c"
+        },
+        {
+          "subtype": "drone_rescue_16h_tier10_d"
+        }
+      ]
+    },
+    "rescue_24h": {
+      "category": {
+        "subtype": "rescue"
+      },
+      "seconds": 86400,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier1_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier1_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier1_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier2_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier2_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier2_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier3_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier3_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier3_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier4_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier4_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier4_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier5_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier5_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier5_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier6_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier6_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier6_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier7_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier7_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier7_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier8_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier8_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier8_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier9_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier9_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier9_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_rescue_24h_tier10_a"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier10_b"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier10_c"
+        },
+        {
+          "subtype": "drone_rescue_24h_tier10_d"
+        }
+      ]
+    },
+    "rescue_48h": {
+      "category": {
+        "subtype": "rescue"
+      },
+      "seconds": 172800,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier1_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier1_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier1_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier2_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier2_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier2_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier3_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier3_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier3_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier4_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier4_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier4_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier5_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier5_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier5_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier6_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier6_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier6_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier7_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier7_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier7_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier8_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier8_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier8_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier9_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier9_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier9_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_rescue_48h_tier10_a"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier10_b"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier10_c"
+        },
+        {
+          "subtype": "drone_rescue_48h_tier10_d"
+        }
+      ]
+    },
+    "rescue_72h": {
+      "category": {
+        "subtype": "rescue"
+      },
+      "seconds": 259200,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier1_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier1_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier1_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier2_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier2_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier2_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier3_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier3_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier3_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier4_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier4_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier4_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier5_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier5_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier5_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier6_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier6_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier6_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier7_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier7_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier7_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier8_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier8_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier8_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier9_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier9_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier9_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_rescue_72h_tier10_a"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier10_b"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier10_c"
+        },
+        {
+          "subtype": "drone_rescue_72h_tier10_d"
+        }
+      ]
+    },
+    "salvage_8h": {
+      "category": {
+        "subtype": "salvage"
+      },
+      "seconds": 28800,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier1_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier1_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier1_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier2_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier2_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier2_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier3_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier3_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier3_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier4_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier4_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier4_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier5_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier5_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier5_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier6_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier6_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier6_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier7_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier7_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier7_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier8_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier8_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier8_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier9_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier9_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier9_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_salvage_8h_tier10_a"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier10_b"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier10_c"
+        },
+        {
+          "subtype": "drone_salvage_8h_tier10_d"
+        }
+      ]
+    },
+    "salvage_16h": {
+      "category": {
+        "subtype": "salvage"
+      },
+      "seconds": 57600,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier1_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier1_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier1_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier2_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier2_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier2_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier3_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier3_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier3_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier4_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier4_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier4_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier5_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier5_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier5_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier6_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier6_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier6_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier7_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier7_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier7_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier8_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier8_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier8_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier9_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier9_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier9_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_salvage_16h_tier10_a"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier10_b"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier10_c"
+        },
+        {
+          "subtype": "drone_salvage_16h_tier10_d"
+        }
+      ]
+    },
+    "salvage_24h": {
+      "category": {
+        "subtype": "salvage"
+      },
+      "seconds": 86400,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier1_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier1_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier1_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier2_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier2_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier2_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier3_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier3_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier3_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier4_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier4_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier4_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier5_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier5_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier5_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier6_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier6_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier6_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier7_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier7_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier7_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier8_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier8_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier8_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier9_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier9_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier9_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_salvage_24h_tier10_a"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier10_b"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier10_c"
+        },
+        {
+          "subtype": "drone_salvage_24h_tier10_d"
+        }
+      ]
+    },
+    "salvage_48h": {
+      "category": {
+        "subtype": "salvage"
+      },
+      "seconds": 172800,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier1_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier1_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier1_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier2_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier2_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier2_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier3_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier3_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier3_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier4_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier4_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier4_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier5_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier5_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier5_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier6_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier6_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier6_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier7_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier7_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier7_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier8_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier8_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier8_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier9_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier9_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier9_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_salvage_48h_tier10_a"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier10_b"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier10_c"
+        },
+        {
+          "subtype": "drone_salvage_48h_tier10_d"
+        }
+      ]
+    },
+    "salvage_72h": {
+      "category": {
+        "subtype": "salvage"
+      },
+      "seconds": 259200,
+      "tier1_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier1_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier1_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier1_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier1_d"
+        }
+      ],
+      "tier2_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier2_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier2_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier2_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier2_d"
+        }
+      ],
+      "tier3_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier3_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier3_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier3_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier3_d"
+        }
+      ],
+      "tier4_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier4_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier4_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier4_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier4_d"
+        }
+      ],
+      "tier5_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier5_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier5_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier5_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier5_d"
+        }
+      ],
+      "tier6_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier6_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier6_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier6_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier6_d"
+        }
+      ],
+      "tier7_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier7_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier7_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier7_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier7_d"
+        }
+      ],
+      "tier8_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier8_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier8_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier8_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier8_d"
+        }
+      ],
+      "tier9_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier9_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier9_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier9_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier9_d"
+        }
+      ],
+      "tier10_rewards": [
+        {
+          "subtype": "drone_salvage_72h_tier10_a"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier10_b"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier10_c"
+        },
+        {
+          "subtype": "drone_salvage_72h_tier10_d"
+        }
+      ]
+    }
+  }
+}

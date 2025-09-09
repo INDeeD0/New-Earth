@@ -1,0 +1,12 @@
+{
+  "quantity": 1,
+  "_subtypes": {
+    "category1": {
+      "name": "~mission_category1"
+    },
+    "category2": {
+      "name": "~mission_category2",
+      "require_alliance": true
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "_subtypes": {
+    "member": {
+      "name": "~alliance_rank_member",
+      "position": 1,
+      "permissions": [
+        {
+          "subtype": "chat"
+        },
+        {
+          "subtype": "leave"
+        }
+      ]
+    },
+    "veteran": {
+      "name": "~alliance_rank_veteran",
+      "position": 2,
+      "permissions": [
+        {
+          "subtype": "chat"
+        },
+        {
+          "subtype": "invite"
+        },
+        {
+          "subtype": "leave"
+        },
+        {
+          "subtype": "rally"
+        }
+      ]
+    },
+    "officer": {
+      "name": "~alliance_rank_officer",
+      "position": 3,
+      "permissions": [
+        {
+          "subtype": "chat"
+        },
+        {
+          "subtype": "chat_alert"
+        },
+        {
+          "subtype": "leave"
+        },
+        {
+          "subtype": "invite"
+        },
+        {
+          "subtype": "promote"
+        },
+        {
+          "subtype": "demote"
+        },
+        {
+          "subtype": "edit"
+        },
+        {
+          "subtype": "rally"
+        },
+        {
+          "subtype": "grant_alliance_item"
+        },
+        {
+          "subtype": "claim_trial"
+        }
+      ]
+    },
+    "coleader": {
+      "name": "~alliance_rank_coleader",
+      "position": 4,
+      "permissions": [
+        {
+          "subtype": "chat"
+        },
+        {
+          "subtype": "chat_alert"
+        },
+        {
+          "subtype": "leave"
+        },
+        {
+          "subtype": "invite"
+        },
+        {
+          "subtype": "kick"
+        },
+        {
+          "subtype": "promote"
+        },
+        {
+          "subtype": "demote"
+        },
+        {
+          "subtype": "edit"
+        },
+        {
+          "subtype": "rally"
+        },
+        {
+          "subtype": "activate_location"
+        },
+        {
+          "subtype": "grant_alliance_item"
+        },
+        {
+          "subtype": "claim_trial"
+        }
+      ]
+    },
+    "leader": {
+      "name": "~alliance_rank_leader",
+      "position": 5,
+      "permissions": [
+        {
+          "subtype": "chat"
+        },
+        {
+          "subtype": "chat_alert"
+        },
+        {
+          "subtype": "invite"
+        },
+        {
+          "subtype": "kick"
+        },
+        {
+          "subtype": "promote"
+        },
+        {
+          "subtype": "demote"
+        },
+        {
+          "subtype": "edit"
+        },
+        {
+          "subtype": "rally"
+        },
+        {
+          "subtype": "activate_location"
+        },
+        {
+          "subtype": "activate_location_target"
+        },
+        {
+          "subtype": "grant_alliance_item"
+        },
+        {
+          "subtype": "claim_trial"
+        },
+        {
+          "subtype": "change_leader"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1079 @@
+{
+  "ranks": [
+    {}
+  ],
+  "_subtypes": {
+    "generic": {
+      "name": "~carrier_generic",
+      "levels": [
+        {}
+      ]
+    },
+    "combat": {
+      "name": "~carrier_combat",
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 35000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 11
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 140000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 800000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 700000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 21
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 600000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 28
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 16000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 12000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 6000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "megaship_component",
+              "quantity": 250
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "speed": {
+      "name": "~carrier_speed",
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 35000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 11
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 140000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 800000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 700000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 21
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 600000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 28
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 16000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 12000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 6000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "megaship_component",
+              "quantity": 250
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "contest": {
+      "name": "~carrier_contest",
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_contest_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 35000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_contest_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 11
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 140000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_contest_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 800000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 700000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_contest_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 21
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 600000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_contest_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 28
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 16000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 12000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 6000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "megaship_component",
+              "quantity": 250
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_contest_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "cargo": {
+      "name": "~carrier_cargo",
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "march_load_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 35000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "march_load_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 11
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 140000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "march_load_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 800000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 700000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "march_load_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 21
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 600000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "march_load_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "airstrip",
+              "level": 28
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 16000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 12000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 6000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "megaship_component",
+              "quantity": 250
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.3
+            },
+            {
+              "subtype": "march_load_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

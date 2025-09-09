@@ -1,0 +1,157 @@
+{
+  "_subtypes": {
+    "home": {
+      "tag": 1,
+      "life": 5000,
+      "max_life": 5000,
+      "resource_rewards": [
+        {
+          "subtype": "city_resource_reward1"
+        },
+        {
+          "subtype": "city_resource_reward2"
+        },
+        {
+          "subtype": "city_resource_reward3"
+        },
+        {
+          "subtype": "city_resource_reward4"
+        },
+        {
+          "subtype": "city_resource_reward5"
+        },
+        {
+          "subtype": "city_resource_reward6"
+        },
+        {
+          "subtype": "city_resource_reward7"
+        },
+        {
+          "subtype": "city_resource_reward8"
+        },
+        {
+          "subtype": "city_resource_reward9"
+        },
+        {
+          "subtype": "city_resource_reward10"
+        },
+        {
+          "subtype": "city_resource_reward11"
+        },
+        {
+          "subtype": "city_resource_reward12"
+        }
+      ],
+      "production_queues": [
+        {
+          "subtype": "infantry"
+        },
+        {
+          "subtype": "vehicle"
+        },
+        {
+          "subtype": "defense"
+        },
+        {
+          "subtype": "hospital"
+        },
+        {
+          "subtype": "specialized"
+        }
+      ],
+      "structure_allowances": [
+        {
+          "target_subtype": "headquarters",
+          "quantity": 1
+        }
+      ],
+      "slots": [
+        {
+          "subtype": "slot1",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot2",
+          "quantity": 4
+        },
+        {
+          "subtype": "slot3",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot4",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot5",
+          "quantity": 3
+        },
+        {
+          "subtype": "slot6",
+          "quantity": 3
+        },
+        {
+          "subtype": "slot7",
+          "quantity": 16
+        },
+        {
+          "subtype": "slot8",
+          "quantity": 28
+        },
+        {
+          "subtype": "slot9",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot10",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot12",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot13",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot14",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot15",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot16",
+          "quantity": 1
+        },
+        {
+          "subtype": "slot17",
+          "quantity": 1
+        }
+      ]
+    },
+    "outpost": {
+      "life": 500,
+      "max_life": 2500,
+      "demolition_time": 3600,
+      "structure_allowances": [
+        {
+          "target_subtype": "outpost_strategic",
+          "quantity": 1
+        },
+        {
+          "target_subtype": "outpost_harvest",
+          "quantity": 1
+        }
+      ],
+      "slots": [
+        {
+          "subtype": "slot11",
+          "quantity": 1
+        }
+      ]
+    }
+  }
+}

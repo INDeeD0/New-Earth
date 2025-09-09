@@ -1,0 +1,67 @@
+{
+  "_subtypes": {
+    "slot1": {
+      "name": "~slot1"
+    },
+    "slot2": {
+      "name": "~slot2"
+    },
+    "slot3": {
+      "name": "~slot3"
+    },
+    "slot4": {
+      "name": "~slot4"
+    },
+    "slot5": {
+      "name": "~slot5"
+    },
+    "slot6": {
+      "name": "~slot6"
+    },
+    "slot7": {
+      "name": "~slot7"
+    },
+    "slot8": {
+      "name": "~slot8"
+    },
+    "slot9": {
+      "name": "~slot9"
+    },
+    "slot10": {
+      "name": "~slot10"
+    },
+    "slot11": {
+      "name": "~slot11"
+    },
+    "slot12": {
+      "name": "~slot12"
+    },
+    "slot13": {
+      "name": "~slot13"
+    },
+    "slot14": {
+      "name": "~slot14"
+    },
+    "slot15": {
+      "name": "~slot15"
+    },
+    "slot16": {
+      "name": "~slot16"
+    },
+    "slot17": {
+      "name": "~slot17"
+    },
+    "hero_slot1": {
+      "name": "~hero_slot1"
+    },
+    "hero_slot2": {
+      "name": "~hero_slot2"
+    },
+    "hero_slot3": {
+      "name": "~hero_slot3"
+    },
+    "hero_slot4": {
+      "name": "~hero_slot4"
+    }
+  }
+}

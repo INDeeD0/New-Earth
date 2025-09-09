@@ -1,0 +1,6592 @@
+{
+  "_subtypes": {
+    "category1_rarity1_1a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource3_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 1000
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_2a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource3_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_3a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource3_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity2_1a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource3_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_2a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource3_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_3a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource3_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity3_1a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource3_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_2a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource3_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_3a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource3_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 1000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity4_1a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource3_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 25000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_2a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource3_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_3a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource3_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity5_1a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource3_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 35000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_2a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource3_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_3a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource3_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity6_1a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 50000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_2a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_3a": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity1_1b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource4_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 1000
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_2b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource4_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_3b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource4_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity2_1b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource4_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_2b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource4_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_3b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource4_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity3_1b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource4_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_2b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource4_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_3b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource4_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity4_1b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource4_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 25000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_2b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource4_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_3b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource4_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity5_1b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource4_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 35000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_2b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource4_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_3b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource4_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity6_1b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource4_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 50000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_2b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource4_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_3b": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource4_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity1_1c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource5_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 1000
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_2c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource5_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_3c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource5_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity2_1c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource5_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_2c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource5_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_3c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource5_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity3_1c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource5_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_2c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource5_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_3c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource5_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity4_1c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource5_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 25000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_2c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource5_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_3c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource5_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity5_1c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource5_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 35000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_2c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource5_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_3c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource5_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity6_1c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource5_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 50000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_2c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource5_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_3c": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource5_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity1_1d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource6_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 1000
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_2d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource6_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_3d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource6_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 600
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity2_1d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource6_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_2d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource6_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_3d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource6_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity3_1d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource6_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_2d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource6_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_3d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource6_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 6000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity4_1d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource6_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 25000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_2d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource6_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_3d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource6_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity5_1d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource6_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 35000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_2d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource6_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_3d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource6_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity6_1d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource6_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 50000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_2d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource6_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_3d": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource6_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity1_1e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource7_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_2e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource7_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 400
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 100
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_3e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_resource7_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 400
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 100
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity2_1e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource7_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1250
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_2e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource7_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 250
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_3e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_resource7_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 250
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity3_1e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource7_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_2e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource7_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_3e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_resource7_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 500
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity4_1e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource7_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 12500
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_2e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource7_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_3e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_resource7_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2500
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity5_1e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource7_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 20000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_2e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource7_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_3e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_resource7_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity6_1e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource7_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 30000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_2e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource7_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_3e": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_resource7_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity1_1f": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_balanced_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity2_1f": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 750
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity3_1f": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_balanced_daily",
+      "duration": 1800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2000
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity4_1f": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 4000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 4000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 4000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 4000
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity5_1f": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_balanced_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 7500
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_1f": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          }
+        ],
+        "hero_xp": 10000
+      }
+    },
+    "category2_rarity1_1a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource3_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_2a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource3_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_3a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource3_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity2_1a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource3_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_2a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource3_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_3a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource3_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity3_1a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource3_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_2a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource3_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_3a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource3_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity4_1a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource3_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 20000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_2a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource3_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_3a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource3_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity5_1a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource3_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 35000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_2a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource3_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_3a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource3_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity6_1a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 50000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_2a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_3a": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity1_1b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource4_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_2b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource4_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_3b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource4_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity2_1b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource4_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_2b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource4_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_3b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource4_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity3_1b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource4_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_2b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource4_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_3b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource4_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity4_1b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource4_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 20000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_2b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource4_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_3b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource4_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity5_1b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource4_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 35000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_2b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource4_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_3b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource4_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity6_1b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource4_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 50000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_2b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource4_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_3b": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource4_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency4",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity1_1c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource5_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_2c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource5_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_3c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource5_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity2_1c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource5_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_2c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource5_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_3c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource5_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity3_1c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource5_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_2c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource5_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_3c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource5_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity4_1c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource5_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 20000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_2c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource5_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_3c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource5_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity5_1c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource5_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 35000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_2c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource5_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_3c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource5_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity6_1c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource5_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 50000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_2c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource5_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_3c": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource5_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity1_1d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource6_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_2d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource6_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_3d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource6_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 150
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity2_1d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource6_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_2d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource6_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_3d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource6_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 300
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity3_1d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource6_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_2d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource6_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_3d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource6_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 1500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity4_1d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource6_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 20000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_2d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource6_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_3d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource6_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity5_1d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource6_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 35000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_2d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource6_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_3d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource6_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity6_1d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource6_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 50000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_2d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_3d": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource3_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency6",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity1_1e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource7_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_2e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource7_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 400
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 100
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 100
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_3e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_resource7_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 400
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 100
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 100
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity2_1e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource7_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1250
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_2e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource7_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 250
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 250
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_3e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_resource7_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 250
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 250
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity3_1e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource7_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_2e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource7_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4500
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_3e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_resource7_daily",
+      "duration": 1500,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity4_1e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource7_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 12500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_2e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource7_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_3e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_resource7_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity5_1e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource7_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 20000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_2e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource7_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_3e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_resource7_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 15000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity6_1e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource7_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 30000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_2e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource7_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency3",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_3e": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_resource7_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 25000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 5000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity1_1f": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_balanced_daily",
+      "duration": 120,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 200
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 100
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity2_1f": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 360,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 750
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 150
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity3_1f": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_balanced_daily",
+      "duration": 3600,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 2000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 200
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity4_1f": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 5400,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 4000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 4000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 4000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 4000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 250
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity5_1f": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_balanced_daily",
+      "duration": 7200,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 7500
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 300
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity6_1f": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 10800,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency3",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency4",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency5",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency6",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          },
+          {
+            "subtype": "currency8",
+            "quantity": 400
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity1_video_1": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_video_2": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_video_3": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_video_4": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_video_5": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity1_video_6": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category1_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "boost_3m",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category1_rarity2_video_1": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_2": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_3": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_4": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_5": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_6": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency2_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_7": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency3_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_8": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency4_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity2_video_9": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency5_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category1_rarity3_video_1": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category1_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_video_2": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_video_3": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_video_4": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_video_5": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity3_video_6": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category1_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "carrier_change",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category1_rarity4_video_1": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "boost_15m",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_video_2": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_150",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_video_3": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "fake_army_8h",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_video_4": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency2_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_video_5": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency3_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_video_6": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency4_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity4_video_7": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category1_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency5_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category1_rarity5_video_1": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "combat_attack_boost_12h",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_video_2": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_150",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity5_video_3": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category1_rarity5_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "mobile_outpost_vehicle",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category1_rarity6_video_1": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_time_30m",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_video_2": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "march_25_percent_boost",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_video_3": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_video_4": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_video_5": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_video_6": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category1_rarity6_video_7": {
+      "category": {
+        "subtype": "category1"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category1_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity1_video_1": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_video_2": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_video_3": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_video_4": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_video_5": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 2
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity1_video_6": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity1"
+      },
+      "name": "~category2_rarity1_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "boost_3m",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 25
+      }
+    },
+    "category2_rarity2_video_1": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_2": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_3": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_4": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_5": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_6": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency2_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_7": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency3_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_8": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency4_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity2_video_9": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity2"
+      },
+      "name": "~category2_rarity2_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency5_30k",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 100
+      }
+    },
+    "category2_rarity3_video_1": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_video_2": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_video_3": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_video_4": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_video_5": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 4
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity3_video_6": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity3"
+      },
+      "name": "~category2_rarity3_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "carrier_change",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 250
+      }
+    },
+    "category2_rarity4_video_1": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "boost_15m",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_video_2": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_150",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_video_3": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "fake_army_8h",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_video_4": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency2_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_video_5": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency3_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_video_6": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency4_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity4_video_7": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity4"
+      },
+      "name": "~category2_rarity4_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency5_30k",
+            "quantity": 3
+          }
+        ],
+        "hero_xp": 1000
+      }
+    },
+    "category2_rarity5_video_1": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "combat_attack_boost_12h",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_video_2": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_150",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity5_video_3": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity5"
+      },
+      "name": "~category2_rarity5_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "mobile_outpost_vehicle",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 2500
+      }
+    },
+    "category2_rarity6_video_1": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_time_30m",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_video_2": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "march_25_percent_boost",
+            "quantity": 1
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_video_3": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_video_4": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_video_5": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_video_6": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    },
+    "category2_rarity6_video_7": {
+      "category": {
+        "subtype": "category2"
+      },
+      "rarity": {
+        "subtype": "rarity6"
+      },
+      "name": "~category2_rarity6_balanced_daily",
+      "duration": 0,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_classified_documents",
+            "quantity": 5
+          }
+        ],
+        "hero_xp": 5000
+      }
+    }
+  }
+}

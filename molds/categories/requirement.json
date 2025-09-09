@@ -1,0 +1,18 @@
+{
+  "level": 1,
+  "quantity": 1,
+  "_subtypes": {
+    "structure": {},
+    "research": {},
+    "counter": {},
+    "item": {},
+    "objective": {},
+    "hero_skill": {},
+    "tutorial": {},
+    "purchase": {},
+    "player": {},
+    "global": {},
+    "event": {},
+    "carrier_level": {}
+  }
+}

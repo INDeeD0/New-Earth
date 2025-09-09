@@ -1,0 +1,161 @@
+{
+  "multiplier": 1,
+  "contribute_to_claimed": true,
+  "_subtypes": {
+    "claim_trials": {
+      "name": "~trial_claim_trials",
+      "max_progress": 6,
+      "source": 0,
+      "reset_progress": true,
+      "allow_double": true,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 100
+          }
+        ],
+        "items": [
+          {
+            "subtype": "boost_1h",
+            "quantity": 1
+          },
+          {
+            "subtype": "hero_energy_500",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "hero_energy_1000": {
+      "name": "~trial_hero_energy_1000",
+      "max_progress": 1000,
+      "source": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "gather_100000_currency": {
+      "name": "~trial_gather_100000_currency",
+      "max_progress": 100000,
+      "source": 2,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "help_3_alliance_members": {
+      "name": "~trial_help_3_alliance_members",
+      "max_progress": 3,
+      "source": 3,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "defeat_2000_npc_power": {
+      "name": "~trial_defeat_2000_npc_power",
+      "max_progress": 2000,
+      "source": 5,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "collect_3_category1_missions": {
+      "name": "~trial_collect_3_category1_missions",
+      "max_progress": 3,
+      "source": 6,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "collect_3_category2_missions": {
+      "name": "~trial_collect_3_category2_missions",
+      "max_progress": 3,
+      "source": 7,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "train_5000_unit_power": {
+      "name": "~trial_train_5000_unit_power",
+      "max_progress": 5000,
+      "source": 8,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "purchase_purchasable_reward": {
+      "name": "~trial_purchase_purchasable_reward",
+      "max_progress": 1,
+      "source": 9,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "collect_daily_login_reward": {
+      "name": "~trial_collect_daily_login_reward",
+      "max_progress": 1,
+      "source": 13,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "collect_periodic_reward_drops": {
+      "name": "~trial_collect_periodic_reward_drops",
+      "max_progress": 1,
+      "source": 23,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 25
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2833 @@
+{
+  "_subtypes": {
+    "general": {
+      "energy": 1000,
+      "slots": [
+        {
+          "subtype": "hero_slot1",
+          "quantity": 1
+        },
+        {
+          "subtype": "hero_slot2",
+          "quantity": 1
+        },
+        {
+          "subtype": "hero_slot3",
+          "quantity": 1
+        },
+        {
+          "subtype": "hero_slot4",
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {},
+        {
+          "xp_required": 0,
+          "skill_points": 1,
+          "monster_skill_points": 1,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 25
+            },
+            {
+              "subtype": "defense",
+              "value": 2
+            },
+            {
+              "subtype": "health",
+              "value": 5
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 25
+            }
+          ],
+          "power": 100,
+          "revive_seconds": 1800
+        },
+        {
+          "xp_required": 1000,
+          "skill_points": 2,
+          "monster_skill_points": 2,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 50
+            },
+            {
+              "subtype": "defense",
+              "value": 4
+            },
+            {
+              "subtype": "health",
+              "value": 10
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 1000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 50
+            }
+          ],
+          "power": 200,
+          "revive_seconds": 3600
+        },
+        {
+          "xp_required": 3000,
+          "skill_points": 3,
+          "monster_skill_points": 3,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 75
+            },
+            {
+              "subtype": "defense",
+              "value": 6
+            },
+            {
+              "subtype": "health",
+              "value": 15
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 1500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 75
+            }
+          ],
+          "power": 300,
+          "revive_seconds": 5400
+        },
+        {
+          "xp_required": 6000,
+          "skill_points": 5,
+          "monster_skill_points": 4,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 100
+            },
+            {
+              "subtype": "defense",
+              "value": 8
+            },
+            {
+              "subtype": "health",
+              "value": 20
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 2000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 100
+            }
+          ],
+          "power": 400,
+          "revive_seconds": 7200
+        },
+        {
+          "xp_required": 10000,
+          "skill_points": 7,
+          "monster_skill_points": 5,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 100
+            },
+            {
+              "subtype": "defense",
+              "value": 10
+            },
+            {
+              "subtype": "health",
+              "value": 20
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 2500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 125
+            }
+          ],
+          "power": 500,
+          "revive_seconds": 9000
+        },
+        {
+          "xp_required": 15000,
+          "skill_points": 9,
+          "monster_skill_points": 6,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 150
+            },
+            {
+              "subtype": "defense",
+              "value": 12
+            },
+            {
+              "subtype": "health",
+              "value": 30
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 3000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 150
+            }
+          ],
+          "power": 600,
+          "revive_seconds": 10800
+        },
+        {
+          "xp_required": 21000,
+          "skill_points": 11,
+          "monster_skill_points": 7,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 175
+            },
+            {
+              "subtype": "defense",
+              "value": 14
+            },
+            {
+              "subtype": "health",
+              "value": 35
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 3500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 175
+            }
+          ],
+          "power": 700,
+          "revive_seconds": 12600
+        },
+        {
+          "xp_required": 28500,
+          "skill_points": 13,
+          "monster_skill_points": 8,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 200
+            },
+            {
+              "subtype": "defense",
+              "value": 16
+            },
+            {
+              "subtype": "health",
+              "value": 40
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 4000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 200
+            }
+          ],
+          "power": 800,
+          "revive_seconds": 14400
+        },
+        {
+          "xp_required": 38500,
+          "skill_points": 15,
+          "monster_skill_points": 9,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 225
+            },
+            {
+              "subtype": "defense",
+              "value": 18
+            },
+            {
+              "subtype": "health",
+              "value": 45
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 4500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 225
+            }
+          ],
+          "power": 900,
+          "revive_seconds": 16200
+        },
+        {
+          "xp_required": 51000,
+          "skill_points": 18,
+          "monster_skill_points": 10,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 250
+            },
+            {
+              "subtype": "defense",
+              "value": 20
+            },
+            {
+              "subtype": "health",
+              "value": 50
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 5000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 250
+            }
+          ],
+          "power": 1000,
+          "revive_seconds": 18000
+        },
+        {
+          "xp_required": 66000,
+          "skill_points": 21,
+          "monster_skill_points": 11,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 300
+            },
+            {
+              "subtype": "defense",
+              "value": 22
+            },
+            {
+              "subtype": "health",
+              "value": 55
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 5500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 300
+            }
+          ],
+          "power": 1250,
+          "revive_seconds": 19800
+        },
+        {
+          "xp_required": 83500,
+          "skill_points": 24,
+          "monster_skill_points": 12,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 350
+            },
+            {
+              "subtype": "defense",
+              "value": 24
+            },
+            {
+              "subtype": "health",
+              "value": 60
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 6000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 350
+            }
+          ],
+          "power": 1500,
+          "revive_seconds": 21600
+        },
+        {
+          "xp_required": 103500,
+          "skill_points": 27,
+          "monster_skill_points": 13,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 400
+            },
+            {
+              "subtype": "defense",
+              "value": 26
+            },
+            {
+              "subtype": "health",
+              "value": 65
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 6500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 400
+            }
+          ],
+          "power": 1750,
+          "revive_seconds": 23400
+        },
+        {
+          "xp_required": 126000,
+          "skill_points": 30,
+          "monster_skill_points": 14,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 450
+            },
+            {
+              "subtype": "defense",
+              "value": 28
+            },
+            {
+              "subtype": "health",
+              "value": 70
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 7000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 450
+            }
+          ],
+          "power": 2000,
+          "revive_seconds": 25200
+        },
+        {
+          "xp_required": 151000,
+          "skill_points": 33,
+          "monster_skill_points": 15,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 500
+            },
+            {
+              "subtype": "defense",
+              "value": 30
+            },
+            {
+              "subtype": "health",
+              "value": 75
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 7500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 500
+            }
+          ],
+          "power": 2250,
+          "revive_seconds": 27000
+        },
+        {
+          "xp_required": 178500,
+          "skill_points": 36,
+          "monster_skill_points": 16,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 550
+            },
+            {
+              "subtype": "defense",
+              "value": 32
+            },
+            {
+              "subtype": "health",
+              "value": 80
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 8000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 550
+            }
+          ],
+          "power": 2500,
+          "revive_seconds": 28800
+        },
+        {
+          "xp_required": 208500,
+          "skill_points": 39,
+          "monster_skill_points": 17,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 600
+            },
+            {
+              "subtype": "defense",
+              "value": 34
+            },
+            {
+              "subtype": "health",
+              "value": 85
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 8500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 600
+            }
+          ],
+          "power": 2750,
+          "revive_seconds": 30600
+        },
+        {
+          "xp_required": 241000,
+          "skill_points": 42,
+          "monster_skill_points": 18,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 700
+            },
+            {
+              "subtype": "defense",
+              "value": 36
+            },
+            {
+              "subtype": "health",
+              "value": 90
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 9000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 700
+            }
+          ],
+          "power": 3000,
+          "revive_seconds": 32400
+        },
+        {
+          "xp_required": 276000,
+          "skill_points": 45,
+          "monster_skill_points": 19,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 800
+            },
+            {
+              "subtype": "defense",
+              "value": 38
+            },
+            {
+              "subtype": "health",
+              "value": 95
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 9500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 800
+            }
+          ],
+          "power": 3250,
+          "revive_seconds": 34200
+        },
+        {
+          "xp_required": 313500,
+          "skill_points": 49,
+          "monster_skill_points": 21,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 900
+            },
+            {
+              "subtype": "defense",
+              "value": 40
+            },
+            {
+              "subtype": "health",
+              "value": 100
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 10000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 900
+            }
+          ],
+          "power": 3500,
+          "revive_seconds": 36000
+        },
+        {
+          "xp_required": 353500,
+          "skill_points": 53,
+          "monster_skill_points": 23,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1000
+            },
+            {
+              "subtype": "defense",
+              "value": 42
+            },
+            {
+              "subtype": "health",
+              "value": 105
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 10500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1000
+            }
+          ],
+          "power": 3750,
+          "revive_seconds": 37800
+        },
+        {
+          "xp_required": 398500,
+          "skill_points": 57,
+          "monster_skill_points": 25,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1100
+            },
+            {
+              "subtype": "defense",
+              "value": 44
+            },
+            {
+              "subtype": "health",
+              "value": 110
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 11000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1100
+            }
+          ],
+          "power": 4000,
+          "revive_seconds": 39600
+        },
+        {
+          "xp_required": 448500,
+          "skill_points": 61,
+          "monster_skill_points": 27,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1200
+            },
+            {
+              "subtype": "defense",
+              "value": 46
+            },
+            {
+              "subtype": "health",
+              "value": 115
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 11500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1200
+            }
+          ],
+          "power": 4500,
+          "revive_seconds": 41400
+        },
+        {
+          "xp_required": 503500,
+          "skill_points": 65,
+          "monster_skill_points": 29,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1300
+            },
+            {
+              "subtype": "defense",
+              "value": 48
+            },
+            {
+              "subtype": "health",
+              "value": 120
+            },
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "load",
+              "value": 12000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1300
+            }
+          ],
+          "power": 5000,
+          "revive_seconds": 43200
+        },
+        {
+          "xp_required": 563500,
+          "skill_points": 69,
+          "monster_skill_points": 31,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1400
+            },
+            {
+              "subtype": "defense",
+              "value": 50
+            },
+            {
+              "subtype": "health",
+              "value": 125
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 12500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1400
+            }
+          ],
+          "power": 5500,
+          "revive_seconds": 45000
+        },
+        {
+          "xp_required": 628500,
+          "skill_points": 73,
+          "monster_skill_points": 33,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1500
+            },
+            {
+              "subtype": "defense",
+              "value": 52
+            },
+            {
+              "subtype": "health",
+              "value": 130
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 13000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1500
+            }
+          ],
+          "power": 6000,
+          "revive_seconds": 46800
+        },
+        {
+          "xp_required": 698500,
+          "skill_points": 77,
+          "monster_skill_points": 35,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1750
+            },
+            {
+              "subtype": "defense",
+              "value": 54
+            },
+            {
+              "subtype": "health",
+              "value": 135
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 13500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1750
+            }
+          ],
+          "power": 6500,
+          "revive_seconds": 48600
+        },
+        {
+          "xp_required": 778500,
+          "skill_points": 81,
+          "monster_skill_points": 37,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 2000
+            },
+            {
+              "subtype": "defense",
+              "value": 56
+            },
+            {
+              "subtype": "health",
+              "value": 140
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 14000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 2000
+            }
+          ],
+          "power": 7000,
+          "revive_seconds": 50400
+        },
+        {
+          "xp_required": 868500,
+          "skill_points": 85,
+          "monster_skill_points": 39,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 2250
+            },
+            {
+              "subtype": "defense",
+              "value": 58
+            },
+            {
+              "subtype": "health",
+              "value": 145
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 14500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 2250
+            }
+          ],
+          "power": 7500,
+          "revive_seconds": 52200
+        },
+        {
+          "xp_required": 968500,
+          "skill_points": 90,
+          "monster_skill_points": 41,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 2500
+            },
+            {
+              "subtype": "defense",
+              "value": 60
+            },
+            {
+              "subtype": "health",
+              "value": 150
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 15000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 2500
+            }
+          ],
+          "power": 8000,
+          "revive_seconds": 54000
+        },
+        {
+          "xp_required": 1093500,
+          "skill_points": 95,
+          "monster_skill_points": 43,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 2750
+            },
+            {
+              "subtype": "defense",
+              "value": 62
+            },
+            {
+              "subtype": "health",
+              "value": 155
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 15500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 2750
+            }
+          ],
+          "power": 9000,
+          "revive_seconds": 55800
+        },
+        {
+          "xp_required": 1243500,
+          "skill_points": 100,
+          "monster_skill_points": 45,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 3000
+            },
+            {
+              "subtype": "defense",
+              "value": 64
+            },
+            {
+              "subtype": "health",
+              "value": 160
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 16000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 3000
+            }
+          ],
+          "power": 10000,
+          "revive_seconds": 57600
+        },
+        {
+          "xp_required": 1418500,
+          "skill_points": 105,
+          "monster_skill_points": 47,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 3250
+            },
+            {
+              "subtype": "defense",
+              "value": 66
+            },
+            {
+              "subtype": "health",
+              "value": 165
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 16500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 3250
+            }
+          ],
+          "power": 11000,
+          "revive_seconds": 59400
+        },
+        {
+          "xp_required": 1618500,
+          "skill_points": 110,
+          "monster_skill_points": 49,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 3500
+            },
+            {
+              "subtype": "defense",
+              "value": 68
+            },
+            {
+              "subtype": "health",
+              "value": 170
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 17000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 3500
+            }
+          ],
+          "power": 12000,
+          "revive_seconds": 61200
+        },
+        {
+          "xp_required": 1868500,
+          "skill_points": 115,
+          "monster_skill_points": 51,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 3750
+            },
+            {
+              "subtype": "defense",
+              "value": 70
+            },
+            {
+              "subtype": "health",
+              "value": 175
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 17500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 3750
+            }
+          ],
+          "power": 13000,
+          "revive_seconds": 63000
+        },
+        {
+          "xp_required": 2153500,
+          "skill_points": 120,
+          "monster_skill_points": 53,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 4000
+            },
+            {
+              "subtype": "defense",
+              "value": 72
+            },
+            {
+              "subtype": "health",
+              "value": 180
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 18000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 4000
+            }
+          ],
+          "power": 14000,
+          "revive_seconds": 64800
+        },
+        {
+          "xp_required": 2518500,
+          "skill_points": 125,
+          "monster_skill_points": 55,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 4250
+            },
+            {
+              "subtype": "defense",
+              "value": 74
+            },
+            {
+              "subtype": "health",
+              "value": 185
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 18500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 4250
+            }
+          ],
+          "power": 15000,
+          "revive_seconds": 66600
+        },
+        {
+          "xp_required": 2918500,
+          "skill_points": 130,
+          "monster_skill_points": 57,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 4500
+            },
+            {
+              "subtype": "defense",
+              "value": 76
+            },
+            {
+              "subtype": "health",
+              "value": 190
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 19000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 4500
+            }
+          ],
+          "power": 16000,
+          "revive_seconds": 68400
+        },
+        {
+          "xp_required": 3368500,
+          "skill_points": 135,
+          "monster_skill_points": 59,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 4750
+            },
+            {
+              "subtype": "defense",
+              "value": 78
+            },
+            {
+              "subtype": "health",
+              "value": 195
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 19500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 4750
+            }
+          ],
+          "power": 17000,
+          "revive_seconds": 70200
+        },
+        {
+          "xp_required": 3868500,
+          "skill_points": 141,
+          "monster_skill_points": 62,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 5000
+            },
+            {
+              "subtype": "defense",
+              "value": 80
+            },
+            {
+              "subtype": "health",
+              "value": 200
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 20000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 5000
+            }
+          ],
+          "power": 18000,
+          "revive_seconds": 72000
+        },
+        {
+          "xp_required": 4468500,
+          "skill_points": 147,
+          "monster_skill_points": 65,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 5500
+            },
+            {
+              "subtype": "defense",
+              "value": 82
+            },
+            {
+              "subtype": "health",
+              "value": 205
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 21000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 5500
+            }
+          ],
+          "power": 19000,
+          "revive_seconds": 73800
+        },
+        {
+          "xp_required": 5268500,
+          "skill_points": 153,
+          "monster_skill_points": 68,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 6000
+            },
+            {
+              "subtype": "defense",
+              "value": 84
+            },
+            {
+              "subtype": "health",
+              "value": 210
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 22000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 6000
+            }
+          ],
+          "power": 20000,
+          "revive_seconds": 75600
+        },
+        {
+          "xp_required": 6268500,
+          "skill_points": 159,
+          "monster_skill_points": 71,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 6500
+            },
+            {
+              "subtype": "defense",
+              "value": 86
+            },
+            {
+              "subtype": "health",
+              "value": 215
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 23000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 6500
+            }
+          ],
+          "power": 21000,
+          "revive_seconds": 77400
+        },
+        {
+          "xp_required": 7768500,
+          "skill_points": 165,
+          "monster_skill_points": 74,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 7000
+            },
+            {
+              "subtype": "defense",
+              "value": 88
+            },
+            {
+              "subtype": "health",
+              "value": 220
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 24000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 7000
+            }
+          ],
+          "power": 22000,
+          "revive_seconds": 79200
+        },
+        {
+          "xp_required": 9768500,
+          "skill_points": 171,
+          "monster_skill_points": 77,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 7500
+            },
+            {
+              "subtype": "defense",
+              "value": 90
+            },
+            {
+              "subtype": "health",
+              "value": 225
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 25000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 7500
+            }
+          ],
+          "power": 23000,
+          "revive_seconds": 81000
+        },
+        {
+          "xp_required": 12268500,
+          "skill_points": 177,
+          "monster_skill_points": 80,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 8000
+            },
+            {
+              "subtype": "defense",
+              "value": 92
+            },
+            {
+              "subtype": "health",
+              "value": 230
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 26000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 8000
+            }
+          ],
+          "power": 24000,
+          "revive_seconds": 82800
+        },
+        {
+          "xp_required": 15268500,
+          "skill_points": 183,
+          "monster_skill_points": 83,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 8500
+            },
+            {
+              "subtype": "defense",
+              "value": 94
+            },
+            {
+              "subtype": "health",
+              "value": 235
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 27000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 8500
+            }
+          ],
+          "power": 25000,
+          "revive_seconds": 84600
+        },
+        {
+          "xp_required": 18768500,
+          "skill_points": 189,
+          "monster_skill_points": 86,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 9000
+            },
+            {
+              "subtype": "defense",
+              "value": 96
+            },
+            {
+              "subtype": "health",
+              "value": 240
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 28000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 9000
+            }
+          ],
+          "power": 26000,
+          "revive_seconds": 86400
+        },
+        {
+          "xp_required": 22768500,
+          "skill_points": 195,
+          "monster_skill_points": 89,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 9500
+            },
+            {
+              "subtype": "defense",
+              "value": 98
+            },
+            {
+              "subtype": "health",
+              "value": 245
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 29000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 9500
+            }
+          ],
+          "power": 27000,
+          "revive_seconds": 88200
+        },
+        {
+          "xp_required": 27768500,
+          "skill_points": 202,
+          "monster_skill_points": 92,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 10000
+            },
+            {
+              "subtype": "defense",
+              "value": 100
+            },
+            {
+              "subtype": "health",
+              "value": 250
+            },
+            {
+              "subtype": "speed",
+              "value": 7
+            },
+            {
+              "subtype": "load",
+              "value": 30000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 10000
+            }
+          ],
+          "power": 28000,
+          "revive_seconds": 90000
+        },
+        {
+          "xp_required": 33268500,
+          "skill_points": 209,
+          "monster_skill_points": 95,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 10500
+            },
+            {
+              "subtype": "defense",
+              "value": 102
+            },
+            {
+              "subtype": "health",
+              "value": 255
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 31000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 10500
+            }
+          ],
+          "power": 29000,
+          "revive_seconds": 91800
+        },
+        {
+          "xp_required": 39268500,
+          "skill_points": 216,
+          "monster_skill_points": 98,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 11000
+            },
+            {
+              "subtype": "defense",
+              "value": 104
+            },
+            {
+              "subtype": "health",
+              "value": 260
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 32000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 11000
+            }
+          ],
+          "power": 30000,
+          "revive_seconds": 93600
+        },
+        {
+          "xp_required": 45768500,
+          "skill_points": 223,
+          "monster_skill_points": 101,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 11500
+            },
+            {
+              "subtype": "defense",
+              "value": 106
+            },
+            {
+              "subtype": "health",
+              "value": 265
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 33000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 11500
+            }
+          ],
+          "power": 32500,
+          "revive_seconds": 95400
+        },
+        {
+          "xp_required": 52768500,
+          "skill_points": 231,
+          "monster_skill_points": 105,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 12000
+            },
+            {
+              "subtype": "defense",
+              "value": 108
+            },
+            {
+              "subtype": "health",
+              "value": 270
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 35000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 12000
+            }
+          ],
+          "power": 35000,
+          "revive_seconds": 97200
+        },
+        {
+          "xp_required": 60268500,
+          "skill_points": 239,
+          "monster_skill_points": 109,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 12500
+            },
+            {
+              "subtype": "defense",
+              "value": 110
+            },
+            {
+              "subtype": "health",
+              "value": 275
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 35000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 12500
+            }
+          ],
+          "power": 37500,
+          "revive_seconds": 99000
+        },
+        {
+          "xp_required": 68268500,
+          "skill_points": 247,
+          "monster_skill_points": 113,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 13000
+            },
+            {
+              "subtype": "defense",
+              "value": 112
+            },
+            {
+              "subtype": "health",
+              "value": 280
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 36000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 13000
+            }
+          ],
+          "power": 40000,
+          "revive_seconds": 100800
+        },
+        {
+          "xp_required": 76768500,
+          "skill_points": 255,
+          "monster_skill_points": 117,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 13500
+            },
+            {
+              "subtype": "defense",
+              "value": 114
+            },
+            {
+              "subtype": "health",
+              "value": 285
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 37000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 13500
+            }
+          ],
+          "power": 42500,
+          "revive_seconds": 102600
+        },
+        {
+          "xp_required": 85668500,
+          "skill_points": 264,
+          "monster_skill_points": 121,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 14000
+            },
+            {
+              "subtype": "defense",
+              "value": 116
+            },
+            {
+              "subtype": "health",
+              "value": 290
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 38000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 14000
+            }
+          ],
+          "power": 45000,
+          "revive_seconds": 104400
+        },
+        {
+          "xp_required": 95268500,
+          "skill_points": 273,
+          "monster_skill_points": 125,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 14500
+            },
+            {
+              "subtype": "defense",
+              "value": 118
+            },
+            {
+              "subtype": "health",
+              "value": 295
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 39000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 14500
+            }
+          ],
+          "power": 47500,
+          "revive_seconds": 106200
+        },
+        {
+          "xp_required": 105268500,
+          "skill_points": 282,
+          "monster_skill_points": 129,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 15000
+            },
+            {
+              "subtype": "defense",
+              "value": 120
+            },
+            {
+              "subtype": "health",
+              "value": 300
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 40000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 15000
+            }
+          ],
+          "power": 50000,
+          "revive_seconds": 108000
+        },
+        {
+          "xp_required": 117768500,
+          "skill_points": 291,
+          "monster_skill_points": 133,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 16000
+            },
+            {
+              "subtype": "defense",
+              "value": 122
+            },
+            {
+              "subtype": "health",
+              "value": 310
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 41000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 16000
+            }
+          ],
+          "power": 55000,
+          "revive_seconds": 109800
+        },
+        {
+          "xp_required": 132768500,
+          "skill_points": 301,
+          "monster_skill_points": 138,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 17000
+            },
+            {
+              "subtype": "defense",
+              "value": 124
+            },
+            {
+              "subtype": "health",
+              "value": 320
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 42000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 17000
+            }
+          ],
+          "power": 60000,
+          "revive_seconds": 111600
+        },
+        {
+          "xp_required": 150268500,
+          "skill_points": 311,
+          "monster_skill_points": 143,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 18000
+            },
+            {
+              "subtype": "defense",
+              "value": 126
+            },
+            {
+              "subtype": "health",
+              "value": 330
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 43000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 18000
+            }
+          ],
+          "power": 65000,
+          "revive_seconds": 113400
+        },
+        {
+          "xp_required": 170268500,
+          "skill_points": 321,
+          "monster_skill_points": 148,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 19000
+            },
+            {
+              "subtype": "defense",
+              "value": 128
+            },
+            {
+              "subtype": "health",
+              "value": 340
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 44000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 19000
+            }
+          ],
+          "power": 70000,
+          "revive_seconds": 115200
+        },
+        {
+          "xp_required": 195268500,
+          "skill_points": 332,
+          "monster_skill_points": 153,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 20000
+            },
+            {
+              "subtype": "defense",
+              "value": 130
+            },
+            {
+              "subtype": "health",
+              "value": 350
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 45000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 20000
+            }
+          ],
+          "power": 75000,
+          "revive_seconds": 117000
+        },
+        {
+          "xp_required": 225268500,
+          "skill_points": 344,
+          "monster_skill_points": 159,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 22500
+            },
+            {
+              "subtype": "defense",
+              "value": 132
+            },
+            {
+              "subtype": "health",
+              "value": 360
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 46000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 22500
+            }
+          ],
+          "power": 80000,
+          "revive_seconds": 118800
+        },
+        {
+          "xp_required": 260268500,
+          "skill_points": 358,
+          "monster_skill_points": 166,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 25000
+            },
+            {
+              "subtype": "defense",
+              "value": 134
+            },
+            {
+              "subtype": "health",
+              "value": 370
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 47000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 25000
+            }
+          ],
+          "power": 85000,
+          "revive_seconds": 120600
+        },
+        {
+          "xp_required": 300268500,
+          "skill_points": 373,
+          "monster_skill_points": 173,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 30000
+            },
+            {
+              "subtype": "defense",
+              "value": 136
+            },
+            {
+              "subtype": "health",
+              "value": 380
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 48000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 30000
+            }
+          ],
+          "power": 90000,
+          "revive_seconds": 122400
+        },
+        {
+          "xp_required": 350268500,
+          "skill_points": 389,
+          "monster_skill_points": 181,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 35000
+            },
+            {
+              "subtype": "defense",
+              "value": 138
+            },
+            {
+              "subtype": "health",
+              "value": 390
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 49000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 35000
+            }
+          ],
+          "power": 95000,
+          "revive_seconds": 124200
+        },
+        {
+          "xp_required": 450268500,
+          "skill_points": 409,
+          "monster_skill_points": 191,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 40000
+            },
+            {
+              "subtype": "defense",
+              "value": 140
+            },
+            {
+              "subtype": "health",
+              "value": 400
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 50000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 40000
+            }
+          ],
+          "power": 100000,
+          "revive_seconds": 126000
+        },
+        {
+          "xp_required": 600267500,
+          "skill_points": 433,
+          "monster_skill_points": 202,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 45000
+            },
+            {
+              "subtype": "defense",
+              "value": 142
+            },
+            {
+              "subtype": "health",
+              "value": 410
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 52000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 45000
+            }
+          ],
+          "power": 110000,
+          "revive_seconds": 127800
+        },
+        {
+          "xp_required": 800267500,
+          "skill_points": 461,
+          "monster_skill_points": 214,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 50000
+            },
+            {
+              "subtype": "defense",
+              "value": 144
+            },
+            {
+              "subtype": "health",
+              "value": 420
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 54000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 50000
+            }
+          ],
+          "power": 120000,
+          "revive_seconds": 129600
+        },
+        {
+          "xp_required": 1100267500,
+          "skill_points": 493,
+          "monster_skill_points": 227,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 55000
+            },
+            {
+              "subtype": "defense",
+              "value": 146
+            },
+            {
+              "subtype": "health",
+              "value": 430
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 56000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 55000
+            }
+          ],
+          "power": 130000,
+          "revive_seconds": 131400
+        },
+        {
+          "xp_required": 1600267500,
+          "skill_points": 529,
+          "monster_skill_points": 241,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 60000
+            },
+            {
+              "subtype": "defense",
+              "value": 148
+            },
+            {
+              "subtype": "health",
+              "value": 440
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 58000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 60000
+            }
+          ],
+          "power": 140000,
+          "revive_seconds": 133200
+        },
+        {
+          "xp_required": 2600267500,
+          "skill_points": 569,
+          "monster_skill_points": 256,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 65000
+            },
+            {
+              "subtype": "defense",
+              "value": 150
+            },
+            {
+              "subtype": "health",
+              "value": 450
+            },
+            {
+              "subtype": "speed",
+              "value": 8
+            },
+            {
+              "subtype": "load",
+              "value": 60000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 65000
+            }
+          ],
+          "power": 150000,
+          "revive_seconds": 135000
+        },
+        {
+          "xp_required": 4100267500,
+          "skill_points": 589,
+          "monster_skill_points": 261,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 67500
+            },
+            {
+              "subtype": "defense",
+              "value": 152
+            },
+            {
+              "subtype": "health",
+              "value": 460
+            },
+            {
+              "subtype": "speed",
+              "value": 9
+            },
+            {
+              "subtype": "load",
+              "value": 62500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 70000
+            }
+          ],
+          "power": 175000,
+          "revive_seconds": 136800
+        },
+        {
+          "xp_required": 6100267500,
+          "skill_points": 609,
+          "monster_skill_points": 266,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 70000
+            },
+            {
+              "subtype": "defense",
+              "value": 154
+            },
+            {
+              "subtype": "health",
+              "value": 470
+            },
+            {
+              "subtype": "speed",
+              "value": 9
+            },
+            {
+              "subtype": "load",
+              "value": 65000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 75000
+            }
+          ],
+          "power": 200000,
+          "revive_seconds": 138600
+        },
+        {
+          "xp_required": 8600267500,
+          "skill_points": 629,
+          "monster_skill_points": 271,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 72500
+            },
+            {
+              "subtype": "defense",
+              "value": 156
+            },
+            {
+              "subtype": "health",
+              "value": 480
+            },
+            {
+              "subtype": "speed",
+              "value": 9
+            },
+            {
+              "subtype": "load",
+              "value": 67500
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 80000
+            }
+          ],
+          "power": 225000,
+          "revive_seconds": 140400
+        },
+        {
+          "xp_required": 13600267500,
+          "skill_points": 649,
+          "monster_skill_points": 276,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 75000
+            },
+            {
+              "subtype": "defense",
+              "value": 158
+            },
+            {
+              "subtype": "health",
+              "value": 490
+            },
+            {
+              "subtype": "speed",
+              "value": 9
+            },
+            {
+              "subtype": "load",
+              "value": 70000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 90000
+            }
+          ],
+          "power": 250000,
+          "revive_seconds": 142200
+        },
+        {
+          "xp_required": 23600267500,
+          "skill_points": 669,
+          "monster_skill_points": 281,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 80000
+            },
+            {
+              "subtype": "defense",
+              "value": 160
+            },
+            {
+              "subtype": "health",
+              "value": 500
+            },
+            {
+              "subtype": "speed",
+              "value": 10
+            },
+            {
+              "subtype": "load",
+              "value": 75000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 100000
+            }
+          ],
+          "power": 300000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 33600267500,
+          "skill_points": 674,
+          "monster_skill_points": 284,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 85000
+            },
+            {
+              "subtype": "defense",
+              "value": 162
+            },
+            {
+              "subtype": "health",
+              "value": 510
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 80000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 110000
+            }
+          ],
+          "power": 400000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 48600267500,
+          "skill_points": 679,
+          "monster_skill_points": 287,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 90000
+            },
+            {
+              "subtype": "defense",
+              "value": 164
+            },
+            {
+              "subtype": "health",
+              "value": 520
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 85000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 120000
+            }
+          ],
+          "power": 500000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 68600267500,
+          "skill_points": 684,
+          "monster_skill_points": 290,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 95000
+            },
+            {
+              "subtype": "defense",
+              "value": 166
+            },
+            {
+              "subtype": "health",
+              "value": 530
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 90000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 130000
+            }
+          ],
+          "power": 600000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 93600267500,
+          "skill_points": 689,
+          "monster_skill_points": 293,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 100000
+            },
+            {
+              "subtype": "defense",
+              "value": 168
+            },
+            {
+              "subtype": "health",
+              "value": 540
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 95000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 140000
+            }
+          ],
+          "power": 750000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 123600267500,
+          "skill_points": 694,
+          "monster_skill_points": 296,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 105000
+            },
+            {
+              "subtype": "defense",
+              "value": 170
+            },
+            {
+              "subtype": "health",
+              "value": 550
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 100000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 150000
+            }
+          ],
+          "power": 1000000,
+          "revive_seconds": 144000
+        }
+      ]
+    }
+  }
+}

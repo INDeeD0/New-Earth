@@ -1,0 +1,28 @@
+{
+  "_subtypes": {
+    "rarity1": {
+      "name": "~mission_rarity1",
+      "weight": 25
+    },
+    "rarity2": {
+      "name": "~mission_rarity2",
+      "weight": 35
+    },
+    "rarity3": {
+      "name": "~mission_rarity3",
+      "weight": 20
+    },
+    "rarity4": {
+      "name": "~mission_rarity4",
+      "weight": 14
+    },
+    "rarity5": {
+      "name": "~mission_rarity5",
+      "weight": 4
+    },
+    "rarity6": {
+      "name": "~mission_rarity6",
+      "weight": 2
+    }
+  }
+}

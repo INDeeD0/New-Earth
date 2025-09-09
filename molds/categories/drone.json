@@ -1,0 +1,49 @@
+{
+  "missions": [
+    {
+      "subtype": "collect_8h"
+    },
+    {
+      "subtype": "collect_16h"
+    },
+    {
+      "subtype": "collect_24h"
+    },
+    {
+      "subtype": "collect_48h"
+    },
+    {
+      "subtype": "collect_72h"
+    },
+    {
+      "subtype": "rescue_8h"
+    },
+    {
+      "subtype": "rescue_16h"
+    },
+    {
+      "subtype": "rescue_24h"
+    },
+    {
+      "subtype": "rescue_48h"
+    },
+    {
+      "subtype": "rescue_72h"
+    },
+    {
+      "subtype": "salvage_8h"
+    },
+    {
+      "subtype": "salvage_16h"
+    },
+    {
+      "subtype": "salvage_24h"
+    },
+    {
+      "subtype": "salvage_48h"
+    },
+    {
+      "subtype": "salvage_72h"
+    }
+  ]
+}

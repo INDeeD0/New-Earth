@@ -1,0 +1,1126 @@
+{
+  "_subtypes": {
+    "daily_reward_0": {
+      "items": [
+        {
+          "subtype": "boost_15m",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_1": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 15000
+        }
+      ]
+    },
+    "daily_reward_2": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 15000
+        }
+      ]
+    },
+    "daily_reward_3": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 15000
+        }
+      ]
+    },
+    "daily_reward_4": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 15000
+        }
+      ]
+    },
+    "daily_reward_5": {
+      "items": [
+        {
+          "subtype": "boost_1h",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_6": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 25
+        }
+      ]
+    },
+    "daily_reward_7": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 3000
+        }
+      ]
+    },
+    "daily_reward_8": {
+      "items": [
+        {
+          "subtype": "currency3_30k",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_9": {
+      "items": [
+        {
+          "subtype": "currency4_30k",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_10": {
+      "items": [
+        {
+          "subtype": "currency5_30k",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_11": {
+      "items": [
+        {
+          "subtype": "currency6_30k",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_12": {
+      "items": [
+        {
+          "subtype": "boost_1h",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_13": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 50
+        }
+      ]
+    },
+    "daily_reward_14": {
+      "items": [
+        {
+          "subtype": "currency7_15k",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_15": {
+      "items": [
+        {
+          "subtype": "hero_xp_5k",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_16": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 6000
+        }
+      ]
+    },
+    "daily_reward_17": {
+      "currencies": [
+        {
+          "subtype": "currency2",
+          "quantity": 10000
+        }
+      ]
+    },
+    "daily_reward_18": {
+      "items": [
+        {
+          "subtype": "mobile_outpost_vehicle",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_19": {
+      "items": [
+        {
+          "subtype": "new_missions_category1",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_20": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 75
+        }
+      ]
+    },
+    "daily_reward_21": {
+      "items": [
+        {
+          "subtype": "new_missions_category2",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_22": {
+      "items": [
+        {
+          "subtype": "currency3_30k",
+          "quantity": 2
+        }
+      ]
+    },
+    "daily_reward_23": {
+      "items": [
+        {
+          "subtype": "currency4_30k",
+          "quantity": 2
+        }
+      ]
+    },
+    "daily_reward_24": {
+      "items": [
+        {
+          "subtype": "currency5_30k",
+          "quantity": 2
+        }
+      ]
+    },
+    "daily_reward_25": {
+      "items": [
+        {
+          "subtype": "currency6_30k",
+          "quantity": 2
+        }
+      ]
+    },
+    "daily_reward_26": {
+      "items": [
+        {
+          "subtype": "currency7_15k",
+          "quantity": 2
+        }
+      ]
+    },
+    "daily_reward_27": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 100
+        }
+      ]
+    },
+    "daily_reward_28": {
+      "items": [
+        {
+          "subtype": "mobile_outpost_vehicle",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_29": {
+      "items": [
+        {
+          "subtype": "core_neutronium_crystal",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_30": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 10000
+        }
+      ]
+    },
+    "daily_reward_31": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 100
+        }
+      ]
+    },
+    "daily_reward_32": {
+      "items": [
+        {
+          "subtype": "vip_points_150",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_33": {
+      "items": [
+        {
+          "subtype": "core_classified_documents",
+          "quantity": 5
+        }
+      ]
+    },
+    "daily_reward_34": {
+      "units": [
+        {
+          "subtype": "tier_2_ground_vehicle",
+          "quantity": 50
+        }
+      ]
+    },
+    "daily_reward_35": {
+      "items": [
+        {
+          "subtype": "currency3_30k",
+          "quantity": 3
+        }
+      ]
+    },
+    "daily_reward_36": {
+      "items": [
+        {
+          "subtype": "vip_time_1h",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_37": {
+      "items": [
+        {
+          "subtype": "currency4_30k",
+          "quantity": 3
+        }
+      ]
+    },
+    "daily_reward_38": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 125
+        }
+      ]
+    },
+    "daily_reward_39": {
+      "items": [
+        {
+          "subtype": "currency5_30k",
+          "quantity": 3
+        }
+      ]
+    },
+    "daily_reward_40": {
+      "items": [
+        {
+          "subtype": "currency6_30k",
+          "quantity": 3
+        }
+      ]
+    },
+    "daily_reward_41": {
+      "units": [
+        {
+          "subtype": "tier_2_heavy_infantry",
+          "quantity": 100
+        }
+      ]
+    },
+    "daily_reward_42": {
+      "items": [
+        {
+          "subtype": "currency7_15k",
+          "quantity": 3
+        }
+      ]
+    },
+    "daily_reward_43": {
+      "items": [
+        {
+          "subtype": "core_alien_power_core",
+          "quantity": 5
+        }
+      ]
+    },
+    "daily_reward_44": {
+      "items": [
+        {
+          "subtype": "new_missions_category1",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_45": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 150
+        }
+      ]
+    },
+    "daily_reward_46": {
+      "items": [
+        {
+          "subtype": "core_alien_component",
+          "quantity": 5
+        }
+      ]
+    },
+    "daily_reward_47": {
+      "items": [
+        {
+          "subtype": "currency2_7k",
+          "quantity": 3
+        }
+      ]
+    },
+    "daily_reward_48": {
+      "units": [
+        {
+          "subtype": "tier_3_light_infantry",
+          "quantity": 100
+        }
+      ]
+    },
+    "daily_reward_49": {
+      "items": [
+        {
+          "subtype": "new_missions_category2",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_50": {
+      "items": [
+        {
+          "subtype": "vip_points_300",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_51": {
+      "items": [
+        {
+          "subtype": "core_alien_armor",
+          "quantity": 5
+        }
+      ]
+    },
+    "daily_reward_52": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 200
+        }
+      ]
+    },
+    "daily_reward_53": {
+      "items": [
+        {
+          "subtype": "vip_time_2h",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_54": {
+      "items": [
+        {
+          "subtype": "city_teleport",
+          "quantity": 1
+        }
+      ]
+    },
+    "daily_reward_55": {
+      "units": [
+        {
+          "subtype": "tier_3_air_vehicle",
+          "quantity": 150
+        }
+      ]
+    },
+    "period_reward_t1_0": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 2500
+        }
+      ]
+    },
+    "period_reward_t1_1": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 5000
+        }
+      ]
+    },
+    "period_reward_t1_2": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 2500
+        }
+      ]
+    },
+    "period_reward_t1_3": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 5000
+        }
+      ]
+    },
+    "period_reward_t1_4": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 2500
+        }
+      ]
+    },
+    "period_reward_t1_5": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 5000
+        }
+      ]
+    },
+    "period_reward_t1_6": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 2500
+        }
+      ]
+    },
+    "period_reward_t1_7": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 5000
+        }
+      ]
+    },
+    "period_reward_t1_8": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 2000
+        }
+      ]
+    },
+    "period_reward_t1_9": {
+      "hero_xp": 200
+    },
+    "period_reward_t1_10": {
+      "hero_xp": 500
+    },
+    "period_reward_t1_11": {
+      "items": [
+        {
+          "subtype": "boost_3m",
+          "quantity": 1
+        }
+      ]
+    },
+    "period_reward_t1_12": {
+      "items": [
+        {
+          "subtype": "boost_15m",
+          "quantity": 1
+        }
+      ]
+    },
+    "period_reward_t2_0": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 10000
+        }
+      ]
+    },
+    "period_reward_t2_1": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 12500
+        }
+      ]
+    },
+    "period_reward_t2_2": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 10000
+        }
+      ]
+    },
+    "period_reward_t2_3": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 12500
+        }
+      ]
+    },
+    "period_reward_t2_4": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 10000
+        }
+      ]
+    },
+    "period_reward_t2_5": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 12500
+        }
+      ]
+    },
+    "period_reward_t2_6": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 10000
+        }
+      ]
+    },
+    "period_reward_t2_7": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 12500
+        }
+      ]
+    },
+    "period_reward_t2_8": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 4000
+        }
+      ]
+    },
+    "period_reward_t2_9": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 6000
+        }
+      ]
+    },
+    "period_reward_t2_10": {
+      "hero_xp": 750
+    },
+    "period_reward_t2_11": {
+      "hero_xp": 1250
+    },
+    "period_reward_t2_12": {
+      "hero_xp": 2000
+    },
+    "period_reward_t2_13": {
+      "items": [
+        {
+          "subtype": "boost_15m",
+          "quantity": 1
+        }
+      ]
+    },
+    "period_reward_t2_14": {
+      "items": [
+        {
+          "subtype": "march_25_percent_boost",
+          "quantity": 1
+        }
+      ]
+    },
+    "period_reward_t2_15": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 10
+        }
+      ]
+    },
+    "period_reward_t3_0": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 25000
+        }
+      ]
+    },
+    "period_reward_t3_1": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 30000
+        }
+      ]
+    },
+    "period_reward_t3_2": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 25000
+        }
+      ]
+    },
+    "period_reward_t3_3": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 30000
+        }
+      ]
+    },
+    "period_reward_t3_4": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 25000
+        }
+      ]
+    },
+    "period_reward_t3_5": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 30000
+        }
+      ]
+    },
+    "period_reward_t3_6": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 25000
+        }
+      ]
+    },
+    "period_reward_t3_7": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 30000
+        }
+      ]
+    },
+    "period_reward_t3_8": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 15000
+        }
+      ]
+    },
+    "period_reward_t3_9": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 20000
+        }
+      ]
+    },
+    "period_reward_t3_10": {
+      "hero_xp": 4000
+    },
+    "period_reward_t3_11": {
+      "hero_xp": 5000
+    },
+    "period_reward_t3_12": {
+      "items": [
+        {
+          "subtype": "boost_1h",
+          "quantity": 1
+        }
+      ]
+    },
+    "period_reward_t3_13": {
+      "items": [
+        {
+          "subtype": "march_25_percent_boost",
+          "quantity": 1
+        }
+      ]
+    },
+    "period_reward_t3_14": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 25
+        }
+      ]
+    },
+    "epic_period_reward_t1_0": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 10000
+        }
+      ]
+    },
+    "epic_period_reward_t1_1": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 10000
+        }
+      ]
+    },
+    "epic_period_reward_t1_2": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 10000
+        }
+      ]
+    },
+    "epic_period_reward_t1_3": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 10000
+        }
+      ]
+    },
+    "epic_period_reward_t1_4": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 5000
+        }
+      ]
+    },
+    "epic_period_reward_t1_5": {
+      "hero_xp": 2000
+    },
+    "epic_period_reward_t1_6": {
+      "items": [
+        {
+          "subtype": "boost_1h",
+          "quantity": 1
+        }
+      ]
+    },
+    "epic_period_reward_t1_7": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 10
+        }
+      ]
+    },
+    "epic_period_reward_t2_0": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 20000
+        }
+      ]
+    },
+    "epic_period_reward_t2_1": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 20000
+        }
+      ]
+    },
+    "epic_period_reward_t2_2": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 20000
+        }
+      ]
+    },
+    "epic_period_reward_t2_3": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 20000
+        }
+      ]
+    },
+    "epic_period_reward_t2_4": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 10000
+        }
+      ]
+    },
+    "epic_period_reward_t2_5": {
+      "hero_xp": 3000
+    },
+    "epic_period_reward_t2_6": {
+      "items": [
+        {
+          "subtype": "boost_1h",
+          "quantity": 1
+        }
+      ]
+    },
+    "epic_period_reward_t2_7": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 20
+        }
+      ]
+    },
+    "epic_period_reward_t3_0": {
+      "currencies": [
+        {
+          "subtype": "currency3",
+          "quantity": 50000
+        }
+      ]
+    },
+    "epic_period_reward_t3_1": {
+      "currencies": [
+        {
+          "subtype": "currency4",
+          "quantity": 50000
+        }
+      ]
+    },
+    "epic_period_reward_t3_2": {
+      "currencies": [
+        {
+          "subtype": "currency5",
+          "quantity": 50000
+        }
+      ]
+    },
+    "epic_period_reward_t3_3": {
+      "currencies": [
+        {
+          "subtype": "currency6",
+          "quantity": 50000
+        }
+      ]
+    },
+    "epic_period_reward_t3_4": {
+      "currencies": [
+        {
+          "subtype": "currency7",
+          "quantity": 35000
+        }
+      ]
+    },
+    "epic_period_reward_t3_5": {
+      "hero_xp": 7500
+    },
+    "epic_period_reward_t3_6": {
+      "items": [
+        {
+          "subtype": "boost_3h",
+          "quantity": 1
+        }
+      ]
+    },
+    "epic_period_reward_t3_7": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 50
+        }
+      ]
+    },
+    "trickle_reward_1": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 700
+        }
+      ]
+    },
+    "trickle_reward_2": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 5000
+        }
+      ]
+    },
+    "player_move_reward": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 1000
+        }
+      ],
+      "items": [
+        {
+          "subtype": "player_move_pack",
+          "quantity": 1
+        }
+      ]
+    },
+    "returning_player_reward": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 1000
+        }
+      ],
+      "items": [
+        {
+          "subtype": "returning_player_pack",
+          "quantity": 1
+        }
+      ]
+    },
+    "mail_list_reward": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 500
+        }
+      ]
+    },
+    "thirdparty_reward": {
+      "currencies": [
+        {
+          "subtype": "currency1",
+          "quantity": 500
+        }
+      ]
+    },
+    "region_merge_reward_1": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 2000000
+        }
+      ]
+    },
+    "region_merge_reward_2": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 1000000
+        }
+      ]
+    },
+    "region_merge_reward_3": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 750000
+        }
+      ]
+    },
+    "region_merge_reward_4": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 500000
+        }
+      ]
+    },
+    "region_merge_reward_5": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 250000
+        }
+      ]
+    },
+    "region_merge_reward_6": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 100000
+        }
+      ]
+    },
+    "region_merge_reward_7": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 50000
+        }
+      ]
+    },
+    "region_merge_reward_1_doubled": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 4000000
+        }
+      ]
+    },
+    "region_merge_reward_2_doubled": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 2000000
+        }
+      ]
+    },
+    "region_merge_reward_3_doubled": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 1500000
+        }
+      ]
+    },
+    "region_merge_reward_4_doubled": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 1000000
+        }
+      ]
+    },
+    "region_merge_reward_5_doubled": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 500000
+        }
+      ]
+    },
+    "region_merge_reward_6_doubled": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 200000
+        }
+      ]
+    },
+    "region_merge_reward_7_doubled": {
+      "currencies": [
+        {
+          "subtype": "currency8",
+          "quantity": 100000
+        }
+      ]
+    },
+    "free_shop_reward": {
+      "items": [
+        {
+          "subtype": "premium_shop_free_chest",
+          "quantity": 1
+        }
+      ]
+    }
+  }
+}

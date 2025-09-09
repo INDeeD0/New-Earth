@@ -1,0 +1,1184 @@
+{
+  "_subtypes": {
+    "realm_leader": {
+      "name": "~title_realm_leader",
+      "stats": [
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "march_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        }
+      ]
+    },
+    "realm_buff_combatant": {
+      "name": "~title_the_commando",
+      "stats": [
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.08
+        }
+      ]
+    },
+    "realm_buff_defender": {
+      "name": "~title_the_strategist",
+      "stats": [
+        {
+          "subtype": "light_infantry_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "heavy_infantry_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "vehicle_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "air_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "mech_infantry_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_vehicle_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "prototype_infantry_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_vehicle_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "mech_antiair_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "mech_antipersonnel_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "prototype_air_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "prototype_sniper_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "alien_light_infantry_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "alien_heavy_infantry_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "alien_vehicle_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "alien_air_vehicle_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "mech_aircraft_health_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.05
+        }
+      ]
+    },
+    "realm_buff_resources": {
+      "name": "~title_the_economist",
+      "stats": [
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "currency7_generate_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "march_gather_modifier",
+          "value": 0,
+          "modifier": 0.25
+        }
+      ]
+    },
+    "realm_buff_researcher": {
+      "name": "~title_the_scientist",
+      "stats": [
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        }
+      ]
+    },
+    "realm_buff_attacker": {
+      "name": "~title_the_exterminator",
+      "stats": [
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.1
+        }
+      ]
+    },
+    "realm_buff_speed": {
+      "name": "~title_the_motivator",
+      "stats": [
+        {
+          "subtype": "structure_speed_modifier",
+          "value": 0,
+          "modifier": 0.05
+        },
+        {
+          "subtype": "march_gather_modifier",
+          "value": 0,
+          "modifier": 0.1
+        }
+      ]
+    },
+    "realm_buff_unit_production": {
+      "name": "~title_the_drill_sergeant",
+      "stats": [
+        {
+          "subtype": "light_infantry_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "heavy_infantry_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "vehicle_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "air_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_infantry_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_vehicle_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_infantry_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_vehicle_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antiair_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_air_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_sniper_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_light_infantry_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_vehicle_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_aircraft_produce_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        }
+      ]
+    },
+    "realm_debuff_defense": {
+      "name": "~title_the_traitor",
+      "stats": [
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": -0.1
+        }
+      ]
+    },
+    "realm_debuff_health": {
+      "name": "~title_the_injured",
+      "stats": [
+        {
+          "subtype": "light_infantry_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "heavy_infantry_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "vehicle_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "air_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_infantry_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_vehicle_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_infantry_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_vehicle_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_antiair_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_air_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_sniper_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_light_infantry_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_vehicle_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_aircraft_health_modifier",
+          "value": 0,
+          "modifier": -0.1
+        }
+      ]
+    },
+    "realm_debuff_slow": {
+      "name": "~title_the_slow",
+      "stats": [
+        {
+          "subtype": "march_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        }
+      ]
+    },
+    "realm_debuff_wasteful": {
+      "name": "~title_the_wasteful",
+      "stats": [
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "currency7_generate_modifier",
+          "value": 0,
+          "modifier": -0.1
+        }
+      ]
+    },
+    "realm_debuff_weak": {
+      "name": "~title_the_weak",
+      "stats": [
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": -0.05
+        }
+      ]
+    },
+    "realm_debuff_simple": {
+      "name": "~title_the_simple",
+      "stats": [
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": -0.05
+        }
+      ]
+    },
+    "realm_debuff_feeble": {
+      "name": "~title_the_feeble",
+      "stats": [
+        {
+          "subtype": "light_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "heavy_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "air_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_antiair_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_air_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "prototype_sniper_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_light_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        },
+        {
+          "subtype": "mech_aircraft_hospital_speed_modifier",
+          "value": 0,
+          "modifier": -0.1
+        }
+      ]
+    }
+  }
+}

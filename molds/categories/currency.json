@@ -1,0 +1,42 @@
+{
+  "load_multiplier": 1,
+  "tradable": true,
+  "req_storage": true,
+  "rare": false,
+  "premium": false,
+  "_subtypes": {
+    "currency1": {
+      "name": "~currency1",
+      "load_multiplier": 1000,
+      "tradable": false,
+      "req_storage": false,
+      "premium": true
+    },
+    "currency2": {
+      "name": "~currency2",
+      "tradable": false,
+      "req_storage": false
+    },
+    "currency3": {
+      "name": "~currency3"
+    },
+    "currency4": {
+      "name": "~currency4"
+    },
+    "currency5": {
+      "name": "~currency5"
+    },
+    "currency6": {
+      "name": "~currency6"
+    },
+    "currency7": {
+      "name": "~currency7",
+      "rare": true
+    },
+    "currency8": {
+      "name": "~currency8",
+      "tradable": false,
+      "req_storage": false
+    }
+  }
+}

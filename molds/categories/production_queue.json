@@ -1,0 +1,19 @@
+{
+  "_subtypes": {
+    "infantry": {
+      "entry_limit": 1
+    },
+    "vehicle": {
+      "entry_limit": 1
+    },
+    "defense": {
+      "entry_limit": 1
+    },
+    "hospital": {
+      "help_request_allowed": true
+    },
+    "specialized": {
+      "entry_limit": 1
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "connected_ts": "+TIMESTAMP",
+  "activated_ts": "+TIMESTAMP",
+  "push_enabled": true,
+  "push_preferences": 9196066717438951327,
+  "push_preferences_extra": 16383
+}

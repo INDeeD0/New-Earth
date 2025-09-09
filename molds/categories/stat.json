@@ -1,0 +1,2383 @@
+{
+  "_subtypes": {
+    "builders": {
+      "name": "~stat_builders",
+      "value": 1,
+      "modifier": 1
+    },
+    "researchers": {
+      "name": "~stat_researchers",
+      "value": 1,
+      "modifier": 1
+    },
+    "structure_speed_modifier": {
+      "name": "~stat_structure_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "research_speed_modifier": {
+      "name": "~stat_research_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "help_request_maximum_helpers": {
+      "name": "~stat_help_request_maximum_helpers",
+      "value": 10,
+      "modifier": 1
+    },
+    "light_infantry_produce_speed_modifier": {
+      "name": "~stat_light_infantry_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "heavy_infantry_produce_speed_modifier": {
+      "name": "~stat_heavy_infantry_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "vehicle_produce_speed_modifier": {
+      "name": "~stat_vehicle_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "air_produce_speed_modifier": {
+      "name": "~stat_air_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "basic_defense_produce_speed_modifier": {
+      "name": "~stat_basic_defense_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "advanced_defense_produce_speed_modifier": {
+      "name": "~stat_advanced_defense_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "experimental_defense_produce_speed_modifier": {
+      "name": "~stat_experimental_defense_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "air_defense_produce_speed_modifier": {
+      "name": "~stat_air_defense_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_infantry_produce_speed_modifier": {
+      "name": "~stat_mech_infantry_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_vehicle_produce_speed_modifier": {
+      "name": "~stat_mech_vehicle_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_infantry_produce_speed_modifier": {
+      "name": "~stat_prototype_infantry_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_vehicle_produce_speed_modifier": {
+      "name": "~stat_prototype_vehicle_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_antiair_produce_speed_modifier": {
+      "name": "~stat_mech_antiair_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_antipersonnel_produce_speed_modifier": {
+      "name": "~stat_mech_antipersonnel_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_air_produce_speed_modifier": {
+      "name": "~stat_prototype_air_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_sniper_produce_speed_modifier": {
+      "name": "~stat_prototype_sniper_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_light_infantry_produce_speed_modifier": {
+      "name": "~stat_alien_light_infantry_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_heavy_infantry_produce_speed_modifier": {
+      "name": "~stat_alien_heavy_infantry_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_vehicle_produce_speed_modifier": {
+      "name": "~stat_alien_vehicle_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_air_vehicle_produce_speed_modifier": {
+      "name": "~stat_alien_air_vehicle_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_aircraft_produce_speed_modifier": {
+      "name": "~stat_mech_aircraft_produce_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "light_infantry_hospital_speed_modifier": {
+      "name": "~stat_light_infantry_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "heavy_infantry_hospital_speed_modifier": {
+      "name": "~stat_heavy_infantry_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "vehicle_hospital_speed_modifier": {
+      "name": "~stat_vehicle_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "air_hospital_speed_modifier": {
+      "name": "~stat_air_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "basic_defense_hospital_speed_modifier": {
+      "name": "~stat_basic_defense_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "advanced_defense_hospital_speed_modifier": {
+      "name": "~stat_advanced_defense_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "experimental_defense_hospital_speed_modifier": {
+      "name": "~stat_experimental_defense_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "air_defense_hospital_speed_modifier": {
+      "name": "~stat_air_defense_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_infantry_hospital_speed_modifier": {
+      "name": "~stat_mech_infantry_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_vehicle_hospital_speed_modifier": {
+      "name": "~stat_mech_vehicle_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_infantry_hospital_speed_modifier": {
+      "name": "~stat_prototype_infantry_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_vehicle_hospital_speed_modifier": {
+      "name": "~stat_prototype_vehicle_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_antiair_hospital_speed_modifier": {
+      "name": "~stat_mech_antiair_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_antipersonnel_hospital_speed_modifier": {
+      "name": "~stat_mech_antipersonnel_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_air_hospital_speed_modifier": {
+      "name": "~stat_prototype_air_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "prototype_sniper_hospital_speed_modifier": {
+      "name": "~stat_prototype_sniper_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_light_infantry_hospital_speed_modifier": {
+      "name": "~stat_alien_light_infantry_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_heavy_infantry_hospital_speed_modifier": {
+      "name": "~stat_alien_heavy_infantry_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_vehicle_hospital_speed_modifier": {
+      "name": "~stat_alien_vehicle_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "alien_air_vehicle_hospital_speed_modifier": {
+      "name": "~stat_alien_air_vehicle_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mech_aircraft_hospital_speed_modifier": {
+      "name": "~stat_mech_aircraft_hospital_speed_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "infantry_productionqueue_capacity": {
+      "name": "~stat_infantry_productionqueue_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "vehicle_productionqueue_capacity": {
+      "name": "~stat_vehicle_productionqueue_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "defense_productionqueue_capacity": {
+      "name": "~stat_defense_productionqueue_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "hospital_productionqueue_capacity": {
+      "name": "~stat_hospital_productionqueue_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "specialized_productionqueue_capacity": {
+      "name": "~stat_specialized_productionqueue_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "shelter_hospital_produced_units_modifier": {
+      "name": "~stat_shelter_hospital_produced_units_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "discard_refund_static_units_modifier": {
+      "name": "~stat_discard_refund_static_units_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "discard_refund_non_static_units_modifier": {
+      "name": "~stat_discard_refund_non_static_units_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_max_energy": {
+      "name": "~stat_hero_max_energy",
+      "value": 1000,
+      "modifier": 1
+    },
+    "hero_energy_regen": {
+      "name": "~stat_hero_energy_regen",
+      "value": 4,
+      "modifier": 1
+    },
+    "hero_hunting_chain": {
+      "name": "~stat_hero_hunting_chain",
+      "value": 1,
+      "modifier": 1
+    },
+    "hero_hunting_chain_modifier": {
+      "name": "~stat_hero_hunting_chain_modifier",
+      "value": 1,
+      "modifier": 0.05,
+      "lock_value": true
+    },
+    "hero_skill_points": {
+      "name": "~stat_hero_skill_points",
+      "value": 0,
+      "modifier": 1
+    },
+    "hero_monster_skill_points": {
+      "name": "~stat_hero_monster_skill_points",
+      "value": 0,
+      "modifier": 1
+    },
+    "hero_revive_seconds_modifier": {
+      "name": "~stat_hero_revive_seconds_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "hero_xp_modifier": {
+      "name": "~stat_hero_xp_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_xp_loss_modifier": {
+      "name": "~stat_hero_xp_loss_modifier",
+      "value": 1,
+      "modifier": 0.5,
+      "lock_value": true
+    },
+    "hero_execute_reward_modifier": {
+      "name": "~stat_hero_execute_reward_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "hero_capture_chance_modifier": {
+      "name": "~stat_hero_capture_chance_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "carrier_revive_seconds_modifier": {
+      "name": "~stat_carrier_revive_seconds_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "carrier_xp_modifier": {
+      "name": "~stat_carrier_xp_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vip_time_modifier": {
+      "name": "~stat_vip_time_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vip_point_modifier": {
+      "name": "~stat_vip_point_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "currency3_generate_modifier": {
+      "name": "~stat_currency3_generate_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "currency4_generate_modifier": {
+      "name": "~stat_currency4_generate_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "currency5_generate_modifier": {
+      "name": "~stat_currency5_generate_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "currency6_generate_modifier": {
+      "name": "~stat_currency6_generate_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "currency7_generate_modifier": {
+      "name": "~stat_currency7_generate_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "unit_upkeep_modifier": {
+      "name": "~stat_unit_upkeep_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency3_limit_modifier": {
+      "name": "~stat_structure_currency3_limit_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency4_limit_modifier": {
+      "name": "~stat_structure_currency4_limit_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency5_limit_modifier": {
+      "name": "~stat_structure_currency5_limit_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency6_limit_modifier": {
+      "name": "~stat_structure_currency6_limit_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency7_limit_modifier": {
+      "name": "~stat_structure_currency7_limit_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency3_protected_modifier": {
+      "name": "~stat_structure_currency3_protected_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency4_protected_modifier": {
+      "name": "~stat_structure_currency4_protected_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency5_protected_modifier": {
+      "name": "~stat_structure_currency5_protected_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency6_protected_modifier": {
+      "name": "~stat_structure_currency6_protected_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency7_protected_modifier": {
+      "name": "~stat_structure_currency7_protected_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency3_storage_modifier": {
+      "name": "~stat_structure_currency3_storage_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency4_storage_modifier": {
+      "name": "~stat_structure_currency4_storage_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency5_storage_modifier": {
+      "name": "~stat_structure_currency5_storage_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency6_storage_modifier": {
+      "name": "~stat_structure_currency6_storage_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "structure_currency7_storage_modifier": {
+      "name": "~stat_structure_currency7_storage_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "mission_category1_instant_finish": {
+      "name": "~stat_mission_category1_instant_finish",
+      "value": 0,
+      "modifier": 1
+    },
+    "mission_category2_instant_finish": {
+      "name": "~stat_mission_category2_instant_finish",
+      "value": 0,
+      "modifier": 1
+    },
+    "scan_range": {
+      "name": "~stat_scan_range",
+      "value": 0,
+      "modifier": 1
+    },
+    "outpost_maximum": {
+      "name": "~stat_outpost_maximum",
+      "value": 0,
+      "modifier": 1
+    },
+    "bonus_static_unit_capacity": {
+      "name": "~stat_bonus_static_unit_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "bonus_station_unit_capacity": {
+      "name": "~stat_bonus_station_unit_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "bonus_hospital_unit_capacity": {
+      "name": "~stat_bonus_hospital_unit_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "bonus_shelter_unit_capacity": {
+      "name": "~stat_bonus_shelter_unit_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "resource_reward_modifier": {
+      "name": "~stat_resource_reward_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "radar_level": {
+      "name": "~stat_radar_level",
+      "value": 0,
+      "modifier": 1,
+      "combat": true
+    },
+    "scout_level": {
+      "name": "~stat_scout_level",
+      "value": 0,
+      "modifier": 1,
+      "combat": true
+    },
+    "rally_capacity": {
+      "name": "~stat_rally_capacity",
+      "value": 0,
+      "modifier": 1
+    },
+    "random_reward_modifier": {
+      "name": "~stat_random_reward_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_reward_modifier": {
+      "name": "~stat_hero_reward_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "march_speed_modifier": {
+      "name": "~stat_march_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "march_scout_speed_modifier": {
+      "name": "~stat_march_scout_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "march_collect_speed_modifier": {
+      "name": "~stat_march_collect_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "march_delivery_speed_modifier": {
+      "name": "~stat_march_delivery_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "march_rally_speed_modifier": {
+      "name": "~stat_march_rally_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "march_load_modifier": {
+      "name": "~stat_march_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "march_currency_tax_modifier": {
+      "name": "~stat_march_currency_tax_modifier",
+      "value": 1,
+      "modifier": 0.3,
+      "lock_value": true
+    },
+    "march_gather_modifier": {
+      "name": "~stat_march_gather_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "march_contest_modifier": {
+      "name": "~stat_march_contest_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "march_contest_cap": {
+      "name": "~stat_march_contest_cap",
+      "value": 5.55,
+      "modifier": 1,
+      "combat": true
+    },
+    "march_stationed_units_limit": {
+      "name": "~stat_march_stationed_units_limit",
+      "value": 1,
+      "modifier": 1,
+      "combat": true
+    },
+    "march_maximum": {
+      "name": "~stat_march_maximum",
+      "value": 0,
+      "modifier": 1,
+      "combat": true
+    },
+    "march_carrier_limit": {
+      "name": "~stat_march_carrier_limit",
+      "value": 1,
+      "modifier": 1,
+      "combat": true
+    },
+    "march_carrier_active_stats": {
+      "name": "~stat_march_carrier_active_stats",
+      "value": 2,
+      "modifier": 1,
+      "combat": true
+    },
+    "march_unit_capacity": {
+      "name": "~stat_march_unit_capacity",
+      "value": 100,
+      "modifier": 1,
+      "combat": true
+    },
+    "march_currency_capacity": {
+      "name": "~stat_march_currency_capacity",
+      "value": 0,
+      "modifier": 1,
+      "combat": true
+    },
+    "drone_collect_failure_modifier": {
+      "name": "~stat_drone_collect_failure_modifier",
+      "value": 1,
+      "modifier": 0.25,
+      "lock_value": true
+    },
+    "drone_rescue_failure_modifier": {
+      "name": "~stat_drone_rescue_failure_modifier",
+      "value": 1,
+      "modifier": 0.25,
+      "lock_value": true
+    },
+    "drone_salvage_failure_modifier": {
+      "name": "~stat_drone_salvage_failure_modifier",
+      "value": 1,
+      "modifier": 0.25,
+      "lock_value": true
+    },
+    "drone_bonus_reward1_modifier": {
+      "name": "~stat_drone_bonus_reward1_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "drone_bonus_reward2_modifier": {
+      "name": "~stat_drone_bonus_reward2_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "drone_premium_modifier": {
+      "name": "~stat_drone_premium_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "drone_mission_tier": {
+      "name": "~stat_drone_mission_tier",
+      "value": 1,
+      "modifier": 1
+    },
+    "drone_recharge_seconds": {
+      "name": "~stat_drone_recharge_seconds",
+      "value": 18000,
+      "modifier": 1
+    },
+    "friend_daily_collects": {
+      "name": "~stat_friend_daily_collects",
+      "value": 10,
+      "modifier": 1
+    },
+    "friend_collection_modifier": {
+      "name": "~stat_friend_collection_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "hunt_maximum_level": {
+      "name": "~stat_hunt_maximum_level",
+      "value": 9999,
+      "modifier": 1
+    },
+    "hunt_energy_modifier": {
+      "name": "~stat_hunt_energy_modifier",
+      "value": 1,
+      "modifier": 1,
+      "lock_value": true
+    },
+    "hunt_outgoing_speed_modifier": {
+      "name": "~stat_hunt_outgoing_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hunt_incoming_speed_modifier": {
+      "name": "~stat_hunt_incoming_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hunt_bonus_reward_modifier": {
+      "name": "~stat_hunt_bonus_reward_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hunt_defeated_energy_restore": {
+      "name": "~stat_hunt_defeated_energy_restore",
+      "value": 0,
+      "modifier": 1
+    },
+    "collect_maximum_level": {
+      "name": "~stat_collect_maximum_level",
+      "value": 9999,
+      "modifier": 1
+    },
+    "city_combat_modifier": {
+      "name": "~stat_city_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "march_combat_modifier": {
+      "name": "~stat_march_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "outpost_combat_modifier": {
+      "name": "~stat_outpost_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "rally_combat_modifier": {
+      "name": "~stat_rally_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "city_attacker_attack_modifier": {
+      "name": "~stat_city_attacker_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "attack_defender_combat_modifier": {
+      "name": "~stat_attack_defender_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "capturable_combat_modifier": {
+      "name": "~stat_capturable_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_city_unit_attack_modifier": {
+      "name": "~stat_hero_city_unit_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_city_unit_defense_modifier": {
+      "name": "~stat_hero_city_unit_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_city_unit_health_modifier": {
+      "name": "~stat_hero_city_unit_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_city_unit_monster_attack_modifier": {
+      "name": "~stat_hero_city_unit_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_city_unit_speed_modifier": {
+      "name": "~stat_hero_city_unit_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_city_unit_load_modifier": {
+      "name": "~stat_hero_city_unit_load_modfier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_march_unit_attack_modifier": {
+      "name": "~stat_hero_march_unit_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_march_unit_defense_modifier": {
+      "name": "~stat_hero_march_unit_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_march_unit_health_modifier": {
+      "name": "~stat_hero_march_unit_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_march_unit_monster_attack_modifier": {
+      "name": "~stat_hero_march_unit_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_march_unit_speed_modifier": {
+      "name": "~stat_hero_march_unit_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_march_unit_load_modifier": {
+      "name": "~stat_hero_march_unit_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "static_tier0_unit_save_modifier": {
+      "name": "~stat_static_tier0_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "static_tier1_unit_save_modifier": {
+      "name": "~stat_static_tier1_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "static_tier2_unit_save_modifier": {
+      "name": "~stat_static_tier2_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "static_tier3_unit_save_modifier": {
+      "name": "~stat_static_tier3_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "static_tier4_unit_save_modifier": {
+      "name": "~stat_static_tier4_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "static_tier5_unit_save_modifier": {
+      "name": "~stat_static_tier5_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "static_tier6_unit_save_modifier": {
+      "name": "~stat_static_tier6_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "offensive_tier0_unit_save_modifier": {
+      "name": "~stat_offensive_tier0_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "offensive_tier1_unit_save_modifier": {
+      "name": "~stat_offensive_tier1_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "offensive_tier2_unit_save_modifier": {
+      "name": "~stat_offensive_tier2_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "offensive_tier3_unit_save_modifier": {
+      "name": "~stat_offensive_tier3_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "offensive_tier4_unit_save_modifier": {
+      "name": "~stat_offensive_tier4_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "offensive_tier5_unit_save_modifier": {
+      "name": "~stat_offensive_tier5_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "offensive_tier6_unit_save_modifier": {
+      "name": "~stat_offensive_tier6_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "capturable_tier0_unit_save_modifier": {
+      "name": "~stat_capturable_tier0_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "capturable_tier1_unit_save_modifier": {
+      "name": "~stat_capturable_tier1_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "capturable_tier2_unit_save_modifier": {
+      "name": "~stat_capturable_tier2_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "capturable_tier3_unit_save_modifier": {
+      "name": "~stat_capturable_tier3_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "capturable_tier4_unit_save_modifier": {
+      "name": "~stat_capturable_tier4_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "capturable_tier5_unit_save_modifier": {
+      "name": "~stat_capturable_tier5_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "capturable_tier6_unit_save_modifier": {
+      "name": "~stat_capturable_tier6_unit_save_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "structure_attack_modifier": {
+      "name": "~stat_structure_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "light_infantry_attack_modifier": {
+      "name": "~stat_light_infantry_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "heavy_infantry_attack_modifier": {
+      "name": "~stat_heavy_infantry_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "vehicle_attack_modifier": {
+      "name": "~stat_vehicle_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "air_attack_modifier": {
+      "name": "~stat_air_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "basic_defense_attack_modifier": {
+      "name": "~stat_basic_defense_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "advanced_defense_attack_modifier": {
+      "name": "~stat_advanced_defense_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "experimental_defense_attack_modifier": {
+      "name": "~stat_experimental_defense_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "air_defense_attack_modifier": {
+      "name": "~stat_air_defense_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_infantry_attack_modifier": {
+      "name": "~stat_mech_infantry_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_vehicle_attack_modifier": {
+      "name": "~stat_mech_vehicle_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_infantry_attack_modifier": {
+      "name": "~stat_prototype_infantry_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_vehicle_attack_modifier": {
+      "name": "~stat_prototype_vehicle_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_antiair_attack_modifier": {
+      "name": "~stat_mech_antiair_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_antipersonnel_attack_modifier": {
+      "name": "~stat_mech_antipersonnel_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_air_attack_modifier": {
+      "name": "~stat_prototype_air_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_sniper_attack_modifier": {
+      "name": "~stat_prototype_sniper_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_light_infantry_attack_modifier": {
+      "name": "~stat_alien_light_infantry_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_heavy_infantry_attack_modifier": {
+      "name": "~stat_alien_heavy_infantry_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_vehicle_attack_modifier": {
+      "name": "~stat_alien_vehicle_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_air_vehicle_attack_modifier": {
+      "name": "~stat_alien_air_vehicle_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_aircraft_attack_modifier": {
+      "name": "~stat_mech_aircraft_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_attack_modifier": {
+      "name": "~stat_hero_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "carrier_attack_modifier": {
+      "name": "~stat_carrier_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "light_infantry_defense_modifier": {
+      "name": "~stat_light_infantry_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "heavy_infantry_defense_modifier": {
+      "name": "~stat_heavy_infantry_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "vehicle_defense_modifier": {
+      "name": "~stat_vehicle_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "air_defense_modifier": {
+      "name": "~stat_air_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "basic_defense_defense_modifier": {
+      "name": "~stat_basic_defense_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "advanced_defense_defense_modifier": {
+      "name": "~stat_advanced_defense_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "experimental_defense_defense_modifier": {
+      "name": "~stat_experimental_defense_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "air_defense_defense_modifier": {
+      "name": "~stat_air_defense_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_infantry_defense_modifier": {
+      "name": "~stat_mech_infantry_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_vehicle_defense_modifier": {
+      "name": "~stat_mech_vehicle_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_infantry_defense_modifier": {
+      "name": "~stat_prototype_infantry_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_vehicle_defense_modifier": {
+      "name": "~stat_prototype_vehicle_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_antiair_defense_modifier": {
+      "name": "~stat_mech_antiair_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_antipersonnel_defense_modifier": {
+      "name": "~stat_mech_antipersonnel_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_air_defense_modifier": {
+      "name": "~stat_prototype_air_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_sniper_defense_modifier": {
+      "name": "~stat_prototype_sniper_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_light_infantry_defense_modifier": {
+      "name": "~stat_alien_light_infantry_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_heavy_infantry_defense_modifier": {
+      "name": "~stat_alien_heavy_infantry_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_vehicle_defense_modifier": {
+      "name": "~stat_alien_vehicle_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_air_vehicle_defense_modifier": {
+      "name": "~stat_alien_air_vehicle_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_aircraft_defense_modifier": {
+      "name": "~stat_mech_aircraft_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_defense_modifier": {
+      "name": "~stat_hero_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "carrier_defense_modifier": {
+      "name": "~stat_carrier_defense_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "light_infantry_health_modifier": {
+      "name": "~stat_light_infantry_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "heavy_infantry_health_modifier": {
+      "name": "~stat_heavy_infantry_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "vehicle_health_modifier": {
+      "name": "~stat_vehicle_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "air_health_modifier": {
+      "name": "~stat_air_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "basic_defense_health_modifier": {
+      "name": "~stat_basic_defense_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "advanced_defense_health_modifier": {
+      "name": "~stat_advanced_defense_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "experimental_defense_health_modifier": {
+      "name": "~stat_experimental_defense_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "air_defense_health_modifier": {
+      "name": "~stat_air_defense_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_infantry_health_modifier": {
+      "name": "~stat_mech_infantry_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_vehicle_health_modifier": {
+      "name": "~stat_mech_vehicle_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_infantry_health_modifier": {
+      "name": "~stat_prototype_infantry_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_vehicle_health_modifier": {
+      "name": "~stat_prototype_vehicle_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_antiair_health_modifier": {
+      "name": "~stat_mech_antiair_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_antipersonnel_health_modifier": {
+      "name": "~stat_mech_antipersonnel_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_air_health_modifier": {
+      "name": "~stat_prototype_air_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "prototype_sniper_health_modifier": {
+      "name": "~stat_prototype_sniper_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_light_infantry_health_modifier": {
+      "name": "~stat_alien_light_infantry_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_heavy_infantry_health_modifier": {
+      "name": "~stat_alien_heavy_infantry_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_vehicle_health_modifier": {
+      "name": "~stat_alien_vehicle_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "alien_air_vehicle_health_modifier": {
+      "name": "~stat_alien_air_vehicle_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "mech_aircraft_health_modifier": {
+      "name": "~stat_mech_aircraft_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "hero_health_modifier": {
+      "name": "~stat_hero_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "carrier_health_modifier": {
+      "name": "~stat_carrier_health_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true,
+      "combat": true
+    },
+    "light_infantry_speed_modifier": {
+      "name": "~stat_light_infantry_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_speed_modifier": {
+      "name": "~stat_heavy_infantry_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_speed_modifier": {
+      "name": "~stat_vehicle_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_speed_modifier": {
+      "name": "~stat_air_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_speed_modifier": {
+      "name": "~stat_basic_defense_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_speed_modifier": {
+      "name": "~stat_advanced_defense_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_speed_modifier": {
+      "name": "~stat_experimental_defense_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_speed_modifier": {
+      "name": "~stat_air_defense_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_infantry_speed_modifier": {
+      "name": "~stat_mech_infantry_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_vehicle_speed_modifier": {
+      "name": "~stat_mech_vehicle_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_infantry_speed_modifier": {
+      "name": "~stat_prototype_infantry_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_vehicle_speed_modifier": {
+      "name": "~stat_prototype_vehicle_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antiair_speed_modifier": {
+      "name": "~stat_mech_antiair_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antipersonnel_speed_modifier": {
+      "name": "~stat_mech_antipersonnel_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_air_speed_modifier": {
+      "name": "~stat_prototype_air_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_sniper_speed_modifier": {
+      "name": "~stat_prototype_sniper_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_light_infantry_speed_modifier": {
+      "name": "~stat_alien_light_infantry_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_heavy_infantry_speed_modifier": {
+      "name": "~stat_alien_heavy_infantry_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_vehicle_speed_modifier": {
+      "name": "~stat_alien_vehicle_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_air_vehicle_speed_modifier": {
+      "name": "~stat_alien_air_vehicle_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_aircraft_speed_modifier": {
+      "name": "~stat_mech_aircraft_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_speed_modifier": {
+      "name": "~stat_hero_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "carrier_speed_modifier": {
+      "name": "~stat_carrier_speed_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_load_modifier": {
+      "name": "~stat_light_infantry_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_load_modifier": {
+      "name": "~stat_heavy_infantry_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_load_modifier": {
+      "name": "~stat_vehicle_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_load_modifier": {
+      "name": "~stat_air_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_load_modifier": {
+      "name": "~stat_basic_defense_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_load_modifier": {
+      "name": "~stat_advanced_defense_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_load_modifier": {
+      "name": "~stat_experimental_defense_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_load_modifier": {
+      "name": "~stat_air_defense_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_infantry_load_modifier": {
+      "name": "~stat_mech_infantry_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_vehicle_load_modifier": {
+      "name": "~stat_mech_vehicle_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_infantry_load_modifier": {
+      "name": "~stat_prototype_infantry_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_vehicle_load_modifier": {
+      "name": "~stat_prototype_vehicle_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antiair_load_modifier": {
+      "name": "~stat_mech_antiair_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antipersonnel_load_modifier": {
+      "name": "~stat_mech_antipersonnel_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_air_load_modifier": {
+      "name": "~stat_prototype_air_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_sniper_load_modifier": {
+      "name": "~stat_prototype_sniper_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_light_infantry_load_modifier": {
+      "name": "~stat_alien_light_infantry_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_heavy_infantry_load_modifier": {
+      "name": "~stat_alien_heavy_infantry_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_vehicle_load_modifier": {
+      "name": "~stat_alien_vehicle_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_air_vehicle_load_modifier": {
+      "name": "~stat_alien_air_vehicle_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_aircraft_load_modifier": {
+      "name": "~stat_mech_aircraft_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_load_modifier": {
+      "name": "~stat_hero_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "carrier_load_modifier": {
+      "name": "~stat_carrier_load_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_monster_attack_modifier": {
+      "name": "~stat_light_infantry_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_monster_attack_modifier": {
+      "name": "~stat_heavy_infantry_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_monster_attack_modifier": {
+      "name": "~stat_vehicle_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_monster_attack_modifier": {
+      "name": "~stat_air_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_monster_attack_modifier": {
+      "name": "~stat_basic_defense_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_monster_attack_modifier": {
+      "name": "~stat_advanced_defense_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_monster_attack_modifier": {
+      "name": "~stat_experimental_defense_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_monster_attack_modifier": {
+      "name": "~stat_air_defense_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_infantry_monster_attack_modifier": {
+      "name": "~stat_mech_infantry_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_vehicle_monster_attack_modifier": {
+      "name": "~stat_mech_vehicle_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_infantry_monster_attack_modifier": {
+      "name": "~stat_prototype_infantry_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_vehicle_monster_attack_modifier": {
+      "name": "~stat_prototype_vehicle_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antiair_monster_attack_modifier": {
+      "name": "~stat_mech_antiair_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antipersonnel_monster_attack_modifier": {
+      "name": "~stat_mech_antipersonnel_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_air_monster_attack_modifier": {
+      "name": "~stat_prototype_air_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_sniper_monster_attack_modifier": {
+      "name": "~stat_prototype_sniper_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_light_infantry_monster_attack_modifier": {
+      "name": "~stat_alien_light_infantry_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_heavy_infantry_monster_attack_modifier": {
+      "name": "~stat_alien_heavy_infantry_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_vehicle_monster_attack_modifier": {
+      "name": "~stat_alien_vehicle_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_air_vehicle_monster_attack_modifier": {
+      "name": "~stat_alien_air_vehicle_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_monster_attack_modifier": {
+      "name": "~stat_hero_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "carrier_monster_attack_modifier": {
+      "name": "~stat_carrier_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_t0_cost_modifier": {
+      "name": "~stat_basic_defense_t0_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_t1_cost_modifier": {
+      "name": "~stat_light_infantry_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_t1_cost_modifier": {
+      "name": "~stat_heavy_infantry_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_t1_cost_modifier": {
+      "name": "~stat_vehicle_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_t1_cost_modifier": {
+      "name": "~stat_air_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_t1_cost_modifier": {
+      "name": "~stat_basic_defense_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_t1_cost_modifier": {
+      "name": "~stat_advanced_defense_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_t1_cost_modifier": {
+      "name": "~stat_experimental_defense_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_t1_cost_modifier": {
+      "name": "~stat_air_defense_t1_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_t2_cost_modifier": {
+      "name": "~stat_light_infantry_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_t2_cost_modifier": {
+      "name": "~stat_heavy_infantry_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_t2_cost_modifier": {
+      "name": "~stat_vehicle_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_t2_cost_modifier": {
+      "name": "~stat_air_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_t2_cost_modifier": {
+      "name": "~stat_basic_defense_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_t2_cost_modifier": {
+      "name": "~stat_advanced_defense_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_t2_cost_modifier": {
+      "name": "~stat_experimental_defense_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_t2_cost_modifier": {
+      "name": "~stat_air_defense_t2_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_t3_cost_modifier": {
+      "name": "~stat_light_infantry_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_t3_cost_modifier": {
+      "name": "~stat_heavy_infantry_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_t3_cost_modifier": {
+      "name": "~stat_vehicle_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_t3_cost_modifier": {
+      "name": "~stat_air_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_t3_cost_modifier": {
+      "name": "~stat_basic_defense_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_t3_cost_modifier": {
+      "name": "~stat_advanced_defense_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_t3_cost_modifier": {
+      "name": "~stat_experimental_defense_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_t3_cost_modifier": {
+      "name": "~stat_air_defense_t3_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_t4_cost_modifier": {
+      "name": "~stat_light_infantry_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_t4_cost_modifier": {
+      "name": "~stat_heavy_infantry_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_t4_cost_modifier": {
+      "name": "~stat_vehicle_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_t4_cost_modifier": {
+      "name": "~stat_air_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_t4_cost_modifier": {
+      "name": "~stat_basic_defense_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_t4_cost_modifier": {
+      "name": "~stat_advanced_defense_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_t4_cost_modifier": {
+      "name": "~stat_experimental_defense_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_t4_cost_modifier": {
+      "name": "~stat_air_defense_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_infantry_t4_cost_modifier": {
+      "name": "~stat_mech_infantry_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_vehicle_t4_cost_modifier": {
+      "name": "~stat_mech_vehicle_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_infantry_t4_cost_modifier": {
+      "name": "~stat_prototype_infantry_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_vehicle_t4_cost_modifier": {
+      "name": "~stat_prototype_vehicle_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antiair_t4_cost_modifier": {
+      "name": "~stat_mech_antiair_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_antipersonnel_t4_cost_modifier": {
+      "name": "~stat_mech_antipersonnel_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_air_t4_cost_modifier": {
+      "name": "~stat_prototype_air_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_sniper_t4_cost_modifier": {
+      "name": "~stat_prototype_sniper_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_light_infantry_t4_cost_modifier": {
+      "name": "~stat_alien_light_infantry_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_heavy_infantry_t4_cost_modifier": {
+      "name": "~stat_alien_heavy_infantry_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_vehicle_t4_cost_modifier": {
+      "name": "~stat_alien_vehicle_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_air_vehicle_t4_cost_modifier": {
+      "name": "~stat_alien_air_vehicle_t4_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_t5_cost_modifier": {
+      "name": "~stat_light_infantry_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_t5_cost_modifier": {
+      "name": "~stat_heavy_infantry_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_t5_cost_modifier": {
+      "name": "~stat_vehicle_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_t5_cost_modifier": {
+      "name": "~stat_air_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_t5_cost_modifier": {
+      "name": "~stat_basic_defense_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_t5_cost_modifier": {
+      "name": "~stat_advanced_defense_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_t5_cost_modifier": {
+      "name": "~stat_experimental_defense_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_t5_cost_modifier": {
+      "name": "~stat_air_defense_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_aircraft_t5_cost_modifier": {
+      "name": "~stat_mech_aircraft_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_vehicle_t5_cost_modifier": {
+      "name": "~stat_prototype_vehicle_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_heavy_infantry_t5_cost_modifier": {
+      "name": "~stat_alien_heavy_infantry_t5_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_infantry_t6_cost_modifier": {
+      "name": "~stat_mech_infantry_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "prototype_air_t6_cost_modifier": {
+      "name": "~stat_prototype_air_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_light_infantry_t6_cost_modifier": {
+      "name": "~stat_alien_light_infantry_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "basic_defense_t6_cost_modifier": {
+      "name": "~stat_basic_defense_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "advanced_defense_t6_cost_modifier": {
+      "name": "~stat_advanced_defense_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "experimental_defense_t6_cost_modifier": {
+      "name": "~stat_experimental_defense_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_defense_t6_cost_modifier": {
+      "name": "~stat_air_defense_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "light_infantry_t6_cost_modifier": {
+      "name": "~stat_light_infantry_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "heavy_infantry_t6_cost_modifier": {
+      "name": "~stat_heavy_infantry_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "vehicle_t6_cost_modifier": {
+      "name": "~stat_vehicle_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "air_t6_cost_modifier": {
+      "name": "~stat_air_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alliance_max_members": {
+      "name": "~stat_alliance_max_members",
+      "value": 50,
+      "modifier": 1
+    },
+    "alliance_rally_limit": {
+      "name": "~stat_alliance_rally_limit",
+      "value": 10,
+      "modifier": 1
+    },
+    "alliance_bonus_cache_modifier": {
+      "name": "~stat_alliance_bonus_cache_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alliance_cache_xp_modifier": {
+      "name": "~stat_alliance_cache_xp_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    }
+  }
+}

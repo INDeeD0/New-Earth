@@ -1,0 +1,388 @@
+{
+  "_subtypes": {
+    "basic_defense": {
+      "name": "~unit_type_basic_defense",
+      "bonus": [
+        {
+          "target_subtype": "light_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "air"
+        }
+      ]
+    },
+    "advanced_defense": {
+      "name": "~unit_type_advanced_defense",
+      "bonus": [
+        {
+          "target_subtype": "vehicle"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "air"
+        }
+      ]
+    },
+    "experimental_defense": {
+      "name": "~unit_type_experimental_defense",
+      "bonus": [
+        {
+          "target_subtype": "heavy_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "air"
+        }
+      ]
+    },
+    "air_defense": {
+      "name": "~unit_type_air_defense",
+      "bonus": [
+        {
+          "target_subtype": "air"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "light_infantry"
+        },
+        {
+          "target_subtype": "heavy_infantry"
+        },
+        {
+          "target_subtype": "vehicle"
+        }
+      ]
+    },
+    "light_infantry": {
+      "name": "~unit_type_light_infantry",
+      "bonus": [
+        {
+          "target_subtype": "heavy_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        }
+      ]
+    },
+    "heavy_infantry": {
+      "name": "~unit_type_heavy_infantry",
+      "bonus": [
+        {
+          "target_subtype": "vehicle"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        }
+      ]
+    },
+    "vehicle": {
+      "name": "~unit_type_vehicle",
+      "bonus": [
+        {
+          "target_subtype": "light_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        }
+      ]
+    },
+    "air": {
+      "name": "~unit_type_air",
+      "bonus": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "light_infantry"
+        },
+        {
+          "target_subtype": "heavy_infantry"
+        },
+        {
+          "target_subtype": "vehicle"
+        }
+      ]
+    },
+    "mech_infantry": {
+      "name": "~unit_type_mech_infantry",
+      "bonus": [
+        {
+          "target_subtype": "heavy_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "vehicle"
+        }
+      ]
+    },
+    "mech_vehicle": {
+      "name": "~unit_type_mech_vehicle",
+      "bonus": [
+        {
+          "target_subtype": "vehicle"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "heavy_infantry"
+        }
+      ]
+    },
+    "mech_antiair": {
+      "name": "~unit_type_mech_antiair",
+      "bonus": [
+        {
+          "target_subtype": "air"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "light_infantry"
+        }
+      ]
+    },
+    "mech_antipersonnel": {
+      "name": "~unit_type_mech_antipersonnel",
+      "bonus": [
+        {
+          "target_subtype": "light_infantry"
+        },
+        {
+          "target_subtype": "heavy_infantry"
+        },
+        {
+          "target_subtype": "prototype_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "air"
+        }
+      ]
+    },
+    "mech_aircraft": {
+      "name": "~unit_type_air_mech",
+      "bonus": [
+        {
+          "target_subtype": "vehicle"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "prototype_sniper"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "prototype_vehicle"
+        }
+      ]
+    },
+    "prototype_infantry": {
+      "name": "~unit_type_prototype_infantry",
+      "bonus": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "air"
+        }
+      ]
+    },
+    "prototype_sniper": {
+      "name": "~unit_type_prototype_sniper",
+      "bonus": [
+        {
+          "target_subtype": "light_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "vehicle"
+        }
+      ]
+    },
+    "prototype_vehicle": {
+      "name": "~unit_type_prototype_vehicle",
+      "bonus": [
+        {
+          "target_subtype": "mech_vehicle"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        }
+      ]
+    },
+    "prototype_air": {
+      "name": "~unit_type_prototype_air",
+      "bonus": [
+        {
+          "target_subtype": "air"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "light_infantry"
+        }
+      ]
+    },
+    "alien": {
+      "name": "~unit_type_alien",
+      "npc_only": true
+    },
+    "blackops": {
+      "name": "~unit_type_blackops",
+      "npc_only": true
+    },
+    "alien_light_infantry": {
+      "name": "~unit_type_alien_light_infantry",
+      "bonus": [
+        {
+          "target_subtype": "air"
+        },
+        {
+          "target_subtype": "prototype_air"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "heavy_infantry"
+        }
+      ]
+    },
+    "alien_heavy_infantry": {
+      "name": "~unit_type_alien_heavy_infantry",
+      "bonus": [
+        {
+          "target_subtype": "light_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "vehicle"
+        },
+        {
+          "target_subtype": "mech_vehicle"
+        }
+      ]
+    },
+    "alien_vehicle": {
+      "name": "~unit_type_alien_vehicle",
+      "bonus": [
+        {
+          "target_subtype": "light_infantry"
+        },
+        {
+          "target_subtype": "heavy_infantry"
+        },
+        {
+          "target_subtype": "prototype_infantry"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        },
+        {
+          "target_subtype": "air_defense"
+        },
+        {
+          "target_subtype": "mech_vehicle"
+        }
+      ]
+    },
+    "alien_air_vehicle": {
+      "name": "~unit_type_alien_air_vehicle",
+      "bonus": [
+        {
+          "target_subtype": "basic_defense"
+        },
+        {
+          "target_subtype": "advanced_defense"
+        },
+        {
+          "target_subtype": "experimental_defense"
+        },
+        {
+          "target_subtype": "air_defense"
+        }
+      ],
+      "weakness": [
+        {
+          "target_subtype": "air"
+        },
+        {
+          "target_subtype": "prototype_air"
+        },
+        {
+          "target_subtype": "mech_antiair"
+        }
+      ]
+    },
+    "scavengers": {
+      "name": "~unit_type_scavengers",
+      "npc_only": true
+    }
+  }
+}

@@ -1,0 +1,1201 @@
+{
+  "_subtypes": {
+    "visited_realm": {
+      "name": "~counter_visited_realm"
+    },
+    "dailies": {
+      "name": "~counter_dailies"
+    },
+    "consecutive_vip_points": {
+      "name": "~counter_consecutive_vip_points"
+    },
+    "alliances_joined": {
+      "name": "~counter_alliances_joined"
+    },
+    "regular_period_rewards": {
+      "name": "~counter_regular_period_rewards"
+    },
+    "epic_period_rewards": {
+      "name": "~counter_epic_period_rewards"
+    },
+    "alliance_members_helped": {
+      "name": "~counter_alliance_members_helped"
+    },
+    "alliance_items_donated": {
+      "name": "~counter_alliance_items_donated"
+    },
+    "alliance_currency_donated": {
+      "name": "~counter_alliance_currency_donated"
+    },
+    "upgraded_harvest_outposts": {
+      "name": "~counter_upgraded_harvest_outposts"
+    },
+    "upgraded_strategic_outposts": {
+      "name": "~counter_upgraded_strategic_outposts"
+    },
+    "destroyed_harvest_outposts": {
+      "name": "~counter_destroyed_harvest_outposts"
+    },
+    "destroyed_strategic_outposts": {
+      "name": "~counter_destroyed_strategic_outposts"
+    },
+    "built_headquarters": {
+      "name": "~counter_built_headquarters"
+    },
+    "built_outpost_strategic": {
+      "name": "~counter_built_outpost_strategic"
+    },
+    "built_outpost_harvest": {
+      "name": "~counter_built_outpost_harvest"
+    },
+    "built_oilrig": {
+      "name": "~counter_built_oilrig"
+    },
+    "built_alloyrefinery": {
+      "name": "~counter_built_alloyrefinery"
+    },
+    "built_hydroponicfarm": {
+      "name": "~counter_built_hydroponicfarm"
+    },
+    "built_blackmarket": {
+      "name": "~counter_built_blackmarket"
+    },
+    "built_supplydepot": {
+      "name": "~counter_built_supplydepot"
+    },
+    "built_commandpost": {
+      "name": "~counter_built_commandpost"
+    },
+    "built_satelliteuplink": {
+      "name": "~counter_built_satelliteuplink"
+    },
+    "built_medicalbay": {
+      "name": "~counter_built_medicalbay"
+    },
+    "built_barracks": {
+      "name": "~counter_built_barracks"
+    },
+    "built_globalnetwork": {
+      "name": "~counter_built_globalnetwork"
+    },
+    "built_hostilecontainment": {
+      "name": "~counter_built_hostilecontainment"
+    },
+    "built_factory": {
+      "name": "~counter_built_factory"
+    },
+    "built_researchlab": {
+      "name": "~counter_built_researchlab"
+    },
+    "built_engineering": {
+      "name": "~counter_built_engineering"
+    },
+    "built_securitystation": {
+      "name": "~counter_built_securitystation"
+    },
+    "built_walls": {
+      "name": "~counter_built_walls"
+    },
+    "built_turret": {
+      "name": "~counter_built_turret"
+    },
+    "built_airstrip": {
+      "name": "~counter_built_airstrip"
+    },
+    "built_war_room": {
+      "name": "~counter_built_war_room"
+    },
+    "built_shelter": {
+      "name": "~counter_built_shelter"
+    },
+    "built_shardcondenser": {
+      "name": "~counter_built_shardcondenser"
+    },
+    "built_hero_armory": {
+      "name": "~counter_built_hero_armory"
+    },
+    "built_robotics_bay": {
+      "name": "~counter_built_robotics_bay"
+    },
+    "built_experimentation_chamber": {
+      "name": "~counter_built_experimentation_chamber"
+    },
+    "built_alien_genetics_lab": {
+      "name": "~counter_built_alien_genetics_lab"
+    },
+    "daily_trials_claimed": {
+      "name": "~counter_daily_trials_claimed"
+    },
+    "objectives_collected": {
+      "name": "~counter_objectives_collected"
+    },
+    "missions_category1_collected": {
+      "name": "~counter_missions_category1_collected"
+    },
+    "missions_category2_collected": {
+      "name": "~counter_missions_category2_collected"
+    },
+    "missions_rarity1_collected": {
+      "name": "~counter_missions_rarity1_collected"
+    },
+    "missions_rarity2_collected": {
+      "name": "~counter_missions_rarity2_collected"
+    },
+    "missions_rarity3_collected": {
+      "name": "~counter_missions_rarity3_collected"
+    },
+    "missions_rarity4_collected": {
+      "name": "~counter_missions_rarity4_collected"
+    },
+    "missions_rarity5_collected": {
+      "name": "~counter_missions_rarity5_collected"
+    },
+    "missions_rarity6_collected": {
+      "name": "~counter_missions_rarity6_collected"
+    },
+    "hunt_locations": {
+      "name": "~counter_hunt_locations"
+    },
+    "hunt_locations_level1": {
+      "name": "~counter_hunt_locations_level1"
+    },
+    "hunt_locations_level2": {
+      "name": "~counter_hunt_locations_level2"
+    },
+    "hunt_locations_level3": {
+      "name": "~counter_hunt_locations_level3"
+    },
+    "hunt_locations_level4": {
+      "name": "~counter_hunt_locations_level4"
+    },
+    "hunt_locations_level5": {
+      "name": "~counter_hunt_locations_level5"
+    },
+    "hunt_locations_level6": {
+      "name": "~counter_hunt_locations_level6"
+    },
+    "hunt_locations_level7": {
+      "name": "~counter_hunt_locations_level7"
+    },
+    "hunt_locations_level8": {
+      "name": "~counter_hunt_locations_level8"
+    },
+    "hunt_locations_level9": {
+      "name": "~counter_hunt_locations_level9"
+    },
+    "hunt_locations_level10": {
+      "name": "~counter_hunt_locations_level10"
+    },
+    "hunt_locations_level11": {
+      "name": "~counter_hunt_locations_level11"
+    },
+    "hunt_locations_level12": {
+      "name": "~counter_hunt_locations_level12"
+    },
+    "hunt_locations_level13": {
+      "name": "~counter_hunt_locations_level13"
+    },
+    "hunt_locations_level14": {
+      "name": "~counter_hunt_locations_level14"
+    },
+    "hunt_locations_level15": {
+      "name": "~counter_hunt_locations_level15"
+    },
+    "hunt_locations_level20": {
+      "name": "~counter_hunt_locations_level20"
+    },
+    "hunt_locations_level25": {
+      "name": "~counter_hunt_locations_level25"
+    },
+    "hunt_locations_level30": {
+      "name": "~counter_hunt_locations_level30"
+    },
+    "hunt_locations_level35": {
+      "name": "~counter_hunt_locations_level35"
+    },
+    "hunt_locations_level40": {
+      "name": "~counter_hunt_locations_level40"
+    },
+    "hunt_locations_level45": {
+      "name": "~counter_hunt_locations_level45"
+    },
+    "hunt_locations_level50": {
+      "name": "~counter_hunt_locations_level50"
+    },
+    "hunt_locations_attacks": {
+      "name": "~counter_hunt_locations_attacks"
+    },
+    "hunt_locations_attacks_level1": {
+      "name": "~counter_hunt_locations_attacks_level1"
+    },
+    "hunt_locations_attacks_level2": {
+      "name": "~counter_hunt_locations_attacks_level2"
+    },
+    "hunt_locations_attacks_level3": {
+      "name": "~counter_hunt_locations_attacks_level3"
+    },
+    "hunt_locations_attacks_level4": {
+      "name": "~counter_hunt_locations_attacks_level4"
+    },
+    "hunt_locations_attacks_level5": {
+      "name": "~counter_hunt_locations_attacks_level5"
+    },
+    "hunt_locations_attacks_level6": {
+      "name": "~counter_hunt_locations_attacks_level6"
+    },
+    "hunt_locations_attacks_level7": {
+      "name": "~counter_hunt_locations_attacks_level7"
+    },
+    "hunt_locations_attacks_level8": {
+      "name": "~counter_hunt_locations_attacks_level8"
+    },
+    "hunt_locations_attacks_level9": {
+      "name": "~counter_hunt_locations_attacks_level9"
+    },
+    "hunt_locations_attacks_level10": {
+      "name": "~counter_hunt_locations_attacks_level10"
+    },
+    "hunt_locations_attacks_level11": {
+      "name": "~counter_hunt_locations_attacks_level11"
+    },
+    "hunt_locations_attacks_level12": {
+      "name": "~counter_hunt_locations_attacks_level12"
+    },
+    "hunt_locations_attacks_level13": {
+      "name": "~counter_hunt_locations_attacks_level13"
+    },
+    "hunt_locations_attacks_level14": {
+      "name": "~counter_hunt_locations_attacks_level14"
+    },
+    "hunt_locations_attacks_level15": {
+      "name": "~counter_hunt_locations_attacks_level15"
+    },
+    "hunt_locations_attacks_level20": {
+      "name": "~counter_hunt_locations_attacks_level20"
+    },
+    "hunt_locations_attacks_level25": {
+      "name": "~counter_hunt_locations_attacks_level25"
+    },
+    "hunt_locations_attacks_level30": {
+      "name": "~counter_hunt_locations_attacks_level30"
+    },
+    "hunt_locations_attacks_level35": {
+      "name": "~counter_hunt_locations_attacks_level35"
+    },
+    "hunt_locations_attacks_level40": {
+      "name": "~counter_hunt_locations_attacks_level40"
+    },
+    "hunt_locations_attacks_level45": {
+      "name": "~counter_hunt_locations_attacks_level45"
+    },
+    "hunt_locations_attacks_level50": {
+      "name": "~counter_hunt_locations_attacks_level50"
+    },
+    "challenge_earn_entry_tier": {
+      "name": "~counter_challenge_earn_entry_tier"
+    },
+    "challenge_earn_bronze_tier": {
+      "name": "~counter_challenge_earn_bronze_tier"
+    },
+    "challenge_earn_silver_tier": {
+      "name": "~counter_challenge_earn_silver_tier"
+    },
+    "challenge_earn_gold_tier": {
+      "name": "~counter_challenge_earn_gold_tier"
+    },
+    "challenge_earn_platinum_tier": {
+      "name": "~counter_challenge_earn_platinum_tier"
+    },
+    "carriers_rewarded": {
+      "name": "~counter_carriers_rewarded"
+    },
+    "carriers_upgraded": {
+      "name": "~counter_carriers_upgraded"
+    },
+    "carriers_ranked_up": {
+      "name": "~counter_carriers_ranked_up"
+    },
+    "carrier_xp_earned": {
+      "name": "~counter_carrier_xp_earned"
+    },
+    "items_category_speedup_bought": {
+      "name": "~counter_items_category_speedup_bought"
+    },
+    "items_category_heroxp_bought": {
+      "name": "~counter_items_category_heroxp_bought"
+    },
+    "items_category_heroxpboosts_bought": {
+      "name": "~counter_items_category_heroxpboosts_bought"
+    },
+    "items_category_heroenergy_bought": {
+      "name": "~counter_items_category_heroenergy_bought"
+    },
+    "items_category_currencyitem_bought": {
+      "name": "~counter_items_category_currencyitem_bought"
+    },
+    "items_category_currencyboosts_bought": {
+      "name": "~counter_items_category_currencyboosts_bought"
+    },
+    "items_category_shielditems_bought": {
+      "name": "~counter_items_category_shielditems_bought"
+    },
+    "items_category_viptime_bought": {
+      "name": "~counter_items_category_viptime_bought"
+    },
+    "items_category_vippoints_bought": {
+      "name": "~counter_items_category_vippoints_bought"
+    },
+    "items_category_misc_bought": {
+      "name": "~counter_items_category_misc_bought"
+    },
+    "items_category_icon_bought": {
+      "name": "~counter_items_category_icon_bought"
+    },
+    "items_category_teleports_bought": {
+      "name": "~counter_items_category_teleports_bought"
+    },
+    "items_category_quest_refreshes_bought": {
+      "name": "~counter_items_category_quest_refreshes_bought"
+    },
+    "items_category_radarjamming_bought": {
+      "name": "~counter_items_category_radarjamming_bought"
+    },
+    "items_category_fake_army_bought": {
+      "name": "~counter_items_category_fake_army_bought"
+    },
+    "items_category_combatboosts_bought": {
+      "name": "~counter_items_category_combatboosts_bought"
+    },
+    "items_category_marchitems_bought": {
+      "name": "~counter_items_category_marchitems_bought"
+    },
+    "items_category_gatheringbuffs_bought": {
+      "name": "~counter_items_category_gatheringbuffs_bought"
+    },
+    "items_category_coreupgrades_bought": {
+      "name": "~counter_items_category_coreupgrades_bought"
+    },
+    "items_category_chests_bought": {
+      "name": "~counter_items_category_chests_bought"
+    },
+    "items_category_rename_bought": {
+      "name": "~counter_items_category_rename_bought"
+    },
+    "items_category_heroname_bought": {
+      "name": "~counter_items_category_heroname_bought"
+    },
+    "items_category_mov_bought": {
+      "name": "~counter_items_category_mov_bought"
+    },
+    "items_category_recall_bought": {
+      "name": "~counter_items_category_recall_bought"
+    },
+    "items_category_reset_bought": {
+      "name": "~counter_items_category_reset_bought"
+    },
+    "items_category_highspin_bought": {
+      "name": "~counter_items_category_highspin_bought"
+    },
+    "items_category_craftingcomponents_bought": {
+      "name": "~counter_items_category_craftingcomponents_bought"
+    },
+    "items_category_gear_bought": {
+      "name": "~counter_items_category_gear_bought"
+    },
+    "items_category_hospital_speedup_bought": {
+      "name": "~counter_items_category_hospital_speedup_bought"
+    },
+    "items_category_rallyitems_bought": {
+      "name": "~counter_items_category_rallyitems_bought"
+    },
+    "items_upgraded": {
+      "name": "~counter_items_upgraded"
+    },
+    "items_category_gear_upgraded": {
+      "name": "~counter_items_category_gear_upgraded"
+    },
+    "drone_missions_collected": {
+      "name": "~counter_drone_missions_collected"
+    },
+    "hero_xp_earned": {
+      "name": "~counter_hero_xp_earned"
+    },
+    "hero_levelups": {
+      "name": "~counter_hero_levelups"
+    },
+    "currency3_generated": {
+      "name": "~counter_currency3_generated"
+    },
+    "currency4_generated": {
+      "name": "~counter_currency4_generated"
+    },
+    "currency5_generated": {
+      "name": "~counter_currency5_generated"
+    },
+    "currency6_generated": {
+      "name": "~counter_currency6_generated"
+    },
+    "currency7_generated": {
+      "name": "~counter_currency7_generated"
+    },
+    "currency_gathered": {
+      "name": "~counter_currency_gathered"
+    },
+    "currency1_gathered": {
+      "name": "~counter_currency1_gathered"
+    },
+    "currency3_gathered": {
+      "name": "~counter_currency3_gathered"
+    },
+    "currency4_gathered": {
+      "name": "~counter_currency4_gathered"
+    },
+    "currency5_gathered": {
+      "name": "~counter_currency5_gathered"
+    },
+    "currency6_gathered": {
+      "name": "~counter_currency6_gathered"
+    },
+    "currency7_gathered": {
+      "name": "~counter_currency7_gathered"
+    },
+    "currency1_rewarded": {
+      "name": "~counter_currency1_rewarded"
+    },
+    "currency2_rewarded": {
+      "name": "~counter_currency2_rewarded"
+    },
+    "currency3_rewarded": {
+      "name": "~counter_currency3_rewarded"
+    },
+    "currency4_rewarded": {
+      "name": "~counter_currency4_rewarded"
+    },
+    "currency5_rewarded": {
+      "name": "~counter_currency5_rewarded"
+    },
+    "currency6_rewarded": {
+      "name": "~counter_currency6_rewarded"
+    },
+    "currency7_rewarded": {
+      "name": "~counter_currency7_rewarded"
+    },
+    "currency8_rewarded": {
+      "name": "~counter_currency8_rewarded"
+    },
+    "defeated_locations": {
+      "name": "~counter_defeated_locations"
+    },
+    "defeated_locations_level1": {
+      "name": "~counter_defeated_locations_level1"
+    },
+    "defeated_locations_level2": {
+      "name": "~counter_defeated_locations_level2"
+    },
+    "defeated_locations_level3": {
+      "name": "~counter_defeated_locations_level3"
+    },
+    "defeated_locations_level4": {
+      "name": "~counter_defeated_locations_level4"
+    },
+    "defeated_locations_level5": {
+      "name": "~counter_defeated_locations_level5"
+    },
+    "defeated_locations_level6": {
+      "name": "~counter_defeated_locations_level6"
+    },
+    "defeated_locations_level7": {
+      "name": "~counter_defeated_locations_level7"
+    },
+    "defeated_locations_level8": {
+      "name": "~counter_defeated_locations_level8"
+    },
+    "defeated_locations_level9": {
+      "name": "~counter_defeated_locations_level9"
+    },
+    "defeated_locations_level10": {
+      "name": "~counter_defeated_locations_level10"
+    },
+    "defeated_locations_level11": {
+      "name": "~counter_defeated_locations_level11"
+    },
+    "defeated_locations_level12": {
+      "name": "~counter_defeated_locations_level12"
+    },
+    "defeated_locations_level13": {
+      "name": "~counter_defeated_locations_level13"
+    },
+    "defeated_locations_level14": {
+      "name": "~counter_defeated_locations_level14"
+    },
+    "defeated_locations_level15": {
+      "name": "~counter_defeated_locations_level15"
+    },
+    "defeated_locations_level20": {
+      "name": "~counter_defeated_locations_level20"
+    },
+    "defeated_locations_level25": {
+      "name": "~counter_defeated_locations_level25"
+    },
+    "defeated_locations_level30": {
+      "name": "~counter_defeated_locations_level30"
+    },
+    "defeated_locations_level35": {
+      "name": "~counter_defeated_locations_level35"
+    },
+    "defeated_locations_level40": {
+      "name": "~counter_defeated_locations_level40"
+    },
+    "defeated_locations_level45": {
+      "name": "~counter_defeated_locations_level45"
+    },
+    "defeated_locations_level50": {
+      "name": "~counter_defeated_locations_level50"
+    },
+    "rally_contribution": {
+      "name": "~counter_rally_contribution"
+    },
+    "carriers_defeated": {
+      "name": "~counter_carriers_defeated"
+    },
+    "player_combat_victories": {
+      "name": "~counter_player_combat_victories"
+    },
+    "player_combat_draws": {
+      "name": "~counter_player_combat_draws"
+    },
+    "player_combat_losses": {
+      "name": "~counter_player_combat_losses"
+    },
+    "npc_combat_victories": {
+      "name": "~counter_npc_combat_victories"
+    },
+    "npc_combat_draws": {
+      "name": "~counter_npc_combat_draws"
+    },
+    "npc_combat_losses": {
+      "name": "~counter_npc_combat_losses"
+    },
+    "territory_contested": {
+      "name": "~counter_territory_contested"
+    },
+    "alliance_territory_contested": {
+      "name": "~counter_alliance_territory_contested"
+    },
+    "units_produced": {
+      "name": "~counter_units_produced"
+    },
+    "static_units_produced": {
+      "name": "~counter_static_units_produced"
+    },
+    "basic_defense_t0_produced": {
+      "name": "~counter_basic_defense_t0_produced"
+    },
+    "light_infantry_t1_produced": {
+      "name": "~counter_light_infantry_t1_produced"
+    },
+    "heavy_infantry_t1_produced": {
+      "name": "~counter_heavy_infantry_t1_produced"
+    },
+    "vehicle_t1_produced": {
+      "name": "~counter_vehicle_t1_produced"
+    },
+    "air_t1_produced": {
+      "name": "~counter_air_t1_produced"
+    },
+    "basic_defense_t1_produced": {
+      "name": "~counter_basic_defense_t1_produced"
+    },
+    "advanced_defense_t1_produced": {
+      "name": "~counter_advanced_defense_t1_produced"
+    },
+    "experimental_defense_t1_produced": {
+      "name": "~counter_experimental_defense_t1_produced"
+    },
+    "air_defense_t1_produced": {
+      "name": "~counter_air_defense_t1_produced"
+    },
+    "light_infantry_t2_produced": {
+      "name": "~counter_light_infantry_t2_produced"
+    },
+    "heavy_infantry_t2_produced": {
+      "name": "~counter_heavy_infantry_t2_produced"
+    },
+    "vehicle_t2_produced": {
+      "name": "~counter_vehicle_t2_produced"
+    },
+    "air_t2_produced": {
+      "name": "~counter_air_t2_produced"
+    },
+    "basic_defense_t2_produced": {
+      "name": "~counter_basic_defense_t2_produced"
+    },
+    "advanced_defense_t2_produced": {
+      "name": "~counter_advanced_defense_t2_produced"
+    },
+    "experimental_defense_t2_produced": {
+      "name": "~counter_experimental_defense_t2_produced"
+    },
+    "air_defense_t2_produced": {
+      "name": "~counter_air_defense_t2_produced"
+    },
+    "light_infantry_t3_produced": {
+      "name": "~counter_light_infantry_t3_produced"
+    },
+    "heavy_infantry_t3_produced": {
+      "name": "~counter_heavy_infantry_t3_produced"
+    },
+    "vehicle_t3_produced": {
+      "name": "~counter_vehicle_t3_produced"
+    },
+    "air_t3_produced": {
+      "name": "~counter_air_t3_produced"
+    },
+    "basic_defense_t3_produced": {
+      "name": "~counter_basic_defense_t3_produced"
+    },
+    "advanced_defense_t3_produced": {
+      "name": "~counter_advanced_defense_t3_produced"
+    },
+    "experimental_defense_t3_produced": {
+      "name": "~counter_experimental_defense_t3_produced"
+    },
+    "air_defense_t3_produced": {
+      "name": "~counter_air_defense_t3_produced"
+    },
+    "light_infantry_t4_produced": {
+      "name": "~counter_light_infantry_t4_produced"
+    },
+    "heavy_infantry_t4_produced": {
+      "name": "~counter_heavy_infantry_t4_produced"
+    },
+    "vehicle_t4_produced": {
+      "name": "~counter_vehicle_t4_produced"
+    },
+    "air_t4_produced": {
+      "name": "~counter_air_t4_produced"
+    },
+    "basic_defense_t4_produced": {
+      "name": "~counter_basic_defense_t4_produced"
+    },
+    "advanced_defense_t4_produced": {
+      "name": "~counter_advanced_defense_t4_produced"
+    },
+    "experimental_defense_t4_produced": {
+      "name": "~counter_experimental_defense_t4_produced"
+    },
+    "air_defense_t4_produced": {
+      "name": "~counter_air_defense_t4_produced"
+    },
+    "light_infantry_t5_produced": {
+      "name": "~counter_light_infantry_t5_produced"
+    },
+    "heavy_infantry_t5_produced": {
+      "name": "~counter_heavy_infantry_t5_produced"
+    },
+    "vehicle_t5_produced": {
+      "name": "~counter_vehicle_t5_produced"
+    },
+    "air_t5_produced": {
+      "name": "~counter_air_t5_produced"
+    },
+    "basic_defense_t5_produced": {
+      "name": "~counter_basic_defense_t5_produced"
+    },
+    "advanced_defense_t5_produced": {
+      "name": "~counter_advanced_defense_t5_produced"
+    },
+    "experimental_defense_t5_produced": {
+      "name": "~counter_experimental_defense_t5_produced"
+    },
+    "air_defense_t5_produced": {
+      "name": "~counter_air_defense_t5_produced"
+    },
+    "basic_defense_t6_produced": {
+      "name": "~counter_basic_defense_t6_produced"
+    },
+    "advanced_defense_t6_produced": {
+      "name": "~counter_advanced_defense_t6_produced"
+    },
+    "experimental_defense_t6_produced": {
+      "name": "~counter_experimental_defense_t6_produced"
+    },
+    "air_defense_t6_produced": {
+      "name": "~counter_air_defense_t6_produced"
+    },
+    "mech_infantry_t4_produced": {
+      "name": "~counter_mech_infantry_t4_produced"
+    },
+    "mech_vehicle_t4_produced": {
+      "name": "~counter_mech_vehicle_t4_produced"
+    },
+    "prototype_infantry_t4_produced": {
+      "name": "~counter_prototype_infantry_t4_produced"
+    },
+    "prototype_vehicle_t4_produced": {
+      "name": "~counter_prototype_vehicle_t4_produced"
+    },
+    "mech_antiair_t4_produced": {
+      "name": "~counter_mech_antiair_t4_produced"
+    },
+    "mech_antipersonnel_t4_produced": {
+      "name": "~counter_mech_antipersonnel_t4_produced"
+    },
+    "prototype_air_t4_produced": {
+      "name": "~counter_prototype_air_t4_produced"
+    },
+    "prototype_sniper_t4_produced": {
+      "name": "~counter_prototype_sniper_t4_produced"
+    },
+    "alien_light_infantry_t4_produced": {
+      "name": "~counter_alien_light_infantry_t4_produced"
+    },
+    "alien_heavy_infantry_t4_produced": {
+      "name": "~counter_alien_heavy_infantry_t4_produced"
+    },
+    "alien_vehicle_t4_produced": {
+      "name": "~counter_alien_vehicle_t4_produced"
+    },
+    "alien_air_vehicle_t4_produced": {
+      "name": "~counter_alien_air_vehicle_t4_produced"
+    },
+    "mech_aircraft_t5_produced": {
+      "name": "~counter_mech_aircraft_t5_produced"
+    },
+    "prototype_vehicle_t5_produced": {
+      "name": "~counter_prototype_vehicle_t5_produced"
+    },
+    "alien_heavy_infantry_t5_produced": {
+      "name": "~counter_alien_heavy_infantry_t5_produced"
+    },
+    "mech_infantry_t6_produced": {
+      "name": "~counter_mech_infantry_t6_produced"
+    },
+    "prototype_air_t6_produced": {
+      "name": "~counter_prototype_air_t6_produced"
+    },
+    "alien_light_infantry_t6_produced": {
+      "name": "~counter_alien_light_infantry_t6_produced"
+    },
+    "light_infantry_t6_produced": {
+      "name": "~counter_light_infantry_t6_produced"
+    },
+    "heavy_infantry_t6_produced": {
+      "name": "~counter_heavy_infantry_t6_produced"
+    },
+    "vehicle_t6_produced": {
+      "name": "~counter_vehicle_t6_produced"
+    },
+    "air_t6_produced": {
+      "name": "~counter_air_t6_produced"
+    },
+    "units_killed": {
+      "name": "~counter_units_killed"
+    },
+    "units_power_killed": {
+      "name": "~counter_units_power_killed"
+    },
+    "basic_defense_t0_killed": {
+      "name": "~counter_basic_defense_t0_killed"
+    },
+    "light_infantry_t1_killed": {
+      "name": "~counter_light_infantry_t1_killed"
+    },
+    "heavy_infantry_t1_killed": {
+      "name": "~counter_heavy_infantry_t1_killed"
+    },
+    "vehicle_t1_killed": {
+      "name": "~counter_vehicle_t1_killed"
+    },
+    "air_t1_killed": {
+      "name": "~counter_air_t1_killed"
+    },
+    "basic_defense_t1_killed": {
+      "name": "~counter_basic_defense_t1_killed"
+    },
+    "advanced_defense_t1_killed": {
+      "name": "~counter_advanced_defense_t1_killed"
+    },
+    "experimental_defense_t1_killed": {
+      "name": "~counter_experimental_defense_t1_killed"
+    },
+    "air_defense_t1_killed": {
+      "name": "~counter_air_defense_t1_killed"
+    },
+    "light_infantry_t2_killed": {
+      "name": "~counter_light_infantry_t2_killed"
+    },
+    "heavy_infantry_t2_killed": {
+      "name": "~counter_heavy_infantry_t2_killed"
+    },
+    "vehicle_t2_killed": {
+      "name": "~counter_vehicle_t2_killed"
+    },
+    "air_t2_killed": {
+      "name": "~counter_air_t2_killed"
+    },
+    "basic_defense_t2_killed": {
+      "name": "~counter_basic_defense_t2_killed"
+    },
+    "advanced_defense_t2_killed": {
+      "name": "~counter_advanced_defense_t2_killed"
+    },
+    "experimental_defense_t2_killed": {
+      "name": "~counter_experimental_defense_t2_killed"
+    },
+    "air_defense_t2_killed": {
+      "name": "~counter_air_defense_t2_killed"
+    },
+    "light_infantry_t3_killed": {
+      "name": "~counter_light_infantry_t3_killed"
+    },
+    "heavy_infantry_t3_killed": {
+      "name": "~counter_heavy_infantry_t3_killed"
+    },
+    "vehicle_t3_killed": {
+      "name": "~counter_vehicle_t3_killed"
+    },
+    "air_t3_killed": {
+      "name": "~counter_air_t3_killed"
+    },
+    "basic_defense_t3_killed": {
+      "name": "~counter_basic_defense_t3_killed"
+    },
+    "advanced_defense_t3_killed": {
+      "name": "~counter_advanced_defense_t3_killed"
+    },
+    "experimental_defense_t3_killed": {
+      "name": "~counter_experimental_defense_t3_killed"
+    },
+    "air_defense_t3_killed": {
+      "name": "~counter_air_defense_t3_killed"
+    },
+    "light_infantry_t4_killed": {
+      "name": "~counter_light_infantry_t4_killed"
+    },
+    "heavy_infantry_t4_killed": {
+      "name": "~counter_heavy_infantry_t4_killed"
+    },
+    "vehicle_t4_killed": {
+      "name": "~counter_vehicle_t4_killed"
+    },
+    "air_t4_killed": {
+      "name": "~counter_air_t4_killed"
+    },
+    "basic_defense_t4_killed": {
+      "name": "~counter_basic_defense_t4_killed"
+    },
+    "advanced_defense_t4_killed": {
+      "name": "~counter_advanced_defense_t4_killed"
+    },
+    "experimental_defense_t4_killed": {
+      "name": "~counter_experimental_defense_t4_killed"
+    },
+    "air_defense_t4_killed": {
+      "name": "~counter_air_defense_t4_killed"
+    },
+    "light_infantry_t5_killed": {
+      "name": "~counter_light_infantry_t5_killed"
+    },
+    "heavy_infantry_t5_killed": {
+      "name": "~counter_heavy_infantry_t5_killed"
+    },
+    "vehicle_t5_killed": {
+      "name": "~counter_vehicle_t5_killed"
+    },
+    "air_t5_killed": {
+      "name": "~counter_air_t5_killed"
+    },
+    "basic_defense_t5_killed": {
+      "name": "~counter_basic_defense_t5_killed"
+    },
+    "advanced_defense_t5_killed": {
+      "name": "~counter_advanced_defense_t5_killed"
+    },
+    "experimental_defense_t5_killed": {
+      "name": "~counter_experimental_defense_t5_killed"
+    },
+    "air_defense_t5_killed": {
+      "name": "~counter_air_defense_t5_killed"
+    },
+    "basic_defense_t6_killed": {
+      "name": "~counter_basic_defense_t6_killed"
+    },
+    "advanced_defense_t6_killed": {
+      "name": "~counter_advanced_defense_t6_killed"
+    },
+    "experimental_defense_t6_killed": {
+      "name": "~counter_experimental_defense_t6_killed"
+    },
+    "air_defense_t6_killed": {
+      "name": "~counter_air_defense_t6_killed"
+    },
+    "mech_infantry_t4_killed": {
+      "name": "~counter_mech_infantry_t4_killed"
+    },
+    "mech_vehicle_t4_killed": {
+      "name": "~counter_mech_vehicle_t4_killed"
+    },
+    "prototype_infantry_t4_killed": {
+      "name": "~counter_prototype_infantry_t4_killed"
+    },
+    "prototype_vehicle_t4_killed": {
+      "name": "~counter_prototype_vehicle_t4_killed"
+    },
+    "mech_antiair_t4_killed": {
+      "name": "~counter_mech_antiair_t4_killed"
+    },
+    "mech_antipersonnel_t4_killed": {
+      "name": "~counter_mech_antipersonnel_t4_killed"
+    },
+    "prototype_air_t4_killed": {
+      "name": "~counter_prototype_air_t4_killed"
+    },
+    "prototype_sniper_t4_killed": {
+      "name": "~counter_prototype_sniper_t4_killed"
+    },
+    "alien_light_infantry_t4_killed": {
+      "name": "~counter_alien_light_infantry_t4_killed"
+    },
+    "alien_heavy_infantry_t4_killed": {
+      "name": "~counter_alien_heavy_infantry_t4_killed"
+    },
+    "alien_vehicle_t4_killed": {
+      "name": "~counter_alien_vehicle_t4_killed"
+    },
+    "alien_air_vehicle_t4_killed": {
+      "name": "~counter_alien_air_vehicle_t4_killed"
+    },
+    "mech_aircraft_t5_killed": {
+      "name": "~counter_mech_aircraft_t5_killed"
+    },
+    "prototype_vehicle_t5_killed": {
+      "name": "~counter_prototype_vehicle_t5_killed"
+    },
+    "alien_heavy_infantry_t5_killed": {
+      "name": "~counter_alien_heavy_infantry_t5_killed"
+    },
+    "mech_infantry_t6_killed": {
+      "name": "~counter_mech_infantry_t6_killed"
+    },
+    "prototype_air_t6_killed": {
+      "name": "~counter_prototype_air_t6_killed"
+    },
+    "alien_light_infantry_t6_killed": {
+      "name": "~counter_alien_light_infantry_t6_killed"
+    },
+    "light_infantry_t6_killed": {
+      "name": "~counter_light_infantry_t6_killed"
+    },
+    "heavy_infantry_t6_killed": {
+      "name": "~counter_heavy_infantry_t6_killed"
+    },
+    "vehicle_t6_killed": {
+      "name": "~counter_vehicle_t6_killed"
+    },
+    "air_t6_killed": {
+      "name": "~counter_air_t6_killed"
+    },
+    "basic_defense_t0_lost": {
+      "name": "~counter_basic_defense_t0_lost"
+    },
+    "light_infantry_t1_lost": {
+      "name": "~counter_light_infantry_t1_lost"
+    },
+    "heavy_infantry_t1_lost": {
+      "name": "~counter_heavy_infantry_t1_lost"
+    },
+    "vehicle_t1_lost": {
+      "name": "~counter_vehicle_t1_lost"
+    },
+    "air_t1_lost": {
+      "name": "~counter_air_t1_lost"
+    },
+    "basic_defense_t1_lost": {
+      "name": "~counter_basic_defense_t1_lost"
+    },
+    "advanced_defense_t1_lost": {
+      "name": "~counter_advanced_defense_t1_lost"
+    },
+    "experimental_defense_t1_lost": {
+      "name": "~counter_experimental_defense_t1_lost"
+    },
+    "air_defense_t1_lost": {
+      "name": "~counter_air_defense_t1_lost"
+    },
+    "light_infantry_t2_lost": {
+      "name": "~counter_light_infantry_t2_lost"
+    },
+    "heavy_infantry_t2_lost": {
+      "name": "~counter_heavy_infantry_t2_lost"
+    },
+    "vehicle_t2_lost": {
+      "name": "~counter_vehicle_t2_lost"
+    },
+    "air_t2_lost": {
+      "name": "~counter_air_t2_lost"
+    },
+    "basic_defense_t2_lost": {
+      "name": "~counter_basic_defense_t2_lost"
+    },
+    "advanced_defense_t2_lost": {
+      "name": "~counter_advanced_defense_t2_lost"
+    },
+    "experimental_defense_t2_lost": {
+      "name": "~counter_experimental_defense_t2_lost"
+    },
+    "air_defense_t2_lost": {
+      "name": "~counter_air_defense_t2_lost"
+    },
+    "light_infantry_t3_lost": {
+      "name": "~counter_light_infantry_t3_lost"
+    },
+    "heavy_infantry_t3_lost": {
+      "name": "~counter_heavy_infantry_t3_lost"
+    },
+    "vehicle_t3_lost": {
+      "name": "~counter_vehicle_t3_lost"
+    },
+    "air_t3_lost": {
+      "name": "~counter_air_t3_lost"
+    },
+    "basic_defense_t3_lost": {
+      "name": "~counter_basic_defense_t3_lost"
+    },
+    "advanced_defense_t3_lost": {
+      "name": "~counter_advanced_defense_t3_lost"
+    },
+    "experimental_defense_t3_lost": {
+      "name": "~counter_experimental_defense_t3_lost"
+    },
+    "air_defense_t3_lost": {
+      "name": "~counter_air_defense_t3_lost"
+    },
+    "light_infantry_t4_lost": {
+      "name": "~counter_light_infantry_t4_lost"
+    },
+    "heavy_infantry_t4_lost": {
+      "name": "~counter_heavy_infantry_t4_lost"
+    },
+    "vehicle_t4_lost": {
+      "name": "~counter_vehicle_t4_lost"
+    },
+    "air_t4_lost": {
+      "name": "~counter_air_t4_lost"
+    },
+    "basic_defense_t4_lost": {
+      "name": "~counter_basic_defense_t4_lost"
+    },
+    "advanced_defense_t4_lost": {
+      "name": "~counter_advanced_defense_t4_lost"
+    },
+    "experimental_defense_t4_lost": {
+      "name": "~counter_experimental_defense_t4_lost"
+    },
+    "air_defense_t4_lost": {
+      "name": "~counter_air_defense_t4_lost"
+    },
+    "light_infantry_t5_lost": {
+      "name": "~counter_light_infantry_t5_lost"
+    },
+    "heavy_infantry_t5_lost": {
+      "name": "~counter_heavy_infantry_t5_lost"
+    },
+    "vehicle_t5_lost": {
+      "name": "~counter_vehicle_t5_lost"
+    },
+    "air_t5_lost": {
+      "name": "~counter_air_t5_lost"
+    },
+    "basic_defense_t5_lost": {
+      "name": "~counter_basic_defense_t5_lost"
+    },
+    "advanced_defense_t5_lost": {
+      "name": "~counter_advanced_defense_t5_lost"
+    },
+    "experimental_defense_t5_lost": {
+      "name": "~counter_experimental_defense_t5_lost"
+    },
+    "air_defense_t5_lost": {
+      "name": "~counter_air_defense_t5_lost"
+    },
+    "basic_defense_t6_lost": {
+      "name": "~counter_basic_defense_t6_lost"
+    },
+    "advanced_defense_t6_lost": {
+      "name": "~counter_advanced_defense_t6_lost"
+    },
+    "experimental_defense_t6_lost": {
+      "name": "~counter_experimental_defense_t6_lost"
+    },
+    "air_defense_t6_lost": {
+      "name": "~counter_air_defense_t6_lost"
+    },
+    "mech_infantry_t4_lost": {
+      "name": "~counter_mech_infantry_t4_lost"
+    },
+    "mech_vehicle_t4_lost": {
+      "name": "~counter_mech_vehicle_t4_lost"
+    },
+    "prototype_infantry_t4_lost": {
+      "name": "~counter_prototype_infantry_t4_lost"
+    },
+    "prototype_vehicle_t4_lost": {
+      "name": "~counter_prototype_vehicle_t4_lost"
+    },
+    "mech_antiair_t4_lost": {
+      "name": "~counter_mech_antiair_t4_lost"
+    },
+    "mech_antipersonnel_t4_lost": {
+      "name": "~counter_mech_antipersonnel_t4_lost"
+    },
+    "prototype_air_t4_lost": {
+      "name": "~counter_prototype_air_t4_lost"
+    },
+    "prototype_sniper_t4_lost": {
+      "name": "~counter_prototype_sniper_t4_lost"
+    },
+    "alien_light_infantry_t4_lost": {
+      "name": "~counter_alien_light_infantry_t4_lost"
+    },
+    "alien_heavy_infantry_t4_lost": {
+      "name": "~counter_alien_heavy_infantry_t4_lost"
+    },
+    "alien_vehicle_t4_lost": {
+      "name": "~counter_alien_vehicle_t4_lost"
+    },
+    "alien_air_vehicle_t4_lost": {
+      "name": "~counter_alien_air_vehicle_t4_lost"
+    },
+    "mech_aircraft_t5_lost": {
+      "name": "~counter_mech_aircraft_t5_lost"
+    },
+    "prototype_vehicle_t5_lost": {
+      "name": "~counter_prototype_vehicle_t5_lost"
+    },
+    "alien_heavy_infantry_t5_lost": {
+      "name": "~counter_alien_heavy_infantry_t5_lost"
+    },
+    "mech_infantry_t6_lost": {
+      "name": "~counter_mech_infantry_t6_lost"
+    },
+    "prototype_air_t6_lost": {
+      "name": "~counter_prototype_air_t6_lost"
+    },
+    "alien_light_infantry_t6_lost": {
+      "name": "~counter_alien_light_infantry_t6_lost"
+    },
+    "light_infantry_t6_lost": {
+      "name": "~counter_light_infantry_t6_lost"
+    },
+    "heavy_infantry_t6_lost": {
+      "name": "~counter_heavy_infantry_t6_lost"
+    },
+    "vehicle_t6_lost": {
+      "name": "~counter_vehicle_t6_lost"
+    },
+    "air_t6_lost": {
+      "name": "~counter_air_t6_lost"
+    }
+  }
+}

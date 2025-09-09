@@ -1,0 +1,231 @@
+{
+  "_subtypes": {
+    "1_build_hq": {
+      "steps": [
+        {},
+        {},
+        {
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 25
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2_main_objective": {
+      "steps": [
+        {},
+        {},
+        {},
+        {
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 25
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "3_daily_mission": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "4_level_headquarters": {
+      "steps": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 25
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "5_resource_collection": {
+      "steps": [
+        {},
+        {},
+        {}
+      ]
+    },
+    "6_barracks_and_troop_production": {
+      "steps": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    "7_command_post_and_hero_skills": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "8_research_lab_and_scouting_skill": {
+      "steps": [
+        {},
+        {},
+        {
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency4",
+                "quantity": 5000
+              },
+              {
+                "subtype": "currency6",
+                "quantity": 1500
+              },
+              {
+                "subtype": "currency3",
+                "quantity": 5250
+              },
+              {
+                "subtype": "currency5",
+                "quantity": 1500
+              }
+            ]
+          }
+        },
+        {}
+      ]
+    },
+    "9_join_an_alliance": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "10_world_map": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "11_vip": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "12_hangar_bay": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "13_world_map": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "14_tutorial_complete": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "15_factory": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "16_operations": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "17_satellite_uplink": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "18_medical_bay": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "19_global_network": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "20_hostile_containment": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "21_engineering": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "22_security_stations": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "23_recommended_reinforce": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "25_link_account": {
+      "steps": [
+        {},
+        {}
+      ]
+    },
+    "26_rate_the_game": {
+      "steps": [
+        {},
+        {
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "29_region_transfer_warning": {
+      "steps": [
+        {},
+        {}
+      ]
+    }
+  }
+}

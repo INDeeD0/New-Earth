@@ -1,0 +1,13 @@
+{
+  "_subtypes": {
+    "collect": {
+      "name": "~drone_mission_category_collect"
+    },
+    "rescue": {
+      "name": "~drone_mission_category_rescue"
+    },
+    "salvage": {
+      "name": "~drone_mission_category_salvage"
+    }
+  }
+}

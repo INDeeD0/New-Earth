@@ -1,0 +1,5077 @@
+{
+  "_subtypes": {
+    "tier_1_light_infantry": {
+      "name": "~unit_light_infantry_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 75
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 25
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 50
+        }
+      ],
+      "unit_type": {
+        "subtype": "light_infantry"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 6
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_1_heavy_infantry": {
+      "name": "~unit_heavy_infantry_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 75
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 40
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 35
+        }
+      ],
+      "unit_type": {
+        "subtype": "heavy_infantry"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 5
+        },
+        {
+          "subtype": "load",
+          "value": 7
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_1_ground_vehicle": {
+      "name": "~unit_ground_vehicle_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 25
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 25
+        }
+      ],
+      "unit_type": {
+        "subtype": "vehicle"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 8
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_1_air_vehicle": {
+      "name": "~unit_air_vehicle_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 10
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 40
+        }
+      ],
+      "unit_type": {
+        "subtype": "air"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 5
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_2_light_infantry": {
+      "name": "~unit_light_infantry_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlocklightinfantrytier2",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 125
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "light_infantry"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 8
+        }
+      ],
+      "power": 8,
+      "build_cost": 60
+    },
+    "tier_2_heavy_infantry": {
+      "name": "~unit_heavy_infantry_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockheavyinfantrytier2",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 125
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 75
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 75
+        }
+      ],
+      "unit_type": {
+        "subtype": "heavy_infantry"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 5
+        },
+        {
+          "subtype": "load",
+          "value": 9
+        }
+      ],
+      "power": 8,
+      "build_cost": 60
+    },
+    "tier_2_ground_vehicle": {
+      "name": "~unit_ground_vehicle_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockgroundvehicletier2",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 85
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 85
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 55
+        }
+      ],
+      "unit_type": {
+        "subtype": "vehicle"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 8,
+      "build_cost": 60
+    },
+    "tier_2_air_vehicle": {
+      "name": "~unit_air_vehicle_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockairvehicletier2",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 25
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 75
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 75
+        }
+      ],
+      "unit_type": {
+        "subtype": "air"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 7
+        }
+      ],
+      "power": 8,
+      "build_cost": 60
+    },
+    "tier_3_light_infantry": {
+      "name": "~unit_light_infantry_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlocklightinfantrytier3",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "light_infantry"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 20,
+      "build_cost": 120
+    },
+    "tier_3_heavy_infantry": {
+      "name": "~unit_heavy_infantry_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockheavyinfantrytier3",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 150
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 150
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "heavy_infantry"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 11
+        }
+      ],
+      "power": 20,
+      "build_cost": 120
+    },
+    "tier_3_ground_vehicle": {
+      "name": "~unit_ground_vehicle_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockgroundvehicletier3",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 175
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 175
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "vehicle"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 20,
+      "build_cost": 120
+    },
+    "tier_3_air_vehicle": {
+      "name": "~unit_air_vehicle_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockairvehicletier3",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 150
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 150
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "air"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 9
+        }
+      ],
+      "power": 20,
+      "build_cost": 120
+    },
+    "tier_4_light_infantry": {
+      "name": "~unit_light_infantry_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlocklightinfantrytier4",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 400
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 800
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "light_infantry"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 11
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_heavy_infantry": {
+      "name": "~unit_heavy_infantry_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockheavyinfantrytier4",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "heavy_infantry"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 11
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_ground_vehicle": {
+      "name": "~unit_ground_vehicle_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockgroundvehicletier4",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 13
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_air_vehicle": {
+      "name": "~unit_air_vehicle_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockairvehicletier4",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "air"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_5_light_infantry": {
+      "name": "~unit_light_infantry_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlocklightinfantrytier5",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 2500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2000
+        }
+      ],
+      "unit_type": {
+        "subtype": "light_infantry"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 22
+        }
+      ],
+      "power": 75,
+      "build_cost": 360
+    },
+    "tier_5_heavy_infantry": {
+      "name": "~unit_heavy_infantry_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockheavyinfantrytier5",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 2500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2000
+        }
+      ],
+      "unit_type": {
+        "subtype": "heavy_infantry"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 24
+        }
+      ],
+      "power": 76,
+      "build_cost": 360
+    },
+    "tier_5_ground_vehicle": {
+      "name": "~unit_ground_vehicle_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockgroundvehicletier5",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 2815
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2815
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2000
+        }
+      ],
+      "unit_type": {
+        "subtype": "vehicle"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 26
+        }
+      ],
+      "power": 75,
+      "build_cost": 360
+    },
+    "tier_5_air_vehicle": {
+      "name": "~unit_air_vehicle_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockairvehicletier5",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 1875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2000
+        }
+      ],
+      "unit_type": {
+        "subtype": "air"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 10
+        },
+        {
+          "subtype": "load",
+          "value": 20
+        }
+      ],
+      "power": 75,
+      "build_cost": 360
+    },
+    "tier_6_light_infantry": {
+      "name": "~unit_light_infantry_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 32
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlocklightinfantrytier6",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 6250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 2500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 5000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 5000
+        }
+      ],
+      "unit_type": {
+        "subtype": "light_infantry"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 10
+        },
+        {
+          "subtype": "load",
+          "value": 45
+        }
+      ],
+      "power": 160,
+      "build_cost": 720
+    },
+    "tier_6_heavy_infantry": {
+      "name": "~unit_heavy_infantry_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "barracks",
+          "level": 32
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockheavyinfantrytier6",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 6250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 5750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 5750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 5000
+        }
+      ],
+      "unit_type": {
+        "subtype": "heavy_infantry"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 50
+        }
+      ],
+      "power": 160,
+      "build_cost": 720
+    },
+    "tier_6_ground_vehicle": {
+      "name": "~unit_ground_vehicle_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 32
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockgroundvehicletier6",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 3750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 4750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 4750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 3750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 5000
+        }
+      ],
+      "unit_type": {
+        "subtype": "vehicle"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 10
+        },
+        {
+          "subtype": "load",
+          "value": 55
+        }
+      ],
+      "power": 160,
+      "build_cost": 720
+    },
+    "tier_6_air_vehicle": {
+      "name": "~unit_air_vehicle_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "factory",
+          "level": 32
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "offensiveunlockairvehicletier6",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 3250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 4500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 6250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 4500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 5000
+        }
+      ],
+      "unit_type": {
+        "subtype": "air"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 11
+        },
+        {
+          "subtype": "load",
+          "value": 40
+        }
+      ],
+      "power": 160,
+      "build_cost": 720
+    },
+    "tier_0_defense": {
+      "name": "~unit_defense_0",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 20
+        }
+      ],
+      "unit_type": {
+        "subtype": "basic_defense"
+      },
+      "tier": 0,
+      "attributes": [
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        }
+      ],
+      "power": 2,
+      "build_cost": 15
+    },
+    "tier_1_basic_defense": {
+      "name": "~unit_basic_defense_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 2
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveunlockbuckshot",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 75
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 25
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "basic_defense"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_1_advanced_defense": {
+      "name": "~unit_advanced_defense_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 2
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivearmorpiercingammunition",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "advanced_defense"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_1_experimental_defense": {
+      "name": "~unit_experimental_defense_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 2
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivehighexplosiveammunition",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 50
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "experimental_defense"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_1_air_defense": {
+      "name": "~unit_air_defense_1",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 2
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveheavyammunition",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 25
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 150
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 25
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 100
+        }
+      ],
+      "unit_type": {
+        "subtype": "air_defense"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        }
+      ],
+      "power": 2,
+      "build_cost": 30
+    },
+    "tier_2_basic_defense": {
+      "name": "~unit_basic_defense_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveunlockbiogrenades",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 200
+        }
+      ],
+      "unit_type": {
+        "subtype": "basic_defense"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        }
+      ],
+      "power": 4,
+      "build_cost": 60
+    },
+    "tier_2_advanced_defense": {
+      "name": "~unit_advanced_defense_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveunlockcaltrops",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 300
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 300
+        }
+      ],
+      "unit_type": {
+        "subtype": "advanced_defense"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        }
+      ],
+      "power": 4,
+      "build_cost": 60
+    },
+    "tier_2_experimental_defense": {
+      "name": "~unit_experimental_defense_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveunlockfraggrenades",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 200
+        }
+      ],
+      "unit_type": {
+        "subtype": "experimental_defense"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        }
+      ],
+      "power": 4,
+      "build_cost": 60
+    },
+    "tier_2_air_defense": {
+      "name": "~unit_air_defense_2",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 7
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveunlockflaklaunchers",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 200
+        }
+      ],
+      "unit_type": {
+        "subtype": "air_defense"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        }
+      ],
+      "power": 4,
+      "build_cost": 60
+    },
+    "tier_3_basic_defense": {
+      "name": "~unit_basic_defense_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiverazorwire",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 150
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 300
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 100
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 300
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 50
+        }
+      ],
+      "unit_type": {
+        "subtype": "basic_defense"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        }
+      ],
+      "power": 6,
+      "build_cost": 120
+    },
+    "tier_3_advanced_defense": {
+      "name": "~unit_advanced_defense_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveantivehiclemines",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 400
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 200
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 300
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 50
+        }
+      ],
+      "unit_type": {
+        "subtype": "advanced_defense"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        }
+      ],
+      "power": 6,
+      "build_cost": 120
+    },
+    "tier_3_experimental_defense": {
+      "name": "~unit_experimental_defense_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivecombatdrone",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 300
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 300
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 300
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 50
+        }
+      ],
+      "unit_type": {
+        "subtype": "experimental_defense"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        }
+      ],
+      "power": 6,
+      "build_cost": 120
+    },
+    "tier_3_air_defense": {
+      "name": "~unit_air_defense_3",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 14
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveairburstrounds",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 400
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 50
+        }
+      ],
+      "unit_type": {
+        "subtype": "air_defense"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        }
+      ],
+      "power": 6,
+      "build_cost": 120
+    },
+    "tier_4_basic_defense": {
+      "name": "~unit_basic_defense_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivephosporusammunition",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 600
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 900
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 250
+        }
+      ],
+      "unit_type": {
+        "subtype": "basic_defense"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        }
+      ],
+      "power": 8,
+      "build_cost": 240
+    },
+    "tier_4_advanced_defense": {
+      "name": "~unit_advanced_defense_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivelaserammunition",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 250
+        }
+      ],
+      "unit_type": {
+        "subtype": "advanced_defense"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        }
+      ],
+      "power": 8,
+      "build_cost": 240
+    },
+    "tier_4_experimental_defense": {
+      "name": "~unit_experimental_defense_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveelectromagneticpulseammunition",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 250
+        }
+      ],
+      "unit_type": {
+        "subtype": "experimental_defense"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        }
+      ],
+      "power": 8,
+      "build_cost": 240
+    },
+    "tier_4_air_defense": {
+      "name": "~unit_air_defense_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 21
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivehighvelocityammunition",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 350
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 800
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 350
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 250
+        }
+      ],
+      "unit_type": {
+        "subtype": "air_defense"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        }
+      ],
+      "power": 8,
+      "build_cost": 240
+    },
+    "tier_5_basic_defense": {
+      "name": "~unit_basic_defense_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveflamethrowers",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1000
+        }
+      ],
+      "unit_type": {
+        "subtype": "basic_defense"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        }
+      ],
+      "power": 16,
+      "build_cost": 360
+    },
+    "tier_5_advanced_defense": {
+      "name": "~unit_advanced_defense_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiverocketpropelledgrenades",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1000
+        }
+      ],
+      "unit_type": {
+        "subtype": "advanced_defense"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        }
+      ],
+      "power": 16,
+      "build_cost": 360
+    },
+    "tier_5_experimental_defense": {
+      "name": "~unit_experimental_defense_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivemortarrounds",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 625
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1000
+        }
+      ],
+      "unit_type": {
+        "subtype": "experimental_defense"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        }
+      ],
+      "power": 16,
+      "build_cost": 360
+    },
+    "tier_5_air_defense": {
+      "name": "~unit_air_defense_5",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivesurfacetoairmissiles",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 875
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1000
+        }
+      ],
+      "unit_type": {
+        "subtype": "air_defense"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        }
+      ],
+      "power": 16,
+      "build_cost": 360
+    },
+    "tier_6_basic_defense": {
+      "name": "~unit_basic_defense_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 28
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivethermitegrenades",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 3750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 5750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2500
+        }
+      ],
+      "unit_type": {
+        "subtype": "basic_defense"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        }
+      ],
+      "power": 30,
+      "build_cost": 600
+    },
+    "tier_6_advanced_defense": {
+      "name": "~unit_advanced_defense_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 28
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveclaymoremines",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 3125
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 3125
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 3125
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1000
+        }
+      ],
+      "unit_type": {
+        "subtype": "advanced_defense"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        }
+      ],
+      "power": 30,
+      "build_cost": 600
+    },
+    "tier_6_experimental_defense": {
+      "name": "~unit_experimental_defense_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 28
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensiveelectricfence",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 3125
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 4750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 1500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2500
+        }
+      ],
+      "unit_type": {
+        "subtype": "experimental_defense"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        }
+      ],
+      "power": 30,
+      "build_cost": 600
+    },
+    "tier_6_air_defense": {
+      "name": "~unit_air_defense_6",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "walls",
+          "level": 28
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "defensivemissilebattery",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 3750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 5750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 2250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2500
+        }
+      ],
+      "unit_type": {
+        "subtype": "air_defense"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        }
+      ],
+      "power": 30,
+      "build_cost": 600
+    },
+    "tier_1_alien": {
+      "name": "~unit_alien_tier_1",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        }
+      ],
+      "power": 3,
+      "build_cost": 100
+    },
+    "tier_2_alien": {
+      "name": "~unit_alien_tier_2",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 5,
+      "build_cost": 100
+    },
+    "tier_3_alien": {
+      "name": "~unit_alien_tier_3",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 7,
+      "build_cost": 100
+    },
+    "tier_4_alien": {
+      "name": "~unit_alien_tier_4",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 10,
+      "build_cost": 100
+    },
+    "tier_5_alien": {
+      "name": "~unit_alien_tier_5",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 25,
+      "build_cost": 100
+    },
+    "tier_6_alien": {
+      "name": "~unit_alien_tier_6",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 50,
+      "build_cost": 100
+    },
+    "tier_4_mech_infantry": {
+      "name": "~unit_mech_infantry_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "robotics_bay",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_infantry"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_mech_vehicle": {
+      "name": "~unit_mech_vehicle_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "robotics_bay",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 700
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_infantry": {
+      "name": "~unit_prototype_infantry_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_infantry"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_air": {
+      "name": "~unit_prototype_air_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_air"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_1_blackops": {
+      "name": "~unit_blackops_tier_1",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "blackops"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 4,
+      "build_cost": 100
+    },
+    "tier_2_blackops": {
+      "name": "~unit_blackops_tier_2",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "blackops"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 5,
+      "build_cost": 100
+    },
+    "tier_3_blackops": {
+      "name": "~unit_blackops_tier_3",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "blackops"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 6,
+      "build_cost": 100
+    },
+    "tier_4_blackops": {
+      "name": "~unit_blackops_tier_4",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "blackops"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 8,
+      "build_cost": 100
+    },
+    "tier_4_mech_antiair": {
+      "name": "~unit_mech_antiair_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "robotics_bay",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_antiair"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 14
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_mech_antipersonnel": {
+      "name": "~unit_mech_antipersonnel_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "robotics_bay",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_antipersonnel"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 14
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_sniper": {
+      "name": "~unit_prototype_sniper_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_sniper"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 8
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_vehicle": {
+      "name": "~unit_prototype_vehicle_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_alien_light_infantry": {
+      "name": "~unit_alien_light_infantry_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "alien_genetics_lab",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 1400
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1400
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "alien_light_infantry"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 9
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_alien_air_vehicle": {
+      "name": "~unit_alien_air_vehicle_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "alien_genetics_lab",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "alien_air_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 10
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_alien_heavy_infantry": {
+      "name": "~unit_alien_heavy_infantry_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "alien_genetics_lab",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "alien_heavy_infantry"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_alien_vehicle": {
+      "name": "~unit_alien_vehicle_4",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "alien_genetics_lab",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "alien_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 14
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_vehicle_speed": {
+      "name": "~unit_prototype_vehicle_4_speed",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 11
+        },
+        {
+          "subtype": "load",
+          "value": 11
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_mech_vehicle_attack": {
+      "name": "~unit_mech_vehicle_4_attack",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "robotics_bay",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 0
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 9
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_infantry_defense": {
+      "name": "~unit_prototype_infantry_4_defense",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_infantry"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_mech_health": {
+      "name": "~unit_prototype_mech_4_health",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 11
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_air_attack": {
+      "name": "~unit_prototype_air_4_attack",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_air"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 11
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_vehicle_attack": {
+      "name": "~unit_prototype_vehicle_4_attack",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_vehicle"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_air_speed": {
+      "name": "~unit_prototype_air_4_speed",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_air"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 10
+        },
+        {
+          "subtype": "load",
+          "value": 9
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_4_prototype_air_defense": {
+      "name": "~unit_prototype_air_4_defense",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 23
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 500
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_air"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 36,
+      "build_cost": 240
+    },
+    "tier_1_scavengers": {
+      "name": "~unit_scavengers_tier_1",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "scavengers"
+      },
+      "tier": 1,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 1
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 4,
+      "build_cost": 100
+    },
+    "tier_2_scavengers": {
+      "name": "~unit_scavengers_tier_2",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "scavengers"
+      },
+      "tier": 2,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 2
+        },
+        {
+          "subtype": "defense",
+          "value": 2
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 6,
+      "build_cost": 100
+    },
+    "tier_3_scavengers": {
+      "name": "~unit_scavengers_tier_3",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "scavengers"
+      },
+      "tier": 3,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 3
+        },
+        {
+          "subtype": "defense",
+          "value": 3
+        },
+        {
+          "subtype": "health",
+          "value": 2
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 8,
+      "build_cost": 100
+    },
+    "tier_4_scavengers": {
+      "name": "~unit_scavengers_tier_4",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "scavengers"
+      },
+      "tier": 4,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 4
+        },
+        {
+          "subtype": "defense",
+          "value": 4
+        },
+        {
+          "subtype": "health",
+          "value": 3
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 10,
+      "build_cost": 100
+    },
+    "tier_5_scavengers": {
+      "name": "~unit_scavengers_tier_5",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "scavengers"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 4
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 15,
+      "build_cost": 100
+    },
+    "tier_5_mech_new": {
+      "name": "~unit_mech_tier_5_new",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "robotics_bay",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "specializedunlockmechtier5",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 3000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1250
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_aircraft"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 5
+        },
+        {
+          "subtype": "load",
+          "value": 9
+        }
+      ],
+      "power": 75,
+      "build_cost": 360
+    },
+    "tier_5_prototype_new": {
+      "name": "~unit_prototype_tier_5_new",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "specializedunlockprototypetier5",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 3000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 1000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1750
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_vehicle"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 5
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 5
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 75,
+      "build_cost": 360
+    },
+    "tier_5_alien_new": {
+      "name": "~unit_alien_tier_5_new",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "alien_genetics_lab",
+          "level": 25
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "specializedunlockalientier5",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 2250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 2250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 1000
+        }
+      ],
+      "unit_type": {
+        "subtype": "alien_heavy_infantry"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 5
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 5
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 9
+        }
+      ],
+      "power": 75,
+      "build_cost": 360
+    },
+    "tier_6_specialized_mech": {
+      "name": "~unit_mech_tier_6_specialized",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "robotics_bay",
+          "level": 28
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "specializedunlockmechtier6",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 1250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 7500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 5000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 3125
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_infantry"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 7
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 225,
+      "build_cost": 720
+    },
+    "tier_6_specialized_prototype": {
+      "name": "~unit_prototype_tier_6_specialized",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "experimentation_chamber",
+          "level": 28
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "specializedunlockprototypetier6",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 5000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 7500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 2500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 4250
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_air"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 7
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 11
+        }
+      ],
+      "power": 225,
+      "build_cost": 720
+    },
+    "tier_6_specialized_alien": {
+      "name": "~unit_alien_tier_6_specialized",
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "alien_genetics_lab",
+          "level": 28
+        },
+        {
+          "subtype": "research",
+          "target_subtype": "specializedunlockalientier6",
+          "level": 1
+        }
+      ],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 5750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 5750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 2000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 2500
+        }
+      ],
+      "unit_type": {
+        "subtype": "alien_light_infantry"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 7
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 6
+        },
+        {
+          "subtype": "load",
+          "value": 10
+        }
+      ],
+      "power": 225,
+      "build_cost": 720
+    }
+  }
+}

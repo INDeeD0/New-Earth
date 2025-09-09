@@ -1,0 +1,136 @@
+{
+  "_subtypes": {
+    "city_resource_reward1": {
+      "chance": 0.05,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "city_resource_reward2": {
+      "chance": 0.1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "city_resource_reward3": {
+      "chance": 0.15,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "city_resource_reward4": {
+      "chance": 0.2,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "city_resource_reward5": {
+      "chance": 0.25,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "city_resource_reward6": {
+      "chance": 0.3,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "city_resource_reward7": {
+      "chance": 0.35,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "city_resource_reward8": {
+      "chance": 0.4,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "city_resource_reward9": {
+      "chance": 0.45,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "city_resource_reward10": {
+      "chance": 0.5,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "city_resource_reward11": {
+      "chance": 0.55,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "city_resource_reward12": {
+      "chance": 0.6,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 3
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1012 @@
+{
+  "_subtypes": {
+    "supplyshop_core_alien_power_core_1_a": {
+      "group": "core_alien_power_core_crafting",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_bulwark",
+          "available_quantity": 5,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_reflectium",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_power_cell",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_alloy",
+          "available_quantity": 5,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_biomesh",
+          "available_quantity": 5,
+          "cost": 160
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_power_core"
+        }
+      ]
+    },
+    "supplyshop_core_alien_power_core_1_b": {
+      "group": "core_alien_power_core_crafting",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "march_recall",
+          "available_quantity": 3,
+          "cost": 320
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency3_500k",
+          "available_quantity": 4,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency4_500k",
+          "available_quantity": 4,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_7d",
+          "available_quantity": 1,
+          "cost": 100
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "combat_defense_boost_12h",
+          "available_quantity": 2,
+          "cost": 400
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_power_core"
+        }
+      ]
+    },
+    "supplyshop_core_alien_power_core_2_a": {
+      "group": "core_alien_power_core_buffs",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "march_25_percent_boost",
+          "available_quantity": 2,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_24h",
+          "available_quantity": 2,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 260
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "shield_8h",
+          "available_quantity": 1,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "core_neutronium_crystal",
+          "available_quantity": 1,
+          "cost": 10000
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_power_core"
+        }
+      ]
+    },
+    "supplyshop_core_alien_power_core_2_b": {
+      "group": "core_alien_power_core_buffs",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "currency5_500k",
+          "available_quantity": 4,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency6_500k",
+          "available_quantity": 4,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_7d",
+          "available_quantity": 2,
+          "cost": 800
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_monster_skill_reset",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 5,
+          "cost": 400
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_power_core"
+        }
+      ]
+    },
+    "supplyshop_core_alien_component_1_a": {
+      "group": "core_alien_component_crafting",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 5,
+          "cost": 2000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_scope",
+          "available_quantity": 5,
+          "cost": 2000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency7_15k",
+          "available_quantity": 5,
+          "cost": 100
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_component"
+        }
+      ]
+    },
+    "supplyshop_core_alien_component_1_b": {
+      "group": "core_alien_component_crafting",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "hero_xp_20k",
+          "available_quantity": 1,
+          "cost": 2000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_1000",
+          "available_quantity": 1,
+          "cost": 1800
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_reflectium",
+          "available_quantity": 5,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_power_cell",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_biomesh",
+          "available_quantity": 5,
+          "cost": 160
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_component"
+        }
+      ]
+    },
+    "supplyshop_core_alien_component_2_a": {
+      "group": "core_alien_component_buffs",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "march_25_percent_capacity",
+          "available_quantity": 2,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "combat_defense_boost_12h",
+          "available_quantity": 2,
+          "cost": 185
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 260
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_500",
+          "available_quantity": 1,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 5,
+          "cost": 400
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_component"
+        }
+      ]
+    },
+    "supplyshop_core_alien_component_2_b": {
+      "group": "core_alien_component_buffs",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "march_25_percent_boost",
+          "available_quantity": 3,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_currency4_1d",
+          "available_quantity": 3,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_currency5_1d",
+          "available_quantity": 3,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_component"
+        }
+      ]
+    },
+    "supplyshop_core_alien_armor_1_a": {
+      "group": "core_alien_armor_crafting",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_silencer",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 5,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 5,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency3_150k",
+          "available_quantity": 5,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency4_150k",
+          "available_quantity": 5,
+          "cost": 120
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_armor"
+        }
+      ]
+    },
+    "supplyshop_core_alien_armor_1_b": {
+      "group": "core_alien_armor_crafting",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "boost_currency3_1d",
+          "available_quantity": 3,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_currency6_1d",
+          "available_quantity": 3,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_alloy",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 160
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_armor"
+        }
+      ]
+    },
+    "supplyshop_core_alien_armor_2_a": {
+      "group": "core_alien_armor_buffs",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "new_missions_category1",
+          "available_quantity": 2,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_xp_5k",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_1h",
+          "available_quantity": 1,
+          "cost": 115
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 5,
+          "cost": 400
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_armor"
+        }
+      ]
+    },
+    "supplyshop_core_alien_armor_2_b": {
+      "group": "core_alien_armor_buffs",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_bulwark",
+          "available_quantity": 4,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_24h",
+          "available_quantity": 2,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "new_missions_category1",
+          "available_quantity": 2,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_1000",
+          "available_quantity": 1,
+          "cost": 1800
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_alien_armor"
+        }
+      ]
+    },
+    "supplyshop_core_data_disk_1_a": {
+      "group": "core_data_disk_crafting",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_bulwark",
+          "available_quantity": 5,
+          "cost": 320
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_reflectium",
+          "available_quantity": 5,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_power_cell",
+          "available_quantity": 5,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_alloy",
+          "available_quantity": 5,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_biomesh",
+          "available_quantity": 5,
+          "cost": 320
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_data_disk"
+        }
+      ]
+    },
+    "supplyshop_core_data_disk_1_b": {
+      "group": "core_data_disk_crafting",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "hero_xp_20k",
+          "available_quantity": 1,
+          "cost": 2000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_currency7_1d",
+          "available_quantity": 3,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_500",
+          "available_quantity": 1,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "core_neutronium_crystal",
+          "available_quantity": 1,
+          "cost": 10000
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_data_disk"
+        }
+      ]
+    },
+    "supplyshop_core_data_disk_2_a": {
+      "group": "core_data_disk_buffs",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "march_25_percent_boost",
+          "available_quantity": 2,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_24h",
+          "available_quantity": 2,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "shield_8h",
+          "available_quantity": 1,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 5,
+          "cost": 400
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_data_disk"
+        }
+      ]
+    },
+    "supplyshop_core_data_disk_2_b": {
+      "group": "core_data_disk_buffs",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "mobile_outpost_vehicle",
+          "available_quantity": 2,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "combat_attack_boost_1d",
+          "available_quantity": 2,
+          "cost": 1200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 5,
+          "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_monster_skill_reset",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 3,
+          "cost": 120
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_data_disk"
+        }
+      ]
+    },
+    "supplyshop_core_classified_documents_1_a": {
+      "group": "core_classified_documents_crafting",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_scope",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency7_15k",
+          "available_quantity": 5,
+          "cost": 120
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_classified_documents"
+        }
+      ]
+    },
+    "supplyshop_core_classified_documents_1_b": {
+      "group": "core_classified_documents_crafting",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "new_missions_category1",
+          "available_quantity": 2,
+          "cost": 240
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_power_cell",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_biomesh",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 5,
+          "cost": 120
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_classified_documents"
+        }
+      ]
+    },
+    "supplyshop_core_classified_documents_2_a": {
+      "group": "core_classified_documents_buffs",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "march_25_percent_capacity",
+          "available_quantity": 2,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "combat_defense_boost_12h",
+          "available_quantity": 2,
+          "cost": 185
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_500",
+          "available_quantity": 1,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 5,
+          "cost": 400
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_classified_documents"
+        }
+      ]
+    },
+    "supplyshop_core_classified_documents_2_b": {
+      "group": "core_classified_documents_buffs",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "shield_8h",
+          "available_quantity": 1,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_xp_5k",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_24h",
+          "available_quantity": 2,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_alloy",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_biomesh",
+          "available_quantity": 5,
+          "cost": 160
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "core_classified_documents"
+        }
+      ]
+    },
+    "supplyshop_armory_blueprints_1_a": {
+      "group": "armory_blueprints_crafting",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_silencer",
+          "available_quantity": 5,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 5,
+          "cost": 240
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 5,
+          "cost": 240
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency3_150k",
+          "available_quantity": 5,
+          "cost": 190
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency4_150k",
+          "available_quantity": 5,
+          "cost": 190
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "armory_blueprints"
+        }
+      ]
+    },
+    "supplyshop_armory_blueprints_1_b": {
+      "group": "armory_blueprints_crafting",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_500",
+          "available_quantity": 1,
+          "cost": 1000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_biomesh",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 5,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "core_neutronium_crystal",
+          "available_quantity": 1,
+          "cost": 10000
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "armory_blueprints"
+        }
+      ]
+    },
+    "supplyshop_armory_blueprints_2_a": {
+      "group": "armory_blueprints_buffs",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "new_missions_category1",
+          "available_quantity": 2,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_xp_5k",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 2,
+          "cost": 270
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_1h",
+          "available_quantity": 1,
+          "cost": 110
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 5,
+          "cost": 400
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "armory_blueprints"
+        }
+      ]
+    },
+    "supplyshop_armory_blueprints_2_b": {
+      "group": "armory_blueprints_buffs",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "hero_monster_skill_reset",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_7d",
+          "available_quantity": 2,
+          "cost": 800
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_reflectium",
+          "available_quantity": 5,
+          "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_1000",
+          "available_quantity": 1,
+          "cost": 1800
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "currency7_50k",
+          "available_quantity": 4,
+          "cost": 160
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "armory_blueprints"
+        }
+      ]
+    }
+  }
+}
