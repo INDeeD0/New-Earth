@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Structures</title>
+
+  <!-- Local DataTables CSS -->
+  <link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+
+  <style>
+    .filter-btn.active {
+      background: #4287f5;
+    }
+    .filter-btn {
+      margin: 2px;
+      padding: 4px 8px;
+      cursor: pointer;
+      border: 1px solid #555;
+      border-radius: 4px;
+      background: #eee;}
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+
+  </style>
+</head>
+<body>
+</script>
+  <h1>Structures</h1>
+<div id="filterButtons" style="margin-bottom: 10px;"></div>
+ <table id="structureTable" class="display">
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Level</th>
+      <th>Unit Capacity</th>
+      <th>Power</th><!--c3-->
+      <th>Tech</th><!--c4-->
+      <th>Food</th><!--c5-->
+      <th>Oil</th><!--c6-->
+      <th>Alloy</th><!--c7-->
+      <th>Neutronium</th>  <!--c8-->
+      <th>Alliance Credits</th>
+      <th>Core Neutronium Crystal</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+
+  <!-- jQuery (must come first) -->
+  <script src="libs/jquery-3.7.0.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="libs/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+      const table = $('#structureTable').DataTable({
+        pageLength: 35,       // show 35 rows
+        lengthChange: false,  // hide "Show entries" dropdown
+        paging: false,        // disable pagination entirely
+        columnDefs: [
+          { targets: 0, visible: false } // hide Key column
+        ],
+        dom: 'ti'  // table + info (no search, no pagination)
+      });
+
+
+
+
+      fetch('molds/categories/structures.json')
+        .then(r => r.json())
+        .then(data => {
+          const subtypes = data._subtypes;
+         
+          const buttonContainer = $('#filterButtons');
+          const buildingKeys = Object.keys(subtypes);
+
+          // Sort alphabetically
+          buildingKeys.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+
+          // Capitalize helper
+          function capitalizeFirstLetter(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+          }
+
+          // Generate buttons
+          buildingKeys.forEach((key, index) => {
+            const displayName = capitalizeFirstLetter(key);
+            const btn = $(`<button class="filter-btn">${displayName}</button>`);
+
+            btn.on('click', function () {
+              $('.filter-btn').removeClass('active'); // radio-style
+              $(this).addClass('active');
+              table.column(0).search(key, true, false).draw();
+            });
+
+            buttonContainer.append(btn);
+
+            // Default select the first button
+            if (index === 0) {
+              btn.addClass('active');
+              table.column(0).search(key, true, false).draw();
+            }
+          });
+
+          // Populate table
+          Object.entries(subtypes).forEach(([key, building]) => {
+            let prevPower = 0; // for incremental power
+            building.levels.forEach((lvl, i) => {
+              if (Object.keys(lvl).length === 0) return;
+
+              const levelPower = (lvl.power ?? 0) - prevPower;
+              prevPower = lvl.power ?? 0;
+
+              // Replace c3-c8 and cnc with your logic to extract currencies / extra
+              const c3 = lvl.costs?.find(c => c.target_subtype === 'currency3')?.quantity ?? 0;
+              const c4 = lvl.costs?.find(c => c.target_subtype === 'currency4')?.quantity ?? 0;
+              const c5 = lvl.costs?.find(c => c.target_subtype === 'currency5')?.quantity ?? 0;
+              const c6 = lvl.costs?.find(c => c.target_subtype === 'currency6')?.quantity ?? 0;
+              const c7 = lvl.costs?.find(c => c.target_subtype === 'currency7')?.quantity ?? 0;
+              const c8 = lvl.costs?.find(c => c.target_subtype === 'currency8')?.quantity ?? 0;
+              const cnc = lvl.costs?.find(c => c.target_subtype === 'core_neutronium_crystal')?.quantity ?? 0;
+
+              table.row.add([
+                key,
+                i,
+                lvl.unit_capacity != null ? lvl.unit_capacity.toLocaleString() : "-",
+                levelPower.toLocaleString(),
+                c3.toLocaleString(),
+                c4.toLocaleString(),
+                c5.toLocaleString(),
+                c6.toLocaleString(),
+                c7.toLocaleString(),
+                c8.toLocaleString(),
+                cnc
+              ]);
+            });
+          });
+
+          table.draw();
+        })
+        .catch(err => console.error('Error loading structures.json:', err));
+    });
+  </script>
+</body>
+</html>
