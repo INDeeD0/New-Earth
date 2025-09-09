@@ -88,6 +88,23 @@ svg#lines {
 #topNav button:hover {
   background: #555;
 }
+.nav-btn {
+  margin: 2px;
+  padding: 6px 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  background: #555;
+}
+.nav-btn.active {
+  background: #4287f5;
+  border-color: #4287f5;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -112,9 +129,9 @@ table td {
 <body>
 
 <div id="topNav" style="margin-bottom: 15px;">
-  <button onclick="window.location.href='Research.html'">Research</button>
-  <button onclick="window.location.href='index.html'">Structures</button>
-  <button onclick="window.location.href='units.html'">Units</button>
+  <button class="nav-btn" data-page="Research.html">Research</button>
+  <button class="nav-btn" data-page="index.html">Structures</button>
+  <button class="nav-btn" data-page="units.html">Units</button>
 </div>
 
 <div class="container" id="mapContainer">
@@ -272,6 +289,16 @@ $(document).ready(function () {
             table.draw();
         })
         .catch(err => console.error('Error loading structures.json:', err));
+
+        // Highlight active nav button
+        $('#topNav .nav-btn').each(function() {
+          if ($(this).data('page') === window.location.pathname.split('/').pop()) {
+            $(this).addClass('active');
+          }
+          $(this).on('click', function() {
+            window.location.href = $(this).data('page');
+          });
+        });
 
     // Tree buttons filter the table
     $('.section').on('click', function() {
