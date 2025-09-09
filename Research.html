@@ -11,6 +11,19 @@
     .filter-btn.active {
       background: #4287f5;
     }
+    #topNav button {
+      margin: 2px;
+      padding: 6px 12px;
+      border: 1px solid #555;
+      border-radius: 4px;
+      background: #333;
+      color: #fff;
+      cursor: pointer;
+    }
+    #topNav button:hover {
+      background: #555;
+    }
+
     .filter-btn {
       margin: 2px;
       padding: 4px 8px;
@@ -34,7 +47,11 @@
   </style>
 </head>
 <body>
-  <h1>Research</h1>
+<div id="topNav" style="margin-bottom: 15px;">
+  <button onclick="window.location.href='Research.html'">Research</button>
+  <button onclick="window.location.href='index.html'">Structures</button>
+  <button onclick="window.location.href='units.html'">Units</button>
+</div>
 <div id="filterButtons" style="margin-bottom: 10px;"></div>
 
  <table id="structureTable" class="display">

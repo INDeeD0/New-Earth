@@ -76,6 +76,18 @@ svg#lines {
   background: #4287f5;
   color: #fff;
 }
+#topNav button {
+  margin: 2px;
+  padding: 6px 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+#topNav button:hover {
+  background: #555;
+}
 table {
   width: 100%;
   border-collapse: collapse;
@@ -88,10 +100,10 @@ table th,
 table td {
   color: black;      /* ensure headers and cells are black */
 }
-#tableWrapper table {
-  width: 100%;
-  border-collapse: collapse;
-  background: white;
+#structureTable th,
+#structureTable td {
+  padding: 4px 6px;   /* default is ~8–12px */
+  white-space: nowrap; /* keeps content tighter */
 }
 
 
@@ -99,7 +111,11 @@ table td {
 </head>
 <body>
 
-<h1>Structures</h1>
+<div id="topNav" style="margin-bottom: 15px;">
+  <button onclick="window.location.href='Research.html'">Research</button>
+  <button onclick="window.location.href='index.html'">Structures</button>
+  <button onclick="window.location.href='units.html'">Units</button>
+</div>
 
 <div class="container" id="mapContainer">
   <!-- Column 1 -->
@@ -145,7 +161,7 @@ table td {
   <svg id="lines"></svg>
 </div>
 
-<div id="tableWrapper" style="max-height: 900px; overflow-y: auto; margin-top: 20px;">
+
 <table id="structureTable" class="display">
   <thead>
     <tr>
@@ -159,23 +175,28 @@ table td {
       <th>Alloy</th>
       <th>Neutronium</th>
       <th>Alliance Credits</th>
-      <th>Core Neutronium Crystal</th>
+      <th>Neutronium Crystal</th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>
-</div>
 <!-- Scripts -->
 <script src="libs/jquery-3.7.0.min.js"></script>
 <script src="libs/jquery.dataTables.min.js"></script>
+<script src="libs/dataTables.fixedHeader.min.js"></script>
+<link rel="stylesheet" href="libs/fixedHeader.dataTables.min.css">
 <script>
 $(document).ready(function () {
     const table = $('#structureTable').DataTable({
-        pageLength: 35,
-        lengthChange: false,
+        scrollY: "800px",
+        scrollCollapse: true,
         paging: false,
-        columnDefs: [{ targets: 0, visible: false }],
-        dom: 'ti'
+        lengthChange: false,
+        columnDefs: [
+          { targets: 0, visible: false }
+        ],
+        dom: 'ti',
+        fixedHeader: true
     });
 
     const keyMap = {
@@ -261,8 +282,16 @@ $(document).ready(function () {
         const jsonKey = keyMap[displayName] || displayName;
 
         table.column(0).search(jsonKey, true, false).draw();
+        if (jsonKey === "Outpost_harvest" || jsonKey === "Outpost_strategic") {
+            table.column(9).visible(true);   // Alliance Credits
+            table.column(10).visible(false); // Core Neutronium Crystal
+        } else {
+            table.column(9).visible(false);
+            table.column(10).visible(true);
+    }
     });
     $('.section.root').trigger('click');
+    table.column(9).visible(false);
 });
 
 // Draw tree lines
