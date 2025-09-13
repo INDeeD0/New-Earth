@@ -184,47 +184,114 @@ $(document).ready(function(){
         $(this).on('click', function(){ window.location.href = $(this).data('page'); });
     });
 
+    // --- Helper: format seconds into d/h/m/s ---
+    function formatTime(seconds) {
+        if (seconds === "-" || seconds === undefined || seconds === null) return "-";
+        seconds = Number(seconds) || 0;
+        if (seconds <= 0) return "-";
+        const d = Math.floor(seconds / 86400); seconds %= 86400;
+        const h = Math.floor(seconds / 3600); seconds %= 3600;
+        const m = Math.floor(seconds / 60); const s = seconds % 60;
+        const parts = [];
+        if (d) parts.push(d + "d");
+        if (h) parts.push(h + "h");
+        if (m) parts.push(m + "m");
+        if (s) parts.push(s + "s");
+        return parts.join(" ");
+    }
+
     // --- Tables ---
-    let costsFixedHeader, rewardsFixedHeader, statsFixedHeader;
+    // NOTE: last column is a hidden column that stores raw seconds (so indexing of visible cols stays the same)
     const costsTable = $('#costsTable').DataTable({
-        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false,fixedHeader: true,
+        scrollY: "800px",
+        scrollCollapse: true,
+        paging: false,
+        dom: 'ti',
+        info: false,
+        fixedHeader: true,
+        ordering: false, // remove sorting arrows
         columns:[
-            {title:"Key", visible:false},
-            {title:"Level"},
-            {title:"Time"},
-            {title:"Tech"},
-            {title:"Food"},
-            {title:"Oil"},
-            {title:"Alloy"},
-            {title:"Neutronium"},
-            {title:"Alliance Credits"},
-            {title:"Neutronium Crystal"},
-            {title:"Classified Docs"},
-            {title:"Data Disk"},
-            {title:"Alien Power Core"},
-            {title:"Alien Tech"},
-            {title:"Alien Armor"},
-            {title:"Armory Blueprints"}
-        ]
-    });
-    const rewardsTable = $('#rewardsTable').DataTable({
-        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false,fixedHeader: true,
-        columns:[
-            {title:"Key", visible:false},
-            {title:"Level"},
-            {title:"Power"},
-            {title:"Hero XP"}
-        ]
-    });
-    const statsTable = $('#statsTable').DataTable({
-        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false,fixedHeader: true,
-        columns:[
-            {title:"Key", visible:false},
-            {title:"Level"},
-            {title:"Unit Capacity"}
+            { title:"Key", visible:false },
+            { title:"Level" },
+            // put input in title without setting a static value (we'll manage value separately)
+            { title: 'Time <input type="number" class="time-scale" style="width:60px;"> %' },
+            { title:"Tech" },
+            { title:"Food" },
+            { title:"Oil" },
+            { title:"Alloy" },
+            { title:"Neutronium" },
+            { title:"Alliance Credits" },
+            { title:"Neutronium Crystal" },
+            { title:"Classified Docs" },
+            { title:"Data Disk" },
+            { title:"Alien Power Core" },
+            { title:"Alien Tech" },
+            { title:"Alien Armor" },
+            { title:"Armory Blueprints" },
+            { title:"_raw", visible:false } // <-- hidden raw seconds column
         ]
     });
 
+    const rewardsTable = $('#rewardsTable').DataTable({
+        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false, fixedHeader: true, ordering:false,
+        columns:[
+            { title:"Key", visible:false },
+            { title:"Level" },
+            { title:"Power" },
+            { title:"Hero XP" }
+        ]
+    });
+
+    const statsTable = $('#statsTable').DataTable({
+        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false, fixedHeader: true, ordering:false,
+        columns:[
+            { title:"Key", visible:false },
+            { title:"Level" },
+            { title:"Unit Capacity" }
+        ]
+    });
+
+    // current scale (persisted while redraws happen)
+    let currentScale = 0;
+
+    // --- Apply scaling to all rows (uses hidden raw column at the end)
+    function applyScale(scale) {
+        // iterate every row and update the display cell (column index = 2)
+        costsTable.rows().every(function(){
+            const d = this.data(); // array
+            const raw = Number(d[d.length - 1]); // last element is raw seconds
+            if (raw > 0) {
+                // formula: scaled = original / (1 + scale/100)
+                const scaled = Math.floor(raw / (1 + scale/100));
+                d[2] = formatTime(scaled);
+            } else {
+                d[2] = "-";
+            }
+            this.data(d);
+        });
+        costsTable.draw(false);
+    }
+
+    // delegate input events to both original header and floating clone (both have .time-scale)
+    $(document).on('input', '.time-scale', function(){
+        const v = $(this).val();
+        const parsed = parseFloat(v);
+        // don't set NaN, keep previous if user clears (so typing isn't aggressively overridden)
+        if (!isNaN(parsed)) currentScale = parsed;
+        // sync both inputs
+        $('.time-scale').val(currentScale);
+        // update table display (will trigger draw which will re-sync input in draw handler)
+        applyScale(currentScale);
+    });
+
+    // Ensure after every draw we keep the input value in the header(s) AND redraw the tree lines
+    costsTable.on('draw.dt', function(){
+        $('.time-scale').val(currentScale); // resync header(s)
+        // redraw lines so they reflect any layout changes
+        try { drawLines(); } catch(e){ console.error('drawLines error', e); }
+    });
+
+    // --- Load JSON and populate tables ---
     const keyMap = {
         "Headquarters": "Headquarters",
         "Black Market": "Blackmarket",
@@ -256,14 +323,13 @@ $(document).ready(function(){
         "Outpost Harvest": "Outpost_harvest"
     };
 
-    // --- Load JSON ---
     fetch('molds/categories/structures.json')
-    .then(r=>r.json())
-    .then(data=>{
-        const subtypes = data._subtypes;
-        Object.entries(subtypes).forEach(([key,building])=>{
-            let prevPower=0;
-            building.levels.forEach((lvl,i)=>{
+    .then(r => r.json())
+    .then(data => {
+        const subtypes = data._subtypes || {};
+        Object.entries(subtypes).forEach(([key, building]) => {
+            let prevPower = 0;
+            (building.levels || []).forEach((lvl, i) => {
                 if (!Object.keys(lvl).length) return;
                 const power = ((lvl.power ?? 0) - prevPower).toLocaleString(); prevPower = lvl.power ?? 0;
                 const c3 = (lvl.costs?.find(c => c.target_subtype === 'currency3')?.quantity ?? 0).toLocaleString();
@@ -281,54 +347,65 @@ $(document).ready(function(){
                 const ab = (lvl.costs?.find(c => c.target_subtype === 'armory_blueprints')?.quantity ?? 0).toLocaleString();
                 const heroXP = (lvl.reward?.hero_xp ?? 0).toLocaleString();
                 const unitCap = typeof lvl.unit_capacity === 'number' ? lvl.unit_capacity.toLocaleString() : "-";
-                const time = formatTime(lvl.upgrade_cost ?? "-");
+                const rawTime = Number(lvl.upgrade_cost ?? 0);
+                const timeStr = rawTime > 0 ? formatTime(Math.floor(rawTime / (1 + currentScale/100))) : "-";
 
-                costsTable.row.add([key,i,time,c3,c4,c5,c6,c7,c8,cnc,ccd,cdd,capc,cac,caa,ab]);
-                rewardsTable.row.add([key,i,power,heroXP]);
-                statsTable.row.add([key,i,unitCap]);
+                // Add row: last item is rawTime (hidden)
+                costsTable.row.add([ key, i, timeStr, c3, c4, c5, c6, c7, c8, cnc, ccd, cdd, capc, cac, caa, ab, rawTime ]);
+                rewardsTable.row.add([ key, i, power, heroXP ]);
+                statsTable.row.add([ key, i, unitCap ]);
             });
         });
-        costsTable.draw(); rewardsTable.draw(); statsTable.draw();
+
+        // initial draw
+        costsTable.draw();
+        rewardsTable.draw();
+        statsTable.draw();
+
+        // ensure header input gets the current scale after initial draw
+        $('.time-scale').val(currentScale);
+        // ensure lines drawn after the page has layout
+        setTimeout(drawLines, 50);
+    })
+    .catch(err => {
+        console.error('Failed to load structures.json', err);
     });
 
     // --- Tree filter ---
-      const columnMap = {
-          "Outpost_harvest": [8,9],       
-          "Outpost_strategic": [8,9],
-          "War_room": [9,10],              
-          "Commandpost": [9,11],           
-          "Engineering": [12],             
-          "Researchlab": [13],             
-          "Walls": [14],                   
-          "Turret": [14],
-          "Hero_armory": [15]              
-      };
+    const columnMap = {
+        "Outpost_harvest": [8,9],
+        "Outpost_strategic": [8,9],
+        "War_room": [9,10],
+        "Commandpost": [9,11],
+        "Engineering": [12],
+        "Researchlab": [13],
+        "Walls": [14],
+        "Turret": [14],
+        "Hero_armory": [15]
+    };
+    const timeHidden = ["Outpost_harvest","Outpost_strategic"];
 
-      // Always show Time unless Outpost
-      const timeHidden = ["Outpost_harvest","Outpost_strategic"];
+    $('.section').on('click', function(){
+        $('.section').removeClass('active');
+        $(this).addClass('active');
 
-      $('.section').on('click', function(){
-          $('.section').removeClass('active'); 
-          $(this).addClass('active');
+        const jsonKey = keyMap[$(this).text().trim()] || $(this).text().trim();
+        [costsTable, rewardsTable, statsTable].forEach(tbl=>tbl.column(0).search(jsonKey,true,false).draw());
 
-          const jsonKey = keyMap[$(this).text().trim()] || $(this).text().trim();
-          [costsTable,rewardsTable,statsTable].forEach(tbl=>tbl.column(0).search(jsonKey,true,false).draw());
+        // hide conditional columns (including time)
+        costsTable.columns([2,8,9,10,11,12,13,14,15]).visible(false);
 
-          // Hide all conditional columns
-          costsTable.columns([2,8,9,10,11,12,13,14,15]).visible(false);
+        if (!timeHidden.includes(jsonKey)) costsTable.column(2).visible(true);
+        if (columnMap[jsonKey]) {
+            columnMap[jsonKey].forEach(idx => costsTable.column(idx).visible(true));
+        }
 
-          // Show Time if not hidden
-          if (!timeHidden.includes(jsonKey)) costsTable.column(2).visible(true);
-
-          // Show other columns if mapped
-          if (columnMap[jsonKey]) {
-              columnMap[jsonKey].forEach(idx => costsTable.column(idx).visible(true));
-          }
-      });
-
-      $('.section.root').trigger('click');
-
-
+        // keep the header input in sync after column visibility changes
+        $('.time-scale').val(currentScale);
+        // lines might need re-draw after layout change
+        setTimeout(drawLines, 20);
+    });
+    $('.section.root').trigger('click');
 
     // --- Table toggle buttons ---
     $('.toggle-table-btn').on('click', function() {
@@ -338,36 +415,23 @@ $(document).ready(function(){
         $('#costsWrapper, #rewardsWrapper, #statsWrapper').css({height:0, overflow:'hidden'});
         $(`#${tbl}Wrapper`).css({height:'auto', overflow:'visible'});
 
-        // Force FixedHeader to recalc
-        costsTable.fixedHeader.adjust();
-        rewardsTable.fixedHeader.adjust();
-        statsTable.fixedHeader.adjust();
+        // Force FixedHeader to recalc and draw lines
+        try {
+            costsTable.fixedHeader.adjust();
+            rewardsTable.fixedHeader.adjust();
+            statsTable.fixedHeader.adjust();
+        } catch(e){ /* ignore */ }
+
+        setTimeout(drawLines, 20);
     });
-
-    function formatTime(seconds) {
-        if (!seconds || seconds === "-") return "-";
-
-        const d = Math.floor(seconds / (24*3600));
-        seconds %= 24*3600;
-        const h = Math.floor(seconds / 3600);
-        seconds %= 3600;
-        const min = Math.floor(seconds / 60);
-        const s = seconds % 60;
-
-        let parts = [];
-        if (d) parts.push(`${d}d`);
-        if (h) parts.push(`${h}h`);
-        if (min) parts.push(`${min}m`);
-        if (s) parts.push(`${s}s`);
-
-        return parts.join(" ");
-    }
-
 
     // --- Draw tree lines ---
     function drawLines(){
-        const svg=document.getElementById('lines'); svg.innerHTML='';
-        const container=document.getElementById('mapContainer');
+        const svg = document.getElementById('lines');
+        if (!svg) return;
+        svg.innerHTML = '';
+        const container = document.getElementById('mapContainer');
+        if (!container) return;
 
         const treeMap = {
             "Headquarters": ["Bunker","Black Market","Geoponic Farm","Oil Rig","Alloy Refinery","Supply Depot","Situation Room"],
@@ -380,8 +444,9 @@ $(document).ready(function(){
             "Shard Reactor": [], "Outpost Harvest": [], "Outpost Strategic": []
         };
 
-        const elems = Array.from(container.children).filter(el=>el.classList.contains('section'))
-                       .reduce((acc, el)=>{ acc[el.innerText.trim()] = el; return acc; },{});
+        const elems = Array.from(container.children)
+            .filter(el => el.classList && el.classList.contains('section'))
+            .reduce((acc, el) => { acc[el.innerText.trim()] = el; return acc; }, {});
 
         for(let parentName in treeMap){
             const children = treeMap[parentName];
@@ -392,31 +457,30 @@ $(document).ready(function(){
             const startX = parentRect.right - containerRect.left;
             const startY = parentRect.top - containerRect.top + parentRect.height/2;
 
-            children.forEach(childName=>{
+            children.forEach(childName => {
                 const childEl = elems[childName]; if(!childEl) return;
                 const childRect = childEl.getBoundingClientRect();
                 const endX = childRect.left - containerRect.left;
                 const endY = childRect.top - containerRect.top + childRect.height/2;
-                const midX = startX + (endX-startX)/2;
+                const midX = startX + (endX - startX) / 2;
 
                 const polyline = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-                polyline.setAttribute('points',`${startX},${startY} ${midX},${startY} ${midX},${endY} ${endX},${endY}`);
-                polyline.setAttribute('stroke','#ffcc00');
-                polyline.setAttribute('stroke-width','2');
-                polyline.setAttribute('fill','none');
-                polyline.setAttribute('stroke-linecap','round');
-                polyline.setAttribute('stroke-linejoin','round');
+                polyline.setAttribute('points', `${startX},${startY} ${midX},${startY} ${midX},${endY} ${endX},${endY}`);
+                polyline.setAttribute('stroke', '#ffcc00');
+                polyline.setAttribute('stroke-width', '2');
+                polyline.setAttribute('fill', 'none');
+                polyline.setAttribute('stroke-linecap', 'round');
+                polyline.setAttribute('stroke-linejoin', 'round');
                 svg.appendChild(polyline);
             });
         }
     }
 
-    window.onload = drawLines;
-    window.onresize = drawLines;
+    // ensure lines redraw on resize
+    window.addEventListener('resize', function(){ setTimeout(drawLines, 20); });
 
 });
 </script>
+
 </body>
 </html>
-
-
