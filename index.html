@@ -191,6 +191,7 @@ $(document).ready(function(){
         columns:[
             {title:"Key", visible:false},
             {title:"Level"},
+            {title:"Time"},
             {title:"Tech"},
             {title:"Food"},
             {title:"Oil"},
@@ -201,7 +202,9 @@ $(document).ready(function(){
             {title:"Classified Docs"},
             {title:"Data Disk"},
             {title:"Alien Power Core"},
-            {title:"Alien Tech"}
+            {title:"Alien Tech"},
+            {title:"Alien Armor"},
+            {title:"Armory Blueprints"}
         ]
     });
     const rewardsTable = $('#rewardsTable').DataTable({
@@ -274,10 +277,13 @@ $(document).ready(function(){
                 const cdd = (lvl.costs?.find(c => c.target_subtype === 'core_data_disk')?.quantity ?? 0).toLocaleString();
                 const capc = (lvl.costs?.find(c => c.target_subtype === 'core_alien_power_core')?.quantity ?? 0).toLocaleString();
                 const cac = (lvl.costs?.find(c => c.target_subtype === 'core_alien_component')?.quantity ?? 0).toLocaleString();
+                const caa = (lvl.costs?.find(c => c.target_subtype === 'core_alien_armor')?.quantity ?? 0).toLocaleString();
+                const ab = (lvl.costs?.find(c => c.target_subtype === 'armory_blueprints')?.quantity ?? 0).toLocaleString();
                 const heroXP = (lvl.reward?.hero_xp ?? 0).toLocaleString();
                 const unitCap = typeof lvl.unit_capacity === 'number' ? lvl.unit_capacity.toLocaleString() : "-";
+                const time = formatTime(lvl.upgrade_cost ?? "-");
 
-                costsTable.row.add([key,i,c3,c4,c5,c6,c7,c8,cnc,ccd,cdd,capc,cac]);
+                costsTable.row.add([key,i,time,c3,c4,c5,c6,c7,c8,cnc,ccd,cdd,capc,cac,caa,ab]);
                 rewardsTable.row.add([key,i,power,heroXP]);
                 statsTable.row.add([key,i,unitCap]);
             });
@@ -286,31 +292,43 @@ $(document).ready(function(){
     });
 
     // --- Tree filter ---
-    $('.section').on('click', function(){
-        $('.section').removeClass('active'); $(this).addClass('active');
-        const jsonKey = keyMap[$(this).text().trim()] || $(this).text().trim();
-        [costsTable,rewardsTable,statsTable].forEach(tbl=>tbl.column(0).search(jsonKey,true,false).draw());
+      const columnMap = {
+          "Outpost_harvest": [8,9],       
+          "Outpost_strategic": [8,9],
+          "War_room": [9,10],              
+          "Commandpost": [9,11],           
+          "Engineering": [12],             
+          "Researchlab": [13],             
+          "Walls": [14],                   
+          "Turret": [14],
+          "Hero_armory": [15]              
+      };
 
-        if (jsonKey==="Outpost_harvest"||jsonKey==="Outpost_strategic"){
-            costsTable.column(7).visible(true); costsTable.column(8).visible(true);
-            costsTable.column(9).visible(false); costsTable.column(10).visible(false);
-        } else if (jsonKey==="War_room"){
-            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
-            costsTable.column(9).visible(true); costsTable.column(10).visible(false);
-        } else if (jsonKey==="Commandpost"){
-            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
-            costsTable.column(9).visible(false); costsTable.column(10).visible(true);
-        } else if (jsonKey==="Engineering"){
-            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
-            costsTable.column(9).visible(false); costsTable.column(11).visible(true);
-        } else if (jsonKey==="Researchlab"){
-            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
-            costsTable.column(9).visible(false); costsTable.column(12).visible(true);
-        } else {
-            costsTable.columns([7,9,10,11,12]).visible(false); costsTable.column(8).visible(true);
-        }
-    });
-    $('.section.root').trigger('click');
+      // Always show Time unless Outpost
+      const timeHidden = ["Outpost_harvest","Outpost_strategic"];
+
+      $('.section').on('click', function(){
+          $('.section').removeClass('active'); 
+          $(this).addClass('active');
+
+          const jsonKey = keyMap[$(this).text().trim()] || $(this).text().trim();
+          [costsTable,rewardsTable,statsTable].forEach(tbl=>tbl.column(0).search(jsonKey,true,false).draw());
+
+          // Hide all conditional columns
+          costsTable.columns([2,8,9,10,11,12,13,14,15]).visible(false);
+
+          // Show Time if not hidden
+          if (!timeHidden.includes(jsonKey)) costsTable.column(2).visible(true);
+
+          // Show other columns if mapped
+          if (columnMap[jsonKey]) {
+              columnMap[jsonKey].forEach(idx => costsTable.column(idx).visible(true));
+          }
+      });
+
+      $('.section.root').trigger('click');
+
+
 
     // --- Table toggle buttons ---
     $('.toggle-table-btn').on('click', function() {
@@ -325,6 +343,25 @@ $(document).ready(function(){
         rewardsTable.fixedHeader.adjust();
         statsTable.fixedHeader.adjust();
     });
+
+    function formatTime(seconds) {
+        if (!seconds || seconds === "-") return "-";
+
+        const d = Math.floor(seconds / (24*3600));
+        seconds %= 24*3600;
+        const h = Math.floor(seconds / 3600);
+        seconds %= 3600;
+        const min = Math.floor(seconds / 60);
+        const s = seconds % 60;
+
+        let parts = [];
+        if (d) parts.push(`${d}d`);
+        if (h) parts.push(`${h}h`);
+        if (min) parts.push(`${min}m`);
+        if (s) parts.push(`${s}s`);
+
+        return parts.join(" ");
+    }
 
 
     // --- Draw tree lines ---
