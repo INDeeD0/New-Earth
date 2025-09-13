@@ -7,6 +7,7 @@
 
 <!-- DataTables CSS -->
 <link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="libs/fixedHeader.dataTables.min.css">
 
 <style>
 body {
@@ -18,16 +19,11 @@ body {
   padding: 20px;
 }
 
-h1 {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
 /* Tree Grid */
 .container {
   display: grid;
   grid-template-columns: repeat(6, 200px);
-  grid-template-rows: repeat(12, 19px);
+  grid-template-rows: repeat(13, 19px);
   gap: 5px 20px;
   justify-content: center;
   margin: 20px auto;
@@ -60,34 +56,7 @@ svg#lines {
 }
 
 /* Table Styles */
-#filterButtons {
-  margin-bottom: 10px;
-}
-.filter-btn {
-  margin: 2px;
-  padding: 4px 8px;
-  cursor: pointer;
-  border: 1px solid #555;
-  border-radius: 4px;
-  background: #eee;
-  color: #000;
-}
-.filter-btn.active {
-  background: #4287f5;
-  color: #fff;
-}
-#topNav button {
-  margin: 2px;
-  padding: 6px 12px;
-  border: 1px solid #555;
-  border-radius: 4px;
-  background: #333;
-  color: #fff;
-  cursor: pointer;
-}
-#topNav button:hover {
-  background: #555;
-}
+#topNav { margin-bottom: 15px; }
 .nav-btn {
   margin: 2px;
   padding: 6px 12px;
@@ -97,129 +66,166 @@ svg#lines {
   color: #fff;
   cursor: pointer;
 }
-.nav-btn:hover {
-  background: #555;
+.nav-btn:hover { background: #555; }
+.nav-btn.active { background: #4287f5; border-color: #4287f5; }
+
+#tableToggle { margin-top: 20px; }
+.toggle-table-btn {
+  margin: 2px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #eee;
+  color: #000;
 }
-.nav-btn.active {
+.toggle-table-btn.active {
   background: #4287f5;
-  border-color: #4287f5;
+  color: #fff;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  background: white; /* keep table white */
-  color: black;      /* force text to black */
-  margin-top: 30px;
+  background: white;
+  color: black;
+  margin-top: 10px;
 }
 
-table th,
-table td {
-  color: black;      /* ensure headers and cells are black */
+table th, table td {
+  color: black;
+  padding: 4px 6px;
+  white-space: nowrap;
 }
-#structureTable th,
-#structureTable td {
-  padding: 4px 6px;   /* default is ~8–12px */
-  white-space: nowrap; /* keeps content tighter */
+table.dataTable tbody tr.odd {
+  background-color: #e6e6e6; 
 }
-
-
+table.dataTable tbody tr.even {
+  background-color: #ffffff;
+}
 </style>
 </head>
 <body>
 
-<div id="topNav" style="margin-bottom: 15px;">
+<!-- Navigation -->
+<div id="topNav">
   <button class="nav-btn" data-page="Research.html">Research</button>
   <button class="nav-btn" data-page="index.html">Structures</button>
   <button class="nav-btn" data-page="units.html">Units</button>
 </div>
 
+<!-- Tree -->
 <div class="container" id="mapContainer">
-  <!-- Column 1 -->
-  <div class="section root" data-key="Headquarters" style="grid-row:1 / span 11; grid-column:1;">Headquarters</div>
-  <div class="section" data-key="Outpost Strategic" style="grid-row:12; grid-column:1;">Outpost Strategic</div>
+  <div class="section root" data-key="Headquarters" style="grid-row:1 / span 12; grid-column:1;">Headquarters</div>
+  <div class="section" data-key="Outpost Strategic" style="grid-row:13; grid-column:1;">Outpost Strategic</div>
 
-  <!-- Column 2 -->
   <div class="section" data-key="Bunker" style="grid-row:1; grid-column:2;">Bunker</div>
   <div class="section" data-key="Black Market" style="grid-row:2 / span 3; grid-column:2;">Black Market</div>
-  <div class="section" data-key="Geoponic Farm" style="grid-row:5; grid-column:2;">Geoponic Farm</div>
-  <div class="section" data-key="Oil Rig" style="grid-row:6 / span 2; grid-column:2;">Oil Rig</div>
-  <div class="section" data-key="Alloy Refinery" style="grid-row:8 / span 2; grid-column:2;">Alloy Refinery</div>
-  <div class="section" data-key="Supply Depot" style="grid-row:10; grid-column:2;">Supply Depot</div>
-  <div class="section" data-key="Situation Room" style="grid-row:11; grid-column:2;">Situation Room</div>
-  <div class="section" data-key="Outpost Harvest" style="grid-row:12; grid-column:2;">Outpost Harvest</div>
+  <div class="section" data-key="Geoponic Farm" style="grid-row:5 / span 2; grid-column:2;">Geoponic Farm</div>
+  <div class="section" data-key="Oil Rig" style="grid-row:7 / span 2; grid-column:2;">Oil Rig</div>
+  <div class="section" data-key="Alloy Refinery" style="grid-row:9 / span 2; grid-column:2;">Alloy Refinery</div>
+  <div class="section" data-key="Supply Depot" style="grid-row:11; grid-column:2;">Supply Depot</div>
+  <div class="section" data-key="Situation Room" style="grid-row:12; grid-column:2;">Situation Room</div>
+  <div class="section" data-key="Outpost Harvest" style="grid-row:13; grid-column:2;">Outpost Harvest</div>
 
-  <!-- Column 3 -->
   <div class="section" data-key="Engineering" style="grid-row:2 / span 3; grid-column:3;">Engineering</div>
-  <div class="section" data-key="Barracks" style="grid-row:5; grid-column:3;">Barracks</div>
-  <div class="section" data-key="Research Lab" style="grid-row:6 / span 2; grid-column:3;">Research Lab</div>
-  <div class="section" data-key="Wall" style="grid-row:8 / span 2; grid-column:3;">Wall</div>
-  <div class="section" data-key="Global Network" style="grid-row:10; grid-column:3;">Global Network</div>
+  <div class="section" data-key="Barracks" style="grid-row:5 / span 2; grid-column:3;">Barracks</div>
+  <div class="section" data-key="Research Lab" style="grid-row:7 / span 2; grid-column:3;">Research Lab</div>
+  <div class="section" data-key="Wall" style="grid-row:9 / span 2; grid-column:3;">Wall</div>
+  <div class="section" data-key="Global Network" style="grid-row:11; grid-column:3;">Global Network</div>
 
-  <!-- Column 4 -->
   <div class="section" data-key="Experimentation Chamber" style="grid-row:2; grid-column:4;">Experimentation Chamber</div>
   <div class="section" data-key="Factory" style="grid-row:3; grid-column:4;">Factory</div>
   <div class="section" data-key="Turret" style="grid-row:4; grid-column:4;">Turret</div>
   <div class="section" data-key="Medical Bay" style="grid-row:5; grid-column:4;">Medical Bay</div>
-  <div class="section" data-key="Hostile Containment" style="grid-row:6; grid-column:4;">Hostile Containment</div>
-  <div class="section" data-key="Shard Reactor" style="grid-row:7; grid-column:4;">Shard Reactor</div>
-  <div class="section" data-key="Airstrip" style="grid-row:8; grid-column:4;">Airstrip</div>
-  <div class="section" data-key="Satellite Uplink" style="grid-row:9; grid-column:4;">Satellite Uplink</div>
-  <div class="section" data-key="Security Station" style="grid-row:10; grid-column:4;">Security Station</div>
+  <div class="section" data-key="Command Post" style="grid-row:6; grid-column:4;">Command Post</div>
+  <div class="section" data-key="Hostile Containment" style="grid-row:7; grid-column:4;">Hostile Containment</div>
+  <div class="section" data-key="Shard Reactor" style="grid-row:8; grid-column:4;">Shard Reactor</div>
+  <div class="section" data-key="Airstrip" style="grid-row:9; grid-column:4;">Airstrip</div>
+  <div class="section" data-key="Satellite Uplink" style="grid-row:10; grid-column:4;">Satellite Uplink</div>
+  <div class="section" data-key="Security Station" style="grid-row:11; grid-column:4;">Security Station</div>
 
-  <!-- Column 5 -->
   <div class="section" data-key="Robotics Bay" style="grid-row:3; grid-column:5;">Robotics Bay</div>
-  <div class="section" data-key="Command Post" style="grid-row:5; grid-column:5;">Command Post</div>
-  <div class="section" data-key="Alien Genetics Labs" style="grid-row:6; grid-column:5;">Alien Genetics Labs</div>
-
-  <!-- Column 6 -->
-  <div class="section" data-key="Hero Armory" style="grid-row:5; grid-column:6;">Hero Armory</div>
+  <div class="section" data-key="Hero Armory" style="grid-row:6; grid-column:5;">Hero Armory</div>
+  <div class="section" data-key="Alien Genetics Labs" style="grid-row:7; grid-column:5;">Alien Genetics Labs</div>
 
   <svg id="lines"></svg>
 </div>
 
+<!-- Table Toggle -->
+<div id="tableToggle">
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <button class="toggle-table-btn" data-table="rewards">Rewards</button>
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+</div>
 
-<table id="structureTable" class="display">
-  <thead>
-    <tr>
-      <th>Key</th>
-      <th>Level</th>
-      <th>Unit Capacity</th>
-      <th>Power</th>
-      <th>Tech</th>
-      <th>Food</th>
-      <th>Oil</th>
-      <th>Alloy</th>
-      <th>Neutronium</th>
-      <th>Alliance Credits</th>
-      <th>Neutronium Crystal</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+<!-- Tables -->
+<div id="costsWrapper">
+  <table id="costsTable"></table>
+</div>
+<div id="rewardsWrapper" style="height:0; overflow:hidden;">
+  <table id="rewardsTable"></table>
+</div>
+<div id="statsWrapper" style="height:0; overflow:hidden;">
+  <table id="statsTable"></table>
+</div>
+
 <!-- Scripts -->
 <script src="libs/jquery-3.7.0.min.js"></script>
 <script src="libs/jquery.dataTables.min.js"></script>
 <script src="libs/dataTables.fixedHeader.min.js"></script>
-<link rel="stylesheet" href="libs/fixedHeader.dataTables.min.css">
+
 <script>
-$(document).ready(function () {
-    const table = $('#structureTable').DataTable({
-        scrollY: "800px",
-        scrollCollapse: true,
-        paging: false,
-        lengthChange: false,
-        columnDefs: [
-          { targets: 0, visible: false }
-        ],
-        dom: 'ti',
-        fixedHeader: true
+$(document).ready(function(){
+
+    // --- Page navigation ---
+    $('#topNav .nav-btn').each(function(){
+        if ($(this).data('page') === window.location.pathname.split('/').pop()) $(this).addClass('active');
+        $(this).on('click', function(){ window.location.href = $(this).data('page'); });
+    });
+
+    // --- Tables ---
+    let costsFixedHeader, rewardsFixedHeader, statsFixedHeader;
+    const costsTable = $('#costsTable').DataTable({
+        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false,fixedHeader: true,
+        columns:[
+            {title:"Key", visible:false},
+            {title:"Level"},
+            {title:"Tech"},
+            {title:"Food"},
+            {title:"Oil"},
+            {title:"Alloy"},
+            {title:"Neutronium"},
+            {title:"Alliance Credits"},
+            {title:"Neutronium Crystal"},
+            {title:"Classified Docs"},
+            {title:"Data Disk"},
+            {title:"Alien Power Core"},
+            {title:"Alien Tech"}
+        ]
+    });
+    const rewardsTable = $('#rewardsTable').DataTable({
+        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false,fixedHeader: true,
+        columns:[
+            {title:"Key", visible:false},
+            {title:"Level"},
+            {title:"Power"},
+            {title:"Hero XP"}
+        ]
+    });
+    const statsTable = $('#statsTable').DataTable({
+        scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false,fixedHeader: true,
+        columns:[
+            {title:"Key", visible:false},
+            {title:"Level"},
+            {title:"Unit Capacity"}
+        ]
     });
 
     const keyMap = {
         "Headquarters": "Headquarters",
         "Black Market": "Blackmarket",
-        "Hydroponicfarm": "Hydroponicfarm",
+        "Geoponic Farm": "Hydroponicfarm",
         "Oil Rig": "Oilrig",
         "Alloy Refinery": "Alloyrefinery",
         "Supply Depot": "Supplydepot",
@@ -247,151 +253,131 @@ $(document).ready(function () {
         "Outpost Harvest": "Outpost_harvest"
     };
 
-    // Load structure JSON and populate table
+    // --- Load JSON ---
     fetch('molds/categories/structures.json')
-        .then(r => r.json())
-        .then(data => {
-            const subtypes = data._subtypes;
+    .then(r=>r.json())
+    .then(data=>{
+        const subtypes = data._subtypes;
+        Object.entries(subtypes).forEach(([key,building])=>{
+            let prevPower=0;
+            building.levels.forEach((lvl,i)=>{
+                if (!Object.keys(lvl).length) return;
+                const power = ((lvl.power ?? 0) - prevPower).toLocaleString(); prevPower = lvl.power ?? 0;
+                const c3 = (lvl.costs?.find(c => c.target_subtype === 'currency3')?.quantity ?? 0).toLocaleString();
+                const c4 = (lvl.costs?.find(c => c.target_subtype === 'currency4')?.quantity ?? 0).toLocaleString();
+                const c5 = (lvl.costs?.find(c => c.target_subtype === 'currency5')?.quantity ?? 0).toLocaleString();
+                const c6 = (lvl.costs?.find(c => c.target_subtype === 'currency6')?.quantity ?? 0).toLocaleString();
+                const c7 = (lvl.costs?.find(c => c.target_subtype === 'currency7')?.quantity ?? 0).toLocaleString();
+                const c8 = (lvl.costs?.find(c => c.target_subtype === 'currency8')?.quantity ?? 0).toLocaleString();
+                const cnc = (lvl.costs?.find(c => c.target_subtype === 'core_neutronium_crystal')?.quantity ?? 0).toLocaleString();
+                const ccd = (lvl.costs?.find(c => c.target_subtype === 'core_classified_documents')?.quantity ?? 0).toLocaleString();
+                const cdd = (lvl.costs?.find(c => c.target_subtype === 'core_data_disk')?.quantity ?? 0).toLocaleString();
+                const capc = (lvl.costs?.find(c => c.target_subtype === 'core_alien_power_core')?.quantity ?? 0).toLocaleString();
+                const cac = (lvl.costs?.find(c => c.target_subtype === 'core_alien_component')?.quantity ?? 0).toLocaleString();
+                const heroXP = (lvl.reward?.hero_xp ?? 0).toLocaleString();
+                const unitCap = typeof lvl.unit_capacity === 'number' ? lvl.unit_capacity.toLocaleString() : "-";
 
-            // Populate table only
-            Object.entries(subtypes).forEach(([key, building]) => {
-                let prevPower = 0;
-                building.levels.forEach((lvl, i) => {
-                    if (Object.keys(lvl).length === 0) return;
-
-                    const levelPower = (lvl.power ?? 0) - prevPower;
-                    prevPower = lvl.power ?? 0;
-
-                    const c3 = lvl.costs?.find(c => c.target_subtype === 'currency3')?.quantity ?? 0;
-                    const c4 = lvl.costs?.find(c => c.target_subtype === 'currency4')?.quantity ?? 0;
-                    const c5 = lvl.costs?.find(c => c.target_subtype === 'currency5')?.quantity ?? 0;
-                    const c6 = lvl.costs?.find(c => c.target_subtype === 'currency6')?.quantity ?? 0;
-                    const c7 = lvl.costs?.find(c => c.target_subtype === 'currency7')?.quantity ?? 0;
-                    const c8 = lvl.costs?.find(c => c.target_subtype === 'currency8')?.quantity ?? 0;
-                    const cnc = lvl.costs?.find(c => c.target_subtype === 'core_neutronium_crystal')?.quantity ?? 0;
-
-                    table.row.add([
-                        key,
-                        i,
-                        lvl.unit_capacity != null ? lvl.unit_capacity.toLocaleString() : "-",
-                        levelPower.toLocaleString(),
-                        c3.toLocaleString(),
-                        c4.toLocaleString(),
-                        c5.toLocaleString(),
-                        c6.toLocaleString(),
-                        c7.toLocaleString(),
-                        c8.toLocaleString(),
-                        cnc
-                    ]);
-                });
+                costsTable.row.add([key,i,c3,c4,c5,c6,c7,c8,cnc,ccd,cdd,capc,cac]);
+                rewardsTable.row.add([key,i,power,heroXP]);
+                statsTable.row.add([key,i,unitCap]);
             });
-
-            table.draw();
-        })
-        .catch(err => console.error('Error loading structures.json:', err));
-
-        // Highlight active nav button
-        $('#topNav .nav-btn').each(function() {
-          if ($(this).data('page') === window.location.pathname.split('/').pop()) {
-            $(this).addClass('active');
-          }
-          $(this).on('click', function() {
-            window.location.href = $(this).data('page');
-          });
         });
+        costsTable.draw(); rewardsTable.draw(); statsTable.draw();
+    });
 
-    // Tree buttons filter the table
-    $('.section').on('click', function() {
-        $('.section').removeClass('active');
-        $(this).addClass('active');
+    // --- Tree filter ---
+    $('.section').on('click', function(){
+        $('.section').removeClass('active'); $(this).addClass('active');
+        const jsonKey = keyMap[$(this).text().trim()] || $(this).text().trim();
+        [costsTable,rewardsTable,statsTable].forEach(tbl=>tbl.column(0).search(jsonKey,true,false).draw());
 
-        const displayName = $(this).text().trim();
-        const jsonKey = keyMap[displayName] || displayName;
-
-        table.column(0).search(jsonKey, true, false).draw();
-        if (jsonKey === "Outpost_harvest" || jsonKey === "Outpost_strategic") {
-            table.column(9).visible(true);   // Alliance Credits
-            table.column(10).visible(false); // Core Neutronium Crystal
+        if (jsonKey==="Outpost_harvest"||jsonKey==="Outpost_strategic"){
+            costsTable.column(7).visible(true); costsTable.column(8).visible(true);
+            costsTable.column(9).visible(false); costsTable.column(10).visible(false);
+        } else if (jsonKey==="War_room"){
+            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
+            costsTable.column(9).visible(true); costsTable.column(10).visible(false);
+        } else if (jsonKey==="Commandpost"){
+            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
+            costsTable.column(9).visible(false); costsTable.column(10).visible(true);
+        } else if (jsonKey==="Engineering"){
+            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
+            costsTable.column(9).visible(false); costsTable.column(11).visible(true);
+        } else if (jsonKey==="Researchlab"){
+            costsTable.column(7).visible(false); costsTable.column(8).visible(true);
+            costsTable.column(9).visible(false); costsTable.column(12).visible(true);
         } else {
-            table.column(9).visible(false);
-            table.column(10).visible(true);
-    }
+            costsTable.columns([7,9,10,11,12]).visible(false); costsTable.column(8).visible(true);
+        }
     });
     $('.section.root').trigger('click');
-    table.column(9).visible(false);
-});
 
-// Draw tree lines
-function drawLines() {
-  const svg = document.getElementById('lines');
-  svg.innerHTML = '';
-  const container = document.getElementById('mapContainer');
+    // --- Table toggle buttons ---
+    $('.toggle-table-btn').on('click', function() {
+        $('.toggle-table-btn').removeClass('active'); $(this).addClass('active');
+        const tbl = $(this).data('table');
 
-  const treeMap = {
-    "Headquarters": ["Bunker","Black Market","Geoponic Farm","Oil Rig","Alloy Refinery","Supply Depot","Situation Room"],
-    "Bunker": [],
-    "Black Market": ["Engineering"],
-    "Engineering": ["Experimentation Chamber","Factory","Turret"],
-    "Factory": ["Robotics Bay"],
-    "Geoponic Farm": ["Barracks"],
-    "Oil Rig": ["Research Lab"],
-    "Alloy Refinery": ["Wall"],
-    "Barracks": ["Medical Bay"],
-    "Research Lab": ["Hostile Containment","Shard Reactor"],
-    "Medical Bay": ["Command Post"],
-    "Hostile Containment": ["Alien Genetics Labs"],
-    "Wall": ["Airstrip","Satellite Uplink"],
-    "Command Post": ["Hero Armory"],
-    "Robotics Bay": [],
-    "Alien Genetics Labs": [],
-    "Hero Armory": [],
-    "Supply Depot": ["Global Network"],
-    "Global Network": ["Security Station"],
-    "Situation Room": [],
-    "Airstrip": [],
-    "Satellite Uplink": [],
-    "Security Station": [],
-    "Turret": [],
-    "Experimentation Chamber": [],
-    "Shard Reactor": [],
-    "Outpost Harvest": [],
-    "Outpost Strategic": []
-  };
+        $('#costsWrapper, #rewardsWrapper, #statsWrapper').css({height:0, overflow:'hidden'});
+        $(`#${tbl}Wrapper`).css({height:'auto', overflow:'visible'});
 
-  const elems = Array.from(container.children)
-                     .filter(el=>el.classList.contains('section'))
-                     .reduce((acc, el)=>{ acc[el.innerText.trim()] = el; return acc; },{});
-
-  for(let parentName in treeMap){
-    const children = treeMap[parentName];
-    if(!children.length) continue;
-    const parentEl = elems[parentName];
-    if(!parentEl) continue;
-    const parentRect = parentEl.getBoundingClientRect();
-    const containerRect = container.getBoundingClientRect();
-    const startX = parentRect.right - containerRect.left;
-    const startY = parentRect.top - containerRect.top + parentRect.height/2;
-
-    children.forEach(childName=>{
-      const childEl = elems[childName];
-      if(!childEl) return;
-      const childRect = childEl.getBoundingClientRect();
-      const endX = childRect.left - containerRect.left;
-      const endY = childRect.top - containerRect.top + childRect.height/2;
-      const midX = startX + (endX-startX)/2;
-
-      const polyline = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-      polyline.setAttribute('points',`${startX},${startY} ${midX},${startY} ${midX},${endY} ${endX},${endY}`);
-      polyline.setAttribute('stroke','#ffcc00');
-      polyline.setAttribute('stroke-width','2');
-      polyline.setAttribute('fill','none');
-      polyline.setAttribute('stroke-linecap','round');
-      polyline.setAttribute('stroke-linejoin','round');
-      svg.appendChild(polyline);
+        // Force FixedHeader to recalc
+        costsTable.fixedHeader.adjust();
+        rewardsTable.fixedHeader.adjust();
+        statsTable.fixedHeader.adjust();
     });
-  }
-}
 
-window.onload = drawLines;
-window.onresize = drawLines;
+
+    // --- Draw tree lines ---
+    function drawLines(){
+        const svg=document.getElementById('lines'); svg.innerHTML='';
+        const container=document.getElementById('mapContainer');
+
+        const treeMap = {
+            "Headquarters": ["Bunker","Black Market","Geoponic Farm","Oil Rig","Alloy Refinery","Supply Depot","Situation Room"],
+            "Bunker": [], "Black Market": ["Engineering"], "Engineering": ["Experimentation Chamber","Factory","Turret"],
+            "Factory": ["Robotics Bay"], "Geoponic Farm": ["Barracks"], "Oil Rig": ["Research Lab"], "Alloy Refinery": ["Wall"],
+            "Barracks": ["Medical Bay","Command Post"], "Research Lab": ["Hostile Containment","Shard Reactor"], "Medical Bay": [],
+            "Hostile Containment": ["Alien Genetics Labs"], "Wall": ["Airstrip","Satellite Uplink"], "Command Post": ["Hero Armory"],
+            "Robotics Bay": [], "Alien Genetics Labs": [], "Hero Armory": [], "Supply Depot": ["Global Network"], "Global Network": ["Security Station"],
+            "Situation Room": [], "Airstrip": [], "Satellite Uplink": [], "Security Station": [], "Turret": [], "Experimentation Chamber": [],
+            "Shard Reactor": [], "Outpost Harvest": [], "Outpost Strategic": []
+        };
+
+        const elems = Array.from(container.children).filter(el=>el.classList.contains('section'))
+                       .reduce((acc, el)=>{ acc[el.innerText.trim()] = el; return acc; },{});
+
+        for(let parentName in treeMap){
+            const children = treeMap[parentName];
+            if(!children.length) continue;
+            const parentEl = elems[parentName]; if(!parentEl) continue;
+            const parentRect = parentEl.getBoundingClientRect();
+            const containerRect = container.getBoundingClientRect();
+            const startX = parentRect.right - containerRect.left;
+            const startY = parentRect.top - containerRect.top + parentRect.height/2;
+
+            children.forEach(childName=>{
+                const childEl = elems[childName]; if(!childEl) return;
+                const childRect = childEl.getBoundingClientRect();
+                const endX = childRect.left - containerRect.left;
+                const endY = childRect.top - containerRect.top + childRect.height/2;
+                const midX = startX + (endX-startX)/2;
+
+                const polyline = document.createElementNS("http://www.w3.org/2000/svg","polyline");
+                polyline.setAttribute('points',`${startX},${startY} ${midX},${startY} ${midX},${endY} ${endX},${endY}`);
+                polyline.setAttribute('stroke','#ffcc00');
+                polyline.setAttribute('stroke-width','2');
+                polyline.setAttribute('fill','none');
+                polyline.setAttribute('stroke-linecap','round');
+                polyline.setAttribute('stroke-linejoin','round');
+                svg.appendChild(polyline);
+            });
+        }
+    }
+
+    window.onload = drawLines;
+    window.onresize = drawLines;
+
+});
 </script>
+</body>
+</html>
