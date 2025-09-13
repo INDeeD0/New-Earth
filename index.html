@@ -373,8 +373,6 @@ $(document).ready(function(){
 
     // --- Tree filter ---
     const columnMap = {
-        "Outpost_harvest": [8,9],
-        "Outpost_strategic": [8,9],
         "War_room": [9,10],
         "Commandpost": [9,11],
         "Engineering": [12],
@@ -384,25 +382,30 @@ $(document).ready(function(){
         "Hero_armory": [15]
     };
     const timeHidden = ["Outpost_harvest","Outpost_strategic"];
+    const outposts = ["Outpost_harvest","Outpost_strategic"];
 
     $('.section').on('click', function(){
         $('.section').removeClass('active');
         $(this).addClass('active');
 
         const jsonKey = keyMap[$(this).text().trim()] || $(this).text().trim();
-        [costsTable, rewardsTable, statsTable].forEach(tbl=>tbl.column(0).search(jsonKey,true,false).draw());
+        [costsTable, rewardsTable, statsTable].forEach(tbl => tbl.column(0).search(jsonKey, true, false).draw());
 
-        // hide conditional columns (including time)
+        // hide all conditional columns first
         costsTable.columns([2,8,9,10,11,12,13,14,15]).visible(false);
 
+        // time column visible if not hidden
         if (!timeHidden.includes(jsonKey)) costsTable.column(2).visible(true);
+
+        // show columns from mapping
         if (columnMap[jsonKey]) {
             columnMap[jsonKey].forEach(idx => costsTable.column(idx).visible(true));
         }
 
-        // keep the header input in sync after column visibility changes
+        // show CNC (index 9) for all non-Outposts
+        if (!outposts.includes(jsonKey)) costsTable.column(9).visible(true);
+
         $('.time-scale').val(currentScale);
-        // lines might need re-draw after layout change
         setTimeout(drawLines, 20);
     });
     $('.section.root').trigger('click');
