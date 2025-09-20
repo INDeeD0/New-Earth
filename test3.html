@@ -619,12 +619,25 @@ function adjustTableColumns() {
     rewardsTable.draw(false);
     statsTable.draw(false);
 }
+function adjustTotalsWidth() {
+    const wrapper = $('#totalsTableWrapper');
+    const table = $('#totalsTable');
+
+    // shrink table if columns hidden (mobile)
+    table.css('width', 'auto');
+
+    // force wrapper flex alignment
+    wrapper.css('justify-content', 'center');
+}
+adjustTableColumns();
+adjustTotalsWidth();
 
 // --- Trigger on load and resize ---
 $(document).ready(function() {
     adjustTableColumns(); // initial adjustment
     $(window).on('resize', function(){
         adjustTableColumns();
+        adjustTotalsWidth();
     });
 });
 </script>
