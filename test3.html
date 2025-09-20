@@ -132,6 +132,16 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 
 /* Hidden outer wrappers default to display:none so hidden tables do not render side-by-side */
 #rewardsWrapper, #statsWrapper { display: none; }
+#totalsTableWrapper {
+    display: flex;
+    justify-content: center; /* horizontally center */
+    margin-top: 10px;
+}
+#totalsTable {
+    border-collapse: collapse;
+    width: auto; /* table can shrink on mobile */
+    max-width: 100%;
+}
 </style>
 </head>
 <body>
@@ -201,8 +211,8 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   <table id="statsTable"></table>
 </div>
 
-<div style="text-align:center; margin-top:10px;">
-    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+<div id="totalsTableWrapper">
+    <table id="totalsTable">
         <thead><tr id="totalsHeader"></tr></thead>
         <tbody><tr id="totalsBody"></tr></tbody>
     </table>
