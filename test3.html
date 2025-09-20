@@ -132,16 +132,20 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 
 /* Hidden outer wrappers default to display:none so hidden tables do not render side-by-side */
 #rewardsWrapper, #statsWrapper { display: none; }
-#totalsTableWrapper {
-    display: flex;
-    justify-content: center; /* horizontally center */
-    margin-top: 10px;
+#totalsWrapper {
+    height: auto;
+    overflow: visible;
+    display: inline-block;   /* same as other table wrappers */
+    text-align: center;      /* center content inside */
 }
+
 #totalsTable {
     border-collapse: collapse;
-    width: auto; /* table can shrink on mobile */
+    width: auto !important;
     max-width: 100%;
+    table-layout: auto !important;
 }
+
 </style>
 </head>
 <body>
@@ -211,7 +215,7 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   <table id="statsTable"></table>
 </div>
 
-<div id="totalsTableWrapper">
+<div id="totalsWrapper">
     <table id="totalsTable">
         <thead><tr id="totalsHeader"></tr></thead>
         <tbody><tr id="totalsBody"></tr></tbody>
@@ -581,12 +585,10 @@ function adjustTableColumns() {
 
     // Costs table
     if (mobile) {
-        // hide all first
         costsTable.columns().every(function(idx){
             this.visible(mobileCols.costs.includes(idx));
         });
     } else {
-        // show all (desktop)
         costsTable.columns().every(function(idx){
             this.visible(true);
         });
@@ -614,30 +616,28 @@ function adjustTableColumns() {
         });
     }
 
+    // --- Adjust totals table to match visible costs columns ---
+    if (mobile) {
+        $('#totalsTable th, #totalsTable td').each(function(idx){
+            $(this).toggle(mobileCols.costs.includes(idx));
+        });
+        $('#totalsWrapper').css({width:'auto', margin:'0 auto'});
+    } else {
+        $('#totalsTable th, #totalsTable td').show();
+        $('#totalsWrapper').css({width:'auto', margin:'0 auto'});
+    }
+
     // redraw tables so FixedHeader and totals adjust
     costsTable.draw(false);
     rewardsTable.draw(false);
     statsTable.draw(false);
 }
-function adjustTotalsWidth() {
-    const wrapper = $('#totalsTableWrapper');
-    const table = $('#totalsTable');
-
-    // shrink table if columns hidden (mobile)
-    table.css('width', 'auto');
-
-    // force wrapper flex alignment
-    wrapper.css('justify-content', 'center');
-}
-adjustTableColumns();
-adjustTotalsWidth();
 
 // --- Trigger on load and resize ---
 $(document).ready(function() {
     adjustTableColumns(); // initial adjustment
     $(window).on('resize', function(){
         adjustTableColumns();
-        adjustTotalsWidth();
     });
 });
 </script>
