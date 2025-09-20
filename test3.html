@@ -19,15 +19,16 @@ body {
   padding: 20px;
 }
 
-/* Tree Grid */
+/* Responsive Tree Grid */
 .container {
   display: grid;
-  grid-template-columns: repeat(6, 200px);
-  grid-template-rows: repeat(13, 19px);
-  gap: 5px 20px;
+  grid-template-columns: repeat(6, minmax(clamp(100px, 16vw, 200px), 1fr));
+  grid-template-rows: repeat(13, clamp(14px, 2vh, 20px));
+  gap: clamp(3px, 0.8vw, 5px) clamp(8px, 2vw, 20px);
   justify-content: center;
   margin: 20px auto;
   position: relative;
+  max-width: 100%;
 }
 .section {
   background-color: #000;
@@ -36,11 +37,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: clamp(10px, 2.2vw, 15px);
   border-radius: 6px;
   cursor: pointer;
   position: relative;
   z-index: 1;
+  padding: 2px;
+  text-align: center;
 }
 .section:hover { border-color: #ffcc00; }
 .section.active { border-color: #4287f5; background-color: #111; }
@@ -98,20 +101,15 @@ table th, table td {
 table.dataTable tbody tr.odd { background-color: #e6e6e6; }
 table.dataTable tbody tr.even { background-color: #ffffff; }
 
-/* Make DataTables wrapper shrink to table width and be inline-block
-   so when only one wrapper is shown it's centered and does not sit
-   side-by-side with hidden wrappers. */
 .dataTables_wrapper {
   display: inline-block;
   vertical-align: top;
   text-align: left;
 }
-/* ensure the scroll blocks follow the table width */
 .dataTables_wrapper .dataTables_scroll { display:inline-block; }
 .dataTables_wrapper .dataTables_scrollHead,
 .dataTables_wrapper .dataTables_scrollBody { width: auto !important; margin: 0 auto; }
 
-/* control scroll body height and overflow */
 .dataTables_scrollBody {
   overflow-y: auto !important;
   overflow-x: hidden !important;
@@ -120,7 +118,6 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   box-sizing: content-box;
 }
 
-/* Header appearance */
 .dataTables_scrollHeadInner th,
 .dataTables_scrollHeadInner td { text-align:center !important; }
 
@@ -130,7 +127,6 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 #totalsHeader th, #totalsBody td { text-align:center; }
 .info-icon { cursor: help; font-size: 12px; margin-left: 2px; }
 
-/* Hidden outer wrappers default to display:none so hidden tables do not render side-by-side */
 #rewardsWrapper, #statsWrapper { display: none; }
 </style>
 </head>
