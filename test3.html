@@ -132,20 +132,6 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 
 /* Hidden outer wrappers default to display:none so hidden tables do not render side-by-side */
 #rewardsWrapper, #statsWrapper { display: none; }
-#totalsWrapper {
-    height: auto;
-    overflow: visible;
-    display: inline-block;   /* same as other table wrappers */
-    text-align: center;      /* center content inside */
-}
-
-#totalsTable {
-    border-collapse: collapse;
-    width: auto !important;
-    max-width: 100%;
-    table-layout: auto !important;
-}
-
 </style>
 </head>
 <body>
@@ -215,8 +201,8 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   <table id="statsTable"></table>
 </div>
 
-<div id="totalsWrapper">
-    <table id="totalsTable">
+<div style="text-align:center; margin-top:10px;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
         <thead><tr id="totalsHeader"></tr></thead>
         <tbody><tr id="totalsBody"></tr></tbody>
     </table>
@@ -567,79 +553,55 @@ $(document).ready(function(){
     setTimeout(function() { updateTotals(); }, 150);
 
 });
-// --- Define mobile column sets ---
-const mobileCols = {
-    costs: [KEY_COL, CHECKBOX_COL, LEVEL_COL, TIME_COL], // keep only key, checkbox, level, time
-    rewards: [0,1], // key, level
-    stats: [0,1] // key, level
-};
+function getVisibleColumnsForScreen() {
+    const width = window.innerWidth;
 
-// --- Function to check if mobile ---
-function isMobileScreen() {
-    return window.matchMedia("(max-width: 768px)").matches;
+    // default: full desktop
+    let visibleCols = {
+        costs: [CHECKBOX_COL, LEVEL_COL, TIME_COL, 4,5,6,7,8,9,10,11,12,13,14,15,16],
+        rewards: [0,1,2,3],
+        stats: [0,1,2],
+        totals: [] // will be auto-limited later
+    };
+
+    if (width < 1200) {
+        visibleCols.costs = [CHECKBOX_COL, LEVEL_COL, TIME_COL, 4,5,6,7]; // fewer resource columns
+        visibleCols.rewards = [0,1,2]; // drop Hero XP maybe
+        visibleCols.stats = [0,1]; // only Key + Level
+    }
+    if (width < 768) {
+        visibleCols.costs = [CHECKBOX_COL, LEVEL_COL, TIME_COL, 4,5]; // minimal resources
+        visibleCols.rewards = [0,1]; // only Key + Level
+        visibleCols.stats = [0,1]; // Key + Level
+    }
+
+    return visibleCols;
 }
-
-// --- Function to adjust columns dynamically ---
-function adjustTableColumns() {
-    const mobile = isMobileScreen();
+function adjustColumnsForScreen() {
+    const visCols = getVisibleColumnsForScreen();
 
     // Costs table
-    if (mobile) {
-        costsTable.columns().every(function(idx){
-            this.visible(mobileCols.costs.includes(idx));
-        });
-    } else {
-        costsTable.columns().every(function(idx){
-            this.visible(true);
-        });
-    }
+    costsTable.columns().visible(false); // hide all first
+    visCols.costs.forEach(idx => costsTable.column(idx).visible(true));
 
     // Rewards table
-    if (mobile) {
-        rewardsTable.columns().every(function(idx){
-            this.visible(mobileCols.rewards.includes(idx));
-        });
-    } else {
-        rewardsTable.columns().every(function(idx){
-            this.visible(true);
-        });
-    }
+    rewardsTable.columns().visible(false);
+    visCols.rewards.forEach(idx => rewardsTable.column(idx).visible(true));
 
     // Stats table
-    if (mobile) {
-        statsTable.columns().every(function(idx){
-            this.visible(mobileCols.stats.includes(idx));
-        });
-    } else {
-        statsTable.columns().every(function(idx){
-            this.visible(true);
-        });
-    }
+    statsTable.columns().visible(false);
+    visCols.stats.forEach(idx => statsTable.column(idx).visible(true));
 
-    // --- Adjust totals table to match visible costs columns ---
-    if (mobile) {
-        $('#totalsTable th, #totalsTable td').each(function(idx){
-            $(this).toggle(mobileCols.costs.includes(idx));
-        });
-        $('#totalsWrapper').css({width:'auto', margin:'0 auto'});
-    } else {
-        $('#totalsTable th, #totalsTable td').show();
-        $('#totalsWrapper').css({width:'auto', margin:'0 auto'});
-    }
-
-    // redraw tables so FixedHeader and totals adjust
-    costsTable.draw(false);
-    rewardsTable.draw(false);
-    statsTable.draw(false);
+    // Totals: recalc based on visible columns
+    updateTotals();
 }
-
-// --- Trigger on load and resize ---
-$(document).ready(function() {
-    adjustTableColumns(); // initial adjustment
-    $(window).on('resize', function(){
-        adjustTableColumns();
-    });
+window.addEventListener('resize', function(){
+    adjustColumnsForScreen();
+    setTimeout(drawLines, 20); // redraw tree lines if needed
 });
+
+// Initial adjustment
+adjustColumnsForScreen();
 </script>
 
 </body>
