@@ -92,12 +92,14 @@ table {
   width: auto !important;       /* allow dynamic width */
   max-width: 100%;              /* never exceed screen */
   table-layout: auto !important;/* use natural width */
+  font-size: 20px;
 }
 
 table th, table td {
   color: black;
   padding: 4px 6px;
   white-space: nowrap;          /* prevent wrapping */
+  font-size: 20px;
 }
 table.dataTable tbody tr.odd {
   background-color: #e6e6e6; 
@@ -122,6 +124,17 @@ table.dataTable tbody tr.even {
   width: auto !important;  /* let table define width */
   margin: 0 auto;
 }
+
+/* Ensure header tooltips are not clipped and appear above rows */
+.dataTables_wrapper .dataTables_scrollHead {
+  overflow: visible !important; /* override DataTables' hidden overflow */
+  position: relative;            /* establish stacking context */
+  z-index: 3;                    /* above scroll body */
+}
+.dataTables_wrapper .dataTables_scrollBody {
+  position: relative;
+  z-index: 1;
+}
 #costsTable, #rewardsTable, #statsTable {
     text-align: center;
 }
@@ -140,10 +153,18 @@ table.dataTable tbody tr.even {
     text-align: center !important;
 }
 
-/* Center checkboxes in their cells */
+/* Larger, centered checkboxes */
 #costsTable .row-checkbox {
     display: block;
     margin: 0 auto;
+    transform: scale(1.6);
+    transform-origin: center;
+}
+#rewardsTable .row-checkbox {
+    display: block;
+    margin: 0 auto;
+    transform: scale(1.6);
+    transform-origin: center;
 }
 
 /* Center totals table headers and cells */
@@ -153,8 +174,35 @@ table.dataTable tbody tr.even {
 }
 .info-icon {
     cursor: help;
-    font-size: 12px;
+    font-size: 18px;
     margin-left: 2px;
+    position: relative;
+}
+.info-icon[data-tip]:hover::after {
+    content: attr(data-tip);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    font-size: 12px;
+    margin-top: 4px;
+}
+.info-icon[data-tip]:hover::before {
+    content: '';
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    background: #333;
 }
 
 </style>
@@ -209,9 +257,9 @@ table.dataTable tbody tr.even {
 <!-- Table Toggle -->
 <div id="tableToggle">
   <button class="toggle-table-btn active" data-table="costs">Costs</button>
-  <button class="toggle-table-btn" data-table="rewards">Rewards</button>
+  <button class="toggle-table-btn" data-table="rewards">Main Missions</button>
   <button class="toggle-table-btn" data-table="stats">Stats</button>
-</div>
+  </div>
 
 <!-- Tables -->
 <div id="costsWrapper">
@@ -220,11 +268,17 @@ table.dataTable tbody tr.even {
 <div id="rewardsWrapper" style="height:0; overflow:hidden;">
   <table id="rewardsTable"></table>
 </div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table>
+</div>
 <div id="statsWrapper" style="height:0; overflow:hidden;">
   <table id="statsTable"></table>
 </div>
 
-<div style="text-align:center; margin-top:10px;">
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
     <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
         <thead><tr id="totalsHeader"></tr></thead>
         <tbody><tr id="totalsBody"></tr></tbody>
@@ -291,13 +345,16 @@ $(document).ready(function(){
     // keep track of checked rows by uid (key|level)
     const checkedMap = Object.create(null);
 
+    // independent selection map for Main Missions table
+    const missionsCheckedMap = Object.create(null);
+
     // current time scale %
     let currentScale = 0;
 
     // --- Column definitions (kept in a variable so we can reference titles later) ---
     const colsDef = [
         { title: "Key", visible: false }, // 0
-        { title: "<button id='removeAll' style='padding:2px 6px;font-size:12px;'>&#x1F501</button>", orderable:false, width:"50px",
+        { title: "<button id='removeAll' style='padding:2px 6px;'>&#x1F501</button>", orderable:false, width:"50px",
             // render the checkbox (uses checkedMap)
             render: function(data, type, row, meta) {
                 // row is the row data array; row[0] = key, row[2] = level
@@ -313,8 +370,9 @@ $(document).ready(function(){
             }
         }, // 1 (checkbox)
         { title: "LVL" },    // 2
-        { title: 'Time <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" title="Building boost">❓</span>',className: "dt-head-center"}, // 3
-        { title: "Tech" },     // 4
+        { title: 'Time <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span>',className: "dt-head-center"}, // 3
+        { title: "Power" },    // 4
+        { title: "Tech" },     // 5
         { title: "Food" },     // 5
         { title: "Oil" },      // 6
         { title: "Alloy" },    // 7
@@ -330,6 +388,7 @@ $(document).ready(function(){
         { title: "_raw", visible: false } // 17 (raw seconds)
     ];
 
+    
     // column indexes for convenience
     const KEY_COL = 0;
     const CHECKBOX_COL = 1;
@@ -350,13 +409,30 @@ $(document).ready(function(){
         columns: colsDef
     });
 
+    
     const rewardsTable = $('#rewardsTable').DataTable({
         scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false, fixedHeader: true, ordering:false,
         columns:[
             { title:"Key", visible:false },
+            { title: "<button id='removeAllRewards' style='padding:2px 6px;'>&#x1F501</button>", orderable:false, width:"50px",
+              render: function(data, type, row, meta) {
+                const keyVal = stripHtml(row && row[0] !== undefined ? row[0] : "");
+                const levelVal = (row && row[2] !== undefined) ? String(row[2]) : String(meta.row);
+                const uid = `${keyVal}|${levelVal}`;
+                const checked = !!missionsCheckedMap[uid];
+                if (type === 'display') {
+                    return `<input type=\"checkbox\" class=\"row-checkbox\" data-uid=\"${uid}\" ${checked ? 'checked' : ''}>`;
+                }
+                return checked;
+              }
+            },
             { title:"Level" },
-            { title:"Power" },
-            { title:"Hero XP" }
+            { title:"Hero XP" },
+            { title:"Tech" },
+            { title:"Food" },
+            { title:"Oil" },
+            { title:"Alloy" },
+            { title:"Neutronium" }
         ]
     });
 
@@ -368,6 +444,19 @@ $(document).ready(function(){
             { title:"Unit Capacity" }
         ]
     });
+
+    // Limit visible rows by dynamically setting scroll height
+    const VISIBLE_ROWS = 15;
+    function setScrollRows(dt, rows = VISIBLE_ROWS){
+        const $firstCell = $(dt.table().body()).find('tr:visible:first td:visible:first');
+        let rowH = $firstCell.length ? $firstCell.outerHeight() : 30;
+        const height = Math.ceil(rowH * rows);
+        const $scrollBody = $(dt.table().container()).find('div.dataTables_scrollBody');
+        $scrollBody.css({ height: height + 'px', 'max-height': height + 'px' });
+        const settings = dt.settings()[0];
+        settings.oScroll.sY = height + 'px';
+        dt.columns.adjust();
+    }
 
     // --- Apply Time scaling to visible display column only (raw kept in last col) ---
     function applyScale(scale){
@@ -427,7 +516,34 @@ $(document).ready(function(){
         $('#totalsBody').html(totalCells.join(''));
     }
 
+    
     // --- Delegated handlers ---
+
+    // Rewards checkboxes
+    $('#rewardsTable tbody').on('change', '.row-checkbox', function(){
+        const uid = $(this).attr('data-uid');
+        const parts = (uid || "").split('|');
+        if (parts.length >= 2) {
+            const normalized = `${stripHtml(parts[0])}|${parts.slice(1).join('|')}`;
+            missionsCheckedMap[normalized] = $(this).is(':checked');
+        } else {
+            missionsCheckedMap[uid] = $(this).is(':checked');
+        }
+        updateMissionsTotals();
+    });
+
+    // Remove All button for Main Missions
+    $(document).on('click', '#removeAllRewards', function(e){
+        e.preventDefault();
+        Object.keys(missionsCheckedMap).forEach(k => delete missionsCheckedMap[k]);
+        rewardsTable.rows().every(function(){
+            const d = this.data();
+            const uid = `${stripHtml(d[0])}|${d[2]}`;
+            missionsCheckedMap[uid] = false;
+        });
+        rewardsTable.rows().invalidate().draw(false);
+        updateMissionsTotals();
+    });
 
     // keep .time-scale input synchronized and apply scale on input (works for clones too)
     $(document).on('input', '.time-scale', function(){
@@ -452,6 +568,7 @@ $(document).ready(function(){
         updateTotals();
     });
 
+    
     // Remove All button in header (may be cloned by FixedHeader, so delegate)
     $(document).on('click', '#removeAll', function(e){
         e.preventDefault();
@@ -470,14 +587,17 @@ $(document).ready(function(){
         updateTotals();
     });
 
+    // Remove All button for custom table
+    
     // ensure after every draw the .time-scale value stays (FixedHeader clones the header)
     costsTable.on('draw.dt', function(){
         $('.time-scale').val(currentScale);
     });
-
+    
     // --- Initial totals trigger (safety) ---
     setTimeout(updateTotals, 150);
-
+    setTimeout(updateMissionsTotals, 150);
+    
     // --- Load JSON and populate tables ---
     const keyMap = {
         "Headquarters":"Headquarters","Black Market":"Blackmarket","Geoponic Farm":"Hydroponicfarm",
@@ -512,6 +632,7 @@ $(document).ready(function(){
                     null,      // checkbox column - render will create the input
                     i,         // Level
                     lvl.upgrade_cost > 0 ? formatTime(Math.floor(lvl.upgrade_cost / (1 + currentScale/100))) : "-",
+                    formatShort(power),
                     getCost('currency3'), getCost('currency4'), getCost('currency5'), getCost('currency6'),
                     getCost('currency7'), getCost('currency8'),
                     getCost('core_neutronium_crystal'), getCost('core_classified_documents'), getCost('core_data_disk'),
@@ -524,7 +645,12 @@ $(document).ready(function(){
                 costsTable.row.add(row);
 
                 // rewards & stats
-                rewardsTable.row.add([key, i, formatShort(power), formatShort(lvl.reward?.hero_xp ?? 0)]);
+                const tech25 = formatShort(Math.floor(parseNumber(getCost('currency3')) * 0.25));
+                const food25 = formatShort(Math.floor(parseNumber(getCost('currency4')) * 0.25));
+                const oil25 = formatShort(Math.floor(parseNumber(getCost('currency5')) * 0.25));
+                const alloy25 = formatShort(Math.floor(parseNumber(getCost('currency6')) * 0.25));
+                const neutronium25 = formatShort(Math.floor(parseNumber(getCost('currency7')) * 0.25));
+                rewardsTable.row.add([key, null, i, formatShort(lvl.reward?.hero_xp ?? 0), tech25, food25, oil25, alloy25, neutronium25]);
                 statsTable.row.add([key, i, typeof lvl.unit_capacity === 'number' ? formatShort(lvl.unit_capacity) : "-"]);
             });
         });
@@ -534,6 +660,13 @@ $(document).ready(function(){
         rewardsTable.draw();
         statsTable.draw();
 
+        // ensure only a fixed number of rows are visible via scroll height
+        setTimeout(function(){
+            setScrollRows(costsTable, VISIBLE_ROWS);
+            setScrollRows(rewardsTable, VISIBLE_ROWS);
+            setScrollRows(statsTable, VISIBLE_ROWS);
+        }, 0);
+
         // sync header input
         $('.time-scale').val(currentScale);
 
@@ -542,8 +675,35 @@ $(document).ready(function(){
     })
     .catch(err => console.error('Failed to load structures.json', err));
 
+    // --- Main Missions totals (independent) ---
+    function updateMissionsTotals(){
+        const totals = {3:0,4:0,5:0,6:0,7:0,8:0}; // Hero XP and resources
+        rewardsTable.rows({search:'applied'}).every(function(){
+            const d = this.data();
+            const uid = `${stripHtml(d[0])}|${d[2]}`;
+            if (missionsCheckedMap[uid]) {
+                Object.keys(totals).forEach(k => {
+                    const idx = parseInt(k);
+                    totals[idx] += parseNumber(d[idx]);
+                });
+            }
+        });
+        const headerCells = [];
+        const totalCells = [];
+        Object.keys(totals).forEach(k => {
+            const idx = parseInt(k);
+            if (totals[idx] !== 0) {
+                const title = rewardsTable.settings()[0].aoColumns[idx].sTitle;
+                headerCells.push(`<th>${stripHtml(title)}</th>`);
+                totalCells.push(`<td>${formatShort(totals[idx])}</td>`);
+            }
+        });
+        $('#missionsTotalsHeader').html(headerCells.join(''));
+        $('#missionsTotalsBody').html(totalCells.join(''));
+    }
+
     // --- Tree filter (same behaviour as you had) ---
-    const columnMap = {"War_room":[11],"Commandpost":[12],"Engineering":[13],"Researchlab":[14],"Walls":[15],"Turret":[15],"Hero_armory":[16]};
+    const columnMap = {"War_room":[12],"Commandpost":[13],"Engineering":[14],"Researchlab":[15],"Walls":[16],"Turret":[16],"Hero_armory":[17]};
     const timeHidden = ["Outpost_harvest","Outpost_strategic"];
     const outposts = ["Outpost_harvest","Outpost_strategic"];
 
@@ -554,14 +714,14 @@ $(document).ready(function(){
         [costsTable, rewardsTable, statsTable].forEach(tbl => tbl.column(KEY_COL).search(jsonKey, true, false).draw());
 
         // hide all conditional columns first (indices based on colsDef)
-        costsTable.columns([TIME_COL, 9,10,11,12,13,14,15,16]).visible(false);
+        costsTable.columns([TIME_COL, 10,11,12,13,14,15,16,17]).visible(false);
 
         // time column visible if not hidden for this jsonKey
         if (!timeHidden.includes(jsonKey)) costsTable.column(TIME_COL).visible(true);
 
         // CNC (neutronium crystal) columns mapping
-        if (!outposts.includes(jsonKey)) costsTable.column(10).visible(true); // CNC
-        if (outposts.includes(jsonKey)) costsTable.column(9).visible(true); // Alliance Credits
+        if (!outposts.includes(jsonKey)) costsTable.column(11).visible(true); // CNC
+        if (outposts.includes(jsonKey)) costsTable.column(10).visible(true); // Alliance Credits
 
         if (columnMap[jsonKey]) columnMap[jsonKey].forEach(idx => costsTable.column(idx).visible(true));
 
@@ -630,12 +790,22 @@ $(document).ready(function(){
 
         $('#costsWrapper, #rewardsWrapper, #statsWrapper').css({height:0, overflow:'hidden'});
         $(`#${tbl}Wrapper`).css({height:'auto', overflow:'visible'});
+        // show totals for active table only
+        $('#missionsTotals').css('display', tbl === 'rewards' ? 'block' : 'none');
+        $('#costsTotals').css('display', tbl === 'costs' ? 'block' : 'none');
 
         try {
             costsTable.fixedHeader.adjust();
             rewardsTable.fixedHeader.adjust();
             statsTable.fixedHeader.adjust();
         } catch(e){ /* ignore */ }
+
+        // adjust the visible rows for the active table
+        setTimeout(function(){
+            if (tbl === 'costs') setScrollRows(costsTable, VISIBLE_ROWS);
+            else if (tbl === 'rewards') setScrollRows(rewardsTable, VISIBLE_ROWS);
+            else if (tbl === 'stats') setScrollRows(statsTable, VISIBLE_ROWS);
+        }, 0);
 
         setTimeout(drawLines, 20);
     });
@@ -644,5 +814,4 @@ $(document).ready(function(){
 </script>
 
 </body>
-
 </html>
