@@ -1,116 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Structures - Responsive Tree + Tables</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
 
+<!-- DataTables CSS -->
 <link rel="stylesheet" href="libs/jquery.dataTables.min.css">
-<link rel="stylesheet" href="libs/fixedHeader.dataTables.min.css">
-
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-  }
-
-  /* controls */
-  #treeControls { margin: 8px 0 18px; display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap; }
-  #treeControls label { font-size:14px; color:#ddd; }
-
-  /* Tree wrapper + container */
-  .treeWrap {
-    width: 100%;
-    overflow: auto;               /* allow horizontal pan on very small viewports */
-    display: flex;
-    justify-content: center;      /* center scaled tree inside wrapper */
-    align-items: flex-start;
-    margin-bottom: 14px;
-    box-sizing: border-box;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  /* grid uses relative sizing but nodes have a fixed look via clamp */
-  .container {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(clamp(100px, 14vw, 200px), 1fr));
-    grid-template-rows: repeat(13, clamp(14px, 2vh, 20px));
-    gap: clamp(3px, 0.8vw, 5px) clamp(8px, 2vw, 20px);
-    justify-content: center;
-    position: relative;
-    max-width: none; /* allow wide grids */
-    will-change: transform;
-  }
-
-  .section {
-    background-color: #000;
-    border: 1px solid #666;
-    color: #fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size: clamp(10px, 2.2vw, 15px);
-    border-radius: 6px;
-    cursor:pointer;
-    padding: 4px 6px;
-    z-index: 1;
-    white-space: nowrap;
-  }
-  .section:hover { border-color:#ffcc00; }
-  .section.active { border-color:#4287f5; background:#111; }
-
-  svg#lines {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  /* Table and UI styles (kept minimal) */
-  #topNav { margin-bottom: 10px; }
-  .nav-btn {
-    margin: 2px;
-    padding: 6px 12px;
-    border:1px solid #555;
-    border-radius: 6px;
-    background:#333; color:#fff; cursor:pointer;
-  }
-  .nav-btn.active { background:#4287f5; border-color:#4287f5; }
-
-  #tableToggle { margin-top: 6px; }
-  .toggle-table-btn {
-    margin: 2px; padding:6px 12px; cursor:pointer;
-    border:1px solid #555; border-radius:6px; background:#eee; color:#000;
-  }
-  .toggle-table-btn.active { background:#4287f5; color:#fff; }
-
-  table { border-collapse:collapse; background:white; color:black; margin-top:10px; width:auto !important; max-width:100%; table-layout:auto !important; }
-  table th, table td { color:black; padding:4px 6px; white-space:nowrap; }
-  .dataTables_wrapper { display:inline-block; vertical-align:top; text-align:left; }
-  .dataTables_wrapper .dataTables_scroll { display:inline-block; }
-  .dataTables_scrollHeadInner th, .dataTables_scrollHeadInner td { text-align:center !important; }
-  .dataTables_scrollBody { overflow-y:auto !important; overflow-x:hidden !important; max-height:50vh; border:1px solid #666; }
-
-  #costsTable, #rewardsTable, #statsTable { text-align:center; }
-  #costsTable .row-checkbox { display:block; margin:0 auto; }
-  #rewardsWrapper, #statsWrapper { display:none; } /* hidden by default - showTable() toggles */
-
-  #totalsTable { display:inline-block; margin-top:10px; }
-  #totalsHeader th, #totalsBody td { text-align:center; }
-
-  /* small helpers for mobile */
-  @media (max-width:600px){
-    body { padding:12px; }
-    .nav-btn { padding:6px 10px; font-size:13px; }
-  }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -118,475 +15,86 @@
 <div id="topNav">
   <button class="nav-btn" data-page="Research.html">Research</button>
   <button class="nav-btn" data-page="index.html">Structures</button>
-  <button class="nav-btn" data-page="units.html">Units</button>
+  <button class="nav-btn" data-page="test3.html">Units</button>
 </div>
 
-<!-- Tree controls (auto-fit + manual zoom) -->
-<div id="treeControls">
-  <label><input type="checkbox" id="treeAutoFit" checked> Auto-fit tree</label>
+<!-- Tree -->
+<div class="container" id="mapContainer">
+  <div class="section root" data-key="Headquarters" style="grid-row:1 / span 12; grid-column:1;">Headquarters</div>
+  <div class="section" data-key="Outpost Strategic" style="grid-row:13; grid-column:1;">Outpost Strategic</div>
 
-  <label>
-    Zoom
-    <input type="range" id="treeScaleRange" min="45" max="120" value="100" style="vertical-align:middle; margin:0 6px;">
-    <input type="number" id="treeScaleNumber" min="45" max="120" value="100" style="width:56px; vertical-align:middle;">
-    %
-  </label>
+  <div class="section" data-key="Bunker" style="grid-row:1; grid-column:2;">Bunker</div>
+  <div class="section" data-key="Black Market" style="grid-row:2 / span 3; grid-column:2;">Black Market</div>
+  <div class="section" data-key="Geoponic Farm" style="grid-row:5 / span 2; grid-column:2;">Geoponic Farm</div>
+  <div class="section" data-key="Oil Rig" style="grid-row:7 / span 2; grid-column:2;">Oil Rig</div>
+  <div class="section" data-key="Alloy Refinery" style="grid-row:9 / span 2; grid-column:2;">Alloy Refinery</div>
+  <div class="section" data-key="Supply Depot" style="grid-row:11; grid-column:2;">Supply Depot</div>
+  <div class="section" data-key="Situation Room" style="grid-row:12; grid-column:2;">Situation Room</div>
+  <div class="section" data-key="Outpost Harvest" style="grid-row:13; grid-column:2;">Outpost Harvest</div>
 
-  <button id="treeReset" style="padding:6px 10px;border-radius:6px;cursor:pointer;">Reset</button>
-</div>
+  <div class="section" data-key="Engineering" style="grid-row:2 / span 3; grid-column:3;">Engineering</div>
+  <div class="section" data-key="Barracks" style="grid-row:5 / span 2; grid-column:3;">Barracks</div>
+  <div class="section" data-key="Research Lab" style="grid-row:7 / span 2; grid-column:3;">Research Lab</div>
+  <div class="section" data-key="Wall" style="grid-row:9 / span 2; grid-column:3;">Wall</div>
+  <div class="section" data-key="Global Network" style="grid-row:11; grid-column:3;">Global Network</div>
 
-<!-- Tree wrapper + container -->
-<div class="treeWrap" id="treeWrap">
-  <div class="container" id="mapContainer">
-    <!-- left column -->
-    <div class="section root" data-key="Headquarters" style="grid-row:1 / span 12; grid-column:1;">Headquarters</div>
-    <div class="section" data-key="Outpost Strategic" style="grid-row:13; grid-column:1;">Outpost Strategic</div>
+  <div class="section" data-key="Experimentation Chamber" style="grid-row:2; grid-column:4;">Experimentation Chamber</div>
+  <div class="section" data-key="Factory" style="grid-row:3; grid-column:4;">Factory</div>
+  <div class="section" data-key="Turret" style="grid-row:4; grid-column:4;">Turret</div>
+  <div class="section" data-key="Medical Bay" style="grid-row:5; grid-column:4;">Medical Bay</div>
+  <div class="section" data-key="Command Post" style="grid-row:6; grid-column:4;">Command Post</div>
+  <div class="section" data-key="Hostile Containment" style="grid-row:7; grid-column:4;">Hostile Containment</div>
+  <div class="section" data-key="Shard Reactor" style="grid-row:8; grid-column:4;">Shard Reactor</div>
+  <div class="section" data-key="Airstrip" style="grid-row:9; grid-column:4;">Airstrip</div>
+  <div class="section" data-key="Satellite Uplink" style="grid-row:10; grid-column:4;">Satellite Uplink</div>
+  <div class="section" data-key="Security Station" style="grid-row:11; grid-column:4;">Security Station</div>
 
-    <!-- column 2 -->
-    <div class="section" data-key="Bunker" style="grid-row:1; grid-column:2;">Bunker</div>
-    <div class="section" data-key="Black Market" style="grid-row:2 / span 3; grid-column:2;">Black Market</div>
-    <div class="section" data-key="Geoponic Farm" style="grid-row:5 / span 2; grid-column:2;">Geoponic Farm</div>
-    <div class="section" data-key="Oil Rig" style="grid-row:7 / span 2; grid-column:2;">Oil Rig</div>
-    <div class="section" data-key="Alloy Refinery" style="grid-row:9 / span 2; grid-column:2;">Alloy Refinery</div>
-    <div class="section" data-key="Supply Depot" style="grid-row:11; grid-column:2;">Supply Depot</div>
-    <div class="section" data-key="Situation Room" style="grid-row:12; grid-column:2;">Situation Room</div>
-    <div class="section" data-key="Outpost Harvest" style="grid-row:13; grid-column:2;">Outpost Harvest</div>
+  <div class="section" data-key="Robotics Bay" style="grid-row:3; grid-column:5;">Robotics Bay</div>
+  <div class="section" data-key="Hero Armory" style="grid-row:6; grid-column:5;">Hero Armory</div>
+  <div class="section" data-key="Alien Genetics Labs" style="grid-row:7; grid-column:5;">Alien Genetics Labs</div>
 
-    <!-- column 3 -->
-    <div class="section" data-key="Engineering" style="grid-row:2 / span 3; grid-column:3;">Engineering</div>
-    <div class="section" data-key="Barracks" style="grid-row:5 / span 2; grid-column:3;">Barracks</div>
-    <div class="section" data-key="Research Lab" style="grid-row:7 / span 2; grid-column:3;">Research Lab</div>
-    <div class="section" data-key="Wall" style="grid-row:9 / span 2; grid-column:3;">Wall</div>
-    <div class="section" data-key="Global Network" style="grid-row:11; grid-column:3;">Global Network</div>
-
-    <!-- column 4 -->
-    <div class="section" data-key="Experimentation Chamber" style="grid-row:2; grid-column:4;">Experimentation Chamber</div>
-    <div class="section" data-key="Factory" style="grid-row:3; grid-column:4;">Factory</div>
-    <div class="section" data-key="Turret" style="grid-row:4; grid-column:4;">Turret</div>
-    <div class="section" data-key="Medical Bay" style="grid-row:5; grid-column:4;">Medical Bay</div>
-    <div class="section" data-key="Command Post" style="grid-row:6; grid-column:4;">Command Post</div>
-    <div class="section" data-key="Hostile Containment" style="grid-row:7; grid-column:4;">Hostile Containment</div>
-    <div class="section" data-key="Shard Reactor" style="grid-row:8; grid-column:4;">Shard Reactor</div>
-    <div class="section" data-key="Airstrip" style="grid-row:9; grid-column:4;">Airstrip</div>
-    <div class="section" data-key="Satellite Uplink" style="grid-row:10; grid-column:4;">Satellite Uplink</div>
-    <div class="section" data-key="Security Station" style="grid-row:11; grid-column:4;">Security Station</div>
-
-    <!-- column 5 -->
-    <div class="section" data-key="Robotics Bay" style="grid-row:3; grid-column:5;">Robotics Bay</div>
-    <div class="section" data-key="Hero Armory" style="grid-row:6; grid-column:5;">Hero Armory</div>
-    <div class="section" data-key="Alien Genetics Labs" style="grid-row:7; grid-column:5;">Alien Genetics Labs</div>
-
-    <svg id="lines"></svg>
-  </div>
+  <svg id="lines"></svg>
 </div>
 
 <!-- Table Toggle -->
 <div id="tableToggle">
   <button class="toggle-table-btn active" data-table="costs">Costs</button>
-  <button class="toggle-table-btn" data-table="rewards">Rewards</button>
+  <button class="toggle-table-btn" data-table="rewards">Main Missions</button>
   <button class="toggle-table-btn" data-table="stats">Stats</button>
-</div>
+  </div>
 
 <!-- Tables -->
-<div id="costsWrapper"><table id="costsTable"></table></div>
-<div id="rewardsWrapper"><table id="rewardsTable"></table></div>
-<div id="statsWrapper"><table id="statsTable"></table></div>
-
-<div style="text-align:center; margin-top:10px;">
-  <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
-    <thead><tr id="totalsHeader"></tr></thead>
-    <tbody><tr id="totalsBody"></tr></tbody>
+<div id="costsWrapper">
+  <table id="costsTable"></table>
+</div>
+<div id="rewardsWrapper" style="height:0; overflow:hidden;">
+  <table id="rewardsTable"></table>
+</div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
   </table>
 </div>
+<div id="statsWrapper">
+  <table id="statsTable"></table>
+</div>
 
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table>
+</div>
+
+<!-- Scripts -->
 <script src="libs/jquery-3.7.0.min.js"></script>
 <script src="libs/jquery.dataTables.min.js"></script>
-<script src="libs/dataTables.fixedHeader.min.js"></script>
-
-<script>
-$(document).ready(function(){
-
-  // ---------- helpers ----------
-  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
-  function debounce(fn, wait){ let t; return function(){ clearTimeout(t); t = setTimeout(()=>fn.apply(this,arguments), wait); }; }
-
-  // format helpers
-  function formatTime(seconds){ seconds = Number(seconds)||0; if (seconds <= 0) return "-"; let d=Math.floor(seconds/86400); seconds%=86400; let h=Math.floor(seconds/3600); seconds%=3600; let m=Math.floor(seconds/60); let s=seconds%60; const parts=[]; if(d) parts.push(d+'d'); if(h) parts.push(h+'h'); if(m) parts.push(m+'m'); if(s && !d && !h && !m) parts.push(s+'s'); return parts.join(' '); }
-  function formatShort(num){ if (num === "-" || num === undefined || num === null) return "-"; num = Number(num) || 0; if (num >= 1e9) return (num/1e9).toFixed(1).replace(/\.0$/,"") + "B"; if (num >= 1e6) return (num/1e6).toFixed(1).replace(/\.0$/,"") + "M"; if (num >= 1e3) return (num/1e3).toFixed(1).replace(/\.0$/,"") + "K"; return num.toLocaleString(); }
-  function parseNumber(val){ if (typeof val === 'number') return val; if (!val) return 0; val = val.toString().trim().toUpperCase(); let mul=1; if(val.endsWith('K')){ mul=1e3; val=val.slice(0,-1);} else if(val.endsWith('M')){ mul=1e6; val=val.slice(0,-1);} else if(val.endsWith('B')){ mul=1e9; val=val.slice(0,-1);} return (parseFloat(val)||0)*mul; }
-  const stripHtml = s => (s || "").toString().replace(/<[^>]*>/g,'').replace(/[%❓]/g,'').trim();
-
-  // ---------- DataTables setup ----------
-  $.extend(true, $.fn.dataTable.defaults, { autoWidth:false, scrollX:false });
-  const colsDef = [
-    { title:"Key", visible:false },
-    { title:"<button id='removeAll' style='padding:2px 6px;font-size:12px;'>&#x1F501</button>", orderable:false, width:"50px",
-      render: function(data,type,row,meta){
-        const keyVal = stripHtml(row && row[0] !== undefined ? row[0] : "");
-        const levelVal = (row && row[2] !== undefined) ? String(row[2]) : String(meta.row);
-        const uid = `${keyVal}|${levelVal}`;
-        const checked = !!(window.__checkedMap && window.__checkedMap[uid]);
-        if (type === 'display') return `<input type="checkbox" class="row-checkbox" data-uid="${uid}" ${checked ? 'checked' : ''}>`;
-        return checked;
-      }
-    },
-    { title:"LVL" },
-    { title: 'Time <input type="number" class="time-scale" style="width:48px;" step="1" min="0"> %<span class="info-icon" title="Building boost">❓</span>' },
-    { title:"Tech" }, { title:"Food" }, { title:"Oil" }, { title:"Alloy" },
-    { title:"Neutronium" }, { title:"Alliance Credits" }, { title:"Neutronium Crystal" },
-    { title:"Classified Docs" }, { title:"Data Disk" }, { title:"Alien Power Core" },
-    { title:"Alien Tech" }, { title:"Alien Armor" }, { title:"Armory Blueprints" },
-    { title:"_raw", visible:false }
-  ];
-
-  const KEY_COL = 0, CHECKBOX_COL = 1, LEVEL_COL = 2, TIME_COL = 3, RAW_COL = colsDef.length - 1;
-
-  const commonOptions = { scrollY:'50vh', scrollCollapse:true, paging:false, dom:'ti', info:false, ordering:false, autoWidth:true };
-  const costsTable = $('#costsTable').DataTable($.extend({}, commonOptions, { columns: colsDef }));
-  const rewardsTable = $('#rewardsTable').DataTable($.extend({}, commonOptions, {
-    columns:[ {title:"Key", visible:false},{title:"Level"},{title:"Power"},{title:"Hero XP"} ]
-  }));
-  const statsTable = $('#statsTable').DataTable($.extend({}, commonOptions, {
-    columns:[ {title:"Key", visible:false},{title:"Level"},{title:"Unit Capacity"} ]
-  }));
-
-  window.__checkedMap = Object.create(null);
-  let currentScale = 0;
-
-  // ---------- tree scaling ----------
-  const treeWrap = document.getElementById('treeWrap');
-  const container = document.getElementById('mapContainer');
-  const minScale = 0.45;
-  const maxScale = 1.2;
-  let treeScale = 1;
-  const $range = $('#treeScaleRange'), $num = $('#treeScaleNumber'), $auto = $('#treeAutoFit');
-
-  function computeAutoScale(){
-    // available width inside wrapper
-    const wrapW = Math.max(60, treeWrap.clientWidth - 8);
-    const contentW = container.scrollWidth || container.getBoundingClientRect().width;
-    if (!contentW) return 1;
-    let s = Math.min(1, wrapW / contentW);
-    s = clamp(s, minScale, maxScale);
-    return s;
-  }
-
-  function applyTreeScale(s){
-    treeScale = clamp(s, minScale, maxScale);
-    container.style.transformOrigin = 'top center';
-    container.style.transform = `scale(${treeScale})`;
-    // ensure wrapper reserves enough visual height to show scaled tree
-    treeWrap.style.height = Math.max(20, Math.round(container.offsetHeight * treeScale)) + 'px';
-    // sync UI
-    const pct = Math.round(treeScale * 100);
-    $range.val(pct);
-    $num.val(pct);
-    // redraw connectors after transform settles
-    setTimeout(drawLines, 25);
-  }
-
-  // auto-fit on/off & controls
-  function setAutoFit(enabled){
-    $range.prop('disabled', enabled);
-    $num.prop('disabled', enabled);
-    if (enabled) applyTreeScale(computeAutoScale());
-  }
-  $auto.on('change', function(){ setAutoFit(this.checked); });
-  $range.on('input', function(){
-    const pct = Number(this.value) || 100;
-    const s = pct/100;
-    applyTreeScale(s);
-  });
-  $num.on('change', function(){
-    let pct = Number(this.value) || 100; pct = clamp(pct, 45, 120); this.value = pct;
-    applyTreeScale(pct/100);
-  });
-  $('#treeReset').on('click', function(){ $auto.prop('checked', true); setAutoFit(true); applyTreeScale(computeAutoScale()); });
-
-  // initial set
-  setAutoFit($auto.prop('checked'));
-
-  // ---------- totals + time scale ----------
-  function applyTimeScale(scale){
-    currentScale = Number(scale) || 0;
-    costsTable.rows().every(function(){
-      const d = this.data();
-      const raw = Number(d[RAW_COL]) || 0;
-      d[TIME_COL] = raw > 0 ? formatTime(Math.floor(raw / (1 + currentScale/100))) : "-";
-      this.data(d, false);
-    });
-    costsTable.rows().invalidate().draw(false);
-    updateTotals();
-  }
-
-  function updateTotals(){
-    const totals = {};
-    colsDef.forEach((c, idx) => {
-      if (idx === KEY_COL || idx === CHECKBOX_COL || idx === LEVEL_COL || idx === RAW_COL) return;
-      totals[idx] = 0;
-    });
-
-    costsTable.rows({search:'applied'}).every(function(){
-      const d = this.data();
-      const uid = `${stripHtml(d[KEY_COL])}|${d[LEVEL_COL]}`;
-      if (window.__checkedMap[uid]) {
-        Object.keys(totals).forEach(k => {
-          const idx = parseInt(k,10);
-          if (idx === TIME_COL) {
-            const rawTime = Number(d[RAW_COL]) || 0;
-            totals[idx] += Math.floor(rawTime / (1 + currentScale / 100));
-          } else {
-            totals[idx] += parseNumber(d[idx]);
-          }
-        });
-      }
-    });
-
-    const headerCells = [], totalCells = [];
-    Object.keys(totals).forEach(k => {
-      const idx = parseInt(k,10);
-      if (totals[idx] !== 0) {
-        headerCells.push(`<th>${stripHtml(colsDef[idx].title)}</th>`);
-        if (idx === TIME_COL) totalCells.push(`<td>${formatTime(totals[idx])}</td>`);
-        else totalCells.push(`<td>${formatShort(totals[idx])}</td>`);
-      }
-    });
-    $('#totalsHeader').html(headerCells.join(''));
-    $('#totalsBody').html(totalCells.join(''));
-  }
-
-  // sync any cloned header input
-  costsTable.on('draw.dt', function(){ $('.time-scale').val(currentScale); });
-
-  // delegated events
-  $(document).on('input', '.time-scale', function(){
-    const parsed = parseFloat($(this).val());
-    if (!isNaN(parsed)) currentScale = parsed;
-    $('.time-scale').val(currentScale);
-    applyTimeScale(currentScale);
-  });
-
-  $(document).on('change', '#costsTable tbody .row-checkbox', function(){
-    const uidAttr = $(this).attr('data-uid') || '';
-    const parts = uidAttr.split('|');
-    const normalized = parts.length >= 2 ? `${stripHtml(parts[0])}|${parts.slice(1).join('|')}` : uidAttr;
-    window.__checkedMap[normalized] = $(this).is(':checked');
-    updateTotals();
-  });
-
-  $(document).on('click', '#removeAll', function(e){
-    e.preventDefault();
-    Object.keys(window.__checkedMap).forEach(k => delete window.__checkedMap[k]);
-    costsTable.rows().every(function(){
-      const d = this.data();
-      const uid = `${stripHtml(d[KEY_COL])}|${d[LEVEL_COL]}`;
-      window.__checkedMap[uid] = false;
-    });
-    costsTable.rows().invalidate().draw(false);
-    updateTotals();
-  });
-
-  // ---------- show/hide tables ----------
-  const dtMap = { costs: costsTable, rewards: rewardsTable, stats: statsTable };
-  const wrapperMap = { costs: '#costsWrapper', rewards: '#rewardsWrapper', stats: '#statsWrapper' };
-  function tableKeyToDomId(key){ return key === 'costs' ? 'costsTable' : key === 'rewards' ? 'rewardsTable' : 'statsTable'; }
-
-  function showTable(key){
-    ['costs','rewards','stats'].forEach(k => {
-      if (k === key) { $(wrapperMap[k]).show(); $('#' + tableKeyToDomId(k) + '_wrapper').show().css({ display:'inline-block', 'vertical-align':'top' }); }
-      else { $(wrapperMap[k]).hide(); $('#' + tableKeyToDomId(k) + '_wrapper').hide(); }
-    });
-    try { dtMap[key].columns.adjust().draw(false); } catch(e){}
-    $('.time-scale').val(currentScale);
-    setTimeout(drawLines, 30);
-  }
-
-  $('.toggle-table-btn').on('click', function(){
-    $('.toggle-table-btn').removeClass('active'); $(this).addClass('active');
-    const key = $(this).data('table');
-    showTable(String(key));
-  });
-
-  // ---------- loading data ----------
-  const keyMap = {
-    "Headquarters":"Headquarters","Black Market":"Blackmarket","Geoponic Farm":"Hydroponicfarm",
-    "Oil Rig":"Oilrig","Alloy Refinery":"Alloyrefinery","Supply Depot":"Supplydepot","Situation Room":"War_room",
-    "Engineering":"Engineering","Barracks":"Barracks","Research Lab":"Researchlab","Wall":"Walls",
-    "Global Network":"Globalnetwork","Experimentation Chamber":"Experimentation_chamber",
-    "Factory":"Factory","Turret":"Turret","Medical Bay":"Medicalbay","Hostile Containment":"Hostilecontainment",
-    "Airstrip":"Airstrip","Satellite Uplink":"Satelliteuplink","Security Station":"Securitystation",
-    "Robotics Bay":"Robotics_bay","Command Post":"Commandpost","Alien Genetics Labs":"Alien_genetics_lab",
-    "Hero Armory":"Hero_armory","Bunker":"Shelter","Shard Reactor":"Shardcondenser",
-    "Outpost Strategic":"Outpost_strategic","Outpost Harvest":"Outpost_harvest"
-  };
-
-  fetch('molds/categories/structures.json')
-    .then(r => r.json())
-    .then(data => {
-      const subtypes = data._subtypes || {};
-      Object.entries(subtypes).forEach(([key, building]) => {
-        let prevPower = 0;
-        (building.levels || []).forEach((lvl, i) => {
-          if (!Object.keys(lvl).length) return;
-          const power = ((lvl.power ?? 0) - prevPower);
-          prevPower = lvl.power ?? 0;
-          const getCost = (sub) => formatShort(lvl.costs?.find(c => c.target_subtype === sub)?.quantity ?? 0);
-          const row = [
-            key, null, i,
-            lvl.upgrade_cost > 0 ? formatTime(Math.floor(lvl.upgrade_cost / (1 + currentScale / 100))) : "-",
-            getCost('currency3'), getCost('currency4'), getCost('currency5'), getCost('currency6'),
-            getCost('currency7'), getCost('currency8'),
-            getCost('core_neutronium_crystal'), getCost('core_classified_documents'), getCost('core_data_disk'),
-            getCost('core_alien_power_core'), getCost('core_alien_component'), getCost('core_alien_armor'),
-            getCost('armory_blueprints'),
-            lvl.upgrade_cost
-          ];
-          costsTable.row.add(row);
-          rewardsTable.row.add([key, i, formatShort(power), formatShort(lvl.reward?.hero_xp ?? 0)]);
-          statsTable.row.add([key, i, typeof lvl.unit_capacity === 'number' ? formatShort(lvl.unit_capacity) : "-"]);
-        });
-      });
-      costsTable.draw();
-      rewardsTable.draw();
-      statsTable.draw();
-      // show costs by default
-      showTable('costs');
-      // ensure time input synced
-      $('.time-scale').val(currentScale);
-      // initial totals and tree draw
-      updateTotals();
-      setTimeout(function(){ if ($auto.prop('checked')) applyTreeScale(computeAutoScale()); drawLines(); }, 60);
-    })
-    .catch(err => { console.error('Failed to load structures.json', err); });
-
-  // ---------- tree filtering ----------
-  const columnMap = {"War_room":[11],"Commandpost":[12],"Engineering":[13],"Researchlab":[14],"Walls":[15],"Turret":[15],"Hero_armory":[16]};
-  const timeHidden = ["Outpost_harvest","Outpost_strategic"];
-  const outposts = ["Outpost_harvest","Outpost_strategic"];
-
-  $('.section').on('click', function(){
-    $('.section').removeClass('active'); $(this).addClass('active');
-    const jsonKey = keyMap[$(this).text().trim()] || $(this).text().trim();
-    [costsTable, rewardsTable, statsTable].forEach(tbl => tbl.column(KEY_COL).search(jsonKey, true, false).draw());
-    // hide conditional columns first (indices based on colsDef)
-    costsTable.columns([TIME_COL, 9,10,11,12,13,14,15,16]).visible(false);
-    if (!timeHidden.includes(jsonKey)) costsTable.column(TIME_COL).visible(true);
-    if (!outposts.includes(jsonKey)) costsTable.column(10).visible(true);
-    if (outposts.includes(jsonKey)) costsTable.column(9).visible(true);
-    if (columnMap[jsonKey]) columnMap[jsonKey].forEach(idx => costsTable.column(idx).visible(true));
-    $('.time-scale').val(currentScale);
-    // redraw lines after short delay
-    setTimeout(drawLines, 20);
-  });
-  $('.section.root').trigger('click');
-
-  // ---------- draw tree lines (uses bounding boxes so it works with transform scale) ----------
-  function drawLines(){
-    const svg = document.getElementById('lines'); if (!svg) return;
-    svg.innerHTML = '';
-    const containerRect = container.getBoundingClientRect();
-    const treeMap = {
-      "Headquarters": ["Bunker","Black Market","Geoponic Farm","Oil Rig","Alloy Refinery","Supply Depot","Situation Room"],
-      "Bunker": [], "Black Market": ["Engineering"], "Engineering": ["Experimentation Chamber","Factory","Turret"],
-      "Factory": ["Robotics Bay"], "Geoponic Farm": ["Barracks"], "Oil Rig": ["Research Lab"], "Alloy Refinery": ["Wall"],
-      "Barracks": ["Medical Bay","Command Post"], "Research Lab": ["Hostile Containment","Shard Reactor"], "Medical Bay": [],
-      "Hostile Containment": ["Alien Genetics Labs"], "Wall": ["Airstrip","Satellite Uplink"], "Command Post": ["Hero Armory"],
-      "Robotics Bay": [], "Alien Genetics Labs": [], "Hero Armory": [], "Supply Depot": ["Global Network"], "Global Network": ["Security Station"],
-      "Situation Room": [], "Airstrip": [], "Satellite Uplink": [], "Security Station": [], "Turret": [], "Experimentation Chamber": [],
-      "Shard Reactor": [], "Outpost Harvest": [], "Outpost Strategic": []
-    };
-
-    // collect section elements
-    const elems = Array.from(container.children)
-      .filter(el => el.classList && el.classList.contains('section'))
-      .reduce((acc, el) => { acc[el.innerText.trim()] = el; return acc; }, {});
-
-    // compute stroke width so visual thickness stays roughly constant across zoom:
-    const desiredVisualPx = 2; // px we want visually on screen
-    const strokeWidth = Math.max(0.5, Math.min(8, desiredVisualPx / treeScale));
-
-    Object.keys(treeMap).forEach(parentName => {
-      const children = treeMap[parentName];
-      if (!children || !children.length) return;
-      const parentEl = elems[parentName];
-      if (!parentEl) return;
-      const parentRect = parentEl.getBoundingClientRect();
-      const startX = parentRect.right - containerRect.left;
-      const startY = parentRect.top - containerRect.top + parentRect.height/2;
-      children.forEach(childName => {
-        const childEl = elems[childName];
-        if (!childEl) return;
-        const childRect = childEl.getBoundingClientRect();
-        const endX = childRect.left - containerRect.left;
-        const endY = childRect.top - containerRect.top + childRect.height/2;
-        const midX = startX + (endX - startX) / 2;
-
-        const polyline = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-        polyline.setAttribute('points', `${startX},${startY} ${midX},${startY} ${midX},${endY} ${endX},${endY}`);
-        polyline.setAttribute('stroke', '#ffcc00');
-        polyline.setAttribute('stroke-width', String(strokeWidth));
-        polyline.setAttribute('fill', 'none');
-        polyline.setAttribute('stroke-linecap', 'round');
-        polyline.setAttribute('stroke-linejoin', 'round');
-        svg.appendChild(polyline);
-      });
-    });
-  }
-
-  // ---------- responsive columns for different screens ----------
-  function getVisibleColumnsForScreen(){
-    const width = window.innerWidth;
-    let visibleCols = {
-      costs: [CHECKBOX_COL, LEVEL_COL, TIME_COL, 4,5,6,7,8,9,10,11,12,13,14,15,16],
-      rewards: [0,1,2,3],
-      stats: [0,1,2]
-    };
-    if (width < 1200) {
-      visibleCols.costs = [CHECKBOX_COL, LEVEL_COL, TIME_COL, 4,5,6,7];
-      visibleCols.rewards = [0,1,2];
-      visibleCols.stats = [0,1];
-    }
-    if (width < 768) {
-      visibleCols.costs = [CHECKBOX_COL, LEVEL_COL, TIME_COL, 4,5];
-      visibleCols.rewards = [0,1];
-      visibleCols.stats = [0,1];
-    }
-    return visibleCols;
-  }
-
-  function adjustColumnsForScreen(){
-    const visCols = getVisibleColumnsForScreen();
-    // costs
-    for (let i=0;i<colsDef.length;i++) costsTable.column(i).visible(false);
-    visCols.costs.forEach(idx => { try { costsTable.column(idx).visible(true); } catch(e){} });
-    // rewards
-    for (let i=0;i<4;i++) rewardsTable.column(i).visible(false);
-    visCols.rewards.forEach(idx => { try { rewardsTable.column(idx).visible(true); } catch(e){} });
-    // stats
-    for (let i=0;i<3;i++) statsTable.column(i).visible(false);
-    visCols.stats.forEach(idx => { try { statsTable.column(idx).visible(true); } catch(e){} });
-
-    updateTotals();
-    try { costsTable.columns.adjust(); rewardsTable.columns.adjust(); statsTable.columns.adjust(); } catch(e){}
-  }
-
-  // initial adjust (after tables exist)
-  adjustColumnsForScreen();
-
-  // resize handling (debounced)
-  const onResize = debounce(function(){
-    if ($auto.prop('checked')) applyTreeScale(computeAutoScale());
-    adjustColumnsForScreen();
-    setTimeout(drawLines, 40);
-  }, 120);
-  window.addEventListener('resize', onResize);
-
-  // small initial normalization
-  setTimeout(function(){ if ($auto.prop('checked')) applyTreeScale(computeAutoScale()); drawLines(); updateTotals(); }, 120);
-
-}); // end document.ready
-</script>
-
+<script src="buildings/helpers.js"></script>
+<script src="buildings/data-loader.js"></script>
+<script src="buildings/tables-init.js"></script>
+<script src="buildings/totals.js"></script>
+<script src="buildings/tree-and-ui.js"></script>
+<script src="buildings/main.js"></script>
 </body>
-
 </html>

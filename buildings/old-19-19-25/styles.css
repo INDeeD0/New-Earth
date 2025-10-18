@@ -1,4 +1,4 @@
-/* styles css */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #222;
@@ -129,10 +129,11 @@ table.dataTable tbody tr.even {
 }
 
 /* Center the headers */
-#costsTable th,#rewardsTable th,#statsTable th {
+#costsTable th, 
+#rewardsTable th, 
+#statsTable th {
     text-align: center;
     vertical-align: middle;
-    font-size: 20px !important;
 }
 
 /* FixedHeader clones (sticky headers) */

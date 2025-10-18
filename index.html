@@ -172,6 +172,16 @@ table.dataTable tbody tr.even {
 #totalsBody td {
     text-align: center;
 }
+
+/* Totals tables striping to match DataTables grey/white */
+#totalsTable thead tr,
+#missionsTotalsTable thead tr {
+    background-color: #ffffff;
+}
+#totalsTable tbody tr,
+#missionsTotalsTable tbody tr {
+    background-color: #e6e6e6;
+}
 .info-icon {
     cursor: help;
     font-size: 18px;
@@ -428,6 +438,7 @@ $(document).ready(function(){
             },
             { title:"Level" },
             { title:"Hero XP" },
+            { title:"Power" },
             { title:"Tech" },
             { title:"Food" },
             { title:"Oil" },
@@ -436,12 +447,11 @@ $(document).ready(function(){
         ]
     });
 
-    const statsTable = $('#statsTable').DataTable({
+    let statsTable = $('#statsTable').DataTable({
         scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false, fixedHeader: true, ordering:false,
         columns:[
             { title:"Key", visible:false },
-            { title:"Level" },
-            { title:"Unit Capacity" }
+            { title:"Level" }
         ]
     });
 
@@ -456,6 +466,390 @@ $(document).ready(function(){
         const settings = dt.settings()[0];
         settings.oScroll.sY = height + 'px';
         dt.columns.adjust();
+    }
+
+    // Build dynamic Stats table per building: each stat/buff as its own column
+    function rebuildStatsTableFor(jsonKeyRaw){
+        if (!window.structuresSubtypes) return;
+        const bkey = (jsonKeyRaw || '').toString().toLowerCase();
+        const building = window.structuresSubtypes[bkey];
+        if (!building) {
+            if ($.fn.DataTable.isDataTable('#statsTable')) {
+                statsTable.clear().draw(false);
+            }
+            return;
+        }
+        const levels = building.levels || [];
+        const statSet = new Set();
+        const buffSet = new Set();
+        levels.forEach((lvl) => {
+            if (!lvl || !Object.keys(lvl).length) return;
+            (Array.isArray(lvl.stats) ? lvl.stats : []).forEach(s => { if (s && s.subtype) statSet.add(String(s.subtype)); });
+            (Array.isArray(lvl.attributes) ? lvl.attributes : []).forEach(a => { if (a && a.subtype) buffSet.add(String(a.subtype)); });
+        });
+        const nice = function(s){
+            let t = String(s);
+            // remove any occurrences of 'modifier' in subtype keys
+            t = t.replace(/_modifier\b/gi, '');
+            t = t.replace(/modifier\b/gi, '');
+            // clean up underscores and spaces
+            t = t.replace(/__+/g,'_').replace(/^_+|_+$/g,'');
+            t = t.replace(/_/g,' ');
+            t = t.replace(/\b\w/g, function(c){ return c.toUpperCase(); });
+            return t.replace(/\s{2,}/g,' ').trim();
+        };
+        const columns = [
+            { title: "Key", visible: false },
+            { title: "Level" }
+        ];
+        const statCols = Array.from(statSet);
+        const buffCols = Array.from(buffSet);
+        const capacityExists = levels.some(lvl => typeof lvl.unit_capacity === 'number');
+        const isWalls = bkey === 'walls';
+        const isBarracks = bkey === 'barracks';
+        const isFactory = bkey === 'factory';
+
+        const defCapRe = /defen[cs]e.*cap/i;
+        const wallBonusRe = /(attack|atk|defen[cs]e.*modifier)/i;
+        const isRobotics = bkey === 'robotics_bay';
+        const isExperimentation = bkey === 'experimentation_chamber';
+        const isGenetics = bkey === 'alien_genetics_lab';
+        const trainCapExists = (isBarracks || isFactory || isRobotics || isExperimentation || isGenetics) && levels.some(lvl => typeof lvl.production_capacity === 'number');
+        const infDefRe = /infantry.*defen[cs]e.*modifier/i;
+        const vehDefRe = /(vehicle|air).*defen[cs]e.*modifier/i;
+        const mechDefRe2 = /mech_.*_(defen[cs]e|health).*modifier/i;
+        const protoDefRe = /prototype_.*_(defen[cs]e|health).*modifier/i;
+        const alienDefRe = /alien_.*_(defen[cs]e|health).*modifier/i;
+        // Detect defence capacity presence for Walls (either direct field or stat subtype)
+        const hasDirectDefCap = levels.some(lvl => {
+            if (!lvl) return false;
+            return Object.keys(lvl).some(k => (typeof lvl[k] === 'number') && defCapRe.test(k));
+        });
+        const defStatKeys = statCols.filter(n => defCapRe.test(String(n)));
+        const hasStaticUnitCap = levels.some(lvl => lvl && typeof lvl.static_unit_capacity === 'number');
+        const defCapExists = isWalls && (hasDirectDefCap || defStatKeys.length > 0 || hasStaticUnitCap);
+
+        // Filter out per-building columns we will replace with combined ones
+        let statColsFiltered = statCols.slice();
+        let buffColsFiltered = buffCols.slice();
+        if (isWalls) {
+            statColsFiltered = statColsFiltered.filter(n => !(defCapRe.test(String(n)) || wallBonusRe.test(String(n))));
+            buffColsFiltered = buffColsFiltered.filter(n => !wallBonusRe.test(String(n)));
+        }
+        if (isBarracks) {
+            statColsFiltered = statColsFiltered.filter(n => !infDefRe.test(String(n)));
+            buffColsFiltered = buffColsFiltered.filter(n => !infDefRe.test(String(n)));
+        }
+        if (isFactory) {
+            statColsFiltered = statColsFiltered.filter(n => !vehDefRe.test(String(n)));
+            buffColsFiltered = buffColsFiltered.filter(n => !vehDefRe.test(String(n)));
+        }
+        if (isRobotics) {
+            statColsFiltered = statColsFiltered.filter(n => !mechDefRe2.test(String(n)));
+            buffColsFiltered = buffColsFiltered.filter(n => !mechDefRe2.test(String(n)));
+        }
+        if (isExperimentation) {
+            statColsFiltered = statColsFiltered.filter(n => !protoDefRe.test(String(n)));
+            buffColsFiltered = buffColsFiltered.filter(n => !protoDefRe.test(String(n)));
+        }
+        if (isGenetics) {
+            statColsFiltered = statColsFiltered.filter(n => !alienDefRe.test(String(n)));
+            buffColsFiltered = buffColsFiltered.filter(n => !alienDefRe.test(String(n)));
+        }
+
+        if (capacityExists) columns.push({ title: "Unit Capacity" });
+        if (defCapExists) columns.push({ title: "Defence Capacity" });
+        if (trainCapExists) columns.push({ title: "Training Capacity" });
+        statColsFiltered.forEach(sub => columns.push({ title: nice(sub) }));
+        buffColsFiltered.forEach(sub => columns.push({ title: nice(sub) }));
+        if (isWalls) columns.push({ title: "Wall Defence Bonus" });
+        if (isBarracks) columns.push({ title: "Infantry Defence" });
+        if (isFactory) columns.push({ title: "Vehicle Defence" });
+        if (isRobotics) columns.push({ title: "Mech Defence" });
+        if (isExperimentation) columns.push({ title: "Prototype Defence" });
+        if (isGenetics) columns.push({ title: "Alien Defence" });
+
+        if ($.fn.DataTable.isDataTable('#statsTable')) {
+            statsTable.destroy();
+        }
+        $('#statsTable').empty();
+        statsTable = $('#statsTable').DataTable({
+            scrollY: "800px", scrollCollapse: true, paging: false, dom: 'ti', info: false, fixedHeader: true, ordering:false,
+            columns: columns
+        });
+
+        levels.forEach((lvl, i) => {
+            if (!lvl || !Object.keys(lvl).length) return;
+            const cap = (typeof lvl.unit_capacity === 'number') ? formatShort(lvl.unit_capacity) : "-";
+            const row = [bkey, i];
+
+            // Unit Capacity
+            if (columns.find(c => c.title === 'Unit Capacity')) row.push(cap);
+
+            // Training Capacity (Barracks/Factory)
+            if (columns.find(c => c.title === 'Training Capacity')) {
+                const tcap = (typeof lvl.production_capacity === 'number') ? formatShort(lvl.production_capacity) : '-';
+                row.push(tcap);
+            }
+
+            // Defence Capacity (Walls only): from stat subtype or direct field
+            if (columns.find(c => c.title === 'Defence Capacity')) {
+                let dcap = null;
+                // from stats
+                const sDef = (Array.isArray(lvl.stats) ? lvl.stats : []).find(x => defCapRe.test(String(x.subtype)));
+                if (sDef && typeof sDef.value === 'number') dcap = sDef.value;
+                // from direct field
+                if (dcap === null) {
+                    const k = Object.keys(lvl).find(k => (typeof lvl[k] === 'number') && defCapRe.test(k));
+                    if (k) dcap = lvl[k];
+                }
+                // from static_unit_capacity
+                if (dcap === null && typeof lvl.static_unit_capacity === 'number') dcap = lvl.static_unit_capacity;
+                row.push(dcap !== null ? formatShort(dcap) : '-');
+            }
+
+            // Other stats
+            statColsFiltered.forEach(sub => {
+                const s = (Array.isArray(lvl.stats) ? lvl.stats : []).find(x => String(x.subtype) === sub);
+                let val = "-";
+                if (s) {
+                    const parts = [];
+                    if (s.value !== undefined) {
+                        if (!(typeof s.value === 'number' && s.value === 0)) {
+                            parts.push(typeof s.value === 'number' ? formatShort(s.value) : s.value);
+                        }
+                    }
+                    if (typeof s.modifier === 'number' && s.modifier !== 0) {
+                        const absMod = Math.abs(s.modifier);
+                        const pctRaw = (absMod <= 1 || (absMod < 10 && !Number.isInteger(absMod))) ? (s.modifier * 100) : s.modifier;
+                        const sign = pctRaw < 0 ? '-' : '';
+                        const pctAbs = Math.abs(pctRaw);
+                        let pctStr = (Math.round(pctAbs) === pctAbs)
+                            ? String(pctAbs)
+                            : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                        parts.push(`${sign}${pctStr}%`);
+                    }
+                    if (parts.length) val = parts.length > 1 ? `${parts[0]} (${parts[1]})` : parts[0];
+                }
+                row.push(val);
+            });
+
+            // Other buffs (excluding attacks for Walls)
+            buffColsFiltered.forEach(sub => {
+                const a = (Array.isArray(lvl.attributes) ? lvl.attributes : []).find(x => String(x.subtype) === sub);
+                let val = "-";
+                if (a && a.value !== undefined) val = (typeof a.value === 'number') ? formatShort(a.value) : a.value;
+                row.push(val);
+            });
+
+            // Combined Wall Defence Bonus
+            if (isWalls) {
+                const attList = (Array.isArray(lvl.attributes) ? lvl.attributes : []).filter(x => wallBonusRe.test(String(x.subtype)));
+                const statList = (Array.isArray(lvl.stats) ? lvl.stats : []).filter(x => wallBonusRe.test(String(x.subtype)));
+                const combined = [].concat(statList, attList);
+                let bonus = '-';
+                if (combined.length) {
+                    const withMod = combined.find(it => typeof it.modifier === 'number' && it.modifier !== 0);
+                    if (withMod) {
+                        const absMod = Math.abs(withMod.modifier);
+                        const pctRaw = (absMod <= 1 || (absMod < 10 && !Number.isInteger(absMod))) ? (withMod.modifier * 100) : withMod.modifier;
+                        const sign = pctRaw < 0 ? '-' : '';
+                        const pctAbs = Math.abs(pctRaw);
+                        let pctStr = (Math.round(pctAbs) === pctAbs)
+                            ? String(pctAbs)
+                            : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                        bonus = `${sign}${pctStr}%`;
+                    } else {
+                        const withVal = combined.find(it => typeof it.value === 'number' && it.value !== 0);
+                        if (withVal) {
+                            const absVal = Math.abs(withVal.value);
+                            const pctRaw = (absVal <= 1 || (absVal < 10 && !Number.isInteger(absVal))) ? (withVal.value * 100) : withVal.value;
+                            const sign = pctRaw < 0 ? '-' : '';
+                            const pctAbs = Math.abs(pctRaw);
+                            let pctStr = (Math.round(pctAbs) === pctAbs)
+                                ? String(pctAbs)
+                                : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                            bonus = `${sign}${pctStr}%`;
+                        }
+                    }
+                }
+                row.push(bonus);
+            }
+
+            // Combined Infantry Defence (Barracks)
+            if (isBarracks) {
+                const attList = (Array.isArray(lvl.attributes) ? lvl.attributes : []).filter(x => infDefRe.test(String(x.subtype)));
+                const statList = (Array.isArray(lvl.stats) ? lvl.stats : []).filter(x => infDefRe.test(String(x.subtype)));
+                const combined = [].concat(statList, attList);
+                let bonus = '-';
+                if (combined.length) {
+                    const withMod = combined.find(it => typeof it.modifier === 'number' && it.modifier !== 0);
+                    if (withMod) {
+                        const absMod = Math.abs(withMod.modifier);
+                        const pctRaw = (absMod <= 1 || (absMod < 10 && !Number.isInteger(absMod))) ? (withMod.modifier * 100) : withMod.modifier;
+                        const sign = pctRaw < 0 ? '-' : '';
+                        const pctAbs = Math.abs(pctRaw);
+                        let pctStr = (Math.round(pctAbs) === pctAbs)
+                            ? String(pctAbs)
+                            : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                        bonus = `${sign}${pctStr}%`;
+                    } else {
+                        const withVal = combined.find(it => typeof it.value === 'number' && it.value !== 0);
+                        if (withVal) {
+                            const absVal = Math.abs(withVal.value);
+                            const pctRaw = (absVal <= 1 || (absVal < 10 && !Number.isInteger(absVal))) ? (withVal.value * 100) : withVal.value;
+                            const sign = pctRaw < 0 ? '-' : '';
+                            const pctAbs = Math.abs(pctRaw);
+                            let pctStr = (Math.round(pctAbs) === pctAbs)
+                                ? String(pctAbs)
+                                : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                            bonus = `${sign}${pctStr}%`;
+                        }
+                    }
+                }
+                row.push(bonus);
+            }
+
+            // Combined Vehicle Defence (Factory)
+            if (isFactory) {
+                const attList = (Array.isArray(lvl.attributes) ? lvl.attributes : []).filter(x => vehDefRe.test(String(x.subtype)));
+                const statList = (Array.isArray(lvl.stats) ? lvl.stats : []).filter(x => vehDefRe.test(String(x.subtype)));
+                const combined = [].concat(statList, attList);
+                let bonus = '-';
+                if (combined.length) {
+                    const withMod = combined.find(it => typeof it.modifier === 'number' && it.modifier !== 0);
+                    if (withMod) {
+                        const absMod = Math.abs(withMod.modifier);
+                        const pctRaw = (absMod <= 1 || (absMod < 10 && !Number.isInteger(absMod))) ? (withMod.modifier * 100) : withMod.modifier;
+                        const sign = pctRaw < 0 ? '-' : '';
+                        const pctAbs = Math.abs(pctRaw);
+                        let pctStr = (Math.round(pctAbs) === pctAbs)
+                            ? String(pctAbs)
+                            : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                        bonus = `${sign}${pctStr}%`;
+                    } else {
+                        const withVal = combined.find(it => typeof it.value === 'number' && it.value !== 0);
+                        if (withVal) {
+                            const absVal = Math.abs(withVal.value);
+                            const pctRaw = (absVal <= 1 || (absVal < 10 && !Number.isInteger(absVal))) ? (withVal.value * 100) : withVal.value;
+                            const sign = pctRaw < 0 ? '-' : '';
+                            const pctAbs = Math.abs(pctRaw);
+                            let pctStr = (Math.round(pctAbs) === pctAbs)
+                                ? String(pctAbs)
+                                : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                            bonus = `${sign}${pctStr}%`;
+                        }
+                    }
+                }
+                row.push(bonus);
+            }
+
+            // Combined Mech Defence (Robotics Bay)
+            if (isRobotics) {
+                const attList = (Array.isArray(lvl.attributes) ? lvl.attributes : []).filter(x => mechDefRe2.test(String(x.subtype)));
+                const statList = (Array.isArray(lvl.stats) ? lvl.stats : []).filter(x => mechDefRe2.test(String(x.subtype)));
+                const combined = [].concat(statList, attList);
+                let bonus = '-';
+                if (combined.length) {
+                    const withMod = combined.find(it => typeof it.modifier === 'number' && it.modifier !== 0);
+                    if (withMod) {
+                        const absMod = Math.abs(withMod.modifier);
+                        const pctRaw = (absMod <= 1 || (absMod < 10 && !Number.isInteger(absMod))) ? (withMod.modifier * 100) : withMod.modifier;
+                        const sign = pctRaw < 0 ? '-' : '';
+                        const pctAbs = Math.abs(pctRaw);
+                        let pctStr = (Math.round(pctAbs) === pctAbs)
+                            ? String(pctAbs)
+                            : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                        bonus = `${sign}${pctStr}%`;
+                    } else {
+                        const withVal = combined.find(it => typeof it.value === 'number' && it.value !== 0);
+                        if (withVal) {
+                            const absVal = Math.abs(withVal.value);
+                            const pctRaw = (absVal <= 1 || (absVal < 10 && !Number.isInteger(absVal))) ? (withVal.value * 100) : withVal.value;
+                            const sign = pctRaw < 0 ? '-' : '';
+                            const pctAbs = Math.abs(pctRaw);
+                            let pctStr = (Math.round(pctAbs) === pctAbs)
+                                ? String(pctAbs)
+                                : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                            bonus = `${sign}${pctStr}%`;
+                        }
+                    }
+                }
+                row.push(bonus);
+            }
+
+            // Combined Prototype Defence (Experimentation Chamber)
+            if (isExperimentation) {
+                const attList = (Array.isArray(lvl.attributes) ? lvl.attributes : []).filter(x => protoDefRe.test(String(x.subtype)));
+                const statList = (Array.isArray(lvl.stats) ? lvl.stats : []).filter(x => protoDefRe.test(String(x.subtype)));
+                const combined = [].concat(statList, attList);
+                let bonus = '-';
+                if (combined.length) {
+                    const withMod = combined.find(it => typeof it.modifier === 'number' && it.modifier !== 0);
+                    if (withMod) {
+                        const absMod = Math.abs(withMod.modifier);
+                        const pctRaw = (absMod <= 1 || (absMod < 10 && !Number.isInteger(absMod))) ? (withMod.modifier * 100) : withMod.modifier;
+                        const sign = pctRaw < 0 ? '-' : '';
+                        const pctAbs = Math.abs(pctRaw);
+                        let pctStr = (Math.round(pctAbs) === pctAbs)
+                            ? String(pctAbs)
+                            : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                        bonus = `${sign}${pctStr}%`;
+                    } else {
+                        const withVal = combined.find(it => typeof it.value === 'number' && it.value !== 0);
+                        if (withVal) {
+                            const absVal = Math.abs(withVal.value);
+                            const pctRaw = (absVal <= 1 || (absVal < 10 && !Number.isInteger(absVal))) ? (withVal.value * 100) : withVal.value;
+                            const sign = pctRaw < 0 ? '-' : '';
+                            const pctAbs = Math.abs(pctRaw);
+                            let pctStr = (Math.round(pctAbs) === pctAbs)
+                                ? String(pctAbs)
+                                : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                            bonus = `${sign}${pctStr}%`;
+                        }
+                    }
+                }
+                row.push(bonus);
+            }
+
+            // Combined Alien Defence (Alien Genetics Labs)
+            if (isGenetics) {
+                const attList = (Array.isArray(lvl.attributes) ? lvl.attributes : []).filter(x => alienDefRe.test(String(x.subtype)));
+                const statList = (Array.isArray(lvl.stats) ? lvl.stats : []).filter(x => alienDefRe.test(String(x.subtype)));
+                const combined = [].concat(statList, attList);
+                let bonus = '-';
+                if (combined.length) {
+                    const withMod = combined.find(it => typeof it.modifier === 'number' && it.modifier !== 0);
+                    if (withMod) {
+                        const absMod = Math.abs(withMod.modifier);
+                        const pctRaw = (absMod <= 1 || (absMod < 10 && !Number.isInteger(absMod))) ? (withMod.modifier * 100) : withMod.modifier;
+                        const sign = pctRaw < 0 ? '-' : '';
+                        const pctAbs = Math.abs(pctRaw);
+                        let pctStr = (Math.round(pctAbs) === pctAbs)
+                            ? String(pctAbs)
+                            : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                        bonus = `${sign}${pctStr}%`;
+                    } else {
+                        const withVal = combined.find(it => typeof it.value === 'number' && it.value !== 0);
+                        if (withVal) {
+                            const absVal = Math.abs(withVal.value);
+                            const pctRaw = (absVal <= 1 || (absVal < 10 && !Number.isInteger(absVal))) ? (withVal.value * 100) : withVal.value;
+                            const sign = pctRaw < 0 ? '-' : '';
+                            const pctAbs = Math.abs(pctRaw);
+                            let pctStr = (Math.round(pctAbs) === pctAbs)
+                                ? String(pctAbs)
+                                : pctAbs.toFixed(2).replace(/\.0+$/,'').replace(/0+$/,'').replace(/\.$/,'');
+                            bonus = `${sign}${pctStr}%`;
+                        }
+                    }
+                }
+                row.push(bonus);
+            }
+
+            statsTable.row.add(row);
+        });
+        statsTable.draw(false);
+        setScrollRows(statsTable, VISIBLE_ROWS);
     }
 
     // --- Apply Time scaling to visible display column only (raw kept in last col) ---
@@ -611,10 +1005,34 @@ $(document).ready(function(){
         "Outpost Strategic":"Outpost_strategic","Outpost Harvest":"Outpost_harvest"
     };
 
-    fetch('molds/categories/structures.json')
-    .then(r => r.json())
-    .then(data => {
+    Promise.all([
+        fetch('molds/categories/structures.json').then(r => r.json()),
+        fetch('molds/categories/objective.json').then(r => r.json()).catch(() => ({}))
+    ])
+    .then(([data, objectives]) => {
         const subtypes = data._subtypes || {};
+        window.structuresSubtypes = subtypes;
+
+        // Build objective power delta map: target_subtype -> deltas by level
+        const objMap = {};
+        const oSub = (objectives && objectives._subtypes) || {};
+        Object.values(oSub).forEach(obj => {
+            const levels = obj.levels || [];
+            let prev = 0;
+            let targetKey = null;
+            for (let i = 1; i < levels.length; i++) {
+                const lvl = levels[i] || {};
+                const req0 = (lvl.requirements || [])[0] || {};
+                if (!targetKey && req0.target_subtype) targetKey = String(req0.target_subtype).toLowerCase();
+                const cum = Number(lvl.power || 0);
+                const delta = cum - prev;
+                prev = cum;
+                if (targetKey) {
+                    if (!objMap[targetKey]) objMap[targetKey] = [];
+                    objMap[targetKey][i] = delta;
+                }
+            }
+        });
 
         Object.entries(subtypes).forEach(([key, building]) => {
             let prevPower = 0;
@@ -645,13 +1063,24 @@ $(document).ready(function(){
                 costsTable.row.add(row);
 
                 // rewards & stats
-                const tech25 = formatShort(Math.floor(parseNumber(getCost('currency3')) * 0.25));
-                const food25 = formatShort(Math.floor(parseNumber(getCost('currency4')) * 0.25));
-                const oil25 = formatShort(Math.floor(parseNumber(getCost('currency5')) * 0.25));
-                const alloy25 = formatShort(Math.floor(parseNumber(getCost('currency6')) * 0.25));
-                const neutronium25 = formatShort(Math.floor(parseNumber(getCost('currency7')) * 0.25));
-                rewardsTable.row.add([key, null, i, formatShort(lvl.reward?.hero_xp ?? 0), tech25, food25, oil25, alloy25, neutronium25]);
-                statsTable.row.add([key, i, typeof lvl.unit_capacity === 'number' ? formatShort(lvl.unit_capacity) : "-"]);
+                const tech25n = Math.floor(parseNumber(getCost('currency3')) * 0.25);
+                const food25n = Math.floor(parseNumber(getCost('currency4')) * 0.25);
+                const oil25n = Math.floor(parseNumber(getCost('currency5')) * 0.25);
+                const alloy25n = Math.floor(parseNumber(getCost('currency6')) * 0.25);
+                const neutronium25n = Math.floor(parseNumber(getCost('currency7')) * 0.25);
+
+                // Objective power per level using objective.json (same differential equation)
+                const targetSub = (keyMap[key] || key).toString().toLowerCase();
+                const missionDelta = objMap[targetSub]?.[i];
+                const missionPower = missionDelta ? formatShort(missionDelta) : "-";
+
+                rewardsTable.row.add([
+                    key, null, i,
+                    formatShort(lvl.reward?.hero_xp ?? 0),
+                    missionPower,
+                    formatShort(tech25n), formatShort(food25n), formatShort(oil25n), formatShort(alloy25n), formatShort(neutronium25n)
+                ]);
+                /* stats rows are populated per building on selection */
             });
         });
 
@@ -670,14 +1099,21 @@ $(document).ready(function(){
         // sync header input
         $('.time-scale').val(currentScale);
 
+        // ensure Stats table is built for the active building on load
+        try {
+            const activeName = $('.section.active').text().trim() || 'Headquarters';
+            const mapped = keyMap[activeName] || activeName;
+            rebuildStatsTableFor(mapped);
+        } catch(e) { /* ignore */ }
+
         // draw tree lines (if you use them)
         setTimeout(drawLines, 50);
     })
-    .catch(err => console.error('Failed to load structures.json', err));
+    .catch(err => console.error('Failed to load structures/objectives json', err));
 
     // --- Main Missions totals (independent) ---
     function updateMissionsTotals(){
-        const totals = {3:0,4:0,5:0,6:0,7:0,8:0}; // Hero XP and resources
+        const totals = {3:0,4:0,5:0,6:0,7:0,8:0,9:0}; // Hero XP, Power, and resources
         rewardsTable.rows({search:'applied'}).every(function(){
             const d = this.data();
             const uid = `${stripHtml(d[0])}|${d[2]}`;
@@ -724,6 +1160,8 @@ $(document).ready(function(){
         if (outposts.includes(jsonKey)) costsTable.column(10).visible(true); // Alliance Credits
 
         if (columnMap[jsonKey]) columnMap[jsonKey].forEach(idx => costsTable.column(idx).visible(true));
+
+        rebuildStatsTableFor(jsonKey);
 
         $('.time-scale').val(currentScale);
         setTimeout(drawLines, 20);
