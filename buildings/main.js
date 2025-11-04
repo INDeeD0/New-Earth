@@ -185,3 +185,29 @@ function debounce(fn, delay){
         timer = setTimeout(() => fn(...args), delay);
     };
 }
+function showPopup(html) {
+    // Create or reuse popup container
+    let popup = document.getElementById('autoTickPopup');
+    if (!popup) {
+        popup = document.createElement('div');
+        popup.id = 'autoTickPopup';
+        document.body.appendChild(popup);
+
+        // Click to close
+        popup.addEventListener('click', () => {
+            popup.style.opacity = '0';
+            setTimeout(() => popup.style.display = 'none', 300);
+        });
+    }
+
+    popup.innerHTML = html;
+    popup.style.display = 'block';
+    popup.style.opacity = '1';
+
+    // Center-right positioning
+    popup.style.top = '50%';
+    popup.style.right = '20px';
+    popup.style.transform = 'translateY(-50%)';
+}
+
+

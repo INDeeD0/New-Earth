@@ -279,9 +279,10 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                     window.__autoTickActive = false;
 
                     if (added.length === 0) {
-                        console.log("🧩 No new ticks were applied.");
+                        showPopup("🧩 No new ticks were applied.");
                     } else {
                         added.push(`${normalize(buildingKey)}|${level}`);
+
                         // group and compress
                         const grouped = {};
                         added.forEach(uid => {
@@ -292,7 +293,7 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                         });
 
                         const compress = arr => {
-                            const sorted = [...new Set(arr)].sort((a,b) => a-b);
+                            const sorted = [...new Set(arr)].sort((a,b)=>a-b);
                             const out = [];
                             for (let n of sorted) {
                                 if (!out.length) out.push([n,n]);
@@ -305,14 +306,19 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                         const pretty = s => s.replace(/[_-]+/g,' ')
                                             .replace(/\b\w/g,c=>c.toUpperCase());
 
-                        console.groupCollapsed('✅ Final Auto-tick Summary');
                         let total = 0;
+                        let lines = [];
                         Object.entries(grouped).forEach(([k,v])=>{
-                            console.log(`✔ ${pretty(k)}: ${compress(v)}`);
                             total += v.length;
+                            lines.push(`✔ ${pretty(k)}: ${compress(v)}`);
                         });
-                        console.info(`🧮 Buildins Required: ${total}`);
-                        console.groupEnd();
+
+                        const message = `
+                            <strong>✅ Auto-tick Summary</strong><br>
+                            ${lines.join('<br>')}
+                            <br><strong>🧮 Buildings Required:</strong> ${total}
+                        `;
+                        showPopup(message, 9000);
                     }
 
                     // redraw once at the end
@@ -321,6 +327,8 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                     }
                     Totals.updateCostsTotals(window.currentScale);
                 }
+
+
             }, 100);
         }
     }
@@ -341,7 +349,7 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             if (isChecked && $('#autoLinkToggle').is(':checked')) {
                 // 🔁 Auto-tick the full prerequisite chain (only if Auto-total is ON)
                 autoTickChain(jsonKey, lvl);
-            }
+            }100
         });
 
         // ✅ Remove All button for COSTS (multi-table safe)
