@@ -2,115 +2,186 @@
 // top-level orchestrator: initializes everything in correct order
 
 $(document).ready(async function(){
-    // shared globals used by various modules (keeping them global to match your original code's behavior)
+    // === Shared globals ===
     window.currentScale = 0;
 
-    // create DataTables and wire modules
+    // === Initialize DataTables defaults ===
     Tables.initDefaults();
 
-    // create tables (they return DataTable instances if needed)
-    const costs = Tables.createCostsTable();
-    const rewards = Tables.createRewardsTable();
-    const stats = Tables.createStatsTable();
-
-    // load json and populate tables (mirrors original population logic)
     try {
+        // === Load JSON data ===
         const data = await DataLoader.loadAll();
         const subtypes = data.subtypes;
         const keyMap = data.keyMap;
         const objMap = data.objMap;
+
+        // expose globally for other modules
         window.structuresSubtypes = subtypes;
+        window.loadedKeyMap = keyMap;
 
-        // populate tables
-        Object.entries(subtypes).forEach(([key, building]) => {
-            let prevPower = 0;
-            (building.levels || []).forEach((lvl, i) => {
-                if (!Object.keys(lvl).length) return;
-                const power = ((lvl.power ?? 0) - prevPower);
-                prevPower = lvl.power ?? 0;
-                const getCost = (sub) => Helpers.formatShort(lvl.costs?.find(c => c.target_subtype === sub)?.quantity ?? 0);
+        // === Build all COST tables first (one per building) ===
+        Tables.allCostsTables = Tables.createAllCostsTables(subtypes, Totals.getCheckedMap());
+        Tables.populateAllCostsTables(subtypes, Totals.getCheckedMap());
 
-                const row = [
-                    key,       // Key (hidden)
-                    null,      // checkbox column - render will create the input
-                    i,         // Level
-                    lvl.upgrade_cost > 0 ? Helpers.formatTime(Math.floor(lvl.upgrade_cost / (1 + window.currentScale/100))) : "-",
-                    Helpers.formatShort(power),
-                    getCost('currency3'), getCost('currency4'), getCost('currency5'), getCost('currency6'),
-                    getCost('currency7'), getCost('currency8'),
-                    getCost('core_neutronium_crystal'), getCost('core_classified_documents'), getCost('core_data_disk'),
-                    getCost('core_alien_power_core'), getCost('core_alien_component'), getCost('core_alien_armor'),
-                    getCost('armory_blueprints'),
-                    lvl.upgrade_cost // _raw = last element
-                ];
+        // === Default building (root node) ===
+        const defaultBuilding = 'Headquarters';
+        const mapped = keyMap[defaultBuilding] || defaultBuilding;
+        const structureData = subtypes[mapped.toLowerCase()] || subtypes[defaultBuilding.toLowerCase()];
 
-                $('#costsTable').DataTable().row.add(row);
-
-                const tech25n = Math.floor(Helpers.parseNumber(getCost('currency3')) * 0.25);
-                const food25n = Math.floor(Helpers.parseNumber(getCost('currency4')) * 0.25);
-                const oil25n = Math.floor(Helpers.parseNumber(getCost('currency5')) * 0.25);
-                const alloy25n = Math.floor(Helpers.parseNumber(getCost('currency6')) * 0.25);
-                const neutronium25n = Math.floor(Helpers.parseNumber(getCost('currency7')) * 0.25);
-
-                const targetSub = (keyMap[key] || key).toString().toLowerCase();
-                const missionDelta = objMap[targetSub]?.[i];
-                const missionPower = missionDelta ? Helpers.formatShort(missionDelta) : "-";
-
-                $('#rewardsTable').DataTable().row.add([
-                    key, null, i,
-                    Helpers.formatShort(lvl.reward?.hero_xp ?? 0),
-                    missionPower,
-                    Helpers.formatShort(tech25n), Helpers.formatShort(food25n), Helpers.formatShort(oil25n), Helpers.formatShort(alloy25n), Helpers.formatShort(neutronium25n)
-                ]);
-            });
-        });
-
-        // initial draw
-        $('#costsTable').DataTable().draw();
-        $('#rewardsTable').DataTable().draw();
-        $('#statsTable').DataTable().draw();
-
-        // apply scroll rows
-        setTimeout(function(){
-            Tables.setScrollRows($('#costsTable').DataTable());
-            Tables.setScrollRows($('#rewardsTable').DataTable());
-            Tables.setScrollRows($('#statsTable').DataTable());
-        }, 0);
-
-        // sync header input
+        // === Sync time scale inputs ===
         $('.time-scale').val(window.currentScale);
 
-        // ensure Stats table is built for the active building on load
-        try {
-            const activeName = $('.section.active').text().trim() || 'Headquarters';
-            const mapped = keyMap[activeName] || activeName;
-            Tables.rebuildStatsTableFor(mapped);
-        } catch(e) { /* ignore */ }
-
-        // draw tree lines
-        setTimeout(() => UI.drawLines(), 50);
-
-        // bootstrap UI (tree clicks, toggles, handlers)
+        // === Bootstrap UI (tree clicks, toggles, handlers) ===
         UI.bootstrap(data);
+
+        // === Default visibility setup ===
         $('#costsWrapper').css({ height: 'auto', overflow: 'visible' });
         $('#rewardsWrapper, #statsWrapper').css({ height: 0, overflow: 'hidden' });
         $('#costsTotals').show();
         $('#missionsTotals').hide();
+
+        // === Draw initial tree lines ===
+        setTimeout(() => UI.drawLines(), 50);
+
+        // === Initialize Level Storage (after UI exists) ===
+        LevelStorage.loadFromLocal();
+
+        // === Hook into top Save/Load buttons ===
+        $('#saveLevelsBtn').on('click', LevelStorage.exportToFile);
+        $('#loadLevelsBtn').on('click', () => $('#loadLevelsFile').click());
+        $('#loadLevelsFile').on('change', e => {
+            const file = e.target.files[0];
+            if (file) LevelStorage.importFromFile(file);
+        });
+        // === Reset all building levels, checkboxes, and saved data ===
+        $('#resetLevelsBtn').on('click', function() {
+            if (!confirm('⚠️ Reset all building levels, checkboxes, and clear saved data?')) return;
+
+            // Clear all number inputs (make blank)
+            document.querySelectorAll('.section input[type="number"]').forEach(inp => inp.value = '');
+
+            // Uncheck all cost and mission checkboxes
+            $('.row-checkbox').prop('checked', false);
+
+            // Clear Totals maps
+            const checkedMap = Totals.getCheckedMap();
+            const missionsCheckedMap = Totals.getMissionsCheckedMap();
+            Object.keys(checkedMap).forEach(k => delete checkedMap[k]);
+            Object.keys(missionsCheckedMap).forEach(k => delete missionsCheckedMap[k]);
+
+            // 🧹 Clear ALL localStorage data related to this system
+            localStorage.removeItem('buildingLevels_v1');  // <== correct key!
+            localStorage.removeItem('autoLinkEnabled');
+            localStorage.removeItem('savedTimestamp');
+
+            // Optional: ensure UI re-syncs after clearing
+            Totals.updateCostsTotals(window.currentScale);
+            Totals.updateMissionsTotals();
+
+            console.info('🧹 All levels, checkboxes, and localStorage cleared.');
+        });
+
+        // === Auto-save on input change ===
+        $(document).on('input', '.section input[type="number"]', debounce(LevelStorage.saveToLocal, 800));
+
+        console.log("✅ Initialization complete.");
+
     } catch(err) {
         console.error('Failed to load structures/objectives json', err);
     }
 });
-// --- Page navigation (restored from original) ---
+
+// --- Page navigation ---
 $(function(){
-  $('#topNav .nav-btn').each(function(){
-    const currentPage = window.location.pathname.split('/').pop().toLowerCase();
-    const targetPage = $(this).data('page').toLowerCase();
-    if (targetPage === currentPage) {
-      $(this).addClass('active');
-    }
-    $(this).on('click', function(){
-      window.location.href = $(this).data('page');
+    $('#topNav .nav-btn').each(function(){
+        const currentPage = window.location.pathname.split('/').pop().toLowerCase();
+        const targetPage = $(this).data('page').toLowerCase();
+        if (targetPage === currentPage) $(this).addClass('active');
+        $(this).on('click', function(){
+            window.location.href = $(this).data('page');
+        });
     });
-  });
 });
 
+
+// === LevelStorage Module ===
+const LevelStorage = (function(){
+    const STORAGE_KEY = 'buildingLevels_v1';
+
+    function saveToLocal(){
+        const data = {};
+        document.querySelectorAll('.section input[type="number"]').forEach(inp => {
+            const name = inp.closest('.section')?.innerText?.trim();
+            if (!name) return;
+            const val = parseInt(inp.value, 10) || 0;
+            data[name] = val;
+        });
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        console.log(`💾 Saved ${Object.keys(data).length} levels to localStorage`);
+    }
+
+    function loadFromLocal(){
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        const data = JSON.parse(raw);
+        document.querySelectorAll('.section input[type="number"]').forEach(inp => {
+            const name = inp.closest('.section')?.innerText?.trim();
+            if (!name || !(name in data)) return;
+            inp.value = data[name];
+        });
+        console.log(`📂 Loaded ${Object.keys(data).length} levels from localStorage`);
+    }
+
+    function exportToFile(){
+        const data = {};
+        document.querySelectorAll('.section input[type="number"]').forEach(inp => {
+            const name = inp.closest('.section')?.innerText?.trim();
+            if (!name) return;
+            const val = parseInt(inp.value, 10) || 0;
+            data[name] = val;
+        });
+        const text = Object.entries(data).map(([k,v]) => `${k}:${v}`).join('\n');
+        const blob = new Blob([text], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'building_levels_backup.txt';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+        console.log(`📤 Exported ${Object.keys(data).length} levels to file`);
+    }
+
+    function importFromFile(file){
+        const reader = new FileReader();
+        reader.onload = () => {
+            const lines = reader.result.split('\n');
+            const data = {};
+            lines.forEach(line => {
+                const [name, val] = line.split(':');
+                if (name && !isNaN(parseInt(val))) data[name.trim()] = parseInt(val);
+            });
+            document.querySelectorAll('.section input[type="number"]').forEach(inp => {
+                const name = inp.closest('.section')?.innerText?.trim();
+                if (!name || !(name in data)) return;
+                inp.value = data[name];
+            });
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+            console.log(`📥 Imported ${Object.keys(data).length} levels from file`);
+        };
+        reader.readAsText(file);
+    }
+
+    return { saveToLocal, loadFromLocal, exportToFile, importFromFile };
+})();
+
+
+// === Simple debounce helper (if not already present) ===
+function debounce(fn, delay){
+    let timer = null;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), delay);
+    };
+}

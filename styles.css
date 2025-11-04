@@ -1,4 +1,4 @@
-/* styles css */
+/* === Base Styles === */
 body {
   font-family: Arial, sans-serif;
   background-color: #222;
@@ -8,29 +8,32 @@ body {
   padding: 20px;
 }
 
-/* Tree Grid */
+/* === Tree Grid === */
 .container {
   display: grid;
-  grid-template-columns: repeat(5, 200px);
-  grid-template-rows: repeat(13, 19px);
+  grid-template-columns: repeat(5, 230px);
+  grid-template-rows: repeat(13, 25px);
   gap: 5px 20px;
   justify-content: center;
   margin: 20px auto;
   position: relative;
 }
+
 .section {
   background-color: #000;
   border: 1px solid #666;
   color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 15px;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
   position: relative;
   z-index: 1;
+  padding-left: 15px;
 }
+
 .section:hover { border-color: #ffcc00; }
 .section.active { border-color: #4287f5; background-color: #111; }
 
@@ -44,8 +47,9 @@ svg#lines {
   z-index: 0;
 }
 
-/* Table Styles */
+/* === Navigation === */
 #topNav { margin-bottom: 15px; }
+
 .nav-btn {
   margin: 2px;
   padding: 6px 12px;
@@ -58,7 +62,9 @@ svg#lines {
 .nav-btn:hover { background: #555; }
 .nav-btn.active { background: #4287f5; border-color: #4287f5; }
 
+/* === Table Toggles === */
 #tableToggle { margin-top: 20px; }
+
 .toggle-table-btn {
   margin: 2px;
   padding: 6px 12px;
@@ -73,132 +79,157 @@ svg#lines {
   color: #fff;
 }
 
+/* === Table Wrapper Layout === */
+.table-wrapper {
+  width: auto;
+  overflow-x: hidden !important;
+  margin: 0 auto;
+  display: none;
+}
+
+#costsMasterContainer,
+#missionsMasterContainer,
+#statsMasterContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* === DataTables Container === */
+.dataTables_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+}
+
+.dataTables_wrapper .dataTables_scroll {
+  display: inline-block;
+  width: auto !important;
+}
+
+.dataTables_wrapper .dataTables_scrollHead,
+.dataTables_wrapper .dataTables_scrollBody {
+  width: auto !important;
+  margin: 0 auto;
+}
+
+.dataTables_wrapper .dataTables_scrollHead {
+  overflow: visible !important;
+  position: relative;
+  z-index: 3;
+}
+
+.dataTables_wrapper .dataTables_scrollBody {
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden !important;
+}
+
+/* === Tables === */
 table {
   border-collapse: collapse;
   background: white;
   color: black;
   margin-top: 10px;
-  width: auto !important;       /* allow dynamic width */
-  max-width: 100%;              /* never exceed screen */
-  table-layout: auto !important;/* use natural width */
+  width: auto !important;
+  table-layout: auto !important;
   font-size: 20px;
 }
 
 table th, table td {
   color: black;
   padding: 4px 6px;
-  white-space: nowrap;          /* prevent wrapping */
+  white-space: nowrap;
   font-size: 20px;
-}
-table.dataTable tbody tr.odd {
-  background-color: #e6e6e6; 
-}
-table.dataTable tbody tr.even {
-  background-color: #ffffff;
-}
-/* Center the DataTable scroll container */
-.dataTables_wrapper {
-  display: flex;
-  justify-content: center; /* center horizontally */
+  text-align: center;
+  vertical-align: middle;
 }
 
-/* Make header and body follow table width */
-.dataTables_wrapper .dataTables_scroll {
-  display: inline-block;
-}
+table.dataTable tbody tr.odd  { background-color: #e6e6e6; }
+table.dataTable tbody tr.even { background-color: #ffffff; }
 
-/* Center the scroll head and body */
-.dataTables_wrapper .dataTables_scrollHead,
-.dataTables_wrapper .dataTables_scrollBody {
-  width: auto !important;  /* let table define width */
-  margin: 0 auto;
-}
-
-/* Ensure header tooltips are not clipped and appear above rows */
-.dataTables_wrapper .dataTables_scrollHead {
-  overflow: visible !important; /* override DataTables' hidden overflow */
-  position: relative;            /* establish stacking context */
-  z-index: 3;                    /* above scroll body */
-}
-.dataTables_wrapper .dataTables_scrollBody {
-  position: relative;
-  z-index: 1;
-}
-#costsTable, #rewardsTable, #statsTable {
-    text-align: center;
-}
-
-/* Center the headers */
-#costsTable th,#rewardsTable th,#statsTable th {
-    text-align: center;
-    vertical-align: middle;
-    font-size: 20px !important;
-}
-
-/* FixedHeader clones (sticky headers) */
-.dataTables_scrollHeadInner th, 
+/* === Headers === */
+.dataTables_scrollHeadInner th,
 .dataTables_scrollHeadInner td {
-    text-align: center !important;
+  text-align: center !important;
+  font-size: 20px !important;
+}
+.dataTables_scrollHeadInner {
+  width: 100% !important;
+}
+.dataTables_scrollHeadInner table {
+  width: 100% !important;
 }
 
-/* Larger, centered checkboxes */
-#costsTable .row-checkbox {
-    display: block;
-    margin: 0 auto;
-    transform: scale(1.6);
-    transform-origin: center;
-}
-#rewardsTable .row-checkbox {
-    display: block;
-    margin: 0 auto;
-    transform: scale(1.6);
-    transform-origin: center;
+/* === Checkbox Scaling (Costs + Missions) === */
+[id^="costsTable"] .row-checkbox,
+[id^="rewardsTable"] .row-checkbox {
+  display: block;
+  margin: 0 auto;
+  transform: scale(1.6);
+  transform-origin: center;
 }
 
-/* Center totals table headers and cells */
+/* === Totals Tables === */
 #totalsHeader th,
 #totalsBody td {
-    text-align: center;
+  text-align: center;
 }
 
-/* Totals tables striping to match DataTables grey/white */
 #totalsTable thead tr,
 #missionsTotalsTable thead tr {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 #totalsTable tbody tr,
 #missionsTotalsTable tbody tr {
-    background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
+
+/* === Info Tooltip === */
 .info-icon {
-    cursor: help;
-    font-size: 18px;
-    margin-left: 2px;
-    position: relative;
+  cursor: help;
+  font-size: 18px;
+  margin-left: 2px;
+  position: relative;
 }
 .info-icon[data-tip]:hover::after {
-    content: attr(data-tip);
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #333;
-    color: #fff;
-    padding: 4px 8px;
-    border-radius: 4px;
-    white-space: nowrap;
-    z-index: 1000;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    font-size: 12px;
-    margin-top: 4px;
+  content: attr(data-tip);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 17px;
+  margin-top: 4px;
 }
 .info-icon[data-tip]:hover::before {
-    content: '';
-    position: absolute;
-    top: calc(100% - 2px);
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    width: 8px;
-    height: 8px;
-    background: #333;
+  content: '';
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: #333;
+}
+
+/* === Time-scale Input === */
+.no-spinners {
+  appearance: textfield;
+  border: 2px solid #ccc;
+  background-color: #000000;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  width: 20px;
+}
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

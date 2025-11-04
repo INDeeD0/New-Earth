@@ -11,39 +11,73 @@ const Totals = (function(Helpers, Tables){
     function getCheckedMap(){ return checkedMap; }
     function getMissionsCheckedMap(){ return missionsCheckedMap; }
 
-    function updateTotals(currentScale){
-        const costsDef = TablesColsDefForTotals();
+    function updateCostsTotals(currentScale){
         const totals = {};
-        costsDef.forEach((col, idx) => {
-            if (idx === Tables.KEY_COL || idx === Tables.CHECKBOX_COL || idx === Tables.LEVEL_COL || idx === Tables.RAW_COL) return;
+        const allTables = Tables.allCostsTables || {};
+        const allChecked = Totals.getCheckedMap();
+
+        // === Prepare combined totals for all visible columns across all tables ===
+        let sampleCols = null;
+        for (const key in allTables) {
+            const dt = allTables[key];
+            if (dt && dt.settings && dt.settings().length) {
+                sampleCols = dt.settings()[0].aoColumns;
+                break;
+            }
+        }
+        if (!sampleCols) {
+            console.warn("⚠️ No tables found for global totals");
+            return;
+        }
+
+        sampleCols.forEach((col, idx) => {
+            if (idx === Tables.KEY_COL || idx === Tables.CHECKBOX_COL || idx === Tables.LEVEL_COL) return;
             totals[idx] = 0;
         });
 
-        // iterate only visible rows (search applied)
-        const costsTable = $('#costsTable').DataTable();
-        costsTable.rows({search:'applied'}).every(function(){
-            const d = this.data();
-            const uid = `${Helpers.stripHtml(d[Tables.KEY_COL])}|${d[Tables.LEVEL_COL]}`;
-            if (checkedMap[uid]) {
+        // === Loop through every building table ===
+        Object.entries(allTables).forEach(([safeKey, dt]) => {
+            if (!dt) return;
+
+            dt.rows({ search: 'applied' }).every(function(){
+                const d = this.data();
+                const uid = `${Helpers.stripHtml(d[Tables.KEY_COL])}|${d[Tables.LEVEL_COL]}`;
+                if (!allChecked[uid]) return;
+
                 Object.keys(totals).forEach(k => {
                     const idx = parseInt(k);
+
+                    // special handling for time
                     if (idx === Tables.TIME_COL) {
-                        const rawTime = Number(d[Tables.RAW_COL]) || 0;
-                        const scaled = Math.floor(rawTime / (1 + currentScale/100));
+                        const buildingName = d[Tables.KEY_COL];
+                        const lvlIdx = parseInt(d[Tables.LEVEL_COL]);
+                        const keyRaw = (buildingName || '').toLowerCase();
+                        const structure = window.structuresSubtypes?.[keyRaw];
+                        if (!structure || !structure.levels?.[lvlIdx]) return;
+
+                        const rawTime = (d._rawTime && d._rawTime[idx]) 
+                            ? d._rawTime[idx] 
+                            : Number(Helpers.lookup.lookupValue(structure.levels[lvlIdx], "upgrade_cost")) || 0;
+                        const scaled = Math.floor(rawTime / (1 + currentScale / 100));
                         totals[idx] += scaled;
-                    } else {
-                        totals[idx] += Helpers.parseNumber(d[idx]);
+                        return;
                     }
+
+                    totals[idx] += Helpers.parseNumber(d[idx]);
                 });
-            }
+            });
         });
 
+        // === Build totals table in #costsTotals ===
         const headerCells = [];
         const totalCells = [];
+
         Object.keys(totals).forEach(k => {
             const idx = parseInt(k);
             if (totals[idx] !== 0) {
-                headerCells.push(`<th>${Helpers.stripHtml(TablesColTitle(idx))}</th>`);
+                const col = sampleCols[idx];
+                const title = col?.sTitle || '';
+                headerCells.push(`<th>${Helpers.stripHtml(title)}</th>`);
                 if (idx === Tables.TIME_COL) totalCells.push(`<td>${Helpers.formatTime(totals[idx])}</td>`);
                 else totalCells.push(`<td>${Helpers.formatShort(totals[idx])}</td>`);
             }
@@ -51,48 +85,73 @@ const Totals = (function(Helpers, Tables){
 
         $('#totalsHeader').html(headerCells.join(''));
         $('#totalsBody').html(totalCells.join(''));
+        $('#costsTotals').show();
     }
 
-    function updateMissionsTotals(){
-        const totals = {3:0,4:0,5:0,6:0,7:0,8:0,9:0};
-        const rewardsTable = $('#rewardsTable').DataTable();
-        rewardsTable.rows({search:'applied'}).every(function(){
-            const d = this.data();
-            const uid = `${Helpers.stripHtml(d[0])}|${d[2]}`;
-            if (missionsCheckedMap[uid]) {
+
+
+
+    function updateMissionsTotals() {
+        const allTables = Tables.allMissionsTables || {};
+        const totals = {};
+        let sampleCols = null;
+
+        // find the first valid table
+        for (const key in allTables) {
+            const dt = allTables[key];
+            if (dt && dt.settings && dt.settings().length) {
+                sampleCols = dt.settings()[0].aoColumns;
+                break;
+            }
+        }
+
+        if (!sampleCols) {
+            console.warn("⚠️ No missions tables found for totals");
+            return;
+        }
+
+        // init totals for all numeric columns
+        sampleCols.forEach((col, idx) => {
+            if (idx === Tables.KEY_COL || idx === Tables.CHECKBOX_COL || idx === Tables.LEVEL_COL) return;
+            totals[idx] = 0;
+        });
+
+        // loop through every missions table
+        Object.values(allTables).forEach(dt => {
+            if (!dt) return;
+            dt.rows({ search: 'applied' }).every(function() {
+                const d = this.data();
+                const uid = `${Helpers.stripHtml(d[Tables.KEY_COL])}|${d[Tables.LEVEL_COL]}`;
+                if (!missionsCheckedMap[uid]) return;
+
                 Object.keys(totals).forEach(k => {
                     const idx = parseInt(k);
-                    totals[idx] += Helpers.parseNumber(d[idx]);
+                    const val = Helpers.parseNumber(d[idx]);
+                    totals[idx] += val;
                 });
-            }
+            });
         });
+
+        // build totals display
         const headerCells = [];
         const totalCells = [];
+
         Object.keys(totals).forEach(k => {
             const idx = parseInt(k);
             if (totals[idx] !== 0) {
-                const title = $('#rewardsTable').DataTable().settings()[0].aoColumns[idx].sTitle;
-                headerCells.push(`<th>${Helpers.stripHtml(title)}</th>`);
+                const title = Helpers.stripHtml(sampleCols[idx]?.sTitle || '');
+                headerCells.push(`<th>${title}</th>`);
                 totalCells.push(`<td>${Helpers.formatShort(totals[idx])}</td>`);
             }
         });
+
         $('#missionsTotalsHeader').html(headerCells.join(''));
         $('#missionsTotalsBody').html(totalCells.join(''));
+        $('#missionsTotals').show();
     }
 
-    // small helpers to obtain column titles from DataTables columns (safe)
-    function TablesColsDefForTotals(){
-        // we need to read the columns of the costs table
-        const dt = $('#costsTable').DataTable();
-        return dt.settings()[0].aoColumns.map(c => ({ title: c.sTitle }));
-    }
-    function TablesColTitle(idx){
-        const dt = $('#costsTable').DataTable();
-        const col = dt.settings()[0].aoColumns[idx];
-        return col ? col.sTitle : '';
-    }
 
     return {
-        updateTotals, updateMissionsTotals, getCheckedMap, getMissionsCheckedMap
+        updateCostsTotals, updateMissionsTotals, getCheckedMap, getMissionsCheckedMap
     };
 })(Helpers, Tables);

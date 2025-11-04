@@ -42,3 +42,90 @@ const Helpers = (function(){
         formatTime, formatShort, parseNumber, stripHtml
     };
 })();
+Helpers.lookup = (function(){
+    function extractNumber(val) {
+        if (val === null || val === undefined) return null;
+        if (typeof val === 'number') return val;
+        if (typeof val === 'string' && !isNaN(val)) return Number(val);
+        if (typeof val === 'object') {
+            for (const k in val) {
+                const sub = extractNumber(val[k]);
+                if (sub !== null && sub !== undefined) return sub;
+            }
+        }
+        return null;
+    }
+
+    function extractFromEntry(entry, prefer) {
+        let order;
+        if (prefer === 'modifier') order = ['modifier','value','quantity'];
+        else if (prefer === 'value') order = ['value','modifier','quantity'];
+        else if (prefer === 'quantity') order = ['quantity','value','modifier'];
+        else order = ['quantity','value','modifier'];
+
+        if (entry && typeof entry === 'object') {
+            for (const k of order) {
+                if (entry[k] !== undefined && entry[k] !== null) {
+                    const num = extractNumber(entry[k]);
+                    if (num !== null && num !== undefined) return num;
+                }
+            }
+        }
+        return extractNumber(entry);
+    }
+
+    function getFromKnownArraysExact(lvl, key, prefer = 'value') {
+        const containers = ['costs','stats','attributes','bonuses','modifiers','modifier','reward'];
+        for (const name of containers) {
+            const container = lvl[name];
+            if (!container) continue;
+
+            if (Array.isArray(container)) {
+                const found = container.find(a => {
+                    const sub = String(a?.subtype || '').toLowerCase();
+                    const target = String(a?.target_subtype || '').toLowerCase();
+                    return sub === key || target === key;
+                });
+                if (found) return extractFromEntry(found, prefer);
+            } else if (typeof container === 'object') {
+                if (Object.prototype.hasOwnProperty.call(container, key)) {
+                    const v = container[key];
+                    const val = extractFromEntry(v, prefer);
+                    if (val !== null) return val;
+                }
+                for (const v of Object.values(container)) {
+                    if (v && typeof v === 'object') {
+                        const sub = String(v.subtype || '').toLowerCase();
+                        const target = String(v.target_subtype || '').toLowerCase();
+                        if (sub === key || target === key) {
+                            const val = extractFromEntry(v, prefer);
+                            if (val !== null) return val;
+                        }
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    // unified lookup
+    function lookupValue(lvl, dataKey) {
+        const rawKey = (dataKey || '').toLowerCase();
+        const parts = rawKey.split('@');
+        const baseKey = parts[0];
+        const prefer = parts[1] || 'value';
+
+        // direct field
+        if (lvl && Object.prototype.hasOwnProperty.call(lvl, baseKey)) {
+            const raw = lvl[baseKey];
+            if (typeof raw === 'object') return extractFromEntry(raw, prefer);
+            if (typeof raw === 'string' && !isNaN(raw)) return Number(raw);
+            return raw;
+        }
+
+        // nested search
+        return getFromKnownArraysExact(lvl, baseKey, prefer);
+    }
+
+    return { lookupValue };
+})();
