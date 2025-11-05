@@ -2,21 +2,26 @@
 // calculates totals for costs and missions. Depends on Tables and Helpers.
 
 const Totals = (function(Helpers, Tables){
-    // these maps are global-like in original; we keep them accessible
-    // checkedMap and missionsCheckedMap are created here and reused
     const checkedMap = Object.create(null);
     const missionsCheckedMap = Object.create(null);
 
-    // expose for other modules that may need to set/clear/check
     function getCheckedMap(){ return checkedMap; }
     function getMissionsCheckedMap(){ return missionsCheckedMap; }
 
+    // --- Update Costs Totals ---
     function updateCostsTotals(currentScale){
         const totals = {};
         const allTables = Tables.allCostsTables || {};
         const allChecked = Totals.getCheckedMap();
 
-        // === Prepare combined totals for all visible columns across all tables ===
+        // hide container if nothing checked
+        if (!Object.keys(allChecked).some(k => allChecked[k])) {
+            $('#costsTotals').hide().empty();
+            maybeHideAllTotals();
+            return;
+        }
+
+        // find first valid table for column layout
         let sampleCols = null;
         for (const key in allTables) {
             const dt = allTables[key];
@@ -26,19 +31,20 @@ const Totals = (function(Helpers, Tables){
             }
         }
         if (!sampleCols) {
-            console.warn("⚠️ No tables found for global totals");
+            $('#costsTotals').hide().empty();
+            maybeHideAllTotals();
             return;
         }
 
+        // init totals for numeric columns
         sampleCols.forEach((col, idx) => {
-            if (idx === Tables.KEY_COL || idx === Tables.CHECKBOX_COL || idx === Tables.LEVEL_COL) return;
+            if ([Tables.KEY_COL, Tables.CHECKBOX_COL, Tables.LEVEL_COL].includes(idx)) return;
             totals[idx] = 0;
         });
 
-        // === Loop through every building table ===
+        // sum up all checked rows
         Object.entries(allTables).forEach(([safeKey, dt]) => {
             if (!dt) return;
-
             dt.rows({ search: 'applied' }).every(function(){
                 const d = this.data();
                 const uid = `${Helpers.stripHtml(d[Tables.KEY_COL])}|${d[Tables.LEVEL_COL]}`;
@@ -46,8 +52,6 @@ const Totals = (function(Helpers, Tables){
 
                 Object.keys(totals).forEach(k => {
                     const idx = parseInt(k);
-
-                    // special handling for time
                     if (idx === Tables.TIME_COL) {
                         const buildingName = d[Tables.KEY_COL];
                         const lvlIdx = parseInt(d[Tables.LEVEL_COL]);
@@ -55,20 +59,19 @@ const Totals = (function(Helpers, Tables){
                         const structure = window.structuresSubtypes?.[keyRaw];
                         if (!structure || !structure.levels?.[lvlIdx]) return;
 
-                        const rawTime = (d._rawTime && d._rawTime[idx]) 
-                            ? d._rawTime[idx] 
+                        const rawTime = (d._rawTime && d._rawTime[idx])
+                            ? d._rawTime[idx]
                             : Number(Helpers.lookup.lookupValue(structure.levels[lvlIdx], "upgrade_cost")) || 0;
                         const scaled = Math.floor(rawTime / (1 + currentScale / 100));
                         totals[idx] += scaled;
-                        return;
+                    } else {
+                        totals[idx] += Helpers.parseNumber(d[idx]);
                     }
-
-                    totals[idx] += Helpers.parseNumber(d[idx]);
                 });
             });
         });
 
-        // === Build totals table in #costsTotals ===
+        // build totals HTML
         const headerCells = [];
         const totalCells = [];
 
@@ -78,25 +81,56 @@ const Totals = (function(Helpers, Tables){
                 const col = sampleCols[idx];
                 const title = col?.sTitle || '';
                 headerCells.push(`<th>${Helpers.stripHtml(title)}</th>`);
-                if (idx === Tables.TIME_COL) totalCells.push(`<td>${Helpers.formatTime(totals[idx])}</td>`);
-                else totalCells.push(`<td>${Helpers.formatShort(totals[idx])}</td>`);
+                totalCells.push(`<td>${
+                    idx === Tables.TIME_COL
+                        ? Helpers.formatTime(totals[idx])
+                        : Helpers.formatShort(totals[idx])
+                }</td>`);
             }
         });
 
-        $('#totalsHeader').html(headerCells.join(''));
-        $('#totalsBody').html(totalCells.join(''));
-        $('#costsTotals').show();
+        // nothing checked → hide
+        if (headerCells.length === 0) {
+            $('#costsTotals').hide().empty();
+            maybeHideAllTotals();
+            return;
+        }
+
+        const html = `
+            <div class="totals-block">
+                <table class="totals-table">
+                    <thead>
+                        <tr><th colspan="${headerCells.length}" class="totals-section-title">Costs Total</th></tr>
+                        <tr>${headerCells.join('')}</tr>
+                    </thead>
+                    <tbody><tr>${totalCells.join('')}</tr></tbody>
+                </table>
+            </div>
+        `;
+
+        $('#costsTotals').html(html).css({
+            display: 'flex',
+            justifyContent: 'center',
+            textAlign: 'center',
+            margin: '10px auto'
+        }).show();
+
+        maybeShowTotalsWrapper();
     }
 
-
-
-
-    function updateMissionsTotals() {
+    // --- Update Missions Totals ---
+    function updateMissionsTotals(){
         const allTables = Tables.allMissionsTables || {};
         const totals = {};
-        let sampleCols = null;
 
-        // find the first valid table
+        // hide container if nothing checked
+        if (!Object.keys(missionsCheckedMap).some(k => missionsCheckedMap[k])) {
+            $('#missionsTotals').hide().empty();
+            maybeHideAllTotals();
+            return;
+        }
+
+        let sampleCols = null;
         for (const key in allTables) {
             const dt = allTables[key];
             if (dt && dt.settings && dt.settings().length) {
@@ -104,38 +138,31 @@ const Totals = (function(Helpers, Tables){
                 break;
             }
         }
-
         if (!sampleCols) {
-            console.warn("⚠️ No missions tables found for totals");
+            $('#missionsTotals').hide().empty();
+            maybeHideAllTotals();
             return;
         }
 
-        // init totals for all numeric columns
         sampleCols.forEach((col, idx) => {
-            if (idx === Tables.KEY_COL || idx === Tables.CHECKBOX_COL || idx === Tables.LEVEL_COL) return;
+            if ([Tables.KEY_COL, Tables.CHECKBOX_COL, Tables.LEVEL_COL].includes(idx)) return;
             totals[idx] = 0;
         });
 
-        // loop through every missions table
         Object.values(allTables).forEach(dt => {
             if (!dt) return;
-            dt.rows({ search: 'applied' }).every(function() {
+            dt.rows({ search: 'applied' }).every(function(){
                 const d = this.data();
                 const uid = `${Helpers.stripHtml(d[Tables.KEY_COL])}|${d[Tables.LEVEL_COL]}`;
                 if (!missionsCheckedMap[uid]) return;
-
                 Object.keys(totals).forEach(k => {
-                    const idx = parseInt(k);
-                    const val = Helpers.parseNumber(d[idx]);
-                    totals[idx] += val;
+                    totals[k] += Helpers.parseNumber(d[k]);
                 });
             });
         });
 
-        // build totals display
         const headerCells = [];
         const totalCells = [];
-
         Object.keys(totals).forEach(k => {
             const idx = parseInt(k);
             if (totals[idx] !== 0) {
@@ -145,13 +172,49 @@ const Totals = (function(Helpers, Tables){
             }
         });
 
-        $('#missionsTotalsHeader').html(headerCells.join(''));
-        $('#missionsTotalsBody').html(totalCells.join(''));
-        $('#missionsTotals').show();
+        if (headerCells.length === 0) {
+            $('#missionsTotals').hide().empty();
+            maybeHideAllTotals();
+            return;
+        }
+
+        const html = `
+            <div class="totals-block">
+                <table class="totals-table">
+                    <thead>
+                        <tr><th colspan="${headerCells.length}" class="totals-section-title">Missions Total</th></tr>
+                        <tr>${headerCells.join('')}</tr>
+                    </thead>
+                    <tbody><tr>${totalCells.join('')}</tr></tbody>
+                </table>
+            </div>
+        `;
+
+        $('#missionsTotals').html(html).css({
+            display: 'flex',
+            justifyContent: 'center',
+            textAlign: 'center',
+            margin: '10px auto'
+        }).show();
+
+        maybeShowTotalsWrapper();
     }
 
+    // --- Helpers for visibility management ---
+    function maybeShowTotalsWrapper(){
+        const show = $('#costsTotals').is(':visible') || $('#missionsTotals').is(':visible');
+        if (show) $('#totalsWrapper').css({ display: 'flex', flexDirection: 'column', alignItems: 'center' });
+    }
+    function maybeHideAllTotals(){
+        if (!$('#costsTotals').is(':visible') && !$('#missionsTotals').is(':visible')) {
+            $('#totalsWrapper').hide();
+        }
+    }
 
     return {
-        updateCostsTotals, updateMissionsTotals, getCheckedMap, getMissionsCheckedMap
+        updateCostsTotals,
+        updateMissionsTotals,
+        getCheckedMap,
+        getMissionsCheckedMap
     };
 })(Helpers, Tables);
