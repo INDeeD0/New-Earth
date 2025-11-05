@@ -260,4 +260,28 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 #autoTickPopup:hover {
   background: rgba(0, 0, 0, 0.95);
 }
-
+#totalsWrapper {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.totals-block {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.totals-table {
+  border-collapse: collapse;
+}
+.totals-table th, .totals-table td {
+  padding: 4px 8px;
+  border: 1px solid #444;
+}
+.totals-section-title {
+  background: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  padding: 6px;
+}
