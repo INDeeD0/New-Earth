@@ -246,7 +246,7 @@ const Tables = (function(Helpers){
             // otherwise create fresh wrapper/table
             const $wrapper = $(`
             <div class="costsWrapper table-wrapper" id="${wrapperId}" style="display:none">
-                <table id="${tableId}" class="display compact stripe" style="width:100%"></table>
+                <table id="${tableId}" class="display_compact_stripe" style="width:100%"></table>
                 </div>
             `);
             $masterContainer.append($wrapper);
@@ -285,7 +285,7 @@ const Tables = (function(Helpers){
 
             const $wrapper = $(`
                 <div class="rewardsWrapper table-wrapper" id="${wrapperId}" style="display:none">
-                    <table id="${tableId}" class="display compact stripe" style="width:100%"></table>
+                    <table id="${tableId}" class="display_compact_stripe" style="width:100%"></table>
                 </div>
             `);
             $masterContainer.append($wrapper);
@@ -324,7 +324,7 @@ const Tables = (function(Helpers){
 
             const $wrapper = $(`
                 <div class="statsWrapper table-wrapper" id="${wrapperId}" style="display:none">
-                    <table id="${tableId}" class="display compact stripe" style="width:100%"></table>
+                    <table id="${tableId}" class="display_compact_stripe" style="width:100%"></table>
                 </div>
             `);
             $masterContainer.append($wrapper);
@@ -644,7 +644,7 @@ const Tables = (function(Helpers){
             if (rowH <= 0) return;
 
             // compute total height rounded to full pixels
-            const height = Math.ceil(rowH * rows + 14);
+            const height = Math.ceil(rowH * rows + 0);
 
             const $scrollBody = $(dt.table().container()).find("div.dataTables_scrollBody");
             if ($scrollBody.length) {
