@@ -143,6 +143,9 @@ table th, table td {
   text-align: center;
   vertical-align: middle;
 }
+.display_compact_stripe {
+  font-size: 20px;
+}
 
 table.dataTable tbody tr.odd  { background-color: #e6e6e6; }
 table.dataTable tbody tr.even { background-color: #ffffff; }
