@@ -1,181 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Research</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
 
-  <!-- Local DataTables CSS -->
-  <link rel="stylesheet" href="libs/jquery.dataTables.min.css">
-
-  <style>
-    .filter-btn.active {
-      background: #4287f5;
-    }
-    #topNav button {
-      margin: 2px;
-      padding: 6px 12px;
-      border: 1px solid #555;
-      border-radius: 4px;
-      background: #333;
-      color: #fff;
-      cursor: pointer;
-    }
-    #topNav button:hover {
-      background: #555;
-    }
-    .nav-btn {
-      margin: 2px;
-      padding: 6px 12px;
-      border: 1px solid #555;
-      border-radius: 4px;
-      background: #333;
-      color: #fff;
-      cursor: pointer;
-    }
-    .nav-btn:hover {
-      background: #555;
-    }
-    .nav-btn.active {
-      background: #4287f5;
-      border-color: #4287f5;
-    }
-
-    .filter-btn {
-      margin: 2px;
-      padding: 4px 8px;
-      cursor: pointer;
-      border: 1px solid #555;
-      border-radius: 4px;
-      background: #eee;}
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f4f4f4;
-    }
-    h1 {
-      margin-bottom: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: white;
-    }
-  </style>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="research/styles.css">
 </head>
 <body>
-<div id="topNav" style="margin-bottom: 15px;">
+
+<!-- Navigation -->
+<div id="topNav">
   <button class="nav-btn" data-page="Research.html">Research</button>
   <button class="nav-btn" data-page="index.html">Structures</button>
   <button class="nav-btn" data-page="units.html">Units</button>
 </div>
-<div id="filterButtons" style="margin-bottom: 10px;"></div>
+<div id="save">
+  <button id="saveLevelsBtn" class="nav-btn">Save</button>
+  <button id="resetLevelsBtn" class="nav-btn">&#x1F501;</button>
+  <input type="file" id="loadLevelsFile" style="display:none" accept=".txt">
+  <button id="loadLevelsBtn" class="nav-btn">Load</button>
+</div>
+<!-- Tree -->
+<div class="container" id="mapContainer">
+  <div class="section root" style="grid-column:1; grid-row:2;" data-key="Scouting"><input type="number" class="no-spinners">&nbsp;Scouting</div>
+  
+  <div class="section" style="grid-column:2; grid-row:1;" data-key="Automated Factories"><input type="number" class="no-spinners">&nbsp;Automated Factories</div>
+  <div class="section" style="grid-column:2; grid-row:2;" data-key="Troop Training"><input type="number" class="no-spinners">&nbsp;Troop Training</div>
 
- <table id="structureTable" class="display">
-  <thead>
-    <tr>
-      <th>Key</th>
-      <th>Level</th>
-      <th>Unit Capacity</th>
-      <th>Power</th><!--c3-->
-      <th>Tech</th><!--c4-->
-      <th>Food</th><!--c5-->
-      <th>Oil</th><!--c6-->
-      <th>Alloy</th><!--c7-->
-      <th>Neutronium</th>  <!--c8-->
-      <th>Alliance Credits</th>
-      <th>Core Neutronium Crystal</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="Heavy Infantry Attack"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Attack</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="Light Infantry Attack"><input type="number" class="no-spinners">&nbsp;Light Infantry Attack</div>
 
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="Heavy Infantry Defense"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Defense</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="Light Infantry Defense"><input type="number" class="no-spinners">&nbsp;Light Infantry Defense</div>
 
-  <!-- jQuery (must come first) -->
-  <script src="libs/jquery-3.7.0.min.js"></script>
-  <!-- DataTables JS -->
-  <script src="libs/jquery.dataTables.min.js"></script>
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="Pyro Squad"><input type="number" class="no-spinners">&nbsp;Pyro Squad</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="Infiltrator Squad"><input type="number" class="no-spinners">&nbsp;Infiltrator Squad</div>
 
-<script>
-    $(document).ready(function () {
-      const table = $('#structureTable').DataTable({
-        lengthMenu: [ [10, 25, 35, 50, 100], [10, 25, 35, 50, 100] ],
-        pageLength: 35
-      });
+  <div class="section" style="grid-column:6; grid-row:1;" data-key="Ground Vehicle Attack"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Attack</div>
+  <div class="section" style="grid-column:6; grid-row:2;" data-key="Air Vehicle Attack"><input type="number" class="no-spinners">&nbsp;Air Vehicle Attack</div>
 
-      fetch('molds/categories/research.json')
-        .then(r => r.json())
-        .then(data => {
-          const subtypes = data._subtypes;
+  <div class="section" style="grid-column:7; grid-row:1;" data-key="Ground Vehicle Defense"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Defense</div>
+  <div class="section" style="grid-column:7; grid-row:2;" data-key="Air Vehicle Defense"><input type="number" class="no-spinners">&nbsp;Air Vehicle Defense</div>
+  
+  <div class="section" style="grid-column:8; grid-row:1;" data-key="AFVs"><input type="number" class="no-spinners">&nbsp;AFVs</div>
+  <div class="section" style="grid-column:8; grid-row:2;" data-key="Attack Helicopters"><input type="number" class="no-spinners">&nbsp;Attack Helicopters</div>
 
-          // Create filter buttons by key
-          const buttonContainer = $('#filterButtons');
-          const buildingKeys = Object.keys(subtypes);
-          
-          // Optional "All" button
-          const allBtn = $('<button class="filter-btn">All</button>');
-          allBtn.on('click', function () {
-            $('.filter-btn').removeClass('active');
-            table.column(0).search('').draw();
-          });
-          buttonContainer.append(allBtn);
+  <div class="section" style="grid-column:9; grid-row:2;" data-key="Heavy Armor"><input type="number" class="no-spinners">&nbsp;Heavy Armor</div>
+  <div class="section" style="grid-column:9; grid-row:3;" data-key="First Aid"><input type="number" class="no-spinners">&nbsp;First Aid</div>
+  
+  <div class="section" style="grid-column:10; grid-row:2;" data-key="Commando Squad"><input type="number" class="no-spinners">&nbsp;Commando Squad</div>
+  <div class="section" style="grid-column:10; grid-row:3;" data-key="Assault Squad"><input type="number" class="no-spinners">&nbsp;Assault Squad</div>
 
-          buildingKeys.forEach(key => {
-            const btn = $(`<button class="filter-btn">${key}</button>`);
-            btn.on('click', function () {
-              $('.filter-btn').removeClass('active'); // radio-style
-              $(this).addClass('active');
-              table.column(0).search(key, true, false).draw();
-            });
-            buttonContainer.append(btn);
-          });
+  <div class="section" style="grid-column:11; grid-row:1;" data-key="Field Repairs"><input type="number" class="no-spinners">&nbsp;Field Repairs</div>
+  <div class="section" style="grid-column:11; grid-row:2;" data-key="Redundant Systems"><input type="number" class="no-spinners">&nbsp;Redundant Systems</div>
 
-          // Populate table
-          Object.entries(subtypes).forEach(([key, building]) => {
-            let prevPower = 0; // for incremental power
-            building.levels.forEach((lvl, i) => {
-              if (Object.keys(lvl).length === 0) return;
+  <div class="section" style="grid-column:12; grid-row:1;" data-key="Heavy Tanks"><input type="number" class="no-spinners">&nbsp;Heavy Tanks</div>
+  <div class="section" style="grid-column:12; grid-row:2;" data-key="Jet Fighters"><input type="number" class="no-spinners">&nbsp;Jet Fighters</div>  
+  <div class="section" style="grid-column:12; grid-row:3;" data-key="Deployment Tactics"><input type="number" class="no-spinners">&nbsp;Deployment Tactics</div>
 
-              const levelPower = (lvl.power ?? 0) - prevPower;
-              prevPower = lvl.power ?? 0;
+  <div class="section" style="grid-column:13; grid-row:1;" data-key="Reactive Armor"><input type="number" class="no-spinners">&nbsp;Reactive Armor</div>
+  <div class="section" style="grid-column:13; grid-row:2;" data-key="Jet Troopers"><input type="number" class="no-spinners">&nbsp;Jet Troopers</div>  
+  <div class="section" style="grid-column:13; grid-row:3;" data-key="Shock Troopers"><input type="number" class="no-spinners">&nbsp;Shock Troopers</div>
+  
+  <div class="section" style="grid-column:14; grid-row:1;" data-key="Titan Tanks"><input type="number" class="no-spinners">&nbsp;Titan Tanks</div>
+  <div class="section" style="grid-column:14; grid-row:2;" data-key="Advanced Interceptors"><input type="number" class="no-spinners">&nbsp;Advanced Interceptors</div>
+  
+  <div class="section" style="grid-column:15; grid-row:2;" data-key="Hero Troop Attack"><input type="number" class="no-spinners">&nbsp;Hero Troop Attack</div>
 
-              // Replace c3-c8 and cnc with your logic to extract currencies / extra
-              const c3 = lvl.costs?.find(c => c.target_subtype === 'currency3')?.quantity ?? 0;
-              const c4 = lvl.costs?.find(c => c.target_subtype === 'currency4')?.quantity ?? 0;
-              const c5 = lvl.costs?.find(c => c.target_subtype === 'currency5')?.quantity ?? 0;
-              const c6 = lvl.costs?.find(c => c.target_subtype === 'currency6')?.quantity ?? 0;
-              const c7 = lvl.destruction_reward?.currencies?.find(c => c.subtype === 'currency7')?.quantity ?? 0;
-              const c8 = lvl.demolition_reward?.currencies?.find(c => c.subtype === 'currency8')?.quantity ?? 0;
-              const cnc = "-"; // replace if you have extra data
+  <div class="section" style="grid-column:16; grid-row:2;" data-key="Hero Troop Defense"><input type="number" class="no-spinners">&nbsp;Hero Troop Defense</div>  
+  <div class="section" style="grid-column:16; grid-row:3;" data-key="Improved Stamina"><input type="number" class="no-spinners">&nbsp;Improved Stamina</div>
 
-              table.row.add([
-                key,
-                i,
-                lvl.unit_capacity != null ? lvl.unit_capacity.toLocaleString() : "-",
-                levelPower.toLocaleString(),
-                c3.toLocaleString(),
-                c4.toLocaleString(),
-                c5.toLocaleString(),
-                c6.toLocaleString(),
-                c7.toLocaleString(),
-                c8.toLocaleString(),
-                cnc
-              ]);
-            });
-          });
+  <div class="section" style="grid-column:17; grid-row:1;" data-key="Improved Engines"><input type="number" class="no-spinners">&nbsp;Improved Engines</div>
+  <div class="section" style="grid-column:17; grid-row:2;" data-key="Strike Squad"><input type="number" class="no-spinners">&nbsp;Strike Squad</div>  
+  <div class="section" style="grid-column:17; grid-row:3;" data-key="Hellfire Squad"><input type="number" class="no-spinners">&nbsp;Hellfire Squad</div>
+  
+  <div class="section" style="grid-column:18; grid-row:1;" data-key="Arachnaut"><input type="number" class="no-spinners">&nbsp;Arachnaut</div>
+  <div class="section" style="grid-column:18; grid-row:2;" data-key="Solarwind Fighter"><input type="number" class="no-spinners">&nbsp;Solarwind Fighter</div>
+  
+  <div class="section" style="grid-column:19; grid-row:1;" data-key="Adaptive Circuitry"><input type="number" class="no-spinners">&nbsp;Adaptive Circuitry</div> 
+  <div class="section" style="grid-column:19; grid-row:3;" data-key="Resilient Infantry"><input type="number" class="no-spinners">&nbsp;Resilient Infantry</div>
+  
+  <div class="section" style="grid-column:20; grid-row:1;" data-key="Advanced Engines"><input type="number" class="no-spinners">&nbsp;Advanced Engines</div> 
+  <div class="section" style="grid-column:20; grid-row:3;" data-key="Advanced Stamina"><input type="number" class="no-spinners">&nbsp;Advanced Stamina</div>
+  
+  <div class="section" style="grid-column:21; grid-row:1;" data-key="Ground Vehicle Attack II"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Attack II</div>
+  <div class="section" style="grid-column:21; grid-row:2;" data-key="Air Vehicle Attack II"><input type="number" class="no-spinners">&nbsp;Air Vehicle Attack II</div>
+  
+  <div class="section" style="grid-column:22; grid-row:1;" data-key="Ground Vehicle Defense II"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Defense II</div>
+  <div class="section" style="grid-column:22; grid-row:2;" data-key="Air Vehicle Defense II"><input type="number" class="no-spinners">&nbsp;Air Vehicle Defense II</div>
+  
+  <div class="section" style="grid-column:23; grid-row:1;" data-key="Tarantulon"><input type="number" class="no-spinners">&nbsp;Tarantulon</div>
+  <div class="section" style="grid-column:23; grid-row:2;" data-key="Stealth Fighter"><input type="number" class="no-spinners">&nbsp;Stealth Fighter</div>
+  
+  <div class="section" style="grid-column:24; grid-row:2;" data-key="Light Infantry Attack II"><input type="number" class="no-spinners">&nbsp;Light Infantry Attack II</div>  
+  <div class="section" style="grid-column:24; grid-row:3;" data-key="Heavy Infantry Attack II"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Attack II</div>
+  
+  <div class="section" style="grid-column:25; grid-row:2;" data-key="Light Infantry Defense II"><input type="number" class="no-spinners">&nbsp;Light Infantry Defense II</div>  
+  <div class="section" style="grid-column:25; grid-row:3;" data-key="Heavy Infantry Defense II"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Defense II</div>
+  
+  <div class="section" style="grid-column:26; grid-row:2;" data-key="Breacher Squad"><input type="number" class="no-spinners">&nbsp;Breacher Squad</div>  
+  <div class="section" style="grid-column:26; grid-row:3;" data-key="Rocket Trooper"><input type="number" class="no-spinners">&nbsp;Rocket Trooper</div>   
+  <svg id="lines"></svg>
+</div>
 
-          table.draw();
-        })
-        .catch(err => console.error('Error loading structures.json:', err));
-        // Highlight active nav button
-        $('#topNav .nav-btn').each(function() {
-        if ($(this).data('page') === window.location.pathname.split('/').pop()) {
-          $(this).addClass('active');
-        }
-        $(this).on('click', function() {
-          window.location.href = $(this).data('page');
-        });
-      });
-    });
-  </script>
+<!-- Table Toggle -->
+<div id="tableToggle">
+<label for="autoLinkToggle" class="info-label">
+  <input type="checkbox" id="autoLinkToggle" unchecked>
+  Auto-total
+  <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
+</label>
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <button class="toggle-table-btn" data-table="missions">Main Missions</button>
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+  </div>
+<!-- Tables -->
+<div id="costsMasterContainer"></div>
+<div id="missionsMasterContainer"></div>
+<div id="statsMasterContainer"></div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table></div>
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table></div>
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script src="research/helpers.js"></script>
+<script src="research/data-loader.js"></script>
+<script src="research/tables-init.js"></script>
+<script src="research/totals.js"></script>  
+<script src="research/tree-and-ui.js"></script>
+<script src="research/main.js"></script>
 </body>
 </html>
