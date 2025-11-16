@@ -148,17 +148,38 @@ const Tables = (function(Helpers){
         offensiveredundantsystems: [1,2,3,4,5,6,7,8,9,18],
         offensiveunlocklightinfantrytier3: [1,2,3,4,5,6,7,8,9,18],
         offensiveunlockheavyinfantrytier3: [1,2,3,4,5,6,7,8,9,18],
-        offensiveunlockgroundvehicletier3: [1,2,3,4,5,6,7,8,9,11,13,18],
-        offensiveunlockairvehicletier3: [1,2,3,4,5,6,7,8,9,11,18],
-        offensivedeploymenttactics: [1,2,3,4,5,6,7,8,9,11,18],
-        offensivereactivearmor: [1,2,3,4,5,6,7,8,9,11,18],
-        satelliteuplink: [1,2,3,4,5,6,7,8,9,11,18],
-        securitystation: [1,2,3,4,5,6,7,8,9,11,18],
-        robotics_bay: [1,2,3,4,5,6,7,8,9,11,18],
-        hero_armory: [1,2,3,4,5,6,7,8,9,11,17,18],
-        alien_genetics_lab: [1,2,3,4,5,6,7,8,9,11,18],
-        outpost_strategic:[1,2,3,4,5,6,7,8,9,10],
-        outpost_harvest:[1,2,3,4,5,6,7,8,9,10]
+        offensiveunlockgroundvehicletier3: [1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockairvehicletier3: [1,2,3,4,5,6,7,8,9,18],
+        offensivedeploymenttactics: [1,2,3,4,5,6,7,8,9,18],
+        offensivereactivearmor: [1,2,3,4,5,6,7,8,9,18],
+        offensiveunlocklightinfantrytier4: [1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockheavyinfantrytier4: [1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockgroundvehicletier4: [1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockairvehicletier4: [1,2,3,4,5,6,7,8,9,18],
+        offensiveherotroopattack: [1,2,3,4,5,6,7,8,9,18],
+        offensiveherotroopdefense:[1,2,3,4,5,6,7,8,9,18],
+        offensiveimprovedstamina:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlocklightinfantrytier5:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockheavyinfantrytier5:[1,2,3,4,5,6,7,8,9,18],
+        offensiveimprovedengines:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockgroundvehicletier5:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockairvehicletier5:[1,2,3,4,5,6,7,8,9,18],
+        offensiveresilientinfantry:[1,2,3,4,5,6,7,8,9,18],
+        offensiveadaptivecircuitry:[1,2,3,4,5,6,7,8,9,18],
+        offensiveadvancedstamina:[1,2,3,4,5,6,7,8,9,18],
+        offensiveadvancedengines:[1,2,3,4,5,6,7,8,9,18],
+        offensivegroundvehicleattack2:[1,2,3,4,5,6,7,8,9,18],
+        offensivegroundvehicledefense2:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlocklightinfantrytier6:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockheavyinfantrytier6:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockgroundvehicletier6:[1,2,3,4,5,6,7,8,9,18],
+        offensiveunlockairvehicletier6:[1,2,3,4,5,6,7,8,9,18],
+        offensivelightinfantryattack2:[1,2,3,4,5,6,7,8,9,18],
+        offensivelightinfantrydefense2:[1,2,3,4,5,6,7,8,9,18],
+        offensiveheavyinfantryattack2:[1,2,3,4,5,6,7,8,9,18],
+        offensiveheavyinfantrydefense2:[1,2,3,4,5,6,7,8,9,18],
+        offensiveairvehicleattack2:[1,2,3,4,5,6,7,8,9,18],
+        offensiveairvehicledefense2:[1,2,3,4,5,6,7,8,9,18],
     };
     const missionsColumnMap = {
         headquarters: [1,2,3,4,5,6,7,8,9,10],
@@ -417,6 +438,7 @@ const Tables = (function(Helpers){
                     else if (dataKey === 'requirements' && Array.isArray(lvl.requirements)) {
                         const reqs = lvl.requirements
                             .map(r => {
+                                // --- Structure Requirements ---
                                 if (r.subtype === 'structure' && r.target_subtype && r.level !== undefined) {
                                     const raw = String(r.target_subtype || '');
                                     const normRaw = raw.replace(/[_\s]/g, '').toLowerCase();
@@ -424,8 +446,22 @@ const Tables = (function(Helpers){
                                         raw.replace(/([a-z])([A-Z])/g, '$1 $2')
                                         .replace(/[_-]+/g, ' ')
                                         .replace(/\b\w/g, c => c.toUpperCase());
+
                                     return `${pretty} Lvl ${r.level}`;
                                 }
+
+                                // --- Research Requirements ---
+                                if (r.subtype === 'research' && r.target_subtype && r.level !== undefined) {
+                                    const raw = String(r.target_subtype || '');
+                                    const normRaw = raw.replace(/[_\s]/g, '').toLowerCase();
+                                    const pretty = prettyMap[normRaw] ||
+                                        raw.replace(/([a-z])([A-Z])/g, '$1 $2')
+                                        .replace(/[_-]+/g, ' ')
+                                        .replace(/\b\w/g, c => c.toUpperCase());
+
+                                    return `${pretty} Lvl ${r.level}`;
+                                }
+
                                 return '';
                             })
                             .filter(Boolean);
