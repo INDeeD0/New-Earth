@@ -259,7 +259,8 @@ const Tables = (function(Helpers){
                 fixedHeader: false,
                 ordering: false,
                 autoWidth: false,
-                columns: costsCols
+                columns: costsCols,
+                scrollY: '0px',
             });
 
             tables[safeKey] = dt;
@@ -297,7 +298,8 @@ const Tables = (function(Helpers){
                 fixedHeader: false,
                 ordering: false,
                 autoWidth: false,
-                columns: missionsCols
+                columns: missionsCols,
+                scrollY: '0px',
             });
 
             tables[safeKey] = dt;
@@ -335,7 +337,8 @@ const Tables = (function(Helpers){
                 fixedHeader: false,
                 ordering: false,
                 autoWidth: false,
-                columns: statsCols
+                columns: statsCols,
+                scrollY: '0px',
             });
 
             tables[safeKey] = dt;
@@ -630,9 +633,14 @@ const Tables = (function(Helpers){
             console.debug('setScrollRows: DataTable not ready'); 
             return;
         }
-        const $firstCell = $(dt.table().body()).find('tr:visible:first td:visible:first');
-        let rowH = $firstCell.length ? $firstCell.outerHeight() : 30;
-        const height = Math.ceil(rowH * rows);
+        // measure and cache row height per DataTable instance
+        if (dt._rowHeight == null || dt._rowHeight < 10) {
+            const $firstCell = $(dt.table().body()).find('tr:visible:first td:visible:first');
+            const measured = $firstCell.length ? $firstCell.outerHeight() : 0;
+            if (measured && measured >= 10) dt._rowHeight = measured;
+        }
+        const baseRow = (dt._rowHeight && dt._rowHeight >= 10) ? dt._rowHeight : 32; // safe fallback
+        const height = Math.ceil(baseRow * rows);
         const $scrollBody = $(dt.table().container()).find('div.dataTables_scrollBody');
         if ($scrollBody.length) $scrollBody.css({ height: height + 'px', 'max-height': height + 'px' });
         const settings = dt.settings()[0];
