@@ -338,7 +338,8 @@ const Tables = (function(Helpers){
                 fixedHeader: false,
                 ordering: false,
                 autoWidth: false,
-                columns: costsCols
+                columns: costsCols,
+                scrollY: '0px',
             });
 
             tables[safeKey] = dt;
@@ -376,7 +377,8 @@ const Tables = (function(Helpers){
                 fixedHeader: false,
                 ordering: false,
                 autoWidth: false,
-                columns: missionsCols
+                columns: missionsCols,
+                scrollY: '0px',
             });
 
             tables[safeKey] = dt;
@@ -414,7 +416,8 @@ const Tables = (function(Helpers){
                 fixedHeader: false,
                 ordering: false,
                 autoWidth: false,
-                columns: statsCols
+                columns: statsCols,
+                scrollY: '0px',
             });
 
             tables[safeKey] = dt;
@@ -724,30 +727,25 @@ const Tables = (function(Helpers){
             console.debug('setScrollRows: DataTable not ready'); 
             return;
         }
-        const $firstCell = $(dt.table().body()).find('tr:visible:first td:visible:first');
-        let rowH = $firstCell.length ? $firstCell.outerHeight() : 30;
-        const height = Math.ceil(rowH * rows);
+        // measure and cache row height per DataTable instance
+        if (dt._rowHeight == null || dt._rowHeight < 10) {
+            const $firstCell = $(dt.table().body()).find('tr:visible:first td:visible:first');
+            const measured = $firstCell.length ? $firstCell.outerHeight() : 0;
+            if (measured && measured >= 10) dt._rowHeight = measured;
+        }
+        const baseRow = (dt._rowHeight && dt._rowHeight >= 10) ? dt._rowHeight : 32; // safe fallback
+        const height = Math.ceil(baseRow * rows);
         const $scrollBody = $(dt.table().container()).find('div.dataTables_scrollBody');
         if ($scrollBody.length) $scrollBody.css({ height: height + 'px', 'max-height': height + 'px' });
         const settings = dt.settings()[0];
         if (settings && settings.oScroll) settings.oScroll.sY = height + 'px';
         try { dt.columns.adjust(); } catch(e){/* ignore */ }
     }
-    function applyScale(scale) {
-        if (!Tables.allCostsTables) return;
-
-        // Find the active (visible) building
-        const activeSection = $('.section.active').text().trim();
-        if (!activeSection) return;
-
-        const safeKey = activeSection.toLowerCase().replace(/[\s_]/g, '');
-        const dt = Tables.allCostsTables?.[safeKey];
+    function applyScaleForTable(dt, scale) {
         if (!dt) return;
-
         dt.rows().every(function() {
             const d = this.data();
             if (!d || !d._rawTime) return;
-
             const rawVal = d._rawTime[Tables.TIME_COL];
             if (rawVal !== undefined) {
                 const scaled = rawVal > 0
@@ -757,11 +755,33 @@ const Tables = (function(Helpers){
                 this.data(d, false);
             }
         });
-
         dt.draw(false);
         if (typeof Totals.updateCostsTotals === "function") {
             Totals.updateCostsTotals(scale);
         }
+    }
+    function applyScale(scale) {
+        if (!Tables.allCostsTables) return;
+
+        // Find the active (visible) building and map to data key
+        const activeSection = $('.section.active').text().trim();
+        if (!activeSection) return;
+
+        const keyMap = window.loadedKeyMap || window.keyMap || {};
+        let mapped = keyMap[activeSection] || activeSection;
+        let safeKey = mapped.toLowerCase().replace(/[\s_]/g, '');
+        // Fuzzy match if direct match not present
+        if (!Tables.allCostsTables[safeKey]) {
+            const keys = Object.keys(Tables.allCostsTables);
+            const exact = keys.find(k => k === safeKey);
+            const contains = exact || keys.find(k => k.includes(safeKey));
+            const containedBy = contains || keys.find(k => safeKey.includes(k));
+            if (containedBy) safeKey = containedBy;
+        }
+        const dt = Tables.allCostsTables?.[safeKey];
+        if (!dt) return;
+
+        applyScaleForTable(dt, scale);
     }
 
     // Expose selected API
@@ -775,6 +795,7 @@ const Tables = (function(Helpers){
         populateAllStatsTables,    
         setScrollRows,
         applyScale,
+        applyScaleForTable,
         applyColumnVisibility,        
         KEY_COL, CHECKBOX_COL, LEVEL_COL, TIME_COL,
     };
