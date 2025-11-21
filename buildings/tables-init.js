@@ -252,7 +252,6 @@ const Tables = (function(Helpers){
             $masterContainer.append($wrapper);
 
             const dt = $(`#${tableId}`).DataTable({
-                scrollY: "800px",
                 scrollCollapse: true,
                 paging: false,
                 dom: 'ti',
@@ -291,7 +290,6 @@ const Tables = (function(Helpers){
             $masterContainer.append($wrapper);
 
             const dt = $(`#${tableId}`).DataTable({
-                scrollY: "800px",
                 scrollCollapse: true,
                 paging: false,
                 dom: 'ti',
@@ -330,7 +328,6 @@ const Tables = (function(Helpers){
             $masterContainer.append($wrapper);
 
             const dt = $(`#${tableId}`).DataTable({
-                scrollY: "800px",
                 scrollCollapse: true,
                 paging: false,
                 dom: 'ti',
@@ -347,7 +344,7 @@ const Tables = (function(Helpers){
         console.log(`✅ Created ${Object.keys(tables).length} stats tables`);
         return tables;
     }
-    function populateAllCostsTables(structures, checkedMapRef) {
+    function populateAllCostsTables(structures, costscheckedMapRef) {
         // Build a map of pretty names for "requirements"
         const prettyMap = {};
         Array.from(document.querySelectorAll('.section')).forEach(el => {
@@ -370,7 +367,7 @@ const Tables = (function(Helpers){
                 const keyVal = rawKey;
                 const lvlNum = idx;
                 const uid = `${keyVal}|${lvlNum}`;
-                const checked = !!checkedMapRef[uid];
+                const checked = !!costscheckedMapRef[uid];
 
                 // --- start new row with same column count ---
                 const row = Array(19).fill('-');
@@ -628,43 +625,19 @@ const Tables = (function(Helpers){
             }
         });
     }
-    function setScrollRows(dt, rows = VISIBLE_ROWS) {
+    function setScrollRows(dt, rows = VISIBLE_ROWS){
         if (!dt || typeof dt.settings !== "function" || !dt.settings().length) {
-            console.debug("setScrollRows: DataTable not ready");
+            console.debug('setScrollRows: DataTable not ready'); 
             return;
         }
-
-        // Wait for render completion
-        setTimeout(() => {
-            const $tableBody = $(dt.table().body());
-            const $firstRow = $tableBody.find("tr:visible:first");
-
-            // measure height of first visible row accurately (include borders)
-            const rowH = $firstRow.length ? $firstRow.outerHeight(true) : 32;
-            if (rowH <= 0) return;
-
-            // compute total height rounded to full pixels
-            const height = Math.ceil(rowH * rows + 0);
-
-            const $scrollBody = $(dt.table().container()).find("div.dataTables_scrollBody");
-            if ($scrollBody.length) {
-                $scrollBody.css({
-                    height: height + "px",
-                    "max-height": height + "px",
-                    overflowY: "auto"
-                });
-            }
-
-            // update internal DataTables scroll size
-            const settings = dt.settings()[0];
-            if (settings && settings.oScroll) {
-                settings.oScroll.sY = height + "px";
-            }
-
-            // smooth column adjustment
-            try { dt.columns.adjust(); } catch (e) {}
-
-        }, 50); // small delay ensures DOM is fully drawn
+        const $firstCell = $(dt.table().body()).find('tr:visible:first td:visible:first');
+        let rowH = $firstCell.length ? $firstCell.outerHeight() : 30;
+        const height = Math.ceil(rowH * rows);
+        const $scrollBody = $(dt.table().container()).find('div.dataTables_scrollBody');
+        if ($scrollBody.length) $scrollBody.css({ height: height + 'px', 'max-height': height + 'px' });
+        const settings = dt.settings()[0];
+        if (settings && settings.oScroll) settings.oScroll.sY = height + 'px';
+        try { dt.columns.adjust(); } catch(e){/* ignore */ }
     }
     function applyScale(scale) {
         if (!Tables.allCostsTables) return;

@@ -19,10 +19,6 @@ $(document).ready(async function(){
         window.structuresSubtypes = subtypes;
         window.loadedKeyMap = keyMap;
 
-        // === Build all COST tables first (one per building) ===
-        Tables.allCostsTables = Tables.createAllCostsTables(subtypes, Totals.getCheckedMap());
-        Tables.populateAllCostsTables(subtypes, Totals.getCheckedMap());
-
         // === Default building (root node) ===
         const defaultBuilding = 'Headquarters';
         const mapped = keyMap[defaultBuilding] || defaultBuilding;
