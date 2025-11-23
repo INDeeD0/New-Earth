@@ -101,7 +101,18 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             // === Adjust scrolling height ===
             Tables.setScrollRows(dt);
             Tables.applyScale(window.currentScale);
-            setTimeout(drawLines, 20);
+
+            // Also enforce 12-row height for missions/stats when selecting a building
+            const mdt = Tables.allMissionsTables?.[safeKey];
+            const sdt = Tables.allStatsTables?.[safeKey];
+            setTimeout(function(){
+                if (mdt) Tables.setScrollRows(mdt);
+                if (sdt) Tables.setScrollRows(sdt);
+                // reveal after heights are applied to avoid flicker
+                $(`#rewardsWrapper-${safeKey}`).css('visibility','visible');
+                $(`#statsWrapper-${safeKey}`).css('visibility','visible');
+                drawLines();
+            }, 0);
         });
 
         // === Trigger default root click (Headquarters, etc.) ===
