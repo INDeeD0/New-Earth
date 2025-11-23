@@ -3,7 +3,7 @@
 
 const DataLoader = (function(Helpers){
     const keyMap = {
-        "Research Lab":"researchlab",
+        "Research Lab":"researchlab",//offensive start
         "Scouting":"offensivescouting",
         "Troop Training":"offensivetrooptraining",
         "Automated Factories":"offensiveautomatedfactories",
@@ -56,7 +56,41 @@ const DataLoader = (function(Helpers){
         "Heavy Infantry Attack II":"offensiveheavyinfantryattack2",
         "Heavy Infantry Defense II":"offensiveheavyinfantrydefense2",
         "Air Vehicle Attack II":"offensiveairvehicleattack2",
-        "Air Vehicle Defense II":"offensiveairvehicledefense2",
+        "Air Vehicle Defense II":"offensiveairvehicledefense2",//offensive finish
+        "Stationed Units":"defensivefortifieddefenses",//Defensive start
+        "Turret Technology":"defensiveturretattack",
+        "Buckshots":"defensiveunlockbuckshot",
+        "Heavy Ammunition":"defensiveheavyammunition",
+        "Armor Piercing Ammunition":"defensivearmorpiercingammunition",
+        "High Explosive Ammunition":"defensivehighexplosiveammunition",
+        "Defense Salvaging 1":"defensivedefensesalvaging_1",
+        "Bio Grenades":"defensiveunlockbiogrenades",
+        "Frag Grenades":"defensiveunlockfraggrenades",
+        "Caltrops":"defensiveunlockcaltrops",
+        "Flak Launchers":"defensiveunlockflaklaunchers",
+        "Defense Strategist":"defensivedefensestrategist",
+        "Reinforced Fortifications":"defensivereinforcedfortifications",
+        "Defense Salvaging 2":"defensivedefensesalvaging_2",
+        "Razor Wires":"defensiverazorwire",
+        "Air Burst Rounds":"defensiveairburstrounds",
+        "Anti Vehicle Mines":"defensiveantivehiclemines",
+        "Combat Drone":"defensivecombatdrone",
+        "Defense Salvaging 3":"defensivedefensesalvaging_3",
+        "Phosporus Ammunition":"defensivephosporusammunition",
+        "Laser Ammunition":"defensivelaserammunition",
+        "High Velocity Ammunition":"defensivehighvelocityammunition",
+        "Electromagnetic Pulse Ammunition":"defensiveelectromagneticpulseammunition",
+        "Defense Salvaging 4":"defensivedefensesalvaging_4",
+        "Flame Throwers":"defensiveflamethrowers",
+        "Mortar Rounds":"defensivemortarrounds",
+        "Rocket Propelled Grenades":"defensiverocketpropelledgrenades",
+        "Surface to Air Missiles":"defensivesurfacetoairmissiles",
+        "Defense Salvaging 5":"defensivedefensesalvaging_5",
+        "Defense Salvaging 6":"defensivedefensesalvaging_6",
+        "Thermite Grenades":"defensivethermitegrenades",
+        "Claymore Mines":"defensiveclaymoremines",
+        "Electric Fence":"defensiveelectricfence",
+        "Missile Battery":"defensivemissilebattery",//Defensive finish
     };
 
     async function loadAll(){

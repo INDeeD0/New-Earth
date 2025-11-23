@@ -5,79 +5,131 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
     // reuse maps referenced by Tables renderer
     const checkedMap = Totals.getCheckedMap();
     const missionsCheckedMap = Totals.getMissionsCheckedMap();
+    
+    const mapLines = {
+        map1: [
+            { from: [1,1], to: [5,1] },
+            { from: [1,1], to: [2,0] },
+            { from: [2,0], to: [23,0] },
+            { from: [5,0], to: [6,1] },
+            { from: [6,1], to: [8,1] },
+            { from: [8,1], to: [9,0] },
+            { from: [10,0], to: [11,1] },                
+            { from: [11,1], to: [12,1] },
+            { from: [12,1], to: [13,0] },
+            { from: [13,0], to: [14,1] },
+            { from: [17,0], to: [18,1] },
+            { from: [20,0], to: [21,1] },
+            { from: [21,1], to: [22,1] },
+            { from: [3,2], to: [26,2] },
+            { from: [8,2], to: [9,1] },
+            { from: [9,1], to: [10,1] },
+            { from: [10,1], to: [11,2] },
+            { from: [12,2], to: [13,1] },
+            { from: [16,2], to: [17,1] },
+            { from: [23,2], to: [24,1] },
+            { from: [24,1], to: [26,1] },
+            { from: [15,1], to: [16,1] },
+            { from: [2,1], to: [3,2] },
+            { from: [5,1], to: [6,2] },
+        ],
 
-    function drawLines(){
-        const gridLines = [//column,row
-            { from: [0,1], to: [4,1] },
-            { from: [0,1], to: [1,0] },
-            { from: [1,0], to: [22,0] },
+        map2: [
+            { from: [1,0], to: [8,0] },
+            { from: [1,0], to: [2,1] },
+            { from: [2,1], to: [4,1] },
             { from: [4,0], to: [5,1] },
-            { from: [5,1], to: [7,1] },
-            { from: [7,1], to: [8,0] },
-            { from: [9,0], to: [10,1] },                
-            { from: [10,1], to: [11,1] },
-            { from: [11,1], to: [12,0] },
-            { from: [12,0], to: [13,1] },
-            { from: [16,0], to: [17,1] },
-            { from: [19,0], to: [20,1] },
-            { from: [20,1], to: [22,1] },
-            { from: [2,2], to: [25,2] },
-            { from: [7,2], to: [8,1] },
-            { from: [8,1], to: [9,1] },
-            { from: [9,1], to: [10,2] },
-            { from: [11,2], to: [12,1] },
-            { from: [15,2], to: [16,1] },
-            { from: [22,2], to: [23,1] },
-            { from: [23,1], to: [25,1] },
-            { from: [14,1], to: [15,1] },
-            { from: [1,1], to: [2,2] },
-            { from: [4,1], to: [5,2] },
-        ];
+            { from: [5,1], to: [6,1] },
+            { from: [6,1], to: [7,2] },
+            { from: [1,2], to: [8,2] },
+            { from: [6,0], to: [7,1] },
+            { from: [10,0], to: [15,0] },
+            { from: [9,1], to: [15,1] },
+            { from: [10,2], to: [15,2] },
+        ]
+    };
+    function drawLinesForMap(containerId, svgId, coordLines) {
+        const container = document.getElementById(containerId);
+        const svg = document.getElementById(svgId);
+        if (!container || !svg) return;
 
-        const svg = document.getElementById("lines");
-            const container = document.getElementById("mapContainer");
-            if (!svg || !container) return;
+        svg.innerHTML = "";
 
-            svg.innerHTML = "";
+        // Make SVG match entire scroll area
+        svg.setAttribute("width", container.scrollWidth);
+        svg.setAttribute("height", container.scrollHeight);
+        svg.setAttribute("viewBox", `0 0 ${container.scrollWidth} ${container.scrollHeight}`);
 
-            const COL_W = 150;
-            const ROW_H = 100;
-            const GAP_X = 20;
-            const GAP_Y = 5;
+        const style = window.getComputedStyle(container);
 
-            // Make SVG match the TOTAL internal scroll area
-            svg.setAttribute("width", container.scrollWidth);
-            svg.setAttribute("height", container.scrollHeight);
-
-            function getCenter(col, row) {
-                return {
-                    x: col * (COL_W + GAP_X) + COL_W / 2,
-                    y: row * (ROW_H + GAP_Y) + ROW_H / 2
-                };
-            }
-
-            gridLines.forEach(conn => {
-                const a = getCenter(conn.from[0], conn.from[1]);
-                const b = getCenter(conn.to[0], conn.to[1]);
-
-                const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-                line.setAttribute("x1", a.x);
-                line.setAttribute("y1", a.y);
-                line.setAttribute("x2", b.x);
-                line.setAttribute("y2", b.y);
-                line.setAttribute("stroke", "#ffcc00");
-                line.setAttribute("stroke-width", "2");
-                line.setAttribute("stroke-linecap", "round");
-
-                svg.appendChild(line);
-            });
+        // --- Extract column width from grid-template-columns ---
+        const colTokens = style.gridTemplateColumns.split(" ");
+        let colWidth = 150;  // fallback
+        if (colTokens.length > 0) {
+            const match = colTokens[0].match(/(\d+)px/);
+            if (match) colWidth = parseInt(match[1]);
         }
 
-        const container = document.getElementById("mapContainer");
-        if (container) {
-            container.addEventListener("scroll", () => requestAnimationFrame(drawLines));
+        // --- Extract row height from grid-template-rows ---
+        const rowTokens = style.gridTemplateRows.split(" ");
+        let rowHeight = 100; // fallback
+        if (rowTokens.length > 0) {
+            const match = rowTokens[0].match(/(\d+)px/);
+            if (match) rowHeight = parseInt(match[1]);
         }
-        window.addEventListener("resize", () => requestAnimationFrame(drawLines));
+
+        // --- Extract gaps (computed by browser) ---
+        const gapCol = parseInt(style.columnGap) || 0;
+        const gapRow = parseInt(style.rowGap) || 0;
+
+        // Convert grid coordinates to screen coordinates
+        function center(col, row) {
+            const x = (col * (colWidth + gapCol)) + colWidth / 2;
+            const y = (row * (rowHeight + gapRow)) + rowHeight / 2;
+            return { x, y };
+        }
+
+        // Draw lines
+        for (const link of coordLines) {
+            const [c1, r1] = link.from;
+            const [c2, r2] = link.to;
+
+            const p = center(c1, r1);
+            const c = center(c2, r2);
+
+            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            line.setAttribute("x1", p.x);
+            line.setAttribute("y1", p.y);
+            line.setAttribute("x2", c.x);
+            line.setAttribute("y2", c.y);
+            line.setAttribute("stroke", "#ffcc00");
+            line.setAttribute("stroke-width", "2");
+
+            svg.appendChild(line);
+        }
+    }
+
+
+    function initMultipleTrees(mapLines) {
+
+        for (const mapId in mapLines) {
+            const svgId = "lines" + mapId.replace("map", "");
+
+            const redraw = () =>
+                drawLinesForMap(mapId, svgId, mapLines[mapId]);
+
+            const container = document.getElementById(mapId);
+            if (!container) continue;
+
+            container.addEventListener("scroll", () => requestAnimationFrame(redraw));
+            window.addEventListener("resize", () => requestAnimationFrame(redraw));
+
+            // initial draw
+            redraw();
+        }
+    }
+
+
 
     function wireTreeClicks(keyMap, objMap) {
         $('.section').on('click', function () {
@@ -136,9 +188,6 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                 drawLines();
             }, 0);
         });
-
-        // === Trigger default root click (Headquarters, etc.) ===
-        $('.section.root').trigger('click');
     }
 
     function wireTableToggle() {
@@ -465,8 +514,47 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
         return uid;
     }
 
+    function drawLines() {
+        for (const mapId in mapLines) {
+            const svgId = "lines" + mapId.replace("map", "");
+            drawLinesForMap(mapId, svgId, mapLines[mapId]);
+        }
+    }
+    function initInternalMapSwitching() {
+        document.querySelectorAll(".nav-btn[data-map]").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const target = btn.dataset.map;
+
+                document.querySelectorAll(".container[id^='map']").forEach(m => {
+                    m.style.display = "none";
+                });
+
+                const selected = document.getElementById(target);
+                if (!selected) return;
+
+                selected.style.display = "grid";
+
+                // Defer root selection and line drawing to next frame to ensure layout is ready
+                requestAnimationFrame(() => {
+                    selectRootOfMap(selected);
+                    const index = target.replace("map", "");
+                    const svgId = "lines" + index;
+                    drawLinesForMap(target, svgId, mapLines[target]);
+                });
+            });
+        });
+    }
+    function selectRootOfMap(mapElement) {
+        if (!mapElement) return;
+        const root = mapElement.querySelector(".section.root");
+        if (root) root.click();
+    }
+
+
     // public bootstrap after data loaded and tables created
     function bootstrap(data){
+        initMultipleTrees(mapLines);
+        initInternalMapSwitching();
         const keyMap = data.keyMap;
         const objMap = data.objMap;
         const subs = window.structuresSubtypes || {};
@@ -476,18 +564,29 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
         Tables.populateAllMissionsTables(subs, Totals.getMissionsCheckedMap(), objMap);
         Tables.allStatsTables = Tables.createAllStatsTables(subs);
         Tables.populateAllStatsTables(subs);
-
         // initial draw of lines
         setTimeout(drawLines, 50);
         window.addEventListener('resize', function(){ setTimeout(drawLines, 20); });
-
         wireTreeClicks(keyMap, objMap);
         wireTableToggle();
         wireDelegatedHandlers();
-
         setTimeout(() => Totals.updateCostsTotals(currentScale), 150);
         setTimeout(() => Totals.updateMissionsTotals(), 150);
-
+        // Reveal map1 without flash and auto-select its root on next frame
+        requestAnimationFrame(() => {
+            document.querySelectorAll(".container[id^='map']").forEach(m => {
+                m.style.display = "none";
+            });
+            const m1 = document.getElementById("map1");
+            if (!m1) return;
+            m1.style.display = "grid";
+            requestAnimationFrame(() => {
+                const root = m1.querySelector(".section.root");
+                if (root) root.click();
+                const svgId = "lines1";
+                drawLinesForMap("map1", svgId, mapLines["map1"]);
+            });
+        });
     }
 
     // 👇 nothing else goes here inside the module

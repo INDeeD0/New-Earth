@@ -10,15 +10,28 @@ body {
 
 /* === Tree Grid === */
 .container {
-  display: grid;
-  grid-template-columns: repeat(26, 150px);/* === 26 === */
-  grid-template-rows: repeat(3, 100px);
-  gap: 5px 20px;
   justify-content: left;
   margin: 20px auto;
   position: relative;
   width: 1340px;
   overflow-y: auto;
+  overflow-x: auto; /* required for horizontal scroll with sticky */
+  display: grid; /* ensure grid so ::before can use grid lines */
+}
+.researchroot {
+  border: 0px solid #ffffff;
+}
+#map1 {
+    grid-template-columns: repeat(27, 150px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 20px;
+    row-gap: 5px;
+}
+#map2 {
+    grid-template-columns: repeat(16, 150px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 20px;
+    row-gap: 5px;
 }
 
 .section {
@@ -26,39 +39,29 @@ body {
   border: 1px solid #666;
   color: #fff;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   font-size: 15px;
   border-radius: 50px;
   cursor: pointer;
   position: relative;
-  z-index: 1;
-  padding-top: 15px;
+  /* remove default z-index to avoid unintended stacking contexts */
   padding-left: 10px;
   padding-right: 10px;
   gap: 3px;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .section:hover { border-color: #ffcc00; }
 .section.active { border-color: #4287f5; background-color: #111; }
 
-svg#lines {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto !important;
-  height: auto !important;
-  pointer-events: none;
-  z-index: 0;
-}
 
 /* === Navigation === */
 #topNav { margin-bottom: 10px; }
 
 .nav-btn {
   margin: 0px;
-  padding: 6px 12px;
+  padding: 5px 10px;
   border: 1px solid #555;
   border-radius: 4px;
   background: #333;
@@ -238,6 +241,68 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   text-align: center;
   width: 20px;
 }
+
+/* === Map and SVG sync fixes === */
+/* Ensure container scrolls as a single layer */
+.container {
+  position: relative;
+  overflow: auto;
+}
+/* Explicit relative positioning for maps */
+#map1 { position: relative; overflow-anchor: none; contain: layout paint; isolation: isolate; }
+#map2 { position: relative; overflow-anchor: none; contain: layout paint; isolation: isolate; }
+
+/* Opaque left strip under column 1 to block bleed-through while scrolling */
+#map1::before,
+#map2::before {
+  content: "";
+  /* occupy the first grid column across all rows */
+  grid-column: 1;
+  grid-row: 1 / -1;
+  align-self: stretch;
+  justify-self: stretch;
+  /* stick to the left edge of the scrollport */
+  position: sticky;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 170px; /* 150px col + 20px gap */
+  background: #222; /* match page background */
+  z-index: 998; /* below the first sticky cell (1001), above others */
+  pointer-events: none; /* don't block clicks */
+  display: block;
+}
+
+/* Make the SVG span the full grid area so it scrolls at the same rate */
+#map1 #lines1,
+#map2 #lines2 {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  align-self: stretch;
+  justify-self: stretch;
+  position: absolute;
+  inset: 0; /* top/right/bottom/left:0 */
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  pointer-events: none;
+  z-index: 0;
+}
+/* Keep cards above lines */
+#map1 .section,
+#map2 .section {
+  position: relative;
+}
+/* ensure non-first-column sections never stack above the left cover */
+#map1 .section:not([style*="grid-column:1"]),
+#map2 .section:not([style*="grid-column:1"]) {
+  z-index: 1; /* under the cover (which is 998) */
+}
+/* Ensure consistent sizing math */
+#map1, #map2, #map1 *, #map2 * {
+  box-sizing: border-box;
+}
 .no-spinners::-webkit-outer-spin-button,
 .no-spinners::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -291,4 +356,28 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   font-weight: 600;
   text-align: center;
   padding: 6px;
+}
+#map1 .section[style*="grid-column:1"],
+#map2 .section[style*="grid-column:1"],
+#map1 .section:nth-child(1),
+#map2 .section:nth-child(1) {
+    position: sticky;
+    left: 0;
+    right: auto; 
+    z-index: 1; 
+    background: #000; 
+    box-shadow: 2px 0 6px rgba(0,0,0,0.6);
+}
+.container[id^="map"] {
+    display: none;
+    contain: layout paint;
+}
+
+#map1 .section[data-key="Research"],
+#map2 .section[data-key="Research"] {
+  position: sticky;
+  left: 0;
+  z-index: 999; 
+  background: #000;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.6);
 }
