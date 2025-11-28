@@ -58,10 +58,11 @@ Helpers.lookup = (function(){
 
     function extractFromEntry(entry, prefer) {
         let order;
-        if (prefer === 'modifier') order = ['modifier','value','quantity'];
-        else if (prefer === 'value') order = ['value','modifier','quantity'];
-        else if (prefer === 'quantity') order = ['quantity','value','modifier'];
-        else order = ['quantity','value','modifier'];
+        if (prefer === 'modifier') order = ['modifier','value','quantity','duration'];
+        else if (prefer === 'value') order = ['value','modifier','quantity','duration'];
+        else if (prefer === 'quantity') order = ['quantity','value','modifier','duration'];
+        else if (prefer === 'duration') order = ['duration','quantity','value','modifier'];
+        else order = ['quantity','value','modifier','duration'];
 
         if (entry && typeof entry === 'object') {
             for (const k of order) {
@@ -75,7 +76,7 @@ Helpers.lookup = (function(){
     }
 
     function getFromKnownArraysExact(lvl, key, prefer = 'value') {
-        const containers = ['costs','stats','attributes','bonuses','modifiers','modifier','reward'];
+        const containers = ['costs','stats','attributes','bonuses','modifiers','modifier','reward','buffs'];
         for (const name of containers) {
             const container = lvl[name];
             if (!container) continue;
