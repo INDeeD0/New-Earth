@@ -35,7 +35,7 @@ const Tables = (function(Helpers){
         }, // end checkbox col
 
         { title:"LVL" },// 2
-        {title: '<div class=headflex> <img src="pictures/time.png" class="col-icon"> <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span></div>',
+        {title: '<div class=headflex> <img src="pictures/Time.png" class="col-icon"> <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span></div>',
             className: "dt-head-center",
             dataKey: "upgrade_cost"
         },
