@@ -39,20 +39,20 @@ const Tables = (function(Helpers){
             className: "dt-head-center",
             dataKey: "upgrade_cost"
         },
-        { title:'<img src="pictures/power.png" class="col-icon">', dataKey: "power" },// 4
-        { title:'<img src="pictures/tech.png" class="col-icon">', dataKey: "currency3@quantity" },// 5
-        { title:'<img src="pictures/food.png" class="col-icon">', dataKey: "currency4@quantity" },// 6
-        { title:'<img src="pictures/oil.png" class="col-icon">', dataKey: "currency5@quantity" },// 7
-        { title:'<img src="pictures/alloy.png" class="col-icon">', dataKey: "currency6@quantity" },// 8
+        { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power" },// 4
+        { title:'<img src="pictures/Tech.png" class="col-icon">', dataKey: "currency3@quantity" },// 5
+        { title:'<img src="pictures/Food.png" class="col-icon">', dataKey: "currency4@quantity" },// 6
+        { title:'<img src="pictures/Oil.png" class="col-icon">', dataKey: "currency5@quantity" },// 7
+        { title:'<img src="pictures/Alloy.png" class="col-icon">', dataKey: "currency6@quantity" },// 8
         { title:'<img src="pictures/Neut.png" class="col-icon">', dataKey: "currency7@quantity" }, // 9
-        { title:'<img src="pictures/ac.png" class="col-icon">', dataKey: "currency8@quantity" }, // 10
-        { title:'<img src="pictures/Neut crystal.png" class="col-icon">', dataKey: "core_neutronium_crystal@quantity" }, // 11
+        { title:'<img src="pictures/AC.png" class="col-icon">', dataKey: "currency8@quantity" }, // 10
+        { title:'<img src="pictures/Neut Crystal.png" class="col-icon">', dataKey: "core_neutronium_crystal@quantity" }, // 11
         { title:'<img src="pictures/Classified Documents.png" class="col-icon">', dataKey: "core_classified_documents@quantity" }, // 12
-        { title:'<img src="pictures/data disk.png" class="col-icon">', dataKey: "core_data_disk@quantity"}, // 13
-        { title:'<img src="pictures/alien power core.png" class="col-icon">', dataKey: "core_alien_power_core@quantity"}, // 14
-        { title:'<img src="pictures/alien tech.png" class="col-icon">', dataKey: "core_alien_component@quantity"}, // 15
-        { title:'<img src="pictures/alien armor.png" class="col-icon">', dataKey: "core_alien_armor@quantity"}, // 16
-        { title:'<img src="pictures/armory blueprints.png" class="col-icon">', dataKey: "armory_blueprints@quantity"}, // 17
+        { title:'<img src="pictures/Data Disk.png" class="col-icon">', dataKey: "core_data_disk@quantity"}, // 13
+        { title:'<img src="pictures/Alien Power Core.png" class="col-icon">', dataKey: "core_alien_power_core@quantity"}, // 14
+        { title:'<img src="pictures/Alien Tech.png" class="col-icon">', dataKey: "core_alien_component@quantity"}, // 15
+        { title:'<img src="pictures/Alien Armor.png" class="col-icon">', dataKey: "core_alien_armor@quantity"}, // 16
+        { title:'<img src="pictures/Armory Blueprints.png" class="col-icon">', dataKey: "armory_blueprints@quantity"}, // 17
         { title:"Buildings", dataKey: "requirements"}, // 18
     ];
     const missionsCols =[
@@ -70,12 +70,12 @@ const Tables = (function(Helpers){
             }
         },
         { title:"LVL" },
-        { title:'<img src="pictures/xp.png" class="col-icon">', dataKey: "hero_xp"  },
-        { title:'<img src="pictures/power.png" class="col-icon">', dataKey: "power" },
-        { title:'<img src="pictures/tech.png" class="col-icon">', dataKey: "currency3@quantity" },
-        { title:'<img src="pictures/food.png" class="col-icon">', dataKey: "currency4@quantity" },
-        { title:'<img src="pictures/oil.png" class="col-icon">', dataKey: "currency5@quantity" },
-        { title:'<img src="pictures/alloy.png" class="col-icon">', dataKey: "currency6@quantity" },
+        { title:'<img src="pictures/XP.png" class="col-icon">', dataKey: "hero_xp"  },
+        { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power" },
+        { title:'<img src="pictures/Tech.png" class="col-icon">', dataKey: "currency3@quantity" },
+        { title:'<img src="pictures/Food.png" class="col-icon">', dataKey: "currency4@quantity" },
+        { title:'<img src="pictures/Oil.png" class="col-icon">', dataKey: "currency5@quantity" },
+        { title:'<img src="pictures/Alloy.png" class="col-icon">', dataKey: "currency6@quantity" },
         { title:'<img src="pictures/Neut.png" class="col-icon">', dataKey: "currency7@quantity" }
     ]
     const statsCols = [
