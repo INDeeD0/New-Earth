@@ -161,15 +161,18 @@ body {
 /* === Tables === */
 table {
   border-collapse: collapse;
-  background: white;
+  background: rgb(0, 0, 0);
   color: black;
   margin-top: 10px;
   width: auto !important;
   table-layout: auto !important;
   font-size: 20px;
 }
-
-table th, table td {
+table th {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+table td {
   color: black;
   padding: 0px 6px;
   white-space: nowrap;
@@ -436,4 +439,15 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   z-index: 999; 
   background: #000;
   box-shadow: 2px 0 6px rgba(0,0,0,0.6);
+}
+.col-icon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+}
+.headflex {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }

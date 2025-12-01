@@ -35,19 +35,19 @@ const Tables = (function(Helpers){
         }, // end checkbox col
 
         { title:"LVL" },// 2
-        {title: 'Time <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span>',
+        {title: '<div class=headflex> <img src="pictures/time.png" class="col-icon"> <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span></div>',
             className: "dt-head-center",
             dataKey: "upgrade_cost"
         },
-        { title:"Power", dataKey: "power" },// 4
-        { title:"Tech", dataKey: "currency3@quantity" },// 5
-        { title:"Food", dataKey: "currency4@quantity" },// 6
-        { title:"Oil", dataKey: "currency5@quantity" },// 7
-        { title:"Alloy", dataKey: "currency6@quantity" },// 8
-        { title:"Neutronium", dataKey: "currency7@quantity" }, // 9
-        { title:"Alien Augment", dataKey: "megaship_alien_augment@quantity" }, // 10
-        { title:"Dark Matter", dataKey: "core_dark_matter@quantity"}, // 11
-        { title:"Specilized Circuitry", dataKey: "core_neutron_circuitry@quantity" }, // 12
+        { title:'<img src="pictures/power.png" class="col-icon">', dataKey: "power" },// 4
+        { title:'<img src="pictures/tech.png" class="col-icon">', dataKey: "currency3@quantity" },// 5
+        { title:'<img src="pictures/food.png" class="col-icon">', dataKey: "currency4@quantity" },// 6
+        { title:'<img src="pictures/oil.png" class="col-icon">', dataKey: "currency5@quantity" },// 7
+        { title:'<img src="pictures/alloy.png" class="col-icon">', dataKey: "currency6@quantity" },// 8
+        { title:'<img src="pictures/Neut.png" class="col-icon">', dataKey: "currency7@quantity" }, // 9
+        { title:'<img src="pictures/alien augment.png" class="col-icon">', dataKey: "megaship_alien_augment@quantity" }, // 10
+        { title:'<img src="pictures/dark matter.png" class="col-icon">', dataKey: "core_dark_matter@quantity"}, // 11
+        { title:'<img src="pictures/specialized circuitry.png" class="col-icon">', dataKey: "core_neutron_circuitry@quantity" }, // 12
         { title:"Data Disk", dataKey: "core_data_disk@quantity"}, // 13
         { title:"Alien Power Core", dataKey: "core_alien_power_core@quantity"}, // 14
         { title:"Alien Tech", dataKey: "core_alien_component@quantity"}, // 15 used
@@ -70,13 +70,13 @@ const Tables = (function(Helpers){
             }
         },
         { title:"LVL" },
-        { title:"Hero XP", dataKey: "hero_xp"  },
-        { title:"Power", dataKey: "power" },
-        { title:"Tech", dataKey: "currency3@quantity" },
-        { title:"Food", dataKey: "currency4@quantity" },
-        { title:"Oil", dataKey: "currency5@quantity" },
-        { title:"Alloy", dataKey: "currency6@quantity" },
-        { title:"Neutronium", dataKey: "currency7@quantity" }
+        { title:'<img src="pictures/xp.png" class="col-icon">', dataKey: "hero_xp"  },
+        { title:'<img src="pictures/power.png" class="col-icon">', dataKey: "power" },
+        { title:'<img src="pictures/tech.png" class="col-icon">', dataKey: "currency3@quantity" },
+        { title:'<img src="pictures/food.png" class="col-icon">', dataKey: "currency4@quantity" },
+        { title:'<img src="pictures/oil.png" class="col-icon">', dataKey: "currency5@quantity" },
+        { title:'<img src="pictures/alloy.png" class="col-icon">', dataKey: "currency6@quantity" },
+        { title:'<img src="pictures/Neut.png" class="col-icon">', dataKey: "currency7@quantity" }
     ]
     const statsCols = [
         { title: "Key", visible: false },
