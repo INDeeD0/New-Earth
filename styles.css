@@ -48,10 +48,10 @@ svg#lines {
 }
 
 /* === Navigation === */
-#topNav { margin-bottom: 15px; }
+#topNav { margin-bottom: 10px; }
 
 .nav-btn {
-  margin: 2px;
+  margin: 0px;
   padding: 6px 12px;
   border: 1px solid #555;
   border-radius: 4px;
@@ -67,12 +67,13 @@ svg#lines {
 
 .toggle-table-btn {
   margin: 2px;
-  padding: 6px 12px;
+  padding: 4px 4px;
   cursor: pointer;
   border: 1px solid #555;
   border-radius: 4px;
   background: #eee;
   color: #000;
+  font-size: 16px;
 }
 .toggle-table-btn.active {
   background: #4287f5;
@@ -127,17 +128,21 @@ svg#lines {
 /* === Tables === */
 table {
   border-collapse: collapse;
-  background: white;
+  background: rgb(0, 0, 0);
   color: black;
   margin-top: 10px;
   width: auto !important;
   table-layout: auto !important;
   font-size: 20px;
 }
-
-table th, table td {
+table th {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0px 0px;
+}
+table td {
   color: black;
-  padding: 4px 6px;
+  padding: 0px 6px;
   white-space: nowrap;
   font-size: 20px;
   text-align: center;
@@ -202,7 +207,7 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   transform: translateX(-50%);
   background: #333;
   color: #fff;
-  padding: 4px 8px;
+  padding: 0px 8px;
   border-radius: 4px;
   white-space: nowrap;
   z-index: 1000;
@@ -246,7 +251,7 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   color: #fff;
   font-size: 15px;
   line-height: 1.5;
-  padding: 14px 18px;
+  padding: 0px 0px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   z-index: 9999;
@@ -267,7 +272,7 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   margin-top: 20px;
 }
 .totals-block {
-  margin: 10px 0;
+  margin: 0px 0;
   display: flex;
   justify-content: center;
 }
@@ -275,7 +280,7 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   border-collapse: collapse;
 }
 .totals-table th, .totals-table td {
-  padding: 4px 8px;
+  padding: 0px 8px;
   border: 1px solid #444;
 }
 .totals-section-title {
@@ -284,4 +289,15 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   font-weight: 600;
   text-align: center;
   padding: 6px;
+}
+.col-icon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+}
+.headflex {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
