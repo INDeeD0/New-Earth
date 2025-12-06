@@ -393,9 +393,14 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 .totals-table {
   border-collapse: collapse;
 }
-.totals-table th, .totals-table td {
+.totals-table th{
   padding: 0px 8px;
   border: 1px solid #444;
+}
+.totals-table td {
+  padding: 0px 8px;
+  border: 1px solid #444;
+  color:white
 }
 .totals-section-title {
   background: #ffffff;
