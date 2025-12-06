@@ -2,6 +2,45 @@
 // Handles tree clicks, SVG line drawing, table toggles, and event delegation.
 
 const UI = (function(Helpers, Tables, DataLoader, Totals){
+    // === DRAG SCROLL SUPPORT FOR MAP CONTAINERS ===
+    function enableDragScroll(el) {
+        let isDown = false;
+        let startX;
+        let startY;
+        let scrollLeft;
+        let scrollTop;
+
+        el.addEventListener("mousedown", (e) => {
+            isDown = true;
+            el.classList.add("dragging");
+            startX = e.pageX - el.offsetLeft;
+            startY = e.pageY - el.offsetTop;
+            scrollLeft = el.scrollLeft;
+            scrollTop = el.scrollTop;
+        });
+
+        el.addEventListener("mouseleave", () => {
+            isDown = false;
+            el.classList.remove("dragging");
+        });
+
+        el.addEventListener("mouseup", () => {
+            isDown = false;
+            el.classList.remove("dragging");
+        });
+
+        el.addEventListener("mousemove", (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - el.offsetLeft;
+            const y = e.pageY - el.offsetTop;
+            const walkX = (x - startX) * 1;
+            const walkY = (y - startY) * 1;
+            el.scrollLeft = scrollLeft - walkX;
+            el.scrollTop = scrollTop - walkY;
+        });
+    }
+
     // reuse maps referenced by Tables renderer
     const checkedMap = Totals.getCheckedMap();
     const missionsCheckedMap = Totals.getMissionsCheckedMap();
@@ -593,6 +632,9 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
     function bootstrap(data){
         initMultipleTrees(mapLines);
         initInternalMapSwitching();
+        document.querySelectorAll(".container[id^='map']").forEach(el => {
+            enableDragScroll(el);
+        });
         const keyMap = data.keyMap;
         const objMap = data.objMap;
         const subs = window.structuresSubtypes || {};

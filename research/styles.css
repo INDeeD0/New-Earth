@@ -451,3 +451,10 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
     align-items: center;
     gap: 6px;
 }
+.container.dragging {
+    cursor: grabbing !important;
+}
+
+.container {
+    cursor: grab;
+}
