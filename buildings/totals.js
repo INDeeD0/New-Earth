@@ -79,8 +79,8 @@ const Totals = (function(Helpers, Tables){
             const idx = parseInt(k);
             if (totals[idx] !== 0) {
                 const col = sampleCols[idx];
-                const title = col?.sTitle || '';
-                headerCells.push(`<th>${Helpers.stripHtml(title)}</th>`);
+                const title = sampleCols[idx]?.sTitle || '';
+                headerCells.push(`<th>${title}</th>`);
                 totalCells.push(`<td>${
                     idx === Tables.TIME_COL
                         ? Helpers.formatTime(totals[idx])
@@ -166,7 +166,7 @@ const Totals = (function(Helpers, Tables){
         Object.keys(totals).forEach(k => {
             const idx = parseInt(k);
             if (totals[idx] !== 0) {
-                const title = Helpers.stripHtml(sampleCols[idx]?.sTitle || '');
+                const title = sampleCols[idx]?.sTitle || '';
                 headerCells.push(`<th>${title}</th>`);
                 totalCells.push(`<td>${Helpers.formatShort(totals[idx])}</td>`);
             }

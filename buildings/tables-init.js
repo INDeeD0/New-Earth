@@ -35,9 +35,10 @@ const Tables = (function(Helpers){
         }, // end checkbox col
 
         { title:"LVL" },// 2
-        {title: '<div class=headflex> <img src="pictures/Time.png" class="col-icon"> <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span></div>',
+        {title: '<div class=headflex> <img src="pictures/Time.png" class="col-icon"></div>',
             className: "dt-head-center",
-            dataKey: "upgrade_cost"
+            dataKey: "upgrade_cost",
+            headerHtml:'<div class="headflex"> <img src="pictures/Time.png" class="col-icon"> <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span></div>'
         },
         { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power" },// 4
         { title:'<img src="pictures/Tech.png" class="col-icon">', dataKey: "currency3@quantity" },// 5
@@ -261,8 +262,25 @@ const Tables = (function(Helpers){
                 autoWidth: false,
                 columns: costsCols,
                 scrollY: '0px',
+                initComplete: function(settings, json) {
+                    const api = this.api();
+                    api.columns().every(function(idx) {
+                        const col = api.settings()[0].aoColumns[idx];
+                        if (col.headerHtml) {
+                            $(api.column(idx).header()).html(col.headerHtml);
+                        }
+                    });
+                }
             });
-
+            dt.on("init", function () {
+                const api = this.api();
+                api.columns().every(function (idx) {
+                    const col = api.settings()[0].aoColumns[idx];
+                    if (col.headerHtml) {
+                        $(api.column(idx).header()).html(col.headerHtml);
+                    }
+                });
+            });
             tables[safeKey] = dt;
         });
 
