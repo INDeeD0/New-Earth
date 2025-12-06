@@ -282,6 +282,8 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 .totals-table th{
   padding: 0px 8px;
   border: 1px solid #444;
+  color:white;
+  background: black;
 }
 .totals-table td {
   padding: 0px 8px;
