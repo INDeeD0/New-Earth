@@ -15,7 +15,7 @@ const DataLoader = (function(Helpers){
     };
 
     async function loadAll(){
-        const structPromise = fetch('molds/categories/structures.json').then(r => r.json());
+        const structPromise = fetch('molds/categories/structure.json').then(r => r.json());
         const objPromise = fetch('molds/categories/objective.json').then(r => r.json()).catch(() => ({}));
         const [structuresRaw, objectives] = await Promise.all([structPromise, objPromise]);
         const subtypes = structuresRaw._subtypes || {};
