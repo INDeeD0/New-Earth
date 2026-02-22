@@ -43,6 +43,14 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
     
     const mapLines = {
         map1: [
+            { from: [0,1], to: [1,0] },
+            { from: [1,0], to: [5,0] },
+            { from: [3,0], to: [3,1] },
+            { from: [0,1], to: [1,2] },
+            { from: [1,2], to: [6,2] },
+            { from: [2,2], to: [2,1] },
+            { from: [4,2], to: [4,1] },
+            { from: [4,1], to: [6,1] },
         ],
 
         map2: [

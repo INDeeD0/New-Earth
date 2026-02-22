@@ -50,18 +50,15 @@ const Tables = (function(Helpers){
             }
         },
         { title: "LVL" },
-        { title: 'H Attack', dataKey: "attack@value!whole" },//3
-        { title: 'Defense', dataKey: "defense@value!whole" },
-        { title: 'Health', dataKey: "health@value!whole" },
-        { title: 'Speed', dataKey: "speed@value!whole" },
-        { title: 'Load', dataKey: "load@value!whole" },
-        { title: 'XP nxt LVL', dataKey: "xp_required!whole" },
-        { title: 'I Attack', dataKey: "monster_attack@value!whole" },
-        { title: 'H Points', dataKey: "skill_points!whole" },
-        { title: 'I Points', dataKey: "monster_skill_points!whole" },
-        { title: 'Power', dataKey: "power!whole" },
-        { title: 'Revive Time', dataKey: "revive_seconds!time" },
-        { title: 'Invader Attack', dataKey: "monster_attack@value!whole" },
+        { title: 'Invader Energy Cost Reduction', dataKey: "hunt_energy_modifier@modifier!percent2" },
+        { title: 'Hero Energy Regen per Minute', dataKey: "hero_energy_regen@value@whole" },
+        { title: 'Hero Invader Attack', dataKey: "hero_monster_attack_modifier@modifier!percent2" },
+        { title: 'Hero Invader Chain Attacks', dataKey: "hero_hunting_chain@value@whole" },
+        { title: 'Hero Max Energy', dataKey: "hero_max_energy@value@whole" },
+        { title: 'Hero Invader Speed', dataKey: "hunt_incoming_speed_modifier@modifier!percent2" },
+        { title: 'Defeated Invader Bonus Energy', dataKey: "hunt_defeated_energy_restore@value@whole" },
+        { title: 'Invader Double Reward Chance', dataKey: "hunt_bonus_reward_modifier@modifier!percent2" },//30
+        { title: "Requirements",dataKey: "requirements!requirements"},
     ];
     const costsColumnMap = {
         '*': [1,2,32],       
@@ -70,7 +67,24 @@ const Tables = (function(Helpers){
         '*': [1,2,32],     
     };
     const statsColumnMap = {
-        '*': [2,3,4,5,6,7,8,9,10,11,12,13],                         
+        '*': [2,11],
+        hero_skill_energy_usage_1:[3],
+        hero_skill_energy_usage_2:[3],
+        hero_skill_energy_usage_3:[3],
+        hero_skill_energy_restoration_1:[4],
+        hero_skill_energy_restoration_2:[4],
+        hero_skill_speed_1:[8],
+        hero_skill_speed_2:[8],
+        hero_skill_attack_1:[5],
+        hero_skill_attack_2:[5],
+        hero_skill_max_energy_1:[7],
+        hero_skill_max_energy_2:[7],
+        hero_skill_max_energy_3:[7],
+        hero_skill_sustained_attack_1:[6],
+        hero_skill_sustained_attack_2:[6],
+        hero_skill_loot_chance_increase_1:[10],
+        hero_skill_loot_chance_increase_2:[10],
+        hero_skill_bonus_energy:[9],                               
     };
 
     // expose some indexes for other modules

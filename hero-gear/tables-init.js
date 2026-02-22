@@ -50,27 +50,83 @@ const Tables = (function(Helpers){
             }
         },
         { title: "LVL" },
-        { title: 'H Attack', dataKey: "attack@value!whole" },//3
-        { title: 'Defense', dataKey: "defense@value!whole" },
-        { title: 'Health', dataKey: "health@value!whole" },
-        { title: 'Speed', dataKey: "speed@value!whole" },
-        { title: 'Load', dataKey: "load@value!whole" },
-        { title: 'XP nxt LVL', dataKey: "xp_required!whole" },
-        { title: 'I Attack', dataKey: "monster_attack@value!whole" },
-        { title: 'H Points', dataKey: "skill_points!whole" },
-        { title: 'I Points', dataKey: "monster_skill_points!whole" },
-        { title: 'Power', dataKey: "power!whole" },
-        { title: 'Revive Time', dataKey: "revive_seconds!time" },
-        { title: 'Invader Attack', dataKey: "monster_attack@value!whole" },
+        { title: 'Leather', dataKey: "crafting_leather@quantity!whole" },//3
+        { title: 'Durable Fabric', dataKey: "crafting_durable_fabric@quantity@whole" },
+        { title: 'Plastic', dataKey: "crafting_plastic@quantity!whole" },
+        { title: 'Rubber', dataKey: "crafting_rubber@quantity!whole" },
+        { title: 'Gunmetal', dataKey: "crafting_gunmetal@quantity!whole" },
+        { title: 'Gunpowder', dataKey: "crafting_gunpowder@quantity!whole" },
+        { title: 'Ballistic Plates', dataKey: "crafting_ballistic_plates@quantity!whole" },
+        { title: 'Ceramics', dataKey: "crafting_ceramics@quantity!whole" },//10
+        { title: 'Synthetic Fiber', dataKey: "crafting_synthetic_fiber@quantity!whole" },
+        { title: 'Magazine', dataKey: "crafting_magazine@quantity!whole" },
+        { title: 'Grip', dataKey: "crafting_grip@quantity!whole" },
+        { title: 'Alien Fiber', dataKey: "crafting_alien_fiber@quantity!whole" },
+        { title: 'Carbon Fiber', dataKey: "crafting_carbon_fiber@quantity!whole" },
+        { title: 'Steel', dataKey: "crafting_steel@quantity!whole" },
+        { title: 'Chrome Alloy', dataKey: "crafting_chrome_alloy@quantity!whole" },
+        { title: 'Alien Bulwark', dataKey: "crafting_alien_bulwark@quantity!whole" },
+        { title: 'Kevlar Fiber', dataKey: "crafting_kevlar_fiber@quantity!whole" },
+        { title: 'Doron Plate', dataKey: "crafting_doron_plate@quantity!whole" },//20
+        { title: 'Shells', dataKey: "crafting_shells@quantity!whole" },
+        { title: 'Bio-Mesh', dataKey: "crafting_biomesh@quantity!whole" },
+        { title: 'Reflectium', dataKey: "crafting_reflectium@quantity!whole" },
+        { title: 'Titanium', dataKey: "crafting_titanium@quantity!whole" },
+        { title: 'Silencer', dataKey: "crafting_silencer@quantity!whole" },
+        { title: 'Scope', dataKey: "crafting_scope@quantity!whole" },
+        { title: 'Power Cell', dataKey: "crafting_power_cell@quantity!whole" },
+        { title: 'Alien Alloy', dataKey: "crafting_alien_alloy@quantity!whole" },
+        { title: 'Xenosaur Hide', dataKey: "crafting_xenosaur_hide@quantity!whole" },
+        { title: 'Xenosaur Venom', dataKey: "crafting_xenosaur_venom@quantity!whole" },//30
+        { title: 'Xenosaur Fang', dataKey: "crafting_xenosaur_fang@quantity!whole" },
+        { title: 'Strider Emitter', dataKey: "strider_alien_emitter@quantity!whole" },
+    
     ];
     const costsColumnMap = {
-        '*': [1,2,32],       
+        '*': [1,2],       
     };
     const missionsColumnMap = {
-        '*': [1,2,32],     
+        '*': [1,2],     
     };
     const statsColumnMap = {
-        '*': [2,3,4,5,6,7,8,9,10,11,12,13],                         
+        '*': [1,2],
+        gear_core_helmet:[3,4,5],
+        gear_core_chest:[3,4,5],
+        gear_core_boots:[3,4,6],
+        gear_core_gun:[7,8],
+        gear_uncommon_helmet:[3,4,9,10],
+        gear_uncommon_chest:[3,4,10,11],
+        gear_uncommon_boots:[3,6,10,11],
+        gear_uncommon_gun:[7,8,13],        
+        gear_rare_helmet:[5,11,15,16,29],  
+        gear_rare_chest:[3,4,10,11,15,29],  
+        gear_rare_boots:[3,6,11,16,29],  
+        gear_rare_gun:[7,12,13,17,30],  
+        gear_epic_helmet:[10,11,15,16,20,29],  
+        gear_epic_chest:[10,11,15,19,29],  
+        gear_epic_boots:[10,11,15,20,29],  
+        gear_epic_gun:[12,13,16,17,21,30],  
+        gear_augmented_helmet:[16,19,20,24,29],  
+        gear_augmented_chest:[15,19,20,24,29],  
+        gear_augmented_boots:[15,19,20,24,29],  
+        gear_augmented_gun:[16,21,25,26,30],  
+        gear_augmented_gun_2:[16,17,21,26,30],  
+        gear_augmented_gun_3:[16,17,21,25,30],
+        gear_prototype_helmet:[11,14,18,23,29],
+        gear_prototype_chest:[10,14,18,23,29],
+        gear_prototype_boots:[11,14,18,23,29],
+        gear_storm_helm_set:[22,23,27,28,29],
+        gear_storm_chest_set:[18,24,27,28,29],
+        gear_storm_boots_set:[22,24,27,28,29],
+        gear_storm_gun_set:[21,26,27,28,30],
+        gear_prototype_helm_neural:[23,27,28,29,31],
+        gear_prototype_chest_neural:[22,24,27,28,29,30,31],
+        gear_prototype_boots_neural:[22,23,24,28,29,30,31],
+        gear_prototype_gun_neural:[26,27,28,30,31],
+        gear_vanguard_helm:[23,27,28,29,31,32],
+        gear_vanguard_chest:[18,22,24,27,28,32],
+        gear_vanguard_boots:[14,23,24,28,29,32],
+        gear_vanguard_gun:[26,27,28,30,31,32],              
     };
 
     // expose some indexes for other modules
@@ -80,7 +136,7 @@ const Tables = (function(Helpers){
     const TIME_COL = 3;
 
     // DataTables instances (initialized later)
-    const VISIBLE_ROWS = 12;
+    const VISIBLE_ROWS = 4;
 
     function initDefaults(){
         $.extend(true, $.fn.dataTable.defaults, {
