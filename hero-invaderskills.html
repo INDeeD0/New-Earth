@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="hero-invaderskills/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="topNav">
+
+  <button class="nav-btn" data-page="Research.html">Research</button>
+  <button class="nav-btn" data-page="index.html">Structures</button>
+
+  <!-- ✅ Dropdown -->
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="hero.html">Hero ▾</button>
+
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="hero-skills.html">Hero Skills</button>
+      <button class="nav-btn" data-page="hero-invaderskills.html">Invader Skills</button>
+      <button class="nav-btn" data-page="hero-gear.html">Gear</button>
+    </div>
+  </div>
+
+</div>
+<div id="save">
+  <button id="saveLevelsBtn" class="nav-btn">Save</button>
+  <button id="resetLevelsBtn" class="nav-btn">&#x1F501;</button>
+  <input type="file" id="loadLevelsFile" style="display:none" accept=".txt">
+  <button id="loadLevelsBtn" class="nav-btn">Load</button>
+</div>
+<!-- Tree -->
+<div class="container" id="map1">
+  <div class="section root" style="grid-column:1; grid-row:2;" data-key="Energy Usage I"><input type="number" class="no-spinners">&nbsp;Energy Usage I</div>
+  <div class="section" style="grid-column:2; grid-row:1;" data-key="Energy Restoration I"><input type="number" class="no-spinners">&nbsp;Energy Restoration I</div>
+  <div class="section" style="grid-column:2; grid-row:3;" data-key="Maximum Energy I"><input type="number" class="no-spinners">&nbsp;Maximum Energy I</div>
+  <div class="section" style="grid-column:3; grid-row:1;" data-key="Hero Invader Attack I"><input type="number" class="no-spinners">&nbsp;Hero Invader Attack I</div>
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="Maximum Energy II"><input type="number" class="no-spinners">&nbsp;Maximum Energy II</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="Hero Invader Speed I"><input type="number" class="no-spinners">&nbsp;Hero Invader Speed I</div>
+  <div class="section" style="grid-column:4; grid-row:1;" data-key="Sustained Attack I"><input type="number" class="no-spinners">&nbsp;Sustained Attack I</div>
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="Sustained Attack II"><input type="number" class="no-spinners">&nbsp;Sustained Attack II</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="Spoils of War I"><input type="number" class="no-spinners">&nbsp;Spoils of War I</div>
+  <div class="section" style="grid-column:5; grid-row:1;" data-key="Energy Restoration II"><input type="number" class="no-spinners">&nbsp;Energy Restoration II</div>
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="Hero Invader Speed II"><input type="number" class="no-spinners">&nbsp;Hero Invader Speed II</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="Energy Usage II"><input type="number" class="no-spinners">&nbsp;Energy Usage II</div>
+  <div class="section" style="grid-column:6; grid-row:1;" data-key="Hero Invader Attack II"><input type="number" class="no-spinners">&nbsp;Hero Invader Attack II</div>
+  <div class="section" style="grid-column:6; grid-row:2;" data-key="Spoils of War II"><input type="number" class="no-spinners">&nbsp;Spoils of War II</div>
+  <div class="section" style="grid-column:6; grid-row:3;" data-key="Effortless Victory"><input type="number" class="no-spinners">&nbsp;Effortless Victory</div>
+  <div class="section" style="grid-column:7; grid-row:2;" data-key="Maximum Energy III"><input type="number" class="no-spinners">&nbsp;Maximum Energy III</div>
+  <div class="section" style="grid-column:7; grid-row:3;" data-key="Energy Usage III"><input type="number" class="no-spinners">&nbsp;Energy Usage III</div>
+  <svg id="lines1"></svg>
+</div>
+
+
+<!-- Table Toggle -->
+<div id="tableToggle">
+<label for="autoLinkToggle" class="info-label">
+  <input type="checkbox" id="autoLinkToggle" unchecked>
+  Auto-total
+  <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
+<!-- </label>
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <button class="toggle-table-btn" data-table="missions">Main Missions</button>
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+  </div> -->
+<!-- Tables -->
+<div id="costsMasterContainer"></div>
+<div id="missionsMasterContainer"></div>
+<div id="statsMasterContainer"></div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table></div>
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table></div>
+<div id="statsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="statsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="statsTotalsHeader"></tr></thead>
+      <tbody><tr id="statsTotalsBody"></tr></tbody>
+  </table></div>    
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script src="hero-invaderskills/helpers.js"></script>
+<script src="hero-invaderskills/data-loader.js"></script>
+<script src="hero-invaderskills/tables-init.js"></script>
+<script src="hero-invaderskills/totals.js"></script>  
+<script src="hero-invaderskills/tree-and-ui.js"></script>
+<script src="hero-invaderskills/main.js"></script>
+</body>
+</html>

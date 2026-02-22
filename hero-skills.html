@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="hero-heroskills/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="topNav">
+
+  <button class="nav-btn" data-page="Research.html">Research</button>
+  <button class="nav-btn" data-page="index.html">Structures</button>
+
+  <!-- ✅ Dropdown -->
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="hero.html">Hero ▾</button>
+
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="hero-skills.html">Hero Skills</button>
+      <button class="nav-btn" data-page="hero-invaderskills.html">Invader Skills</button>
+      <button class="nav-btn" data-page="hero-gear.html">Gear</button>
+    </div>
+  </div>
+
+</div>
+<div id="save">
+  <button id="saveLevelsBtn" class="nav-btn">Save</button>
+  <button id="resetLevelsBtn" class="nav-btn">&#x1F501;</button>
+  <input type="file" id="loadLevelsFile" style="display:none" accept=".txt">
+  <button id="loadLevelsBtn" class="nav-btn">Load</button>
+</div>
+<!-- Tree -->
+<div class="container" id="map1">
+  <div class="section root" style="grid-column:1; grid-row:1;" data-key="Troop Production I"><input type="number" class="no-spinners">&nbsp;Troop Production I</div>
+  <div class="section" style="grid-column:1; grid-row:3;" data-key="Food Production I"><input type="number" class="no-spinners">&nbsp;Food Production I</div>
+  <div class="section" style="grid-column:2; grid-row:1;" data-key="Construction I"><input type="number" class="no-spinners">&nbsp;Construction I</div>
+  <div class="section" style="grid-column:2; grid-row:3;" data-key="Research I"><input type="number" class="no-spinners">&nbsp;Research I</div>
+  <div class="section" style="grid-column:3; grid-row:1;" data-key="Factory Production I"><input type="number" class="no-spinners">&nbsp;Factory Production I</div>
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="Alloy Production I"><input type="number" class="no-spinners">&nbsp;Alloy Production I</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="Oil Production I"><input type="number" class="no-spinners">&nbsp;Oil Production I</div>
+  <div class="section" style="grid-column:4; grid-row:1;" data-key="Defense Production I"><input type="number" class="no-spinners">&nbsp;Defense Production I</div>
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="Neutronium Production I"><input type="number" class="no-spinners">&nbsp;Neutronium Production I</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="Tech Production I"><input type="number" class="no-spinners">&nbsp;Tech Production I</div>
+  <div class="section" style="grid-column:5; grid-row:1;" data-key="Defense Effectiveness I"><input type="number" class="no-spinners">&nbsp;Defense Effectiveness I</div>
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="Gathering Loot Chance"><input type="number" class="no-spinners">&nbsp;Gathering Loot Chance</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="Gatherer I"><input type="number" class="no-spinners">&nbsp;Gatherer I</div>
+  <div class="section" style="grid-column:6; grid-row:1;" data-key="Light Infantry Attack I"><input type="number" class="no-spinners">&nbsp;Light Infantry Attack I</div>
+  <div class="section" style="grid-column:6; grid-row:2;" data-key="Heavy Infantry Attack I"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Attack I</div>
+  <div class="section" style="grid-column:6; grid-row:3;" data-key="Food Production II"><input type="number" class="no-spinners">&nbsp;Food Production II</div>
+  <div class="section" style="grid-column:7; grid-row:1;" data-key="Ground Vehicle Attack I"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Attack I</div>
+  <div class="section" style="grid-column:7; grid-row:2;" data-key="Air Vehicle Attack I"><input type="number" class="no-spinners">&nbsp;Air Vehicle Attack I</div>
+  <div class="section" style="grid-column:7; grid-row:3;" data-key="Oil Production II"><input type="number" class="no-spinners">&nbsp;Oil Production II</div>
+  <div class="section" style="grid-column:8; grid-row:1;" data-key="Infantry Defense I"><input type="number" class="no-spinners">&nbsp;Infantry Defense I</div>
+  <div class="section" style="grid-column:8; grid-row:2;" data-key="Vehicle Defense I"><input type="number" class="no-spinners">&nbsp;Vehicle Defense I</div>
+  <div class="section" style="grid-column:8; grid-row:3;" data-key="Alloy Production II"><input type="number" class="no-spinners">&nbsp;Alloy Production II</div>
+  <div class="section" style="grid-column:9; grid-row:1;" data-key="Troop Production II"><input type="number" class="no-spinners">&nbsp;Troop Production II</div>
+  <div class="section" style="grid-column:9; grid-row:2;" data-key="Neutronium Production II"><input type="number" class="no-spinners">&nbsp;Neutronium Production II</div>
+  <div class="section" style="grid-column:9; grid-row:3;" data-key="Tech Production II"><input type="number" class="no-spinners">&nbsp;Tech Production II</div>
+  <div class="section" style="grid-column:10; grid-row:1;" data-key="Factory Production II"><input type="number" class="no-spinners">&nbsp;Factory Production II</div>
+  <div class="section" style="grid-column:10; grid-row:2;" data-key="Light Infantry Attack II"><input type="number" class="no-spinners">&nbsp;Light Infantry Attack II</div>
+  <div class="section" style="grid-column:10; grid-row:3;" data-key="Gatherer II"><input type="number" class="no-spinners">&nbsp;Gatherer II</div>
+  <div class="section" style="grid-column:11; grid-row:1;" data-key="Ground Vehicle Attack II"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Attack II</div>
+  <div class="section" style="grid-column:11; grid-row:2;" data-key="Heavy Infantry Attack II"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Attack II</div>
+  <div class="section" style="grid-column:11; grid-row:3;" data-key="Construction II"><input type="number" class="no-spinners">&nbsp;Construction II</div>
+  <div class="section" style="grid-column:12; grid-row:1;" data-key="Air Vehicle Attack II"><input type="number" class="no-spinners">&nbsp;Air Vehicle Attack II</div>
+  <div class="section" style="grid-column:12; grid-row:2;" data-key="Infantry Defense II"><input type="number" class="no-spinners">&nbsp;Infantry Defense II</div>
+  <div class="section" style="grid-column:12; grid-row:3;" data-key="Research II"><input type="number" class="no-spinners">&nbsp;Research II</div>
+  <div class="section" style="grid-column:13; grid-row:1;" data-key="Vehicle Defense II"><input type="number" class="no-spinners">&nbsp;Vehicle Defense II</div>
+  <div class="section" style="grid-column:13; grid-row:2;" data-key="Combat Veteran"><input type="number" class="no-spinners">&nbsp;Combat Veteran</div>
+  <div class="section" style="grid-column:13; grid-row:3;" data-key="Food Production III"><input type="number" class="no-spinners">&nbsp;Food Production III</div>
+  <div class="section" style="grid-column:14; grid-row:1;" data-key="Defense Production II"><input type="number" class="no-spinners">&nbsp;Defense Production II</div>
+  <div class="section" style="grid-column:14; grid-row:2;" data-key="Determination"><input type="number" class="no-spinners">&nbsp;Determination</div>
+  <div class="section" style="grid-column:14; grid-row:3;" data-key="Oil Production III"><input type="number" class="no-spinners">&nbsp;Oil Production III</div>
+  <div class="section" style="grid-column:15; grid-row:1;" data-key="Defense Effectiveness II"><input type="number" class="no-spinners">&nbsp;Defense Effectiveness II</div>
+  <div class="section" style="grid-column:15; grid-row:2;" data-key="Alloy Production III"><input type="number" class="no-spinners">&nbsp;Alloy Production III</div>
+  <div class="section" style="grid-column:15; grid-row:3;" data-key="Tech Production III"><input type="number" class="no-spinners">&nbsp;Tech Production III</div>
+  <div class="section" style="grid-column:16; grid-row:2;" data-key="Neutronium Production III"><input type="number" class="no-spinners">&nbsp;Neutronium Production III</div>
+
+  
+  <svg id="lines1"></svg>
+</div>
+
+<!-- Table Toggle -->
+<div id="tableToggle">
+<label for="autoLinkToggle" class="info-label">
+  <input type="checkbox" id="autoLinkToggle" unchecked>
+  Auto-total
+  <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
+<!-- </label>
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <button class="toggle-table-btn" data-table="missions">Main Missions</button>
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+  </div> -->
+<!-- Tables -->
+<div id="costsMasterContainer"></div>
+<div id="missionsMasterContainer"></div>
+<div id="statsMasterContainer"></div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table></div>
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table></div>
+<div id="statsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="statsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="statsTotalsHeader"></tr></thead>
+      <tbody><tr id="statsTotalsBody"></tr></tbody>
+  </table></div>    
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script src="hero-heroskills/helpers.js"></script>
+<script src="hero-heroskills/data-loader.js"></script>
+<script src="hero-heroskills/tables-init.js"></script>
+<script src="hero-heroskills/totals.js"></script>  
+<script src="hero-heroskills/tree-and-ui.js"></script>
+<script src="hero-heroskills/main.js"></script>
+</body>
+</html>

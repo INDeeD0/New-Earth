@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="hero-gear/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="topNav">
+
+  <button class="nav-btn" data-page="Research.html">Research</button>
+  <button class="nav-btn" data-page="index.html">Structures</button>
+
+  <!-- ✅ Dropdown -->
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="hero.html">Hero ▾</button>
+
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="hero-skills.html">Hero Skills</button>
+      <button class="nav-btn" data-page="hero-invaderskills.html">Invader Skills</button>
+      <button class="nav-btn" data-page="hero-gear.html">Gear</button>
+    </div>
+  </div>
+
+</div>
+<div id="save">
+  <button id="saveLevelsBtn" class="nav-btn">Save</button>
+  <button id="resetLevelsBtn" class="nav-btn">&#x1F501;</button>
+  <input type="file" id="loadLevelsFile" style="display:none" accept=".txt">
+  <button id="loadLevelsBtn" class="nav-btn">Load</button>
+</div>
+<!-- Tree -->
+<div class="container" id="map1">
+  <div class="section root" style="grid-column:1; grid-row:1;" data-key="Standard Helmet"><input type="number" class="no-spinners">&nbsp;Standard Helmet</div>
+  <div class="section" style="grid-column:1; grid-row:2;" data-key="Standard Chest"><input type="number" class="no-spinners">&nbsp;Standard Chest</div>
+  <div class="section" style="grid-column:1; grid-row:4;" data-key="Standard Boots"><input type="number" class="no-spinners">&nbsp;Standard Boots</div>
+  <div class="section" style="grid-column:1; grid-row:3;" data-key="Standard Gun"><input type="number" class="no-spinners">&nbsp;Standard Gun</div>  
+  <div class="section" style="grid-column:2; grid-row:1;" data-key="Reinforced Helmet"><input type="number" class="no-spinners">&nbsp;Reinforced Helmet</div>
+  <div class="section" style="grid-column:2; grid-row:2;" data-key="Reinforced Chest"><input type="number" class="no-spinners">&nbsp;Reinforced Chest</div>
+  <div class="section" style="grid-column:2; grid-row:4;" data-key="Reinforced Boots"><input type="number" class="no-spinners">&nbsp;Reinforced Boots</div>
+  <div class="section" style="grid-column:2; grid-row:3;" data-key="Reinforced Gun"><input type="number" class="no-spinners">&nbsp;Reinforced Gun</div>
+  <div class="section" style="grid-column:3; grid-row:1;" data-key="Outer Skull"><input type="number" class="no-spinners">&nbsp;Outer Skull</div>
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="Fortifying Armour"><input type="number" class="no-spinners">&nbsp;Fortifying Armour</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="Educating Crushers"><input type="number" class="no-spinners">&nbsp;Educating Crushers</div>
+  <div class="section" style="grid-column:3; grid-row:4;" data-key="Wreched Ambusher"><input type="number" class="no-spinners">&nbsp;Wreched Ambusher</div>
+  <div class="section" style="grid-column:4; grid-row:1;" data-key="Technician's Cap"><input type="number" class="no-spinners">&nbsp;Technician's Cap</div>
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="Inspired Scrubs"><input type="number" class="no-spinners">&nbsp;Inspired Scrubs</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="Medic's Boots"><input type="number" class="no-spinners">&nbsp;Medic's Boots</div>
+  <div class="section" style="grid-column:4; grid-row:4;" data-key="Doomblaster"><input type="number" class="no-spinners">&nbsp;Doomblaster</div>
+  <div class="section" style="grid-column:5; grid-row:1;" data-key="Architect's Brain"><input type="number" class="no-spinners">&nbsp;Architect's Brain</div>
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="Medic-Aid Plate"><input type="number" class="no-spinners">&nbsp;Medic-Aid Plate</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="Stalwart Stompers"><input type="number" class="no-spinners">&nbsp;Stalwart Stompers</div>
+  <div class="section" style="grid-column:5; grid-row:4;" data-key="Ferocious Defender"><input type="number" class="no-spinners">&nbsp;Ferocious Defender</div>
+  <div class="section" style="grid-column:5; grid-row:5;" data-key="Lost General's Precision"><input type="number" class="no-spinners">&nbsp;Lost General's Precision</div>
+  <div class="section" style="grid-column:5; grid-row:6;" data-key="Eagle Eyed Devestator"><input type="number" class="no-spinners">&nbsp;Eagle Eyed Devestator</div>
+  <div class="section" style="grid-column:6; grid-row:1;" data-key="Infused Defender's Visor"><input type="number" class="no-spinners">&nbsp;Infused Defender's Visor</div>
+  <div class="section" style="grid-column:6; grid-row:2;" data-key="Infused Nitrosuit"><input type="number" class="no-spinners">&nbsp;Infused Nitrosuit</div>
+  <div class="section" style="grid-column:6; grid-row:3;" data-key="Infused Machinist Treads"><input type="number" class="no-spinners">&nbsp;Infused Machinist Treads</div>
+  <div class="section" style="grid-column:7; grid-row:1;" data-key="Storm Surge Helmet"><input type="number" class="no-spinners">&nbsp;Storm Surge Helmet</div>
+  <div class="section" style="grid-column:7; grid-row:2;" data-key="Storm Surge Guard"><input type="number" class="no-spinners">&nbsp;Storm Surge Guard</div>
+  <div class="section" style="grid-column:7; grid-row:3;" data-key="Storm Surge Treads"><input type="number" class="no-spinners">&nbsp;Storm Surge Treads</div>
+  <div class="section" style="grid-column:7; grid-row:4;" data-key="Storm Surge Rifle"><input type="number" class="no-spinners">&nbsp;Storm Surge Rifle</div>
+  <div class="section" style="grid-column:8; grid-row:1;" data-key="Neural Strike Helmet"><input type="number" class="no-spinners">&nbsp;Neural Strike Helmet</div>
+  <div class="section" style="grid-column:8; grid-row:2;" data-key="Neural Strike Armour"><input type="number" class="no-spinners">&nbsp;Neural Strike Armour</div>
+  <div class="section" style="grid-column:8; grid-row:3;" data-key="Neural Strike Boots"><input type="number" class="no-spinners">&nbsp;Neural Strike Boots</div>
+  <div class="section" style="grid-column:8; grid-row:4;" data-key="Neural Strike Shotgun"><input type="number" class="no-spinners">&nbsp;Neural Strike Shotgun</div>
+  <div class="section" style="grid-column:9; grid-row:1;" data-key="Vanguard Helmet"><input type="number" class="no-spinners">&nbsp;Vanguard Helmet</div>
+  <div class="section" style="grid-column:9; grid-row:2;" data-key="Vanguard Armour"><input type="number" class="no-spinners">&nbsp;Vanguard Armour</div>
+  <div class="section" style="grid-column:9; grid-row:3;" data-key="Vanguard Boots"><input type="number" class="no-spinners">&nbsp;Vanguard Boots</div>
+  <div class="section" style="grid-column:9; grid-row:4;" data-key="Vanguard DMR"><input type="number" class="no-spinners">&nbsp;Vanguard DMR</div>             
+  <svg id="lines1"></svg>
+</div>
+
+
+<!-- Table Toggle -->
+<div id="tableToggle">
+<label for="autoLinkToggle" class="info-label">
+  <input type="checkbox" id="autoLinkToggle" unchecked>
+  Auto-total
+  <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
+<!-- </label>
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <button class="toggle-table-btn" data-table="missions">Main Missions</button>
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+  </div> -->
+<!-- Tables -->
+<div id="costsMasterContainer"></div>
+<div id="missionsMasterContainer"></div>
+<div id="statsMasterContainer"></div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table></div>
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table></div>
+<div id="statsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="statsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="statsTotalsHeader"></tr></thead>
+      <tbody><tr id="statsTotalsBody"></tr></tbody>
+  </table></div>    
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script src="hero-gear/helpers.js"></script>
+<script src="hero-gear/data-loader.js"></script>
+<script src="hero-gear/tables-init.js"></script>
+<script src="hero-gear/totals.js"></script>  
+<script src="hero-gear/tree-and-ui.js"></script>
+<script src="hero-gear/main.js"></script>
+</body>
+</html>
