@@ -127187,7 +127187,7 @@
                         "tiers": [
                             {
                                 "subtype": "entry",
-                                "points_required": 1500,
+                                "points_required": 2500,
                                 "reward": {
                                     "currencies": [
                                         {
@@ -127199,21 +127199,13 @@
                                         {
                                             "subtype": "strider_alien_emitter",
                                             "quantity": 25
-                                        },
-                                        {
-                                            "subtype": "megaship_component",
-                                            "quantity": 2
-                                        },
-                                        {
-                                            "subtype": "boost_1h",
-                                            "quantity": 3
                                         }
                                     ]
                                 }
                             },
                             {
                                 "subtype": "bronze",
-                                "points_required": 4000,
+                                "points_required": 7500,
                                 "reward": {
                                     "currencies": [
                                         {
@@ -127225,21 +127217,13 @@
                                         {
                                             "subtype": "strider_alien_emitter",
                                             "quantity": 50
-                                        },
-                                        {
-                                            "subtype": "megaship_alien_augment",
-                                            "quantity": 2
-                                        },
-                                        {
-                                            "subtype": "boost_1h",
-                                            "quantity": 5
                                         }
                                     ]
                                 }
                             },
                             {
                                 "subtype": "silver",
-                                "points_required": 10000,
+                                "points_required": 17500,
                                 "reward": {
                                     "currencies": [
                                         {
@@ -127255,21 +127239,13 @@
                                         {
                                             "subtype": "megaship_component",
                                             "quantity": 5
-                                        },
-                                        {
-                                            "subtype": "core_neutronium_crystal",
-                                            "quantity": 1
-                                        },
-                                        {
-                                            "subtype": "boost_1h",
-                                            "quantity": 12
                                         }
                                     ]
                                 }
                             },
                             {
                                 "subtype": "gold",
-                                "points_required": 17500,
+                                "points_required": 30000,
                                 "reward": {
                                     "currencies": [
                                         {
@@ -127298,22 +127274,14 @@
                                         },
                                         {
                                             "subtype": "megaship_alien_augment",
-                                            "quantity": 5
-                                        },
-                                        {
-                                            "subtype": "core_neutronium_crystal",
                                             "quantity": 2
-                                        },
-                                        {
-                                            "subtype": "boost_3h",
-                                            "quantity": 8
                                         }
                                     ]
                                 }
                             },
                             {
                                 "subtype": "platinum",
-                                "points_required": 27500,
+                                "points_required": 50000,
                                 "reward": {
                                     "currencies": [
                                         {
@@ -127342,11 +127310,7 @@
                                         },
                                         {
                                             "subtype": "core_neutronium_crystal",
-                                            "quantity": 3
-                                        },
-                                        {
-                                            "subtype": "boost_8h",
-                                            "quantity": 4
+                                            "quantity": 2
                                         }
                                     ]
                                 }
@@ -138513,7 +138477,7 @@
                     "currencies": [
                         {
                             "subtype": "currency1",
-                            "quantity": 125000
+                            "quantity": 110000
                         }
                     ],
                     "items": [
@@ -138592,7 +138556,7 @@
                             "quantity": 34500
                         }
                     ],
-                    "purchase_xp": 125000
+                    "purchase_xp": 110000
                 },
                 "epic_id": "2f405ef380944a8a96020dc10a3e2a40",
                 "epic_audience_id": "e5bed641905c45c0b266418a401e28bc"
@@ -138613,7 +138577,7 @@
                     "currencies": [
                         {
                             "subtype": "currency1",
-                            "quantity": 345000
+                            "quantity": 315000
                         }
                     ],
                     "items": [
@@ -138700,7 +138664,7 @@
                             "quantity": 90000
                         }
                     ],
-                    "purchase_xp": 345000
+                    "purchase_xp": 315000
                 },
                 "epic_id": "05b7df735be14e77be22eddb8b381f9d",
                 "epic_audience_id": "68c7d2d8b980408fbdb56c84d9b1dd84"
@@ -142650,7 +142614,7 @@
                             "quantity": 1
                         }
                     ],
-                    "purchase_xp": 6500
+                    "purchase_xp": 600
                 },
                 "epic_id": "fd87962ed2b84962826975b9e25d88d0",
                 "epic_audience_id": "c126212e75064ec3b211c75058c3fe55"
@@ -267999,7 +267963,7 @@
                             },
                             {
                                 "subtype": "item",
-                                "target_subtype": "crafting_xenosaur_venom",
+                                "target_subtype": "crafting_xenosaur_hide",
                                 "quantity": 500
                             }
                         ],
@@ -274338,8 +274302,8 @@
                             },
                             {
                                 "subtype": "item",
-                                "target_subtype": "crafting_xenosaur_venom",
-                                "quantity": 6000
+                                "target_subtype": "crafting_biomesh",
+                                "quantity": 10500
                             }
                         ],
                         "attributes": [
