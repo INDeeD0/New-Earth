@@ -4619,6 +4619,1331 @@
           "quantity": 10
         }
       ]
+    },
+    "vip_level_26": {
+      "points_required": 60000000,
+      "instant_finish_seconds": 18000,
+      "reward": {
+        "vip_seconds": 604800,
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 6000
+          }
+        ]
+      },
+      "stats": [
+        {
+          "subtype": "structure_speed_modifier",
+          "value": 0,
+          "modifier": 0.33
+        },
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": 0.33
+        },
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": 0.315
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": 0.315
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": 0.315
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": 0.315
+        },
+        {
+          "subtype": "currency7_generate_modifier",
+          "value": 0,
+          "modifier": 0.315
+        },
+        {
+          "subtype": "march_speed_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "march_gather_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mission_category1_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "mission_category2_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "march_contest_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "march_rally_speed_modifier",
+          "value": 0,
+          "modifier": 0.26
+        },
+        {
+          "subtype": "scan_range",
+          "value": 5,
+          "modifier": 0
+        }
+      ],
+      "mission_generate": [
+        {
+          "subtype": "category1",
+          "quantity": 11
+        },
+        {
+          "subtype": "category2",
+          "quantity": 10
+        }
+      ]
+    },
+    "vip_level_27": {
+      "points_required": 120000000,
+      "instant_finish_seconds": 19200,
+      "reward": {
+        "vip_seconds": 1209600,
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 7000
+          }
+        ]
+      },
+      "stats": [
+        {
+          "subtype": "structure_speed_modifier",
+          "value": 0,
+          "modifier": 0.335
+        },
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": 0.335
+        },
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": 0.33
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": 0.33
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": 0.33
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": 0.33
+        },
+        {
+          "subtype": "currency7_generate_modifier",
+          "value": 0,
+          "modifier": 0.33
+        },
+        {
+          "subtype": "march_speed_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "march_gather_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mission_category1_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "mission_category2_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "march_contest_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "march_rally_speed_modifier",
+          "value": 0,
+          "modifier": 0.27
+        },
+        {
+          "subtype": "scan_range",
+          "value": 5,
+          "modifier": 0
+        }
+      ],
+      "mission_generate": [
+        {
+          "subtype": "category1",
+          "quantity": 11
+        },
+        {
+          "subtype": "category2",
+          "quantity": 11
+        }
+      ]
+    },
+    "vip_level_28": {
+      "points_required": 250000000,
+      "instant_finish_seconds": 20400,
+      "reward": {
+        "vip_seconds": 1209600,
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 8000
+          }
+        ]
+      },
+      "stats": [
+        {
+          "subtype": "structure_speed_modifier",
+          "value": 0,
+          "modifier": 0.34
+        },
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": 0.34
+        },
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": 0.345
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": 0.345
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": 0.345
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": 0.345
+        },
+        {
+          "subtype": "currency7_generate_modifier",
+          "value": 0,
+          "modifier": 0.345
+        },
+        {
+          "subtype": "march_speed_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "march_gather_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mission_category1_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "mission_category2_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "march_contest_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "march_rally_speed_modifier",
+          "value": 0,
+          "modifier": 0.28
+        },
+        {
+          "subtype": "scan_range",
+          "value": 5,
+          "modifier": 0
+        }
+      ],
+      "mission_generate": [
+        {
+          "subtype": "category1",
+          "quantity": 12
+        },
+        {
+          "subtype": "category2",
+          "quantity": 11
+        }
+      ]
+    },
+    "vip_level_29": {
+      "points_required": 500000000,
+      "instant_finish_seconds": 21600,
+      "reward": {
+        "vip_seconds": 1209600,
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 9000
+          }
+        ]
+      },
+      "stats": [
+        {
+          "subtype": "structure_speed_modifier",
+          "value": 0,
+          "modifier": 0.345
+        },
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": 0.345
+        },
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": 0.36
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": 0.36
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": 0.36
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": 0.36
+        },
+        {
+          "subtype": "currency7_generate_modifier",
+          "value": 0,
+          "modifier": 0.36
+        },
+        {
+          "subtype": "march_speed_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "march_gather_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mission_category1_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "mission_category2_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "march_contest_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "march_rally_speed_modifier",
+          "value": 0,
+          "modifier": 0.29
+        },
+        {
+          "subtype": "scan_range",
+          "value": 5,
+          "modifier": 0
+        }
+      ],
+      "mission_generate": [
+        {
+          "subtype": "category1",
+          "quantity": 12
+        },
+        {
+          "subtype": "category2",
+          "quantity": 12
+        }
+      ]
+    },
+    "vip_level_30": {
+      "points_required": 1000000000,
+      "instant_finish_seconds": 22800,
+      "reward": {
+        "vip_seconds": 1209600,
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 10000
+          }
+        ]
+      },
+      "stats": [
+        {
+          "subtype": "structure_speed_modifier",
+          "value": 0,
+          "modifier": 0.35
+        },
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": 0.35
+        },
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": 0.375
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": 0.375
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": 0.375
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": 0.375
+        },
+        {
+          "subtype": "currency7_generate_modifier",
+          "value": 0,
+          "modifier": 0.375
+        },
+        {
+          "subtype": "march_speed_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "march_gather_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mission_category1_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "mission_category2_instant_finish",
+          "value": 1,
+          "modifier": 0
+        },
+        {
+          "subtype": "light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "air_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "air_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_antiair_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_antipersonnel_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_aircraft_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_air_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_sniper_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_light_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_heavy_infantry_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_air_vehicle_attack_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_antiair_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_antipersonnel_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "mech_aircraft_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_air_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "prototype_sniper_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_light_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_heavy_infantry_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "alien_air_vehicle_defense_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "march_contest_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "march_rally_speed_modifier",
+          "value": 0,
+          "modifier": 0.3
+        },
+        {
+          "subtype": "scan_range",
+          "value": 5,
+          "modifier": 0
+        }
+      ],
+      "mission_generate": [
+        {
+          "subtype": "category1",
+          "quantity": 12
+        },
+        {
+          "subtype": "category2",
+          "quantity": 12
+        }
+      ]
     }
   }
 }

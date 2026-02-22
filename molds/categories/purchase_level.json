@@ -1,6 +1,198 @@
 {
   "_subtypes": {
     "purchase_level_0": {},
-    "purchase_level_1": {}
+    "purchase_level_1": {
+      "xp_required": 1,
+      "value": 17500,
+      "reward": {
+        "items": [
+          {
+            "subtype": "bundle_basic_speedup_chest",
+            "quantity": 1
+          },
+          {
+            "subtype": "bundle_basic_resoure_chest",
+            "quantity": 3
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 200000
+          }
+        ]
+      }
+    },
+    "purchase_level_2": {
+      "xp_required": 60000,
+      "value": 40000,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_5000",
+            "quantity": 1
+          },
+          {
+            "subtype": "bundle_basic_speedup_chest",
+            "quantity": 2
+          },
+          {
+            "subtype": "bundle_basic_resoure_chest",
+            "quantity": 5
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 500000
+          }
+        ]
+      }
+    },
+    "purchase_level_3": {
+      "xp_required": 150000,
+      "value": 82500,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_time_30d",
+            "quantity": 1
+          },
+          {
+            "subtype": "bundle_basic_speedup_chest",
+            "quantity": 3
+          },
+          {
+            "subtype": "bundle_basic_resoure_chest",
+            "quantity": 5
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 2000000
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_4_mech_antipersonnel",
+            "quantity": 500
+          },
+          {
+            "subtype": "tier_4_prototype_vehicle_speed",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "purchase_level_4": {
+      "xp_required": 450000,
+      "value": 155000,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_time_30d",
+            "quantity": 1
+          },
+          {
+            "subtype": "bundle_basic_speedup_chest",
+            "quantity": 5
+          },
+          {
+            "subtype": "bundle_basic_resoure_chest",
+            "quantity": 6
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4000000
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_4_prototype_sniper",
+            "quantity": 1500
+          },
+          {
+            "subtype": "tier_4_prototype_vehicle",
+            "quantity": 1500
+          }
+        ]
+      }
+    },
+    "purchase_level_5": {
+      "xp_required": 1000000,
+      "value": 325000,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_time_30d",
+            "quantity": 2
+          },
+          {
+            "subtype": "bundle_speedup_chest",
+            "quantity": 2
+          },
+          {
+            "subtype": "bundle_resoure_chest",
+            "quantity": 4
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 8000000
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_5_mech_new",
+            "quantity": 2000
+          },
+          {
+            "subtype": "tier_5_prototype_new",
+            "quantity": 2000
+          }
+        ]
+      }
+    },
+    "purchase_level_6": {
+      "xp_required": 2500000,
+      "value": 850000,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_time_30d",
+            "quantity": 3
+          },
+          {
+            "subtype": "bundle_speedup_chest",
+            "quantity": 5
+          },
+          {
+            "subtype": "bundle_resoure_chest",
+            "quantity": 6
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 20000000
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_6_specialized_mech",
+            "quantity": 4000
+          },
+          {
+            "subtype": "tier_6_specialized_prototype",
+            "quantity": 4000
+          }
+        ],
+        "hero_xp": 10000000
+      }
+    }
   }
 }

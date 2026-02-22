@@ -1,0 +1,16 @@
+{
+  "_subtypes": {
+    "noon_reward": {
+      "start_time": 32400,
+      "end_time": 82800,
+      "reward": {
+        "items": [
+          {
+            "subtype": "bundle_basic_speedup_chest",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  }
+}

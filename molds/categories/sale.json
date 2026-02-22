@@ -83,7 +83,7 @@
     },
     "purchase_tier6_indomitable": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "tier6_indomitable",
       "duration": 86400,
       "reoffer_expire_delay": 2592000,
@@ -181,7 +181,7 @@
     "purchase_heavy_mech_tier_61_discount": {
       "discount": 20,
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "heavymech_pack_tier61_discount",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -235,7 +235,7 @@
     "purchase_alien_disc_pack_tier61_discount": {
       "discount": 20,
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "alien_disc_pack_tier61_discount",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -377,7 +377,7 @@
     },
     "purchase_attack_rover_pack_tier6": {
       "repurchasable": true,
-      "purchase_limit": 5,
+      "purchase_limit": 20,
       "target_purchase": "armored_rover_pack_tier_6",
       "duration": 43200,
       "reoffer_expire_delay": 3600,
@@ -460,7 +460,7 @@
     },
     "purchase_mobile_cannon_pack_tier6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "mobile_cannon_pack_tier_6",
       "duration": 43200,
       "reoffer_expire_delay": 3600,
@@ -546,7 +546,7 @@
     "purchase_covert_agent_pack_tier61_discount": {
       "discount": 10,
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "covert_agent_pack_tier_61_discount",
       "duration": 259200,
       "reoffer_expire_delay": 604800,
@@ -629,7 +629,7 @@
     },
     "purchase_covert_agent_pack_tier6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "covert_agent_pack_tier_6",
       "duration": 43200,
       "reoffer_expire_delay": 3600,
@@ -743,7 +743,7 @@
     },
     "purchase_alien_disc_pack_tier6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "alien_disc_pack_tier6",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -774,7 +774,7 @@
     },
     "purchase_alien_disc_pack_tier6_custom": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "alien_disc_pack_tier6",
       "duration": 43200,
       "reoffer_expire_delay": 7200,
@@ -893,7 +893,7 @@
     },
     "purchase_alien_inf_pack_tier6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "alien_inf_pack_tier6",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -1003,7 +1003,7 @@
     },
     "purchase_hero_equipment_override_platinum": {
       "repurchasable": true,
-      "purchase_limit": 3,
+      "purchase_limit": 5,
       "target_purchase": "hero_equipment_pack_tier6",
       "duration": 43200,
       "reoffer_expire_delay": 43200,
@@ -1086,7 +1086,7 @@
     },
     "purchase_invader_equipment_override_platinum": {
       "repurchasable": true,
-      "purchase_limit": 3,
+      "purchase_limit": 20,
       "target_purchase": "invader_equipment_pack_tier6",
       "duration": 43200,
       "reoffer_expire_delay": 43200,
@@ -1307,7 +1307,7 @@
     },
     "purchase_advanced_prototype_tier_6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "advancedprototype_pack_tier6",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -1468,7 +1468,7 @@
     },
     "purchase_heavy_mech_tier_6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "heavymech_pack_tier6",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -1629,7 +1629,7 @@
     },
     "purchase_prototype_tier_6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "prototype_pack_tier6",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -1873,7 +1873,7 @@
     },
     "purchase_mech_tier_6": {
       "repurchasable": true,
-      "purchase_limit": 10,
+      "purchase_limit": 20,
       "target_purchase": "mech_pack_tier6",
       "duration": 21600,
       "reoffer_expire_delay": 7200,
@@ -2279,7 +2279,7 @@
     },
     "purchase_ballistic_tier_50": {
       "repurchasable": true,
-      "purchase_limit": 5,
+      "purchase_limit": 10,
       "target_purchase": "ballistic_launcher_pack_tier_50",
       "duration": 259200,
       "reoffer_expire_delay": 604800,
@@ -2300,7 +2300,7 @@
     },
     "purchase_ballistic_tier_60": {
       "repurchasable": true,
-      "purchase_limit": 20,
+      "purchase_limit": 25,
       "target_purchase": "ballistic_launcher_pack_tier_60",
       "duration": 259200,
       "reoffer_expire_delay": 604800,
@@ -2321,7 +2321,7 @@
     },
     "purchase_renegade_tier_50": {
       "repurchasable": true,
-      "purchase_limit": 5,
+      "purchase_limit": 10,
       "target_purchase": "alien_hunter_pack_tier_50",
       "duration": 259200,
       "reoffer_expire_delay": 604800,
@@ -2342,7 +2342,7 @@
     },
     "purchase_renegade_tier_60": {
       "repurchasable": true,
-      "purchase_limit": 20,
+      "purchase_limit": 25,
       "target_purchase": "alien_hunter_pack_tier_60",
       "duration": 259200,
       "reoffer_expire_delay": 604800,
@@ -2363,7 +2363,7 @@
     },
     "purchase_interceptor_tier_50": {
       "repurchasable": true,
-      "purchase_limit": 5,
+      "purchase_limit": 10,
       "target_purchase": "orbital_interceptor_pack_tier_50",
       "duration": 259200,
       "reoffer_expire_delay": 604800,
@@ -2384,8 +2384,134 @@
     },
     "purchase_interceptor_tier_60": {
       "repurchasable": true,
-      "purchase_limit": 20,
+      "purchase_limit": 25,
       "target_purchase": "orbital_interceptor_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_mech_trooper_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "mech_trooper_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_mech_trooper_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "mech_trooper_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_obsidian_hawk_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "obsidian_hawk_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_obsidian_hawk_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "obsidian_hawk_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_alien_breacher_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "alien_breacher_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_alien_breacher_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "alien_breacher_pack_tier_60",
       "duration": 259200,
       "reoffer_expire_delay": 604800,
       "reoffer_purchase_delay": 604800,
@@ -4098,6 +4224,7 @@
     },
     "purchase_tier50_alien_tech_accelerator": {
       "repurchasable": true,
+      "purchase_limit": 5,
       "target_purchase": "tier50_alien_tech_accelerator",
       "duration": 172800,
       "reoffer_expire_delay": 604800,
@@ -4118,6 +4245,7 @@
     },
     "purchase_tier60_alien_tech_accelerator_mega": {
       "repurchasable": true,
+      "purchase_limit": 10,
       "target_purchase": "tier60_alien_tech_accelerator_mega",
       "duration": 172800,
       "reoffer_expire_delay": 604800,

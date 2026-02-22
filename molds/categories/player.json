@@ -97,6 +97,21 @@
     },
     {
       "subtype": "purchase_level_1"
+    },
+    {
+      "subtype": "purchase_level_2"
+    },
+    {
+      "subtype": "purchase_level_3"
+    },
+    {
+      "subtype": "purchase_level_4"
+    },
+    {
+      "subtype": "purchase_level_5"
+    },
+    {
+      "subtype": "purchase_level_6"
     }
   ],
   "daily_rewards": [
@@ -371,7 +386,7 @@
     },
     {
       "min_core_level": 17,
-      "max_core_level": 32,
+      "max_core_level": 35,
       "rewards": [
         {
           "subtype": "period_reward_t3_0"
@@ -484,7 +499,7 @@
     },
     {
       "min_core_level": 17,
-      "max_core_level": 32,
+      "max_core_level": 35,
       "rewards": [
         {
           "subtype": "epic_period_reward_t3_0"
@@ -721,6 +736,26 @@
     },
     {
       "subtype": "vip_level_25"
+    },
+    {
+      "subtype": "vip_level_26"
+    },
+    {
+      "subtype": "vip_level_27"
+    },
+    {
+      "subtype": "vip_level_28"
+    },
+    {
+      "subtype": "vip_level_29"
+    },
+    {
+      "subtype": "vip_level_30"
+    }
+  ],
+  "timezone_rewards": [
+    {
+      "subtype": "noon_reward"
     }
   ]
 }

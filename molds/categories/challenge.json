@@ -375,7 +375,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -924,7 +924,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -1453,7 +1453,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -2010,7 +2010,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -2553,7 +2553,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -3064,7 +3064,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -3597,7 +3597,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -3943,7 +3943,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -4396,7 +4396,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -4911,7 +4911,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -5322,7 +5322,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -5829,7 +5829,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -6343,7 +6343,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -6850,7 +6850,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -7201,7 +7201,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -7734,7 +7734,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -8263,7 +8263,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -8770,7 +8770,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -9275,7 +9275,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -9795,7 +9795,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -10238,7 +10238,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -10732,7 +10732,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -11273,7 +11273,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -11606,7 +11606,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -11885,7 +11885,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -12159,7 +12159,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -12470,7 +12470,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -12799,7 +12799,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -13089,7 +13089,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -13368,7 +13368,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -13716,7 +13716,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -13928,7 +13928,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -14208,7 +14208,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -14487,7 +14487,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -14767,7 +14767,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -15047,7 +15047,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -15326,7 +15326,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "bronze",
@@ -15749,7 +15749,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -16232,7 +16232,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -16697,7 +16697,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -17156,7 +17156,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -17639,7 +17639,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -18120,7 +18120,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -18596,7 +18596,7 @@
         },
         {
           "min_core_level": 21,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -18952,7 +18952,7 @@
         },
         {
           "min_core_level": 22,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -19355,7 +19355,7 @@
         },
         {
           "min_core_level": 22,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -19758,7 +19758,7 @@
         },
         {
           "min_core_level": 22,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -20161,7 +20161,7 @@
         },
         {
           "min_core_level": 22,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -20564,7 +20564,7 @@
         },
         {
           "min_core_level": 22,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -20774,7 +20774,7 @@
       "brackets": [
         {
           "min_core_level": 0,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -21088,7 +21088,7 @@
       "brackets": [
         {
           "min_core_level": 0,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -21659,7 +21659,7 @@
         },
         {
           "min_core_level": 22,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -22632,7 +22632,7 @@
         },
         {
           "min_core_level": 26,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "tiers": [
             {
               "subtype": "entry",
@@ -22956,7 +22956,7 @@
       "brackets": [
         {
           "min_core_level": 0,
-          "max_core_level": 32,
+          "max_core_level": 35,
           "combined": true,
           "tiers": [
             {
@@ -23227,6 +23227,289 @@
               {
                 "subtype": "tier_5_alien_new",
                 "quantity": 125
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "challenge_alliance_defeat_raid_boss_event": {
+      "name": "~challenge_alliance_defeat_raid_boss_event",
+      "point_source": 40,
+      "require_alliance": true,
+      "cross_realm": true,
+      "group": 1,
+      "duration": 259200,
+      "brackets": [
+        {
+          "min_core_level": 0,
+          "max_core_level": 35,
+          "combined": true,
+          "tiers": [
+            {
+              "subtype": "entry",
+              "points_required": 1500,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 25000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "strider_alien_emitter",
+                    "quantity": 25
+                  },
+                  {
+                    "subtype": "megaship_component",
+                    "quantity": 2
+                  },
+                  {
+                    "subtype": "boost_1h",
+                    "quantity": 3
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "bronze",
+              "points_required": 4000,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 50000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "strider_alien_emitter",
+                    "quantity": 50
+                  },
+                  {
+                    "subtype": "megaship_alien_augment",
+                    "quantity": 2
+                  },
+                  {
+                    "subtype": "boost_1h",
+                    "quantity": 5
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "silver",
+              "points_required": 10000,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 100000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "strider_alien_emitter",
+                    "quantity": 100
+                  },
+                  {
+                    "subtype": "megaship_component",
+                    "quantity": 5
+                  },
+                  {
+                    "subtype": "core_neutronium_crystal",
+                    "quantity": 1
+                  },
+                  {
+                    "subtype": "boost_1h",
+                    "quantity": 12
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "gold",
+              "points_required": 17500,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 175000
+                  }
+                ],
+                "units": [
+                  {
+                    "subtype": "tier_6_specialized_mech",
+                    "quantity": 1000
+                  },
+                  {
+                    "subtype": "tier_6_specialized_prototype",
+                    "quantity": 1000
+                  },
+                  {
+                    "subtype": "tier_6_specialized_alien",
+                    "quantity": 1000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "strider_alien_emitter",
+                    "quantity": 175
+                  },
+                  {
+                    "subtype": "megaship_alien_augment",
+                    "quantity": 5
+                  },
+                  {
+                    "subtype": "core_neutronium_crystal",
+                    "quantity": 2
+                  },
+                  {
+                    "subtype": "boost_3h",
+                    "quantity": 8
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "platinum",
+              "points_required": 27500,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 250000
+                  }
+                ],
+                "units": [
+                  {
+                    "subtype": "tier_6_specialized_mech",
+                    "quantity": 3000
+                  },
+                  {
+                    "subtype": "tier_6_specialized_prototype",
+                    "quantity": 3000
+                  },
+                  {
+                    "subtype": "tier_6_specialized_alien",
+                    "quantity": 3000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "strider_alien_emitter",
+                    "quantity": 250
+                  },
+                  {
+                    "subtype": "core_neutronium_crystal",
+                    "quantity": 3
+                  },
+                  {
+                    "subtype": "boost_8h",
+                    "quantity": 4
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "position_bonuses": [
+        {
+          "min_position": 1,
+          "max_position": 1,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 2500
+              },
+              {
+                "subtype": "currency8",
+                "quantity": 500000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "strider_alien_emitter",
+                "quantity": 1000
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 2,
+          "max_position": 3,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 750
+              },
+              {
+                "subtype": "currency8",
+                "quantity": 300000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "strider_alien_emitter",
+                "quantity": 600
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 4,
+          "max_position": 5,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 150000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "strider_alien_emitter",
+                "quantity": 300
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 6,
+          "max_position": 10,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 80000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "strider_alien_emitter",
+                "quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 11,
+          "max_position": 30,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 20000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "strider_alien_emitter",
+                "quantity": 50
               }
             ]
           }

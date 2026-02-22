@@ -1147,7 +1147,7 @@
           "value": 24
         }
       ],
-      "power": 76,
+      "power": 75,
       "build_cost": 360
     },
     "tier_5_ground_vehicle": {
@@ -3091,6 +3091,64 @@
       ],
       "power": 50,
       "build_cost": 100
+    },
+    "tier_5_alien_strider_shield": {
+      "name": "~unit_alien_strider_shield_tier_5",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 5,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 0
+        },
+        {
+          "subtype": "defense",
+          "value": 10
+        },
+        {
+          "subtype": "health",
+          "value": 20
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 60,
+      "build_cost": 100
+    },
+    "tier_6_alien_strider_laser": {
+      "name": "~unit_alien_strider_laser_tier_6",
+      "requirements": [],
+      "costs": [],
+      "unit_type": {
+        "subtype": "alien"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 20
+        },
+        {
+          "subtype": "defense",
+          "value": 1
+        },
+        {
+          "subtype": "health",
+          "value": 1
+        },
+        {
+          "subtype": "speed",
+          "value": 1
+        }
+      ],
+      "power": 110,
+      "build_cost": 200
     },
     "tier_4_mech_infantry": {
       "name": "~unit_mech_infantry_4",

@@ -770,6 +770,116 @@
         }
       ]
     },
+    "realm_buff_rally_leader": {
+      "name": "~title_the_rally_host",
+      "stats": [
+        {
+          "subtype": "rally_capacity",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "march_rally_speed_modifier",
+          "value": 0,
+          "modifier": 0.08
+        },
+        {
+          "subtype": "rally_combat_modifier",
+          "value": 0,
+          "modifier": 0.08
+        }
+      ]
+    },
+    "realm_buff_healer": {
+      "name": "~title_the_healer",
+      "stats": [
+        {
+          "subtype": "light_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "heavy_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "air_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antiair_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_antipersonnel_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_air_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "prototype_sniper_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_light_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_heavy_infantry_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "alien_air_vehicle_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        },
+        {
+          "subtype": "mech_aircraft_hospital_speed_modifier",
+          "value": 0,
+          "modifier": 0.1
+        }
+      ]
+    },
     "realm_debuff_defense": {
       "name": "~title_the_traitor",
       "stats": [

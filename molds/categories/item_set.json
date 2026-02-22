@@ -100,6 +100,99 @@
           ]
         }
       ]
+    },
+    "vanguard_set": {
+      "bonuses": [
+        {},
+        {},
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 20,
+              "modifier": 0
+            },
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 20,
+              "modifier": 0
+            },
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 0.6
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 20,
+              "modifier": 0
+            },
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 0.6
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 40000,
+              "modifier": 0
+            },
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        }
+      ]
     }
   }
 }

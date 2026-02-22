@@ -3079,7 +3079,7 @@
       },
       "annihilate_rewards": [
         {
-          "subtype": "alien_1"
+          "subtype": "alien_2"
         }
       ],
       "hero_rewards": [
@@ -3819,6 +3819,10 @@
           {
             "subtype": "crafting_power_cell",
             "quantity": 2
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 1
           }
         ],
         "currencies": [
@@ -3921,6 +3925,10 @@
           {
             "subtype": "crafting_alien_bulwark",
             "quantity": 8
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 1
           }
         ],
         "currencies": [
@@ -11452,6 +11460,7 @@
     "invader_alien_megaship_40": {
       "name": "~location_raid_alien_megaship",
       "level": 40,
+      "raid_points": 100,
       "require_rally": true,
       "spawn_amount": 0,
       "spawn_chance": 1,
@@ -11481,7 +11490,15 @@
         "items": [
           {
             "subtype": "megaship_component",
-            "quantity": 1
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_15m",
+            "quantity": 10
+          },
+          {
+            "subtype": "core_dark_matter",
+            "quantity": 5
           }
         ],
         "currencies": [
@@ -11505,6 +11522,7 @@
     "invader_alien_megaship_45": {
       "name": "~location_raid_alien_megaship",
       "level": 45,
+      "raid_points": 250,
       "require_rally": true,
       "spawn_amount": 0,
       "spawn_chance": 1,
@@ -11530,7 +11548,15 @@
         "items": [
           {
             "subtype": "megaship_component",
-            "quantity": 4
+            "quantity": 6
+          },
+          {
+            "subtype": "boost_15m",
+            "quantity": 30
+          },
+          {
+            "subtype": "core_dark_matter",
+            "quantity": 10
           }
         ],
         "currencies": [
@@ -11554,6 +11580,7 @@
     "invader_alien_megaship_50": {
       "name": "~location_raid_alien_megaship",
       "level": 50,
+      "raid_points": 500,
       "require_rally": true,
       "spawn_amount": 0,
       "spawn_chance": 1,
@@ -11567,15 +11594,27 @@
         },
         {
           "subtype": "tier_6_alien",
-          "quantity": 4000000
+          "quantity": 3500000
         }
       ],
       "reward": {
-        "hero_xp": 2000000,
+        "hero_xp": 4000000,
         "items": [
           {
             "subtype": "megaship_component",
-            "quantity": 10
+            "quantity": 15
+          },
+          {
+            "subtype": "boost_1h",
+            "quantity": 15
+          },
+          {
+            "subtype": "core_dark_matter",
+            "quantity": 15
+          },
+          {
+            "subtype": "hero_xp_20k",
+            "quantity": 15
           }
         ],
         "currencies": [
@@ -11593,6 +11632,160 @@
       "random_rewards": [
         {
           "subtype": "lootable_alien_megaship_tier50_a"
+        }
+      ]
+    },
+    "invader_titanic_strider_40": {
+      "name": "~location_raid_titanic_strider",
+      "level": 40,
+      "raid_points": 150,
+      "require_rally": true,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "expire_on_empty": false,
+      "despawn": true,
+      "neutralize": true,
+      "units": [
+        {
+          "subtype": "tier_5_alien_strider_shield",
+          "quantity": 300000
+        },
+        {
+          "subtype": "tier_6_alien_strider_laser",
+          "quantity": 400000
+        }
+      ],
+      "reward": {
+        "hero_xp": 1000000,
+        "items": [
+          {
+            "subtype": "strider_alien_emitter",
+            "quantity": 4
+          },
+          {
+            "subtype": "boost_hospital_1h",
+            "quantity": 10
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 125000
+          }
+        ]
+      },
+      "annihilate_rewards": [
+        {
+          "subtype": "annihilate_world_event_cache_grant_1"
+        }
+      ],
+      "random_rewards": [
+        {
+          "subtype": "lootable_alien_titanic_strider_tier40_a"
+        }
+      ]
+    },
+    "invader_titanic_strider_45": {
+      "name": "~location_raid_titanic_strider",
+      "level": 45,
+      "raid_points": 375,
+      "require_rally": true,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "expire_on_empty": false,
+      "despawn": true,
+      "neutralize": true,
+      "units": [
+        {
+          "subtype": "tier_5_alien_strider_shield",
+          "quantity": 850000
+        },
+        {
+          "subtype": "tier_6_alien_strider_laser",
+          "quantity": 950000
+        }
+      ],
+      "reward": {
+        "hero_xp": 2000000,
+        "items": [
+          {
+            "subtype": "strider_alien_emitter",
+            "quantity": 12
+          },
+          {
+            "subtype": "boost_hospital_1h",
+            "quantity": 25
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 300000
+          }
+        ]
+      },
+      "annihilate_rewards": [
+        {
+          "subtype": "annihilate_world_event_cache_grant_3"
+        }
+      ],
+      "random_rewards": [
+        {
+          "subtype": "lootable_alien_titanic_strider_tier45_a"
+        }
+      ]
+    },
+    "invader_titanic_strider_50": {
+      "name": "~location_raid_titanic_strider",
+      "level": 50,
+      "raid_points": 750,
+      "require_rally": true,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "expire_on_empty": false,
+      "despawn": true,
+      "neutralize": true,
+      "units": [
+        {
+          "subtype": "tier_5_alien_strider_shield",
+          "quantity": 1750000
+        },
+        {
+          "subtype": "tier_6_alien_strider_laser",
+          "quantity": 1900000
+        }
+      ],
+      "reward": {
+        "hero_xp": 3000000,
+        "items": [
+          {
+            "subtype": "strider_alien_emitter",
+            "quantity": 35
+          },
+          {
+            "subtype": "boost_hospital_1h",
+            "quantity": 50
+          },
+          {
+            "subtype": "hero_xp_20k",
+            "quantity": 25
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 650000
+          }
+        ]
+      },
+      "annihilate_rewards": [
+        {
+          "subtype": "annihilate_world_event_cache_grant_5"
+        }
+      ],
+      "random_rewards": [
+        {
+          "subtype": "lootable_alien_titanic_strider_tier50_a"
         }
       ]
     }

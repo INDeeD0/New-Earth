@@ -326,6 +326,36 @@
               "level": 32
             }
           ]
+        },
+        {
+          "power": 4342630,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 5242630,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 6242630,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 35
+            }
+          ]
         }
       ]
     },
@@ -653,6 +683,36 @@
               "subtype": "structure",
               "target_subtype": "oilrig",
               "level": 32
+            }
+          ]
+        },
+        {
+          "power": 430775,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "oilrig",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 520775,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "oilrig",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 620775,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "oilrig",
+              "level": 35
             }
           ]
         }
@@ -984,6 +1044,36 @@
               "level": 32
             }
           ]
+        },
+        {
+          "power": 430775,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hydroponicfarm",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 520775,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hydroponicfarm",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 620775,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hydroponicfarm",
+              "level": 35
+            }
+          ]
         }
       ]
     },
@@ -1311,6 +1401,36 @@
               "subtype": "structure",
               "target_subtype": "alloyrefinery",
               "level": 32
+            }
+          ]
+        },
+        {
+          "power": 430275,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "alloyrefinery",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 520275,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "alloyrefinery",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 620275,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "alloyrefinery",
+              "level": 35
             }
           ]
         }
@@ -1642,6 +1762,36 @@
               "level": 32
             }
           ]
+        },
+        {
+          "power": 430275,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "blackmarket",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 520275,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "blackmarket",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 620275,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "blackmarket",
+              "level": 35
+            }
+          ]
         }
       ]
     },
@@ -1969,6 +2119,36 @@
               "subtype": "structure",
               "target_subtype": "supplydepot",
               "level": 32
+            }
+          ]
+        },
+        {
+          "power": 581250,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "supplydepot",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 691250,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "supplydepot",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 811250,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "supplydepot",
+              "level": 35
             }
           ]
         }
@@ -3945,6 +4125,36 @@
               "level": 32
             }
           ]
+        },
+        {
+          "power": 480035,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "globalnetwork",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 595035,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "globalnetwork",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 727535,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "globalnetwork",
+              "level": 35
+            }
+          ]
         }
       ]
     },
@@ -4912,6 +5122,36 @@
               "level": 32
             }
           ]
+        },
+        {
+          "power": 1741660,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "engineering",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 2141660,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "engineering",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 2591660,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "engineering",
+              "level": 35
+            }
+          ]
         }
       ]
     },
@@ -5239,6 +5479,36 @@
               "subtype": "structure",
               "target_subtype": "securitystation",
               "level": 32
+            }
+          ]
+        },
+        {
+          "power": 707705,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "securitystation",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 882705,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "securitystation",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 1082705,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "securitystation",
+              "level": 35
             }
           ]
         }
@@ -5570,6 +5840,36 @@
               "level": 32
             }
           ]
+        },
+        {
+          "power": 1788430,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 2188430,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 2638430,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 35
+            }
+          ]
         }
       ]
     },
@@ -5897,6 +6197,36 @@
               "subtype": "structure",
               "target_subtype": "turret",
               "level": 32
+            }
+          ]
+        },
+        {
+          "power": 805350,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "turret",
+              "level": 33
+            }
+          ]
+        },
+        {
+          "power": 980350,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "turret",
+              "level": 34
+            }
+          ]
+        },
+        {
+          "power": 1180350,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "turret",
+              "level": 35
             }
           ]
         }
@@ -7452,6 +7782,26 @@
               "subtype": "structure",
               "target_subtype": "hero_armory",
               "level": 30
+            }
+          ]
+        },
+        {
+          "power": 216250,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 31
+            }
+          ]
+        },
+        {
+          "power": 256250,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 32
             }
           ]
         }
@@ -35146,7 +35496,7 @@
       ]
     },
     "objective_advent_calendar": {
-      "name": "~objective_anniversary_calendar",
+      "name": "~objective_advent_calendar",
       "temporary": true,
       "category": {
         "subtype": "hidden"
@@ -35158,7 +35508,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1755388800
+              "level": 1765756800
             }
           ],
           "reward": {
@@ -35175,14 +35525,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1755475200
+              "level": 1765843200
             }
           ],
           "reward": {
             "currencies": [
               {
                 "subtype": "currency1",
-                "quantity": 1500
+                "quantity": 2000
               }
             ]
           }
@@ -35192,7 +35542,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1755561600
+              "level": 1765929600
             }
           ],
           "reward": {
@@ -35209,7 +35559,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1755648000
+              "level": 1766016000
             }
           ],
           "reward": {
@@ -35226,7 +35576,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1755734400
+              "level": 1766102400
             }
           ],
           "reward": {
@@ -35243,14 +35593,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1755820800
+              "level": 1766188800
             }
           ],
           "reward": {
             "units": [
               {
                 "subtype": "tier_6_specialized_mech",
-                "quantity": 3000
+                "quantity": 4000
               }
             ]
           }
@@ -35260,30 +35610,13 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1755907200
+              "level": 1766275200
             }
           ],
           "reward": {
             "items": [
               {
                 "subtype": "boost_8h",
-                "quantity": 6
-              }
-            ]
-          }
-        },
-        {
-          "requirements": [
-            {
-              "subtype": "global",
-              "target_subtype": "server_time_gte",
-              "level": 1755993600
-            }
-          ],
-          "reward": {
-            "items": [
-              {
-                "subtype": "megaship_component",
                 "quantity": 10
               }
             ]
@@ -35294,14 +35627,31 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1756080000
+              "level": 1766361600
+            }
+          ],
+          "reward": {
+            "items": [
+              {
+                "subtype": "megaship_component",
+                "quantity": 15
+              }
+            ]
+          }
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "global",
+              "target_subtype": "server_time_gte",
+              "level": 1766448000
             }
           ],
           "reward": {
             "units": [
               {
                 "subtype": "tier_5_mech_new",
-                "quantity": 5000
+                "quantity": 6000
               }
             ]
           }
@@ -35311,14 +35661,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1756166400
+              "level": 1766534400
             }
           ],
           "reward": {
             "units": [
               {
                 "subtype": "tier_5_prototype_new",
-                "quantity": 5000
+                "quantity": 6000
               }
             ]
           }
@@ -35328,14 +35678,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1756252800
+              "level": 1766620800
             }
           ],
           "reward": {
             "units": [
               {
                 "subtype": "tier_5_alien_new",
-                "quantity": 5000
+                "quantity": 6000
               }
             ]
           }
@@ -35345,19 +35695,289 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1756339200
+              "level": 1766707200
             },
             {
               "subtype": "global",
               "target_subtype": "server_time_lte",
-              "level": 1756425600
+              "level": 1767052800
             }
           ],
           "reward": {
             "items": [
               {
                 "subtype": "hero_energy_1000",
-                "quantity": 15
+                "quantity": 20
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_4": {
+      "name": "~objective_growth_bundle_hq_4",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 4
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 7500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_8": {
+      "name": "~objective_growth_bundle_hq_8",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 8
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 12000
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_11": {
+      "name": "~objective_growth_bundle_hq_11",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 11
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 15500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_14": {
+      "name": "~objective_growth_bundle_hq_14",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 14
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 21500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_17": {
+      "name": "~objective_growth_bundle_hq_17",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 17
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 30500
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_20": {
+      "name": "~objective_growth_bundle_hq_20",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 20
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 52000
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_23": {
+      "name": "~objective_growth_bundle_hq_23",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 23
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 83000
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_25": {
+      "name": "~objective_growth_bundle_hq_25",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 25
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 158000
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "objective_growth_bundle_hq_28": {
+      "name": "~objective_growth_bundle_hq_28",
+      "category": {
+        "subtype": "category7"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "player",
+              "target_subtype": "purchased_growth_bundle_hq_3650d"
+            },
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 28
+            }
+          ],
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 370000
               }
             ]
           }

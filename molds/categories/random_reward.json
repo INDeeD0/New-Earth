@@ -17438,38 +17438,77 @@
     "lootable_alien_megaship_tier40_a": {
       "chance": 1,
       "min_quantity": 1,
-      "max_quantity": 2,
+      "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "megaship_alien_augment",
-            "quantity": 1
+            "quantity": 2
           }
         ]
       }
     },
     "lootable_alien_megaship_tier45_a": {
       "chance": 1,
-      "min_quantity": 2,
-      "max_quantity": 4,
+      "min_quantity": 1,
+      "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "megaship_alien_augment",
-            "quantity": 1
+            "quantity": 4
           }
         ]
       }
     },
     "lootable_alien_megaship_tier50_a": {
       "chance": 1,
-      "min_quantity": 4,
-      "max_quantity": 8,
+      "min_quantity": 1,
+      "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "megaship_alien_augment",
-            "quantity": 1
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "lootable_alien_titanic_strider_tier40_a": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_300",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "lootable_alien_titanic_strider_tier45_a": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_1000",
+            "quantity": 7
+          }
+        ]
+      }
+    },
+    "lootable_alien_titanic_strider_tier50_a": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_1000",
+            "quantity": 20
           }
         ]
       }
