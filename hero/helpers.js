@@ -26,14 +26,29 @@ const Helpers = (function(){
     }
 
     function parseNumber(val) {
+
+        if (val === null || val === undefined) return 0;
+
+        // already numeric
         if (typeof val === 'number') return val;
-        if (!val) return 0;
-        val = val.toString().trim().toUpperCase();
+
+        // strip html
+        let str = String(val)
+            .replace(/<[^>]*>/g, '')
+            .trim()
+            .toUpperCase();
+
+        // multiplier support
         let multiplier = 1;
-        if (val.endsWith('K')) { multiplier = 1e3; val = val.slice(0,-1); }
-        else if (val.endsWith('M')) { multiplier = 1e6; val = val.slice(0,-1); }
-        else if (val.endsWith('B')) { multiplier = 1e9; val = val.slice(0,-1); }
-        return (parseFloat(val) || 0) * multiplier;
+        if (str.endsWith('K')) { multiplier = 1e3; str = str.slice(0,-1); }
+        else if (str.endsWith('M')) { multiplier = 1e6; str = str.slice(0,-1); }
+        else if (str.endsWith('B')) { multiplier = 1e9; str = str.slice(0,-1); }
+
+        // 🔥 remove commas + spaces
+        str = str.replace(/,/g,'').replace(/\s/g,'');
+
+        const n = parseFloat(str);
+        return isNaN(n) ? 0 : n * multiplier;
     }
 
     const stripHtml = s => (s||"").toString().replace(/<[^>]*>/g,'').replace(/[%❓]/g,'').trim();
@@ -62,7 +77,6 @@ const Helpers = (function(){
             if (flag === 'whole') {return Math.round(Number(val)).toLocaleString();}
             if (flag === 'percent') {return Math.round(Number(val)) + '%';}
             if (flag === 'percent2') {const num = Number(val);if (isNaN(num)) return '-';return (num * 100).toFixed(2) + '%';}
-            if (flag === 'time') {const raw = Number(val);if (isNaN(raw)) return '-';return raw < 0?formatTime(Math.abs(raw)): formatTime(raw);}
             if (flag === 'requirements') {
                 const reqs = lvl?.requirements;
                 if (!Array.isArray(reqs) || reqs.length === 0) return '-';
