@@ -50,37 +50,37 @@ const Tables = (function(Helpers){
             }
         },
         { title: "LVL" },
-        { title: 'Leather', dataKey: "crafting_leather@quantity!whole" },//3
-        { title: 'Durable Fabric', dataKey: "crafting_durable_fabric@quantity@whole" },
+        { title: '<img src="pictures/Leather.png" class="col-icon">', dataKey: "crafting_leather@quantity!whole" },//3
+        { title: '<img src="pictures/Durable Fabric.png" class="col-icon">', dataKey: "crafting_durable_fabric@quantity@whole" },
         { title: '<img src="pictures/Plastic.png" class="col-icon">', dataKey: "crafting_plastic@quantity!whole" },
-        { title: 'Rubber', dataKey: "crafting_rubber@quantity!whole" },
-        { title: 'Gunmetal', dataKey: "crafting_gunmetal@quantity!whole" },
-        { title: 'Gunpowder', dataKey: "crafting_gunpowder@quantity!whole" },
-        { title: 'Ballistic Plates', dataKey: "crafting_ballistic_plates@quantity!whole" },
-        { title: 'Ceramics', dataKey: "crafting_ceramics@quantity!whole" },//10
+        { title: '<img src="pictures/Rubber.png" class="col-icon">', dataKey: "crafting_rubber@quantity!whole" },
+        { title: '<img src="pictures/Gunmetal.png" class="col-icon">', dataKey: "crafting_gunmetal@quantity!whole" },
+        { title: '<img src="pictures/Gunpowder.png" class="col-icon">', dataKey: "crafting_gunpowder@quantity!whole" },
+        { title: '<img src="pictures/Ballistic Plates.png" class="col-icon">', dataKey: "crafting_ballistic_plates@quantity!whole" },
+        { title: '<img src="pictures/Ceramics.png" class="col-icon">', dataKey: "crafting_ceramics@quantity!whole" },//10
         { title: '<img src="pictures/Synthetic Fiber.png" class="col-icon">', dataKey: "crafting_synthetic_fiber@quantity!whole" },
-        { title: 'Magazine', dataKey: "crafting_magazine@quantity!whole" },
-        { title: 'Grip', dataKey: "crafting_grip@quantity!whole" },
-        { title: 'Alien Fiber', dataKey: "crafting_alien_fiber@quantity!whole" },
+        { title: '<img src="pictures/Magazine.png" class="col-icon">', dataKey: "crafting_magazine@quantity!whole" },
+        { title: '<img src="pictures/Grip.png" class="col-icon">', dataKey: "crafting_grip@quantity!whole" },
+        { title: '<img src="pictures/Alien Fiber.png" class="col-icon">', dataKey: "crafting_alien_fiber@quantity!whole" },
         { title: '<img src="pictures/Carbon Fiber.png" class="col-icon">', dataKey: "crafting_carbon_fiber@quantity!whole" },
-        { title: 'Steel', dataKey: "crafting_steel@quantity!whole" },
+        { title: '<img src="pictures/Steel.png" class="col-icon">', dataKey: "crafting_steel@quantity!whole" },
         { title: '<img src="pictures/Chrome Alloy.png" class="col-icon">', dataKey: "crafting_chrome_alloy@quantity!whole" },
-        { title: 'Alien Bulwark', dataKey: "crafting_alien_bulwark@quantity!whole" },
-        { title: 'Kevlar Fiber', dataKey: "crafting_kevlar_fiber@quantity!whole" },
-        { title: 'Doron Plate', dataKey: "crafting_doron_plate@quantity!whole" },//20
-        { title: 'Shells', dataKey: "crafting_shells@quantity!whole" },
+        { title: '<img src="pictures/Alien Bulwark.png" class="col-icon">', dataKey: "crafting_alien_bulwark@quantity!whole" },
+        { title: '<img src="pictures/Kevlar Fiber.png" class="col-icon">', dataKey: "crafting_kevlar_fiber@quantity!whole" },
+        { title: '<img src="pictures/Doron Plate.png" class="col-icon">', dataKey: "crafting_doron_plate@quantity!whole" },//20
+        { title: '<img src="pictures/Shells.png" class="col-icon">', dataKey: "crafting_shells@quantity!whole" },
         { title: '<img src="pictures/Bio-Mesh.png" class="col-icon">', dataKey: "crafting_biomesh@quantity!whole" },
-        { title: 'Reflectium', dataKey: "crafting_reflectium@quantity!whole" },
-        { title: 'Titanium', dataKey: "crafting_titanium@quantity!whole" },
+        { title: '<img src="pictures/Reflectium.png" class="col-icon">', dataKey: "crafting_reflectium@quantity!whole" },
+        { title: '<img src="pictures/Titanium.png" class="col-icon">', dataKey: "crafting_titanium@quantity!whole" },
         { title: '<img src="pictures/Silencer.png" class="col-icon">', dataKey: "crafting_silencer@quantity!whole" },
         { title: '<img src="pictures/Scope.png" class="col-icon">', dataKey: "crafting_scope@quantity!whole" },
-        { title: 'Power Cell', dataKey: "crafting_power_cell@quantity!whole" },
+        { title: '<img src="pictures/Power Cell.png" class="col-icon">', dataKey: "crafting_power_cell@quantity!whole" },
         { title: '<img src="pictures/Alien Alloy.png" class="col-icon">', dataKey: "crafting_alien_alloy@quantity!whole" },
         { title: '<img src="pictures/Xenosaur Hide.png" class="col-icon">', dataKey: "crafting_xenosaur_hide@quantity!whole" },
-        { title: 'Xenosaur Venom', dataKey: "crafting_xenosaur_venom@quantity!whole" },//30
+        { title: '<img src="pictures/Xenosaur Venom.png" class="col-icon">', dataKey: "crafting_xenosaur_venom@quantity!whole" },//30
         { title: '<img src="pictures/Xenosaur Fang.png" class="col-icon">', dataKey: "crafting_xenosaur_fang@quantity!whole" },
-        { title: 'Strider Emitter', dataKey: "strider_alien_emitter@quantity!whole" },
-      //  '<img src="pictures/Plastic.png" class="col-icon">'
+        { title: '<img src="pictures/Strider Emitter.png" class="col-icon">', dataKey: "strider_alien_emitter@quantity!whole" },
+      //  '<img src="pictures/Reflectium.png" class="col-icon">'
     ];
     const costsColumnMap = {
         '*': [1,2],       
@@ -114,7 +114,7 @@ const Tables = (function(Helpers){
         gear_augmented_gun_3:[16,17,21,25,30],
         gear_prototype_helmet:[11,14,18,23,29],
         gear_prototype_chest:[10,14,18,23,29],
-        gear_prototype_boots:[11,14,18,23,29],
+        gear_prototype_boots:[9,14,18,23,29],
         gear_storm_helm_set:[22,23,27,28,29],
         gear_storm_chest_set:[18,24,27,28,29],
         gear_storm_boots_set:[22,24,27,28,29],
