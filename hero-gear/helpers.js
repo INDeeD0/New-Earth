@@ -77,6 +77,8 @@ const Helpers = (function(){
             if (flag === 'whole') {return Math.round(Number(val)).toLocaleString();}
             if (flag === 'percent') {return Math.round(Number(val)) + '%';}
             if (flag === 'percent2') {const num = Number(val);if (isNaN(num)) return '-';return (num * 100).toFixed(2) + '%';}
+            if (flag === 'time') {const raw = Number(val);if (isNaN(raw)) return '-';return raw < 0 ? '-' + formatTime(Math.abs(raw)): formatTime(raw);}
+            if (flag === 'time2') {const raw = Number(val);if (isNaN(raw)) return raw < 0 ? '-' + formatTime(Math.abs(raw)): formatTime(raw);}
             if (flag === 'requirements') {
                 const reqs = lvl?.requirements;
                 if (!Array.isArray(reqs) || reqs.length === 0) return '-';

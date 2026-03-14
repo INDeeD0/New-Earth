@@ -250,8 +250,8 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
         });
 
         // ✅ Default view = Costs table only
-        $('#statsMasterContainer').css({ height: 'auto', overflow: 'visible', display: 'block' });
-        $('#missionsMasterContainer, #costsMasterContainer').css({ height: 0, overflow: 'hidden', display: 'none' });
+        $('#costsMasterContainer').css({ height: 'auto', overflow: 'visible', display: 'block' });
+        $('#missionsMasterContainer, #statsMasterContainer').css({ height: 0, overflow: 'hidden', display: 'none' });
         $('#costsTotals').hide();
         $('#missionsTotals').hide();
         $('#statsTotals').hide();        

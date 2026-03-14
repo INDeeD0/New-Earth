@@ -17,7 +17,37 @@ const Tables = (function(Helpers){
             return checked;
             }
         },
-        { title: "LVL" },             
+        { title: "LVL" },
+        { title: '<img src="pictures/Leather.png" class="col-icon">', dataKey: "crafting_leather@quantity!whole" },//3
+        { title: '<img src="pictures/Durable Fabric.png" class="col-icon">', dataKey: "crafting_durable_fabric@quantity@whole" },
+        { title: '<img src="pictures/Plastic.png" class="col-icon">', dataKey: "crafting_plastic@quantity!whole" },
+        { title: '<img src="pictures/Rubber.png" class="col-icon">', dataKey: "crafting_rubber@quantity!whole" },
+        { title: '<img src="pictures/Gunmetal.png" class="col-icon">', dataKey: "crafting_gunmetal@quantity!whole" },
+        { title: '<img src="pictures/Gunpowder.png" class="col-icon">', dataKey: "crafting_gunpowder@quantity!whole" },
+        { title: '<img src="pictures/Ballistic Plates.png" class="col-icon">', dataKey: "crafting_ballistic_plates@quantity!whole" },
+        { title: '<img src="pictures/Ceramics.png" class="col-icon">', dataKey: "crafting_ceramics@quantity!whole" },//10
+        { title: '<img src="pictures/Synthetic Fiber.png" class="col-icon">', dataKey: "crafting_synthetic_fiber@quantity!whole" },
+        { title: '<img src="pictures/Magazine.png" class="col-icon">', dataKey: "crafting_magazine@quantity!whole" },
+        { title: '<img src="pictures/Grip.png" class="col-icon">', dataKey: "crafting_grip@quantity!whole" },
+        { title: '<img src="pictures/Alien Fiber.png" class="col-icon">', dataKey: "crafting_alien_fiber@quantity!whole" },
+        { title: '<img src="pictures/Carbon Fiber.png" class="col-icon">', dataKey: "crafting_carbon_fiber@quantity!whole" },
+        { title: '<img src="pictures/Steel.png" class="col-icon">', dataKey: "crafting_steel@quantity!whole" },
+        { title: '<img src="pictures/Chrome Alloy.png" class="col-icon">', dataKey: "crafting_chrome_alloy@quantity!whole" },
+        { title: '<img src="pictures/Alien Bulwark.png" class="col-icon">', dataKey: "crafting_alien_bulwark@quantity!whole" },
+        { title: '<img src="pictures/Kevlar Fiber.png" class="col-icon">', dataKey: "crafting_kevlar_fiber@quantity!whole" },
+        { title: '<img src="pictures/Doron Plate.png" class="col-icon">', dataKey: "crafting_doron_plate@quantity!whole" },//20
+        { title: '<img src="pictures/Shells.png" class="col-icon">', dataKey: "crafting_shells@quantity!whole" },
+        { title: '<img src="pictures/Bio-Mesh.png" class="col-icon">', dataKey: "crafting_biomesh@quantity!whole" },
+        { title: '<img src="pictures/Reflectium.png" class="col-icon">', dataKey: "crafting_reflectium@quantity!whole" },
+        { title: '<img src="pictures/Titanium.png" class="col-icon">', dataKey: "crafting_titanium@quantity!whole" },
+        { title: '<img src="pictures/Silencer.png" class="col-icon">', dataKey: "crafting_silencer@quantity!whole" },
+        { title: '<img src="pictures/Scope.png" class="col-icon">', dataKey: "crafting_scope@quantity!whole" },
+        { title: '<img src="pictures/Power Cell.png" class="col-icon">', dataKey: "crafting_power_cell@quantity!whole" },
+        { title: '<img src="pictures/Alien Alloy.png" class="col-icon">', dataKey: "crafting_alien_alloy@quantity!whole" },
+        { title: '<img src="pictures/Xenosaur Hide.png" class="col-icon">', dataKey: "crafting_xenosaur_hide@quantity!whole" },
+        { title: '<img src="pictures/Xenosaur Venom.png" class="col-icon">', dataKey: "crafting_xenosaur_venom@quantity!whole" },//30
+        { title: '<img src="pictures/Xenosaur Fang.png" class="col-icon">', dataKey: "crafting_xenosaur_fang@quantity!whole" },
+        { title: '<img src="pictures/Strider Emitter.png" class="col-icon">', dataKey: "strider_alien_emitter@quantity!whole" },                     
     ];
     const missionsCols =[
         { title: "Key", visible: false },
@@ -50,45 +80,59 @@ const Tables = (function(Helpers){
             }
         },
         { title: "LVL" },
-        { title: '<img src="pictures/Leather.png" class="col-icon">', dataKey: "crafting_leather@quantity!whole" },//3
-        { title: '<img src="pictures/Durable Fabric.png" class="col-icon">', dataKey: "crafting_durable_fabric@quantity@whole" },
-        { title: '<img src="pictures/Plastic.png" class="col-icon">', dataKey: "crafting_plastic@quantity!whole" },
-        { title: '<img src="pictures/Rubber.png" class="col-icon">', dataKey: "crafting_rubber@quantity!whole" },
-        { title: '<img src="pictures/Gunmetal.png" class="col-icon">', dataKey: "crafting_gunmetal@quantity!whole" },
-        { title: '<img src="pictures/Gunpowder.png" class="col-icon">', dataKey: "crafting_gunpowder@quantity!whole" },
-        { title: '<img src="pictures/Ballistic Plates.png" class="col-icon">', dataKey: "crafting_ballistic_plates@quantity!whole" },
-        { title: '<img src="pictures/Ceramics.png" class="col-icon">', dataKey: "crafting_ceramics@quantity!whole" },//10
-        { title: '<img src="pictures/Synthetic Fiber.png" class="col-icon">', dataKey: "crafting_synthetic_fiber@quantity!whole" },
-        { title: '<img src="pictures/Magazine.png" class="col-icon">', dataKey: "crafting_magazine@quantity!whole" },
-        { title: '<img src="pictures/Grip.png" class="col-icon">', dataKey: "crafting_grip@quantity!whole" },
-        { title: '<img src="pictures/Alien Fiber.png" class="col-icon">', dataKey: "crafting_alien_fiber@quantity!whole" },
-        { title: '<img src="pictures/Carbon Fiber.png" class="col-icon">', dataKey: "crafting_carbon_fiber@quantity!whole" },
-        { title: '<img src="pictures/Steel.png" class="col-icon">', dataKey: "crafting_steel@quantity!whole" },
-        { title: '<img src="pictures/Chrome Alloy.png" class="col-icon">', dataKey: "crafting_chrome_alloy@quantity!whole" },
-        { title: '<img src="pictures/Alien Bulwark.png" class="col-icon">', dataKey: "crafting_alien_bulwark@quantity!whole" },
-        { title: '<img src="pictures/Kevlar Fiber.png" class="col-icon">', dataKey: "crafting_kevlar_fiber@quantity!whole" },
-        { title: '<img src="pictures/Doron Plate.png" class="col-icon">', dataKey: "crafting_doron_plate@quantity!whole" },//20
-        { title: '<img src="pictures/Shells.png" class="col-icon">', dataKey: "crafting_shells@quantity!whole" },
-        { title: '<img src="pictures/Bio-Mesh.png" class="col-icon">', dataKey: "crafting_biomesh@quantity!whole" },
-        { title: '<img src="pictures/Reflectium.png" class="col-icon">', dataKey: "crafting_reflectium@quantity!whole" },
-        { title: '<img src="pictures/Titanium.png" class="col-icon">', dataKey: "crafting_titanium@quantity!whole" },
-        { title: '<img src="pictures/Silencer.png" class="col-icon">', dataKey: "crafting_silencer@quantity!whole" },
-        { title: '<img src="pictures/Scope.png" class="col-icon">', dataKey: "crafting_scope@quantity!whole" },
-        { title: '<img src="pictures/Power Cell.png" class="col-icon">', dataKey: "crafting_power_cell@quantity!whole" },
-        { title: '<img src="pictures/Alien Alloy.png" class="col-icon">', dataKey: "crafting_alien_alloy@quantity!whole" },
-        { title: '<img src="pictures/Xenosaur Hide.png" class="col-icon">', dataKey: "crafting_xenosaur_hide@quantity!whole" },
-        { title: '<img src="pictures/Xenosaur Venom.png" class="col-icon">', dataKey: "crafting_xenosaur_venom@quantity!whole" },//30
-        { title: '<img src="pictures/Xenosaur Fang.png" class="col-icon">', dataKey: "crafting_xenosaur_fang@quantity!whole" },
-        { title: '<img src="pictures/Strider Emitter.png" class="col-icon">', dataKey: "strider_alien_emitter@quantity!whole" },
-      //  '<img src="pictures/Reflectium.png" class="col-icon">'
+        { title: 'Speed', dataKey: "speed!whole" },
+        { title: 'Defense', dataKey: "defense!whole" },
+        { title: 'Health', dataKey: "health!whole" },
+        { title: 'Attack', dataKey: "attack!whole" },
+        { title: 'Invader Attack', dataKey: "monster_attack!whole" },
+        { title: 'Troop and Defense Production Speed', dataKey: "light_infantry_produce_speed_modifier@modifier!percent2" },
+        { title: 'Hero Deployment Health Bonus', dataKey: "hero_march_unit_health_modifier@modifier!percent2" },
+        { title: 'Hero Deployment Defense Bonus', dataKey: "hero_march_unit_defense_modifier@modifier!percent2" },//10
+        { title: 'Hero Deployment Attack Bonus', dataKey: "hero_march_unit_attack_modifier@modifier!percent2" },
+        { title: 'Infantry Healing Speed', dataKey: "light_infantry_hospital_speed_modifier@modifier!percent2" },
+        { title: 'Radar Defense Bonus', dataKey: "city_attacker_attack_modifier@modifier!percent2" },
+        { title: 'Hero Facility Health Bonus', dataKey: "hero_city_unit_health_modifier@modifier!percent2" },
+        { title: 'Specialized Healing Speed', dataKey: "mech_infantry_hospital_speed_modifier@modifier!percent2" },//15
+        { title: 'Hero Facility Defense Bonus', dataKey: "hero_city_unit_defense_modifier@modifier!percent2" },
+        { title: 'Vehicle Healing Speed', dataKey: "vehicle_hospital_speed_modifier@modifier!percent2" },
+        { title: 'Hero Facility Attack Bonus', dataKey: "hero_city_unit_attack_modifier@modifier!percent2" },
+        { title: 'Defense Salvage', dataKey: "static_tier0_unit_save_modifier@modifier!percent2" },
+        { title: 'Construction Speed', dataKey: "structure_speed_modifier@modifier!percent2" },//20
+        { title: 'Invader Energy Cost Reduction', dataKey: "hunt_energy_modifier@modifier!percent2" },
+        { title: 'Hunting Speed', dataKey: "hunt_outgoing_speed_modifier@modifier!percent2" },
+        { title: 'Hero Invader Chain Attacks', dataKey: "hero_hunting_chain!whole" },
+        { title: 'Drone Mission Success', dataKey: "drone_collect_failure_modifier@modifier!percent2" },
+        { title: 'Chance of Drone collecting Shards', dataKey: "drone_premium_modifier@modifier!percent2" },//25
+        { title: 'Drone Recharge Time', dataKey: "drone_recharge_seconds@value!time" },
+        { title: 'Neutronium Production Bonus', dataKey: "currency7_generate_modifier@modifier!percent2" },
+        { title: 'Air Production Speed', dataKey: "air_produce_speed_modifier@modifier!percent2" },
+        { title: 'Hero Bonus XP', dataKey: "hero_xp_modifier@modifier!percent2" },
+        { title: 'Deployment Speed', dataKey: "march_speed_modifier@modifier!percent2" },//30
+        { title: 'Heavy Infantry Health', dataKey: "heavy_infantry_health_modifier@modifier!percent2" },
+        { title: 'Ground Vehicle Attack', dataKey: "vehicle_attack_modifier@modifier!percent2" },
+        { title: 'Research Speed', dataKey: "research_speed_modifier@modifier!percent2" },
+        { title: 'Heavy Infantry Attack', dataKey: "heavy_infantry_attack_modifier@modifier!percent2" },
+        { title: 'Light Infantry Health', dataKey: "light_infantry_health_modifier@modifier!percent2" },//35
+        { title: 'Ground Vehicle Health', dataKey: "vehicle_health_modifier@modifier!percent2" },
+        { title: 'Air Vehicle Attack', dataKey: "air_attack_modifier@modifier!percent2" },
+        { title: 'Air Vehicle Health', dataKey: "air_health_modifier@modifier!percent2" },
+        { title: 'Light Infantry Attack', dataKey: "light_infantry_attack_modifier@modifier!percent2" },
+        { title: 'Mech Defense', dataKey: "mech_infantry_defense_modifier@modifier!percent2" },//40
+        { title: 'Prototype Defense', dataKey: "prototype_infantry_defense_modifier@modifier!percent2" },
+        { title: 'Alien Defense', dataKey: "alien_light_infantry_defense_modifier@modifier!percent2" },
+        { title: 'Heavy Infantry Defense', dataKey: "heavy_infantry_defense_modifier@modifier!percent2" },
+        { title: 'Air Vehicle Defense', dataKey: "air_defense_modifier@modifier!percent2" },
+        { title: 'Light Infantry Defense', dataKey: "light_infantry_defense_modifier@modifier!percent2" },//45
+        { title: 'Ground Vehicle Defense', dataKey: "vehicle_defense_modifier@modifier!percent2" },
+        { title: 'Mech Attack', dataKey: "mech_infantry_attack_modifier@modifier!percent2" },
+        { title: 'Prototype Attack', dataKey: "prototype_infantry_attack_modifier@modifier!percent2" },
+        { title: 'Alien Attack', dataKey: "alien_light_infantry_attack_modifier@modifier!percent2" },
+        { title: 'Hero Max Energy', dataKey: "hero_max_energy@value!whole" },//50
+        { title: 'Troop Production Speed', dataKey: "light_infantry_produce_speed_modifier@modifier!percent2" },
+
+
     ];
     const costsColumnMap = {
-        '*': [1,2],       
-    };
-    const missionsColumnMap = {
-        '*': [1,2],     
-    };
-    const statsColumnMap = {
         '*': [1,2],
         gear_core_helmet:[3,4,5,29],
         gear_core_chest:[3,4,5,29],
@@ -126,7 +170,50 @@ const Tables = (function(Helpers){
         gear_vanguard_helm:[23,27,28,29,31,32],
         gear_vanguard_chest:[18,22,24,27,28,32],
         gear_vanguard_boots:[14,23,24,28,29,32],
-        gear_vanguard_gun:[26,27,28,30,31,32],              
+        gear_vanguard_gun:[26,27,28,30,31,32],       
+    };
+    const missionsColumnMap = {
+        '*': [1,2],     
+    };
+    const statsColumnMap = {
+        '*': [2],
+        gear_core_helmet:[4],
+        gear_core_chest:[5],
+        gear_core_boots:[3,4],
+        gear_core_gun:[6,7],
+        gear_uncommon_helmet:[4],
+        gear_uncommon_chest:[5],
+        gear_uncommon_boots:[3,4],
+        gear_uncommon_gun:[6,7],   
+        gear_rare_helmet:[4,10],
+        gear_rare_chest:[5,9],
+        gear_rare_boots:[3,4,8],
+        gear_rare_gun:[6,7,11],
+        gear_epic_helmet:[4,16,17],
+        gear_epic_chest:[5,14,15],
+        gear_epic_boots:[3,4,12,13],
+        gear_epic_gun:[6,7,18,19],
+        gear_augmented_helmet:[4,10,17,20],
+        gear_augmented_chest:[5,8,9,15],
+        gear_augmented_boots:[3,4,9,12,16],
+        gear_augmented_gun:[6,7,11,18,19],
+        gear_augmented_gun_2:[6,7,21,22,23],
+        gear_augmented_gun_3:[6,7,24,25,26],
+        gear_prototype_helmet:[4,10,12,16],
+        gear_prototype_chest:[5,9,14,16],
+        gear_prototype_boots:[3,4,17,27,28],
+        gear_storm_helm_set:[4,18,33,34,35],
+        gear_storm_chest_set:[5,13,21,36,37],
+        gear_storm_boots_set:[3,4,29,30,31,32],
+        gear_storm_gun_set:[6,7,11,22,38,39],
+        gear_prototype_helm_neural:[4,20,29,43,44],
+        gear_prototype_chest_neural:[5,21,40,41,42],
+        gear_prototype_boots_neural:[3,4,30,33,45,46],
+        gear_prototype_gun_neural:[6,7,22,47,48,49],
+        gear_vanguard_helm:[4,15,20,40,41,42,50],
+        gear_vanguard_chest:[5,22,29,33,47,48,49],
+        gear_vanguard_boots:[3,4,30,34,37,43,44],
+        gear_vanguard_gun:[6,7,22,47,48,49,51],     
     };
 
     // expose some indexes for other modules
