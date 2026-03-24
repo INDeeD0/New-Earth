@@ -26,20 +26,108 @@ const Helpers = (function(){
     }
 
     function parseNumber(val) {
+
+        if (val === null || val === undefined) return 0;
+
+        // already numeric
         if (typeof val === 'number') return val;
-        if (!val) return 0;
-        val = val.toString().trim().toUpperCase();
+
+        // strip html
+        let str = String(val)
+            .replace(/<[^>]*>/g, '')
+            .trim()
+            .toUpperCase();
+
+        // multiplier support
         let multiplier = 1;
-        if (val.endsWith('K')) { multiplier = 1e3; val = val.slice(0,-1); }
-        else if (val.endsWith('M')) { multiplier = 1e6; val = val.slice(0,-1); }
-        else if (val.endsWith('B')) { multiplier = 1e9; val = val.slice(0,-1); }
-        return (parseFloat(val) || 0) * multiplier;
+        if (str.endsWith('K')) { multiplier = 1e3; str = str.slice(0,-1); }
+        else if (str.endsWith('M')) { multiplier = 1e6; str = str.slice(0,-1); }
+        else if (str.endsWith('B')) { multiplier = 1e9; str = str.slice(0,-1); }
+
+        // 🔥 remove commas + spaces
+        str = str.replace(/,/g,'').replace(/\s/g,'');
+
+        const n = parseFloat(str);
+        return isNaN(n) ? 0 : n * multiplier;
     }
 
     const stripHtml = s => (s||"").toString().replace(/<[^>]*>/g,'').replace(/[%❓]/g,'').trim();
 
+    function formatValue(val, dataKey, lvl = null) {
+        if (val === null || val === undefined) return '-';
+
+        const key = (dataKey || '').toLowerCase();
+
+        // -------- TIME HANDLING --------
+        if (
+            key === 'cooldown' ||
+            key.includes('@duration') ||
+            key === 'drone_recharge_seconds@value'
+        ) {
+            const raw = Number(val);
+            if (isNaN(raw)) return '-';
+            return raw < 0
+                ? '-' + formatTime(Math.abs(raw))
+                : formatTime(raw);
+        }
+
+        // -------- MODIFIER / FORMAT FLAGS --------
+        if (key.includes('!')) {
+            const [_, flag] = key.split('!');
+            if (flag === 'whole') {return Math.round(Number(val)).toLocaleString();}
+            if (flag === 'whole2') return Helpers.formatShort(Number(val));
+            if (flag === 'whole3') {const n = Number(val);if (isNaN(n)) return '-';return (Math.round(n) * 60).toLocaleString();}
+            if (flag === 'percent') {return Math.round(Number(val)) + '%';}
+            if (flag === 'percent2') {const num = Number(val);if (isNaN(num)) return '-';return (num * 100).toFixed(2) + '%';}
+            if (flag === 'time') {const raw = Number(val);if (isNaN(raw)) return '-';return raw < 0 ? '-' + formatTime(Math.abs(raw)): formatTime(raw);}
+            if (flag === 'time2') {const raw = Number(val);if (isNaN(raw)) return raw < 0 ? '-' + formatTime(Math.abs(raw)): formatTime(raw);}
+            if (flag === 'requirements') {
+                const reqs = lvl?.requirements;
+                if (!Array.isArray(reqs) || reqs.length === 0) return '-';
+
+                const list = reqs.map(r => {
+                    const key = String(r.target_subtype || '').toLowerCase();
+
+                    const name =
+                        window.reverseKeyMap?.[key] ||
+                        r.target_subtype ||
+                        'Unknown';
+
+                    const level = r.level ?? '?';
+
+                    return `${name} LVL ${level}`;
+                }).filter(Boolean);
+
+                if (list.length === 0) return '-';
+
+                // only one requirement
+                if (list.length === 1) {
+                    return list[0];
+                }
+
+                // multiple requirements with expandable list
+                const first = list[0];
+                const rest = list.slice(1)
+                    .map(r => `<div>${r}</div>`)
+                    .join('');
+
+                const hidden = `<div class="req-hidden" style="display:none;">${rest}</div>`;
+
+                return `
+                    <div class="req-cell">
+                        ${first}
+                        <span class="req-toggle" style="cursor:pointer;color:#4af;margin-left:5px;">▼</span>
+                        ${hidden}
+                    </div>
+                `;
+                
+            }
+        }
+        return val;
+    }
+
     return {
-        formatTime, formatShort, parseNumber, stripHtml
+        formatTime, formatShort, parseNumber, stripHtml, formatValue
     };
 })();
 Helpers.lookup = (function(){
@@ -58,10 +146,11 @@ Helpers.lookup = (function(){
 
     function extractFromEntry(entry, prefer) {
         let order;
-        if (prefer === 'modifier') order = ['modifier','value','quantity'];
-        else if (prefer === 'value') order = ['value','modifier','quantity'];
-        else if (prefer === 'quantity') order = ['quantity','value','modifier'];
-        else order = ['quantity','value','modifier'];
+        if (prefer === 'modifier') order = ['modifier','value','quantity','duration'];
+        else if (prefer === 'value') order = ['value','modifier','quantity','duration'];
+        else if (prefer === 'quantity') order = ['quantity','value','modifier','duration'];
+        else if (prefer === 'duration') order = ['duration','quantity','value','modifier'];
+        else order = ['quantity','value','modifier','duration'];
 
         if (entry && typeof entry === 'object') {
             for (const k of order) {
@@ -75,7 +164,7 @@ Helpers.lookup = (function(){
     }
 
     function getFromKnownArraysExact(lvl, key, prefer = 'value') {
-        const containers = ['costs','stats','attributes','bonuses','modifiers','modifier','reward'];
+        const containers = ['costs','stats','attributes','bonuses','modifiers','modifier','reward','buffs','currencies_per_hour','attributes'];
         for (const name of containers) {
             const container = lvl[name];
             if (!container) continue;
@@ -110,17 +199,22 @@ Helpers.lookup = (function(){
 
     // unified lookup
     function lookupValue(lvl, dataKey) {
-        const rawKey = (dataKey || '').toLowerCase();
-        const parts = rawKey.split('@');
+        const raw = (dataKey || '').toLowerCase();
+
+        // 🔥 strip format flag FIRST
+        const keyWithoutFlag = raw.split('!')[0];
+
+        // then handle @prefer
+        const parts = keyWithoutFlag.split('@');
         const baseKey = parts[0];
         const prefer = parts[1] || 'value';
 
         // direct field
         if (lvl && Object.prototype.hasOwnProperty.call(lvl, baseKey)) {
-            const raw = lvl[baseKey];
-            if (typeof raw === 'object') return extractFromEntry(raw, prefer);
-            if (typeof raw === 'string' && !isNaN(raw)) return Number(raw);
-            return raw;
+            const rawVal = lvl[baseKey];
+            if (typeof rawVal === 'object') return extractFromEntry(rawVal, prefer);
+            if (typeof rawVal === 'string' && !isNaN(rawVal)) return Number(rawVal);
+            return rawVal;
         }
 
         // nested search

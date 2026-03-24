@@ -11,12 +11,16 @@ $(document).ready(async function(){
     try {
         // === Load JSON data ===
         const data = await DataLoader.loadAll();
+        window.keyMap = data.keyMap;
+        window.reverseKeyMap = data.reverseKeyMap;  
         const subtypes = data.subtypes;
         const keyMap = data.keyMap;
-        const objMap = data.objMap;
 
         // expose globally for other modules
-        window.structuresSubtypes = subtypes;
+        window.structuresSubtypes = {};
+        for (const [k,v] of Object.entries(subtypes)) {
+            window.structuresSubtypes[k.toLowerCase()] = v;
+        }
         window.loadedKeyMap = keyMap;
 
         // === Default building (root node) ===
@@ -35,6 +39,7 @@ $(document).ready(async function(){
         $('#rewardsWrapper, #statsWrapper').css({ height: 0, overflow: 'hidden' });
         $('#costsTotals').show();
         $('#missionsTotals').hide();
+        $('#statsTotals').hide();
 
         // === Draw initial tree lines ===
         setTimeout(() => UI.drawLines(), 50);
@@ -62,8 +67,10 @@ $(document).ready(async function(){
             // Clear Totals maps
             const checkedMap = Totals.getCheckedMap();
             const missionsCheckedMap = Totals.getMissionsCheckedMap();
+            const statsCheckedMap = Totals.getStatsCheckedMap();
             Object.keys(checkedMap).forEach(k => delete checkedMap[k]);
             Object.keys(missionsCheckedMap).forEach(k => delete missionsCheckedMap[k]);
+            Object.keys(statsCheckedMap).forEach(k => delete statsCheckedMap[k]);
 
             // 🧹 Clear ALL localStorage data related to this system
             localStorage.removeItem('buildingLevels_v1');  // <== correct key!
@@ -73,6 +80,7 @@ $(document).ready(async function(){
             // Optional: ensure UI re-syncs after clearing
             Totals.updateCostsTotals(window.currentScale);
             Totals.updateMissionsTotals();
+            Totals.updateStatsTotals();
 
             console.info('🧹 All levels, checkboxes, and localStorage cleared.');
         });
@@ -88,15 +96,38 @@ $(document).ready(async function(){
 });
 
 // --- Page navigation ---
-$(function(){
-    $('#topNav .nav-btn').each(function(){
-        const currentPage = window.location.pathname.split('/').pop().toLowerCase();
-        const targetPage = $(this).data('page').toLowerCase();
-        if (targetPage === currentPage) $(this).addClass('active');
-        $(this).on('click', function(){
-            window.location.href = $(this).data('page');
+$(document).on('click', '#topNav .nav-btn', function(e){
+
+    const page = this.dataset.page;
+    const map  = this.dataset.map;
+
+    // --- PAGE NAV ---
+    if (page){
+        window.location.href = page;
+        return;
+    }
+
+    // --- MAP SWITCH ---
+    if (map){
+        const target = map;
+
+        document.querySelectorAll(".container[id^='map']").forEach(m=>{
+            m.style.display="none";
         });
-    });
+
+        const selected = document.getElementById(target);
+        if (!selected) return;
+
+        selected.style.display="grid";
+
+        requestAnimationFrame(()=>{
+            selectRootOfMap(selected);
+            const index = target.replace("map","");
+            const svgId = "lines"+index;
+            drawLinesForMap(target, svgId, mapLines[target]);
+        });
+    }
+
 });
 
 

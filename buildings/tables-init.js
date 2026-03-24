@@ -3,61 +3,48 @@
 
 const Tables = (function(Helpers){
     const costsCols = [
-        { title: "Key", visible: false }, // 0
+        { title: "Key", visible: false },
         {
-        title: "<button id='removeAllCosts' style='padding:2px 6px;'>&#x1F501</button>",
-        orderable: false,
-        width: "50px",
-        render: function(data, type, row, meta) {
-            const displayKey = Helpers.stripHtml(row && row[0] !== undefined ? row[0] : "");
+        title: "<button id='removeAllCosts' style='padding:2px 6px;'>&#x1F501</button>", orderable: false, width: "50px",
+            render: function(data, type, row, meta) {
+            const keyVal = Helpers.stripHtml(row && row[0] !== undefined ? row[0] : "");
             const levelVal = (row && row[2] !== undefined) ? String(row[2]) : String(meta.row);
-            const uid = `${displayKey}|${levelVal}`;
-            const normalize = s => (s || '').toString().toLowerCase().replace(/[\s_]/g, '');
-            let jsonKey = (window.loadedKeyMap && window.loadedKeyMap[displayKey]) || displayKey;
-            if (window.structuresSubtypes) {
-            const subs = window.structuresSubtypes;
-            const norm = normalize(jsonKey);
-            const match = Object.keys(subs).find(k => normalize(k) === norm);
-            if (!match) {
-                const fuzzy = Object.keys(subs).find(k => normalize(k).includes(norm));
-                if (fuzzy) jsonKey = fuzzy;
-            } else {
-                jsonKey = match;
-            }
-            }
-            jsonKey = normalize(jsonKey);
+            const uid = `${keyVal}|${levelVal}`;
             const checked = !!Totals.getCheckedMap()[uid];
             if (type === 'display') {
-            return `<input type="checkbox" class="row-checkbox" data-uid="${uid}" data-json="${jsonKey}" data-lvl="${levelVal}" ${checked ? 'checked' : ''}>`;
+                return `<input type=\"checkbox\" class=\"row-checkbox\" data-uid=\"${uid}\" ${checked ? 'checked' : ''}>`;
             }
             return checked;
-        }
-        }, // end checkbox col
-
-        { title:"LVL" },// 2
-        {title: '<div class=headflex> <img src="pictures/Time.png" class="col-icon"></div>',
-            className: "dt-head-center",
-            dataKey: "upgrade_cost",
-            headerHtml:'<div class="headflex"> <img src="pictures/Time.png" class="col-icon"> <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %<span class="info-icon" data-tip="Building boost">❓</span></div>'
+            }
         },
-        { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power" },// 4
-        { title:'<img src="pictures/Tech.png" class="col-icon">', dataKey: "currency3@quantity" },// 5
-        { title:'<img src="pictures/Food.png" class="col-icon">', dataKey: "currency4@quantity" },// 6
-        { title:'<img src="pictures/Oil.png" class="col-icon">', dataKey: "currency5@quantity" },// 7
-        { title:'<img src="pictures/Alloy.png" class="col-icon">', dataKey: "currency6@quantity" },// 8
-        { title:'<img src="pictures/Neut.png" class="col-icon">', dataKey: "currency7@quantity" }, // 9
-        { title:'<img src="pictures/AC.png" class="col-icon">', dataKey: "currency8@quantity" }, // 10
-        { title:'<img src="pictures/Neut Crystal.png" class="col-icon">', dataKey: "core_neutronium_crystal@quantity" }, // 11
-        { title:'<img src="pictures/Classified Documents.png" class="col-icon">', dataKey: "core_classified_documents@quantity" }, // 12
-        { title:'<img src="pictures/Data Disk.png" class="col-icon">', dataKey: "core_data_disk@quantity"}, // 13
-        { title:'<img src="pictures/Alien Power Core.png" class="col-icon">', dataKey: "core_alien_power_core@quantity"}, // 14
-        { title:'<img src="pictures/Alien Tech.png" class="col-icon">', dataKey: "core_alien_component@quantity"}, // 15
-        { title:'<img src="pictures/Alien Armor.png" class="col-icon">', dataKey: "core_alien_armor@quantity"}, // 16
-        { title:'<img src="pictures/Armory Blueprints.png" class="col-icon">', dataKey: "armory_blueprints@quantity"}, // 17
-        { title:"Buildings", dataKey: "requirements"}, // 18
+        { title:"LVL" },// 2
+        {title: `
+            <div class="headflex">
+                <img src="pictures/Time.png" class="col-icon">
+                <input type="number" class="time-scale" style="width:40px;" step="1" min="0"> %
+                <span class="info-icon" data-tip="Building boost">❓</span>
+            </div>
+        `,
+        className: "dt-head-center",
+        dataKey: "upgrade_cost!time"},
+        { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power!whole2" },// 4
+        { title:'<img src="pictures/Tech.png" class="col-icon">', dataKey: "currency3@quantity!whole2" },// 5
+        { title:'<img src="pictures/Food.png" class="col-icon">', dataKey: "currency4@quantity!whole2" },// 6
+        { title:'<img src="pictures/Oil.png" class="col-icon">', dataKey: "currency5@quantity!whole2" },// 7
+        { title:'<img src="pictures/Alloy.png" class="col-icon">', dataKey: "currency6@quantity!whole2" },// 8
+        { title:'<img src="pictures/Neut.png" class="col-icon">', dataKey: "currency7@quantity!whole2" }, // 9
+        { title:'<img src="pictures/AC.png" class="col-icon">', dataKey: "currency8@quantity!whole2" }, // 10
+        { title:'<img src="pictures/Neut Crystal.png" class="col-icon">', dataKey: "core_neutronium_crystal@quantity!whole2" }, // 11
+        { title:'<img src="pictures/Classified Documents.png" class="col-icon">', dataKey: "core_classified_documents@quantity!whole2" }, // 12
+        { title:'<img src="pictures/Data Disk.png" class="col-icon">', dataKey: "core_data_disk@quantity!whole2"}, // 13
+        { title:'<img src="pictures/Alien Power Core.png" class="col-icon">', dataKey: "core_alien_power_core@quantity!whole2"}, // 14
+        { title:'<img src="pictures/Alien Tech.png" class="col-icon">', dataKey: "core_alien_component@quantity!whole2"}, // 15
+        { title:'<img src="pictures/Alien Armor.png" class="col-icon">', dataKey: "core_alien_armor@quantity!whole2"}, // 16
+        { title:'<img src="pictures/Armory Blueprints.png" class="col-icon">', dataKey: "armory_blueprints@quantity!whole2"}, // 17
+        { title:"Buildings", dataKey: "requirements!requirements"}, // 18          
     ];
     const missionsCols =[
-        { title:"Key", visible:false },
+        { title: "Key", visible: false },
         { title: "<button id='removeAllRewards' style='padding:2px 6px;'>&#x1F501</button>", orderable:false, width:"50px",
             render: function(data, type, row, meta) {
             const keyVal = Helpers.stripHtml(row && row[0] !== undefined ? row[0] : "");
@@ -70,64 +57,72 @@ const Tables = (function(Helpers){
             return checked;
             }
         },
-        { title:"LVL" },
-        { title:'<img src="pictures/XP.png" class="col-icon">', dataKey: "hero_xp"  },
-        { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power" },
-        { title:'<img src="pictures/Tech.png" class="col-icon">', dataKey: "currency3@quantity" },
-        { title:'<img src="pictures/Food.png" class="col-icon">', dataKey: "currency4@quantity" },
-        { title:'<img src="pictures/Oil.png" class="col-icon">', dataKey: "currency5@quantity" },
-        { title:'<img src="pictures/Alloy.png" class="col-icon">', dataKey: "currency6@quantity" },
-        { title:'<img src="pictures/Neut.png" class="col-icon">', dataKey: "currency7@quantity" }
+        { title: "LVL" },
     ]
     const statsCols = [
         { title: "Key", visible: false },
+        { title: "<button id='removeAllStats' style='padding:2px 6px;'>&#x1F501</button>", orderable:false, width:"50px",
+            render: function(data, type, row, meta) {
+            const keyVal = Helpers.stripHtml(row && row[0] !== undefined ? row[0] : "");
+            const levelVal = (row && row[2] !== undefined) ? String(row[2]) : String(meta.row);
+            const uid = `${keyVal}|${levelVal}`;
+            const checked = !!Totals.getStatsCheckedMap()[uid];
+            if (type === 'display') {
+                return `<input type=\"checkbox\" class=\"row-checkbox\" data-uid=\"${uid}\" ${checked ? 'checked' : ''}>`;
+            }
+            return checked;
+            }
+        },
         { title: "LVL" },
-        { title: "Deployment Limit", dataKey: "march_maximum@value" },
-        { title: "Deployment Capacity", dataKey: "march_unit_capacity@value" },
-        { title: "Unit Capacity", dataKey: "unit_capacity" },
-        { title: "Tech Generation", dataKey: "generate@quantity" },
-        { title: "Tech Storage", dataKey: "limit@quantity" },
-        { title: "Food Generation", dataKey: "generate@quantity" },
-        { title: "Food Storage", dataKey: "limit@quantity" },
-        { title: "Oil Generation", dataKey: "generate@quantity" },
-        { title: "Oil Storage", dataKey: "limit@quantity" },
-        { title: "Alloy Generation", dataKey: "generate@quantity" },
-        { title: "Alloy Storage", dataKey: "limit@quantity" },
-        { title: "Resource Storage", dataKey: "storage@quantity" },
-        { title: "Resource Protection", dataKey: "protection@quantity" },
-        { title: "Rally Capacity", dataKey: "rally_capacity@value" },
+        { title: "Deployment Limit", dataKey: "march_maximum@value!whole" },
+        { title: "Deployment Capacity", dataKey: "march_unit_capacity@value!whole" },
+        { title: "Unit Capacity", dataKey: "unit_capacity!whole" },//5
+        { title: "Tech Generation", dataKey: "generate@quantity!whole3" },
+        { title: "Tech Storage", dataKey: "limit@quantity!whole" },
+        { title: "Food Generation", dataKey: "generate@quantity!whole3" },
+        { title: "Food Storage", dataKey: "limit@quantity!whole" },
+        { title: "Oil Generation", dataKey: "generate@quantity!whole3" },//10
+        { title: "Oil Storage", dataKey: "limit@quantity!whole" },
+        { title: "Alloy Generation", dataKey: "generate@quantity!whole3" },
+        { title: "Alloy Storage", dataKey: "limit@quantity!whole" },
+        { title: "Resource Storage", dataKey: "storage@quantity!whole" },
+        { title: "Resource Protection", dataKey: "protection@quantity!whole" },//15
+        { title: "Rally Capacity", dataKey: "rally_capacity@value!whole" },
         { title: "Instant Deploy", dataKey: "instant_deploy" },
-        { title: "Rally Speed", dataKey: "march_rally_speed_modifier@modifier" },
-        { title: "Neutronium Production Bonus", dataKey: "currency7_generate_modifier@modifier" },
-        { title: "Increased Station Unit Capacity", dataKey: "bonus_station_unit_capacity@value" },
-        { title: "Outpost Combat Bonus", dataKey: "outpost_combat_modifier@modifier" },
-        { title: "Training Capacity", dataKey: "production_capacity" },
-        { title: 'Infantry Defence Bonus <span class="info-icon" data-tip="Light Infantry, Heavy Infantry">❓</span>', dataKey: "light_infantry_defense_modifier@modifier" },
-        { title: "Research Speed", dataKey: "research_speed_modifier@modifier" },
-        { title: "Defence Capacity", dataKey: "static_unit_capacity" },
-        { title: 'Wall Defence Bonus <span class="info-icon" data-tip="Basic, Advanced, Experimental, Air">❓</span>', dataKey: "basic_defense_attack_modifier@modifier" },
-        { title: "Resource Trade Limit", dataKey: "march_currency_capacity@value" },
-        { title: "Resource Trade Tax", dataKey: "march_currency_tax_modifier@modifier" },
-        { title: 'Prototype Defence Bonus <span class="info-icon" data-tip="Prototype Units">❓</span>', dataKey: "prototype_infantry_defense_modifier@modifier" },
-        { title: 'Vehicle Defence Bonus <span class="info-icon" data-tip="Vehicle, Air">❓</span>', dataKey: "vehicle_defense_modifier@modifier" },
-        { title: "Turret Attack", dataKey: "attack@value" },
-        { title: "Facility Combat Bonus", dataKey: "city_combat_modifier@modifier" },
-        { title: "Medical Capacity", dataKey: "unit_capacity" },
-        { title: 'Unit Health Bonus <span class="info-icon" data-tip="Light, Heavy, Vehicle, Air, Mech, Prototype, Alien">❓</span>', dataKey: "light_infantry_health_modifier@modifier" },
-        { title: "Hero Protected XP", dataKey: "hero_xp_loss_modifier@modifier" },
-        { title: "Hero Bonus XP", dataKey: "hero_xp_modifier@modifier" },
-        { title: "Execution Reward", dataKey: "execute_random_reward@quantity" },
-        { title: "Shard Bonus", dataKey: "friend_collection_modifier@modifier" },
-        { title: "Deployment Speed", dataKey: "march_speed_modifier@modifier" },
-        { title: "Radar Level", dataKey: "radar_level@value" },
-        { title: "Scanning Range", dataKey: "scan_range@value" },
-        { title: "Radar Defence Bonus", dataKey: "city_attacker_attack_modifier@modifier" },
-        { title: "Reinforcement Capacity", dataKey: "unit_capacity" },
-        { title: 'Mech Defence Bonus <span class="info-icon" data-tip="Mech Units">❓</span>', dataKey: "mech_infantry_defense_modifier@modifier" },
+        { title: "Rally Speed", dataKey: "march_rally_speed_modifier@modifier!percent2" },
+        { title: "Neutronium Production Bonus", dataKey: "currency7_generate_modifier@modifier!percent2" },
+        { title: "Increased Station Unit Capacity", dataKey: "bonus_station_unit_capacity@value!whole" },//20
+        { title: "Outpost Combat Bonus", dataKey: "outpost_combat_modifier@modifier!percent2" },
+        { title: "Training Capacity", dataKey: "production_capacity!whole" },
+        { title: 'Infantry Defence Bonus <span class="info-icon" data-tip="Light Infantry, Heavy Infantry">❓</span>', dataKey: "light_infantry_defense_modifier@modifier!percent2" },
+        { title: "Research Speed", dataKey: "research_speed_modifier@modifier!percent2" },
+        { title: "Defence Capacity", dataKey: "static_unit_capacity!whole" },//25
+        { title: 'Wall Defence Bonus <span class="info-icon" data-tip="Basic, Advanced, Experimental, Air">❓</span>', dataKey: "basic_defense_attack_modifier@modifier!percent2" },
+        { title: "Resource Trade Limit", dataKey: "march_currency_capacity@value!whole" },
+        { title: "Resource Trade Tax", dataKey: "march_currency_tax_modifier@modifier!percent2" },
+        { title: 'Prototype Defence Bonus <span class="info-icon" data-tip="Prototype Units">❓</span>', dataKey: "prototype_infantry_defense_modifier@modifier!percent2" },
+        { title: 'Vehicle Defence Bonus <span class="info-icon" data-tip="Vehicle, Air">❓</span>', dataKey: "vehicle_defense_modifier@modifier!percent2" },//30
+        { title: "Turret Attack", dataKey: "attack@value!whole" },
+        { title: "Facility Combat Bonus", dataKey: "city_combat_modifier@modifier!percent2" },
+        { title: "Medical Capacity", dataKey: "unit_capacity!whole" },
+        { title: 'Unit Health Bonus <span class="info-icon" data-tip="Light, Heavy, Vehicle, Air, Mech, Prototype, Alien">❓</span>', dataKey: "light_infantry_health_modifier@modifier!percent2" },
+        { title: "Hero Protected XP", dataKey: "hero_xp_loss_modifier@modifier!percent2" },
+        { title: "Hero Bonus XP", dataKey: "hero_xp_modifier@modifier!percent2" },
+        { title: "Execution Reward", dataKey: "execute_random_reward@quantity!whole" },
+        { title: "Shard Bonus", dataKey: "friend_collection_modifier@modifier!percent2" },
+        { title: "Deployment Speed", dataKey: "march_speed_modifier@modifier!percent2" },
+        { title: "Radar Level", dataKey: "radar_level@value!whole" },
+        { title: "Scanning Range", dataKey: "scan_range@value!whole" },
+        { title: "Radar Defence Bonus", dataKey: "city_attacker_attack_modifier@modifier!percent2" },
+        { title: "Reinforcement Capacity", dataKey: "unit_capacity!whole" },
+        { title: 'Mech Defence Bonus <span class="info-icon" data-tip="Mech Units">❓</span>', dataKey: "mech_infantry_defense_modifier@modifier!percent2" },
         { title: "Schematic Rarity", dataKey: "schematic_rarity" },
-        { title: 'Alien Defence Bonus <span class="info-icon" data-tip="Alien Units">❓</span>', dataKey: "alien_light_infantry_defense_modifier@modifier" }
+        { title: 'Alien Defence Bonus <span class="info-icon" data-tip="Alien Units">❓</span>', dataKey: "alien_light_infantry_defense_modifier@modifier!percent2" },
+        { title: "Neut Generation", dataKey: "generate@quantity!whole3" },
+        { title: "Neut Storage", dataKey: "limit@quantity!whole" },
     ];
     const costsColumnMap = {
+        '*': [1,2,32],
         headquarters: [1,2,3,4,5,6,7,8,9,11,18],
         shelter: [1,2,3,4,5,6,7,8,9,11,18],
         blackmarket: [1,2,3,4,5,6,7,8,9,11,18],
@@ -154,64 +149,42 @@ const Tables = (function(Helpers){
         robotics_bay: [1,2,3,4,5,6,7,8,9,11,18],
         hero_armory: [1,2,3,4,5,6,7,8,9,11,17,18],
         alien_genetics_lab: [1,2,3,4,5,6,7,8,9,11,18],
-        outpost_strategic:[1,2,3,4,5,6,7,8,9,10],
-        outpost_harvest:[1,2,3,4,5,6,7,8,9,10]
+        outpost_strategic:[1,2,4,5,7,8,10],
+        outpost_harvest:[1,2,4,5,7,8,10]               
     };
     const missionsColumnMap = {
-        headquarters: [1,2,3,4,5,6,7,8,9,10],
-        shelter: [1,2,3,4,5,6,7,8,9,10],
-        blackmarket: [1,2,3,4,5,6,7,8,9,10],
-        hydroponicfarm: [1,2,3,4,5,6,7,8,9,10],
-        oilrig: [1,2,3,4,5,6,7,8,9,10],
-        alloyrefinery: [1,2,3,4,5,6,7,8,9,10],
-        supplydepot: [1,2,3,4,5,6,7,8,9,10],
-        war_room: [1,2,3,4,5,6,7,8,9,10],
-        engineering: [1,2,3,4,5,6,7,8,9,10],
-        barracks: [1,2,3,4,5,6,7,8,9,10],
-        researchlab: [1,2,3,4,5,6,7,8,9,10],
-        walls: [1,2,3,4,5,6,7,8,9,10],
-        globalnetwork: [1,2,3,4,5,6,7,8,9,10],
-        experimentation_chamber: [1,2,3,4,5,6,7,8,9,10],
-        factory: [1,2,3,4,5,6,7,8,9,10],
-        turret: [1,2,3,4,5,6,7,8,9,10],
-        medicalbay: [1,2,3,4,5,6,7,8,9,10],
-        commandpost: [1,2,3,4,5,6,7,8,9,10],
-        hostilecontainment: [1,2,3,4,5,6,7,8,9,10],
-        shardcondenser: [1,2,3,4,5,6,7,8,9,10],
-        airstrip: [1,2,3,4,5,6,7,8,9,10],
-        satelliteuplink: [1,2,3,4,5,6,7,8,9,10],
-        securitystation: [1,2,3,4,5,6,7,8,9,10],
-        robotics_bay: [1,2,3,4,5,6,7,8,9,10],
-        hero_armory: [1,2,3,4,5,6,7,8,9,10],
-        alien_genetics_lab: [1,2,3,4,5,6,7,8,9,10]
+        '*': [1,2,32],     
     };
     const statsColumnMap = {
-        headquarters: [2, 3],
-        shelter: [4],
-        blackmarket: [5, 6],
-        hydroponicfarm: [7, 8],
-        oilrig: [9, 10],
-        alloyrefinery: [11, 12],
-        supplydepot: [13, 14],
-        war_room: [15, 16, 17],
-        engineering: [18, 19, 20],
-        barracks: [21, 22],
-        researchlab: [23],
-        walls: [21, 24, 25],
-        globalnetwork: [26, 27],
-        experimentation_chamber: [21, 28],
-        factory: [21, 29],
-        turret: [30, 31],
-        medicalbay: [32, 33],
-        commandpost: [34, 35],
-        hostilecontainment: [36],
-        shardcondenser: [37],
-        airstrip: [2, 3, 38],
-        satelliteuplink: [39, 40, 41],
-        securitystation: [42, 31],
-        robotics_bay: [21, 43],
-        hero_armory: [44],
-        alien_genetics_lab: [21, 45]
+        '*': [2],
+        headquarters: [3,4],
+        shelter: [5],
+        blackmarket: [6,7],
+        hydroponicfarm: [8,9],
+        oilrig: [10,11],
+        alloyrefinery: [12,13],
+        supplydepot: [14,15],
+        war_room: [16,17,18],
+        engineering: [19,20,21],
+        barracks: [22,23],
+        researchlab: [24],
+        walls: [22,25,26],
+        globalnetwork: [27,28],
+        experimentation_chamber: [22,29],
+        factory: [22,30],
+        turret: [31,32],
+        medicalbay: [33,34],
+        commandpost: [35,36],
+        hostilecontainment: [37],
+        shardcondenser: [38],
+        airstrip: [3,4,39],
+        satelliteuplink: [40,41,42],
+        securitystation: [43,32],
+        robotics_bay: [22,44],
+        hero_armory: [45],
+        alien_genetics_lab: [22,46],
+        outpost_strategic:[5],
+        outpost_harvest:[5,47,48]                              
     };
 
     // expose some indexes for other modules
@@ -262,25 +235,8 @@ const Tables = (function(Helpers){
                 autoWidth: false,
                 columns: costsCols,
                 scrollY: '0px',
-                initComplete: function(settings, json) {
-                    const api = this.api();
-                    api.columns().every(function(idx) {
-                        const col = api.settings()[0].aoColumns[idx];
-                        if (col.headerHtml) {
-                            $(api.column(idx).header()).html(col.headerHtml);
-                        }
-                    });
-                }
             });
-            dt.on("init", function () {
-                const api = this.api();
-                api.columns().every(function (idx) {
-                    const col = api.settings()[0].aoColumns[idx];
-                    if (col.headerHtml) {
-                        $(api.column(idx).header()).html(col.headerHtml);
-                    }
-                });
-            });
+
             tables[safeKey] = dt;
         });
 
@@ -365,16 +321,7 @@ const Tables = (function(Helpers){
         console.log(`✅ Created ${Object.keys(tables).length} stats tables`);
         return tables;
     }
-    function populateAllCostsTables(structures, costscheckedMapRef) {
-        // Build a map of pretty names for "requirements"
-        const prettyMap = {};
-        Array.from(document.querySelectorAll('.section')).forEach(el => {
-            const label = (el.innerText || el.textContent || '').toString().trim();
-            if (!label) return;
-            const norm = label.replace(/[_\s]/g, '').toLowerCase();
-            prettyMap[norm] = label.replace(/\s+/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        });
-
+    function populateAllCostsTables(structures, checkedMapRef) {
         for (const [rawKey, structure] of Object.entries(structures)) {
             const key = rawKey.toLowerCase().replace(/[\s_]/g, '');
             const dt = Tables.allCostsTables[key];
@@ -383,112 +330,55 @@ const Tables = (function(Helpers){
             dt.clear();
             applyColumnVisibility(dt, costsColumnMap, rawKey);
 
-            (structure.levels || []).forEach((lvl, idx) => {
-                if (!lvl || idx === 0) return;
-                const keyVal = rawKey;
-                const lvlNum = idx;
-                const uid = `${keyVal}|${lvlNum}`;
-                const checked = !!costscheckedMapRef[uid];
+            if (!structure || !Array.isArray(structure.levels)) continue;
 
-                // --- start new row with same column count ---
-                const row = Array(19).fill('-');
-                row[0] = keyVal;
+            structure.levels.forEach((lvl, lvlIdx) => {
+                if (!lvl || lvlIdx === 0) return;
+
+                const uid = `${rawKey}|${lvlIdx}`;
+                const checked = !!checkedMapRef?.[uid];
+
+                // base row (must match column count)
+                const row = Array(costsCols.length).fill('-');
+                row[0] = rawKey;
                 row[1] = checked;
-                row[2] = lvlNum;
+                row[2] = lvlIdx;
 
-                // === Loop over cost columns ===
                 for (let col = 3; col < costsCols.length; col++) {
                     const colDef = costsCols[col];
-                    const dataKey = (colDef.dataKey || '').toLowerCase();
-                    if (!dataKey) continue;
+                    const fullKey = (colDef.dataKey || '').toLowerCase();
+                    if (!fullKey) continue;
 
                     let val = null;
-                    try { val = Helpers.lookup.lookupValue(lvl, dataKey); } catch(e) { val = null; }
+                    try {
+                        val = Helpers.lookup.lookupValue(lvl, fullKey);
+                    } catch (e) { val = null; }
 
-                    // === Custom handlers ===
-                    // (1) Time scaling with raw storage for live rescaling
-                    if (dataKey === "upgrade_cost" || dataKey.includes("upgrade_time") || dataKey === "time") {
-                        const numericVal = Number(Helpers.lookup.lookupValue(lvl, dataKey)) || 0;
-
-                        // 🧠 Store the raw time so applyScale() can reuse it
+                    // ✅ store raw time for the TIME_COL
+                    if (col === Tables.TIME_COL) {
                         if (!row._rawTime) row._rawTime = {};
-                        row._rawTime[col] = numericVal;
-
-                        val = numericVal > 0
-                            ? Helpers.formatTime(Math.floor(numericVal / (1 + window.currentScale / 100)))
+                        row._rawTime[col] = Number(val) || 0;
+                        val = row._rawTime[col] > 0
+                            ? Helpers.formatTime(Math.floor(row._rawTime[col] / (1 + window.currentScale / 100)))
                             : "-";
                     }
 
-
-                    // (2) Power delta vs previous level
-                    else if (dataKey === 'power') {
-                        const prevPower = (structure.levels[lvlNum - 1] || {}).power || 0;
-                        const delta = (lvl.power || 0) - prevPower;
-                        val = Helpers.formatShort(delta);
-                    }
-
-                    // (3) Requirements (array -> pretty expandable display)
-                    else if (dataKey === 'requirements' && Array.isArray(lvl.requirements)) {
-                        const reqs = lvl.requirements
-                            .map(r => {
-                                if (r.subtype === 'structure' && r.target_subtype && r.level !== undefined) {
-                                    const raw = String(r.target_subtype || '');
-                                    const normRaw = raw.replace(/[_\s]/g, '').toLowerCase();
-                                    const pretty = prettyMap[normRaw] ||
-                                        raw.replace(/([a-z])([A-Z])/g, '$1 $2')
-                                        .replace(/[_-]+/g, ' ')
-                                        .replace(/\b\w/g, c => c.toUpperCase());
-                                    return `${pretty} Lvl ${r.level}`;
-                                }
-                                return '';
-                            })
-                            .filter(Boolean);
-
-                        if (reqs.length === 0) {
-                            val = '-';
-                        } else if (reqs.length === 1) {
-                            val = reqs[0];
-                        } else {
-                            const first = reqs[0];
-                            const rest = reqs.slice(1).map(r => `<div>${r}</div>`).join('');
-                            const hidden = `<div class="req-hidden" style="display:none;">${rest}</div>`;
-                            val = `
-                                <div class="req-cell">
-                                    ${first}
-                                    <span class="req-toggle" style="cursor:pointer;color:#4af;margin-left:5px;">▼</span>
-                                    ${hidden}
-                                </div>
-                            `;
-                        }
-                    }
-
-                    // === Final formatting ===
-                    if (val === null || val === undefined || val === '') val = '-';
-                    else if (typeof val === 'number' && val > 1000) val = Helpers.formatShort(val);
-
-                    row[col] = val;
+                    row[col] = Helpers.formatValue(val, fullKey, lvl);
                 }
 
-                // === Add the row ===
-                try { dt.row.add(row); } catch (e) { console.warn('costs dt.row.add fail', e); }
+                try { dt.row.add(row); }
+                catch (e) { console.warn('costs dt.row.add failed', e); }
             });
 
             dt.draw(false);
             Tables.setScrollRows(dt);
-            try { dt.columns.adjust(); } catch(e) {}
-
-            // Expandable requirements toggle per-table
-            $(`#costsTable-${key}`).off('click', '.req-toggle').on('click', '.req-toggle', function(){
-                const $cell = $(this).closest('.req-cell');
-                const $hidden = $cell.find('.req-hidden');
-                const expanded = $hidden.is(':visible');
-                $hidden.slideToggle(150);
-                $(this).text(expanded ? '▼' : '▲');
-            });
+            try { dt.columns.adjust(); } catch(e){}
         }
-        console.log("✅ Populated all costs tables");        
+
+        console.log("✅ Populated all costs tables");
     }
-    function populateAllMissionsTables(structures, missionsCheckedMapRef, objMap) {
+    
+    function populateAllMissionsTables(structures, missionsCheckedMapRef = {}) {
         for (const [rawKey, structure] of Object.entries(structures)) {
             const key = rawKey.toLowerCase().replace(/[\s_]/g, '');
             const dt = Tables.allMissionsTables[key];
@@ -497,124 +387,36 @@ const Tables = (function(Helpers){
             dt.clear();
             applyColumnVisibility(dt, missionsColumnMap, rawKey);
 
-            // --- Mission power lookup array (from DataLoader.objMap)
-            const normalizedTarget = key;
-            const missionPowerArr = (objMap && objMap[normalizedTarget]) || [];
-
-            (structure.levels || []).forEach((lvl, lvlIdx) => {
-                if (!lvl || !Object.keys(lvl).length || lvlIdx === 0) return;
-
-                const keyVal = rawKey;
-                const lvlNum = lvlIdx;
-                const uid = `${keyVal}|${lvlNum}`;
-                const checked = !!missionsCheckedMapRef[uid];
-
-                // start new row same as cost pattern
-                const row = Array(missionsCols.length).fill('-');
-                row[0] = keyVal;
-                row[1] = checked;
-                row[2] = lvlNum;
-
-                for (let col = 3; col < missionsCols.length; col++) {
-                    const colDef = missionsCols[col];
-                    const dataKey = (colDef.dataKey || '').toLowerCase();
-                    if (!dataKey) continue;
-
-                    let val = null;
-                    try { val = Helpers.lookup.lookupValue(lvl, dataKey); } catch (e) { val = null; }
-
-                    // === Custom handler (1): Override Power with missionPowerArr
-                    if (dataKey === 'power') {
-                        const missionDelta = missionPowerArr[lvlIdx];
-                        val = missionDelta ? Helpers.formatShort(missionDelta) : '-';
-                    }
-                    // === Custom handler (2): Resource multiplier ×0.25
-                    else if ([
-                        'currency3@quantity', 
-                        'currency4@quantity', 
-                        'currency5@quantity', 
-                        'currency6@quantity', 
-                        'currency7@quantity'  
-                    ].includes(dataKey)) {
-                        const numVal = Number(val) || 0;
-                        val = numVal > 0 ? numVal * 0.25 : 0;
-                    }
-
-                    // === Custom handler (2): Numeric formatting
-                    if (val === null || val === undefined || val === '') {
-                        val = '-';
-                    } else if (typeof val === 'number' && val > 1000) {
-                        val = Helpers.formatShort(val);
-                    }
-
-                    row[col] = val;
-                }
-
-                try { dt.row.add(row); } catch (e) { console.warn(`missions dt.row.add fail for ${key}`, e); }
-            });
-
-            // draw table
-            dt.draw(false);
-            Tables.setScrollRows(dt);
-            try { dt.columns.adjust(); } catch (e) {}
-        }
-
-        console.log("✅ Populated all missions tables");
-    }
-    function populateAllStatsTables(structures) {
-        for (const [rawKey, structure] of Object.entries(structures)) {
-            const key = rawKey.toLowerCase().replace(/[\s_]/g, '');
-            const dt = Tables.allStatsTables[key];
-            if (!dt) continue;
-
-            dt.clear();
-
-            // ✅ Use the same unified column rule
-            applyColumnVisibility(dt, statsColumnMap, rawKey);
-
             if (!structure || !Array.isArray(structure.levels)) continue;
 
             structure.levels.forEach((lvl, lvlIdx) => {
-                if (!lvl || !Object.keys(lvl).length || lvlIdx === 0) return;
-                const row = [rawKey, lvlIdx];
+                if (!lvl || lvlIdx === 0) return;
 
-                for (let col = 2; col < statsCols.length; col++) {
-                    const colDef = statsCols[col];
-                    const dataKey = (colDef.dataKey || '').toLowerCase();
-                    if (!dataKey) { row.push('-'); continue; }
+                const uid = `${rawKey}|${lvlIdx}`;
+                const checked = !!missionsCheckedMapRef?.[uid];
 
-                    const parts = dataKey.split('@');
-                    const baseKey = parts[0];
+                const row = Array(missionsCols.length).fill('-');
+                row[0] = rawKey;
+                row[1] = checked;
+                row[2] = lvlIdx;
+
+                for (let col = 3; col < missionsCols.length; col++) {
+                    const colDef = missionsCols[col];
+                    const fullKey = (colDef.dataKey || '').toLowerCase();
+                    if (!fullKey) continue;
 
                     let val = null;
-                    try { val = Helpers.lookup.lookupValue(lvl, dataKey); } catch(e) { val = null; }
-
-                    // === Generation scaling (minute → hour)
-                    if (typeof val === 'number' && baseKey === 'generate' && (
-                        ['blackmarket', 'hydroponicfarm', 'oilrig', 'alloyrefinery'].includes(key)
-                    )) {
-                        val = val * 60;
+                    try {
+                        val = Helpers.lookup.lookupValue(lvl, fullKey);
+                    } catch (e) {
+                        val = null;
                     }
 
-                    // === Special modifiers ===
-                    if (val === null || val === undefined) {
-                        val = '-';
-                    } else if (typeof val === 'number') {
-                        if (baseKey === 'hero_xp_loss_modifier') {
-                            val = (50 + Math.abs(val) * 100).toFixed(2) + '%';
-                        } else if (baseKey === 'march_currency_tax_modifier') {
-                            val = (30 - Math.abs(val) * 100).toFixed(2) + '%';
-                        } else if (baseKey.endsWith('_modifier')) {
-                            val = (val * 100).toFixed(2) + '%';
-                        } else if (val > 1000) {
-                            val = Helpers.formatShort(val);
-                        }
-                    }
-
-                    row.push(val);
+                    row[col] = Helpers.formatValue(val, fullKey, lvl);
                 }
 
-                try { dt.row.add(row); } catch(e){ console.warn('stats dt.row.add failed', e); }
+                try { dt.row.add(row); }
+                catch (e) { console.warn('missions dt.row.add failed', e); }
             });
 
             dt.draw(false);
@@ -622,29 +424,106 @@ const Tables = (function(Helpers){
             try { dt.columns.adjust(); } catch(e){}
         }
 
+        console.log("✅ Populated all missions tables");
+    }
+    function populateAllStatsTables(structures, statsCheckedMapRef = {}) {
+        for (const [rawKey, structure] of Object.entries(structures)) {
+            const key = rawKey.toLowerCase().replace(/[\s_]/g, '');
+            const dt = Tables.allStatsTables[key];
+            if (!dt) continue;
+
+            dt.clear();
+            applyColumnVisibility(dt, statsColumnMap, rawKey);
+
+            if (!structure || !Array.isArray(structure.levels)) continue;
+
+            structure.levels.forEach((lvl, lvlIdx) => {
+                if (!lvl || lvlIdx === 0) return;
+
+                const uid = `${rawKey}|${lvlIdx}`;
+                const checked = !!statsCheckedMapRef?.[uid];
+
+                const row = Array(statsCols.length).fill('-');
+                row[0] = rawKey; 
+                row[1] = checked;   
+                row[2] = lvlIdx;   
+
+                for (let col = 3; col < statsCols.length; col++) {
+                    const colDef = statsCols[col];
+                    const fullKey = (colDef.dataKey || '').toLowerCase();
+                    if (!fullKey) continue;
+
+                    let val = null;
+                    try {
+                        val = Helpers.lookup.lookupValue(lvl, fullKey);
+                    } catch (e) {
+                        val = null;
+                    }
+
+                    row[col] = Helpers.formatValue(val, fullKey, lvl);
+                }
+
+                try {
+                    dt.row.add(row);
+                } catch (e) {
+                    console.warn('stats dt.row.add failed', e);
+                }
+            });
+
+            dt.draw(false);
+            Tables.setScrollRows(dt);
+            try { dt.columns.adjust(); } catch (e) {}
+        }
+
         console.log("✅ Populated all stats tables");
     }
+    
+    function storeRawTimeForTable(dt, colIndex) {
+        dt.rows().every(function() {
+            const row = this.data();
+            if (!row) return;
+
+            if (!row._rawTime) row._rawTime = {};
+            const val = Number(row[colIndex]) || 0;
+            row._rawTime[colIndex] = val;
+        });
+    }
+    
     function applyColumnVisibility(dt, map, rawKey) {
         if (!dt || !map) return;
 
         const normalized = rawKey.toLowerCase().replace(/[\s_]/g, '');
-        let showCols = map[normalized] || [];
-        if (!showCols.length) {
-            const matchKey = Object.keys(map).find(k => 
-                k.replace(/[\s_]/g, '') === normalized
+
+        // 👇 wildcard columns (apply to all)
+        const baseCols = map['*'] || [];
+
+        // 👇 exact or normalized match
+        let specificCols = map[normalized];
+        if (!specificCols) {
+            const matchKey = Object.keys(map).find(
+                k => k !== '*' && k.replace(/[\s_]/g, '') === normalized
             );
-            if (matchKey) showCols = map[matchKey] || [];
+            specificCols = matchKey ? map[matchKey] : [];
         }
 
-        const colCount = dt.columns().count();
-        try { dt.columns().visible(false); } catch(e){}
-        if (colCount > 1) try { dt.column(1).visible(true); } catch(e){} // always keep checkbox col visible
+        // 👇 final visible columns = ONLY what's listed
+        const visibleCols = [...new Set([...baseCols, ...specificCols])];
 
-        showCols.forEach(i => {
-            if (typeof i === 'number' && i >= 0 && i < colCount) {
-                try { dt.column(i).visible(true); } catch(e){}
+        const colCount = dt.columns().count();
+
+        // 🔒 hide EVERYTHING first
+        for (let i = 0; i < colCount; i++) {
+            try { dt.column(i).visible(false, false); } catch(e){}
+        }
+
+        // 👀 show only listed columns
+        visibleCols.forEach(i => {
+            if (Number.isInteger(i) && i >= 0 && i < colCount) {
+                try { dt.column(i).visible(true, false); } catch(e){}
             }
         });
+
+        try { dt.columns.adjust(false); } catch(e){}
     }
     function setScrollRows(dt, rows = VISIBLE_ROWS){
         if (!dt || typeof dt.settings !== "function" || !dt.settings().length) {
@@ -665,39 +544,55 @@ const Tables = (function(Helpers){
         if (settings && settings.oScroll) settings.oScroll.sY = height + 'px';
         try { dt.columns.adjust(); } catch(e){/* ignore */ }
     }
-    function applyScale(scale) {
-        if (!Tables.allCostsTables) return;
-
-        // Find the active (visible) building
-        const activeSection = $('.section.active').text().trim();
-        if (!activeSection) return;
-
-        const safeKey = activeSection.toLowerCase().replace(/[\s_]/g, '');
-        const dt = Tables.allCostsTables?.[safeKey];
+    function applyScaleForTable(dt, scale) {
         if (!dt) return;
 
         dt.rows().every(function() {
-            const d = this.data();
-            if (!d || !d._rawTime) return;
+            const row = this.data();
+            if (!row || !row._rawTime) return;
 
-            const rawVal = d._rawTime[Tables.TIME_COL];
+            const rawVal = row._rawTime[Tables.TIME_COL];
             if (rawVal !== undefined) {
-                const scaled = rawVal > 0
+                row[Tables.TIME_COL] = rawVal > 0
                     ? Helpers.formatTime(Math.floor(rawVal / (1 + scale / 100)))
                     : "-";
-                d[Tables.TIME_COL] = scaled;
-                this.data(d, false);
+
+                this.data(row, false); // update row but don’t redraw yet
             }
         });
 
-        dt.draw(false);
+        dt.draw(false); // redraw table once
         if (typeof Totals.updateCostsTotals === "function") {
             Totals.updateCostsTotals(scale);
         }
     }
+    function applyScale(scale) {
+        if (!Tables.allCostsTables) return;
+
+        // Find the active (visible) building and map to data key
+        const activeSection = $('.section.active').text().trim();
+        if (!activeSection) return;
+
+        const keyMap = window.loadedKeyMap || window.keyMap || {};
+        let mapped = keyMap[activeSection] || activeSection;
+        let safeKey = mapped.toLowerCase().replace(/[\s_]/g, '');
+        // Fuzzy match if direct match not present
+        if (!Tables.allCostsTables[safeKey]) {
+            const keys = Object.keys(Tables.allCostsTables);
+            const exact = keys.find(k => k === safeKey);
+            const contains = exact || keys.find(k => k.includes(safeKey));
+            const containedBy = contains || keys.find(k => safeKey.includes(k));
+            if (containedBy) safeKey = containedBy;
+        }
+        const dt = Tables.allCostsTables?.[safeKey];
+        if (!dt) return;
+
+        applyScaleForTable(dt, scale);
+    }
 
     // Expose selected API
     return {
+        
         initDefaults,
         createAllCostsTables,
         createAllMissionsTables,
@@ -707,6 +602,7 @@ const Tables = (function(Helpers){
         populateAllStatsTables,    
         setScrollRows,
         applyScale,
+        applyScaleForTable,
         applyColumnVisibility,        
         KEY_COL, CHECKBOX_COL, LEVEL_COL, TIME_COL,
     };

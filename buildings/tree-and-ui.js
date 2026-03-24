@@ -2,62 +2,154 @@
 // Handles tree clicks, SVG line drawing, table toggles, and event delegation.
 
 const UI = (function(Helpers, Tables, DataLoader, Totals){
-    // reuse maps referenced by Tables renderer
-    const checkedMap = Totals.getCheckedMap();
-    const missionsCheckedMap = Totals.getMissionsCheckedMap();
+    // === DRAG SCROLL SUPPORT FOR MAP CONTAINERS ===
+    function enableDragScroll(el) {
+        let isDown = false;
+        let startX;
+        let startY;
+        let scrollLeft;
+        let scrollTop;
 
-    function drawLines(){
-        const svg = document.getElementById('lines');
-        if (!svg) return;
-        svg.innerHTML = '';
-        const container = document.getElementById('mapContainer');
-        if (!container) return;
+        el.addEventListener("mousedown", (e) => {
+            isDown = true;
+            el.classList.add("dragging");
+            startX = e.pageX - el.offsetLeft;
+            startY = e.pageY - el.offsetTop;
+            scrollLeft = el.scrollLeft;
+            scrollTop = el.scrollTop;
+        });
 
-        const treeMap = {
-            "Headquarters": ["Bunker","Black Market","Geoponic Farm","Oil Rig","Alloy Refinery","Supply Depot","Situation Room"],
-            "Bunker": [], "Black Market": ["Engineering"], "Engineering": ["Experimentation Chamber","Factory","Turret"],
-            "Factory": ["Robotics Bay"], "Geoponic Farm": ["Barracks"], "Oil Rig": ["Research Lab"], "Alloy Refinery": ["Wall"],
-            "Barracks": ["Medical Bay","Command Post"], "Research Lab": ["Hostile Containment","Shard Reactor"], "Medical Bay": [],
-            "Hostile Containment": ["Alien Genetics Labs"], "Wall": ["Airstrip","Satellite Uplink"], "Command Post": ["Hero Armory"],
-            "Robotics Bay": [], "Alien Genetics Labs": [], "Hero Armory": [], "Supply Depot": ["Global Network"], "Global Network": ["Security Station"],
-            "Situation Room": [], "Airstrip": [], "Satellite Uplink": [], "Security Station": [], "Turret": [], "Experimentation Chamber": [],
-            "Shard Reactor": [], "Outpost Harvest": [], "Outpost Strategic": []
-        };
+        el.addEventListener("mouseleave", () => {
+            isDown = false;
+            el.classList.remove("dragging");
+        });
 
-        const elems = Array.from(container.children)
-            .filter(el => el.classList && el.classList.contains('section'))
-            .reduce((acc, el) => { acc[el.innerText.trim()] = el; return acc; }, {});
+        el.addEventListener("mouseup", () => {
+            isDown = false;
+            el.classList.remove("dragging");
+        });
 
-        for (let parentName in treeMap) {
-            const children = treeMap[parentName];
-            if (!children.length) continue;
-            const parentEl = elems[parentName];
-            if (!parentEl) continue;
-            const parentRect = parentEl.getBoundingClientRect();
-            const containerRect = container.getBoundingClientRect();
-            const startX = parentRect.right - containerRect.left;
-            const startY = parentRect.top - containerRect.top + parentRect.height/2;
+        el.addEventListener("mousemove", (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - el.offsetLeft;
+            const y = e.pageY - el.offsetTop;
+            const walkX = (x - startX) * 1;
+            const walkY = (y - startY) * 1;
+            el.scrollLeft = scrollLeft - walkX;
+            el.scrollTop = scrollTop - walkY;
+        });
+    }
+    
+    const mapLines = {
+        map1: [
+            { from: [0,1], to: [1,1] },//collum,row
+            { from: [0,7], to: [4,7] },
+            { from: [2,4], to: [3,4] },
+            { from: [2,10], to: [3,10] },
+            { from: [0,15], to: [2,15] },
+            { from: [2,13], to: [3,13] },
+            { from: [2,16], to: [4,16] },
+            { from: [0,21], to: [2,21] },
+            { from: [2,19], to: [4,19] },
+            { from: [2,22], to: [3,22] },
+            { from: [0,27], to: [2,27] },
+            { from: [2,25], to: [3,25] },
+            { from: [2,28], to: [3,28] },
+            { from: [0,31], to: [3,31] },
+            { from: [0,34], to: [1,34] },
+        ],
 
-            children.forEach(childName => {
-                const childEl = elems[childName]; if (!childEl) return;
-                const childRect = childEl.getBoundingClientRect();
-                const endX = childRect.left - containerRect.left;
-                const endY = childRect.top - containerRect.top + childRect.height/2;
-                const midX = startX + (endX - startX) / 2;
+        map2: [
+        ],
+        map3: [
+        ],
+    };
+    function drawLinesForMap(containerId, svgId, coordLines) {
+        const container = document.getElementById(containerId);
+        const svg = document.getElementById(svgId);
+        if (!container || !svg) return;
 
-                const polyline = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-                polyline.setAttribute('points', `${startX},${startY} ${midX},${startY} ${midX},${endY} ${endX},${endY}`);
-                polyline.setAttribute('stroke', '#ffcc00');
-                polyline.setAttribute('stroke-width', '2');
-                polyline.setAttribute('fill', 'none');
-                polyline.setAttribute('stroke-linecap', 'round');
-                polyline.setAttribute('stroke-linejoin', 'round');
-                svg.appendChild(polyline);
-            });
+        svg.innerHTML = "";
+
+        // Make SVG match entire scroll area
+        svg.setAttribute("width", container.scrollWidth);
+        svg.setAttribute("height", container.scrollHeight);
+        svg.setAttribute("viewBox", `0 0 ${container.scrollWidth} ${container.scrollHeight}`);
+
+        const style = window.getComputedStyle(container);
+
+        // --- Extract column width from grid-template-columns ---
+        const colTokens = style.gridTemplateColumns.split(" ");
+        let colWidth = 150;  // fallback
+        if (colTokens.length > 0) {
+            const match = colTokens[0].match(/(\d+)px/);
+            if (match) colWidth = parseInt(match[1]);
+        }
+
+        // --- Extract row height from grid-template-rows ---
+        const rowTokens = style.gridTemplateRows.split(" ");
+        let rowHeight = 100; // fallback
+        if (rowTokens.length > 0) {
+            const match = rowTokens[0].match(/(\d+)px/);
+            if (match) rowHeight = parseInt(match[1]);
+        }
+
+        // --- Extract gaps (computed by browser) ---
+        const gapCol = parseInt(style.columnGap) || 0;
+        const gapRow = parseInt(style.rowGap) || 0;
+
+        // Convert grid coordinates to screen coordinates
+        function center(col, row) {
+            const x = (col * (colWidth + gapCol)) + colWidth / 2;
+            const y = (row * (rowHeight + gapRow)) + rowHeight / 2;
+            return { x, y };
+        }
+
+        // Draw lines
+        for (const link of coordLines) {
+            const [c1, r1] = link.from;
+            const [c2, r2] = link.to;
+
+            const p = center(c1, r1);
+            const c = center(c2, r2);
+
+            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            line.setAttribute("x1", p.x);
+            line.setAttribute("y1", p.y);
+            line.setAttribute("x2", c.x);
+            line.setAttribute("y2", c.y);
+            line.setAttribute("stroke", "#ffcc00");
+            line.setAttribute("stroke-width", "2");
+
+            svg.appendChild(line);
         }
     }
 
-    function wireTreeClicks(keyMap, objMap) {
+
+    function initMultipleTrees(mapLines) {
+
+        for (const mapId in mapLines) {
+            const svgId = "lines" + mapId.replace("map", "");
+
+            const redraw = () =>
+                drawLinesForMap(mapId, svgId, mapLines[mapId]);
+
+            const container = document.getElementById(mapId);
+            if (!container) continue;
+
+            container.addEventListener("scroll", () => requestAnimationFrame(redraw));
+            window.addEventListener("resize", () => requestAnimationFrame(redraw));
+
+            // initial draw
+            redraw();
+        }
+    }
+    
+
+
+
+    function wireTreeClicks(keyMap) {
         $('.section').on('click', function () {
             // === UI highlight ===
             $('.section').removeClass('active');
@@ -94,8 +186,8 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             }
 
             $('.rewardsWrapper, .statsWrapper').hide();
-            $(`#rewardsWrapper-${safeKey}`).show();
-            $(`#statsWrapper-${safeKey}`).show();
+            $(`#rewardsWrapper-${safeKey}`).css('visibility','hidden').show();
+            $(`#statsWrapper-${safeKey}`).css('visibility','hidden').show();
             $('.time-scale').val(currentScale);
 
             // === Adjust scrolling height ===
@@ -114,9 +206,6 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                 drawLines();
             }, 0);
         });
-
-        // === Trigger default root click (Headquarters, etc.) ===
-        $('.section.root').trigger('click');
     }
 
     function wireTableToggle() {
@@ -143,6 +232,8 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             // Totals visibility
             $('#missionsTotals').css('display', tbl === 'missions' ? 'block' : 'none');
             $('#costsTotals').css('display', tbl === 'costs' ? 'block' : 'none');
+            $('#statsTotals').css('display', tbl === 'stats' ? 'block' : 'none');
+
 
             // Adjust DataTables headers if visible
             try {
@@ -170,29 +261,41 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
         $('#missionsMasterContainer, #statsMasterContainer').css({ height: 0, overflow: 'hidden', display: 'none' });
         $('#costsTotals').hide();
         $('#missionsTotals').hide();
+        $('#statsTotals').hide();        
     }
     function autoTickChain(buildingKey, level, visited = new Set(), depth = 0, tickedMap = {}) {
+        const normalize = s => (s || '').toString().toLowerCase().replace(/\s/g, '');
         const subs = window.structuresSubtypes || {};
-        const keyMap = window.loadedKeyMap || window.keyMap || {};
-        const normalize = s => (s || '').toString().toLowerCase().replace(/[\s_]/g, '');
-        const pretty = s => s.charAt(0).toUpperCase() + s.slice(1);
+        const reverseMap = window.reverseKeyMap || {};
 
-        let mapped = keyMap[buildingKey] || buildingKey;
-        let normKey = normalize(mapped);
+        // --- Only use reverseKeyMap ---
+        const resolveKey = (input) => {
+            if (!input) return '';
 
-        // --- match to structure ---
+            const raw = normalize(input); // e.g. "walls"
+
+            // reverseKeyMap gives label → convert back to keyMap style
+            const label = reverseMap[raw]; // e.g. "Wall"
+
+            if (!label) return raw;
+
+            // NOW map label → actual key using keyMap
+            const keyMap = window.loadedKeyMap || window.keyMap || {};
+
+            const mapped = keyMap[label]; // "walls"
+
+            return normalize(mapped || raw);
+        };
+
+        let normKey = resolveKey(buildingKey);
+
+        // --- Ensure it exists in structuresSubtypes ---
         if (!subs[normKey]) {
-            const match = Object.keys(subs).find(k => normalize(k) === normKey)
-                || Object.keys(subs).find(k => normalize(k).includes(normKey))
-                || Object.keys(subs).find(k => normKey.includes(normalize(k)));
-            if (match) normKey = normalize(match);
-            else {
-                console.warn(`⚠️ No matching structure for "${buildingKey}" → "${normKey}", stopping chain.`);
-                return;
-            }
+            console.warn(`⚠️ No matching structure for "${buildingKey}" → "${normKey}", stopping chain.`);
+            return;
         }
 
-        let structure = subs[normKey];
+        const structure = subs[normKey];
         if (!structure || !Array.isArray(structure.levels)) {
             console.warn(`⚠️ Invalid structure data for ${normKey}, stopping.`);
             return;
@@ -201,7 +304,8 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
         const nodeId = `${normKey}|${level}`;
         if (visited.has(nodeId)) return;
         visited.add(nodeId);
-        // snapshot currently-checked uids (only on the root call)
+
+        // --- Snapshot checked checkboxes on root call ---
         let __preCheckedSet = null;
         if (depth === 0) {
             __preCheckedSet = new Set();
@@ -211,21 +315,23 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             });
         }
 
-        // --- Owned levels from inputs ---
+        // --- Current owned levels ---
         const currentLevels = {};
         document.querySelectorAll('.section input[type="number"]').forEach(inp => {
-            const name = inp.closest('.section')?.innerText?.trim();
-            if (!name) return;
-            const mappedName = keyMap[name] || name;
-            const val = parseInt(inp.value, 10);
-            if (!isNaN(val)) currentLevels[normalize(mappedName)] = val;
-        });
+            const section = inp.closest('.section');
+            const key = section?.dataset?.key;
 
-        // --- Step 1: ensure all previous levels of *this* building are ticked ---
+            if (!key) return;
+
+            const val = parseInt(inp.value, 10);
+            if (!isNaN(val)) currentLevels[normalize(key)] = val;
+        });
+        console.log("CURRENT LEVELS:", currentLevels);
+
+        // --- Tick all required levels for this building ---
         const ownedLvl = currentLevels[normKey] || 0;
         for (let i = ownedLvl + 1; i <= level; i++) {
-            const uid = `${normKey}|${i}`;
-            const checkbox = $(`.row-checkbox[data-uid*="${normKey}"][data-uid$="|${i}"]`);
+            const checkbox = $(`.row-checkbox[data-uid^="${normKey}|"][data-uid$="|${i}"]`);
             if (checkbox.length && !checkbox.prop('checked')) {
                 checkbox.prop('checked', true).trigger('change');
                 if (!tickedMap[normKey]) tickedMap[normKey] = [];
@@ -233,49 +339,62 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             }
         }
 
-        // --- Step 2: process requirements recursively ---
-        const lvlData = structure.levels[level];
-        if (lvlData && Array.isArray(lvlData.requirements)) {
-            lvlData.requirements.forEach(req => {
+        // --- Recursively tick requirements ---
+            for (let i = ownedLvl + 1; i <= level; i++) {
+                const lvlData = structure.levels[i];
+                if (!lvlData || !Array.isArray(lvlData.requirements)) continue;
+
+                console.log(`Checking ${normKey} level ${i}`, lvlData.requirements);
+
+                lvlData.requirements.forEach(req => {
+                console.log("   ➡️ requirement:", req.target_subtype, "lvl", req.level);
                 if (req.subtype !== 'structure' || !req.target_subtype) return;
 
-                const reqKey = keyMap[req.target_subtype] || req.target_subtype;
-                const reqNorm = normalize(reqKey);
-                const match = Object.keys(subs).find(k => normalize(k) === reqNorm)
-                    || Object.keys(subs).find(k => normalize(k).includes(reqNorm))
-                    || Object.keys(subs).find(k => reqNorm.includes(normalize(k)));
-                if (!match) return;
+                const reqNorm = resolveKey(req.target_subtype);
+                if (!subs[reqNorm]) return;
 
-                const finalReqNorm = normalize(match);
-                let reqLvl = Math.min(parseInt(req.level, 10) || 1, (subs[finalReqNorm]?.levels?.length || 1) - 1);
+                const reqLvl = Math.min(parseInt(req.level, 10) || 1, (subs[reqNorm]?.levels?.length || 1) - 1);
+                const ownedReqLvl = currentLevels.hasOwnProperty(reqNorm)
+                    ? currentLevels[reqNorm]
+                    : null;
 
-                const ownedLvl = currentLevels[finalReqNorm] || 0;
-                if (ownedLvl >= reqLvl) return;
+                // If user has no level entered, DON'T backfill from 1
+                if (ownedReqLvl === null) {
+                    // only tick the required level itself
+                    const checkbox = $(`.row-checkbox[data-uid^="${reqNorm}|"][data-uid$="|${reqLvl}"]`);
+                    if (checkbox.length && !checkbox.prop('checked')) {
+                        checkbox.prop('checked', true).trigger('change');
+                        if (!tickedMap[reqNorm]) tickedMap[reqNorm] = [];
+                        tickedMap[reqNorm].push(reqLvl);
+                    }
 
-                const uid = `${finalReqNorm}|${reqLvl}`;
-                const checkbox = $(`.row-checkbox[data-uid*="${finalReqNorm}"][data-uid$="|${reqLvl}"]`);
-                if (checkbox.length && !checkbox.prop('checked')) {
-                    checkbox.prop('checked', true).trigger('change');
-                    if (!tickedMap[finalReqNorm]) tickedMap[finalReqNorm] = [];
-                    tickedMap[finalReqNorm].push(reqLvl);
+                    autoTickChain(reqNorm, reqLvl, visited, depth + 1, tickedMap);
+                    return;
                 }
 
-                autoTickChain(reqKey, reqLvl, visited, depth + 1, tickedMap);
+                // Normal case: user HAS a level
+                if (ownedReqLvl >= reqLvl) return;
+
+                const checkbox = $(`.row-checkbox[data-uid*="${reqNorm}"][data-uid$="|${reqLvl}"]`);
+                if (checkbox.length && !checkbox.prop('checked')) {
+                    checkbox.prop('checked', true).trigger('change');
+                    if (!tickedMap[reqNorm]) tickedMap[reqNorm] = [];
+                    tickedMap[reqNorm].push(reqLvl);
+                }
+
+                autoTickChain(reqNorm, reqLvl, visited, depth + 1, tickedMap);
             });
         }
 
-        // === Summary (only print once at the very end) ===
+        // --- Summary / popup on root call ---
         if (depth === 0) {
-            // Create or reuse a global buffer
             window.__autoTickBuffer = window.__autoTickBuffer || [];
             const isRootCall = !window.__autoTickActive;
             window.__autoTickActive = true;
 
-            // snapshot before tick run (for difference calc)
             const before = new Set();
             document.querySelectorAll('.row-checkbox:checked').forEach(cb => before.add(cb.dataset.uid));
 
-            // defer so all sub-ticks & .trigger('change') complete
             setTimeout(() => {
                 const after = new Set();
                 document.querySelectorAll('.row-checkbox:checked').forEach(cb => after.add(cb.dataset.uid));
@@ -283,7 +402,6 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                 const diff = [...after].filter(uid => !before.has(uid));
                 window.__autoTickBuffer.push(...diff);
 
-                // only print once when no other autoTickChain is active
                 if (isRootCall) {
                     const added = Array.from(new Set(window.__autoTickBuffer));
                     window.__autoTickBuffer = [];
@@ -292,15 +410,14 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                     if (added.length === 0) {
                         showPopup("🧩 No new ticks were applied.");
                     } else {
-                        added.push(`${normalize(buildingKey)}|${level}`);
+                        added.push(`${normKey}|${level}`);
 
-                        // group and compress
                         const grouped = {};
                         added.forEach(uid => {
-                            const [key, lvlStr] = uid.split('|');
+                            const [k, lvlStr] = uid.split('|');
                             const lvl = parseInt(lvlStr, 10);
-                            if (!grouped[key]) grouped[key] = [];
-                            if (!isNaN(lvl)) grouped[key].push(lvl);
+                            if (!grouped[k]) grouped[k] = [];
+                            if (!isNaN(lvl)) grouped[k].push(lvl);
                         });
 
                         const compress = arr => {
@@ -314,11 +431,10 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                             return out.map(r => r[0]===r[1]?`${r[0]}`:`${r[0]}–${r[1]}`).join(', ');
                         };
 
-                        const pretty = s => s.replace(/[_-]+/g,' ')
-                                            .replace(/\b\w/g,c=>c.toUpperCase());
+                        const pretty = s => s.replace(/[_-]+/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
 
                         let total = 0;
-                        let lines = [];
+                        const lines = [];
                         Object.entries(grouped).forEach(([k,v])=>{
                             total += v.length;
                             lines.push(`✔ ${pretty(k)}: ${compress(v)}`);
@@ -332,85 +448,137 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
                         showPopup(message, 9000);
                     }
 
-                    // redraw once at the end
+                    // redraw tables and update totals
                     if (Tables.allCostsTables) {
                         Object.values(Tables.allCostsTables).forEach(dt => dt.rows().invalidate().draw(false));
                     }
                     Totals.updateCostsTotals(window.currentScale);
                 }
-
-
             }, 100);
         }
     }
 
 
     function wireDelegatedHandlers(){
-        // ✅ COSTS checkboxes (all cost tables)
-        $(document).on('change', '.costsWrapper .row-checkbox', function(){
-            const $cb = $(this);
-            const uid = $cb.data('uid');
-            const jsonKey = $cb.data('json');
-            const lvl = parseInt($cb.data('lvl'), 10);
-            const isChecked = $cb.is(':checked');
+        
+            $(document).on('click', '.req-toggle', function () {
 
-            checkedMap[uid] = isChecked;
-            Totals.updateCostsTotals(window.currentScale);
+            const $cell = $(this).closest('.req-cell');
+            const $hidden = $cell.find('.req-hidden');
 
-            if (isChecked && $('#autoLinkToggle').is(':checked')) {
-                // 🔁 Auto-tick the full prerequisite chain (only if Auto-total is ON)
-                autoTickChain(jsonKey, lvl);
-            }100
-        });
+            const expanded = $hidden.is(':visible');
 
-        // ✅ Remove All button for COSTS (multi-table safe)
-        $(document).on('click', '#removeAllCosts', function(e){
-            e.preventDefault();
-            Object.keys(checkedMap).forEach(k => delete checkedMap[k]);
+            $hidden.slideToggle(150);
 
-            if (Tables.allCostsTables) {
-                Object.values(Tables.allCostsTables).forEach(dt => {
-                    if (!dt || typeof dt.rows !== 'function') return;
-                    dt.rows().every(function() {
-                        const d = this.data();
-                        if (!d) return;
-                        const uid = `${Helpers.stripHtml(d[0])}|${d[2]}`;
-                        checkedMap[uid] = false;
-                    });
-                    dt.rows().invalidate().draw(false);
-                });
+            $(this).text(expanded ? '▼' : '▲');
+        });   
+        // ✅ Time-scale live update for costs time column
+        
+        $(document).on('input change', '.time-scale', function () {
+            const val = parseFloat($(this).val());
+            const scale = isNaN(val) ? 0 : val;
+
+            window.currentScale = scale;
+
+            try {
+                // 🔥 find the correct table from THIS input
+                const $wrapper = $(this).closest('.dataTables_wrapper');
+
+                // ⚠️ MUST target scroll body table (real DataTable)
+                const $table = $wrapper.find('.dataTables_scrollBody table');
+
+                const dt = ($table.length && $.fn.DataTable.isDataTable($table[0]))
+                    ? $table.DataTable()
+                    : null;
+
+                if (dt && typeof Tables.applyScaleForTable === 'function') {
+                    Tables.applyScaleForTable(dt, scale);
+                }
+            } catch (e) {
+                console.error("Scale update failed:", e);
             }
-
-            Totals.updateCostsTotals(window.currentScale);
         });
 
-        // ✅ Rewards checkboxes (all mission tables)
-        $(document).on('change', '.rewardsWrapper .row-checkbox', function(){
-            const uid = $(this).attr('data-uid');
-            const normalized = normalizeUid(uid);
-            missionsCheckedMap[normalized] = $(this).is(':checked');
-            Totals.updateMissionsTotals();
-        });
+        function wireTotalsSystem(config) {
+            const {
+                wrapper,
+                removeBtn,
+                tablesGetter,
+                mapGetter,
+                updater
+            } = config;
 
-        // ✅ Remove All button for Rewards (multi-table safe)
-        $(document).on('click', '#removeAllRewards', function(e){
-            e.preventDefault();
-            Object.keys(missionsCheckedMap).forEach(k => delete missionsCheckedMap[k]);
+            const checkedMap = mapGetter();
 
-            if (Tables.allMissionsTables) {
-                Object.values(Tables.allMissionsTables).forEach(dt => {
-                    if (!dt || typeof dt.rows !== 'function') return;
-                    dt.rows().every(function() {
-                        const d = this.data();
-                        if (!d) return;
-                        const uid = `${Helpers.stripHtml(d[0])}|${d[2]}`;
-                        missionsCheckedMap[uid] = false;
+            $(document).on('change', `${wrapper} .row-checkbox`, function(){
+                const $cb = $(this);
+                const uid = normalizeUid($cb.data('uid'));
+                const isChecked = $cb.is(':checked');
+
+                checkedMap[uid] = isChecked;
+                updater();
+
+                // ✅ ONLY costs
+                if (wrapper === '.costsWrapper' && isChecked && $('#autoLinkToggle').is(':checked')) {
+                    const uid = normalizeUid($cb.data('uid') || '');
+                    const [jsonKey, lvlStr] = uid.split('|');
+                    const lvl = parseInt(lvlStr, 10);
+                    if (jsonKey && !isNaN(lvl)) {
+                        autoTickChain(jsonKey, lvl);
+                    }
+                }
+            });
+
+            $(document).on('click', removeBtn, function(e){
+                e.preventDefault();
+
+                Object.keys(checkedMap).forEach(k => delete checkedMap[k]);
+
+                const tables = tablesGetter();
+                if (tables) {
+                    Object.values(tables).forEach(dt => {
+                        if (!dt || typeof dt.rows !== 'function') return;
+
+                        dt.rows().every(function(){
+                            const d = this.data();
+                            if (!d) return;
+                            const uid = `${Helpers.stripHtml(d[0])}|${d[2]}`;
+                            checkedMap[uid] = false;
+                        });
+
+                        dt.rows().invalidate().draw(false);
                     });
-                    dt.rows().invalidate().draw(false);
-                });
-            }
+                }
 
-            Totals.updateMissionsTotals();
+                updater();
+            });
+        }
+
+        // ✅ COSTS
+        wireTotalsSystem({
+            wrapper: '.costsWrapper',
+            removeBtn: '#removeAllCosts',
+            tablesGetter: () => Tables.allCostsTables,
+            mapGetter: Totals.getCheckedMap,
+            updater: () => Totals.updateCostsTotals(window.currentScale)
+        });
+
+        // ✅ MISSIONS
+        wireTotalsSystem({
+            wrapper: '.rewardsWrapper',
+            removeBtn: '#removeAllRewards',
+            tablesGetter: () => Tables.allMissionsTables,
+            mapGetter: Totals.getMissionsCheckedMap,
+            updater: () => Totals.updateMissionsTotals()
+        });
+
+        // ✅ STATS
+        wireTotalsSystem({
+            wrapper: '.statsWrapper',
+            removeBtn: '#removeAllStats',
+            tablesGetter: () => Tables.allStatsTables,
+            mapGetter: Totals.getStatsCheckedMap,
+            updater: () => Totals.updateStatsTotals()
         });
 
         // time-scale + costs remain the same ...
@@ -425,32 +593,86 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
         return uid;
     }
 
+    function drawLines() {
+        for (const mapId in mapLines) {
+            const svgId = "lines" + mapId.replace("map", "");
+            drawLinesForMap(mapId, svgId, mapLines[mapId]);
+        }
+    }
+    function initInternalMapSwitching() {
+        document.querySelectorAll(".nav-btn[data-map]").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const target = btn.dataset.map;
+
+                document.querySelectorAll(".container[id^='map']").forEach(m => {
+                    m.style.display = "none";
+                });
+
+                const selected = document.getElementById(target);
+                if (!selected) return;
+
+                selected.style.display = "grid";
+
+                // Defer root selection and line drawing to next frame to ensure layout is ready
+                requestAnimationFrame(() => {
+                    selectRootOfMap(selected);
+                    const index = target.replace("map", "");
+                    const svgId = "lines" + index;
+                    drawLinesForMap(target, svgId, mapLines[target]);
+                });
+            });
+        });
+    }
+
+    function selectRootOfMap(mapElement) {
+        if (!mapElement) return;
+        const root = mapElement.querySelector(".section.root");
+        if (root) root.click();
+    }
+
+
     // public bootstrap after data loaded and tables created
     function bootstrap(data){
+        initMultipleTrees(mapLines);
+        initInternalMapSwitching();
+        document.querySelectorAll(".container[id^='map']").forEach(el => {
+            enableDragScroll(el);
+        });
         const keyMap = data.keyMap;
-        const objMap = data.objMap;
         const subs = window.structuresSubtypes || {};
         Tables.allCostsTables = Tables.createAllCostsTables(subs, Totals.getCheckedMap());
         Tables.populateAllCostsTables(subs, Totals.getCheckedMap());
         Tables.allMissionsTables = Tables.createAllMissionsTables(subs, Totals.getMissionsCheckedMap());
-        Tables.populateAllMissionsTables(subs, Totals.getMissionsCheckedMap(), objMap);
-        Tables.allStatsTables = Tables.createAllStatsTables(subs);
-        Tables.populateAllStatsTables(subs);
-
+        Tables.populateAllMissionsTables(subs, Totals.getMissionsCheckedMap());
+        Tables.allStatsTables = Tables.createAllStatsTables(subs, Totals.getStatsCheckedMap());
+        Tables.populateAllStatsTables(subs, Totals.getStatsCheckedMap());
         // initial draw of lines
         setTimeout(drawLines, 50);
         window.addEventListener('resize', function(){ setTimeout(drawLines, 20); });
-
-        wireTreeClicks(keyMap, objMap);
+        wireTreeClicks(keyMap);
         wireTableToggle();
         wireDelegatedHandlers();
-
         setTimeout(() => Totals.updateCostsTotals(currentScale), 150);
         setTimeout(() => Totals.updateMissionsTotals(), 150);
-
+        setTimeout(() => Totals.updateStatsTotals(), 150);
+        // Reveal map1 without flash and auto-select its root on next frame
+        requestAnimationFrame(() => {
+            document.querySelectorAll(".container[id^='map']").forEach(m => {
+                m.style.display = "none";
+            });
+            const m1 = document.getElementById("map1");
+            if (!m1) return;
+            m1.style.display = "grid";
+            requestAnimationFrame(() => {
+                const root = m1.querySelector(".section.root");
+                if (root) root.click();
+                const svgId = "lines1";
+                drawLinesForMap("map1", svgId, mapLines["map1"]);
+            });
+        });
     }
 
     // 👇 nothing else goes here inside the module
-    return { bootstrap, drawLines };
+    return { bootstrap, drawLines};
 })(Helpers, Tables, DataLoader, Totals);
 

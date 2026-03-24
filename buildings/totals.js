@@ -4,66 +4,69 @@
 const Totals = (function(Helpers, Tables){
     const checkedMap = Object.create(null);
     const missionsCheckedMap = Object.create(null);
+    const statsCheckedMap = Object.create(null);
 
     function getCheckedMap(){ return checkedMap; }
     function getMissionsCheckedMap(){ return missionsCheckedMap; }
+    function getStatsCheckedMap(){ return statsCheckedMap; }
 
-    // --- Update Costs Totals ---
-    function updateCostsTotals(currentScale){
+    function updateTotalsSystem(config) {
+        const {
+            tables,
+            checkedMap,
+            containerId,
+            sectionTitle,
+            scale = null
+        } = config;
+
+        const $container = $(containerId);
         const totals = {};
-        const allTables = Tables.allCostsTables || {};
-        const allChecked = Totals.getCheckedMap();
 
-        // hide container if nothing checked
-        if (!Object.keys(allChecked).some(k => allChecked[k])) {
-            $('#costsTotals').hide().empty();
+        // ❌ Nothing checked
+        if (!Object.keys(checkedMap).some(k => checkedMap[k])) {
+            $container.hide().empty();
             maybeHideAllTotals();
             return;
         }
 
-        // find first valid table for column layout
+        // 🔍 Find sample columns
         let sampleCols = null;
-        for (const key in allTables) {
-            const dt = allTables[key];
+        for (const key in tables) {
+            const dt = tables[key];
             if (dt && dt.settings && dt.settings().length) {
                 sampleCols = dt.settings()[0].aoColumns;
                 break;
             }
         }
+
         if (!sampleCols) {
-            $('#costsTotals').hide().empty();
+            $container.hide().empty();
             maybeHideAllTotals();
             return;
         }
 
-        // init totals for numeric columns
+        // 🧮 Initialise numeric columns
         sampleCols.forEach((col, idx) => {
             if ([Tables.KEY_COL, Tables.CHECKBOX_COL, Tables.LEVEL_COL].includes(idx)) return;
             totals[idx] = 0;
         });
 
-        // sum up all checked rows
-        Object.entries(allTables).forEach(([safeKey, dt]) => {
+        // ➕ Sum checked rows
+        Object.values(tables).forEach(dt => {
             if (!dt) return;
+
             dt.rows({ search: 'applied' }).every(function(){
                 const d = this.data();
                 const uid = `${Helpers.stripHtml(d[Tables.KEY_COL])}|${d[Tables.LEVEL_COL]}`;
-                if (!allChecked[uid]) return;
+                if (!checkedMap[uid]) return;
 
                 Object.keys(totals).forEach(k => {
                     const idx = parseInt(k);
-                    if (idx === Tables.TIME_COL) {
-                        const buildingName = d[Tables.KEY_COL];
-                        const lvlIdx = parseInt(d[Tables.LEVEL_COL]);
-                        const keyRaw = (buildingName || '').toLowerCase();
-                        const structure = window.structuresSubtypes?.[keyRaw];
-                        if (!structure || !structure.levels?.[lvlIdx]) return;
 
-                        const rawTime = (d._rawTime && d._rawTime[idx])
-                            ? d._rawTime[idx]
-                            : Number(Helpers.lookup.lookupValue(structure.levels[lvlIdx], "upgrade_cost")) || 0;
-                        const scaled = Math.floor(rawTime / (1 + currentScale / 100));
-                        totals[idx] += scaled;
+                    // 🔥 Special TIME scaling (Costs only)
+                    if (scale !== null && idx === Tables.TIME_COL) {
+                        const raw = d._rawTime?.[Tables.TIME_COL] ?? 0; // ✅ use raw numeric value
+                        totals[idx] += Math.floor(raw / (1 + scale / 100));
                     } else {
                         totals[idx] += Helpers.parseNumber(d[idx]);
                     }
@@ -71,27 +74,31 @@ const Totals = (function(Helpers, Tables){
             });
         });
 
-        // build totals HTML
+        // 🏗 Build output
         const headerCells = [];
         const totalCells = [];
 
         Object.keys(totals).forEach(k => {
             const idx = parseInt(k);
             if (totals[idx] !== 0) {
-                const col = sampleCols[idx];
-                const title = sampleCols[idx]?.sTitle || '';
+                const title = (sampleCols[idx]?.sTitle || '')
+                    .replace(/<input[^>]*>/g, '')      // remove input tags
+                    .replace(/%/g, '')                 // remove percent signs
+                    .replace(/<span[^>]*>.*?<\/span>/g, '') // remove span tags and their content
+                    .trim();
+
                 headerCells.push(`<th>${title}</th>`);
+
                 totalCells.push(`<td>${
-                    idx === Tables.TIME_COL
+                    (scale !== null && idx === Tables.TIME_COL)
                         ? Helpers.formatTime(totals[idx])
                         : Helpers.formatShort(totals[idx])
                 }</td>`);
             }
         });
 
-        // nothing checked → hide
         if (headerCells.length === 0) {
-            $('#costsTotals').hide().empty();
+            $container.hide().empty();
             maybeHideAllTotals();
             return;
         }
@@ -100,15 +107,21 @@ const Totals = (function(Helpers, Tables){
             <div class="totals-block">
                 <table class="totals-table">
                     <thead>
-                        <tr><th colspan="${headerCells.length}" class="totals-section-title">Costs Total</th></tr>
+                        <tr>
+                            <th colspan="${headerCells.length}" class="totals-section-title">
+                                ${sectionTitle}
+                            </th>
+                        </tr>
                         <tr>${headerCells.join('')}</tr>
                     </thead>
-                    <tbody><tr>${totalCells.join('')}</tr></tbody>
+                    <tbody>
+                        <tr>${totalCells.join('')}</tr>
+                    </tbody>
                 </table>
             </div>
         `;
 
-        $('#costsTotals').html(html).css({
+        $container.html(html).css({
             display: 'flex',
             justifyContent: 'center',
             textAlign: 'center',
@@ -118,95 +131,41 @@ const Totals = (function(Helpers, Tables){
         maybeShowTotalsWrapper();
     }
 
-    // --- Update Missions Totals ---
+    function updateCostsTotals(currentScale){
+        updateTotalsSystem({
+            tables: Tables.allCostsTables || {},
+            checkedMap: checkedMap,
+            containerId: '#costsTotals',
+            sectionTitle: 'Costs Total',
+            scale: currentScale
+        });
+    }
+
     function updateMissionsTotals(){
-        const allTables = Tables.allMissionsTables || {};
-        const totals = {};
-
-        // hide container if nothing checked
-        if (!Object.keys(missionsCheckedMap).some(k => missionsCheckedMap[k])) {
-            $('#missionsTotals').hide().empty();
-            maybeHideAllTotals();
-            return;
-        }
-
-        let sampleCols = null;
-        for (const key in allTables) {
-            const dt = allTables[key];
-            if (dt && dt.settings && dt.settings().length) {
-                sampleCols = dt.settings()[0].aoColumns;
-                break;
-            }
-        }
-        if (!sampleCols) {
-            $('#missionsTotals').hide().empty();
-            maybeHideAllTotals();
-            return;
-        }
-
-        sampleCols.forEach((col, idx) => {
-            if ([Tables.KEY_COL, Tables.CHECKBOX_COL, Tables.LEVEL_COL].includes(idx)) return;
-            totals[idx] = 0;
+        updateTotalsSystem({
+            tables: Tables.allMissionsTables || {},
+            checkedMap: missionsCheckedMap,
+            containerId: '#missionsTotals',
+            sectionTitle: 'Missions Total'
         });
+    }
 
-        Object.values(allTables).forEach(dt => {
-            if (!dt) return;
-            dt.rows({ search: 'applied' }).every(function(){
-                const d = this.data();
-                const uid = `${Helpers.stripHtml(d[Tables.KEY_COL])}|${d[Tables.LEVEL_COL]}`;
-                if (!missionsCheckedMap[uid]) return;
-                Object.keys(totals).forEach(k => {
-                    totals[k] += Helpers.parseNumber(d[k]);
-                });
-            });
+    function updateStatsTotals(){
+        updateTotalsSystem({
+            tables: Tables.allStatsTables || {},
+            checkedMap: statsCheckedMap,
+            containerId: '#statsTotals',
+            sectionTitle: 'Stats Total'
         });
-
-        const headerCells = [];
-        const totalCells = [];
-        Object.keys(totals).forEach(k => {
-            const idx = parseInt(k);
-            if (totals[idx] !== 0) {
-                const title = sampleCols[idx]?.sTitle || '';
-                headerCells.push(`<th>${title}</th>`);
-                totalCells.push(`<td>${Helpers.formatShort(totals[idx])}</td>`);
-            }
-        });
-
-        if (headerCells.length === 0) {
-            $('#missionsTotals').hide().empty();
-            maybeHideAllTotals();
-            return;
-        }
-
-        const html = `
-            <div class="totals-block">
-                <table class="totals-table">
-                    <thead>
-                        <tr><th colspan="${headerCells.length}" class="totals-section-title">Missions Total</th></tr>
-                        <tr>${headerCells.join('')}</tr>
-                    </thead>
-                    <tbody><tr>${totalCells.join('')}</tr></tbody>
-                </table>
-            </div>
-        `;
-
-        $('#missionsTotals').html(html).css({
-            display: 'flex',
-            justifyContent: 'center',
-            textAlign: 'center',
-            margin: '10px auto'
-        }).show();
-
-        maybeShowTotalsWrapper();
     }
 
     // --- Helpers for visibility management ---
     function maybeShowTotalsWrapper(){
-        const show = $('#costsTotals').is(':visible') || $('#missionsTotals').is(':visible');
+        const show = $('#costsTotals').is(':visible') || $('#missionsTotals').is(':visible') || $('#statsTotals').is(':visible');
         if (show) $('#totalsWrapper').css({ display: 'flex', flexDirection: 'column', alignItems: 'center' });
     }
     function maybeHideAllTotals(){
-        if (!$('#costsTotals').is(':visible') && !$('#missionsTotals').is(':visible')) {
+        if (!$('#costsTotals').is(':visible') && !$('#missionsTotals').is(':visible') && !$('#statsTotals').is(':visible')) {
             $('#totalsWrapper').hide();
         }
     }
@@ -214,7 +173,9 @@ const Totals = (function(Helpers, Tables){
     return {
         updateCostsTotals,
         updateMissionsTotals,
+        updateStatsTotals,
         getCheckedMap,
-        getMissionsCheckedMap
+        getMissionsCheckedMap,
+        getStatsCheckedMap,
     };
 })(Helpers, Tables);
