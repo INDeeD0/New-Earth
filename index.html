@@ -7,15 +7,27 @@
 
 <!-- DataTables CSS -->
 <link rel="stylesheet" href="libs/jquery.dataTables.min.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="buildings/styles.css">
 </head>
 <body>
 
 <!-- Navigation -->
 <div id="topNav">
+
   <button class="nav-btn" data-page="Research.html">Research</button>
   <button class="nav-btn" data-page="index.html">Structures</button>
-  <button class="nav-btn" data-page="hero-skills.html">Hero</button>
+
+  <!-- ✅ Dropdown -->
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="hero.html">Hero ▾</button>
+
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="hero-skills.html">Hero Skills</button>
+      <button class="nav-btn" data-page="hero-invaderskills.html">Invader Skills</button>
+      <button class="nav-btn" data-page="hero-gear.html">Gear</button>
+    </div>
+  </div>
+
 </div>
 <div id="save">
   <button id="saveLevelsBtn" class="nav-btn">Save</button>
@@ -24,42 +36,42 @@
   <button id="loadLevelsBtn" class="nav-btn">Load</button>
 </div>
 <!-- Tree -->
-<div class="container" id="mapContainer">
-  <div class="section root" style="grid-row:1 / span 12; grid-column:1;" data-key="Headquarters"><input type="number" class="no-spinners">&nbsp;Headquarters</div>
-  <div class="section" style="grid-row:13; grid-column:1;" data-key="Outpost Strategic">Outpost Strategic</div>
+<div class="container" id="map1">
+  <div class="section root" style="grid-row:1 / span 36; grid-column:1;" data-key="headquarters"><input type="number" class="no-spinners">&nbsp;Headquarters</div>
+  <div class="section" style="grid-row:37 /span 3; grid-column:1;" data-key="outpost_strategic">Outpost Strategic</div>
 
-  <div class="section" style="grid-row:1; grid-column:2;" data-key="Bunker"><input type="number" class="no-spinners">&nbsp;Bunker</div>
-  <div class="section" style="grid-row:2 / span 3; grid-column:2;" data-key="Black Market"><input type="number" class="no-spinners">&nbsp;Black Market</div>
-  <div class="section" style="grid-row:5 / span 2; grid-column:2;" data-key="Geoponic Farm"><input type="number" class="no-spinners">&nbsp;Geoponic Farm</div>
-  <div class="section" style="grid-row:7 / span 2; grid-column:2;" data-key="Oil Rig"><input type="number" class="no-spinners">&nbsp;Oil Rig</div>
-  <div class="section" style="grid-row:9 / span 2; grid-column:2;" data-key="Alloy Refinery"><input type="number" class="no-spinners">&nbsp;Alloy Refinery</div>
-  <div class="section" style="grid-row:11; grid-column:2;" data-key="Supply Depot"><input type="number" class="no-spinners">&nbsp;Supply Depot</div>
-  <div class="section" style="grid-row:12; grid-column:2;" data-key="Situation Room"><input type="number" class="no-spinners">&nbsp;Situation Room</div>
-  <div class="section" style="grid-row:13; grid-column:2;" data-key="Outpost Harvest">Outpost Harvest</div>
+  <div class="section" style="grid-row:1 / span 3; grid-column:2;" data-key="shelter"><input type="number" class="no-spinners">&nbsp;Bunker</div>
+  <div class="section" style="grid-row:4 / span 9; grid-column:2;" data-key="blackmarket"><input type="number" class="no-spinners">&nbsp;Black Market</div>
+  <div class="section" style="grid-row:13 / span 6; grid-column:2;" data-key="hydroponicfarm"><input type="number" class="no-spinners">&nbsp;Geoponic Farm</div>
+  <div class="section" style="grid-row:19 / span 6; grid-column:2;" data-key="oilrig"><input type="number" class="no-spinners">&nbsp;Oil Rig</div>
+  <div class="section" style="grid-row:25 / span 6; grid-column:2;" data-key="alloyrefinery"><input type="number" class="no-spinners">&nbsp;Alloy Refinery</div>
+  <div class="section" style="grid-row:31 / span 3; grid-column:2;" data-key="supplydepot"><input type="number" class="no-spinners">&nbsp;Supply Depot</div>
+  <div class="section" style="grid-row:34 / span 3; grid-column:2;" data-key="war_room"><input type="number" class="no-spinners">&nbsp;Situation Room</div>
+  <div class="section" style="grid-row:37 / span 3; grid-column:2;" data-key="outpost_harvest">Outpost Harvest</div>
 
-  <div class="section" style="grid-row:2 / span 3; grid-column:3;" data-key="Engineering"><input type="number" class="no-spinners">&nbsp;Engineering</div>
-  <div class="section" style="grid-row:5 / span 2; grid-column:3;" data-key="Barracks"><input type="number" class="no-spinners">&nbsp;Barracks</div>
-  <div class="section" style="grid-row:7 / span 2; grid-column:3;" data-key="Research Lab"><input type="number" class="no-spinners">&nbsp;Research Lab</div>
-  <div class="section" style="grid-row:9 / span 2; grid-column:3;" data-key="Wall"><input type="number" class="no-spinners">&nbsp;Wall</div>
-  <div class="section" style="grid-row:11; grid-column:3;" data-key="Global Network"><input type="number" class="no-spinners">&nbsp;Global Network</div>
+  <div class="section" style="grid-row:4 / span 9; grid-column:3;" data-key="engineering"><input type="number" class="no-spinners">&nbsp;Engineering</div>
+  <div class="section" style="grid-row:13 / span 6; grid-column:3;" data-key="barracks"><input type="number" class="no-spinners">&nbsp;Barracks</div>
+  <div class="section" style="grid-row:19 / span 6; grid-column:3;" data-key="researchlab"><input type="number" class="no-spinners">&nbsp;Research Lab</div>
+  <div class="section" style="grid-row:25 / span 6; grid-column:3;" data-key="walls"><input type="number" class="no-spinners">&nbsp;Wall</div>
+  <div class="section" style="grid-row:31 / span 3; grid-column:3;" data-key="globalnetwork"><input type="number" class="no-spinners">&nbsp;Global Network</div>
 
-  <div class="section" style="grid-row:2; grid-column:4;" data-key="Experimentation Chamber"><input type="number" class="no-spinners">&nbsp;Experimentation Chamber</div>
-  <div class="section" style="grid-row:3; grid-column:4;" data-key="Factory"><input type="number" class="no-spinners">&nbsp;Factory</div>
-  <div class="section" style="grid-row:4; grid-column:4;" data-key="Turret"><input type="number" class="no-spinners">&nbsp;Turret</div>
-  <div class="section" style="grid-row:5; grid-column:4;" data-key="Medical Bay"><input type="number" class="no-spinners">&nbsp;Medical Bay</div>
-  <div class="section" style="grid-row:6; grid-column:4;" data-key="Command Post"><input type="number" class="no-spinners">&nbsp;Command Post</div>
-  <div class="section" style="grid-row:7; grid-column:4;" data-key="Hostile Containment"><input type="number" class="no-spinners">&nbsp;Hostile Containment</div>
-  <div class="section" style="grid-row:8; grid-column:4;" data-key="Shard Reactor"><input type="number" class="no-spinners">&nbsp;Shard Reactor</div>
-  <div class="section" style="grid-row:9; grid-column:4;" data-key="Airstrip"><input type="number" class="no-spinners">&nbsp;Airstrip</div>
-  <div class="section" style="grid-row:10; grid-column:4;" data-key="Satellite Uplink"><input type="number" class="no-spinners">&nbsp;Satellite Uplink</div>
-  <div class="section" style="grid-row:11; grid-column:4;" data-key="Security Station"><input type="number" class="no-spinners">&nbsp;Security Station</div>
+  <div class="section" style="grid-row:4 / span 3; grid-column:4;" data-key="experimentation_chamber"><input type="number" class="no-spinners">&nbsp;Experimentation Chamber</div>
+  <div class="section" style="grid-row:7 / span 3; grid-column:4;" data-key="factory"><input type="number" class="no-spinners">&nbsp;Factory</div>
+  <div class="section" style="grid-row:10 / span 3; grid-column:4;" data-key="turret"><input type="number" class="no-spinners">&nbsp;Turret</div>
+  <div class="section" style="grid-row:13 / span 3; grid-column:4;" data-key="medicalbay"><input type="number" class="no-spinners">&nbsp;Medical Bay</div>
+  <div class="section" style="grid-row:16 / span 3; grid-column:4;" data-key="commandpost"><input type="number" class="no-spinners">&nbsp;Command Post</div>
+  <div class="section" style="grid-row:19 / span 3; grid-column:4;" data-key="hostilecontainment"><input type="number" class="no-spinners">&nbsp;Hostile Containment</div>
+  <div class="section" style="grid-row:22 / span 3; grid-column:4;" data-key="shardcondenser"><input type="number" class="no-spinners">&nbsp;Shard Reactor</div>
+  <div class="section" style="grid-row:25 / span 3; grid-column:4;" data-key="airstrip"><input type="number" class="no-spinners">&nbsp;Airstrip</div>
+  <div class="section" style="grid-row:28 / span 3; grid-column:4;" data-key="satelliteuplink"><input type="number" class="no-spinners">&nbsp;Satellite Uplink</div>
+  <div class="section" style="grid-row:31 / span 3; grid-column:4;" data-key="securitystation"><input type="number" class="no-spinners">&nbsp;Security Station</div>
 
-  <div class="section" style="grid-row:3; grid-column:5;" data-key="Robotics Bay"><input type="number" class="no-spinners">&nbsp;Robotics Bay</div>
-  <div class="section" style="grid-row:6; grid-column:5;" data-key="Hero Armory"><input type="number" class="no-spinners">&nbsp;Hero Armory</div>
-  <div class="section" style="grid-row:7; grid-column:5;" data-key="Alien Genetics Labs"><input type="number" class="no-spinners">&nbsp;Alien Genetics Labs</div>
-
-  <svg id="lines"></svg>
+  <div class="section" style="grid-row:7 / span 3; grid-column:5;" data-key="robotics_bay"><input type="number" class="no-spinners">&nbsp;Robotics Bay</div>
+  <div class="section" style="grid-row:16 / span 3; grid-column:5;" data-key="hero_armory"><input type="number" class="no-spinners">&nbsp;Hero Armory</div>
+  <div class="section" style="grid-row:19 / span 3; grid-column:5;" data-key="alien_genetics_lab"><input type="number" class="no-spinners">&nbsp;Alien Genetics Labs</div>
+  <svg id="lines1"></svg>
 </div>
+
 
 <!-- Table Toggle -->
 <div id="tableToggle">
@@ -69,7 +81,7 @@
   <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
 </label>
   <button class="toggle-table-btn active" data-table="costs">Costs</button>
-  <button class="toggle-table-btn" data-table="missions">Main Missions</button>
+  <!--<button class="toggle-table-btn" data-table="missions">Main Missions</button>-->
   <button class="toggle-table-btn" data-table="stats">Stats</button>
   </div>
 <!-- Tables -->
@@ -86,6 +98,11 @@
         <thead><tr id="totalsHeader"></tr></thead>
         <tbody><tr id="totalsBody"></tr></tbody>
     </table></div>
+<div id="statsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="statsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="statsTotalsHeader"></tr></thead>
+      <tbody><tr id="statsTotalsBody"></tr></tbody>
+  </table></div>    
 <!-- Scripts -->
 <script src="libs/jquery-3.7.0.min.js"></script>
 <script src="libs/jquery.dataTables.min.js"></script>
