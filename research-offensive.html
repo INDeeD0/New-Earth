@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="research-offensive/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="topNav">
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="research-offensive.html">Research ▾</button>
+    <div class="dropdown-menu">
+        <button class="nav-btn" data-page="research-defensive.html">Defensive</button>
+        <button class="nav-btn" data-page="research-operations.html">Operations</button>
+        <button class="nav-btn" data-page="research-drone.html">Drone</button>
+        <button class="nav-btn" data-page="research-efficiency.html">Efficiency</button>
+        <button class="nav-btn" data-page="research-specialized.html">Specialized</button>
+      </div>
+  </div>
+  
+  <button class="nav-btn" data-page="index.html">Structures</button>
+
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="hero.html">Hero ▾</button>
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="hero-skills.html">Hero Skills</button>
+      <button class="nav-btn" data-page="hero-invaderskills.html">Invader Skills</button>
+      <button class="nav-btn" data-page="hero-gear.html">Gear</button>
+    </div>
+  </div>
+
+</div>
+<div id="save">
+  <button id="saveLevelsBtn" class="nav-btn">Save</button>
+  <button id="resetLevelsBtn" class="nav-btn">&#x1F501;</button>
+  <input type="file" id="loadLevelsFile" style="display:none" accept=".txt">
+  <button id="loadLevelsBtn" class="nav-btn">Load</button>
+</div>
+<!-- Tree -->
+<div class="container" id="map1">
+  <div class="section root" style="grid-column:1; grid-row:2;" data-key="Scouting"><input type="number" class="no-spinners">&nbsp;Scouting</div>
+  
+  <div class="section" style="grid-column:2; grid-row:1;" data-key="Automated Factories"><input type="number" class="no-spinners">&nbsp;Automated Factories</div>
+  <div class="section" style="grid-column:2; grid-row:2;" data-key="Troop Training"><input type="number" class="no-spinners">&nbsp;Troop Training</div>
+
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="Heavy Infantry Attack"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Attack</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="Light Infantry Attack"><input type="number" class="no-spinners">&nbsp;Light Infantry Attack</div>
+
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="Heavy Infantry Defense"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Defense</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="Light Infantry Defense"><input type="number" class="no-spinners">&nbsp;Light Infantry Defense</div>
+
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="Pyro Squad"><input type="number" class="no-spinners">&nbsp;Pyro Squad</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="Infiltrator Squad"><input type="number" class="no-spinners">&nbsp;Infiltrator Squad</div>
+
+  <div class="section" style="grid-column:6; grid-row:1;" data-key="Ground Vehicle Attack"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Attack</div>
+  <div class="section" style="grid-column:6; grid-row:2;" data-key="Air Vehicle Attack"><input type="number" class="no-spinners">&nbsp;Air Vehicle Attack</div>
+
+  <div class="section" style="grid-column:7; grid-row:1;" data-key="Ground Vehicle Defense"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Defense</div>
+  <div class="section" style="grid-column:7; grid-row:2;" data-key="Air Vehicle Defense"><input type="number" class="no-spinners">&nbsp;Air Vehicle Defense</div>
+  
+  <div class="section" style="grid-column:8; grid-row:1;" data-key="AFVs"><input type="number" class="no-spinners">&nbsp;AFVs</div>
+  <div class="section" style="grid-column:8; grid-row:2;" data-key="Attack Helicopters"><input type="number" class="no-spinners">&nbsp;Attack Helicopters</div>
+
+  <div class="section" style="grid-column:9; grid-row:2;" data-key="Heavy Armor"><input type="number" class="no-spinners">&nbsp;Heavy Armor</div>
+  <div class="section" style="grid-column:9; grid-row:3;" data-key="First Aid"><input type="number" class="no-spinners">&nbsp;First Aid</div>
+  
+  <div class="section" style="grid-column:10; grid-row:2;" data-key="Commando Squad"><input type="number" class="no-spinners">&nbsp;Commando Squad</div>
+  <div class="section" style="grid-column:10; grid-row:3;" data-key="Assault Squad"><input type="number" class="no-spinners">&nbsp;Assault Squad</div>
+
+  <div class="section" style="grid-column:11; grid-row:1;" data-key="Field Repairs"><input type="number" class="no-spinners">&nbsp;Field Repairs</div>
+  <div class="section" style="grid-column:11; grid-row:2;" data-key="Redundant Systems"><input type="number" class="no-spinners">&nbsp;Redundant Systems</div>
+
+  <div class="section" style="grid-column:12; grid-row:1;" data-key="Heavy Tanks"><input type="number" class="no-spinners">&nbsp;Heavy Tanks</div>
+  <div class="section" style="grid-column:12; grid-row:2;" data-key="Jet Fighters"><input type="number" class="no-spinners">&nbsp;Jet Fighters</div>  
+  <div class="section" style="grid-column:12; grid-row:3;" data-key="Deployment Tactics"><input type="number" class="no-spinners">&nbsp;Deployment Tactics</div>
+
+  <div class="section" style="grid-column:13; grid-row:1;" data-key="Reactive Armor"><input type="number" class="no-spinners">&nbsp;Reactive Armor</div>
+  <div class="section" style="grid-column:13; grid-row:2;" data-key="Jet Troopers"><input type="number" class="no-spinners">&nbsp;Jet Troopers</div>  
+  <div class="section" style="grid-column:13; grid-row:3;" data-key="Shock Troopers"><input type="number" class="no-spinners">&nbsp;Shock Troopers</div>
+  
+  <div class="section" style="grid-column:14; grid-row:1;" data-key="Titan Tanks"><input type="number" class="no-spinners">&nbsp;Titan Tanks</div>
+  <div class="section" style="grid-column:14; grid-row:2;" data-key="Advanced Interceptors"><input type="number" class="no-spinners">&nbsp;Advanced Interceptors</div>
+  
+  <div class="section" style="grid-column:15; grid-row:2;" data-key="Hero Troop Attack"><input type="number" class="no-spinners">&nbsp;Hero Troop Attack</div>
+
+  <div class="section" style="grid-column:16; grid-row:2;" data-key="Hero Troop Defense"><input type="number" class="no-spinners">&nbsp;Hero Troop Defense</div>  
+  <div class="section" style="grid-column:16; grid-row:3;" data-key="Improved Stamina"><input type="number" class="no-spinners">&nbsp;Improved Stamina</div>
+
+  <div class="section" style="grid-column:17; grid-row:1;" data-key="Improved Engines"><input type="number" class="no-spinners">&nbsp;Improved Engines</div>
+  <div class="section" style="grid-column:17; grid-row:2;" data-key="Strike Squad"><input type="number" class="no-spinners">&nbsp;Strike Squad</div>  
+  <div class="section" style="grid-column:17; grid-row:3;" data-key="Hellfire Squad"><input type="number" class="no-spinners">&nbsp;Hellfire Squad</div>
+  
+  <div class="section" style="grid-column:18; grid-row:1;" data-key="Arachnaut"><input type="number" class="no-spinners">&nbsp;Arachnaut</div>
+  <div class="section" style="grid-column:18; grid-row:2;" data-key="Solarwind Fighter"><input type="number" class="no-spinners">&nbsp;Solarwind Fighter</div>
+  
+  <div class="section" style="grid-column:19; grid-row:1;" data-key="Adaptive Circuitry"><input type="number" class="no-spinners">&nbsp;Adaptive Circuitry</div> 
+  <div class="section" style="grid-column:19; grid-row:3;" data-key="Resilient Infantry"><input type="number" class="no-spinners">&nbsp;Resilient Infantry</div>
+  
+  <div class="section" style="grid-column:20; grid-row:1;" data-key="Advanced Engines"><input type="number" class="no-spinners">&nbsp;Advanced Engines</div> 
+  <div class="section" style="grid-column:20; grid-row:3;" data-key="Advanced Stamina"><input type="number" class="no-spinners">&nbsp;Advanced Stamina</div>
+  
+  <div class="section" style="grid-column:21; grid-row:1;" data-key="Ground Vehicle Attack II"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Attack II</div>
+  <div class="section" style="grid-column:21; grid-row:2;" data-key="Air Vehicle Attack II"><input type="number" class="no-spinners">&nbsp;Air Vehicle Attack II</div>
+  
+  <div class="section" style="grid-column:22; grid-row:1;" data-key="Ground Vehicle Defense II"><input type="number" class="no-spinners">&nbsp;Ground Vehicle Defense II</div>
+  <div class="section" style="grid-column:22; grid-row:2;" data-key="Air Vehicle Defense II"><input type="number" class="no-spinners">&nbsp;Air Vehicle Defense II</div>
+  
+  <div class="section" style="grid-column:23; grid-row:1;" data-key="Tarantulon"><input type="number" class="no-spinners">&nbsp;Tarantulon</div>
+  <div class="section" style="grid-column:23; grid-row:2;" data-key="Stealth Fighter"><input type="number" class="no-spinners">&nbsp;Stealth Fighter</div>
+  
+  <div class="section" style="grid-column:24; grid-row:2;" data-key="Light Infantry Attack II"><input type="number" class="no-spinners">&nbsp;Light Infantry Attack II</div>  
+  <div class="section" style="grid-column:24; grid-row:3;" data-key="Heavy Infantry Attack II"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Attack II</div>
+  
+  <div class="section" style="grid-column:25; grid-row:2;" data-key="Light Infantry Defense II"><input type="number" class="no-spinners">&nbsp;Light Infantry Defense II</div>  
+  <div class="section" style="grid-column:25; grid-row:3;" data-key="Heavy Infantry Defense II"><input type="number" class="no-spinners">&nbsp;Heavy Infantry Defense II</div>
+  
+  <div class="section" style="grid-column:26; grid-row:2;" data-key="Breacher Squad"><input type="number" class="no-spinners">&nbsp;Breacher Squad</div>  
+  <div class="section" style="grid-column:26; grid-row:3;" data-key="Rocket Trooper"><input type="number" class="no-spinners">&nbsp;Rocket Trooper</div>   
+  <svg id="lines1"></svg>
+</div>
+
+
+<!-- Table Toggle -->
+<div id="tableToggle">
+<label for="autoLinkToggle" class="info-label">
+  <input type="checkbox" id="autoLinkToggle" unchecked>
+  Auto-total
+  <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
+</label>
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <!--<button class="toggle-table-btn" data-table="missions">Main Missions</button>-->
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+  </div>
+<!-- Tables -->
+<div id="costsMasterContainer"></div>
+<div id="missionsMasterContainer"></div>
+<div id="statsMasterContainer"></div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table></div>
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table></div>
+<div id="statsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="statsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="statsTotalsHeader"></tr></thead>
+      <tbody><tr id="statsTotalsBody"></tr></tbody>
+  </table></div>    
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script src="research-offensive/helpers.js"></script>
+<script src="research-offensive/data-loader.js"></script>
+<script src="research-offensive/tables-init.js"></script>
+<script src="research-offensive/totals.js"></script>  
+<script src="research-offensive/tree-and-ui.js"></script>
+<script src="research-offensive/main.js"></script>
+</body>
+</html>

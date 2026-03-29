@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="research-specialized/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="topNav">
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="research-offensive.html">Research ▾</button>
+    <div class="dropdown-menu">
+        <button class="nav-btn" data-page="research-defensive.html">Defensive</button>
+        <button class="nav-btn" data-page="research-operations.html">Operations</button>
+        <button class="nav-btn" data-page="research-drone.html">Drone</button>
+        <button class="nav-btn" data-page="research-efficiency.html">Efficiency</button>
+        <button class="nav-btn" data-page="research-specialized.html">Specialized</button>
+      </div>
+  </div>
+  
+  <button class="nav-btn" data-page="index.html">Structures</button>
+
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="hero.html">Hero ▾</button>
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="hero-skills.html">Hero Skills</button>
+      <button class="nav-btn" data-page="hero-invaderskills.html">Invader Skills</button>
+      <button class="nav-btn" data-page="hero-gear.html">Gear</button>
+    </div>
+  </div>
+
+</div>
+<!-- Tree -->
+<div class="container" id="map1">
+  <div class="section root" style="grid-column:1; grid-row:1;" data-key="Prototype Training Speed"><input type="number" class="no-spinners">&nbsp;Prototype Training Speed</div>
+  <div class="section" style="grid-column:1; grid-row:2;" data-key="Alien Training Speed"><input type="number" class="no-spinners">&nbsp;Alien Training Speed</div>
+  <div class="section" style="grid-column:1; grid-row:3;" data-key="Mech Training Speed"><input type="number" class="no-spinners">&nbsp;Mech Training Speed</div>
+  
+  <div class="section" style="grid-column:2; grid-row:1;" data-key="Prototype Attack"><input type="number" class="no-spinners">&nbsp;Prototype Attack</div>
+  <div class="section" style="grid-column:2; grid-row:2;" data-key="Alien Attack"><input type="number" class="no-spinners">&nbsp;Alien Attack</div>
+  <div class="section" style="grid-column:2; grid-row:3;" data-key="Mech Attack"><input type="number" class="no-spinners">&nbsp;Mech Attack</div>
+
+  <div class="section" style="grid-column:3; grid-row:1;" data-key="Prototype Defense"><input type="number" class="no-spinners">&nbsp;Prototype Defense</div>
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="Alien Defense"><input type="number" class="no-spinners">&nbsp;Alien Defense</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="Mech Defense"><input type="number" class="no-spinners">&nbsp;Mech Defense</div>
+
+  <div class="section" style="grid-column:4; grid-row:1;" data-key="Prototype Health"><input type="number" class="no-spinners">&nbsp;Prototype Health</div>
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="Alien Health"><input type="number" class="no-spinners">&nbsp;Alien Health</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="Mech Health"><input type="number" class="no-spinners">&nbsp;Mech Health</div>
+
+  <div class="section" style="grid-column:5; grid-row:1;" data-key="Tactical Ballistic Launcher"><input type="number" class="no-spinners">&nbsp;Tactical Ballistic Launcher</div>
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="Renegade Alien Hunter"><input type="number" class="no-spinners">&nbsp;Renegade Alien Hunter</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="Orbital Interceptor"><input type="number" class="no-spinners">&nbsp;Orbital Interceptor</div>
+
+  <div class="section" style="grid-column:6; grid-row:1;" data-key="Prototype Speed"><input type="number" class="no-spinners">&nbsp;Prototype Speed</div>
+  <div class="section" style="grid-column:6; grid-row:2;" data-key="Alien Speed"><input type="number" class="no-spinners">&nbsp;Alien Speed</div>
+  <div class="section" style="grid-column:6; grid-row:3;" data-key="Mech Speed"><input type="number" class="no-spinners">&nbsp;Mech Speed</div>
+
+  <div class="section" style="grid-column:7; grid-row:1;" data-key="Obsidian Hawk"><input type="number" class="no-spinners">&nbsp;Obsidian Hawk</div>
+  <div class="section" style="grid-column:7; grid-row:2;" data-key="Alien Breacher"><input type="number" class="no-spinners">&nbsp;Alien Breacher</div>
+  <div class="section" style="grid-column:7; grid-row:3;" data-key="Mech Troopers"><input type="number" class="no-spinners">&nbsp;Mech Troopers</div>
+  <svg id="lines1"></svg>
+</div>
+
+
+<!-- Table Toggle -->
+<div id="tableToggle">
+<label for="autoLinkToggle" class="info-label">
+  <input type="checkbox" id="autoLinkToggle" unchecked>
+  Auto-total
+  <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
+</label>
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <!--<button class="toggle-table-btn" data-table="missions">Main Missions</button>-->
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+  </div>
+<!-- Tables -->
+<div id="costsMasterContainer"></div>
+<div id="missionsMasterContainer"></div>
+<div id="statsMasterContainer"></div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table></div>
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table></div>
+<div id="statsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="statsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="statsTotalsHeader"></tr></thead>
+      <tbody><tr id="statsTotalsBody"></tr></tbody>
+  </table></div>    
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script src="research-specialized/helpers.js"></script>
+<script src="research-specialized/data-loader.js"></script>
+<script src="research-specialized/tables-init.js"></script>
+<script src="research-specialized/totals.js"></script>  
+<script src="research-specialized/tree-and-ui.js"></script>
+<script src="research-specialized/main.js"></script>
+</body>
+</html>
