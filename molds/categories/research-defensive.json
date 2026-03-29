@@ -1,0 +1,6335 @@
+{
+  "help_request_allowed": true,
+  "_subtypes": {
+    "defensiveturretattack": {
+      "name": "~research_defensive_turret_attack",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000
+            }
+          ],
+          "upgrade_cost": 720,
+          "power": 1000,
+          "reward": {
+            "hero_xp": 3000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 4
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 20000
+            }
+          ],
+          "upgrade_cost": 36000,
+          "power": 3000,
+          "reward": {
+            "hero_xp": 6000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 6
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 40000
+            }
+          ],
+          "upgrade_cost": 50400,
+          "power": 7000,
+          "reward": {
+            "hero_xp": 9000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 8
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 62500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 75000
+            }
+          ],
+          "upgrade_cost": 100800,
+          "power": 15000,
+          "reward": {
+            "hero_xp": 12000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 75000
+            }
+          ],
+          "upgrade_cost": 201600,
+          "power": 31000,
+          "reward": {
+            "hero_xp": 15000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 12
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 300000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 300000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 300000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 500000
+            }
+          ],
+          "upgrade_cost": 403200,
+          "power": 63500,
+          "reward": {
+            "hero_xp": 18000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 14
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 600000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 600000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 600000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1000000
+            }
+          ],
+          "upgrade_cost": 806400,
+          "power": 128500,
+          "reward": {
+            "hero_xp": 21000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 2000000
+            }
+          ],
+          "upgrade_cost": 1612800,
+          "power": 253500,
+          "reward": {
+            "hero_xp": 24000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 18
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 2000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 4000000
+            }
+          ],
+          "upgrade_cost": 3225600,
+          "power": 503500,
+          "reward": {
+            "hero_xp": 27000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 8000000
+            }
+          ],
+          "upgrade_cost": 4838400,
+          "power": 1003500,
+          "reward": {
+            "hero_xp": 30000
+          },
+          "stats": [
+            {
+              "subtype": "structure_attack_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "defensivefortifieddefenses": {
+      "name": "~research_defensive_stationed_units",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 3000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3000
+            }
+          ],
+          "upgrade_cost": 900,
+          "power": 3000,
+          "reward": {
+            "hero_xp": 9000
+          },
+          "stats": [
+            {
+              "subtype": "march_stationed_units_limit",
+              "value": 1,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 6
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 92500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 115000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 115000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 115000
+            }
+          ],
+          "upgrade_cost": 10800,
+          "power": 12000,
+          "reward": {
+            "hero_xp": 21000
+          },
+          "stats": [
+            {
+              "subtype": "march_stationed_units_limit",
+              "value": 2,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 375000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 450000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 450000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 450000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 575000
+            }
+          ],
+          "upgrade_cost": 604800,
+          "power": 48500,
+          "reward": {
+            "hero_xp": 33000
+          },
+          "stats": [
+            {
+              "subtype": "march_stationed_units_limit",
+              "value": 3,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1850000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1850000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1850000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 3000000
+            }
+          ],
+          "upgrade_cost": 2419200,
+          "power": 190000,
+          "reward": {
+            "hero_xp": 45000
+          },
+          "stats": [
+            {
+              "subtype": "march_stationed_units_limit",
+              "value": 4,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 5750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 12000000
+            }
+          ],
+          "upgrade_cost": 9676800,
+          "power": 750000,
+          "reward": {
+            "hero_xp": 57000
+          },
+          "stats": [
+            {
+              "subtype": "march_stationed_units_limit",
+              "value": 5,
+              "modifier": 0
+            }
+          ]
+        }
+      ]
+    },
+    "defensiveunlockbuckshot": {
+      "name": "~research_defensive_unlock_buckshot",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 5
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveturretattack",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 7500
+            }
+          ],
+          "upgrade_cost": 3600,
+          "power": 1000,
+          "reward": {
+            "hero_xp": 3000
+          }
+        }
+      ]
+    },
+    "defensiveheavyammunition": {
+      "name": "~research_defensive_unlock_heavyammunition",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 5
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivefortifieddefenses",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000
+            }
+          ],
+          "upgrade_cost": 3600,
+          "power": 1000,
+          "reward": {
+            "hero_xp": 3000
+          }
+        }
+      ]
+    },
+    "defensivearmorpiercingammunition": {
+      "name": "~research_defensive_unlock_armorpiercingammunition",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 5
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveunlockbuckshot",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000
+            }
+          ],
+          "upgrade_cost": 3600,
+          "power": 1000,
+          "reward": {
+            "hero_xp": 3000
+          }
+        }
+      ]
+    },
+    "defensivehighexplosiveammunition": {
+      "name": "~research_defensive_unlock_highexplosiveammunition",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 5
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveheavyammunition",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000
+            }
+          ],
+          "upgrade_cost": 3600,
+          "power": 1000,
+          "reward": {
+            "hero_xp": 3000
+          }
+        }
+      ]
+    },
+    "defensivedefensesalvaging_1": {
+      "name": "~research_defensive_defense_salvaging_1",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 2
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivefortifieddefenses",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 400
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 250
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 250
+            }
+          ],
+          "upgrade_cost": 300,
+          "power": 150,
+          "reward": {
+            "hero_xp": 500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 400
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 750
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 400
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 400
+            }
+          ],
+          "upgrade_cost": 600,
+          "power": 400,
+          "reward": {
+            "hero_xp": 500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.175
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 750
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 750
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 750
+            }
+          ],
+          "upgrade_cost": 900,
+          "power": 800,
+          "reward": {
+            "hero_xp": 500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1500
+            }
+          ],
+          "upgrade_cost": 1800,
+          "power": 1550,
+          "reward": {
+            "hero_xp": 500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.225
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 4000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 2500
+            }
+          ],
+          "upgrade_cost": 3600,
+          "power": 2800,
+          "reward": {
+            "hero_xp": 500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 4000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 7500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 4000
+            }
+          ],
+          "upgrade_cost": 7200,
+          "power": 5050,
+          "reward": {
+            "hero_xp": 500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.275
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 4
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivefortifieddefenses",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 7500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 12500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 7500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 7500
+            }
+          ],
+          "upgrade_cost": 36000,
+          "power": 9050,
+          "reward": {
+            "hero_xp": 750
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 4
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 25000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 15000
+            }
+          ],
+          "upgrade_cost": 86400,
+          "power": 16550,
+          "reward": {
+            "hero_xp": 1000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.35
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 25000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 25000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 345600,
+          "power": 29050,
+          "reward": {
+            "hero_xp": 1000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.45
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 50000
+            }
+          ],
+          "upgrade_cost": 1382400,
+          "power": 54050,
+          "reward": {
+            "hero_xp": 1000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    "defensiveunlockbiogrenades": {
+      "name": "~research_defensive_unlock_biogrenades",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivearmorpiercingammunition",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 60000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 60000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 36000,
+          "power": 2000,
+          "reward": {
+            "hero_xp": 5000
+          }
+        }
+      ]
+    },
+    "defensiveunlockfraggrenades": {
+      "name": "~research_defensive_unlock_fraggrenades",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveunlockbiogrenades",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 45000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 45000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 36000,
+          "power": 2000,
+          "reward": {
+            "hero_xp": 5000
+          }
+        }
+      ]
+    },
+    "defensiveunlockcaltrops": {
+      "name": "~research_defensive_unlock_caltrops",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivehighexplosiveammunition",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 60000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 60000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 36000,
+          "power": 2000,
+          "reward": {
+            "hero_xp": 5000
+          }
+        }
+      ]
+    },
+    "defensiveunlockflaklaunchers": {
+      "name": "~research_defensive_unlock_flaklaunchers",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveunlockcaltrops",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 36000,
+          "power": 2000,
+          "reward": {
+            "hero_xp": 5000
+          }
+        }
+      ]
+    },
+    "defensivedefensestrategist": {
+      "name": "~research_defensive_defense_strategist",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 12
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveunlockcaltrops",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 7500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 20000
+            }
+          ],
+          "upgrade_cost": 10800,
+          "power": 1000,
+          "reward": {
+            "hero_xp": 6000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.01
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.01
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.01
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 13
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 40000
+            }
+          ],
+          "upgrade_cost": 25200,
+          "power": 3000,
+          "reward": {
+            "hero_xp": 8000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 14
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 80000
+            }
+          ],
+          "upgrade_cost": 50400,
+          "power": 7000,
+          "reward": {
+            "hero_xp": 10000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 60000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 80000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 80000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 80000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 160000
+            }
+          ],
+          "upgrade_cost": 100800,
+          "power": 15000,
+          "reward": {
+            "hero_xp": 12000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 120000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 320000
+            }
+          ],
+          "upgrade_cost": 201600,
+          "power": 31000,
+          "reward": {
+            "hero_xp": 14000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.08
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.08
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.08
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 320000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 320000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 320000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 625000
+            }
+          ],
+          "upgrade_cost": 403200,
+          "power": 63500,
+          "reward": {
+            "hero_xp": 16000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 17
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1250000
+            }
+          ],
+          "upgrade_cost": 806400,
+          "power": 128500,
+          "reward": {
+            "hero_xp": 18000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 18
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 2500000
+            }
+          ],
+          "upgrade_cost": 1612800,
+          "power": 253500,
+          "reward": {
+            "hero_xp": 20000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 19
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 2000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 3225600,
+          "power": 503500,
+          "reward": {
+            "hero_xp": 22500
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 10000000
+            }
+          ],
+          "upgrade_cost": 6451200,
+          "power": 1003500,
+          "reward": {
+            "hero_xp": 25000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "advanced_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "experimental_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "air_defense_attack_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "defensivereinforcedfortifications": {
+      "name": "~research_defensive_reinforced_fortifications",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 12
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveunlockflaklaunchers",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 7500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 20000
+            }
+          ],
+          "upgrade_cost": 10800,
+          "power": 1000,
+          "reward": {
+            "hero_xp": 6000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.01
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.01
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.01
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 13
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 20000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 40000
+            }
+          ],
+          "upgrade_cost": 25200,
+          "power": 3000,
+          "reward": {
+            "hero_xp": 8000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 14
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 40000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 80000
+            }
+          ],
+          "upgrade_cost": 50400,
+          "power": 7000,
+          "reward": {
+            "hero_xp": 10000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 60000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 80000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 80000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 80000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 160000
+            }
+          ],
+          "upgrade_cost": 100800,
+          "power": 15000,
+          "reward": {
+            "hero_xp": 12000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 120000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 160000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 320000
+            }
+          ],
+          "upgrade_cost": 201600,
+          "power": 31000,
+          "reward": {
+            "hero_xp": 14000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.08
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.08
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.08
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 320000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 320000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 320000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 625000
+            }
+          ],
+          "upgrade_cost": 403200,
+          "power": 63500,
+          "reward": {
+            "hero_xp": 16000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 17
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1250000
+            }
+          ],
+          "upgrade_cost": 806400,
+          "power": 128500,
+          "reward": {
+            "hero_xp": 18000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 18
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 2500000
+            }
+          ],
+          "upgrade_cost": 1612800,
+          "power": 253500,
+          "reward": {
+            "hero_xp": 20000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 19
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 2000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 3225600,
+          "power": 503500,
+          "reward": {
+            "hero_xp": 22500
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 10000000
+            }
+          ],
+          "upgrade_cost": 6451200,
+          "power": 1003500,
+          "reward": {
+            "hero_xp": 25000
+          },
+          "stats": [
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "defensivedefensesalvaging_2": {
+      "name": "~research_defensive_defense_salvaging_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 8
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 750
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 250
+            }
+          ],
+          "upgrade_cost": 600,
+          "power": 250,
+          "reward": {
+            "hero_xp": 1000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 8
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1250
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1250
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1250
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 500
+            }
+          ],
+          "upgrade_cost": 1200,
+          "power": 750,
+          "reward": {
+            "hero_xp": 1250
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.175
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 9
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 2500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1000
+            }
+          ],
+          "upgrade_cost": 3600,
+          "power": 1750,
+          "reward": {
+            "hero_xp": 1500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 9
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 4
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 6000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 2500
+            }
+          ],
+          "upgrade_cost": 9000,
+          "power": 3750,
+          "reward": {
+            "hero_xp": 1750
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.225
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 12500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 12500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 12500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000
+            }
+          ],
+          "upgrade_cost": 21600,
+          "power": 8750,
+          "reward": {
+            "hero_xp": 2000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 6
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 25000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 25000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 25000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 12500
+            }
+          ],
+          "upgrade_cost": 54000,
+          "power": 18750,
+          "reward": {
+            "hero_xp": 2500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.275
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 11
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 60000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 144000,
+          "power": 38750,
+          "reward": {
+            "hero_xp": 3000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 11
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 8
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 75000
+            }
+          ],
+          "upgrade_cost": 576000,
+          "power": 88750,
+          "reward": {
+            "hero_xp": 3500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.35
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 12
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 9
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 300000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 125000
+            }
+          ],
+          "upgrade_cost": 1152000,
+          "power": 101250,
+          "reward": {
+            "hero_xp": 1000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.45
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 12
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_1",
+              "level": 10
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 600000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 250000
+            }
+          ],
+          "upgrade_cost": 2304000,
+          "power": 301250,
+          "reward": {
+            "hero_xp": 5000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    "defensiverazorwire": {
+      "name": "~research_defensive_unlock_razorwire",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 3
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveunlockfraggrenades",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 100000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "upgrade_cost": 259200,
+          "power": 5000,
+          "reward": {
+            "hero_xp": 10000
+          }
+        }
+      ]
+    },
+    "defensiveairburstrounds": {
+      "name": "~research_defensive_unlock_airburstrounds",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 3
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveunlockflaklaunchers",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 100000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "upgrade_cost": 259200,
+          "power": 5000,
+          "reward": {
+            "hero_xp": 10000
+          }
+        }
+      ]
+    },
+    "defensiveantivehiclemines": {
+      "name": "~research_defensive_unlock_antivehiclemines",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiverazorwire",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 100000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "upgrade_cost": 259200,
+          "power": 5000,
+          "reward": {
+            "hero_xp": 10000
+          }
+        }
+      ]
+    },
+    "defensivecombatdrone": {
+      "name": "~research_defensive_unlock_combatdrone",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveairburstrounds",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 100000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 150000
+            }
+          ],
+          "upgrade_cost": 259200,
+          "power": 5000,
+          "reward": {
+            "hero_xp": 10000
+          }
+        }
+      ]
+    },
+    "defensivedefensesalvaging_3": {
+      "name": "~research_defensive_defense_salvaging_3",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 8000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 2500
+            }
+          ],
+          "upgrade_cost": 5400,
+          "power": 750,
+          "reward": {
+            "hero_xp": 5000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000
+            }
+          ],
+          "upgrade_cost": 10800,
+          "power": 2750,
+          "reward": {
+            "hero_xp": 7500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.175
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 15
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 15000
+            }
+          ],
+          "upgrade_cost": 21600,
+          "power": 7750,
+          "reward": {
+            "hero_xp": 10000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 4
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 35000
+            }
+          ],
+          "upgrade_cost": 86400,
+          "power": 20250,
+          "reward": {
+            "hero_xp": 12500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.225
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 325000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 100000
+            }
+          ],
+          "upgrade_cost": 216000,
+          "power": 55250,
+          "reward": {
+            "hero_xp": 15000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 6
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 800000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 250000
+            }
+          ],
+          "upgrade_cost": 432000,
+          "power": 130250,
+          "reward": {
+            "hero_xp": 20000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.275
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1600000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 500000
+            }
+          ],
+          "upgrade_cost": 864000,
+          "power": 280250,
+          "reward": {
+            "hero_xp": 22500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 8
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 2000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 2000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1000000
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 605250,
+          "reward": {
+            "hero_xp": 25000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.35
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 9
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 6500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 4000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 2000000
+            }
+          ],
+          "upgrade_cost": 3456000,
+          "power": 1230250,
+          "reward": {
+            "hero_xp": 27500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.45
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 16
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_2",
+              "level": 10
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 10000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 15000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 10000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 6912000,
+          "power": 2730250,
+          "reward": {
+            "hero_xp": 30000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    "defensivephosporusammunition": {
+      "name": "~research_defensive_unlock_phosporus_ammunition",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 21
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveturretattack",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivefortifieddefenses",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 500000
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 15000,
+          "reward": {
+            "hero_xp": 15000
+          }
+        }
+      ]
+    },
+    "defensivelaserammunition": {
+      "name": "~research_defensive_unlock_laser_ammunition",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 21
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivephosporusammunition",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 500000
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 15000,
+          "reward": {
+            "hero_xp": 15000
+          }
+        }
+      ]
+    },
+    "defensivehighvelocityammunition": {
+      "name": "~research_defensive_unlock_high_velocity_ammunition",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 21
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveturretattack",
+              "level": 10
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivefortifieddefenses",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 500000
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 15000,
+          "reward": {
+            "hero_xp": 15000
+          }
+        }
+      ]
+    },
+    "defensiveelectromagneticpulseammunition": {
+      "name": "~research_defensive_unlock_electromagnetic_pulse_ammunition",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 21
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivehighvelocityammunition",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 300000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 300000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 500000
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 15000,
+          "reward": {
+            "hero_xp": 15000
+          }
+        }
+      ]
+    },
+    "defensivedefensesalvaging_4": {
+      "name": "~research_defensive_defense_salvaging_4",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 25000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 15000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 10000
+            }
+          ],
+          "upgrade_cost": 9000,
+          "power": 2500,
+          "reward": {
+            "hero_xp": 20000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 50000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 30000
+            }
+          ],
+          "upgrade_cost": 18000,
+          "power": 10000,
+          "reward": {
+            "hero_xp": 21500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.175
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 100000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 100000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 150000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 100000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 75000
+            }
+          ],
+          "upgrade_cost": 43200,
+          "power": 25000,
+          "reward": {
+            "hero_xp": 23000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 20
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 4
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 375000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 125000
+            }
+          ],
+          "upgrade_cost": 345600,
+          "power": 60000,
+          "reward": {
+            "hero_xp": 24500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.225
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 21
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 650000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 650000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 650000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 250000
+            }
+          ],
+          "upgrade_cost": 864000,
+          "power": 135000,
+          "reward": {
+            "hero_xp": 26000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 21
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 6
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 750000
+            }
+          ],
+          "upgrade_cost": 2160000,
+          "power": 360000,
+          "reward": {
+            "hero_xp": 27500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.275
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 21
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1500000
+            }
+          ],
+          "upgrade_cost": 5400000,
+          "power": 860000,
+          "reward": {
+            "hero_xp": 29000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 22
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 8
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 12000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 3500000
+            }
+          ],
+          "upgrade_cost": 13500000,
+          "power": 1860000,
+          "reward": {
+            "hero_xp": 30500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.35
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 22
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 9
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 17500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 17500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 25000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 17500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 7500000
+            }
+          ],
+          "upgrade_cost": 33750000,
+          "power": 4110000,
+          "reward": {
+            "hero_xp": 32000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.45
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 22
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_3",
+              "level": 10
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 40000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 40000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 60000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 40000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 15000000
+            }
+          ],
+          "upgrade_cost": 67500000,
+          "power": 9610000,
+          "reward": {
+            "hero_xp": 35000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    "defensiveflamethrowers": {
+      "name": "~research_defensive_unlock_flame_throwers",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivelaserammunition",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 5184000,
+          "power": 30000,
+          "reward": {
+            "hero_xp": 30000
+          }
+        }
+      ]
+    },
+    "defensivemortarrounds": {
+      "name": "~research_defensive_unlock_mortar_rounds",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivesurfacetoairmissiles",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 5184000,
+          "power": 30000,
+          "reward": {
+            "hero_xp": 30000
+          }
+        }
+      ]
+    },
+    "defensiverocketpropelledgrenades": {
+      "name": "~research_defensive_unlock_rocket_propelled_grenades",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveflamethrowers",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 5184000,
+          "power": 30000,
+          "reward": {
+            "hero_xp": 30000
+          }
+        }
+      ]
+    },
+    "defensivesurfacetoairmissiles": {
+      "name": "~research_defensive_unlock_surface_to_air_missiles",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiveelectromagneticpulseammunition",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 3000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 5184000,
+          "power": 30000,
+          "reward": {
+            "hero_xp": 30000
+          }
+        }
+      ]
+    },
+    "defensivedefensesalvaging_5": {
+      "name": "~research_defensive_defense_salvaging_5",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 37500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 37500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 62500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 37500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 27000,
+          "power": 5000,
+          "reward": {
+            "hero_xp": 25000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 125000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "upgrade_cost": 54000,
+          "power": 20000,
+          "reward": {
+            "hero_xp": 27500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.175
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 175000
+            }
+          ],
+          "upgrade_cost": 129600,
+          "power": 50000,
+          "reward": {
+            "hero_xp": 30000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 4
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 375000
+            }
+          ],
+          "upgrade_cost": 691200,
+          "power": 150000,
+          "reward": {
+            "hero_xp": 32500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.225
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 625000
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 300000,
+          "reward": {
+            "hero_xp": 35000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 6
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1750000
+            }
+          ],
+          "upgrade_cost": 4320000,
+          "power": 675000,
+          "reward": {
+            "hero_xp": 37500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.275
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 9000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 9000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 12000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 9000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 3750000
+            }
+          ],
+          "upgrade_cost": 10800000,
+          "power": 1425000,
+          "reward": {
+            "hero_xp": 40000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 8
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 20000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 20000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 25000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 20000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 7500000
+            }
+          ],
+          "upgrade_cost": 27000000,
+          "power": 2925000,
+          "reward": {
+            "hero_xp": 42500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.35
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 9
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 42500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 42500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 60000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 42500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 17500000
+            }
+          ],
+          "upgrade_cost": 67500000,
+          "power": 6425000,
+          "reward": {
+            "hero_xp": 45000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.45
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_4",
+              "level": 10
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 100000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 100000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 125000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 100000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 37500000
+            }
+          ],
+          "upgrade_cost": 135000000,
+          "power": 13925000,
+          "reward": {
+            "hero_xp": 50000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    "defensivedefensesalvaging_6": {
+      "name": "~research_defensive_defense_salvaging_6",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 93750
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 93750
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 156250
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 93750
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 62500
+            }
+          ],
+          "upgrade_cost": 129600,
+          "power": 30000,
+          "reward": {
+            "hero_xp": 35000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 2
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 312500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 312500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 312500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 187500
+            }
+          ],
+          "upgrade_cost": 691200,
+          "power": 37500,
+          "reward": {
+            "hero_xp": 37500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.175
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 3
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 625000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 437500
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 150000,
+          "reward": {
+            "hero_xp": 40000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 4
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1562500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1562500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 2500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1562500
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 937500
+            }
+          ],
+          "upgrade_cost": 4320000,
+          "power": 375000,
+          "reward": {
+            "hero_xp": 42500
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.225
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 5
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 6250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 1562500
+            }
+          ],
+          "upgrade_cost": 10800000,
+          "power": 750000,
+          "reward": {
+            "hero_xp": 45000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 6
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 9375000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 9375000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 12500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 9375000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 4375000
+            }
+          ],
+          "upgrade_cost": 27000000,
+          "power": 1500000,
+          "reward": {
+            "hero_xp": 50000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.275
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 7
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 22500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 22500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 30000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 22500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 9375000
+            }
+          ],
+          "upgrade_cost": 67500000,
+          "power": 3500000,
+          "reward": {
+            "hero_xp": 55000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 8
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 50000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 50000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 62500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 50000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 18750000
+            }
+          ],
+          "upgrade_cost": 135000000,
+          "power": 7500000,
+          "reward": {
+            "hero_xp": 60000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.35
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 9
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 106250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 106250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 150000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 106250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 43750000
+            }
+          ],
+          "upgrade_cost": 202500000,
+          "power": 12000000,
+          "reward": {
+            "hero_xp": 70000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.45
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensesalvaging_5",
+              "level": 10
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 312500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 93750000
+            }
+          ],
+          "upgrade_cost": 270000000,
+          "power": 17500000,
+          "reward": {
+            "hero_xp": 80000
+          },
+          "stats": [
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    "defensivethermitegrenades": {
+      "name": "~research_defensive_unlock_thermite_grenades",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensiverocketpropelledgrenades",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 12500000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_dark_matter",
+              "quantity": 250
+            }
+          ],
+          "upgrade_cost": 12960000,
+          "power": 60000,
+          "reward": {
+            "hero_xp": 50000
+          }
+        }
+      ]
+    },
+    "defensiveclaymoremines": {
+      "name": "~research_defensive_unlock_claymore_mines",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivethermitegrenades",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3750000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 12500000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_dark_matter",
+              "quantity": 250
+            }
+          ],
+          "upgrade_cost": 12960000,
+          "power": 50000,
+          "reward": {
+            "hero_xp": 60000
+          }
+        }
+      ]
+    },
+    "defensiveelectricfence": {
+      "name": "~research_defensive_unlock_electric_fence",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivemissilebattery",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1875000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1875000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 12500000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_dark_matter",
+              "quantity": 250
+            }
+          ],
+          "upgrade_cost": 12960000,
+          "power": 50000,
+          "reward": {
+            "hero_xp": 60000
+          }
+        }
+      ]
+    },
+    "defensivemissilebattery": {
+      "name": "~research_defensive_unlock_missile_battery",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 28
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "defensivemortarrounds",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 1875000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 7500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1875000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 12500000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_dark_matter",
+              "quantity": 250
+            }
+          ],
+          "upgrade_cost": 12960000,
+          "power": 50000,
+          "reward": {
+            "hero_xp": 60000
+          }
+        }
+      ]
+    }
+  }
+}
