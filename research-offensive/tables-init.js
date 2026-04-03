@@ -38,7 +38,7 @@ const Tables = (function(Helpers){
         { title:'<img src="pictures/Specialized Circuitry.png" class="col-icon">', dataKey: "core_neutron_circuitry@quantity!whole2" }, // 12
         { title:"Data Disk", dataKey: "core_data_disk@quantity"}, // 13
         { title:"Alien Power Core", dataKey: "core_alien_power_core@quantity"}, // 14
-        { title:"Alien Tech", dataKey: "core_alien_component@quantity"}, // 15 used
+        { title:'<img src="pictures/Alien Tech.png" class="col-icon">', dataKey: "core_alien_component@quantity!whole2"}, // 15
         { title:"Alien Armor", dataKey: "core_alien_armor@quantity"}, // 16
         { title:"Armory Blueprints", dataKey: "armory_blueprints@quantity"}, // 17
         { title:"Buildings", dataKey: "requirements!requirements"}, // 18              
