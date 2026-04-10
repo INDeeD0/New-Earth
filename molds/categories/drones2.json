@@ -1,0 +1,1012 @@
+{
+  "_subtypes": {
+    "collect": {
+      "name": "~collect",
+      "levels": [
+        {},
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 1000
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 1750
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 2250
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 4000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 5500
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 2000
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 3500
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 4500
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 8000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 11000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 3250
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 6000
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 9000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 18000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 25000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 4500
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 8000
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 11000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 20000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 35000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 6000
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 10000
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 15000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 45000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 7500
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 12500
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 20000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 35000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 65000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 9000
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 15000
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 25000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 45000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 90000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 10500
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 17500
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 30000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 55000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 115000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 12000
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 20000
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 35000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 65000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 140000
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "currency7",
+              "quantity": 13500
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "currency7",
+              "quantity": 22500
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "currency7",
+              "quantity": 40000
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "currency7",
+              "quantity": 75000
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "currency7",
+              "quantity": 165000
+            }
+          ]
+        }
+      ]
+    },
+    "rescue": {
+      "name": "~rescue",
+      "levels": [
+        {},
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 60
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 120
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 180
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 350
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 500
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 100
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 180
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 250
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 475
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 650
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 150
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 250
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 375
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 650
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_1_light_infantry",
+              "quantity": 900
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 75
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 140
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 200
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 360
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 475
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 100
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 180
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 250
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 550
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_2_light_infantry",
+              "quantity": 600
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 60
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 120
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 180
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 350
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 500
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 80
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 150
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 275
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 450
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 675
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 120
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 200
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 400
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 575
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_3_light_infantry",
+              "quantity": 850
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 40
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 75
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 140
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 275
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 525
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 80
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 150
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 275
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 525
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "tier_4_light_infantry",
+              "quantity": 800
+            }
+          ]
+        }
+      ]
+    },
+    "salvage": {
+      "name": "~salvage",
+      "levels": [
+        {},
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 1
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 2
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 1
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 2
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 1
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 2
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 2
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 2
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 2
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 6
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 6
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 3
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 6
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "upgrade_cost": 28800,
+          "rewards_8h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 4
+            }
+          ],
+          "rewards_16h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 5
+            }
+          ],
+          "rewards_24h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 6
+            }
+          ],
+          "rewards_48h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 7
+            }
+          ],
+          "rewards_72h": [
+            {
+              "subtype": "core_data_disk",
+              "quantity": 12
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
