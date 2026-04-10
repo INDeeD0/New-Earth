@@ -7,7 +7,7 @@
 
 <!-- DataTables CSS -->
 <link rel="stylesheet" href="libs/jquery.dataTables.min.css">
-<link rel="stylesheet" href="hero/styles.css">
+<link rel="stylesheet" href="drone/styles.css">
 </head>
 <body>
 
@@ -50,22 +50,24 @@
 </div>
 <!-- Tree -->
 <div class="container" id="map1">
-  <div class="section root" style="grid-column:1; grid-row:2;" data-key="Hero"><input type="number" class="no-spinners">&nbsp;Hero</div>
-  <svg id="lines1"></svg>
+  <div class="section root" style="grid-row:1; grid-column:1;" data-key="headquarters">Collect</div>
+  <div class="section" style="grid-row:1; grid-column:2;" data-key="outpost_strategic">Rescue</div>
+  <div class="section" style="grid-row:1; grid-column:3;" data-key="shelter">Salvage</div>
+
 </div>
 
 
 <!-- Table Toggle -->
 <div id="tableToggle">
 <label for="autoLinkToggle" class="info-label">
-  <input type="checkbox" id="autoLinkToggle" unchecked>
+  <input type="checkbox" i`d="autoLinkToggle" unchecked>
   Auto-total
   <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
-<!-- </label>
-  <button class="toggle-table-btn active" data-table="costs">Costs</button>
-  <button class="toggle-table-btn" data-table="missions">Main Missions</button>
-  <button class="toggle-table-btn" data-table="stats">Stats</button>
-  </div> -->
+</label>
+  <!--<button class="toggle-table-btn active" data-table="costs">Costs</button>-->
+  <!--<button class="toggle-table-btn" data-table="missions">Main Missions</button>-->
+  <!--<button class="toggle-table-btn" data-table="stats">Stats</button>-->
+  </div>
 <!-- Tables -->
 <div id="costsMasterContainer"></div>
 <div id="missionsMasterContainer"></div>
@@ -88,11 +90,11 @@
 <!-- Scripts -->
 <script src="libs/jquery-3.7.0.min.js"></script>
 <script src="libs/jquery.dataTables.min.js"></script>
-<script src="hero/helpers.js"></script>
-<script src="hero/data-loader.js"></script>
-<script src="hero/tables-init.js"></script>
-<script src="hero/totals.js"></script>  
-<script src="hero/tree-and-ui.js"></script>
-<script src="hero/main.js"></script>
+<script src="drone/helpers.js"></script>
+<script src="drone/data-loader.js"></script>
+<script src="drone/tables-init.js"></script>
+<script src="drone/totals.js"></script>  
+<script src="drone/tree-and-ui.js"></script>
+<script src="drone/main.js"></script>
 </body>
 </html>
