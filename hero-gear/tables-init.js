@@ -609,6 +609,6 @@ const Tables = (function(Helpers){
         applyScale,
         applyScaleForTable,
         applyColumnVisibility,        
-        KEY_COL, CHECKBOX_COL, LEVEL_COL, TIME_COL,
+        KEY_COL, CHECKBOX_COL, LEVEL_COL,
     };
 })(Helpers);
