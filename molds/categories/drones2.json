@@ -371,6 +371,12 @@
               "subtype": "tier_1_light_infantry",
               "quantity": 500
             }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 1
+            }
           ]
         },
         {
@@ -403,6 +409,12 @@
             {
               "subtype": "tier_1_light_infantry",
               "quantity": 650
+            }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 1
             }
           ]
         },
@@ -437,6 +449,12 @@
               "subtype": "tier_1_light_infantry",
               "quantity": 900
             }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 1
+            }
           ]
         },
         {
@@ -469,6 +487,12 @@
             {
               "subtype": "tier_2_light_infantry",
               "quantity": 475
+            }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 2
             }
           ]
         },
@@ -503,6 +527,12 @@
               "subtype": "tier_2_light_infantry",
               "quantity": 600
             }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 2
+            }
           ]
         },
         {
@@ -535,6 +565,12 @@
             {
               "subtype": "tier_3_light_infantry",
               "quantity": 500
+            }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 3
             }
           ]
         },
@@ -569,6 +605,12 @@
               "subtype": "tier_3_light_infantry",
               "quantity": 675
             }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 3
+            }
           ]
         },
         {
@@ -601,6 +643,12 @@
             {
               "subtype": "tier_3_light_infantry",
               "quantity": 850
+            }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 3
             }
           ]
         },
@@ -635,6 +683,12 @@
               "subtype": "tier_4_light_infantry",
               "quantity": 525
             }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 4
+            }
           ]
         },
         {
@@ -667,6 +721,12 @@
             {
               "subtype": "tier_4_light_infantry",
               "quantity": 800
+            }
+          ],
+          "teir": [
+            {
+              "subtype": "tier",
+              "quantity": 4
             }
           ]
         }
