@@ -42,7 +42,8 @@ const Tables = (function(Helpers){
         { title:'<img src="pictures/Marine Squad.png" class="col-icon"><img src="pictures/Heavy Weapon Squad.png" class="col-icon"><img src="pictures/Armored Cars.png" class="col-icon"><img src="pictures/Scout Helicopters.png" class="col-icon">24h', dataKey: "rewards_24h@quantity!whole2"}, // 16
         { title:'<img src="pictures/Marine Squad.png" class="col-icon"><img src="pictures/Heavy Weapon Squad.png" class="col-icon"><img src="pictures/Armored Cars.png" class="col-icon"><img src="pictures/Scout Helicopters.png" class="col-icon">48h', dataKey: "rewards_48h@quantity!whole2"}, // 17
         { title:'<img src="pictures/Marine Squad.png" class="col-icon"><img src="pictures/Heavy Weapon Squad.png" class="col-icon"><img src="pictures/Armored Cars.png" class="col-icon"><img src="pictures/Scout Helicopters.png" class="col-icon">72h', dataKey: "rewards_72h@quantity!whole2"}, // 18
-        { title:"Buildings", dataKey: "requirements!requirements"}, // 19         
+        { title:'Tier', dataKey: "teir@tier!whole2"}, // 19
+        { title:"Buildings", dataKey: "requirements!requirements"}, // 20         
     ];
     const missionsCols =[
         { title: "Key", visible: false },
@@ -78,7 +79,7 @@ const Tables = (function(Helpers){
     ];
     const costsColumnMap = {
         '*': [2],
-        rescue: [14,15,16,17,18],
+        rescue: [14,15,16,17,18,19],
         collect: [4,5,6,7,8],
         salvage: [9,10,11,12,13],              
     };
