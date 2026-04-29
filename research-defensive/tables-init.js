@@ -121,7 +121,8 @@ const Tables = (function(Helpers){
         defensivethermitegrenades:[1,2,3,4,5,6,7,8,9,11,18],
         defensiveclaymoremines:[1,2,3,4,5,6,7,8,9,11,18],
         defensiveelectricfence:[1,2,3,4,5,6,7,8,9,11,18],
-        defensivemissilebattery:[1,2,3,4,5,6,7,8,9,11,18],              
+        defensivemissilebattery:[1,2,3,4,5,6,7,8,9,11,18],
+        defensivedefensestrategist2:[1,2,3,4,5,6,7,8,9,18],              
     };
     const missionsColumnMap = {
         '*': [1,2,32],     
@@ -161,7 +162,8 @@ const Tables = (function(Helpers){
         defensivethermitegrenades:[4],
         defensiveclaymoremines:[4],
         defensiveelectricfence:[4],
-        defensivemissilebattery:[4],                          
+        defensivemissilebattery:[4],
+        defensivedefensestrategist2:[7],                          
     };
 
     // expose some indexes for other modules

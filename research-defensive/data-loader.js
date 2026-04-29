@@ -37,7 +37,8 @@ const DataLoader = (function(Helpers){
         "Thermite Grenades":"defensivethermitegrenades",
         "Claymore Mines":"defensiveclaymoremines",
         "Electric Fence":"defensiveelectricfence",
-        "Missile Battery":"defensivemissilebattery",//Defensive finish
+        "Missile Battery":"defensivemissilebattery",
+        "Defense Strategist II":"defensivedefensestrategist2",//Defensive finish
     };
     const reverseKeyMap = Object.fromEntries(
         Object.entries(keyMap).map(([label, key]) => [key.toLowerCase(), label])

@@ -52,7 +52,7 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             { from: [0,2], to: [7,2] },
             { from: [5,0], to: [6,1] },
             { from: [9,0], to: [14,0] },
-            { from: [8,1], to: [14,1] },
+            { from: [8,1], to: [15,1] },
             { from: [9,2], to: [14,2] },
         ],
 
