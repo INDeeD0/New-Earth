@@ -151,7 +151,11 @@ const Tables = (function(Helpers){
         efficiencyscanrange:[1,2,3,4,5,6,7,8,9,18],
         specialspecializedefficiency4:[1,2,3,4,5,6,7,8,9,18],
         specialalienefficiency4:[1,2,3,4,5,6,7,8,9,18],
-        specialprototypeefficiency4:[1,2,3,4,5,6,7,8,9,18],             
+        specialprototypeefficiency4:[1,2,3,4,5,6,7,8,9,18],
+        specialdeploymentspeed3:[1,2,3,4,5,6,7,8,9,18],
+        specialdeploymentsize3:[1,2,3,4,5,6,7,8,9,18],
+        efficiencyrallyspeed2:[1,2,3,4,5,6,7,8,9,18],
+        efficiencyrallycapacity2:[1,2,3,4,5,6,7,8,9,18],             
     };
     const missionsColumnMap = {
         '*': [1,2,32],     
@@ -195,7 +199,11 @@ const Tables = (function(Helpers){
         specialreinforcementcapacity:[35],
         efficiencyscanrange:[36], 
         efficiencyrallycapacity:[37],                
-        efficiencyrallyspeed:[38],    
+        efficiencyrallyspeed:[38],
+        specialdeploymentspeed3:[28],
+        specialdeploymentsize3:[29],
+        efficiencyrallyspeed2:[38],
+        efficiencyrallycapacity2:[37],             
     };
 
     // expose some indexes for other modules

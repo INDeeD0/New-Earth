@@ -42,6 +42,10 @@ const DataLoader = (function(Helpers){
         "Specialized Efficiency VI":"specialspecializedefficiency6",
         "Alien Efficiency VI":"specialalienefficiency6",
         "Prototype Efficiency VI":"specialprototypeefficiency6",
+        "Deployment Speed III":"specialdeploymentspeed3",
+        "Deployment Size III":"specialdeploymentsize3",
+        "Rally Speed II":"efficiencyrallyspeed2",
+        "Rally Capacity II":"efficiencyrallycapacity2"
     };
     const reverseKeyMap = Object.fromEntries(
         Object.entries(keyMap).map(([label, key]) => [key.toLowerCase(), label])

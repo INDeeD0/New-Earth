@@ -22,7 +22,7 @@ body {
   border: 0px solid #ffffff;
 }
 #map1 {
-    grid-template-columns: repeat(13, 150px);
+    grid-template-columns: repeat(15, 150px);
     grid-template-rows: repeat(3, 100px);
     column-gap: 20px;
     row-gap: 5px;
