@@ -27,6 +27,8 @@ const DataLoader = (function(Helpers){
         "Drone Command 8":"dronecommand7",
         "Drone Command 9":"dronecommand8",
         "Drone Command 10":"dronecommand9",
+        "Drone Shard Reactor II":"dronesharddetector2",        
+
     };
     const reverseKeyMap = Object.fromEntries(
         Object.entries(keyMap).map(([label, key]) => [key.toLowerCase(), label])

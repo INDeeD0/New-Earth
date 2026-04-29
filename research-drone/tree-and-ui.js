@@ -57,6 +57,7 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
             { from: [8,1], to: [14,1] },
             { from: [9,0], to: [9,0] },
             { from: [9,2], to: [9,2] },
+            { from: [13,1], to: [14,0] },
         ],
 
         map2: [

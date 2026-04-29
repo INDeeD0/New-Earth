@@ -107,7 +107,8 @@ const Tables = (function(Helpers){
         droneexperimentalcapabilities:[1,2,3,4,5,6,7,8,9,18],
         dronecommand7:[1,2,3,4,5,6,7,8,9,18],
         dronecommand8:[1,2,3,4,5,6,7,8,9,18],
-        dronecommand9:[1,2,3,4,5,6,7,8,9,18],              
+        dronecommand9:[1,2,3,4,5,6,7,8,9,18],
+        dronesharddetector2:[1,2,3,4,5,6,7,8,9,18],              
     };
     const missionsColumnMap = {
         '*': [1,2,32],     
@@ -136,7 +137,8 @@ const Tables = (function(Helpers){
         droneexperimentalcapabilities:[9],
         dronecommand7:[10],
         dronecommand8:[10],
-        dronecommand9:[10],                              
+        dronecommand9:[10],
+        dronesharddetector2:[4],                              
     };
 
     // expose some indexes for other modules
