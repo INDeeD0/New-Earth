@@ -113,7 +113,16 @@ const Tables = (function(Helpers){
         specializedmechspeed:[1,2,3,4,5,6,7,8,9,18],
         specializedunlockmechtier6:[1,2,3,4,5,6,7,8,9,11,12,18],
         specializedunlockalientier6:[1,2,3,4,5,6,7,8,9,11,12,18],
-        specializedunlockprototypetier6:[1,2,3,4,5,6,7,8,9,11,12,18],             
+        specializedunlockprototypetier6:[1,2,3,4,5,6,7,8,9,11,12,18],
+        specializedprototypeattack2:[1,2,3,4,5,6,7,8,9,18],
+        specializedprototypedefense2:[1,2,3,4,5,6,7,8,9,18],
+        specializedprototypehealth2:[1,2,3,4,5,6,7,8,9,18],
+        specializedmechattack2:[1,2,3,4,5,6,7,8,9,18],
+        specializedmechdefense2:[1,2,3,4,5,6,7,8,9,18],
+        specializedmechhealth2:[1,2,3,4,5,6,7,8,9,18],
+        specializedalienattack2:[1,2,3,4,5,6,7,8,9,18],
+        specializedaliendefense2:[1,2,3,4,5,6,7,8,9,18],
+        specializedalienhealth2:[1,2,3,4,5,6,7,8,9,18],                     
     };
     const missionsColumnMap = {
         '*': [1,2],     
@@ -140,7 +149,16 @@ const Tables = (function(Helpers){
         specializedunlockprototypetier5:[18],        
         specializedunlockmechtier6:[18],
         specializedunlockalientier6:[18],
-        specializedunlockprototypetier6:[18],                              
+        specializedunlockprototypetier6:[18],
+        specializedprototypeattack2:[6],
+        specializedprototypedefense2:[9],
+        specializedprototypehealth2:[12],
+        specializedmechattack2:[8],
+        specializedmechdefense2:[11],
+        specializedmechhealth2:[14],
+        specializedalienattack2:[7],
+        specializedaliendefense2:[10],
+        specializedalienhealth2:[13],                              
     };
 
     // expose some indexes for other modules

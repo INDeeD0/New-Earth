@@ -43,9 +43,9 @@ const UI = (function(Helpers, Tables, DataLoader, Totals){
     
     const mapLines = {
         map1: [
-            { from: [1,0], to: [6,0] },
-            { from: [1,1], to: [6,1] },
-            { from: [1,2], to: [6,2] },
+            { from: [1,0], to: [9,0] },
+            { from: [1,1], to: [9,1] },
+            { from: [1,2], to: [9,2] },
         ],
 
         map2: [

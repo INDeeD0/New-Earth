@@ -25,6 +25,15 @@ const DataLoader = (function(Helpers){
         "Obsidian Hawk":"specializedunlockprototypetier6",
         "Alien Breacher":"specializedunlockalientier6",
         "Mech Troopers":"specializedunlockmechtier6",
+        "Prototype Attack II":"specializedprototypeattack2",
+        "Alien Attack II":"specializedalienattack2",
+        "Mech Attack II":"specializedmechattack2",
+        "Prototype Defense II":"specializedprototypedefense2",
+        "Alien Defense II":"specializedaliendefense2",
+        "Mech Defense II":"specializedmechdefense2",
+        "Prototype Health II":"specializedprototypehealth2",
+        "Alien Health II":"specializedalienhealth2",
+        "Mech Health II":"specializedmechhealth2",        
     };
     const reverseKeyMap = Object.fromEntries(
         Object.entries(keyMap).map(([label, key]) => [key.toLowerCase(), label])
