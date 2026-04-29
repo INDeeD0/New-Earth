@@ -2,6 +2,7 @@
   "_subtypes": {
     "debug": {},
     "purchases": {},
-    "march_loadouts": {}
+    "march_loadouts": {},
+    "extra_info": {}
   }
 }

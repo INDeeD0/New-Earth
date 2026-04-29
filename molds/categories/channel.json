@@ -2,7 +2,7 @@
   "created_ts": "+TIMESTAMP",
   "_subtypes": {
     "realm": {
-      "limit": 25
+      "limit": 50
     },
     "alliance": {
       "limit": 50

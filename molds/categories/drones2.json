@@ -657,31 +657,31 @@
           "rewards_8h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 40
+              "quantity": 100
             }
           ],
           "rewards_16h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 75
+              "quantity": 175
             }
           ],
           "rewards_24h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 140
+              "quantity": 350
             }
           ],
           "rewards_48h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 275
+              "quantity": 500
             }
           ],
           "rewards_72h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 525
+              "quantity": 700
             }
           ],
           "teir": [
@@ -696,31 +696,31 @@
           "rewards_8h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 80
+              "quantity": 150
             }
           ],
           "rewards_16h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 150
+              "quantity": 250
             }
           ],
           "rewards_24h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 275
+              "quantity": 500
             }
           ],
           "rewards_48h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 525
+              "quantity": 700
             }
           ],
           "rewards_72h": [
             {
               "subtype": "tier_4_light_infantry",
-              "quantity": 800
+              "quantity": 1000
             }
           ],
           "teir": [

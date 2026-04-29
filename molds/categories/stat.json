@@ -313,13 +313,13 @@
     "discard_refund_static_units_modifier": {
       "name": "~stat_discard_refund_static_units_modifier",
       "value": 1,
-      "modifier": 0,
+      "modifier": 0.4,
       "lock_value": true
     },
     "discard_refund_non_static_units_modifier": {
       "name": "~stat_discard_refund_non_static_units_modifier",
       "value": 1,
-      "modifier": 0,
+      "modifier": 0.4,
       "lock_value": true
     },
     "hero_max_energy": {
@@ -1951,6 +1951,30 @@
     },
     "carrier_monster_attack_modifier": {
       "name": "~stat_carrier_monster_attack_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "dropship_down_combat_modifier": {
+      "name": "~stat_dropship_down_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "xenosaur_combat_modifier": {
+      "name": "~stat_xenosaur_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_hunting_race_dropship_down_modifier": {
+      "name": "~stat_hero_hunting_race_dropship_down_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_hunting_race_xenosaur_modifier": {
+      "name": "~stat_hero_hunting_race_xenosaur_modifier",
       "value": 1,
       "modifier": 0,
       "lock_value": true

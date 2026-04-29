@@ -9,6 +9,9 @@
         },
         {
           "subtype": "leave"
+        },
+        {
+          "subtype": "mutiny"
         }
       ]
     },
@@ -27,6 +30,9 @@
         },
         {
           "subtype": "rally"
+        },
+        {
+          "subtype": "mutiny"
         }
       ]
     },
@@ -54,6 +60,9 @@
         },
         {
           "subtype": "edit"
+        },
+        {
+          "subtype": "mutiny"
         },
         {
           "subtype": "rally"
@@ -93,6 +102,9 @@
         },
         {
           "subtype": "edit"
+        },
+        {
+          "subtype": "mutiny"
         },
         {
           "subtype": "rally"

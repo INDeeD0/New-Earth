@@ -24,6 +24,9 @@
     "edit": {
       "name": "~alliance_perm_edit"
     },
+    "mutiny": {
+      "name": "~alliance_perm_mutiny"
+    },
     "rally": {
       "name": "~alliance_perm_rally"
     },

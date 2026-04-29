@@ -552,6 +552,12 @@
     "defeated_locations_level50": {
       "name": "~counter_defeated_locations_level50"
     },
+    "defeated_locations_dropship_down": {
+      "name": "~counter_defeated_locations_dropship_down"
+    },
+    "defeated_locations_xenosaur": {
+      "name": "~counter_defeated_locations_xenosaur"
+    },
     "rally_contribution": {
       "name": "~counter_rally_contribution"
     },

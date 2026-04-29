@@ -1,0 +1,12 @@
+{
+  "_subtypes": {
+    "dropship_down": {
+      "name": "~location_crashed_dropship",
+      "npc_only": true
+    },
+    "xenosaur": {
+      "name": "~location_invader_xenosaur",
+      "npc_only": true
+    }
+  }
+}

@@ -386,7 +386,7 @@
     },
     {
       "min_core_level": 17,
-      "max_core_level": 35,
+      "max_core_level": 24,
       "rewards": [
         {
           "subtype": "period_reward_t3_0"
@@ -432,6 +432,57 @@
         },
         {
           "subtype": "period_reward_t3_14"
+        }
+      ]
+    },
+    {
+      "min_core_level": 25,
+      "max_core_level": 35,
+      "rewards": [
+        {
+          "subtype": "period_reward_t4_0"
+        },
+        {
+          "subtype": "period_reward_t4_1"
+        },
+        {
+          "subtype": "period_reward_t4_2"
+        },
+        {
+          "subtype": "period_reward_t4_3"
+        },
+        {
+          "subtype": "period_reward_t4_4"
+        },
+        {
+          "subtype": "period_reward_t4_5"
+        },
+        {
+          "subtype": "period_reward_t4_6"
+        },
+        {
+          "subtype": "period_reward_t4_7"
+        },
+        {
+          "subtype": "period_reward_t4_8"
+        },
+        {
+          "subtype": "period_reward_t4_9"
+        },
+        {
+          "subtype": "period_reward_t4_10"
+        },
+        {
+          "subtype": "period_reward_t4_11"
+        },
+        {
+          "subtype": "period_reward_t4_12"
+        },
+        {
+          "subtype": "period_reward_t4_13"
+        },
+        {
+          "subtype": "period_reward_t4_14"
         }
       ]
     }
@@ -499,7 +550,7 @@
     },
     {
       "min_core_level": 17,
-      "max_core_level": 35,
+      "max_core_level": 24,
       "rewards": [
         {
           "subtype": "epic_period_reward_t3_0"
@@ -524,6 +575,36 @@
         },
         {
           "subtype": "epic_period_reward_t3_7"
+        }
+      ]
+    },
+    {
+      "min_core_level": 25,
+      "max_core_level": 35,
+      "rewards": [
+        {
+          "subtype": "epic_period_reward_t4_0"
+        },
+        {
+          "subtype": "epic_period_reward_t4_1"
+        },
+        {
+          "subtype": "epic_period_reward_t4_2"
+        },
+        {
+          "subtype": "epic_period_reward_t4_3"
+        },
+        {
+          "subtype": "epic_period_reward_t4_4"
+        },
+        {
+          "subtype": "epic_period_reward_t4_5"
+        },
+        {
+          "subtype": "epic_period_reward_t4_6"
+        },
+        {
+          "subtype": "epic_period_reward_t4_7"
         }
       ]
     }

@@ -442,6 +442,71 @@
           "subtype": "cache_reward97"
         }
       ]
+    },
+    "hunting_monster_medium": {
+      "name": "~cache_hunting_monster_medium",
+      "quantity": 1,
+      "source": 3,
+      "duration": 86400,
+      "rewards": [
+        {
+          "subtype": "cache_reward98"
+        },
+        {
+          "subtype": "cache_reward99"
+        },
+        {
+          "subtype": "cache_reward100"
+        },
+        {
+          "subtype": "cache_reward101"
+        },
+        {
+          "subtype": "cache_reward102"
+        },
+        {
+          "subtype": "cache_reward103"
+        },
+        {
+          "subtype": "cache_reward104"
+        },
+        {
+          "subtype": "cache_reward105"
+        },
+        {
+          "subtype": "cache_reward106"
+        },
+        {
+          "subtype": "cache_reward107"
+        },
+        {
+          "subtype": "cache_reward108"
+        },
+        {
+          "subtype": "cache_reward109"
+        },
+        {
+          "subtype": "cache_reward110"
+        },
+        {
+          "subtype": "cache_reward111"
+        },
+        {
+          "subtype": "cache_reward112"
+        },
+        {
+          "subtype": "cache_reward113"
+        },
+        {
+          "subtype": "cache_reward114"
+        },
+        {
+          "subtype": "cache_reward115"
+        },
+        {
+          "subtype": "cache_reward116"
+        }
+      ]
     }
   }
 }
