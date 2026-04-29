@@ -1,5 +1,4 @@
 {
-  "help_request_allowed": true,
   "_subtypes": {
     "offensivescouting": {
       "name": "~research_offensive_scouting",
@@ -17205,6 +17204,6 @@
           ]
         }
       ]
-    }             
+    }
   }
 }

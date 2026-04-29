@@ -1,5 +1,4 @@
 {
-  "help_request_allowed": true,
   "_subtypes": {
     "dronecommand1": {
       "name": "~research_drone_command_1",
@@ -6570,6 +6569,425 @@
               "subtype": "drone_mission_tier",
               "value": 1,
               "modifier": 0
+            }
+          ]
+        }
+      ]
+    },
+    "dronesharddetector2": {
+      "name": "~research_drone_shard_detector_2",
+      "category": {
+        "subtype": "category4"
+      },
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 22
+            },
+            {
+              "subtype": "research",
+              "target_subtype": "dronecommand8",
+              "level": 1
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 5000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 5000
+            }
+          ],
+          "upgrade_cost": 5400,
+          "power": 350,
+          "reward": {
+            "hero_xp": 5000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 22
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 10000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 10000
+            }
+          ],
+          "upgrade_cost": 36000,
+          "power": 750,
+          "reward": {
+            "hero_xp": 8000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.015
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 23
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 30000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 30000
+            }
+          ],
+          "upgrade_cost": 172800,
+          "power": 1500,
+          "reward": {
+            "hero_xp": 12000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 23
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 75000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 75000
+            }
+          ],
+          "upgrade_cost": 432000,
+          "power": 4000,
+          "reward": {
+            "hero_xp": 15000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.03
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 24
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 200000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 200000
+            }
+          ],
+          "upgrade_cost": 864000,
+          "power": 10000,
+          "reward": {
+            "hero_xp": 20000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 24
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 650000
+            }
+          ],
+          "upgrade_cost": 1728000,
+          "power": 25000,
+          "reward": {
+            "hero_xp": 35000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 1350000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 1350000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 1350000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 2000000
+            }
+          ],
+          "upgrade_cost": 3456000,
+          "power": 50000,
+          "reward": {
+            "hero_xp": 50000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.07
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 25
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 3250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 3250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 3250000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 5000000
+            }
+          ],
+          "upgrade_cost": 6912000,
+          "power": 125000,
+          "reward": {
+            "hero_xp": 85000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.09
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 26
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 8000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 12500000
+            }
+          ],
+          "upgrade_cost": 13824000,
+          "power": 250000,
+          "reward": {
+            "hero_xp": 150000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 26
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 20000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 20000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 20000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 25000000
+            }
+          ],
+          "upgrade_cost": 27648000,
+          "power": 500000,
+          "reward": {
+            "hero_xp": 250000
+          },
+          "stats": [
+            {
+              "subtype": "drone_premium_modifier",
+              "value": 0,
+              "modifier": 0.15
             }
           ]
         }

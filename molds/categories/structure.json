@@ -279,7 +279,7 @@
           "generate": [
             {
               "subtype": "currency7",
-              "quantity": 15
+              "quantity": 20
             }
           ],
           "limit": [
@@ -329,7 +329,7 @@
           "generate": [
             {
               "subtype": "currency7",
-              "quantity": 30
+              "quantity": 40
             }
           ],
           "limit": [
@@ -379,7 +379,7 @@
           "generate": [
             {
               "subtype": "currency7",
-              "quantity": 60
+              "quantity": 75
             }
           ],
           "limit": [
@@ -429,7 +429,7 @@
           "generate": [
             {
               "subtype": "currency7",
-              "quantity": 120
+              "quantity": 150
             }
           ],
           "limit": [
@@ -479,7 +479,7 @@
           "generate": [
             {
               "subtype": "currency7",
-              "quantity": 250
+              "quantity": 300
             }
           ],
           "limit": [
@@ -534,7 +534,7 @@
           "generate": [
             {
               "subtype": "currency7",
-              "quantity": 500
+              "quantity": 625
             }
           ],
           "limit": [

@@ -1,5 +1,4 @@
 {
-  "help_request_allowed": true,
   "_subtypes": {
     "operationsresearchknowledge": {
       "name": "~research_operations_research_knowledge",

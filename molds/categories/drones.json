@@ -1,0 +1,5854 @@
+{
+  "_subtypes": {
+    "drone_collect_8h_tier1": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1000
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier2": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 2000
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier3": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 3250
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier4": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4500
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier5": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 6000
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier6": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 7500
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier7": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 9000
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier8": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 10500
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier9": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 12000
+          }
+        ]
+      }
+    },
+    "drone_collect_8h_tier10": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 13500
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier1": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 1750
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier2": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 3500
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier3": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 6000
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier4": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 8000
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier5": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 10000
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier6": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 12500
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier7": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 15000
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier8": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 17500
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier9": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 20000
+          }
+        ]
+      }
+    },
+    "drone_collect_16h_tier10": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 22500
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier1": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 2250
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier2": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4500
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier3": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 9000
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier4": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 11000
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier5": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 15000
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier6": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 20000
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier7": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 25000
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier8": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 30000
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier9": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 35000
+          }
+        ]
+      }
+    },
+    "drone_collect_24h_tier10": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 40000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier1": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 4000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier2": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 8000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier3": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 18000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier4": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 20000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier5": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 25000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier6": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 35000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier7": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 45000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier8": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 55000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier9": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 65000
+          }
+        ]
+      }
+    },
+    "drone_collect_48h_tier10": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 75000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier1": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 5500
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier2": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 11000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier3": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 25000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier4": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 35000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier5": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 45000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier6": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 65000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier7": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 90000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier8": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 115000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier9": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 140000
+          }
+        ]
+      }
+    },
+    "drone_collect_72h_tier10": {
+      "chance": 1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "currencies": [
+          {
+            "subtype": "currency7",
+            "quantity": 165000
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 75
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 75
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 75
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 75
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 60
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 80
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 80
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 80
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 80
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 100
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_8h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 140
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 140
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 140
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 140
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 120
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 150
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 175
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 175
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 175
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 175
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_16h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 375
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 375
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 375
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 375
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 200
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 250
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 180
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 275
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 275
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 275
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 275
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 400
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 400
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 400
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 400
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_24h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 360
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 360
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 360
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 360
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 550
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 550
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 550
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 550
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 350
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 450
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 450
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 450
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 450
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 575
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 575
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 575
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 575
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_48h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 650
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_light_infantry",
+            "quantity": 900
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_heavy_infantry",
+            "quantity": 900
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_ground_vehicle",
+            "quantity": 900
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_1_air_vehicle",
+            "quantity": 900
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 475
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_light_infantry",
+            "quantity": 600
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_heavy_infantry",
+            "quantity": 600
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_ground_vehicle",
+            "quantity": 600
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_2_air_vehicle",
+            "quantity": 600
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 675
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 675
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 675
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 675
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_light_infantry",
+            "quantity": 850
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_heavy_infantry",
+            "quantity": 850
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_ground_vehicle",
+            "quantity": 850
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_3_air_vehicle",
+            "quantity": 850
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_light_infantry",
+            "quantity": 1000
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_heavy_infantry",
+            "quantity": 1000
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 1000
+          }
+        ]
+      }
+    },
+    "drone_rescue_72h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "units": [
+          {
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 1000
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_8h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_16h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_24h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 7
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 7
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 7
+          }
+        ]
+      }
+    },
+    "drone_salvage_48h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 7
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier1_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier1_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier1_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier1_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier2_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier2_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier2_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier2_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier3_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier3_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier3_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier3_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier4_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier4_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier4_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier4_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier5_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier5_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier5_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier5_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier6_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 8
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier6_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 8
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier6_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 8
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier6_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 8
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier7_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier7_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier7_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier7_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier8_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier8_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier8_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier8_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier9_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier9_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier9_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier9_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier10_a": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_data_disk",
+            "quantity": 12
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier10_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_component",
+            "quantity": 12
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier10_c": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_armor",
+            "quantity": 12
+          }
+        ]
+      }
+    },
+    "drone_salvage_72h_tier10_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "core_alien_power_core",
+            "quantity": 12
+          }
+        ]
+      }
+    }
+  }
+}

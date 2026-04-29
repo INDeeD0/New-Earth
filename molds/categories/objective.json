@@ -20349,6 +20349,115 @@
         }
       ]
     },
+    "objective_research_drone_shard_detector_2": {
+      "name": "~objective_research_drone_shard_detector_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 100,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 300,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 1800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 3800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 8800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 18800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 38800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 88800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 188800,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "dronesharddetector2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
     "objective_research_drone_scanners_1": {
       "name": "~objective_research_drone_scanners_1",
       "category": {
@@ -34563,6 +34672,1532 @@
               "subtype": "research",
               "target_subtype": "specializedunlockalientier6",
               "level": 1
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_defensive_strategist_2": {
+      "name": "~objective_research_defensive_strategist_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 5000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 15000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 50000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 140000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 300000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 675000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 1300000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 2850000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 5600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 12000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "defensivedefensestrategist2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_deployment_speed_3": {
+      "name": "~objective_research_deployment_speed_3",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 72000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 215000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 720000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 2000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 4300000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 9700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 18500000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 41000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 80500000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 170000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentspeed3",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_deployment_size_3": {
+      "name": "~objective_research_deployment_size_3",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 72000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 215000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 720000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 2000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 4300000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 9700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 18500000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 41000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 80500000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 170000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specialdeploymentsize3",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_rally_speed_2": {
+      "name": "~objective_research_rally_speed_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 8000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 24000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 80000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 225000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 480000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 2100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 4550000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 8950000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 19000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallyspeed2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_rally_capacity_2": {
+      "name": "~objective_research_rally_capacity_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 8000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 24000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 80000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 225000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 480000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 2100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 4550000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 8950000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 19000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "efficiencyrallycapacity2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_prototype_attack_2": {
+      "name": "~objective_research_prototype_attack_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 6200,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 19000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 62000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 175000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 375000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 845000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 1600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 3550000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 7000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 15000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypeattack2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_prototype_defense_2": {
+      "name": "~objective_research_prototype_defense_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 10000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 30000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 280000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1350000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 2600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 5700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 11000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 24000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypedefense2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_prototype_health_2": {
+      "name": "~objective_research_prototype_health_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 12000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 38000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 125000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 350000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 750000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 3250000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 7100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 14000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 30000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedprototypehealth2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_alien_attack_2": {
+      "name": "~objective_research_alien_attack_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 6200,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 19000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 62000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 175000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 375000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 845000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 1600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 3550000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 7000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 15000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienattack2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_alien_defense_2": {
+      "name": "~objective_research_alien_defense_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 10000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 30000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 280000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1350000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 2600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 5700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 11000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 24000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedaliendefense2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_alien_health_2": {
+      "name": "~objective_research_alien_health_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 12000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 38000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 125000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 350000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 750000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 3250000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 7100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 14000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 30000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedalienhealth2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_mech_attack_2": {
+      "name": "~objective_research_mech_attack_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 6200,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 19000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 62000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 175000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 375000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 845000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 1600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 3550000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 7000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 15000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechattack2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_mech_defense_2": {
+      "name": "~objective_research_mech_defense_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 10000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 30000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 280000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1350000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 2600000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 5700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 11000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 24000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechdefense2",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    },
+    "objective_research_mech_health_2": {
+      "name": "~objective_research_mech_health_2",
+      "category": {
+        "subtype": "category2"
+      },
+      "levels": [
+        {},
+        {
+          "power": 12000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "power": 38000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "power": 125000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "power": 350000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "power": 750000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "power": 1700000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 6
+            }
+          ]
+        },
+        {
+          "power": 3250000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "power": 7100000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 8
+            }
+          ]
+        },
+        {
+          "power": 14000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 9
+            }
+          ]
+        },
+        {
+          "power": 30000000,
+          "requirements": [
+            {
+              "subtype": "research",
+              "target_subtype": "specializedmechhealth2",
+              "level": 10
             }
           ]
         }

@@ -48,7 +48,12 @@
         },
         {
           "target_location": "farm_4",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "farm_5",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -99,7 +104,12 @@
         },
         {
           "target_location": "alloy_mine_4",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "alloy_mine_5",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -150,7 +160,12 @@
         },
         {
           "target_location": "oil_field_4",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "oil_field_5",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -201,7 +216,12 @@
         },
         {
           "target_location": "abandoned_warehouse_4",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "abandoned_warehouse_5",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -252,7 +272,12 @@
         },
         {
           "target_location": "neutronium_meteor_4",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "neutronium_meteor_5",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -578,7 +603,12 @@
         },
         {
           "target_location": "farm_5",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "farm_6",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -624,7 +654,12 @@
         },
         {
           "target_location": "alloy_mine_5",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "alloy_mine_6",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -670,7 +705,12 @@
         },
         {
           "target_location": "oil_field_5",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "oil_field_6",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -716,7 +756,12 @@
         },
         {
           "target_location": "abandoned_warehouse_5",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "abandoned_warehouse_6",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -762,7 +807,12 @@
         },
         {
           "target_location": "neutronium_meteor_5",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 450
+        },
+        {
+          "target_location": "neutronium_meteor_6",
+          "realm_age_min_days": 450
         }
       ]
     },
@@ -814,7 +864,12 @@
         },
         {
           "target_location": "farm_6",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "farm_7",
+          "realm_age_min_days": 540
         }
       ]
     },
@@ -866,7 +921,12 @@
         },
         {
           "target_location": "alloy_mine_6",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "alloy_mine_7",
+          "realm_age_min_days": 540
         }
       ]
     },
@@ -918,7 +978,12 @@
         },
         {
           "target_location": "oil_field_6",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "oil_field_7",
+          "realm_age_min_days": 540
         }
       ]
     },
@@ -970,7 +1035,12 @@
         },
         {
           "target_location": "abandoned_warehouse_6",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "abandoned_warehouse_7",
+          "realm_age_min_days": 540
         }
       ]
     },
@@ -1022,7 +1092,12 @@
         },
         {
           "target_location": "neutronium_meteor_6",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "neutronium_meteor_7",
+          "realm_age_min_days": 540
         }
       ]
     },
@@ -1074,7 +1149,12 @@
         },
         {
           "target_location": "farm_7",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "farm_8",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1126,7 +1206,12 @@
         },
         {
           "target_location": "alloy_mine_7",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "alloy_mine_8",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1178,7 +1263,12 @@
         },
         {
           "target_location": "oil_field_7",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "oil_field_8",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1230,7 +1320,12 @@
         },
         {
           "target_location": "abandoned_warehouse_7",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "abandoned_warehouse_8",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1282,7 +1377,12 @@
         },
         {
           "target_location": "neutronium_meteor_7",
-          "realm_age_min_days": 450
+          "realm_age_min_days": 450,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "neutronium_meteor_8",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1329,7 +1429,17 @@
       "exchanges": [
         {
           "target_location": "farm_7",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "farm_8",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "farm_9",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1376,7 +1486,17 @@
       "exchanges": [
         {
           "target_location": "alloy_mine_7",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "alloy_mine_8",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "alloy_mine_9",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1423,7 +1543,17 @@
       "exchanges": [
         {
           "target_location": "oil_field_7",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "oil_field_8",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "oil_field_9",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1470,7 +1600,17 @@
       "exchanges": [
         {
           "target_location": "abandoned_warehouse_7",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "abandoned_warehouse_8",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "abandoned_warehouse_9",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -1517,14 +1657,24 @@
       "exchanges": [
         {
           "target_location": "neutronium_meteor_7",
-          "realm_age_min_days": 360
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "neutronium_meteor_8",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "neutronium_meteor_9",
+          "realm_age_min_days": 720
         }
       ]
     },
     "farm_7": {
       "name": "~location_farm",
       "level": 7,
-      "spawn_amount": 0,
+      "spawn_amount": 25,
       "spawn_chance": 1,
       "expire_on_empty": true,
       "currencies_per_hour": [
@@ -1559,13 +1709,29 @@
         },
         {
           "subtype": "gathering_tier7_reward_c"
+        }
+      ],
+      "exchanges": [
+        {
+          "target_location": "farm_8",
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "farm_9",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "farm_10",
+          "realm_age_min_days": 720
         }
       ]
     },
     "alloy_mine_7": {
       "name": "~location_alloy_mine",
       "level": 7,
-      "spawn_amount": 0,
+      "spawn_amount": 25,
       "spawn_chance": 1,
       "expire_on_empty": true,
       "currencies_per_hour": [
@@ -1600,13 +1766,29 @@
         },
         {
           "subtype": "gathering_tier7_reward_c"
+        }
+      ],
+      "exchanges": [
+        {
+          "target_location": "alloy_mine_8",
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "alloy_mine_9",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "alloy_mine_10",
+          "realm_age_min_days": 720
         }
       ]
     },
     "oil_field_7": {
       "name": "~location_oil_field",
       "level": 7,
-      "spawn_amount": 0,
+      "spawn_amount": 25,
       "spawn_chance": 1,
       "expire_on_empty": true,
       "currencies_per_hour": [
@@ -1641,13 +1823,29 @@
         },
         {
           "subtype": "gathering_tier7_reward_c"
+        }
+      ],
+      "exchanges": [
+        {
+          "target_location": "oil_field_8",
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "oil_field_9",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "oil_field_10",
+          "realm_age_min_days": 720
         }
       ]
     },
     "abandoned_warehouse_7": {
       "name": "~location_abandoned_warehouse",
       "level": 7,
-      "spawn_amount": 0,
+      "spawn_amount": 25,
       "spawn_chance": 1,
       "expire_on_empty": true,
       "currencies_per_hour": [
@@ -1683,12 +1881,28 @@
         {
           "subtype": "gathering_tier7_reward_c"
         }
+      ],
+      "exchanges": [
+        {
+          "target_location": "abandoned_warehouse_8",
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "abandoned_warehouse_9",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "abandoned_warehouse_10",
+          "realm_age_min_days": 720
+        }
       ]
     },
     "neutronium_meteor_7": {
       "name": "~location_neutronium_meteor",
       "level": 7,
-      "spawn_amount": 0,
+      "spawn_amount": 25,
       "spawn_chance": 1,
       "expire_on_empty": true,
       "currencies_per_hour": [
@@ -1723,6 +1937,22 @@
         },
         {
           "subtype": "gathering_tier7_reward_c"
+        }
+      ],
+      "exchanges": [
+        {
+          "target_location": "neutronium_meteor_8",
+          "realm_age_min_days": 360,
+          "realm_age_max_days": 540
+        },
+        {
+          "target_location": "neutronium_meteor_9",
+          "realm_age_min_days": 540,
+          "realm_age_max_days": 720
+        },
+        {
+          "target_location": "neutronium_meteor_10",
+          "realm_age_min_days": 720
         }
       ]
     },
@@ -2833,7 +3063,7 @@
         "items": [
           {
             "subtype": "boost_3m",
-            "quantity": 1
+            "quantity": 2
           }
         ],
         "currencies": [
@@ -2887,7 +3117,7 @@
         "items": [
           {
             "subtype": "boost_3m",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "currencies": [
@@ -2941,7 +3171,7 @@
         "items": [
           {
             "subtype": "boost_3m",
-            "quantity": 2
+            "quantity": 4
           }
         ],
         "currencies": [
@@ -3004,7 +3234,7 @@
         "items": [
           {
             "subtype": "boost_3m",
-            "quantity": 2
+            "quantity": 4
           }
         ],
         "currencies": [
@@ -3397,6 +3627,7 @@
         }
       ],
       "reward": {
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "core_alien_component",
@@ -3519,6 +3750,12 @@
             "subtype": "crafting_alien_fiber",
             "quantity": 2
           }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 10000
+          }
         ]
       },
       "annihilate_rewards": [
@@ -3617,6 +3854,12 @@
           {
             "subtype": "crafting_alien_fiber",
             "quantity": 3
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 20000
           }
         ]
       },
@@ -3717,6 +3960,12 @@
             "subtype": "crafting_alien_fiber",
             "quantity": 5
           }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 30000
+          }
         ]
       },
       "annihilate_rewards": [
@@ -3726,42 +3975,42 @@
       ],
       "hero_rewards": [
         {
-          "subtype": "lootable_hive_tier9_reward_a"
+          "subtype": "lootable_hive_tier10_reward_a"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_b"
+          "subtype": "lootable_hive_tier10_reward_b"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_c"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_d"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_e"
+          "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_f"
+          "subtype": "lootable_hive_tier10_reward_f"
         }
       ],
       "random_rewards": [
         {
-          "subtype": "lootable_hive_tier9_reward_f"
+          "subtype": "lootable_hive_tier10_reward_f"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_e"
+          "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_d"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_c"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_b"
+          "subtype": "lootable_hive_tier10_reward_b"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_a"
+          "subtype": "lootable_hive_tier10_reward_a"
         }
       ]
     },
@@ -3840,42 +4089,42 @@
       ],
       "hero_rewards": [
         {
-          "subtype": "lootable_hive_tier9_reward_a"
+          "subtype": "lootable_hive_tier10_reward_a"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_b"
+          "subtype": "lootable_hive_tier10_reward_b"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_c"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_d"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_e"
+          "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_f"
+          "subtype": "lootable_hive_tier10_reward_f"
         }
       ],
       "random_rewards": [
         {
-          "subtype": "lootable_hive_tier9_reward_f"
+          "subtype": "lootable_hive_tier10_reward_f"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_e"
+          "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_d"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_c"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_b"
+          "subtype": "lootable_hive_tier10_reward_b"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_a"
+          "subtype": "lootable_hive_tier10_reward_a"
         }
       ]
     },
@@ -3946,42 +4195,42 @@
       ],
       "hero_rewards": [
         {
-          "subtype": "lootable_hive_tier9_reward_a"
+          "subtype": "lootable_hive_tier10_reward_a"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_b"
+          "subtype": "lootable_hive_tier10_reward_b"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_c"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_d"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_e"
+          "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_f"
+          "subtype": "lootable_hive_tier10_reward_f"
         }
       ],
       "random_rewards": [
         {
-          "subtype": "lootable_hive_tier9_reward_f"
+          "subtype": "lootable_hive_tier10_reward_f"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_e"
+          "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_d"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_c"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_b"
+          "subtype": "lootable_hive_tier10_reward_b"
         },
         {
-          "subtype": "lootable_hive_tier9_reward_a"
+          "subtype": "lootable_hive_tier10_reward_a"
         }
       ]
     },
@@ -4976,6 +5225,9 @@
       "spawn_amount": 5,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5041,6 +5293,9 @@
       "spawn_amount": 5,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5106,6 +5361,9 @@
       "spawn_amount": 2,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5171,6 +5429,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5240,6 +5501,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5309,6 +5573,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5378,6 +5645,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5451,6 +5721,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5524,6 +5797,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5597,6 +5873,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -5670,6 +5949,9 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "expire_on_empty": false,
+      "race": {
+        "subtype": "dropship_down"
+      },
       "units": [
         {
           "subtype": "tier_1_alien",
@@ -8916,7 +9198,7 @@
       "monster_energy_cost": 700,
       "neutralize": true,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_epic",
@@ -8983,7 +9265,7 @@
       "monster_energy_cost": 800,
       "neutralize": true,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_epic",
@@ -9059,7 +9341,7 @@
       "monster_energy_cost": 900,
       "neutralize": true,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_epic",
@@ -9147,7 +9429,7 @@
       "monster_energy_cost": 700,
       "neutralize": true,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_ufo",
@@ -9181,7 +9463,7 @@
       "monster_energy_cost": 800,
       "neutralize": true,
       "reward": {
-        "hero_xp": 17500,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_ufo",
@@ -9215,7 +9497,7 @@
       "monster_energy_cost": 900,
       "neutralize": true,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_ufo",
@@ -9249,7 +9531,7 @@
       "monster_energy_cost": 1000,
       "neutralize": true,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_ufo",
@@ -9258,7 +9540,7 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
@@ -9286,7 +9568,7 @@
       "monster_energy_cost": 1100,
       "neutralize": true,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_ufo",
@@ -9295,7 +9577,7 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
@@ -9326,7 +9608,7 @@
       "monster_energy_cost": 600,
       "neutralize": true,
       "reward": {
-        "hero_xp": 12500,
+        "hero_xp": 15000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9360,7 +9642,7 @@
       "monster_energy_cost": 700,
       "neutralize": true,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9394,7 +9676,7 @@
       "monster_energy_cost": 800,
       "neutralize": true,
       "reward": {
-        "hero_xp": 17500,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9428,7 +9710,7 @@
       "monster_energy_cost": 900,
       "neutralize": true,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9462,7 +9744,7 @@
       "monster_energy_cost": 1000,
       "neutralize": true,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9471,7 +9753,7 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
@@ -9499,7 +9781,7 @@
       "monster_energy_cost": 1100,
       "neutralize": true,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9508,7 +9790,7 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
@@ -9536,7 +9818,7 @@
       "monster_energy_cost": 1250,
       "neutralize": true,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 50000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9545,7 +9827,7 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
@@ -9573,7 +9855,7 @@
       "monster_energy_cost": 1500,
       "neutralize": true,
       "reward": {
-        "hero_xp": 50000,
+        "hero_xp": 60000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9582,7 +9864,7 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
@@ -9610,7 +9892,7 @@
       "monster_energy_cost": 1750,
       "neutralize": true,
       "reward": {
-        "hero_xp": 60000,
+        "hero_xp": 70000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
@@ -9619,7 +9901,7 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
@@ -11245,24 +11527,33 @@
       "level": 10,
       "spawn_amount": 0,
       "spawn_chance": 1,
-      "monster_health": 10000000,
-      "monster_energy_cost": 750,
+      "monster_health": 15000000,
+      "monster_energy_cost": 1100,
       "neutralize": true,
+      "race": {
+        "subtype": "xenosaur"
+      },
       "reward": {
         "hero_xp": 40000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_xenosaur",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
       "random_rewards": [
+        {
+          "subtype": "lootable_xenosaur_tier10_d"
+        },
+        {
+          "subtype": "lootable_xenosaur_tier10_c"
+        },
         {
           "subtype": "lootable_xenosaur_tier10_b"
         },
@@ -11276,9 +11567,12 @@
       "level": 15,
       "spawn_amount": 0,
       "spawn_chance": 1,
-      "monster_health": 17500000,
+      "monster_health": 20000000,
       "monster_energy_cost": 1500,
       "neutralize": true,
+      "race": {
+        "subtype": "xenosaur"
+      },
       "reward": {
         "hero_xp": 90000,
         "items": [
@@ -11289,11 +11583,20 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
       "random_rewards": [
+        {
+          "subtype": "lootable_xenosaur_tier15_e"
+        },
+        {
+          "subtype": "lootable_xenosaur_tier15_d"
+        },
+        {
+          "subtype": "lootable_xenosaur_tier15_c"
+        },
         {
           "subtype": "lootable_xenosaur_tier15_b"
         },
@@ -11310,6 +11613,9 @@
       "monster_health": 25000000,
       "monster_energy_cost": 2250,
       "neutralize": true,
+      "race": {
+        "subtype": "xenosaur"
+      },
       "reward": {
         "hero_xp": 150000,
         "items": [
@@ -11320,11 +11626,20 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
       "random_rewards": [
+        {
+          "subtype": "lootable_xenosaur_tier20_e"
+        },
+        {
+          "subtype": "lootable_xenosaur_tier20_d"
+        },
+        {
+          "subtype": "lootable_xenosaur_tier20_c"
+        },
         {
           "subtype": "lootable_xenosaur_tier20_b"
         },
@@ -11338,9 +11653,12 @@
       "level": 25,
       "spawn_amount": 0,
       "spawn_chance": 1,
-      "monster_health": 35000000,
+      "monster_health": 30000000,
       "monster_energy_cost": 2500,
       "neutralize": true,
+      "race": {
+        "subtype": "xenosaur"
+      },
       "reward": {
         "hero_xp": 300000,
         "items": [
@@ -11351,11 +11669,20 @@
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
       "random_rewards": [
+        {
+          "subtype": "lootable_xenosaur_tier25_e"
+        },
+        {
+          "subtype": "lootable_xenosaur_tier25_d"
+        },
+        {
+          "subtype": "lootable_xenosaur_tier25_c"
+        },
         {
           "subtype": "lootable_xenosaur_tier25_b"
         },
@@ -11372,21 +11699,33 @@
       "monster_health": 30000000,
       "monster_energy_cost": 2000,
       "neutralize": true,
+      "race": {
+        "subtype": "xenosaur"
+      },
       "reward": {
         "hero_xp": 300000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_evolved_xenosaur",
-            "quantity": 5
+            "quantity": 10
           }
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
       "random_rewards": [
+        {
+          "subtype": "lootable_evolved_xenosaur_tier25_e"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier25_d"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier25_c"
+        },
         {
           "subtype": "lootable_evolved_xenosaur_tier25_a"
         },
@@ -11403,21 +11742,33 @@
       "monster_health": 40000000,
       "monster_energy_cost": 2500,
       "neutralize": true,
+      "race": {
+        "subtype": "xenosaur"
+      },
       "reward": {
         "hero_xp": 450000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_evolved_xenosaur",
-            "quantity": 10
+            "quantity": 15
           }
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
       "random_rewards": [
+        {
+          "subtype": "lootable_evolved_xenosaur_tier30_e"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier30_d"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier30_c"
+        },
         {
           "subtype": "lootable_evolved_xenosaur_tier30_a"
         },
@@ -11434,26 +11785,110 @@
       "monster_health": 50000000,
       "monster_energy_cost": 3000,
       "neutralize": true,
+      "race": {
+        "subtype": "xenosaur"
+      },
       "reward": {
         "hero_xp": 600000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_evolved_xenosaur",
-            "quantity": 15
+            "quantity": 20
           }
         ],
         "caches": [
           {
-            "subtype": "hunting_monster_alliance"
+            "subtype": "hunting_monster_medium"
           }
         ]
       },
       "random_rewards": [
         {
+          "subtype": "lootable_evolved_xenosaur_tier35_e"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier35_d"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier35_c"
+        },
+        {
           "subtype": "lootable_evolved_xenosaur_tier35_a"
         },
         {
           "subtype": "lootable_evolved_xenosaur_tier35_b"
+        }
+      ]
+    },
+    "invader_alien_megaship_35": {
+      "name": "~location_raid_alien_megaship",
+      "level": 35,
+      "raid_points": 40,
+      "require_rally": true,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "expire_on_empty": false,
+      "despawn": true,
+      "neutralize": true,
+      "units": [
+        {
+          "subtype": "tier_2_alien",
+          "quantity": 200000
+        },
+        {
+          "subtype": "tier_3_alien",
+          "quantity": 250000
+        },
+        {
+          "subtype": "tier_4_alien",
+          "quantity": 350000
+        },
+        {
+          "subtype": "tier_5_alien",
+          "quantity": 400000
+        }
+      ],
+      "reward": {
+        "hero_xp": 600000,
+        "items": [
+          {
+            "subtype": "megaship_component",
+            "quantity": 1
+          },
+          {
+            "subtype": "boost_15m",
+            "quantity": 5
+          },
+          {
+            "subtype": "core_dark_matter",
+            "quantity": 3
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 40000
+          }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 1
+          }
+        ]
+      },
+      "random_rewards": [
+        {
+          "subtype": "lootable_alien_megaship_tier35_a"
+        },
+        {
+          "subtype": "lootable_alien_megaship_tier35_b"
+        },
+        {
+          "subtype": "lootable_alien_megaship_tier35_c"
+        },
+        {
+          "subtype": "lootable_alien_megaship_tier35_d"
         }
       ]
     },
@@ -11506,13 +11941,14 @@
             "subtype": "currency8",
             "quantity": 75000
           }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 1
+          }
         ]
       },
-      "annihilate_rewards": [
-        {
-          "subtype": "annihilate_world_event_cache_grant_1"
-        }
-      ],
       "random_rewards": [
         {
           "subtype": "lootable_alien_megaship_tier40_a"
@@ -11564,13 +12000,14 @@
             "subtype": "currency8",
             "quantity": 200000
           }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 3
+          }
         ]
       },
-      "annihilate_rewards": [
-        {
-          "subtype": "annihilate_world_event_cache_grant_3"
-        }
-      ],
       "random_rewards": [
         {
           "subtype": "lootable_alien_megaship_tier45_a"
@@ -11622,16 +12059,77 @@
             "subtype": "currency8",
             "quantity": 450000
           }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 5
+          }
         ]
       },
-      "annihilate_rewards": [
-        {
-          "subtype": "annihilate_world_event_cache_grant_5"
-        }
-      ],
       "random_rewards": [
         {
           "subtype": "lootable_alien_megaship_tier50_a"
+        }
+      ]
+    },
+    "invader_titanic_strider_35": {
+      "name": "~location_raid_titanic_strider",
+      "level": 35,
+      "raid_points": 60,
+      "require_rally": true,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "expire_on_empty": false,
+      "despawn": true,
+      "neutralize": true,
+      "units": [
+        {
+          "subtype": "tier_5_alien_strider_shield",
+          "quantity": 120000
+        },
+        {
+          "subtype": "tier_6_alien_strider_laser",
+          "quantity": 160000
+        }
+      ],
+      "reward": {
+        "hero_xp": 600000,
+        "items": [
+          {
+            "subtype": "strider_alien_emitter",
+            "quantity": 5
+          },
+          {
+            "subtype": "boost_hospital_1h",
+            "quantity": 5
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 75000
+          }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 1
+          }
+        ]
+      },
+      "random_rewards": [
+        {
+          "subtype": "lootable_alien_titanic_strider_tier35_a"
+        },
+        {
+          "subtype": "lootable_alien_titanic_strider_tier35_b"
+        },
+        {
+          "subtype": "lootable_alien_titanic_strider_tier35_c"
+        },
+        {
+          "subtype": "lootable_alien_titanic_strider_tier35_d"
         }
       ]
     },
@@ -11660,7 +12158,7 @@
         "items": [
           {
             "subtype": "strider_alien_emitter",
-            "quantity": 4
+            "quantity": 10
           },
           {
             "subtype": "boost_hospital_1h",
@@ -11672,13 +12170,14 @@
             "subtype": "currency8",
             "quantity": 125000
           }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 1
+          }
         ]
       },
-      "annihilate_rewards": [
-        {
-          "subtype": "annihilate_world_event_cache_grant_1"
-        }
-      ],
       "random_rewards": [
         {
           "subtype": "lootable_alien_titanic_strider_tier40_a"
@@ -11710,7 +12209,7 @@
         "items": [
           {
             "subtype": "strider_alien_emitter",
-            "quantity": 12
+            "quantity": 15
           },
           {
             "subtype": "boost_hospital_1h",
@@ -11722,13 +12221,14 @@
             "subtype": "currency8",
             "quantity": 300000
           }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 3
+          }
         ]
       },
-      "annihilate_rewards": [
-        {
-          "subtype": "annihilate_world_event_cache_grant_3"
-        }
-      ],
       "random_rewards": [
         {
           "subtype": "lootable_alien_titanic_strider_tier45_a"
@@ -11776,13 +12276,14 @@
             "subtype": "currency8",
             "quantity": 650000
           }
+        ],
+        "caches": [
+          {
+            "subtype": "world_event_alliance",
+            "quantity": 5
+          }
         ]
       },
-      "annihilate_rewards": [
-        {
-          "subtype": "annihilate_world_event_cache_grant_5"
-        }
-      ],
       "random_rewards": [
         {
           "subtype": "lootable_alien_titanic_strider_tier50_a"

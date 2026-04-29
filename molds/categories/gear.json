@@ -1,5 +1,4 @@
 {
-  "purchasable": true,
   "_subtypes": {
     "gear_core_boots": {
       "name": "~item_gear_core_boots",
@@ -14,6 +13,16 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 1
+            },
+            {
+              "subtype": "defense",
+              "value": 1
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -36,16 +45,6 @@
               "subtype": "item",
               "target_subtype": "crafting_rubber",
               "quantity": 60
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "speed",
-              "value": 1
-            },
-            {
-              "subtype": "defense",
-              "value": 1
             }
           ]
         },
@@ -156,6 +155,12 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 8
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -178,12 +183,6 @@
               "subtype": "item",
               "target_subtype": "crafting_plastic",
               "quantity": 20
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "health",
-              "value": 8
             }
           ]
         },
@@ -282,6 +281,12 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 4
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -304,12 +309,6 @@
               "subtype": "item",
               "target_subtype": "crafting_plastic",
               "quantity": 100
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 4
             }
           ]
         },
@@ -408,6 +407,16 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 5000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 5000
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -425,16 +434,6 @@
               "subtype": "item",
               "target_subtype": "crafting_gunpowder",
               "quantity": 72
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "attack",
-              "value": 5000
-            },
-            {
-              "subtype": "monster_attack",
-              "value": 5000
             }
           ]
         },
@@ -530,6 +529,16 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 2
+            },
+            {
+              "subtype": "defense",
+              "value": 2
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -562,16 +571,6 @@
               "subtype": "item",
               "target_subtype": "crafting_steel",
               "quantity": 16
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "speed",
-              "value": 2
-            },
-            {
-              "subtype": "defense",
-              "value": 2
             }
           ]
         },
@@ -712,6 +711,12 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 16
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -739,12 +744,6 @@
               "subtype": "item",
               "target_subtype": "crafting_synthetic_fiber",
               "quantity": 60
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "health",
-              "value": 16
             }
           ]
         },
@@ -858,6 +857,12 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 8
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -885,12 +890,6 @@
               "subtype": "item",
               "target_subtype": "crafting_ceramics",
               "quantity": 52
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 8
             }
           ]
         },
@@ -1004,6 +1003,16 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 10000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 10000
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -1031,16 +1040,6 @@
               "subtype": "item",
               "target_subtype": "crafting_chrome_alloy",
               "quantity": 12
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "attack",
-              "value": 10000
-            },
-            {
-              "subtype": "monster_attack",
-              "value": 10000
             }
           ]
         },
@@ -1166,35 +1165,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 9
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_rubber",
-              "quantity": 232
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_leather",
-              "quantity": 232
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_synthetic_fiber",
-              "quantity": 124
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_steel",
-              "quantity": 96
-            }
-          ],
           "attributes": [
             {
               "subtype": "speed",
@@ -1310,6 +1280,35 @@
               "subtype": "air_defense_produce_speed_modifier",
               "value": 0,
               "modifier": 0.05
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 9
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_rubber",
+              "quantity": 232
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_leather",
+              "quantity": 232
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_synthetic_fiber",
+              "quantity": 124
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 96
             }
           ]
         },
@@ -1756,6 +1755,19 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 32
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -1788,19 +1800,6 @@
               "subtype": "item",
               "target_subtype": "crafting_carbon_fiber",
               "quantity": 104
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "health",
-              "value": 32
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "hero_march_unit_health_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -1950,6 +1949,19 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 16
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -1977,19 +1989,6 @@
               "subtype": "item",
               "target_subtype": "crafting_plastic",
               "quantity": 152
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 16
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "hero_march_unit_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -2124,6 +2123,23 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 20000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 20000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -2151,23 +2167,6 @@
               "subtype": "item",
               "target_subtype": "crafting_gunmetal",
               "quantity": 160
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "attack",
-              "value": 20000
-            },
-            {
-              "subtype": "monster_attack",
-              "value": 20000
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "hero_march_unit_attack_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -2314,6 +2313,33 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 4
+            },
+            {
+              "subtype": "defense",
+              "value": 20
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "city_attacker_attack_modifier",
+              "value": 0,
+              "modifier": -0.01
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -2341,33 +2367,6 @@
               "subtype": "item",
               "target_subtype": "crafting_synthetic_fiber",
               "quantity": 196
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "speed",
-              "value": 4
-            },
-            {
-              "subtype": "defense",
-              "value": 20
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "light_infantry_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "heavy_infantry_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "city_attacker_attack_modifier",
-              "value": 0,
-              "modifier": -0.01
             }
           ]
         },
@@ -2544,35 +2543,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 14
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_kevlar_fiber",
-              "quantity": 216
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_ceramics",
-              "quantity": 196
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_synthetic_fiber",
-              "quantity": 232
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_carbon_fiber",
-              "quantity": 260
-            }
-          ],
           "attributes": [
             {
               "subtype": "health",
@@ -2649,6 +2619,35 @@
               "subtype": "alien_air_vehicle_hospital_speed_modifier",
               "value": 0,
               "modifier": 0.05
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 14
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 216
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_ceramics",
+              "quantity": 196
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_synthetic_fiber",
+              "quantity": 232
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_carbon_fiber",
+              "quantity": 260
             }
           ]
         },
@@ -2978,6 +2977,29 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 32
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "air_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -3010,29 +3032,6 @@
               "subtype": "item",
               "target_subtype": "crafting_synthetic_fiber",
               "quantity": 124
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 32
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "hero_city_unit_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "vehicle_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "air_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -3212,40 +3211,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 16
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_shells",
-              "quantity": 324
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_steel",
-              "quantity": 216
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_magazine",
-              "quantity": 76
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_chrome_alloy",
-              "quantity": 92
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_grip",
-              "quantity": 64
-            }
-          ],
           "attributes": [
             {
               "subtype": "attack",
@@ -3296,6 +3261,40 @@
               "subtype": "static_tier6_unit_save_modifier",
               "value": 0,
               "modifier": 0.05
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 16
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 324
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 216
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_magazine",
+              "quantity": 76
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_chrome_alloy",
+              "quantity": 92
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_grip",
+              "quantity": 64
             }
           ]
         },
@@ -3562,35 +3561,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 17
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_titanium",
-              "quantity": 752
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_doron_plate",
-              "quantity": 564
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_kevlar_fiber",
-              "quantity": 576
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_carbon_fiber",
-              "quantity": 564
-            }
-          ],
           "attributes": [
             {
               "subtype": "speed",
@@ -3621,6 +3591,35 @@
               "subtype": "hero_city_unit_defense_modifier",
               "value": 0,
               "modifier": 0.05
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 17
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 752
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 564
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 576
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_carbon_fiber",
+              "quantity": 564
             }
           ]
         },
@@ -3796,6 +3795,67 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 9000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 6700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 6900
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_carbon_fiber",
+              "quantity": 6700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 3000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 9
+            },
+            {
+              "subtype": "defense",
+              "value": 488
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -3812,35 +3872,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 18
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_titanium",
-              "quantity": 668
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_kevlar_fiber",
-              "quantity": 588
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_doron_plate",
-              "quantity": 632
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_carbon_fiber",
-              "quantity": 596
-            }
-          ],
           "attributes": [
             {
               "subtype": "health",
@@ -4022,6 +4053,35 @@
               "subtype": "air_defense_produce_speed_modifier",
               "value": 0,
               "modifier": 0.05
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 18
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 668
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 588
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 632
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_carbon_fiber",
+              "quantity": 596
             }
           ]
         },
@@ -4650,6 +4710,218 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 8000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 7000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_carbon_fiber",
+              "quantity": 7100
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 3000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 1536
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "light_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "heavy_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "basic_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "advanced_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "experimental_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -4666,6 +4938,34 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 64
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "air_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -4693,34 +4993,6 @@
               "subtype": "item",
               "target_subtype": "crafting_steel",
               "quantity": 564
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 64
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "structure_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "hero_march_unit_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "vehicle_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "air_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -4884,6 +5156,63 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 7300
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 7700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 7900
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 6700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 3000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 768
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -4900,35 +5229,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 20
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_scope",
-              "quantity": 656
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_silencer",
-              "quantity": 624
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_shells",
-              "quantity": 528
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_steel",
-              "quantity": 496
-            }
-          ],
           "attributes": [
             {
               "subtype": "attack",
@@ -4984,6 +5284,35 @@
               "subtype": "static_tier6_unit_save_modifier",
               "value": 0,
               "modifier": 0.05
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 20
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 656
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_silencer",
+              "quantity": 624
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 528
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 496
             }
           ]
         },
@@ -5234,6 +5563,92 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 7800
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_silencer",
+              "quantity": 3700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 6300
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 5900
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 9000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 720000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 720000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_city_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier0_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -5250,35 +5665,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 21
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_scope",
-              "quantity": 756
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_shells",
-              "quantity": 668
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_steel",
-              "quantity": 596
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_chrome_alloy",
-              "quantity": 588
-            }
-          ],
           "attributes": [
             {
               "subtype": "attack",
@@ -5309,6 +5695,35 @@
               "subtype": "hero_hunting_chain",
               "value": 2,
               "modifier": 0
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 21
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 756
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 668
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 596
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_chrome_alloy",
+              "quantity": 588
             }
           ]
         },
@@ -5484,6 +5899,67 @@
               "modifier": 0
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 9000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 8000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 7100
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_chrome_alloy",
+              "quantity": 7000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 9000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 720000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 720000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hunt_energy_modifier",
+              "value": 0,
+              "modifier": -0.25
+            },
+            {
+              "subtype": "hunt_outgoing_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_incoming_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 15,
+              "modifier": 0
+            }
+          ]
         }
       ]
     },
@@ -5500,35 +5976,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 22
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_silencer",
-              "quantity": 864
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_shells",
-              "quantity": 556
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_steel",
-              "quantity": 632
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_chrome_alloy",
-              "quantity": 524
-            }
-          ],
           "attributes": [
             {
               "subtype": "attack",
@@ -5564,6 +6011,35 @@
               "subtype": "drone_recharge_seconds",
               "value": -900,
               "modifier": 0
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 22
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_silencer",
+              "quantity": 864
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 556
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 632
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_chrome_alloy",
+              "quantity": 524
             }
           ]
         },
@@ -5770,6 +6246,33 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 6
+            },
+            {
+              "subtype": "defense",
+              "value": 55
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "currency7_generate_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -5797,33 +6300,6 @@
               "subtype": "item",
               "target_subtype": "crafting_ballistic_plates",
               "quantity": 625
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "speed",
-              "value": 6
-            },
-            {
-              "subtype": "defense",
-              "value": 55
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "currency7_generate_modifier",
-              "value": 0,
-              "modifier": 0.06
-            },
-            {
-              "subtype": "vehicle_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.06
-            },
-            {
-              "subtype": "air_produce_speed_modifier",
-              "value": 0,
-              "modifier": 0.06
             }
           ]
         },
@@ -5984,6 +6460,62 @@
               "modifier": 0.3
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 12000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 7200
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_fiber",
+              "quantity": 5400
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_ballistic_plates",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "defense",
+              "value": 600
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "currency7_generate_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
         }
       ]
     },
@@ -6000,6 +6532,34 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 80
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -6027,34 +6587,6 @@
               "subtype": "item",
               "target_subtype": "crafting_synthetic_fiber",
               "quantity": 420
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 80
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "hero_march_unit_defense_modifier",
-              "value": 0,
-              "modifier": 0.06
-            },
-            {
-              "subtype": "hero_city_unit_defense_modifier",
-              "value": 0,
-              "modifier": 0.06
-            },
-            {
-              "subtype": "light_infantry_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.06
-            },
-            {
-              "subtype": "heavy_infantry_hospital_speed_modifier",
-              "value": 0,
-              "modifier": 0.06
             }
           ]
         },
@@ -6218,6 +6750,63 @@
               "modifier": 0.3
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 10800
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 9000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_fiber",
+              "quantity": 6600
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_synthetic_fiber",
+              "quantity": 5040
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 675
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
         }
       ]
     },
@@ -6234,6 +6823,29 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 150
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "hero_city_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -6261,29 +6873,6 @@
               "subtype": "item",
               "target_subtype": "crafting_ceramics",
               "quantity": 500
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "health",
-              "value": 150
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "hero_march_unit_health_modifier",
-              "value": 0,
-              "modifier": 0.06
-            },
-            {
-              "subtype": "hero_city_unit_health_modifier",
-              "value": 0,
-              "modifier": 0.06
-            },
-            {
-              "subtype": "hero_city_unit_defense_modifier",
-              "value": 0,
-              "modifier": 0.06
             }
           ]
         },
@@ -6432,6 +7021,58 @@
               "modifier": 0.3
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 12000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 9600
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_fiber",
+              "quantity": 7200
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_ceramics",
+              "quantity": 6000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 2000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "hero_city_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
         }
       ]
     },
@@ -6451,35 +7092,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 25
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_power_cell",
-              "quantity": 2500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_alloy",
-              "quantity": 2500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_titanium",
-              "quantity": 2000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_biomesh",
-              "quantity": 1750
-            }
-          ],
           "attributes": [
             {
               "subtype": "speed",
@@ -6510,6 +7122,35 @@
               "subtype": "vehicle_attack_modifier",
               "value": 0,
               "modifier": 0.05
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 25
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 2500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 2500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 2000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 1750
             }
           ]
         },
@@ -6685,6 +7326,67 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 12
+            },
+            {
+              "subtype": "defense",
+              "value": 750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_xp_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.35
+            },
+            {
+              "subtype": "heavy_infantry_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -6704,6 +7406,34 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 100
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "research_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "hero_city_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.075
+            },
+            {
+              "subtype": "heavy_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "light_infantry_health_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -6731,34 +7461,6 @@
               "subtype": "item",
               "target_subtype": "crafting_biomesh",
               "quantity": 1750
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 100
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "research_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "hero_city_unit_attack_modifier",
-              "value": 0,
-              "modifier": 0.075
-            },
-            {
-              "subtype": "heavy_infantry_attack_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "light_infantry_health_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -6922,6 +7624,63 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 1100
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "research_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_city_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.35
+            },
+            {
+              "subtype": "heavy_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "light_infantry_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -6941,6 +7700,34 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 200
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "city_attacker_attack_modifier",
+              "value": 0,
+              "modifier": -0.02
+            },
+            {
+              "subtype": "hunt_energy_modifier",
+              "value": 0,
+              "modifier": -0.075
+            },
+            {
+              "subtype": "vehicle_health_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "air_attack_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -6968,34 +7755,6 @@
               "subtype": "item",
               "target_subtype": "crafting_alien_bulwark",
               "quantity": 1750
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "health",
-              "value": 200
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "city_attacker_attack_modifier",
-              "value": 0,
-              "modifier": -0.02
-            },
-            {
-              "subtype": "hunt_energy_modifier",
-              "value": 0,
-              "modifier": -0.075
-            },
-            {
-              "subtype": "vehicle_health_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "air_attack_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -7159,6 +7918,63 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 2500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "city_attacker_attack_modifier",
+              "value": 0,
+              "modifier": -0.1
+            },
+            {
+              "subtype": "hunt_energy_modifier",
+              "value": 0,
+              "modifier": -0.325
+            },
+            {
+              "subtype": "vehicle_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -7178,35 +7994,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 25
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_power_cell",
-              "quantity": 2500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_alloy",
-              "quantity": 2500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_scope",
-              "quantity": 2000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_shells",
-              "quantity": 1750
-            }
-          ],
           "attributes": [
             {
               "subtype": "attack",
@@ -7242,6 +8029,35 @@
               "subtype": "hunt_incoming_speed_modifier",
               "value": 0,
               "modifier": 0.1
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 25
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 2500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 2500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 2000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 1750
             }
           ]
         },
@@ -7432,6 +8248,72 @@
               "modifier": 0.4
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 9000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1000000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1000000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "air_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "light_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_outgoing_speed_modifier",
+              "value": 0,
+              "modifier": 0.5
+            },
+            {
+              "subtype": "hunt_incoming_speed_modifier",
+              "value": 0,
+              "modifier": 0.5
+            }
+          ]
         }
       ]
     },
@@ -7451,40 +8333,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 28
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_fang",
-              "quantity": 1000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_power_cell",
-              "quantity": 3750
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_alloy",
-              "quantity": 3750
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_titanium",
-              "quantity": 3000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_venom",
-              "quantity": 2625
-            }
-          ],
           "attributes": [
             {
               "subtype": "health",
@@ -7561,6 +8409,40 @@
               "subtype": "hunt_energy_modifier",
               "value": 0,
               "modifier": -0.075
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 28
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 1000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 3750
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 3750
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 3000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 2625
             }
           ]
         },
@@ -7884,6 +8766,113 @@
               "modifier": -0.3
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 16000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 42000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 2750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "mech_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_energy_modifier",
+              "value": 0,
+              "modifier": -0.375
+            }
+          ]
         }
       ]
     },
@@ -7903,6 +8892,34 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 600
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "hero_xp_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "air_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -7935,34 +8952,6 @@
               "subtype": "item",
               "target_subtype": "crafting_xenosaur_hide",
               "quantity": 2625
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "defense",
-              "value": 600
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "structure_speed_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "hero_xp_modifier",
-              "value": 0,
-              "modifier": 0.1
-            },
-            {
-              "subtype": "heavy_infantry_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "air_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -8136,6 +9125,63 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 16000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 42000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 2750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_xp_modifier",
+              "value": 0,
+              "modifier": 0.5
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -8155,6 +9201,38 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 9
+            },
+            {
+              "subtype": "defense",
+              "value": 200
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "research_speed_modifier",
+              "value": 0,
+              "modifier": 0.075
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "light_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -8187,38 +9265,6 @@
               "subtype": "item",
               "target_subtype": "crafting_xenosaur_venom",
               "quantity": 2625
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "speed",
-              "value": 9
-            },
-            {
-              "subtype": "defense",
-              "value": 200
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "research_speed_modifier",
-              "value": 0,
-              "modifier": 0.075
-            },
-            {
-              "subtype": "march_speed_modifier",
-              "value": 0,
-              "modifier": 0.1
-            },
-            {
-              "subtype": "light_infantry_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "vehicle_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -8404,6 +9450,67 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 16000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 42000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 12
+            },
+            {
+              "subtype": "defense",
+              "value": 1050
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "research_speed_modifier",
+              "value": 0,
+              "modifier": 0.275
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.3
+            },
+            {
+              "subtype": "light_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -8423,40 +9530,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 28
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_fang",
-              "quantity": 1500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_power_cell",
-              "quantity": 3750
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_alloy",
-              "quantity": 3750
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_scope",
-              "quantity": 4000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_venom",
-              "quantity": 3000
-            }
-          ],
           "attributes": [
             {
               "subtype": "attack",
@@ -8542,6 +9615,40 @@
               "subtype": "hunt_incoming_speed_modifier",
               "value": 0,
               "modifier": 0.15
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 28
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 1500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 3750
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 3750
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 4000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 3000
             }
           ]
         },
@@ -8892,6 +9999,122 @@
               "modifier": 0.6
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 18000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 45000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 45000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 36000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 2000000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 2000000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "mech_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_outgoing_speed_modifier",
+              "value": 0,
+              "modifier": 0.75
+            },
+            {
+              "subtype": "hunt_incoming_speed_modifier",
+              "value": 0,
+              "modifier": 0.75
+            }
+          ]
         }
       ]
     },
@@ -8911,45 +10134,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 30
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_fang",
-              "quantity": 2000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_power_cell",
-              "quantity": 7500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_alloy",
-              "quantity": 7500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_reflectium",
-              "quantity": 6000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_hide",
-              "quantity": 5250
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "strider_alien_emitter",
-              "quantity": 1500
-            }
-          ],
           "attributes": [
             {
               "subtype": "defense",
@@ -9096,6 +10280,45 @@
               "subtype": "alien_air_vehicle_hospital_speed_modifier",
               "value": 0,
               "modifier": 0.03
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 30
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 2000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 6000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "strider_alien_emitter",
+              "quantity": 1500
             }
           ]
         },
@@ -9663,45 +10886,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 31
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_bulwark",
-              "quantity": 8000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_power_cell",
-              "quantity": 7500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_alloy",
-              "quantity": 7500
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_titanium",
-              "quantity": 6000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_biomesh",
-              "quantity": 5250
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "strider_alien_emitter",
-              "quantity": 2000
-            }
-          ],
           "attributes": [
             {
               "subtype": "health",
@@ -9793,6 +10977,45 @@
               "subtype": "hunt_incoming_speed_modifier",
               "value": 0,
               "modifier": 0.075
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 31
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 8000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 6000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 5250
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "strider_alien_emitter",
+              "quantity": 2000
             }
           ]
         },
@@ -10195,6 +11418,43 @@
       "levels": [
         {},
         {
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 10
+            },
+            {
+              "subtype": "defense",
+              "value": 330
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.07
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "heavy_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "air_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "air_attack_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ],
           "requirements": [
             {
               "subtype": "structure",
@@ -10232,43 +11492,6 @@
               "subtype": "item",
               "target_subtype": "strider_alien_emitter",
               "quantity": 1500
-            }
-          ],
-          "attributes": [
-            {
-              "subtype": "speed",
-              "value": 10
-            },
-            {
-              "subtype": "defense",
-              "value": 330
-            }
-          ],
-          "stats": [
-            {
-              "subtype": "march_speed_modifier",
-              "value": 0,
-              "modifier": 0.07
-            },
-            {
-              "subtype": "heavy_infantry_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "heavy_infantry_attack_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "air_defense_modifier",
-              "value": 0,
-              "modifier": 0.05
-            },
-            {
-              "subtype": "air_attack_modifier",
-              "value": 0,
-              "modifier": 0.05
             }
           ]
         },
@@ -10503,45 +11726,6 @@
       "levels": [
         {},
         {
-          "requirements": [
-            {
-              "subtype": "structure",
-              "target_subtype": "hero_armory",
-              "level": 32
-            }
-          ],
-          "costs": [
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_fang",
-              "quantity": 3000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_power_cell",
-              "quantity": 10000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_alien_alloy",
-              "quantity": 10000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_scope",
-              "quantity": 8000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "crafting_xenosaur_venom",
-              "quantity": 6000
-            },
-            {
-              "subtype": "item",
-              "target_subtype": "strider_alien_emitter",
-              "quantity": 2500
-            }
-          ],
           "attributes": [
             {
               "subtype": "attack",
@@ -10712,6 +11896,45 @@
               "subtype": "hunt_incoming_speed_modifier",
               "value": 0,
               "modifier": 0.125
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 32
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 3000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 10000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 10000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 8000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 6000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "strider_alien_emitter",
+              "quantity": 2500
             }
           ]
         },

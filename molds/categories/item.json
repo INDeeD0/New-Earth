@@ -2575,69 +2575,6 @@
         },
         {
           "subtype": "crafting_loot_6"
-        },
-        {
-          "subtype": "crafting_loot_7"
-        },
-        {
-          "subtype": "crafting_loot_8"
-        },
-        {
-          "subtype": "crafting_loot_9"
-        },
-        {
-          "subtype": "crafting_loot_10"
-        },
-        {
-          "subtype": "crafting_loot_11"
-        },
-        {
-          "subtype": "crafting_loot_12"
-        },
-        {
-          "subtype": "crafting_loot_13"
-        },
-        {
-          "subtype": "crafting_loot_14"
-        },
-        {
-          "subtype": "crafting_loot_15"
-        },
-        {
-          "subtype": "crafting_loot_16"
-        },
-        {
-          "subtype": "crafting_loot_17"
-        },
-        {
-          "subtype": "crafting_loot_18"
-        },
-        {
-          "subtype": "crafting_loot_19"
-        },
-        {
-          "subtype": "crafting_loot_20"
-        },
-        {
-          "subtype": "crafting_loot_21"
-        },
-        {
-          "subtype": "crafting_loot_22"
-        },
-        {
-          "subtype": "crafting_loot_23"
-        },
-        {
-          "subtype": "crafting_loot_24"
-        },
-        {
-          "subtype": "crafting_loot_25"
-        },
-        {
-          "subtype": "crafting_loot_26"
-        },
-        {
-          "subtype": "crafting_loot_27"
         }
       ]
     },
@@ -2663,21 +2600,6 @@
         },
         {
           "subtype": "crafting_loot_epic_4"
-        },
-        {
-          "subtype": "crafting_loot_epic_5"
-        },
-        {
-          "subtype": "crafting_loot_epic_6"
-        },
-        {
-          "subtype": "crafting_loot_epic_7"
-        },
-        {
-          "subtype": "crafting_loot_epic_8"
-        },
-        {
-          "subtype": "crafting_loot_epic_9"
         }
       ]
     },
@@ -2820,7 +2742,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 22500
+              "quantity": 20550
             }
           ]
         }
@@ -2859,7 +2781,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 50000
+              "quantity": 40250
             }
           ]
         }
@@ -2898,7 +2820,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 3500
+              "quantity": 2300
             }
           ]
         }
@@ -2937,7 +2859,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 10000
+              "quantity": 4500
             }
           ]
         }
@@ -2976,7 +2898,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 25000
+              "quantity": 12950
             }
           ]
         }
@@ -3061,7 +2983,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 4500
+              "quantity": 2975
             }
           ]
         }
@@ -3116,7 +3038,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 8000
+              "quantity": 5150
             }
           ]
         }
@@ -3171,7 +3093,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 15000
+              "quantity": 10200
             }
           ]
         }
@@ -3226,7 +3148,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 4500
+              "quantity": 2975
             }
           ]
         }
@@ -3281,7 +3203,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 8000
+              "quantity": 5150
             }
           ]
         }
@@ -3336,7 +3258,7 @@
             {
               "subtype": "currency",
               "target_subtype": "currency1",
-              "quantity": 15000
+              "quantity": 10200
             }
           ]
         }
@@ -7692,6 +7614,67 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 9000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 6700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 6900
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_carbon_fiber",
+              "quantity": 6700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 3000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 9
+            },
+            {
+              "subtype": "defense",
+              "value": 488
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -8550,6 +8533,218 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 8000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 7000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_carbon_fiber",
+              "quantity": 7100
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 3000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 1536
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "light_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "heavy_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "basic_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "advanced_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "experimental_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_defense_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -8786,6 +8981,63 @@
               "subtype": "air_hospital_speed_modifier",
               "value": 0,
               "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 7300
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_doron_plate",
+              "quantity": 7700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_kevlar_fiber",
+              "quantity": 7900
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 6700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 3000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 768
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
             }
           ]
         }
@@ -9142,6 +9394,92 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 7800
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_silencer",
+              "quantity": 3700
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 6300
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 5900
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 9000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 720000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 720000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_city_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier0_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier1_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier2_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier3_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier4_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier5_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "static_tier6_unit_save_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -9393,6 +9731,67 @@
             {
               "subtype": "hero_hunting_chain",
               "value": 12,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 9000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 8000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_steel",
+              "quantity": 7100
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_chrome_alloy",
+              "quantity": 7000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 9000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 720000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 720000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hunt_energy_modifier",
+              "value": 0,
+              "modifier": -0.25
+            },
+            {
+              "subtype": "hunt_outgoing_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_incoming_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_hunting_chain",
+              "value": 15,
               "modifier": 0
             }
           ]
@@ -9904,6 +10303,62 @@
               "modifier": 0.3
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 12000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 7200
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_fiber",
+              "quantity": 5400
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_ballistic_plates",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "defense",
+              "value": 600
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "currency7_generate_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "vehicle_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
         }
       ]
     },
@@ -10142,6 +10597,63 @@
               "modifier": 0.3
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 10800
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 9000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_fiber",
+              "quantity": 6600
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_synthetic_fiber",
+              "quantity": 5040
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 675
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "light_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "heavy_infantry_hospital_speed_modifier",
+              "value": 0,
+              "modifier": 0.4
+            }
+          ]
         }
       ]
     },
@@ -10358,6 +10870,58 @@
               "subtype": "hero_city_unit_defense_modifier",
               "value": 0,
               "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 12000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 9600
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_fiber",
+              "quantity": 7200
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_ceramics",
+              "quantity": 6000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 2000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_march_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "hero_city_unit_health_modifier",
+              "value": 0,
+              "modifier": 0.4
+            },
+            {
+              "subtype": "hero_city_unit_defense_modifier",
+              "value": 0,
+              "modifier": 0.4
             }
           ]
         }
@@ -10617,6 +11181,67 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 12
+            },
+            {
+              "subtype": "defense",
+              "value": 750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_xp_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.35
+            },
+            {
+              "subtype": "heavy_infantry_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -10858,6 +11483,63 @@
               "modifier": 0.2
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 1100
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "research_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_city_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.35
+            },
+            {
+              "subtype": "heavy_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "light_infantry_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
         }
       ]
     },
@@ -11097,6 +11779,63 @@
               "subtype": "air_attack_modifier",
               "value": 0,
               "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_bulwark",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 5250
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 2500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "city_attacker_attack_modifier",
+              "value": 0,
+              "modifier": -0.1
+            },
+            {
+              "subtype": "hunt_energy_modifier",
+              "value": 0,
+              "modifier": -0.325
+            },
+            {
+              "subtype": "vehicle_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
             }
           ]
         }
@@ -11374,6 +12113,72 @@
               "subtype": "hunt_incoming_speed_modifier",
               "value": 0,
               "modifier": 0.4
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_shells",
+              "quantity": 21000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 9000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 1000000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 1000000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "air_health_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "light_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_march_unit_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_outgoing_speed_modifier",
+              "value": 0,
+              "modifier": 0.5
+            },
+            {
+              "subtype": "hunt_incoming_speed_modifier",
+              "value": 0,
+              "modifier": 0.5
             }
           ]
         }
@@ -11832,6 +12637,113 @@
               "modifier": -0.3
             }
           ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 16000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 42000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "health",
+              "value": 2750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "mech_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_energy_modifier",
+              "value": 0,
+              "modifier": -0.375
+            }
+          ]
         }
       ]
     },
@@ -12086,6 +12998,63 @@
               "subtype": "air_defense_modifier",
               "value": 0,
               "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 16000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_hide",
+              "quantity": 42000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "defense",
+              "value": 2750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hero_xp_modifier",
+              "value": 0,
+              "modifier": 0.5
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "air_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
             }
           ]
         }
@@ -12358,6 +13327,67 @@
               "subtype": "vehicle_defense_modifier",
               "value": 0,
               "modifier": 0.2
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 16000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_titanium",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 42000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "speed",
+              "value": 12
+            },
+            {
+              "subtype": "defense",
+              "value": 1050
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "research_speed_modifier",
+              "value": 0,
+              "modifier": 0.275
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.3
+            },
+            {
+              "subtype": "light_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.25
             }
           ]
         }
@@ -12850,6 +13880,122 @@
               "subtype": "hunt_incoming_speed_modifier",
               "value": 0,
               "modifier": 0.6
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_fang",
+              "quantity": 18000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 45000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 45000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_scope",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_xenosaur_venom",
+              "quantity": 36000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 2000000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 2000000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "mech_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antiair_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_antipersonnel_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "mech_aircraft_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_air_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "prototype_sniper_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_light_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_heavy_infantry_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "alien_air_vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.25
+            },
+            {
+              "subtype": "hunt_outgoing_speed_modifier",
+              "value": 0,
+              "modifier": 0.75
+            },
+            {
+              "subtype": "hunt_incoming_speed_modifier",
+              "value": 0,
+              "modifier": 0.75
             }
           ]
         }

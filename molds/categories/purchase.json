@@ -14369,7 +14369,7 @@
           },
           {
             "subtype": "currency7",
-            "quantity": 20000000
+            "quantity": 10000000
           }
         ],
         "items": [
@@ -14392,6 +14392,14 @@
           {
             "subtype": "currency6_500k",
             "quantity": 5
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 2
+          },
+          {
+            "subtype": "currency7_600k",
+            "quantity": 16
           },
           {
             "subtype": "boost_8h",
@@ -14435,7 +14443,7 @@
           },
           {
             "subtype": "currency7",
-            "quantity": 40000000
+            "quantity": 20000000
           }
         ],
         "items": [
@@ -14458,6 +14466,14 @@
           {
             "subtype": "currency6_2m",
             "quantity": 6
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency7_600k",
+            "quantity": 33
           },
           {
             "subtype": "boost_8h",

@@ -2887,14 +2887,15 @@
       }
     },
     "lootable_xenosaur_tier10_a": {
-      "chance": 0.85,
+      "chance": 0.55,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 60000,
         "items": [
           {
             "subtype": "vip_time_30m",
-            "quantity": 1
+            "quantity": 2
           }
         ]
       }
@@ -2904,19 +2905,49 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 60000,
         "items": [
           {
-            "subtype": "hero_xp_5k",
-            "quantity": 1
+            "subtype": "hero_xp_20k",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier10_c": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 60000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier10_d": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 60000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 5
           }
         ]
       }
     },
     "lootable_xenosaur_tier15_a": {
-      "chance": 0.75,
+      "chance": 0.4,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 65000,
         "items": [
           {
             "subtype": "vip_time_1h",
@@ -2926,23 +2957,67 @@
       }
     },
     "lootable_xenosaur_tier15_b": {
-      "chance": 0.25,
+      "chance": 0.2,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 65000,
         "items": [
           {
-            "subtype": "hero_xp_5k",
+            "subtype": "hero_xp_100k",
             "quantity": 1
           }
         ]
       }
     },
-    "lootable_xenosaur_tier20_a": {
-      "chance": 0.65,
+    "lootable_xenosaur_tier15_c": {
+      "chance": 0.15,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 65000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier15_d": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 65000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier15_e": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 65000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_fang",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier20_a": {
+      "chance": 0.4,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 90000,
         "items": [
           {
             "subtype": "vip_time_2h",
@@ -2952,23 +3027,67 @@
       }
     },
     "lootable_xenosaur_tier20_b": {
-      "chance": 0.35,
+      "chance": 0.2,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 90000,
         "items": [
           {
-            "subtype": "hero_xp_5k",
-            "quantity": 1
+            "subtype": "hero_xp_20k",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier20_c": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 90000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 15
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier20_d": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 90000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 15
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier20_e": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 90000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_fang",
+            "quantity": 6
           }
         ]
       }
     },
     "lootable_xenosaur_tier25_a": {
-      "chance": 0.55,
+      "chance": 0.4,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 115000,
         "items": [
           {
             "subtype": "vip_time_6h",
@@ -2978,23 +3097,67 @@
       }
     },
     "lootable_xenosaur_tier25_b": {
-      "chance": 0.45,
+      "chance": 0.2,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 115000,
         "items": [
           {
-            "subtype": "hero_xp_20k",
-            "quantity": 1
+            "subtype": "hero_xp_100k",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier25_c": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 115000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 20
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier25_d": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 115000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 20
+          }
+        ]
+      }
+    },
+    "lootable_xenosaur_tier25_e": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 115000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_fang",
+            "quantity": 10
           }
         ]
       }
     },
     "lootable_evolved_xenosaur_tier25_a": {
-      "chance": 0.25,
+      "chance": 0.2,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 115000,
         "currencies": [
           {
             "subtype": "currency8",
@@ -3004,23 +3167,67 @@
       }
     },
     "lootable_evolved_xenosaur_tier25_b": {
-      "chance": 0.75,
+      "chance": 0.4,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 115000,
         "items": [
           {
-            "subtype": "hero_xp_20k",
+            "subtype": "hero_xp_100k",
             "quantity": 2
           }
         ]
       }
     },
-    "lootable_evolved_xenosaur_tier30_a": {
-      "chance": 0.25,
+    "lootable_evolved_xenosaur_tier25_c": {
+      "chance": 0.1,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 115000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier25_d": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 115000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier25_e": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 115000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_fang",
+            "quantity": 20
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier30_a": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 140000,
         "currencies": [
           {
             "subtype": "currency8",
@@ -3030,23 +3237,67 @@
       }
     },
     "lootable_evolved_xenosaur_tier30_b": {
-      "chance": 0.75,
+      "chance": 0.4,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 140000,
         "items": [
           {
             "subtype": "hero_xp_20k",
-            "quantity": 3
+            "quantity": 13
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier30_c": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 140000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 15
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier30_d": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 140000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 15
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier30_e": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 140000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_fang",
+            "quantity": 25
           }
         ]
       }
     },
     "lootable_evolved_xenosaur_tier35_a": {
-      "chance": 0.25,
+      "chance": 0.2,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 165000,
         "currencies": [
           {
             "subtype": "currency8",
@@ -3056,14 +3307,57 @@
       }
     },
     "lootable_evolved_xenosaur_tier35_b": {
-      "chance": 0.75,
+      "chance": 0.4,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
+        "hero_xp": 165000,
         "items": [
           {
-            "subtype": "hero_xp_20k",
-            "quantity": 4
+            "subtype": "hero_xp_100k",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier35_c": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 165000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 20
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier35_d": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 165000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 20
+          }
+        ]
+      }
+    },
+    "lootable_evolved_xenosaur_tier35_e": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 165000,
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_fang",
+            "quantity": 30
           }
         ]
       }
@@ -4520,7 +4814,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_rubber",
@@ -4534,7 +4828,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_leather",
@@ -4548,7 +4842,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_durable_fabric",
@@ -4562,7 +4856,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_plastic",
@@ -4576,7 +4870,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_gunpowder",
@@ -4590,7 +4884,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_gunmetal",
@@ -4604,7 +4898,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_grip",
@@ -4618,7 +4912,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_magazine",
@@ -4632,7 +4926,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_synthetic_fiber",
@@ -4646,7 +4940,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_ballistic_plates",
@@ -4660,7 +4954,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_ceramics",
@@ -4674,7 +4968,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_carbon_fiber",
@@ -4688,7 +4982,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_steel",
@@ -4702,7 +4996,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_chrome_alloy",
@@ -4716,7 +5010,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_rubber",
@@ -4730,7 +5024,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_leather",
@@ -4744,7 +5038,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_durable_fabric",
@@ -4758,7 +5052,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_plastic",
@@ -4772,7 +5066,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_gunpowder",
@@ -4786,7 +5080,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_gunmetal",
@@ -4800,7 +5094,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_grip",
@@ -4814,7 +5108,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_magazine",
@@ -4828,7 +5122,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_synthetic_fiber",
@@ -4842,7 +5136,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_ballistic_plates",
@@ -4856,7 +5150,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_ceramics",
@@ -4870,7 +5164,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_carbon_fiber",
@@ -4884,7 +5178,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_steel",
@@ -4898,7 +5192,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_chrome_alloy",
@@ -4912,7 +5206,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_kevlar_fiber",
@@ -4926,7 +5220,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_doron_plate",
@@ -4940,7 +5234,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_shells",
@@ -4954,7 +5248,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_rubber",
@@ -4968,7 +5262,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_leather",
@@ -4982,7 +5276,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_durable_fabric",
@@ -4996,7 +5290,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_plastic",
@@ -5010,7 +5304,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_gunpowder",
@@ -5024,7 +5318,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_gunmetal",
@@ -5038,7 +5332,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_grip",
@@ -5052,7 +5346,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_magazine",
@@ -5066,7 +5360,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_synthetic_fiber",
@@ -5080,7 +5374,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_ballistic_plates",
@@ -5094,7 +5388,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_ceramics",
@@ -5108,7 +5402,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_carbon_fiber",
@@ -5122,7 +5416,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_steel",
@@ -5136,7 +5430,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_chrome_alloy",
@@ -5150,7 +5444,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_kevlar_fiber",
@@ -5164,7 +5458,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_doron_plate",
@@ -5178,7 +5472,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_shells",
@@ -5192,7 +5486,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_titanium",
@@ -5206,7 +5500,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_scope",
@@ -5220,7 +5514,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_silencer",
@@ -5234,7 +5528,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_epic",
@@ -5248,7 +5542,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_alien_fiber",
@@ -5262,7 +5556,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_alien_bulwark",
@@ -5276,7 +5570,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_reflectium",
@@ -5290,7 +5584,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_alien_fiber",
@@ -5304,7 +5598,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_alien_bulwark",
@@ -5318,7 +5612,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_reflectium",
@@ -5332,7 +5626,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_alien_fiber",
@@ -5346,7 +5640,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_alien_bulwark",
@@ -5360,7 +5654,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_reflectium",
@@ -5374,7 +5668,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "crafting_alien_fiber",
@@ -5388,7 +5682,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "crafting_alien_bulwark",
@@ -5402,7 +5696,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "crafting_reflectium",
@@ -5416,7 +5710,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "core_neutron_circuitry",
@@ -5430,7 +5724,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "crafting_alien_fiber",
@@ -5444,7 +5738,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "crafting_alien_bulwark",
@@ -5458,7 +5752,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "crafting_reflectium",
@@ -5472,7 +5766,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "core_neutron_circuitry",
@@ -5486,7 +5780,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "hero_xp_100k",
@@ -5500,7 +5794,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 12500,
+        "hero_xp": 15000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5514,7 +5808,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 12500,
+        "hero_xp": 15000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5528,7 +5822,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 12500,
+        "hero_xp": 15000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5542,7 +5836,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5556,7 +5850,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5570,7 +5864,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 20000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5584,7 +5878,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5598,7 +5892,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5612,7 +5906,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 15000,
+        "hero_xp": 25000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5626,7 +5920,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5640,7 +5934,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5654,7 +5948,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 20000,
+        "hero_xp": 30000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5668,7 +5962,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5682,7 +5976,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5696,7 +5990,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5710,7 +6004,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 25000,
+        "hero_xp": 35000,
         "items": [
           {
             "subtype": "core_neutron_circuitry",
@@ -5724,7 +6018,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5738,7 +6032,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5752,7 +6046,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5766,7 +6060,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 30000,
+        "hero_xp": 40000,
         "items": [
           {
             "subtype": "core_neutron_circuitry",
@@ -5780,7 +6074,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 35000,
+        "hero_xp": 45000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5794,7 +6088,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 35000,
+        "hero_xp": 45000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5808,7 +6102,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 35000,
+        "hero_xp": 45000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5822,7 +6116,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 35000,
+        "hero_xp": 45000,
         "items": [
           {
             "subtype": "core_neutron_circuitry",
@@ -5836,7 +6130,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 50000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5850,7 +6144,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 50000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5864,7 +6158,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 50000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5878,7 +6172,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 50000,
         "items": [
           {
             "subtype": "core_neutron_circuitry",
@@ -5892,7 +6186,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 60000,
+        "hero_xp": 55000,
         "items": [
           {
             "subtype": "crafting_power_cell",
@@ -5906,7 +6200,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 60000,
+        "hero_xp": 55000,
         "items": [
           {
             "subtype": "crafting_alien_alloy",
@@ -5920,7 +6214,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 60000,
+        "hero_xp": 55000,
         "items": [
           {
             "subtype": "crafting_biomesh",
@@ -5934,7 +6228,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 60000,
+        "hero_xp": 55000,
         "items": [
           {
             "subtype": "core_neutron_circuitry",
@@ -5948,7 +6242,7 @@
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
-        "hero_xp": 60000,
+        "hero_xp": 55000,
         "items": [
           {
             "subtype": "hero_energy_500",
@@ -7599,7 +7893,7 @@
         "items": [
           {
             "subtype": "crafting_plastic",
-            "quantity": 1
+            "quantity": 5
           }
         ],
         "alliance_cache_xp": 30
@@ -7613,7 +7907,7 @@
         "items": [
           {
             "subtype": "crafting_durable_fabric",
-            "quantity": 1
+            "quantity": 5
           }
         ],
         "alliance_cache_xp": 30
@@ -7627,7 +7921,7 @@
         "items": [
           {
             "subtype": "crafting_leather",
-            "quantity": 1
+            "quantity": 5
           }
         ],
         "alliance_cache_xp": 30
@@ -7641,7 +7935,7 @@
         "items": [
           {
             "subtype": "crafting_rubber",
-            "quantity": 1
+            "quantity": 5
           }
         ],
         "alliance_cache_xp": 30
@@ -7655,7 +7949,7 @@
         "items": [
           {
             "subtype": "crafting_gunpowder",
-            "quantity": 1
+            "quantity": 5
           }
         ],
         "alliance_cache_xp": 30
@@ -7669,7 +7963,7 @@
         "items": [
           {
             "subtype": "crafting_gunmetal",
-            "quantity": 1
+            "quantity": 5
           }
         ],
         "alliance_cache_xp": 30
@@ -7683,7 +7977,7 @@
         "items": [
           {
             "subtype": "crafting_ballistic_plates",
-            "quantity": 1
+            "quantity": 4
           }
         ],
         "alliance_cache_xp": 30
@@ -7697,7 +7991,7 @@
         "items": [
           {
             "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
+            "quantity": 4
           }
         ],
         "alliance_cache_xp": 30
@@ -7711,7 +8005,7 @@
         "items": [
           {
             "subtype": "crafting_ceramics",
-            "quantity": 1
+            "quantity": 4
           }
         ],
         "alliance_cache_xp": 30
@@ -7725,7 +8019,7 @@
         "items": [
           {
             "subtype": "crafting_grip",
-            "quantity": 1
+            "quantity": 4
           }
         ],
         "alliance_cache_xp": 30
@@ -7739,7 +8033,7 @@
         "items": [
           {
             "subtype": "crafting_magazine",
-            "quantity": 1
+            "quantity": 4
           }
         ],
         "alliance_cache_xp": 30
@@ -7753,7 +8047,7 @@
         "items": [
           {
             "subtype": "crafting_carbon_fiber",
-            "quantity": 1
+            "quantity": 3
           }
         ],
         "alliance_cache_xp": 30
@@ -7767,7 +8061,7 @@
         "items": [
           {
             "subtype": "crafting_chrome_alloy",
-            "quantity": 1
+            "quantity": 3
           }
         ],
         "alliance_cache_xp": 30
@@ -7781,7 +8075,7 @@
         "items": [
           {
             "subtype": "crafting_steel",
-            "quantity": 1
+            "quantity": 3
           }
         ],
         "alliance_cache_xp": 30
@@ -7795,7 +8089,7 @@
         "items": [
           {
             "subtype": "crafting_kevlar_fiber",
-            "quantity": 1
+            "quantity": 2
           }
         ],
         "alliance_cache_xp": 30
@@ -7809,7 +8103,7 @@
         "items": [
           {
             "subtype": "crafting_doron_plate",
-            "quantity": 1
+            "quantity": 2
           }
         ],
         "alliance_cache_xp": 30
@@ -7823,7 +8117,7 @@
         "items": [
           {
             "subtype": "crafting_shells",
-            "quantity": 1
+            "quantity": 2
           }
         ],
         "alliance_cache_xp": 30
@@ -7869,6 +8163,272 @@
           }
         ],
         "alliance_cache_xp": 30
+      }
+    },
+    "cache_reward98": {
+      "chance": 0.11,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_alien_fiber",
+            "quantity": 5
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward99": {
+      "chance": 0.11,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_steel",
+            "quantity": 5
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward100": {
+      "chance": 0.11,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_chrome_alloy",
+            "quantity": 5
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward101": {
+      "chance": 0.11,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_carbon_fiber",
+            "quantity": 5
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward102": {
+      "chance": 0.065,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_kevlar_fiber",
+            "quantity": 4
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward103": {
+      "chance": 0.065,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_doron_plate",
+            "quantity": 4
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward104": {
+      "chance": 0.065,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_shells",
+            "quantity": 4
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward105": {
+      "chance": 0.065,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_alien_bulwark",
+            "quantity": 4
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward106": {
+      "chance": 0.065,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_biomesh",
+            "quantity": 4
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward107": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_alien_alloy",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward108": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_venom",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward109": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_hide",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward110": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_reflectium",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward111": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_silencer",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward112": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_scope",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward113": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_titanium",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward114": {
+      "chance": 0.025,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_power_cell",
+            "quantity": 3
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward115": {
+      "chance": 0.0175,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_xenosaur_fang",
+            "quantity": 2
+          }
+        ],
+        "alliance_cache_xp": 60
+      }
+    },
+    "cache_reward116": {
+      "chance": 0.0175,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "strider_alien_emitter",
+            "quantity": 2
+          }
+        ],
+        "alliance_cache_xp": 60
       }
     },
     "spin_reward_0": {
@@ -9491,7 +10051,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 40
+            "quantity": 100
           }
         ]
       }
@@ -9504,7 +10064,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 40
+            "quantity": 100
           }
         ]
       }
@@ -9517,7 +10077,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 40
+            "quantity": 100
           }
         ]
       }
@@ -9530,7 +10090,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 40
+            "quantity": 100
           }
         ]
       }
@@ -9543,7 +10103,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 80
+            "quantity": 150
           }
         ]
       }
@@ -9556,7 +10116,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 80
+            "quantity": 150
           }
         ]
       }
@@ -9569,7 +10129,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 80
+            "quantity": 150
           }
         ]
       }
@@ -9582,7 +10142,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 80
+            "quantity": 150
           }
         ]
       }
@@ -10011,7 +10571,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 75
+            "quantity": 175
           }
         ]
       }
@@ -10024,7 +10584,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 75
+            "quantity": 175
           }
         ]
       }
@@ -10037,7 +10597,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 75
+            "quantity": 175
           }
         ]
       }
@@ -10050,7 +10610,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 75
+            "quantity": 175
           }
         ]
       }
@@ -10063,7 +10623,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 150
+            "quantity": 250
           }
         ]
       }
@@ -10076,7 +10636,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 150
+            "quantity": 250
           }
         ]
       }
@@ -10089,7 +10649,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 150
+            "quantity": 250
           }
         ]
       }
@@ -10102,7 +10662,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 150
+            "quantity": 250
           }
         ]
       }
@@ -10531,7 +11091,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 140
+            "quantity": 350
           }
         ]
       }
@@ -10544,7 +11104,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 140
+            "quantity": 350
           }
         ]
       }
@@ -10556,8 +11116,8 @@
       "reward": {
         "units": [
           {
-            "subtype": "tier_3_ground_vehicle",
-            "quantity": 140
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 350
           }
         ]
       }
@@ -10569,8 +11129,8 @@
       "reward": {
         "units": [
           {
-            "subtype": "tier_3_air_vehicle",
-            "quantity": 140
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 350
           }
         ]
       }
@@ -10583,7 +11143,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -10596,7 +11156,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -10609,7 +11169,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -10622,7 +11182,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -11051,7 +11611,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -11064,7 +11624,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -11077,7 +11637,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -11090,7 +11650,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 275
+            "quantity": 500
           }
         ]
       }
@@ -11103,7 +11663,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 525
+            "quantity": 700
           }
         ]
       }
@@ -11116,7 +11676,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 525
+            "quantity": 700
           }
         ]
       }
@@ -11129,7 +11689,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 525
+            "quantity": 700
           }
         ]
       }
@@ -11142,7 +11702,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 525
+            "quantity": 700
           }
         ]
       }
@@ -11571,7 +12131,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 525
+            "quantity": 700
           }
         ]
       }
@@ -11584,7 +12144,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 525
+            "quantity": 700
           }
         ]
       }
@@ -11596,8 +12156,8 @@
       "reward": {
         "units": [
           {
-            "subtype": "tier_3_ground_vehicle",
-            "quantity": 525
+            "subtype": "tier_4_ground_vehicle",
+            "quantity": 700
           }
         ]
       }
@@ -11609,8 +12169,8 @@
       "reward": {
         "units": [
           {
-            "subtype": "tier_3_air_vehicle",
-            "quantity": 525
+            "subtype": "tier_4_air_vehicle",
+            "quantity": 700
           }
         ]
       }
@@ -11623,7 +12183,7 @@
         "units": [
           {
             "subtype": "tier_4_light_infantry",
-            "quantity": 800
+            "quantity": 1000
           }
         ]
       }
@@ -11636,7 +12196,7 @@
         "units": [
           {
             "subtype": "tier_4_heavy_infantry",
-            "quantity": 800
+            "quantity": 1000
           }
         ]
       }
@@ -11649,7 +12209,7 @@
         "units": [
           {
             "subtype": "tier_4_ground_vehicle",
-            "quantity": 800
+            "quantity": 1000
           }
         ]
       }
@@ -11662,7 +12222,7 @@
         "units": [
           {
             "subtype": "tier_4_air_vehicle",
-            "quantity": 800
+            "quantity": 1000
           }
         ]
       }
@@ -14499,900 +15059,135 @@
       }
     },
     "crafting_loot_1": {
-      "chance": 0.037,
+      "chance": 0.22,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "crafting_plastic",
-            "quantity": 3
+            "quantity": 4
           },
           {
             "subtype": "crafting_durable_fabric",
-            "quantity": 3
+            "quantity": 4
           },
           {
             "subtype": "crafting_leather",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 2
+            "quantity": 4
           }
         ]
       }
     },
     "crafting_loot_2": {
-      "chance": 0.037,
+      "chance": 0.2,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 2
+            "subtype": "crafting_rubber",
+            "quantity": 4
           },
           {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 2
+            "subtype": "crafting_gunpowder",
+            "quantity": 4
           },
           {
             "subtype": "crafting_gunmetal",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 1
+            "quantity": 4
           }
         ]
       }
     },
     "crafting_loot_3": {
-      "chance": 0.037,
+      "chance": 0.2,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 1
-          },
-          {
             "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
+            "quantity": 4
           },
           {
             "subtype": "crafting_ceramics",
-            "quantity": 1
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_synthetic_fiber",
+            "quantity": 4
           },
           {
             "subtype": "crafting_grip",
-            "quantity": 1
+            "quantity": 4
           },
           {
-            "subtype": "crafting_rubber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 1
+            "subtype": "crafting_magazine",
+            "quantity": 4
           }
         ]
       }
     },
     "crafting_loot_4": {
-      "chance": 0.037,
+      "chance": 0.18,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
-            "subtype": "crafting_gunpowder",
+            "subtype": "crafting_carbon_fiber",
             "quantity": 3
           },
           {
-            "subtype": "crafting_gunmetal",
+            "subtype": "crafting_chrome_alloy",
             "quantity": 3
           },
           {
-            "subtype": "crafting_plastic",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 2
+            "subtype": "crafting_steel",
+            "quantity": 3
           }
         ]
       }
     },
     "crafting_loot_5": {
-      "chance": 0.037,
+      "chance": 0.12,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
-            "subtype": "crafting_magazine",
-            "quantity": 2
+            "subtype": "crafting_kevlar_fiber",
+            "quantity": 3
           },
           {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 2
+            "subtype": "crafting_doron_plate",
+            "quantity": 3
           },
           {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 1
+            "subtype": "crafting_shells",
+            "quantity": 3
           }
         ]
       }
     },
     "crafting_loot_6": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_7": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_leather",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 2
-          }
-        ]
-      }
-    },
-    "crafting_loot_8": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_grip",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_9": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_steel",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_10": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 3
-          }
-        ]
-      }
-    },
-    "crafting_loot_11": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_12": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_kevlar_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_doron_plate",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_13": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 3
-          }
-        ]
-      }
-    },
-    "crafting_loot_14": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_15": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_shells",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_kevlar_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_16": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 3
-          }
-        ]
-      }
-    },
-    "crafting_loot_17": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_steel",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 2
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_18": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_doron_plate",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_shells",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_19": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_20": {
-      "chance": 0.037,
+      "chance": 0.08,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "crafting_titanium",
-            "quantity": 1
+            "quantity": 2
           },
-          {
-            "subtype": "crafting_kevlar_fiber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_21": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
           {
             "subtype": "crafting_scope",
-            "quantity": 1
+            "quantity": 2
           },
-          {
-            "subtype": "crafting_doron_plate",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_shells",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_22": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_steel",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_23": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
           {
             "subtype": "crafting_silencer",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_doron_plate",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_24": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_titanium",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_kevlar_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_shells",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_25": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_26": {
-      "chance": 0.037,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_scope",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_shells",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "crafting_loot_27": {
-      "chance": 0.038,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_silencer",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_kevlar_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_doron_plate",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 1
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 1
+            "quantity": 2
           }
         ]
       }
@@ -15657,8 +15452,8 @@
     },
     "crafting_loot_xenosaur": {
       "chance": 1,
-      "min_quantity": 1,
-      "max_quantity": 4,
+      "min_quantity": 2,
+      "max_quantity": 6,
       "reward": {
         "hero_xp": 2500,
         "items": [
@@ -15675,8 +15470,8 @@
     },
     "crafting_loot_evolved_xenosaur": {
       "chance": 1,
-      "min_quantity": 1,
-      "max_quantity": 3,
+      "min_quantity": 3,
+      "max_quantity": 6,
       "reward": {
         "hero_xp": 5000,
         "items": [
@@ -15983,320 +15778,201 @@
       }
     },
     "crafting_loot_epic_1": {
-      "chance": 0.11,
+      "chance": 0.29,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "crafting_titanium",
-            "quantity": 2
+            "quantity": 4
           },
           {
             "subtype": "crafting_kevlar_fiber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 4
+            "quantity": 5
           },
           {
             "subtype": "crafting_steel",
-            "quantity": 4
+            "quantity": 6
           },
           {
             "subtype": "crafting_grip",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "crafting_magazine",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "crafting_ballistic_plates",
-            "quantity": 5
+            "quantity": 6
           },
           {
-            "subtype": "crafting_rubber",
-            "quantity": 6
+            "subtype": "crafting_plastic",
+            "quantity": 4
           },
           {
             "subtype": "crafting_durable_fabric",
-            "quantity": 6
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 6
+            "quantity": 4
           },
           {
             "subtype": "crafting_leather",
-            "quantity": 6
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_rubber",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_gunpowder",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_gunmetal",
+            "quantity": 4
           }
         ]
       }
     },
     "crafting_loot_epic_2": {
-      "chance": 0.11,
+      "chance": 0.29,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "crafting_scope",
-            "quantity": 2
+            "quantity": 4
           },
           {
             "subtype": "crafting_shells",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 4
+            "quantity": 5
           },
           {
             "subtype": "crafting_chrome_alloy",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "crafting_ceramics",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "crafting_magazine",
-            "quantity": 5
+            "quantity": 6
+          },
+          {
+            "subtype": "crafting_ballistic_plates",
+            "quantity": 6
           },
           {
             "subtype": "crafting_plastic",
-            "quantity": 6
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 6
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 6
+            "quantity": 4
           },
           {
             "subtype": "crafting_durable_fabric",
-            "quantity": 6
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_leather",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_rubber",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_gunpowder",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_gunmetal",
+            "quantity": 4
           }
         ]
       }
     },
     "crafting_loot_epic_3": {
-      "chance": 0.11,
+      "chance": 0.29,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "crafting_silencer",
-            "quantity": 2
+            "quantity": 4
           },
           {
             "subtype": "crafting_doron_plate",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 4
+            "quantity": 5
           },
           {
             "subtype": "crafting_carbon_fiber",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "crafting_synthetic_fiber",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "crafting_grip",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_gunmetal",
             "quantity": 6
           },
           {
-            "subtype": "crafting_leather",
-            "quantity": 6
-          },
-          {
-            "subtype": "crafting_rubber",
+            "subtype": "crafting_ceramics",
             "quantity": 6
           },
           {
             "subtype": "crafting_plastic",
-            "quantity": 6
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_durable_fabric",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_leather",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_rubber",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_gunpowder",
+            "quantity": 4
+          },
+          {
+            "subtype": "crafting_gunmetal",
+            "quantity": 4
           }
         ]
       }
     },
     "crafting_loot_epic_4": {
-      "chance": 0.11,
+      "chance": 0.13,
       "min_quantity": 1,
       "max_quantity": 1,
       "reward": {
         "items": [
           {
             "subtype": "crafting_titanium",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_silencer",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_shells",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_kevlar_fiber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_rubber",
             "quantity": 4
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_epic_5": {
-      "chance": 0.11,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_scope",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_silencer",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_shells",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_doron_plate",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_chrome_alloy",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_epic_6": {
-      "chance": 0.11,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_titanium",
-            "quantity": 3
           },
           {
             "subtype": "crafting_scope",
-            "quantity": 3
+            "quantity": 4
           },
           {
-            "subtype": "crafting_doron_plate",
-            "quantity": 3
+            "subtype": "crafting_silencer",
+            "quantity": 4
           },
           {
             "subtype": "crafting_kevlar_fiber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_carbon_fiber",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_ceramics",
             "quantity": 5
           },
           {
-            "subtype": "crafting_synthetic_fiber",
+            "subtype": "crafting_doron_plate",
             "quantity": 5
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_epic_7": {
-      "chance": 0.11,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_titanium",
-            "quantity": 3
           },
           {
             "subtype": "crafting_shells",
@@ -16307,52 +15983,7 @@
             "quantity": 5
           },
           {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_synthetic_fiber",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_epic_8": {
-      "chance": 0.11,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_scope",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_doron_plate",
+            "subtype": "crafting_steel",
             "quantity": 5
           },
           {
@@ -16360,89 +15991,8 @@
             "quantity": 5
           },
           {
-            "subtype": "crafting_ceramics",
+            "subtype": "crafting_synthetic_fiber",
             "quantity": 5
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_ballistic_plates",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_gunpowder",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    "crafting_loot_epic_9": {
-      "chance": 0.12,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "items": [
-          {
-            "subtype": "crafting_silencer",
-            "quantity": 3
-          },
-          {
-            "subtype": "crafting_kevlar_fiber",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_steel",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_ceramics",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_grip",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_magazine",
-            "quantity": 5
-          },
-          {
-            "subtype": "crafting_plastic",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_durable_fabric",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_leather",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_rubber",
-            "quantity": 4
-          },
-          {
-            "subtype": "crafting_gunmetal",
-            "quantity": 4
           }
         ]
       }
@@ -17435,6 +16985,58 @@
         ]
       }
     },
+    "lootable_alien_megaship_tier35_a": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "megaship_alien_augment",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_alien_megaship_tier35_b": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "megaship_component",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_alien_megaship_tier35_c": {
+      "chance": 0.4,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "currency7_15k",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "lootable_alien_megaship_tier35_d": {
+      "chance": 0.4,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "hero_xp_boost_6h",
+            "quantity": 2
+          }
+        ]
+      }
+    },
     "lootable_alien_megaship_tier40_a": {
       "chance": 1,
       "min_quantity": 1,
@@ -17474,6 +17076,58 @@
         ]
       }
     },
+    "lootable_alien_titanic_strider_tier35_a": {
+      "chance": 0.05,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "megaship_component",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_alien_titanic_strider_tier35_b": {
+      "chance": 0.35,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_300",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_alien_titanic_strider_tier35_c": {
+      "chance": 0.35,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "vip_points_150",
+            "quantity": 20
+          }
+        ]
+      }
+    },
+    "lootable_alien_titanic_strider_tier35_d": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "items": [
+          {
+            "subtype": "boost_3m",
+            "quantity": 30
+          }
+        ]
+      }
+    },
     "lootable_alien_titanic_strider_tier40_a": {
       "chance": 1,
       "min_quantity": 1,
@@ -17509,45 +17163,6 @@
           {
             "subtype": "vip_points_1000",
             "quantity": 20
-          }
-        ]
-      }
-    },
-    "annihilate_world_event_cache_grant_1": {
-      "chance": 1,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "caches": [
-          {
-            "subtype": "world_event_alliance",
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    "annihilate_world_event_cache_grant_3": {
-      "chance": 1,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "caches": [
-          {
-            "subtype": "world_event_alliance",
-            "quantity": 3
-          }
-        ]
-      }
-    },
-    "annihilate_world_event_cache_grant_5": {
-      "chance": 1,
-      "min_quantity": 1,
-      "max_quantity": 1,
-      "reward": {
-        "caches": [
-          {
-            "subtype": "world_event_alliance",
-            "quantity": 5
           }
         ]
       }
