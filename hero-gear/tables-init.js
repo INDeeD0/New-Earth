@@ -223,7 +223,7 @@ const Tables = (function(Helpers){
     const TIME_COL = 3;
 
     // DataTables instances (initialized later)
-    const VISIBLE_ROWS = 4;
+    const VISIBLE_ROWS = 5;
 
     function initDefaults(){
         $.extend(true, $.fn.dataTable.defaults, {
