@@ -53,10 +53,18 @@ const Helpers = (function(){
 
     const stripHtml = s => (s||"").toString().replace(/<[^>]*>/g,'').replace(/[%❓]/g,'').trim();
 
-    function formatValue(val, dataKey, lvl = null) {
+    function formatValue(val, dataKey, lvl = null, context = {}) {
         if (val === null || val === undefined) return '-';
 
-        const key = (dataKey || '').toLowerCase();
+        let key = (dataKey || '').toLowerCase();
+        let flag = null;
+
+        // -------- SPLIT FLAG --------
+        if (key.includes('!')) {
+            const parts = key.split('!');
+            key = parts[0];
+            flag = parts[1];
+        }
 
         // -------- TIME HANDLING --------
         if (
@@ -71,58 +79,46 @@ const Helpers = (function(){
                 : formatTime(raw);
         }
 
-        // -------- MODIFIER / FORMAT FLAGS --------
-        if (key.includes('!')) {
-            const [_, flag] = key.split('!');
-            if (flag === 'whole') {return Math.round(Number(val)).toLocaleString();}
-            if (flag === 'whole2') return Helpers.formatShort(Number(val));
-            if (flag === 'whole3') {const n = Number(val);if (isNaN(n)) return '-';return (Math.round(n) * 60).toLocaleString();}
-            if (flag === 'percent') {return Math.round(Number(val)) + '%';}
-            if (flag === 'percent2') {const num = Number(val);if (isNaN(num)) return '-';return (num * 100).toFixed(2) + '%';}
-            if (flag === 'time') {const raw = Number(val);if (isNaN(raw)) return '-';return raw < 0 ? '-' + formatTime(Math.abs(raw)): formatTime(raw);}
-            if (flag === 'time2') {const raw = Number(val);if (isNaN(raw)) return raw < 0 ? '-' + formatTime(Math.abs(raw)): formatTime(raw);}
-            if (flag === 'requirements') {
-                const reqs = lvl?.requirements;
-                if (!Array.isArray(reqs) || reqs.length === 0) return '-';
+        // -------- FLAGS --------
+        if (flag === 'power') {const prev = context.prevLvl?.power || 0;const curr = Number(lvl?.power) || 0;const delta = curr - prev;return delta !== 0 ? Helpers.formatShort(delta) : '-';}
+        if (flag === 'whole') return Math.round(Number(val)).toLocaleString();
+        if (flag === 'whole2') return Helpers.formatShort(Number(val));
+        if (flag === 'whole3') {const n = Number(val);if (isNaN(n)) return '-';return (Math.round(n) * 60).toLocaleString();}
+        if (flag === 'percent') return Math.round(Number(val)) + '%';
+        if (flag === 'percent2') {const num = Number(val);if (isNaN(num)) return '-';return (num * 100).toFixed(2) + '%';}
+        if (flag === 'time') {const raw = Number(val);if (isNaN(raw)) return '-';return raw < 0 ? '-' + formatTime(Math.abs(raw)) : formatTime(raw);}
+        if (flag === 'time2') {const raw = Number(val);if (isNaN(raw)) return '-';return raw < 0 ? '-' + formatTime(Math.abs(raw)) : formatTime(raw)}
+        if (flag === 'requirements') {
+            const reqs = lvl?.requirements;
+            if (!Array.isArray(reqs) || reqs.length === 0) return '-';
 
-                const list = reqs.map(r => {
-                    const key = String(r.target_subtype || '').toLowerCase();
+            const list = reqs.map(r => {
+                const key = String(r.target_subtype || '').toLowerCase();
 
-                    const name =
-                        window.reverseKeyMap?.[key] ||
-                        r.target_subtype ||
-                        'Unknown';
+                const name =
+                    window.reverseKeyMap?.[key] ||
+                    r.target_subtype ||
+                    'Unknown';
 
-                    const level = r.level ?? '?';
+                const level = r.level ?? '?';
 
-                    return `${name} LVL ${level}`;
-                }).filter(Boolean);
+                return `${name} LVL ${level}`;
+            }).filter(Boolean);
 
-                if (list.length === 0) return '-';
+            if (list.length === 1) return list[0];
 
-                // only one requirement
-                if (list.length === 1) {
-                    return list[0];
-                }
+            const first = list[0];
+            const rest = list.slice(1).map(r => `<div>${r}</div>`).join('');
 
-                // multiple requirements with expandable list
-                const first = list[0];
-                const rest = list.slice(1)
-                    .map(r => `<div>${r}</div>`)
-                    .join('');
-
-                const hidden = `<div class="req-hidden" style="display:none;">${rest}</div>`;
-
-                return `
-                    <div class="req-cell">
-                        ${first}
-                        <span class="req-toggle" style="cursor:pointer;color:#4af;margin-left:5px;">▼</span>
-                        ${hidden}
-                    </div>
-                `;
-                
-            }
+            return `
+                <div class="req-cell">
+                    ${first}
+                    <span class="req-toggle" style="cursor:pointer;color:#4af;margin-left:5px;">▼</span>
+                    <div class="req-hidden" style="display:none;">${rest}</div>
+                </div>
+            `;
         }
+
         return val;
     }
 
