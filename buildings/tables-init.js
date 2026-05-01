@@ -27,7 +27,7 @@ const Tables = (function(Helpers){
         `,
         className: "dt-head-center",
         dataKey: "upgrade_cost!time"},
-        { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power!whole2" },// 4
+        { title:'<img src="pictures/Power.png" class="col-icon">', dataKey: "power!power" },// 4
         { title:'<img src="pictures/Tech.png" class="col-icon">', dataKey: "currency3@quantity!whole2" },// 5
         { title:'<img src="pictures/Food.png" class="col-icon">', dataKey: "currency4@quantity!whole2" },// 6
         { title:'<img src="pictures/Oil.png" class="col-icon">', dataKey: "currency5@quantity!whole2" },// 7
@@ -362,8 +362,8 @@ const Tables = (function(Helpers){
                             ? Helpers.formatTime(Math.floor(row._rawTime[col] / (1 + window.currentScale / 100)))
                             : "-";
                     }
-
-                    row[col] = Helpers.formatValue(val, fullKey, lvl);
+                    const prevLvl = structure.levels[lvlIdx - 1] || null;
+                    row[col] = Helpers.formatValue(val, fullKey, lvl, { prevLvl });
                 }
 
                 try { dt.row.add(row); }
