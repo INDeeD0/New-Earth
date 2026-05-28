@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Structures</title>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="libs/jquery.dataTables.min.css">
+<link rel="stylesheet" href="supplyshop/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="topNav">
+  
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="research-offensive.html">Research ▾</button>
+    <div class="dropdown-menu">
+        <button class="nav-btn" data-page="research-defensive.html">Defensive</button>
+        <button class="nav-btn" data-page="research-operations.html">Operations</button>
+        <button class="nav-btn" data-page="research-drone.html">Drone</button>
+        <button class="nav-btn" data-page="research-efficiency.html">Efficiency</button>
+        <button class="nav-btn" data-page="research-specialized.html">Specialized</button>
+      </div>
+  </div>
+
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="index.html">Structures▾</button>
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="drone.html">Drone</button>
+      <button class="nav-btn" data-page="supplyshop.html">Resource Exchange</button>
+    </div>
+  </div>
+
+  <div class="nav-dropdown">
+    <button class="nav-btn" data-page="hero.html">Hero ▾</button>
+    <div class="dropdown-menu">
+      <button class="nav-btn" data-page="hero-skills.html">Hero Skills</button>
+      <button class="nav-btn" data-page="hero-invaderskills.html">Invader Skills</button>
+      <button class="nav-btn" data-page="hero-gear.html">Gear</button>
+    </div>
+  </div>
+
+</div>
+<div id="save">
+  <button id="saveLevelsBtn" class="nav-btn">Save</button>
+  <button id="resetLevelsBtn" class="nav-btn">&#x1F501;</button>
+  <input type="file" id="loadLevelsFile" style="display:none" accept=".txt">
+  <button id="loadLevelsBtn" class="nav-btn">Load</button>
+</div>
+<!-- Tree -->
+<div class="container" id="map1">
+  <div class="section" style="grid-column:1; grid-row:1;" data-key=""><img src="pictures/Alien Power Core.png" class="item-icon"></div>
+  <div class="section root" style="grid-column:1; grid-row:2;" data-key="supplyshop_core_alien_power_core_1_a"><input type="number" class="no-spinners">&nbsp;Power Core 1</div>
+  <div class="section" style="grid-column:1; grid-row:3;" data-key="supplyshop_core_alien_power_core_1_b"><input type="number" class="no-spinners">&nbsp;Power Core 2</div>
+  <div class="section" style="grid-column:1; grid-row:4;" data-key="supplyshop_core_alien_power_core_2_a"><input type="number" class="no-spinners">&nbsp;Power Core 3</div> 
+  <div class="section" style="grid-column:1; grid-row:5;" data-key="supplyshop_core_alien_power_core_2_b"><input type="number" class="no-spinners">&nbsp;Power Core 4</div>
+  <div class="section" style="grid-column:2; grid-row:1;" data-key=""><img src="pictures/Alien Tech.png" class="item-icon"></div>
+  <div class="section" style="grid-column:2; grid-row:2;" data-key="supplyshop_core_alien_component_1_a"><input type="number" class="no-spinners">&nbsp;Alien Tech 1</div>
+  <div class="section" style="grid-column:2; grid-row:3;" data-key="supplyshop_core_alien_component_1_b"><input type="number" class="no-spinners">&nbsp;Alien Tech 2</div>
+  <div class="section" style="grid-column:2; grid-row:4;" data-key="supplyshop_core_alien_component_2_a"><input type="number" class="no-spinners">&nbsp;Alien Tech 3</div>
+  <div class="section" style="grid-column:2; grid-row:5;" data-key="supplyshop_core_alien_component_2_b"><input type="number" class="no-spinners">&nbsp;Alien Tech 4</div>
+  <div class="section" style="grid-column:3; grid-row:1;" data-key=""><img src="pictures/Alien Armor.png" class="item-icon"></div>
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="supplyshop_core_alien_armor_1_a"><input type="number" class="no-spinners">&nbsp;Alien Armor 1</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="supplyshop_core_alien_armor_1_b"><input type="number" class="no-spinners">&nbsp;Alien Armor 2</div>
+  <div class="section" style="grid-column:3; grid-row:4;" data-key="supplyshop_core_alien_armor_2_a"><input type="number" class="no-spinners">&nbsp;Alien Armor 3</div>
+  <div class="section" style="grid-column:3; grid-row:5;" data-key="supplyshop_core_alien_armor_2_b"><input type="number" class="no-spinners">&nbsp;Alien Armor 4</div>
+  <div class="section" style="grid-column:4; grid-row:1;" data-key=""><img src="pictures/Data Disk.png" class="item-icon"></div>
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="supplyshop_core_data_disk_1_a"><input type="number" class="no-spinners">&nbsp;Data Disk 1</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="supplyshop_core_data_disk_1_b"><input type="number" class="no-spinners">&nbsp;Data Disk 2</div>
+  <div class="section" style="grid-column:4; grid-row:4;" data-key="supplyshop_core_data_disk_2_a"><input type="number" class="no-spinners">&nbsp;Data Disk 3</div>
+  <div class="section" style="grid-column:4; grid-row:5;" data-key="supplyshop_core_data_disk_2_b"><input type="number" class="no-spinners">&nbsp;Data Disk 4</div>
+  <div class="section" style="grid-column:5; grid-row:1;" data-key=""><img src="pictures/Classified Documents.png" class="item-icon"></div>
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="supplyshop_core_classified_documents_1_a"><input type="number" class="no-spinners">&nbsp;Classified Documents 1</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="supplyshop_core_classified_documents_1_b"><input type="number" class="no-spinners">&nbsp;Classified Documents 2</div>
+  <div class="section" style="grid-column:5; grid-row:4;" data-key="supplyshop_core_classified_documents_2_a"><input type="number" class="no-spinners">&nbsp;Classified Documents 3</div>
+  <div class="section" style="grid-column:5; grid-row:5;" data-key="supplyshop_core_classified_documents_2_b"><input type="number" class="no-spinners">&nbsp;Classified Documents 4</div>
+  <div class="section" style="grid-column:6; grid-row:1;" data-key=""><img src="pictures/Armory Blueprints.png" class="item-icon"></div>
+  <div class="section" style="grid-column:6; grid-row:2;" data-key="supplyshop_armory_blueprints_1_a"><input type="number" class="no-spinners">&nbsp;Armory Blueprints 1</div>
+  <div class="section" style="grid-column:6; grid-row:3;" data-key="supplyshop_armory_blueprints_1_b"><input type="number" class="no-spinners">&nbsp;Armory Blueprints 2</div>
+  <div class="section" style="grid-column:6; grid-row:4;" data-key="supplyshop_armory_blueprints_2_a"><input type="number" class="no-spinners">&nbsp;Armory Blueprints 3</div>
+  <div class="section" style="grid-column:6; grid-row:5;" data-key="supplyshop_armory_blueprints_2_b"><input type="number" class="no-spinners">&nbsp;Armory Blueprints 4</div>    
+  <svg id="lines1"></svg>
+</div>
+
+
+<!-- Table Toggle -->
+<div id="tableToggle">
+<label for="autoLinkToggle" class="info-label">
+  <input type="checkbox" id="autoLinkToggle" unchecked>
+  Auto-total
+  <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
+</label>
+  <button class="toggle-table-btn active" data-table="costs">Costs</button>
+  <!--<button class="toggle-table-btn" data-table="missions">Main Missions</button>-->
+  <button class="toggle-table-btn" data-table="stats">Stats</button>
+  </div>
+<!-- Tables -->
+<div id="costsMasterContainer"></div>
+<div id="missionsMasterContainer"></div>
+<div id="statsMasterContainer"></div>
+<div id="missionsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="missionsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="missionsTotalsHeader"></tr></thead>
+      <tbody><tr id="missionsTotalsBody"></tr></tbody>
+  </table></div>
+<div id="costsTotals" style="text-align:center; margin-top:10px; display:block;">
+    <table id="totalsTable" style="border-collapse: collapse; display:inline-block;">
+        <thead><tr id="totalsHeader"></tr></thead>
+        <tbody><tr id="totalsBody"></tr></tbody>
+    </table></div>
+<div id="statsTotals" style="text-align:center; margin-top:10px; display:none;">
+  <table id="statsTotalsTable" style="border-collapse: collapse; display:inline-block;">
+      <thead><tr id="statsTotalsHeader"></tr></thead>
+      <tbody><tr id="statsTotalsBody"></tr></tbody>
+  </table></div>    
+<!-- Scripts -->
+<script src="libs/jquery-3.7.0.min.js"></script>
+<script src="libs/jquery.dataTables.min.js"></script>
+<script src="supplyshop/helpers.js"></script>
+<script src="supplyshop/data-loader.js"></script>
+<script src="supplyshop/tables-init.js"></script>
+<script src="supplyshop/totals.js"></script>  
+<script src="supplyshop/tree-and-ui.js"></script>
+<script src="supplyshop/main.js"></script>
+</body>
+</html>

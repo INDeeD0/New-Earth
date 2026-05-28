@@ -1,0 +1,479 @@
+/*style.css*/
+/* === Base Styles === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* === Tree Grid === */
+.container {
+  justify-content: left;
+  margin: 20px auto;
+  position: relative;
+  width: 1340px;
+  overflow-y: auto;
+  overflow-x: auto; /* required for horizontal scroll with sticky */
+  display: grid; /* ensure grid so ::before can use grid lines */
+}
+.researchroot {
+  border: 0px solid #ffffff;
+}
+#map1 {
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(5, 100px);
+    column-gap: 20px;
+    row-gap: 5px;
+    justify-content: center;
+}
+#map2 {
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 20px;
+    row-gap: 5px;
+}
+#map3 {
+    grid-template-columns: repeat(15, 150px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 20px;
+    row-gap: 5px;
+}
+
+.section {
+  background-color: #000;
+  border: 1px solid #666;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  /* remove default z-index to avoid unintended stacking contexts */
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 3px;
+  flex-direction: column;
+}
+
+.section:hover { border-color: #ffcc00; }
+.section.active { border-color: #4287f5; background-color: #111; }
+
+
+/* === Navigation === */
+#topNav { margin-bottom: 10px; }
+
+.nav-btn {
+  margin: 0px;
+  padding: 5px 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-btn:hover { background: #555; }
+.nav-btn.active { background: #4287f5; border-color: #4287f5; }
+
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #222;
+  border: 0px solid #444;
+  padding: 0px;
+  z-index: 1000;
+}
+
+/* show on hover */
+.nav-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* menu buttons */
+.dropdown-menu .nav-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+/* === Table Toggles === */
+#tableToggle { margin-top: 20px; }
+
+.toggle-table-btn {
+  margin: 2px;
+  padding: 4px 4px;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #eee;
+  color: #000;
+  font-size: 16px;
+}
+.toggle-table-btn.active {
+  background: #4287f5;
+  color: #fff;
+}
+
+/* === Table Wrapper Layout === */
+.table-wrapper {
+  width: auto;
+  overflow-x: hidden !important;
+  margin: 0 auto;
+  display: none;
+}
+
+#costsMasterContainer,
+#missionsMasterContainer,
+#statsMasterContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* === DataTables Container === */
+.dataTables_wrapper,
+.dataTables_scroll,
+.dataTables_scrollBody,
+.dataTables_scrollHead {
+  overflow: visible !important;
+}
+.dataTables_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+}
+
+.dataTables_wrapper .dataTables_scroll {
+  display: inline-block;
+  width: auto !important;
+}
+
+.dataTables_wrapper .dataTables_scrollHead,
+.dataTables_wrapper .dataTables_scrollBody {
+  width: auto !important;
+  margin: 0 auto;
+}
+
+.dataTables_wrapper .dataTables_scrollHead {
+  overflow: visible !important;
+  position: relative;
+  z-index: 5000;
+}
+
+.dataTables_wrapper .dataTables_scrollBody {
+  position: relative;
+  z-index: 1;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+
+/* === Tables === */
+table {
+  border-collapse: collapse;
+  background: rgb(0, 0, 0);
+  color: black;
+  margin-top: 10px;
+  width: auto !important;
+  table-layout: auto !important;
+  font-size: 20px;
+}
+table th {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+table td {
+  color: black;
+  padding: 0px 6px;
+  white-space: nowrap;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.display_compact_stripe {
+  font-size: 20px;
+}
+
+table.dataTable tbody tr.odd  { background-color: #e6e6e6; }
+table.dataTable tbody tr.even { background-color: #ffffff; }
+
+/* === Headers === */
+.dataTables_scrollHeadInner th,
+.dataTables_scrollHeadInner td {
+  text-align: center !important;
+  font-size: 20px !important;
+}
+.dataTables_scrollHeadInner {
+  width: 100% !important;
+}
+.dataTables_scrollHeadInner table {
+  width: 100% !important;
+}
+
+/* === Checkbox Scaling (Costs + Missions) === */
+[id^="costsTable"] .row-checkbox,
+[id^="statsTable"] .row-checkbox,
+[id^="rewardsTable"] .row-checkbox {
+  display: block;
+  margin: 0 auto;
+  transform: scale(1.6);
+  transform-origin: center;
+}
+
+/* === Totals Tables === */
+#totalsHeader th,
+#totalsBody td {
+  text-align: center;
+}
+
+#totalsTable thead tr,
+#statsTable thead tr,
+#missionsTotalsTable thead tr {
+  background-color: #ffffff;
+}
+#totalsTable tbody tr,
+#statsTable thead tr,
+#missionsTotalsTable tbody tr {
+  background-color: #e6e6e6;
+}
+
+/* === Info Tooltip === */
+.info-icon {
+  cursor: help;
+  font-size: 18px;
+  margin-left: 2px;
+  position: relative;
+
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 1;
+  z-index: 6000;
+}
+.info-icon[data-tip]:hover::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 0px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 17px;
+  margin-top: 4px;
+}
+.info-icon[data-tip]:hover::before {
+  content: '';
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: #333;
+    z-index: 999999 !important;
+}
+
+/* === Time-scale Input === */
+.no-spinners {
+  appearance: textfield;
+  border: 2px solid #ccc;
+  background-color: #000000;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  width: 30px;
+}
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* === Map and SVG sync fixes === */
+/* Ensure container scrolls as a single layer */
+.container {
+  position: relative;
+  overflow: auto;
+}
+/* Explicit relative positioning for maps */
+#map1 { position: relative; overflow-anchor: none; contain: layout paint; isolation: isolate; }
+#map2 { position: relative; overflow-anchor: none; contain: layout paint; isolation: isolate; }
+#map3 { position: relative; overflow-anchor: none; contain: layout paint; isolation: isolate; }
+
+/* Opaque left strip under column 1 to block bleed-through while scrolling */
+#map1::before,
+#map2::before,
+#map3::before {
+  content: "";
+  /* occupy the first grid column across all rows */
+  grid-column: 1;
+  grid-row: 1 / -1;
+  align-self: stretch;
+  justify-self: stretch;
+  /* stick to the left edge of the scrollport */
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 170px; /* 150px col + 20px gap */
+  background: #222; /* match page background */
+  z-index: 0; /* below the first sticky cell (1001), above others */
+  pointer-events: none; /* don't block clicks */
+  display: block;
+}
+
+/* Make the SVG span the full grid area so it scrolls at the same rate */
+#map1 #lines1,
+#map2 #lines2,
+#map3 #lines3 {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  align-self: stretch;
+  justify-self: stretch;
+  position: absolute;
+  inset: 0; /* top/right/bottom/left:0 */
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  pointer-events: none;
+  z-index: 0;
+}
+/* Keep cards above lines */
+#map1 .section,
+#map2 .section,
+#map3 .section {
+  position: relative;
+}
+/* ensure non-first-column sections never stack above the left cover */
+#map1 .section:not([style*="grid-column:1"]),
+#map2 .section:not([style*="grid-column:1"]),
+#map3 .section:not([style*="grid-column:1"]) {
+  z-index: 1; /* under the cover (which is 998) */
+}
+/* Ensure consistent sizing math */
+#map1, #map2, #map3, #map1 *, #map2 *,#map3 * {
+  box-sizing: border-box;
+}
+
+#autoTickPopup {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 420px;
+  background: rgba(0, 0, 0, 0.88);
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0px 0px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  text-align: left;
+}
+#autoTickPopup strong {
+  color: #ffcc00;
+}
+#autoTickPopup:hover {
+  background: rgba(0, 0, 0, 0.95);
+}
+#totalsWrapper {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.totals-block {
+  margin: 0px 0;
+  display: flex;
+  justify-content: center;
+}
+.totals-table {
+  border-collapse: collapse;
+}
+.totals-table th{
+  padding: 0px 8px;
+  border: 1px solid #444;
+  color:white;
+  background: black;
+}
+.totals-table td {
+  padding: 0px 8px;
+  border: 1px solid #444;
+  color:white
+}
+.totals-section-title {
+  background: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  padding: 6px;
+}
+#map1 .section[style*="grid-column:1"],
+#map2 .section[style*="grid-column:1"],
+#map3 .section[style*="grid-column:1"],
+#map1 .section:nth-child(1),
+#map2 .section:nth-child(1),
+#map3 .section:nth-child(1) {
+    position: relative;
+    left: 0;
+    right: auto; 
+    z-index: 1; 
+    background: #000; 
+    box-shadow: 2px 0 6px rgba(0,0,0,0.6);
+}
+.container[id^="map"] {
+    display: none;
+    contain: layout paint;
+}
+
+#map1 .section[data-key="Research"],
+#map2 .section[data-key="Research"],
+#map3 .section[data-key="Research"] {
+  position: relative;
+  left: 0;
+  z-index: 0; 
+  background: #000;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.6);
+}
+.col-icon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+}
+.item-icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.headflex {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.container.dragging {
+    cursor: grabbing !important;
+}
+
+.container {
+    cursor: grab;
+}
