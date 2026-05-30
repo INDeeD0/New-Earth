@@ -273,7 +273,7 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   white-space: nowrap;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  font-size: 17px;
+  font-size: 25px;
   margin-top: 4px;
 }
 .info-icon[data-tip]:hover::before {
@@ -454,8 +454,8 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
   box-shadow: 2px 0 6px rgba(0,0,0,0.6);
 }
 .col-icon {
-    width: 35px;
-    height: 35px;
+    width: 100px;
+    height: 100px;
     display: block;
     margin: 0 auto;
 }
