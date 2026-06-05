@@ -455,3 +455,21 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 .container {
     cursor: grab;
 }
+@media (max-width: 900px) {
+
+  .container {
+    overflow-x: auto;
+  }
+  .dataTables_wrapper {
+    overflow-x: auto !important;
+    width: 100% !important;
+    justify-content: left;
+  }
+  .dataTables_scrollBody {
+    overflow-x: auto !important;
+  }
+  table {
+    font-size: 20px;   
+    white-space: nowrap;
+  }
+}
