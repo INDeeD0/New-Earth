@@ -7,7 +7,7 @@
 
 <!-- DataTables CSS -->
 <link rel="stylesheet" href="libs/jquery.dataTables.min.css">
-<link rel="stylesheet" href="hero/styles.css">
+<link rel="stylesheet" href="locations/styles.css">
 </head>
 <body>
 
@@ -57,8 +57,22 @@
   <button id="loadLevelsBtn" class="nav-btn">Load</button>
 </div>
 <!-- Tree -->
-<div class="container" id="map1">
-  <div class="section root" style="grid-column:1; grid-row:2;" data-key="Hero"><input type="number" class="no-spinners">&nbsp;Hero</div>
+<div class="container" id="map1"><!-- farm,alloy,oil,tech,neut,5    aa,ah,DD,HCS,CTS,DA,SA,MS,TS,10        Invader,toixc,ufo,strider,xeno,exeno,6 -->
+  <div class="section root" style="grid-column:1; grid-row:1;" data-key="resources"><img src="pictures/Resources.png" class="item-icon">&nbsp;Resources</div>
+  <div class="section" style="grid-column:1; grid-row:2;" data-key="aliens"><img src="pictures/Aliens.png" class="item-icon">&nbsp;Aliens</div>
+  <div class="section" style="grid-column:1; grid-row:3;" data-key="invasion_alien_hive"><img src="pictures/Hive.png" class="item-icon">&nbsp;Hive</div> 
+  <div class="section" style="grid-column:2; grid-row:1;" data-key="black_ops_sector"><input type="number" class="no-spinners">&nbsp;Black Ops</div>
+  <div class="section" style="grid-column:2; grid-row:2;" data-key="crashed_dropship"><input type="number" class="no-spinners">&nbsp;Downed Dropships</div>
+  <div class="section" style="grid-column:2; grid-row:3;" data-key="covert_testing_station"><input type="number" class="no-spinners">&nbsp;Covert Testing Station</div>
+  <div class="section" style="grid-column:3; grid-row:1;" data-key="scavengers_sector"><input type="number" class="no-spinners">&nbsp;Scavengers</div>
+  <div class="section" style="grid-column:3; grid-row:2;" data-key="specialized_hostile_crash_site"><input type="number" class="no-spinners">&nbsp;Spec Downed Dropships</div>
+  <div class="section" style="grid-column:3; grid-row:3;" data-key="invader_alien_megaship"><input type="number" class="no-spinners">&nbsp;Raid Megaship</div>
+  <div class="section" style="grid-column:4; grid-row:1;" data-key="invader_titanic_strider"><input type="number" class="no-spinners">&nbsp;Raid Titanic Strider</div>
+  <div class="section" style="grid-column:4; grid-row:2;" data-key="invader"><input type="number" class="no-spinners">&nbsp;Invader</div>
+  <div class="section" style="grid-column:4; grid-row:3;" data-key="invader_ufo"><input type="number" class="no-spinners">&nbsp;UFO</div>
+  <div class="section" style="grid-column:5; grid-row:1;" data-key="invader_plasma_strider"><input type="number" class="no-spinners">&nbsp;Strider</div>
+  <div class="section" style="grid-column:5; grid-row:2;" data-key="invader_xenosaur"><input type="number" class="no-spinners">&nbsp;Xenosaur</div>
+  <div class="section" style="grid-column:5; grid-row:3;" data-key="invader_evolved_xenosaur"><input type="number" class="no-spinners">&nbsp;E-Xenosaur</div>
   <svg id="lines1"></svg>
 </div>
 
@@ -69,11 +83,11 @@
   <input type="checkbox" id="autoLinkToggle" unchecked>
   Auto-total
   <span class="info-icon" data-tip="Tick high level to calculate all buildings in between.">❓</span>
-<!-- </label>
+</label>
   <button class="toggle-table-btn active" data-table="costs">Costs</button>
-  <button class="toggle-table-btn" data-table="missions">Main Missions</button>
+  <!--<button class="toggle-table-btn" data-table="missions">Main Missions</button>-->
   <button class="toggle-table-btn" data-table="stats">Stats</button>
-  </div> -->
+  </div>
 <!-- Tables -->
 <div id="costsMasterContainer"></div>
 <div id="missionsMasterContainer"></div>
@@ -96,11 +110,11 @@
 <!-- Scripts -->
 <script src="libs/jquery-3.7.0.min.js"></script>
 <script src="libs/jquery.dataTables.min.js"></script>
-<script src="hero/helpers.js"></script>
-<script src="hero/data-loader.js"></script>
-<script src="hero/tables-init.js"></script>
-<script src="hero/totals.js"></script>  
-<script src="hero/tree-and-ui.js"></script>
-<script src="hero/main.js"></script>
+<script src="locations/helpers.js"></script>
+<script src="locations/data-loader.js"></script>
+<script src="locations/tables-init.js"></script>
+<script src="locations/totals.js"></script>  
+<script src="locations/tree-and-ui.js"></script>
+<script src="locations/main.js"></script>
 </body>
 </html>
