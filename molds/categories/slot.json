@@ -62,6 +62,9 @@
     },
     "hero_slot4": {
       "name": "~hero_slot4"
+    },
+    "hero_slot5": {
+      "name": "~hero_slot5"
     }
   }
 }

@@ -880,6 +880,16 @@
         }
       ]
     },
+    "realm_buff_contest_speed": {
+      "name": "~title_the_conqueror",
+      "stats": [
+        {
+          "subtype": "march_contest_modifier",
+          "value": 0,
+          "modifier": 0.1
+        }
+      ]
+    },
     "realm_debuff_defense": {
       "name": "~title_the_traitor",
       "stats": [

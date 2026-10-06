@@ -28,7 +28,7 @@
       }
     },
     "hero_energy_1000": {
-      "name": "~trial_hero_energy_1000",
+      "name": "~trial_hero_energy",
       "max_progress": 1000,
       "source": 1,
       "reward": {
@@ -41,7 +41,7 @@
       }
     },
     "gather_100000_currency": {
-      "name": "~trial_gather_100000_currency",
+      "name": "~trial_gather_currency",
       "max_progress": 100000,
       "source": 2,
       "reward": {
@@ -54,7 +54,7 @@
       }
     },
     "help_3_alliance_members": {
-      "name": "~trial_help_3_alliance_members",
+      "name": "~trial_help_alliance_members",
       "max_progress": 3,
       "source": 3,
       "reward": {
@@ -67,7 +67,7 @@
       }
     },
     "defeat_2000_npc_power": {
-      "name": "~trial_defeat_2000_npc_power",
+      "name": "~trial_defeat_npc_power",
       "max_progress": 2000,
       "source": 5,
       "reward": {
@@ -80,7 +80,7 @@
       }
     },
     "collect_3_category1_missions": {
-      "name": "~trial_collect_3_category1_missions",
+      "name": "~trial_collect_category1_missions",
       "max_progress": 3,
       "source": 6,
       "reward": {
@@ -93,7 +93,7 @@
       }
     },
     "collect_3_category2_missions": {
-      "name": "~trial_collect_3_category2_missions",
+      "name": "~trial_collect_category2_missions",
       "max_progress": 3,
       "source": 7,
       "reward": {
@@ -106,7 +106,7 @@
       }
     },
     "train_5000_unit_power": {
-      "name": "~trial_train_5000_unit_power",
+      "name": "~trial_train_unit_power",
       "max_progress": 5000,
       "source": 8,
       "reward": {
@@ -153,6 +153,30 @@
           {
             "subtype": "currency1",
             "quantity": 25
+          }
+        ]
+      }
+    },
+    "territory_flip": {
+      "name": "~trial_territory_flip",
+      "alliance": true,
+      "max_progress": 5,
+      "source": 25,
+      "reward": {
+        "alliance_buffs": [
+          {
+            "subtype": "march_contest_modifier",
+            "value": 0,
+            "modifier": 0.1,
+            "source": 6,
+            "duration": 432000
+          }
+        ],
+        "alliance_items": [
+          {
+            "target_subtype": "item_boost_3m",
+            "quantity": 100,
+            "duration": 172800
           }
         ]
       }

@@ -6,7 +6,7 @@
       "reward": {
         "items": [
           {
-            "subtype": "bundle_basic_speedup_chest",
+            "subtype": "boost_3m",
             "quantity": 1
           }
         ]

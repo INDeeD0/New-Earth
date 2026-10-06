@@ -1,0 +1,739 @@
+{
+  "_subtypes": {
+    "battle_pass_1": {
+      "name": "~battle_pass",
+      "purchases": [
+        {
+          "subtype": "battle_pass_premium_1"
+        },
+        {
+          "subtype": "battle_pass_premium_1_advanced"
+        }
+      ],
+      "duration": 2592000,
+      "tiers": [
+        {
+          "points_required": 0,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 100
+              }
+            ],
+            "items": [
+              {
+                "subtype": "boost_8h",
+                "quantity": 1
+              }
+            ],
+            "battle_pass_points": 1250
+          }
+        },
+        {
+          "points_required": 250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ],
+            "units": [
+              {
+                "subtype": "tier_5_heavy_infantry",
+                "quantity": 3
+              }
+            ],
+            "currencies": [
+              {
+                "subtype": "currency2",
+                "quantity": 2
+              },
+              {
+                "subtype": "currency7",
+                "quantity": 7
+              },
+              {
+                "subtype": "currency8",
+                "quantity": 8
+              }
+            ],
+            "hero_xp": 5000
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency4_150k",
+                "quantity": 1
+              },
+              {
+                "subtype": "march_25_percent_boost",
+                "quantity": 2
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_hospital_8h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 1250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency5_150k",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_8h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 1750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_xp_5k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 5
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 2250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              },
+              {
+                "subtype": "march_gather_boost_24h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 2750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3d",
+                "quantity": 5
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 3250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency7_50k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_50k",
+                "quantity": 2
+              },
+              {
+                "subtype": "march_25_percent_boost",
+                "quantity": 3
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 4000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 250
+              }
+            ],
+            "items": [
+              {
+                "subtype": "boost_8h",
+                "quantity": 1
+              },
+              {
+                "subtype": "city_teleport",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 4750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 2
+              },
+              {
+                "subtype": "boost_hospital_8h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 5500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_xp_5k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 5
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 6250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency4_150k",
+                "quantity": 2
+              },
+              {
+                "subtype": "boost_3d",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 7000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "march_25_percent_boost",
+                "quantity": 3
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 8000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency5_150k",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_8h",
+                "quantity": 2
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 9000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "shield_8h",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_3d",
+                "quantity": 5
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 10000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_3d",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 11000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 10
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 12000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_50k",
+                "quantity": 3
+              },
+              {
+                "subtype": "march_gather_boost_24h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 13500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              },
+              {
+                "subtype": "city_teleport",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 500
+              }
+            ],
+            "items": [
+              {
+                "subtype": "boost_8h",
+                "quantity": 2
+              },
+              {
+                "subtype": "boost_3d",
+                "quantity": 10
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 15000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "march_gather_boost_24h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency3_500k",
+                "quantity": 1
+              },
+              {
+                "subtype": "march_50_percent_boost",
+                "quantity": 2
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 16500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3d",
+                "quantity": 5
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 18000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency4_500k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency4_500k",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_hospital_8h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 19500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3d",
+                "quantity": 5
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 21500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_3m",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency5_500k",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_8h",
+                "quantity": 2
+              }
+            ],
+            "battle_pass_points": 4000
+          }
+        },
+        {
+          "points_required": 23500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "shield_8h",
+                "quantity": 2
+              },
+              {
+                "subtype": "boost_3d",
+                "quantity": 5
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 25500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency6_500k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency6_500k",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_3d",
+                "quantity": 2
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 27500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3d",
+                "quantity": 65
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 29500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency7_200k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_200k",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_3d",
+                "quantity": 2
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 31500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3m",
+                "quantity": 3
+              },
+              {
+                "subtype": "hero_xp_20k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "currencies": [
+              {
+                "subtype": "currency1",
+                "quantity": 750
+              }
+            ],
+            "items": [
+              {
+                "subtype": "boost_15h",
+                "quantity": 2
+              },
+              {
+                "subtype": "city_teleport",
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

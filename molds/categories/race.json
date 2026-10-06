@@ -7,6 +7,22 @@
     "xenosaur": {
       "name": "~location_invader_xenosaur",
       "npc_only": true
+    },
+    "aqua": {
+      "name": "~location_invader_bloomstalker",
+      "npc_only": true
+    },
+    "alien_bug": {
+      "name": "~race_alien_bug",
+      "npc_only": true
+    },
+    "ufo": {
+      "name": "~location_invader_ufo",
+      "npc_only": true
+    },
+    "plasma_strider": {
+      "name": "~location_invader_plamsa_strider",
+      "npc_only": true
     }
   }
 }

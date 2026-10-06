@@ -3,6 +3,7 @@
     "debug": {},
     "purchases": {},
     "march_loadouts": {},
-    "extra_info": {}
+    "extra_info": {},
+    "confirmation_warnings": {}
   }
 }

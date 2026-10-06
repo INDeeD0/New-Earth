@@ -119,6 +119,7 @@
     "march_maximum": {},
     "march_carrier_limit": {},
     "march_carrier_active_stats": {},
+    "carrier_limit_bonus": {},
     "march_unit_capacity": {},
     "march_currency_capacity": {},
     "drone_collect_failure_modifier": {},

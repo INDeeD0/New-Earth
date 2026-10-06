@@ -1,0 +1,9 @@
+{
+  "purchase_costs": [
+    {
+      "subtype": "currency",
+      "target_subtype": "currency1",
+      "quantity": 50
+    }
+  ]
+}
