@@ -18,6 +18,10 @@
         {
           "subtype": "hero_slot4",
           "quantity": 1
+        },
+        {
+          "subtype": "hero_slot5",
+          "quantity": 1
         }
       ],
       "levels": [

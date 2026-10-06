@@ -8441,7 +8441,7 @@
             },
             {
               "subtype": "item",
-              "target_subtype": "crafting_xenosaur_venom",
+              "target_subtype": "crafting_biomesh",
               "quantity": 2625
             }
           ]
@@ -9263,7 +9263,7 @@
             },
             {
               "subtype": "item",
-              "target_subtype": "crafting_xenosaur_venom",
+              "target_subtype": "crafting_biomesh",
               "quantity": 2625
             }
           ]
@@ -11825,67 +11825,67 @@
             {
               "subtype": "mech_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "mech_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "mech_antiair_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "mech_antipersonnel_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "mech_aircraft_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "prototype_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "prototype_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "prototype_air_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "prototype_sniper_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "alien_light_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "alien_heavy_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "alien_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "alien_air_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.02
+              "modifier": 0.1
             },
             {
               "subtype": "hunt_outgoing_speed_modifier",
@@ -12070,67 +12070,67 @@
             {
               "subtype": "mech_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "mech_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "mech_antiair_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "mech_antipersonnel_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "mech_aircraft_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "prototype_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "prototype_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "prototype_air_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "prototype_sniper_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "alien_light_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "alien_heavy_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "alien_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "alien_air_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.04
+              "modifier": 0.15
             },
             {
               "subtype": "hunt_outgoing_speed_modifier",
@@ -12276,67 +12276,67 @@
             {
               "subtype": "mech_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "mech_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "mech_antiair_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "mech_antipersonnel_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "mech_aircraft_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "prototype_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "prototype_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "prototype_air_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "prototype_sniper_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "alien_light_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "alien_heavy_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "alien_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "alien_air_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.06
+              "modifier": 0.2
             },
             {
               "subtype": "hunt_outgoing_speed_modifier",
@@ -12482,67 +12482,67 @@
             {
               "subtype": "mech_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "mech_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "mech_antiair_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "mech_antipersonnel_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "mech_aircraft_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "prototype_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "prototype_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "prototype_air_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "prototype_sniper_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "alien_light_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "alien_heavy_infantry_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "alien_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "alien_air_vehicle_attack_modifier",
               "value": 0,
-              "modifier": 0.1
+              "modifier": 0.25
             },
             {
               "subtype": "hunt_outgoing_speed_modifier",
@@ -12553,6 +12553,291 @@
               "subtype": "hunt_incoming_speed_modifier",
               "value": 0,
               "modifier": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "gear_gloves_a": {
+      "name": "~item_gear_aqua_gloves",
+      "level": 1,
+      "category": {
+        "subtype": "category_gear"
+      },
+      "rarity": 5,
+      "slot": {
+        "subtype": "hero_slot5"
+      },
+      "levels": [
+        {},
+        {
+          "attributes": [
+            {
+              "subtype": "monster_attack",
+              "value": 165000
+            },
+            {
+              "subtype": "load",
+              "value": 165000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "hero_energy_regen",
+              "value": 2,
+              "modifier": 0
+            },
+            {
+              "subtype": "hero_capture_chance_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.2
+            }
+          ],
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hero_armory",
+              "level": 26
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua",
+              "quantity": 2000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua_rare",
+              "quantity": 1500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 7500
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 6000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 5250
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua",
+              "quantity": 4000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua_rare",
+              "quantity": 3000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 15000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 15000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 12000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 10500
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "monster_attack",
+              "value": 250000
+            },
+            {
+              "subtype": "load",
+              "value": 250000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "hero_energy_regen",
+              "value": 3,
+              "modifier": 0
+            },
+            {
+              "subtype": "hero_capture_chance_modifier",
+              "value": 0,
+              "modifier": 0.03
+            },
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.25
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua",
+              "quantity": 8000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua_rare",
+              "quantity": 6000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 30000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 24000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 21000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "monster_attack",
+              "value": 335000
+            },
+            {
+              "subtype": "load",
+              "value": 335000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "hero_energy_regen",
+              "value": 4,
+              "modifier": 0
+            },
+            {
+              "subtype": "hero_capture_chance_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.3
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua",
+              "quantity": 16000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_aqua_rare",
+              "quantity": 12000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_power_cell",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_alien_alloy",
+              "quantity": 60000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_reflectium",
+              "quantity": 48000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "crafting_biomesh",
+              "quantity": 42000
+            }
+          ],
+          "attributes": [
+            {
+              "subtype": "monster_attack",
+              "value": 500000
+            },
+            {
+              "subtype": "load",
+              "value": 500000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "march_combat_modifier",
+              "value": 0,
+              "modifier": 0.09
+            },
+            {
+              "subtype": "hero_energy_regen",
+              "value": 6,
+              "modifier": 0
+            },
+            {
+              "subtype": "hero_capture_chance_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "march_gather_modifier",
+              "value": 0,
+              "modifier": 0.4
             }
           ]
         }

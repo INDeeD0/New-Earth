@@ -223,7 +223,7 @@
       "sku": "dz_tier2_mega",
       "style": 6,
       "tier": 10,
-      "extra_value": 1985,
+      "extra_value": 1995,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -292,7 +292,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "purchase_xp": 22500
@@ -385,7 +385,7 @@
       "sku": "dz_tier3_mega",
       "style": 6,
       "tier": 20,
-      "extra_value": 1992,
+      "extra_value": 2000,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -462,7 +462,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 5
+            "quantity": 6
           }
         ],
         "purchase_xp": 47500
@@ -475,7 +475,7 @@
       "sku": "dz_tier3a_mini",
       "style": 1,
       "tier": 30,
-      "extra_value": 368,
+      "extra_value": 385,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -524,7 +524,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "purchase_xp": 12350
@@ -537,7 +537,7 @@
       "sku": "dz_tier3a_mega",
       "style": 6,
       "tier": 30,
-      "extra_value": 2004,
+      "extra_value": 2025,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -610,7 +610,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           },
           {
             "subtype": "vip_time_7d",
@@ -731,7 +731,7 @@
       "sku": "dz_tier4_mini",
       "style": 1,
       "tier": 50,
-      "extra_value": 383,
+      "extra_value": 400,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -788,7 +788,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "purchase_xp": 22100
@@ -801,7 +801,7 @@
       "sku": "dz_tier4_mega",
       "style": 6,
       "tier": 50,
-      "extra_value": 2006,
+      "extra_value": 2025,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -894,7 +894,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 8
+            "quantity": 10
           }
         ],
         "purchase_xp": 150000
@@ -929,7 +929,7 @@
       "sku": "dz_tier5_mini",
       "style": 1,
       "tier": 60,
-      "extra_value": 389,
+      "extra_value": 400,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -986,7 +986,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "purchase_xp": 52000
@@ -999,7 +999,7 @@
       "sku": "dz_tier5_mega",
       "style": 6,
       "tier": 60,
-      "extra_value": 2000,
+      "extra_value": 2050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -1116,7 +1116,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 12
+            "quantity": 15
           }
         ],
         "purchase_xp": 330000
@@ -2127,7 +2127,7 @@
       "sku": "dz_shard_1",
       "style": 7,
       "tier": 60,
-      "extra_value": 2000,
+      "extra_value": 2050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -2206,11 +2206,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry",
-            "quantity": 75000
+            "quantity": 80000
           },
           {
             "subtype": "tier_4_prototype_air",
-            "quantity": 75000
+            "quantity": 80000
           }
         ],
         "purchase_xp": 250000
@@ -5139,7 +5139,7 @@
       "sku": "dz_purchase_epic_1",
       "style": 2,
       "tier": 5,
-      "extra_value": 1331,
+      "extra_value": 1340,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -5184,7 +5184,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "purchase_xp": 6000
@@ -5197,7 +5197,7 @@
       "sku": "dz_purchase_epic_2",
       "style": 2,
       "tier": 10,
-      "extra_value": 1370,
+      "extra_value": 1380,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -5242,7 +5242,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 3
+            "quantity": 4
           }
         ],
         "purchase_xp": 15500
@@ -5255,7 +5255,7 @@
       "sku": "dz_purchase_epic_3",
       "style": 2,
       "tier": 20,
-      "extra_value": 1382,
+      "extra_value": 1390,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -5304,7 +5304,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 3
+            "quantity": 4
           },
           {
             "subtype": "city_teleport",
@@ -5321,7 +5321,7 @@
       "sku": "dz_purchase_epic_4",
       "style": 2,
       "tier": 30,
-      "extra_value": 1383,
+      "extra_value": 1400,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -5374,7 +5374,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           },
           {
             "subtype": "city_teleport",
@@ -5391,7 +5391,7 @@
       "sku": "dz_purchase_epic_5",
       "style": 2,
       "tier": 50,
-      "extra_value": 1388,
+      "extra_value": 1425,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -5460,7 +5460,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 10
+            "quantity": 13
           },
           {
             "subtype": "shield_8h",
@@ -5477,7 +5477,7 @@
       "sku": "dz_purchase_epic_6",
       "style": 2,
       "tier": 60,
-      "extra_value": 1389,
+      "extra_value": 1425,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -5558,7 +5558,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 15
+            "quantity": 20
           },
           {
             "subtype": "march_gather_boost_24h",
@@ -6242,11 +6242,11 @@
         "units": [
           {
             "subtype": "tier_4_mech_infantry",
-            "quantity": 2000
+            "quantity": 2250
           },
           {
             "subtype": "tier_4_mech_vehicle",
-            "quantity": 2000
+            "quantity": 2250
           }
         ],
         "purchase_xp": 8500
@@ -6259,7 +6259,7 @@
       "sku": "dz_mech_pack_tier2",
       "style": 4,
       "tier": 10,
-      "extra_value": 2164,
+      "extra_value": 2165,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6298,11 +6298,11 @@
         "units": [
           {
             "subtype": "tier_4_mech_infantry",
-            "quantity": 5000
+            "quantity": 5500
           },
           {
             "subtype": "tier_4_mech_vehicle",
-            "quantity": 5000
+            "quantity": 5500
           }
         ],
         "purchase_xp": 18000
@@ -6315,7 +6315,7 @@
       "sku": "dz_mech_pack_tier3",
       "style": 4,
       "tier": 20,
-      "extra_value": 2290,
+      "extra_value": 2310,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6348,17 +6348,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_infantry",
-            "quantity": 10500
+            "quantity": 11500
           },
           {
             "subtype": "tier_4_mech_vehicle",
-            "quantity": 10500
+            "quantity": 11500
           }
         ],
         "purchase_xp": 39500
@@ -6371,7 +6371,7 @@
       "sku": "dz_mech_pack_tier4",
       "style": 4,
       "tier": 30,
-      "extra_value": 2311,
+      "extra_value": 2335,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6416,17 +6416,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_infantry",
-            "quantity": 16000
+            "quantity": 17500
           },
           {
             "subtype": "tier_4_mech_vehicle",
-            "quantity": 16000
+            "quantity": 17500
           }
         ],
         "purchase_xp": 55000
@@ -6439,7 +6439,7 @@
       "sku": "dz_mech_pack_tier5",
       "style": 4,
       "tier": 50,
-      "extra_value": 2325,
+      "extra_value": 2375,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6492,17 +6492,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_infantry",
-            "quantity": 28000
+            "quantity": 30000
           },
           {
             "subtype": "tier_4_mech_vehicle",
-            "quantity": 28000
+            "quantity": 30000
           }
         ],
         "purchase_xp": 100000
@@ -6515,7 +6515,7 @@
       "sku": "dz_mech_pack_tier6",
       "style": 4,
       "tier": 60,
-      "extra_value": 2363,
+      "extra_value": 2435,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6576,7 +6576,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 10
+            "quantity": 13
           },
           {
             "subtype": "march_gather_boost_24h",
@@ -6586,11 +6586,11 @@
         "units": [
           {
             "subtype": "tier_4_mech_infantry",
-            "quantity": 80000
+            "quantity": 90000
           },
           {
             "subtype": "tier_4_mech_vehicle",
-            "quantity": 80000
+            "quantity": 90000
           }
         ],
         "purchase_xp": 295000
@@ -6603,7 +6603,7 @@
       "sku": "dz_tier4_promo",
       "style": 5,
       "tier": 50,
-      "extra_value": 2250,
+      "extra_value": 2300,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6640,7 +6640,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 10
+            "quantity": 13
           },
           {
             "subtype": "boost_hospital_8h",
@@ -6811,7 +6811,7 @@
       "sku": "dz_tier3_promo",
       "style": 5,
       "tier": 30,
-      "extra_value": 2050,
+      "extra_value": 2075,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6848,7 +6848,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 8
+            "quantity": 10
           },
           {
             "subtype": "boost_hospital_8h",
@@ -6905,7 +6905,7 @@
       "sku": "dz_tier5_promo",
       "style": 5,
       "tier": 60,
-      "extra_value": 2250,
+      "extra_value": 2300,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -6950,7 +6950,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 25
+            "quantity": 30
           },
           {
             "subtype": "boost_hospital_8h",
@@ -7256,7 +7256,7 @@
       "sku": "dz_prototype_pack_tier1",
       "style": 7,
       "tier": 5,
-      "extra_value": 2354,
+      "extra_value": 2355,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7295,11 +7295,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry",
-            "quantity": 1850
+            "quantity": 2000
           },
           {
             "subtype": "tier_4_prototype_air",
-            "quantity": 1850
+            "quantity": 2000
           }
         ],
         "purchase_xp": 10250
@@ -7312,7 +7312,7 @@
       "sku": "dz_prototype_pack_tier2",
       "style": 7,
       "tier": 10,
-      "extra_value": 2250,
+      "extra_value": 2255,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7359,11 +7359,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry",
-            "quantity": 4750
+            "quantity": 5000
           },
           {
             "subtype": "tier_4_prototype_air",
-            "quantity": 4750
+            "quantity": 5000
           }
         ],
         "purchase_xp": 20000
@@ -7376,7 +7376,7 @@
       "sku": "dz_prototype_pack_tier3",
       "style": 7,
       "tier": 20,
-      "extra_value": 2365,
+      "extra_value": 2375,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7423,11 +7423,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry",
-            "quantity": 12500
+            "quantity": 14000
           },
           {
             "subtype": "tier_4_prototype_air",
-            "quantity": 12500
+            "quantity": 14000
           }
         ],
         "purchase_xp": 38500
@@ -7440,7 +7440,7 @@
       "sku": "dz_prototype_pack_tier4",
       "style": 7,
       "tier": 30,
-      "extra_value": 2370,
+      "extra_value": 2385,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7499,11 +7499,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry",
-            "quantity": 17500
+            "quantity": 19000
           },
           {
             "subtype": "tier_4_prototype_air",
-            "quantity": 17500
+            "quantity": 19000
           }
         ],
         "purchase_xp": 57500
@@ -7516,7 +7516,7 @@
       "sku": "dz_prototype_pack_tier5",
       "style": 7,
       "tier": 50,
-      "extra_value": 2275,
+      "extra_value": 2310,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7593,7 +7593,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "combat_attack_boost_1d",
@@ -7603,11 +7603,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry",
-            "quantity": 28500
+            "quantity": 32500
           },
           {
             "subtype": "tier_4_prototype_air",
-            "quantity": 28500
+            "quantity": 32500
           }
         ],
         "purchase_xp": 120000
@@ -7620,7 +7620,7 @@
       "sku": "dz_prototype_pack_tier6",
       "style": 7,
       "tier": 60,
-      "extra_value": 2395,
+      "extra_value": 2475,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7701,17 +7701,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 10
+            "quantity": 13
           }
         ],
         "units": [
           {
             "subtype": "tier_4_prototype_infantry",
-            "quantity": 82500
+            "quantity": 90000
           },
           {
             "subtype": "tier_4_prototype_air",
-            "quantity": 82500
+            "quantity": 90000
           }
         ],
         "purchase_xp": 335000
@@ -7880,7 +7880,7 @@
       "sku": "dz_squadron_pack_tier1",
       "style": 9,
       "tier": 5,
-      "extra_value": 2179,
+      "extra_value": 2180,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7919,19 +7919,19 @@
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 1200
+            "quantity": 1375
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 1200
+            "quantity": 1375
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 1200
+            "quantity": 1375
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 1200
+            "quantity": 1375
           }
         ],
         "purchase_xp": 9250
@@ -7944,7 +7944,7 @@
       "sku": "dz_squadron_pack_tier2",
       "style": 9,
       "tier": 10,
-      "extra_value": 2184,
+      "extra_value": 2200,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -7985,25 +7985,25 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 3250
+            "quantity": 3500
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 3250
+            "quantity": 3500
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 3250
+            "quantity": 3500
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 3250
+            "quantity": 3500
           }
         ],
         "purchase_xp": 18500
@@ -8016,7 +8016,7 @@
       "sku": "dz_squadron_pack_tier3",
       "style": 9,
       "tier": 20,
-      "extra_value": 2190,
+      "extra_value": 2210,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8065,25 +8065,25 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 3
+            "quantity": 4
           }
         ],
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 6500
+            "quantity": 7250
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 6500
+            "quantity": 7250
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 6500
+            "quantity": 7250
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 6500
+            "quantity": 7250
           }
         ],
         "purchase_xp": 36500
@@ -8096,7 +8096,7 @@
       "sku": "dz_squadron_pack_tier4",
       "style": 9,
       "tier": 30,
-      "extra_value": 2194,
+      "extra_value": 2220,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8145,25 +8145,25 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 11000
+            "quantity": 12000
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 11000
+            "quantity": 12000
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 11000
+            "quantity": 12000
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 11000
+            "quantity": 12000
           }
         ],
         "purchase_xp": 57500
@@ -8176,7 +8176,7 @@
       "sku": "dz_squadron_pack_tier5",
       "style": 9,
       "tier": 50,
-      "extra_value": 2214,
+      "extra_value": 2250,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8253,25 +8253,25 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 5
+            "quantity": 6
           }
         ],
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 22000
+            "quantity": 23750
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 22000
+            "quantity": 23750
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 22000
+            "quantity": 23750
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 22000
+            "quantity": 23750
           }
         ],
         "purchase_xp": 102500
@@ -8284,7 +8284,7 @@
       "sku": "dz_squadron_pack_tier6",
       "style": 9,
       "tier": 60,
-      "extra_value": 2237,
+      "extra_value": 2305,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8365,25 +8365,25 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 8
+            "quantity": 10
           }
         ],
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 55000
+            "quantity": 60000
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 55000
+            "quantity": 60000
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 55000
+            "quantity": 60000
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 55000
+            "quantity": 60000
           }
         ],
         "purchase_xp": 305000
@@ -8552,7 +8552,7 @@
       "sku": "dz_heavymech_pack_tier1",
       "style": 8,
       "tier": 5,
-      "extra_value": 2353,
+      "extra_value": 2355,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8587,11 +8587,11 @@
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 1850
+            "quantity": 2000
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 1850
+            "quantity": 2000
           }
         ],
         "purchase_xp": 6500
@@ -8604,7 +8604,7 @@
       "sku": "dz_heavymech_pack_tier2",
       "style": 8,
       "tier": 10,
-      "extra_value": 2348,
+      "extra_value": 2350,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8651,11 +8651,11 @@
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 5250
+            "quantity": 6000
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 5250
+            "quantity": 6000
           }
         ],
         "purchase_xp": 17000
@@ -8668,7 +8668,7 @@
       "sku": "dz_heavymech_pack_tier3",
       "style": 8,
       "tier": 20,
-      "extra_value": 2355,
+      "extra_value": 2375,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8713,17 +8713,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 12750
+            "quantity": 14000
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 12750
+            "quantity": 14000
           }
         ],
         "purchase_xp": 38500
@@ -8736,7 +8736,7 @@
       "sku": "dz_heavymech_pack_tier4",
       "style": 8,
       "tier": 30,
-      "extra_value": 2388,
+      "extra_value": 2415,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8781,17 +8781,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 21500
+            "quantity": 23500
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 21500
+            "quantity": 23500
           }
         ],
         "purchase_xp": 57000
@@ -8804,7 +8804,7 @@
       "sku": "dz_heavymech_pack_tier5",
       "style": 8,
       "tier": 50,
-      "extra_value": 2390,
+      "extra_value": 2425,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8873,17 +8873,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 35000
+            "quantity": 37500
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 35000
+            "quantity": 37500
           }
         ],
         "purchase_xp": 105000
@@ -8896,7 +8896,7 @@
       "sku": "dz_heavymech_pack_tier51_discount",
       "style": 8,
       "tier": 40,
-      "extra_value": 2390,
+      "extra_value": 2415,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -8965,17 +8965,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 35000
+            "quantity": 37500
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 35000
+            "quantity": 37500
           }
         ],
         "purchase_xp": 105000
@@ -8988,7 +8988,7 @@
       "sku": "dz_heavymech_pack_tier6",
       "style": 8,
       "tier": 60,
-      "extra_value": 2394,
+      "extra_value": 2475,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9065,17 +9065,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 10
+            "quantity": 13
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 85000
+            "quantity": 95000
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 85000
+            "quantity": 95000
           }
         ],
         "purchase_xp": 325000
@@ -9088,7 +9088,7 @@
       "sku": "dz_heavymech_pack_tier61_discount",
       "style": 8,
       "tier": 56,
-      "extra_value": 2394,
+      "extra_value": 2450,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9165,17 +9165,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 10
+            "quantity": 13
           }
         ],
         "units": [
           {
             "subtype": "tier_4_mech_antiair",
-            "quantity": 85000
+            "quantity": 95000
           },
           {
             "subtype": "tier_4_mech_antipersonnel",
-            "quantity": 85000
+            "quantity": 95000
           }
         ],
         "purchase_xp": 325000
@@ -9188,7 +9188,7 @@
       "sku": "dz_advancedprototype_pack_tier1",
       "style": 10,
       "tier": 5,
-      "extra_value": 2391,
+      "extra_value": 2390,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9223,11 +9223,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_sniper",
-            "quantity": 1750
+            "quantity": 2000
           },
           {
             "subtype": "tier_4_prototype_vehicle",
-            "quantity": 1750
+            "quantity": 2000
           }
         ],
         "purchase_xp": 11500
@@ -9240,7 +9240,7 @@
       "sku": "dz_advancedprototype_pack_tier2",
       "style": 10,
       "tier": 10,
-      "extra_value": 2400,
+      "extra_value": 2405,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9291,11 +9291,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_sniper",
-            "quantity": 5500
+            "quantity": 6000
           },
           {
             "subtype": "tier_4_prototype_vehicle",
-            "quantity": 5500
+            "quantity": 6000
           }
         ],
         "purchase_xp": 19000
@@ -9308,7 +9308,7 @@
       "sku": "dz_advancedprototype_pack_tier3",
       "style": 10,
       "tier": 20,
-      "extra_value": 2412,
+      "extra_value": 2420,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9363,11 +9363,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_sniper",
-            "quantity": 12500
+            "quantity": 14000
           },
           {
             "subtype": "tier_4_prototype_vehicle",
-            "quantity": 12500
+            "quantity": 14000
           }
         ],
         "purchase_xp": 37500
@@ -9380,7 +9380,7 @@
       "sku": "dz_advancedprototype_pack_tier4",
       "style": 10,
       "tier": 30,
-      "extra_value": 2413,
+      "extra_value": 2440,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9429,17 +9429,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 3
+            "quantity": 4
           }
         ],
         "units": [
           {
             "subtype": "tier_4_prototype_sniper",
-            "quantity": 20000
+            "quantity": 22000
           },
           {
             "subtype": "tier_4_prototype_vehicle",
-            "quantity": 20000
+            "quantity": 22000
           }
         ],
         "purchase_xp": 57500
@@ -9452,7 +9452,7 @@
       "sku": "dz_advancedprototype_pack_tier5",
       "style": 10,
       "tier": 50,
-      "extra_value": 2416,
+      "extra_value": 2450,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9529,17 +9529,17 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "units": [
           {
             "subtype": "tier_4_prototype_sniper",
-            "quantity": 34500
+            "quantity": 37500
           },
           {
             "subtype": "tier_4_prototype_vehicle",
-            "quantity": 34500
+            "quantity": 37500
           }
         ],
         "purchase_xp": 125000
@@ -9552,7 +9552,7 @@
       "sku": "dz_advancedprototype_pack_tier6",
       "style": 10,
       "tier": 60,
-      "extra_value": 2432,
+      "extra_value": 2530,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9643,11 +9643,11 @@
         "units": [
           {
             "subtype": "tier_4_prototype_sniper",
-            "quantity": 90000
+            "quantity": 95000
           },
           {
             "subtype": "tier_4_prototype_vehicle",
-            "quantity": 90000
+            "quantity": 95000
           }
         ],
         "purchase_xp": 345000
@@ -9759,19 +9759,19 @@
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 2500
+            "quantity": 2750
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 2500
+            "quantity": 2750
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 2500
+            "quantity": 2750
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 2500
+            "quantity": 2750
           }
         ],
         "purchase_xp": 50000
@@ -9784,7 +9784,7 @@
       "sku": "dz_alien_inf_pack_tier2",
       "style": 12,
       "tier": 10,
-      "extra_value": 2349,
+      "extra_value": 2350,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9831,7 +9831,7 @@
         "units": [
           {
             "subtype": "tier_4_alien_light_infantry",
-            "quantity": 10000
+            "quantity": 11000
           }
         ],
         "purchase_xp": 19000
@@ -9844,7 +9844,7 @@
       "sku": "dz_alien_inf_pack_tier4",
       "style": 12,
       "tier": 30,
-      "extra_value": 2360,
+      "extra_value": 2375,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -9903,7 +9903,7 @@
         "units": [
           {
             "subtype": "tier_4_alien_light_infantry",
-            "quantity": 37500
+            "quantity": 41000
           }
         ],
         "purchase_xp": 65000
@@ -9916,7 +9916,7 @@
       "sku": "dz_alien_inf_pack_tier5",
       "style": 12,
       "tier": 50,
-      "extra_value": 2415,
+      "extra_value": 2475,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10001,13 +10001,13 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 5
+            "quantity": 6
           }
         ],
         "units": [
           {
             "subtype": "tier_4_alien_light_infantry",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 115000
@@ -10020,7 +10020,7 @@
       "sku": "dz_alien_inf_pack_tier6",
       "style": 12,
       "tier": 60,
-      "extra_value": 2449,
+      "extra_value": 2505,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10101,13 +10101,13 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 5
+            "quantity": 6
           }
         ],
         "units": [
           {
             "subtype": "tier_4_alien_light_infantry",
-            "quantity": 175000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 345000
@@ -10120,7 +10120,7 @@
       "sku": "dz_alien_disc_pack_tier1",
       "style": 13,
       "tier": 5,
-      "extra_value": 2491,
+      "extra_value": 2490,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10151,7 +10151,7 @@
         "units": [
           {
             "subtype": "tier_4_alien_air_vehicle",
-            "quantity": 5500
+            "quantity": 6000
           }
         ],
         "purchase_xp": 9000
@@ -10164,7 +10164,7 @@
       "sku": "dz_alien_disc_pack_tier3",
       "style": 13,
       "tier": 20,
-      "extra_value": 2497,
+      "extra_value": 2505,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10215,7 +10215,7 @@
         "units": [
           {
             "subtype": "tier_4_alien_air_vehicle",
-            "quantity": 23500
+            "quantity": 26000
           }
         ],
         "purchase_xp": 46500
@@ -10228,7 +10228,7 @@
       "sku": "dz_alien_disc_pack_tier5",
       "style": 13,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2560,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10297,13 +10297,13 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "units": [
           {
             "subtype": "tier_4_alien_air_vehicle",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 110000
@@ -10316,7 +10316,7 @@
       "sku": "dz_alien_disc_pack_tier51_discount",
       "style": 13,
       "tier": 40,
-      "extra_value": 2500,
+      "extra_value": 2560,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10385,13 +10385,13 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           }
         ],
         "units": [
           {
             "subtype": "tier_4_alien_air_vehicle",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 110000
@@ -10404,7 +10404,7 @@
       "sku": "dz_alien_disc_pack_tier6",
       "style": 13,
       "tier": 60,
-      "extra_value": 2574,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10465,13 +10465,13 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           }
         ],
         "units": [
           {
             "subtype": "tier_4_alien_air_vehicle",
-            "quantity": 185000
+            "quantity": 200000
           }
         ],
         "purchase_xp": 355000
@@ -10484,7 +10484,7 @@
       "sku": "dz_alien_disc_pack_tier61_discount",
       "style": 13,
       "tier": 56,
-      "extra_value": 2574,
+      "extra_value": 2625,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10545,13 +10545,13 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           }
         ],
         "units": [
           {
             "subtype": "tier_4_alien_air_vehicle",
-            "quantity": 185000
+            "quantity": 200000
           }
         ],
         "purchase_xp": 355000
@@ -10564,7 +10564,7 @@
       "sku": "dz_hero_equipment_pack_tier5",
       "style": 18,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 3000,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10585,15 +10585,15 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 50
+            "quantity": 65
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 50
+            "quantity": 65
           },
           {
             "subtype": "hero_energy_100",
-            "quantity": 50
+            "quantity": 65
           },
           {
             "subtype": "armory_blueprints",
@@ -10610,7 +10610,7 @@
       "sku": "dz_hero_equipment_pack_tier6",
       "style": 18,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 3000,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10631,15 +10631,15 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 100
+            "quantity": 125
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 100
+            "quantity": 125
           },
           {
             "subtype": "hero_energy_100",
-            "quantity": 100
+            "quantity": 125
           },
           {
             "subtype": "armory_blueprints",
@@ -10656,7 +10656,7 @@
       "sku": "dz_armored_rover_pack_tier_3",
       "style": 19,
       "tier": 20,
-      "extra_value": 2500,
+      "extra_value": 2520,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10673,7 +10673,7 @@
         "items": [
           {
             "subtype": "hero_energy_500",
-            "quantity": 5
+            "quantity": 6
           },
           {
             "subtype": "city_teleport",
@@ -10703,7 +10703,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_vehicle_speed",
-            "quantity": 25000
+            "quantity": 28000
           }
         ],
         "purchase_xp": 45000
@@ -10716,7 +10716,7 @@
       "sku": "dz_armored_rover_pack_tier_5",
       "style": 19,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2575,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10733,7 +10733,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -10771,7 +10771,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_vehicle_speed",
-            "quantity": 70000
+            "quantity": 75000
           }
         ],
         "purchase_xp": 120000
@@ -10784,7 +10784,7 @@
       "sku": "dz_armored_rover_pack_tier_6",
       "style": 19,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10801,7 +10801,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -10843,7 +10843,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_vehicle_speed",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -10856,7 +10856,7 @@
       "sku": "dz_mobile_cannon_pack_tier_3",
       "style": 20,
       "tier": 20,
-      "extra_value": 2500,
+      "extra_value": 2535,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10873,7 +10873,7 @@
         "items": [
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           },
           {
             "subtype": "city_teleport",
@@ -10903,7 +10903,7 @@
         "units": [
           {
             "subtype": "tier_4_mech_vehicle_attack",
-            "quantity": 25000
+            "quantity": 28000
           }
         ],
         "purchase_xp": 44500
@@ -10916,7 +10916,7 @@
       "sku": "dz_mobile_cannon_pack_tier_5",
       "style": 20,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -10933,7 +10933,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -10971,7 +10971,7 @@
         "units": [
           {
             "subtype": "tier_4_mech_vehicle_attack",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -10984,7 +10984,7 @@
       "sku": "dz_mobile_cannon_pack_tier_6",
       "style": 20,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11001,7 +11001,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11047,7 +11047,7 @@
         "units": [
           {
             "subtype": "tier_4_mech_vehicle_attack",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -11060,7 +11060,7 @@
       "sku": "dz_covert_agent_pack_tier_3",
       "style": 21,
       "tier": 20,
-      "extra_value": 2500,
+      "extra_value": 2535,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11077,7 +11077,7 @@
         "items": [
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           },
           {
             "subtype": "city_teleport",
@@ -11107,7 +11107,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry_defense",
-            "quantity": 25000
+            "quantity": 28000
           }
         ],
         "purchase_xp": 44500
@@ -11120,7 +11120,7 @@
       "sku": "dz_covert_agent_pack_tier_5",
       "style": 21,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11137,7 +11137,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11175,7 +11175,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry_defense",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -11188,7 +11188,7 @@
       "sku": "dz_covert_agent_pack_tier_6",
       "style": 21,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11205,7 +11205,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11251,7 +11251,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry_defense",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -11264,7 +11264,7 @@
       "sku": "dz_covert_agent_pack_tier_31_discount",
       "style": 22,
       "tier": 18,
-      "extra_value": 2500,
+      "extra_value": 2530,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11281,7 +11281,7 @@
         "items": [
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           },
           {
             "subtype": "city_teleport",
@@ -11311,7 +11311,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry_defense",
-            "quantity": 25000
+            "quantity": 28000
           }
         ],
         "purchase_xp": 44500
@@ -11324,7 +11324,7 @@
       "sku": "dz_covert_agent_pack_tier_51_discount",
       "style": 22,
       "tier": 45,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11341,7 +11341,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11379,7 +11379,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry_defense",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -11392,7 +11392,7 @@
       "sku": "dz_covert_agent_pack_tier_61_discount",
       "style": 22,
       "tier": 58,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11409,7 +11409,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11455,7 +11455,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_infantry_defense",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -11468,7 +11468,7 @@
       "sku": "dz_behemoth_pack_tier_5",
       "style": 23,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11485,7 +11485,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11523,7 +11523,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_mech_health",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -11536,7 +11536,7 @@
       "sku": "dz_behemoth_pack_tier_6",
       "style": 23,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11553,7 +11553,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11599,7 +11599,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_mech_health",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -11612,7 +11612,7 @@
       "sku": "dz_hornet_pack_tier_2",
       "style": 24,
       "tier": 10,
-      "extra_value": 2349,
+      "extra_value": 2350,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11659,7 +11659,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 10000
+            "quantity": 11000
           }
         ],
         "purchase_xp": 19000
@@ -11672,7 +11672,7 @@
       "sku": "dz_hornet_pack_tier_3",
       "style": 24,
       "tier": 20,
-      "extra_value": 2500,
+      "extra_value": 2535,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11689,7 +11689,7 @@
         "items": [
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           },
           {
             "subtype": "city_teleport",
@@ -11719,7 +11719,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 25000
+            "quantity": 28000
           }
         ],
         "purchase_xp": 44500
@@ -11732,7 +11732,7 @@
       "sku": "dz_hornet_pack_tier_5",
       "style": 24,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11749,7 +11749,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11787,7 +11787,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -11800,7 +11800,7 @@
       "sku": "dz_hornet_pack_tier_6",
       "style": 24,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11817,7 +11817,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -11863,7 +11863,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -11876,7 +11876,7 @@
       "sku": "dz_hornet_pack_tier_21_discount",
       "style": 28,
       "tier": 8,
-      "extra_value": 2349,
+      "extra_value": 2350,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11923,7 +11923,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 10000
+            "quantity": 11000
           }
         ],
         "purchase_xp": 19000
@@ -11936,7 +11936,7 @@
       "sku": "dz_hornet_pack_tier_31_discount",
       "style": 28,
       "tier": 16,
-      "extra_value": 2500,
+      "extra_value": 2530,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -11953,7 +11953,7 @@
         "items": [
           {
             "subtype": "hero_energy_500",
-            "quantity": 6
+            "quantity": 8
           },
           {
             "subtype": "city_teleport",
@@ -11983,7 +11983,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 25000
+            "quantity": 28000
           }
         ],
         "purchase_xp": 44500
@@ -11996,7 +11996,7 @@
       "sku": "dz_hornet_pack_tier_51_discount",
       "style": 28,
       "tier": 40,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12013,7 +12013,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12051,7 +12051,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -12064,7 +12064,7 @@
       "sku": "dz_hornet_pack_tier_61_discount",
       "style": 28,
       "tier": 56,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12081,7 +12081,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12127,7 +12127,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_attack",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -12140,7 +12140,7 @@
       "sku": "dz_scorpion_pack_tier_5",
       "style": 25,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12157,7 +12157,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12195,7 +12195,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_vehicle_attack",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -12208,7 +12208,7 @@
       "sku": "dz_scorpion_pack_tier_6",
       "style": 25,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12225,7 +12225,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12271,7 +12271,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_vehicle_attack",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -12284,7 +12284,7 @@
       "sku": "dz_firefly_pack_tier_5",
       "style": 26,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12301,7 +12301,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12339,7 +12339,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_speed",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -12352,7 +12352,7 @@
       "sku": "dz_firefly_pack_tier_6",
       "style": 26,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12369,7 +12369,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12415,7 +12415,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_speed",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -12428,7 +12428,7 @@
       "sku": "dz_falcon_pack_tier_5",
       "style": 27,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2600,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12445,7 +12445,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12483,7 +12483,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_defense",
-            "quantity": 72500
+            "quantity": 77500
           }
         ],
         "purchase_xp": 120000
@@ -12496,7 +12496,7 @@
       "sku": "dz_falcon_pack_tier_6",
       "style": 27,
       "tier": 60,
-      "extra_value": 2500,
+      "extra_value": 2650,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12513,7 +12513,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12559,7 +12559,7 @@
         "units": [
           {
             "subtype": "tier_4_prototype_air_defense",
-            "quantity": 180000
+            "quantity": 190000
           }
         ],
         "purchase_xp": 350000
@@ -12572,7 +12572,7 @@
       "sku": "dz_launcher_pack_tier_5",
       "style": 36,
       "tier": 50,
-      "extra_value": 2750,
+      "extra_value": 2800,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12589,7 +12589,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12640,7 +12640,7 @@
       "sku": "dz_launcher_pack_tier_6",
       "style": 36,
       "tier": 60,
-      "extra_value": 3000,
+      "extra_value": 3050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12657,7 +12657,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12716,7 +12716,7 @@
       "sku": "dz_renegade_pack_tier_5",
       "style": 37,
       "tier": 50,
-      "extra_value": 2750,
+      "extra_value": 2800,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12733,7 +12733,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12784,7 +12784,7 @@
       "sku": "dz_renegade_pack_tier_6",
       "style": 37,
       "tier": 60,
-      "extra_value": 3000,
+      "extra_value": 3050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12801,7 +12801,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12860,7 +12860,7 @@
       "sku": "dz_interceptor_pack_tier_5",
       "style": 38,
       "tier": 50,
-      "extra_value": 2750,
+      "extra_value": 2800,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12877,7 +12877,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -12928,7 +12928,7 @@
       "sku": "dz_interceptor_pack_tier_60",
       "style": 38,
       "tier": 60,
-      "extra_value": 3000,
+      "extra_value": 3050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -12945,7 +12945,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -13004,7 +13004,7 @@
       "sku": "dz_mech_trooper_pack_tier_5a",
       "style": 40,
       "tier": 50,
-      "extra_value": 2750,
+      "extra_value": 2800,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13021,7 +13021,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -13072,7 +13072,7 @@
       "sku": "dz_mech_trooper_pack_tier_6",
       "style": 40,
       "tier": 60,
-      "extra_value": 3000,
+      "extra_value": 3050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13089,7 +13089,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -13148,7 +13148,7 @@
       "sku": "dz_obsidian_hawk_pack_tier_5",
       "style": 41,
       "tier": 50,
-      "extra_value": 2750,
+      "extra_value": 2800,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13165,7 +13165,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -13216,7 +13216,7 @@
       "sku": "dz_obsidian_hawk_pack_tier_6",
       "style": 41,
       "tier": 60,
-      "extra_value": 3000,
+      "extra_value": 3050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13233,7 +13233,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -13292,7 +13292,7 @@
       "sku": "dz_alien_breacher_pack_tier_5",
       "style": 42,
       "tier": 50,
-      "extra_value": 2750,
+      "extra_value": 2800,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13309,7 +13309,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -13360,7 +13360,7 @@
       "sku": "dz_alien_breacher_pack_tier_6",
       "style": 42,
       "tier": 60,
-      "extra_value": 3000,
+      "extra_value": 3050,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13377,7 +13377,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "city_teleport",
@@ -13482,7 +13482,7 @@
       "sku": "dz_daily_offer_tier2_bundle",
       "style": 29,
       "tier": 2,
-      "extra_value": 2098,
+      "extra_value": 2105,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13515,7 +13515,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 2
+            "quantity": 3
           },
           {
             "subtype": "currency7_50k",
@@ -13540,7 +13540,7 @@
       "sku": "dz_daily_offer_tier3_bundle",
       "style": 29,
       "tier": 3,
-      "extra_value": 6500,
+      "extra_value": 6550,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13577,7 +13577,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 2
+            "quantity": 3
           },
           {
             "subtype": "currency7_50k",
@@ -13610,7 +13610,7 @@
       "sku": "dz_invader_equipment_pack_tier2",
       "style": 30,
       "tier": 20,
-      "extra_value": 2489,
+      "extra_value": 2525,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13635,11 +13635,11 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 10
+            "quantity": 13
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 10
+            "quantity": 13
           },
           {
             "subtype": "march_25_percent_boost",
@@ -13656,7 +13656,7 @@
       "sku": "dz_invader_equipment_pack_tier5",
       "style": 30,
       "tier": 50,
-      "extra_value": 2502,
+      "extra_value": 2510,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13681,11 +13681,11 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "march_25_percent_boost",
@@ -13702,7 +13702,7 @@
       "sku": "dz_invader_equipment_pack_tier6",
       "style": 30,
       "tier": 60,
-      "extra_value": 2506,
+      "extra_value": 2750,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13727,11 +13727,11 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 100
+            "quantity": 125
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 50
+            "quantity": 65
           },
           {
             "subtype": "march_25_percent_boost",
@@ -13748,7 +13748,7 @@
       "sku": "dz_tier4_mega1_discount",
       "style": 33,
       "tier": 45,
-      "extra_value": 2006,
+      "extra_value": 2025,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13841,7 +13841,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 8
+            "quantity": 10
           }
         ],
         "purchase_xp": 150000
@@ -13854,7 +13854,7 @@
       "sku": "dz_tier5_mega1_discount",
       "style": 33,
       "tier": 58,
-      "extra_value": 2000,
+      "extra_value": 2025,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -13971,7 +13971,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 12
+            "quantity": 15
           }
         ],
         "purchase_xp": 330000
@@ -13984,7 +13984,7 @@
       "sku": "dz_epic_conversion_pack",
       "style": 11,
       "tier": 20,
-      "extra_value": 4000,
+      "extra_value": 4060,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -14001,7 +14001,7 @@
         "items": [
           {
             "subtype": "hero_energy_1000",
-            "quantity": 20
+            "quantity": 25
           },
           {
             "subtype": "shield_1d",
@@ -14079,19 +14079,19 @@
         "units": [
           {
             "subtype": "tier_3_light_infantry",
-            "quantity": 2000
+            "quantity": 2250
           },
           {
             "subtype": "tier_3_heavy_infantry",
-            "quantity": 2000
+            "quantity": 2250
           },
           {
             "subtype": "tier_3_ground_vehicle",
-            "quantity": 2000
+            "quantity": 2250
           },
           {
             "subtype": "tier_3_air_vehicle",
-            "quantity": 2000
+            "quantity": 2250
           }
         ],
         "purchase_xp": 45000
@@ -14104,7 +14104,7 @@
       "sku": "dz_tier6_indomitable",
       "style": 34,
       "tier": 60,
-      "extra_value": 2200,
+      "extra_value": 2250,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -14141,7 +14141,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 25
+            "quantity": 30
           },
           {
             "subtype": "boost_8h",
@@ -14214,7 +14214,7 @@
       "sku": "dz_tier5_trooprecovery_bundle",
       "style": 35,
       "tier": 50,
-      "extra_value": 2300,
+      "extra_value": 2350,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -14271,7 +14271,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 10
+            "quantity": 13
           }
         ],
         "purchase_xp": 145000
@@ -14284,7 +14284,7 @@
       "sku": "dz_tier6_trooprecovery_bundle",
       "style": 35,
       "tier": 60,
-      "extra_value": 2350,
+      "extra_value": 2850,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -14341,7 +14341,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 250
+            "quantity": 315
           }
         ],
         "purchase_xp": 350000
@@ -14354,7 +14354,7 @@
       "sku": "dz_tier50_alien_tech_accelerator",
       "style": 39,
       "tier": 50,
-      "extra_value": 2500,
+      "extra_value": 2525,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -14415,7 +14415,7 @@
           },
           {
             "subtype": "hero_energy_500",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "purchase_xp": 175000
@@ -14428,7 +14428,7 @@
       "sku": "dz_tier60_alien_tech_accelerator_mega",
       "style": 39,
       "tier": 60,
-      "extra_value": 2750,
+      "extra_value": 2775,
       "require_unlock": true,
       "reward": {
         "caches": [
@@ -14489,7 +14489,7 @@
           },
           {
             "subtype": "hero_energy_1000",
-            "quantity": 5
+            "quantity": 6
           }
         ],
         "purchase_xp": 375000
@@ -14503,8 +14503,31 @@
       "style": 43,
       "tier": 25,
       "require_unlock": true,
+      "reward": {},
+      "epic_id": "da3d49a07e2a4291ab62bf7846031019",
+      "epic_audience_id": "27de4ed11f9e4edf93702dcc4509aefa"
+    },
+    "battle_pass_premium_1": {
+      "name": "~purchase_battle_pass_premium",
+      "sku": "dz_tier1",
+      "tier": 10,
+      "style": 999,
+      "require_unlock": true,
       "reward": {
-        "purchase_xp": 750000
+        "battle_pass_premium": "battle_pass_1",
+        "purchase_xp": 100
+      }
+    },
+    "battle_pass_premium_1_advanced": {
+      "name": "~purchase_battle_pass_premium_advanced",
+      "sku": "dz_tier1",
+      "tier": 20,
+      "style": 999,
+      "require_unlock": true,
+      "reward": {
+        "battle_pass_premium": "battle_pass_1",
+        "battle_pass_points": 8000,
+        "purchase_xp": 100
       }
     }
   }

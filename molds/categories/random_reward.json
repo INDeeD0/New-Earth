@@ -3362,6 +3362,174 @@
         ]
       }
     },
+    "lootable_aqua_tier40_a": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 200000,
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 500
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier40_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 200000,
+        "items": [
+          {
+            "subtype": "hero_xp_100k",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier40_c": {
+      "chance": 0.3,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 200000,
+        "items": [
+          {
+            "subtype": "crafting_aqua",
+            "quantity": 25
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier40_d": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 200000,
+        "items": [
+          {
+            "subtype": "crafting_aqua_rare",
+            "quantity": 10
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier40_e": {
+      "chance": 0.05,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 200000,
+        "items": [
+          {
+            "subtype": "crafting_aqua",
+            "quantity": 50
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier40_f": {
+      "chance": 0.05,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 200000,
+        "items": [
+          {
+            "subtype": "crafting_aqua_rare",
+            "quantity": 40
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier20_a": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 67000,
+        "currencies": [
+          {
+            "subtype": "currency8",
+            "quantity": 170
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier20_b": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 67000,
+        "items": [
+          {
+            "subtype": "hero_xp_100k",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier20_c": {
+      "chance": 0.3,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 67000,
+        "items": [
+          {
+            "subtype": "crafting_aqua",
+            "quantity": 8
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier20_d": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 67000,
+        "items": [
+          {
+            "subtype": "crafting_aqua_rare",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier20_e": {
+      "chance": 0.05,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 67000,
+        "items": [
+          {
+            "subtype": "crafting_aqua",
+            "quantity": 16
+          }
+        ]
+      }
+    },
+    "lootable_aqua_tier20_f": {
+      "chance": 0.05,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 67000,
+        "items": [
+          {
+            "subtype": "crafting_aqua_rare",
+            "quantity": 14
+          }
+        ]
+      }
+    },
     "lootable_dropship_event_reward_tier11_a": {
       "chance": 0.15,
       "min_quantity": 1,
@@ -5532,6 +5700,622 @@
         "items": [
           {
             "subtype": "bundle_crafting_loot_epic",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9a": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_rubber",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9b": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_leather",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9c": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_durable_fabric",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9d": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_plastic",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9e": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_gunpowder",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9f": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_gunmetal",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9g": {
+      "chance": 0.04,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_grip",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9h": {
+      "chance": 0.04,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_magazine",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9i": {
+      "chance": 0.04,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_synthetic_fiber",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9j": {
+      "chance": 0.04,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_ballistic_plates",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9k": {
+      "chance": 0.04,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_ceramics",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9l": {
+      "chance": 0.07,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_carbon_fiber",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9m": {
+      "chance": 0.07,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_steel",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9n": {
+      "chance": 0.07,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_chrome_alloy",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9o": {
+      "chance": 0.07,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_kevlar_fiber",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9p": {
+      "chance": 0.07,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_doron_plate",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9q": {
+      "chance": 0.07,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_shells",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9r": {
+      "chance": 0.06,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_titanium",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9s": {
+      "chance": 0.06,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_scope",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9t": {
+      "chance": 0.06,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "crafting_silencer",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9u": {
+      "chance": 0.05,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "bundle_crafting_loot_epic",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_9v": {
+      "chance": 0.03,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "hero_xp_100k",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10a": {
+      "chance": 0.005,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_rubber",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10b": {
+      "chance": 0.005,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_leather",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10c": {
+      "chance": 0.005,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_durable_fabric",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10d": {
+      "chance": 0.005,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_plastic",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10e": {
+      "chance": 0.005,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_gunpowder",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10f": {
+      "chance": 0.005,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_gunmetal",
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10g": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_grip",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10h": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_magazine",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10i": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_synthetic_fiber",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10j": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_ballistic_plates",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10k": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_ceramics",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10l": {
+      "chance": 0.06,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_carbon_fiber",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10m": {
+      "chance": 0.06,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_steel",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10n": {
+      "chance": 0.06,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_chrome_alloy",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10o": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_kevlar_fiber",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10p": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_doron_plate",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10q": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_shells",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10r": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_titanium",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10s": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_scope",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10t": {
+      "chance": 0.1,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "crafting_silencer",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10u": {
+      "chance": 0.04,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "bundle_crafting_loot_epic",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "lootable_invader_attack_reward_10v": {
+      "chance": 0.05,
+      "min_quantity": 1,
+      "max_quantity": 1,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "hero_xp_100k",
             "quantity": 1
           }
         ]
@@ -15463,6 +16247,23 @@
           },
           {
             "subtype": "crafting_xenosaur_venom",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "crafting_loot_aqua": {
+      "chance": 1,
+      "min_quantity": 3,
+      "max_quantity": 7,
+      "reward": {
+        "items": [
+          {
+            "subtype": "crafting_aqua",
+            "quantity": 3
+          },
+          {
+            "subtype": "crafting_aqua_rare",
             "quantity": 1
           }
         ]

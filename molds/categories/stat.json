@@ -696,6 +696,11 @@
       "modifier": 1,
       "combat": true
     },
+    "carrier_limit_bonus": {
+      "name": "~stat_carrier_limit_bonus",
+      "value": 0,
+      "modifier": 1
+    },
     "march_unit_capacity": {
       "name": "~stat_march_unit_capacity",
       "value": 100,
@@ -796,8 +801,9 @@
     },
     "hunt_defeated_energy_restore": {
       "name": "~stat_hunt_defeated_energy_restore",
-      "value": 0,
-      "modifier": 1
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
     },
     "collect_maximum_level": {
       "name": "~stat_collect_maximum_level",
@@ -1975,6 +1981,30 @@
     },
     "hero_hunting_race_xenosaur_modifier": {
       "name": "~stat_hero_hunting_race_xenosaur_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_hunting_race_aqua_modifier": {
+      "name": "~stat_hero_hunting_race_aqua_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_hunting_race_alien_bug_modifier": {
+      "name": "~stat_hero_hunting_race_alien_bug_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_hunting_race_ufo_modifier": {
+      "name": "~stat_hero_hunting_race_ufo_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "hero_hunting_race_plasma_strider_modifier": {
+      "name": "~stat_hero_hunting_race_plasma_strider_modifier",
       "value": 1,
       "modifier": 0,
       "lock_value": true

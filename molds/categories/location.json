@@ -1,5 +1,6 @@
 {
   "random_reward_modifiers": true,
+  "spawn_on_location_only": false,
   "_subtypes": {
     "farm_1": {
       "name": "~location_farm",
@@ -1680,7 +1681,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency4",
-          "quantity": 540000
+          "quantity": 625000
         }
       ],
       "currencies": [
@@ -1737,7 +1738,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency6",
-          "quantity": 540000
+          "quantity": 625000
         }
       ],
       "currencies": [
@@ -1794,7 +1795,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency5",
-          "quantity": 540000
+          "quantity": 625000
         }
       ],
       "currencies": [
@@ -1851,7 +1852,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency3",
-          "quantity": 540000
+          "quantity": 625000
         }
       ],
       "currencies": [
@@ -1908,7 +1909,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency7",
-          "quantity": 360000
+          "quantity": 425000
         }
       ],
       "currencies": [
@@ -1965,7 +1966,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency4",
-          "quantity": 720000
+          "quantity": 1000000
         }
       ],
       "currencies": [
@@ -2006,7 +2007,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency6",
-          "quantity": 720000
+          "quantity": 1000000
         }
       ],
       "currencies": [
@@ -2047,7 +2048,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency5",
-          "quantity": 720000
+          "quantity": 1000000
         }
       ],
       "currencies": [
@@ -2088,7 +2089,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency3",
-          "quantity": 720000
+          "quantity": 1000000
         }
       ],
       "currencies": [
@@ -2129,7 +2130,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency7",
-          "quantity": 468000
+          "quantity": 675000
         }
       ],
       "currencies": [
@@ -2170,7 +2171,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency4",
-          "quantity": 900000
+          "quantity": 1250000
         }
       ],
       "currencies": [
@@ -2211,7 +2212,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency6",
-          "quantity": 900000
+          "quantity": 1250000
         }
       ],
       "currencies": [
@@ -2252,7 +2253,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency5",
-          "quantity": 900000
+          "quantity": 1250000
         }
       ],
       "currencies": [
@@ -2293,7 +2294,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency3",
-          "quantity": 900000
+          "quantity": 1250000
         }
       ],
       "currencies": [
@@ -2334,7 +2335,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency7",
-          "quantity": 594000
+          "quantity": 850000
         }
       ],
       "currencies": [
@@ -2375,7 +2376,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency4",
-          "quantity": 1080000
+          "quantity": 1500000
         }
       ],
       "currencies": [
@@ -2416,7 +2417,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency6",
-          "quantity": 1080000
+          "quantity": 1500000
         }
       ],
       "currencies": [
@@ -2457,7 +2458,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency5",
-          "quantity": 1080000
+          "quantity": 1500000
         }
       ],
       "currencies": [
@@ -2498,7 +2499,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency3",
-          "quantity": 1080000
+          "quantity": 1500000
         }
       ],
       "currencies": [
@@ -2539,7 +2540,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency7",
-          "quantity": 720000
+          "quantity": 1020000
         }
       ],
       "currencies": [
@@ -2580,7 +2581,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency4",
-          "quantity": 1260000
+          "quantity": 1750000
         }
       ],
       "currencies": [
@@ -2621,7 +2622,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency4",
-          "quantity": 1440000
+          "quantity": 2100000
         }
       ],
       "currencies": [
@@ -2662,7 +2663,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency6",
-          "quantity": 1260000
+          "quantity": 1750000
         }
       ],
       "currencies": [
@@ -2703,7 +2704,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency6",
-          "quantity": 1440000
+          "quantity": 2100000
         }
       ],
       "currencies": [
@@ -2744,7 +2745,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency5",
-          "quantity": 1260000
+          "quantity": 1750000
         }
       ],
       "currencies": [
@@ -2785,7 +2786,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency5",
-          "quantity": 1440000
+          "quantity": 2100000
         }
       ],
       "currencies": [
@@ -2826,7 +2827,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency3",
-          "quantity": 1260000
+          "quantity": 1750000
         }
       ],
       "currencies": [
@@ -2867,7 +2868,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency3",
-          "quantity": 1440000
+          "quantity": 2100000
         }
       ],
       "currencies": [
@@ -2908,7 +2909,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency7",
-          "quantity": 846000
+          "quantity": 1200000
         }
       ],
       "currencies": [
@@ -2949,7 +2950,7 @@
       "currencies_per_hour": [
         {
           "subtype": "currency7",
-          "quantity": 972000
+          "quantity": 1450000
         }
       ],
       "currencies": [
@@ -4070,8 +4071,8 @@
             "quantity": 2
           },
           {
-            "subtype": "currency7_200k",
-            "quantity": 1
+            "subtype": "currency7_50k",
+            "quantity": 8
           }
         ],
         "currencies": [
@@ -4176,8 +4177,8 @@
             "quantity": 8
           },
           {
-            "subtype": "currency7_200k",
-            "quantity": 1
+            "subtype": "currency7_50k",
+            "quantity": 12
           }
         ],
         "currencies": [
@@ -8902,7 +8903,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 175000,
-      "monster_energy_cost": 200,
+      "monster_energy_cost": 100,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 1000,
@@ -8936,7 +8940,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 350000,
-      "monster_energy_cost": 300,
+      "monster_energy_cost": 150,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 2500,
@@ -8988,7 +8995,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 750000,
-      "monster_energy_cost": 400,
+      "monster_energy_cost": 200,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 5000,
@@ -9058,7 +9068,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 1250000,
-      "monster_energy_cost": 500,
+      "monster_energy_cost": 250,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 10000,
@@ -9128,7 +9141,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 2000000,
-      "monster_energy_cost": 600,
+      "monster_energy_cost": 300,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 15000,
@@ -9195,7 +9211,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 3000000,
-      "monster_energy_cost": 700,
+      "monster_energy_cost": 350,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 20000,
@@ -9262,7 +9281,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 4000000,
-      "monster_energy_cost": 800,
+      "monster_energy_cost": 475,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 25000,
@@ -9338,7 +9360,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 5000000,
-      "monster_energy_cost": 900,
+      "monster_energy_cost": 600,
+      "race": {
+        "subtype": "alien_bug"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 30000,
@@ -9420,13 +9445,204 @@
         }
       ]
     },
+    "invader_9": {
+      "name": "~location_invader_epic",
+      "level": 9,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "monster_health": 12000000,
+      "monster_energy_cost": 750,
+      "race": {
+        "subtype": "alien_bug"
+      },
+      "neutralize": true,
+      "reward": {
+        "hero_xp": 35000,
+        "items": [
+          {
+            "subtype": "bundle_crafting_loot_epic",
+            "quantity": 6
+          }
+        ],
+        "caches": [
+          {
+            "subtype": "hunting_monster_medium"
+          }
+        ]
+      },
+      "random_rewards": [
+        {
+          "subtype": "lootable_invader_attack_reward_9a"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9b"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9c"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9d"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9e"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9f"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9g"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9h"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9i"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9j"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9k"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9l"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9m"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9n"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9o"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9p"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9q"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9r"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9s"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9t"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9u"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9v"
+        }
+      ]
+    },
+    "invader_10": {
+      "name": "~location_invader_epic",
+      "level": 10,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "monster_health": 20000000,
+      "monster_energy_cost": 900,
+      "race": {
+        "subtype": "alien_bug"
+      },
+      "neutralize": true,
+      "reward": {
+        "hero_xp": 40000,
+        "items": [
+          {
+            "subtype": "bundle_crafting_loot_epic",
+            "quantity": 12
+          }
+        ],
+        "caches": [
+          {
+            "subtype": "hunting_monster_medium"
+          }
+        ]
+      },
+      "random_rewards": [
+        {
+          "subtype": "lootable_invader_attack_reward_10a"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10b"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10c"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10d"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10e"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10f"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10g"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10h"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10i"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10j"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10k"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10l"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10m"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10n"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10o"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10p"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10q"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10r"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10s"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10t"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10u"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10v"
+        }
+      ]
+    },
     "invader_ufo_6": {
       "name": "~location_invader_ufo",
       "level": 6,
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 3000000,
-      "monster_energy_cost": 700,
+      "monster_energy_cost": 350,
+      "race": {
+        "subtype": "ufo"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 20000,
@@ -9460,7 +9676,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 4000000,
-      "monster_energy_cost": 800,
+      "monster_energy_cost": 475,
+      "race": {
+        "subtype": "ufo"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 25000,
@@ -9494,7 +9713,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 5000000,
-      "monster_energy_cost": 900,
+      "monster_energy_cost": 600,
+      "race": {
+        "subtype": "ufo"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 30000,
@@ -9528,7 +9750,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 10000000,
-      "monster_energy_cost": 1000,
+      "monster_energy_cost": 750,
+      "race": {
+        "subtype": "ufo"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 35000,
@@ -9565,7 +9790,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 15000000,
-      "monster_energy_cost": 1100,
+      "monster_energy_cost": 900,
+      "race": {
+        "subtype": "ufo"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 40000,
@@ -9605,7 +9833,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 2000000,
-      "monster_energy_cost": 600,
+      "monster_energy_cost": 300,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 15000,
@@ -9639,7 +9870,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 3000000,
-      "monster_energy_cost": 700,
+      "monster_energy_cost": 350,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 20000,
@@ -9673,7 +9907,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 4000000,
-      "monster_energy_cost": 800,
+      "monster_energy_cost": 475,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 25000,
@@ -9707,7 +9944,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 5000000,
-      "monster_energy_cost": 900,
+      "monster_energy_cost": 600,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 30000,
@@ -9741,7 +9981,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 10000000,
-      "monster_energy_cost": 1000,
+      "monster_energy_cost": 750,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 35000,
@@ -9778,7 +10021,10 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 15000000,
-      "monster_energy_cost": 1100,
+      "monster_energy_cost": 900,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 40000,
@@ -9816,6 +10062,9 @@
       "spawn_chance": 1,
       "monster_health": 20000000,
       "monster_energy_cost": 1250,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 50000,
@@ -9853,6 +10102,9 @@
       "spawn_chance": 1,
       "monster_health": 30000000,
       "monster_energy_cost": 1500,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 60000,
@@ -9890,6 +10142,9 @@
       "spawn_chance": 1,
       "monster_health": 40000000,
       "monster_energy_cost": 1750,
+      "race": {
+        "subtype": "plasma_strider"
+      },
       "neutralize": true,
       "reward": {
         "hero_xp": 70000,
@@ -11314,7 +11569,7 @@
         "units": [
           {
             "subtype": "tier_5_alien_new",
-            "quantity": 1000
+            "quantity": 1600
           }
         ]
       },
@@ -11945,7 +12200,7 @@
         "caches": [
           {
             "subtype": "world_event_alliance",
-            "quantity": 1
+            "quantity": 2
           }
         ]
       },
@@ -12004,7 +12259,7 @@
         "caches": [
           {
             "subtype": "world_event_alliance",
-            "quantity": 3
+            "quantity": 4
           }
         ]
       },
@@ -12063,7 +12318,7 @@
         "caches": [
           {
             "subtype": "world_event_alliance",
-            "quantity": 5
+            "quantity": 7
           }
         ]
       },
@@ -12174,7 +12429,7 @@
         "caches": [
           {
             "subtype": "world_event_alliance",
-            "quantity": 1
+            "quantity": 2
           }
         ]
       },
@@ -12225,7 +12480,7 @@
         "caches": [
           {
             "subtype": "world_event_alliance",
-            "quantity": 3
+            "quantity": 4
           }
         ]
       },
@@ -12280,13 +12535,107 @@
         "caches": [
           {
             "subtype": "world_event_alliance",
-            "quantity": 5
+            "quantity": 7
           }
         ]
       },
       "random_rewards": [
         {
           "subtype": "lootable_alien_titanic_strider_tier50_a"
+        }
+      ]
+    },
+    "invader_20_aqua": {
+      "name": "~location_invader_bloomstalker",
+      "spawn_on_location_only": true,
+      "level": 20,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "monster_health": 25000000,
+      "monster_energy_cost": 1200,
+      "neutralize": true,
+      "race": {
+        "subtype": "aqua"
+      },
+      "reward": {
+        "hero_xp": 250000,
+        "items": [
+          {
+            "subtype": "bundle_crafting_loot_aqua",
+            "quantity": 3
+          }
+        ],
+        "caches": [
+          {
+            "subtype": "hunting_monster_medium"
+          }
+        ]
+      },
+      "random_rewards": [
+        {
+          "subtype": "lootable_aqua_tier20_f"
+        },
+        {
+          "subtype": "lootable_aqua_tier20_e"
+        },
+        {
+          "subtype": "lootable_aqua_tier20_d"
+        },
+        {
+          "subtype": "lootable_aqua_tier20_c"
+        },
+        {
+          "subtype": "lootable_aqua_tier20_a"
+        },
+        {
+          "subtype": "lootable_aqua_tier20_b"
+        }
+      ]
+    },
+    "invader_40_aqua": {
+      "name": "~location_invader_bloomstalker",
+      "spawn_on_location_only": true,
+      "level": 40,
+      "spawn_amount": 0,
+      "spawn_chance": 1,
+      "monster_health": 60000000,
+      "monster_energy_cost": 2000,
+      "neutralize": true,
+      "race": {
+        "subtype": "aqua"
+      },
+      "reward": {
+        "hero_xp": 750000,
+        "items": [
+          {
+            "subtype": "bundle_crafting_loot_aqua",
+            "quantity": 10
+          }
+        ],
+        "caches": [
+          {
+            "subtype": "hunting_monster_medium"
+          }
+        ]
+      },
+      "random_rewards": [
+        {
+          "subtype": "lootable_aqua_tier40_f"
+        },
+        {
+          "subtype": "lootable_aqua_tier40_e"
+        },
+        {
+          "subtype": "lootable_aqua_tier40_d"
+        },
+        {
+          "subtype": "lootable_aqua_tier40_c"
+        },
+        {
+          "subtype": "lootable_aqua_tier40_a"
+        },
+        {
+          "subtype": "lootable_aqua_tier40_b"
         }
       ]
     }

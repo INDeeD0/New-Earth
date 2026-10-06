@@ -1440,6 +1440,10 @@
               {
                 "subtype": "boost_1h",
                 "quantity": 1
+              },
+              {
+                "subtype": "shield_8h",
+                "quantity": 1
               }
             ],
             "hero_xp": 1000
@@ -1656,6 +1660,10 @@
               },
               {
                 "subtype": "boost_1h",
+                "quantity": 2
+              },
+              {
+                "subtype": "currency4_30k",
                 "quantity": 1
               }
             ],
@@ -1882,6 +1890,10 @@
               {
                 "subtype": "vip_time_1h",
                 "quantity": 1
+              },
+              {
+                "subtype": "shield_8h",
+                "quantity": 1
               }
             ],
             "hero_xp": 1000
@@ -2097,6 +2109,10 @@
             ],
             "items": [
               {
+                "subtype": "city_teleport",
+                "quantity": 1
+              },
+              {
                 "subtype": "boost_15m",
                 "quantity": 1
               },
@@ -2106,6 +2122,10 @@
               },
               {
                 "subtype": "vip_time_1h",
+                "quantity": 1
+              },
+              {
+                "subtype": "currency3_30k",
                 "quantity": 1
               }
             ],
@@ -2330,7 +2350,15 @@
                 "quantity": 1
               },
               {
+                "subtype": "boost_3h",
+                "quantity": 1
+              },
+              {
                 "subtype": "vip_time_1h",
+                "quantity": 1
+              },
+              {
+                "subtype": "currency5_30k",
                 "quantity": 1
               }
             ],
@@ -2561,6 +2589,14 @@
               {
                 "subtype": "vip_time_1h",
                 "quantity": 1
+              },
+              {
+                "subtype": "shield_1d",
+                "quantity": 1
+              },
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
               }
             ],
             "hero_xp": 1000
@@ -2785,6 +2821,10 @@
             ],
             "items": [
               {
+                "subtype": "city_teleport",
+                "quantity": 1
+              },
+              {
                 "subtype": "march_recall",
                 "quantity": 1
               },
@@ -2794,6 +2834,10 @@
               },
               {
                 "subtype": "vip_time_1h",
+                "quantity": 1
+              },
+              {
+                "subtype": "currency6_30k",
                 "quantity": 1
               }
             ],
@@ -3027,7 +3071,15 @@
                 "quantity": 1
               },
               {
+                "subtype": "boost_3h",
+                "quantity": 1
+              },
+              {
                 "subtype": "vip_time_1h",
+                "quantity": 1
+              },
+              {
+                "subtype": "antiscout_1d",
                 "quantity": 1
               }
             ],
@@ -3261,7 +3313,15 @@
                 "quantity": 1
               },
               {
+                "subtype": "boost_3h",
+                "quantity": 1
+              },
+              {
                 "subtype": "vip_time_2h",
+                "quantity": 1
+              },
+              {
+                "subtype": "currency4_150k",
                 "quantity": 1
               }
             ],
@@ -3487,6 +3547,10 @@
             ],
             "items": [
               {
+                "subtype": "city_teleport",
+                "quantity": 1
+              },
+              {
                 "subtype": "mobile_outpost_vehicle",
                 "quantity": 1
               },
@@ -3496,6 +3560,10 @@
               },
               {
                 "subtype": "vip_time_2h",
+                "quantity": 1
+              },
+              {
+                "subtype": "shield_1d",
                 "quantity": 1
               }
             ],
@@ -3741,7 +3809,15 @@
                 "quantity": 1
               },
               {
+                "subtype": "boost_8h",
+                "quantity": 1
+              },
+              {
                 "subtype": "vip_time_2h",
+                "quantity": 1
+              },
+              {
+                "subtype": "currency3_150k",
                 "quantity": 1
               }
             ],
@@ -3988,7 +4064,7 @@
               },
               {
                 "subtype": "city_teleport",
-                "quantity": 1
+                "quantity": 2
               }
             ],
             "hero_xp": 2000
@@ -22039,6 +22115,195 @@
               "subtype": "city_attacker_attack_modifier",
               "value": 0,
               "modifier": -0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 33
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 220000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 220000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 285000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 285000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 170000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 45
+            }
+          ],
+          "upgrade_cost": 58000000,
+          "power": 5135320,
+          "reward": {
+            "hero_xp": 25000
+          },
+          "stats": [
+            {
+              "subtype": "radar_level",
+              "value": 8,
+              "modifier": 0
+            },
+            {
+              "subtype": "scan_range",
+              "value": 40,
+              "modifier": 0
+            },
+            {
+              "subtype": "city_attacker_attack_modifier",
+              "value": 0,
+              "modifier": -0.06
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 34
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 265000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 265000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 340000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 340000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 205000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 50
+            }
+          ],
+          "upgrade_cost": 68000000,
+          "power": 6035320,
+          "reward": {
+            "hero_xp": 30000
+          },
+          "stats": [
+            {
+              "subtype": "radar_level",
+              "value": 8,
+              "modifier": 0
+            },
+            {
+              "subtype": "scan_range",
+              "value": 40,
+              "modifier": 0
+            },
+            {
+              "subtype": "city_attacker_attack_modifier",
+              "value": 0,
+              "modifier": -0.07
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 35
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 315000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 315000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 245000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 60
+            }
+          ],
+          "upgrade_cost": 79000000,
+          "power": 6985320,
+          "reward": {
+            "hero_xp": 40000
+          },
+          "stats": [
+            {
+              "subtype": "radar_level",
+              "value": 8,
+              "modifier": 0
+            },
+            {
+              "subtype": "scan_range",
+              "value": 40,
+              "modifier": 0
+            },
+            {
+              "subtype": "city_attacker_attack_modifier",
+              "value": 0,
+              "modifier": -0.08
             }
           ]
         }
@@ -47814,6 +48079,195 @@
               "modifier": 0.5
             }
           ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 33
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 285000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 330000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 290000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 290000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 270000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 55
+            }
+          ],
+          "upgrade_cost": 132000000,
+          "power": 4885320,
+          "reward": {
+            "hero_xp": 150000
+          },
+          "stats": [
+            {
+              "subtype": "march_maximum",
+              "value": 3,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 440000,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.55
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 34
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 340000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 345000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 345000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 325000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 65
+            }
+          ],
+          "upgrade_cost": 155000000,
+          "power": 5585320,
+          "reward": {
+            "hero_xp": 200000
+          },
+          "stats": [
+            {
+              "subtype": "march_maximum",
+              "value": 3,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 480000,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.6
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "walls",
+              "level": 35
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 470000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 410000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 410000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 385000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 80
+            }
+          ],
+          "upgrade_cost": 180000000,
+          "power": 6335320,
+          "reward": {
+            "hero_xp": 275000
+          },
+          "stats": [
+            {
+              "subtype": "march_maximum",
+              "value": 3,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 520000,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.65
+            }
+          ]
         }
       ]
     },
@@ -49730,6 +50184,195 @@
               "modifier": 1.95
             }
           ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 33
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 330000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 330000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 330000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 330000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 275000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_classified_documents",
+              "quantity": 245000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 60
+            }
+          ],
+          "upgrade_cost": 108000000,
+          "power": 8625500,
+          "reward": {
+            "hero_xp": 400000
+          },
+          "stats": [
+            {
+              "subtype": "rally_capacity",
+              "value": 14500000,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 2
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 34
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 400000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 330000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_classified_documents",
+              "quantity": 295000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 70
+            }
+          ],
+          "upgrade_cost": 126000000,
+          "power": 10225500,
+          "reward": {
+            "hero_xp": 525000
+          },
+          "stats": [
+            {
+              "subtype": "rally_capacity",
+              "value": 17000000,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 2.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 35
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 470000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 470000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 470000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 470000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 390000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_classified_documents",
+              "quantity": 350000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 85
+            }
+          ],
+          "upgrade_cost": 146000000,
+          "power": 11925500,
+          "reward": {
+            "hero_xp": 675000
+          },
+          "stats": [
+            {
+              "subtype": "rally_capacity",
+              "value": 19500000,
+              "modifier": 0
+            },
+            {
+              "subtype": "march_rally_speed_modifier",
+              "value": 0,
+              "modifier": 2.1
+            }
+          ]
         }
       ]
     },
@@ -51108,6 +51751,147 @@
           "power": 2121815,
           "reward": {
             "hero_xp": 50000
+          }
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 33
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 290000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 235000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 190000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 135000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 165000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 30
+            }
+          ],
+          "unit_capacity": 8000000,
+          "upgrade_cost": 58000000,
+          "power": 2571815,
+          "reward": {
+            "hero_xp": 60000
+          }
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 34
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 345000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 280000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 230000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 160000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 200000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 35
+            }
+          ],
+          "unit_capacity": 9500000,
+          "upgrade_cost": 68000000,
+          "power": 3071815,
+          "reward": {
+            "hero_xp": 70000
+          }
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "headquarters",
+              "level": 35
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 410000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 330000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 270000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 190000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 235000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 40
+            }
+          ],
+          "unit_capacity": 11000000,
+          "upgrade_cost": 79000000,
+          "power": 3621815,
+          "reward": {
+            "hero_xp": 85000
           }
         }
       ]

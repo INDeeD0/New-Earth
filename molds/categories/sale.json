@@ -4263,6 +4263,21 @@
           "level": 150
         }
       ]
+    },
+    "sale_growth_bundle_hq": {
+      "priority": 10,
+      "target_purchase": "growth_bundle_hq",
+      "repurchasable": false,
+      "purchase_limit": 1,
+      "reoffer_expire_delay": null,
+      "reoffer_purchase_delay": null,
+      "requirements": [
+        {
+          "subtype": "structure",
+          "target_subtype": "headquarters",
+          "level": 4
+        }
+      ]
     }
   }
 }

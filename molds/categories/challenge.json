@@ -18308,6 +18308,12 @@
                     "quantity": 12500
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_100",
+                    "quantity": 2
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_minor_alliance_cache"
@@ -18325,6 +18331,12 @@
                     "quantity": 15000
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_100",
+                    "quantity": 3
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_regular_alliance_cache"
@@ -18340,6 +18352,12 @@
                   {
                     "subtype": "currency8",
                     "quantity": 25000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_100",
+                    "quantity": 5
                   }
                 ],
                 "caches": [
@@ -18389,6 +18407,12 @@
                     "quantity": 12500
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_500",
+                    "quantity": 2
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_minor_alliance_cache"
@@ -18406,6 +18430,12 @@
                     "quantity": 15000
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_500",
+                    "quantity": 3
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_regular_alliance_cache"
@@ -18421,6 +18451,12 @@
                   {
                     "subtype": "currency8",
                     "quantity": 25000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_500",
+                    "quantity": 5
                   }
                 ],
                 "caches": [
@@ -18470,6 +18506,12 @@
                     "quantity": 12500
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_500",
+                    "quantity": 2
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_minor_alliance_cache"
@@ -18487,6 +18529,12 @@
                     "quantity": 15000
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_500",
+                    "quantity": 3
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_regular_alliance_cache"
@@ -18502,6 +18550,12 @@
                   {
                     "subtype": "currency8",
                     "quantity": 25000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_500",
+                    "quantity": 5
                   }
                 ],
                 "caches": [
@@ -18551,6 +18605,12 @@
                     "quantity": 12500
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 2
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_minor_alliance_cache"
@@ -18568,6 +18628,12 @@
                     "quantity": 15000
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 3
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_regular_alliance_cache"
@@ -18583,6 +18649,12 @@
                   {
                     "subtype": "currency8",
                     "quantity": 25000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 5
                   }
                 ],
                 "caches": [
@@ -18632,6 +18704,12 @@
                     "quantity": 12500
                   }
                 ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 2
+                  }
+                ],
                 "caches": [
                   {
                     "subtype": "aliens_minor_alliance_cache"
@@ -18647,6 +18725,12 @@
                   {
                     "subtype": "currency8",
                     "quantity": 15000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 3
                   }
                 ],
                 "caches": [
@@ -18674,6 +18758,10 @@
                   {
                     "subtype": "hero_xp_100k",
                     "quantity": 1
+                  },
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 5
                   }
                 ],
                 "caches": [
@@ -20775,6 +20863,7 @@
         {
           "min_core_level": 0,
           "max_core_level": 35,
+          "combined": true,
           "tiers": [
             {
               "subtype": "entry",
@@ -20866,6 +20955,10 @@
                   {
                     "subtype": "vip_time_1d",
                     "quantity": 1
+                  },
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 2
                   }
                 ]
               }
@@ -20904,6 +20997,10 @@
                   {
                     "subtype": "city_teleport",
                     "quantity": 2
+                  },
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 4
                   }
                 ]
               }
@@ -21089,6 +21186,7 @@
         {
           "min_core_level": 0,
           "max_core_level": 35,
+          "combined": true,
           "tiers": [
             {
               "subtype": "entry",
@@ -23259,7 +23357,7 @@
                 "items": [
                   {
                     "subtype": "strider_alien_emitter",
-                    "quantity": 25
+                    "quantity": 50
                   },
                   {
                     "subtype": "megaship_component",
@@ -23285,7 +23383,7 @@
                 "items": [
                   {
                     "subtype": "strider_alien_emitter",
-                    "quantity": 50
+                    "quantity": 100
                   },
                   {
                     "subtype": "megaship_alien_augment",
@@ -23311,7 +23409,7 @@
                 "items": [
                   {
                     "subtype": "strider_alien_emitter",
-                    "quantity": 100
+                    "quantity": 200
                   },
                   {
                     "subtype": "megaship_component",
@@ -23355,7 +23453,7 @@
                 "items": [
                   {
                     "subtype": "strider_alien_emitter",
-                    "quantity": 175
+                    "quantity": 400
                   },
                   {
                     "subtype": "megaship_alien_augment",
@@ -23399,7 +23497,7 @@
                 "items": [
                   {
                     "subtype": "strider_alien_emitter",
-                    "quantity": 250
+                    "quantity": 600
                   },
                   {
                     "subtype": "core_neutronium_crystal",
@@ -23433,7 +23531,7 @@
             "items": [
               {
                 "subtype": "strider_alien_emitter",
-                "quantity": 1000
+                "quantity": 1250
               }
             ]
           }
@@ -23455,7 +23553,7 @@
             "items": [
               {
                 "subtype": "strider_alien_emitter",
-                "quantity": 600
+                "quantity": 750
               }
             ]
           }
@@ -23473,7 +23571,7 @@
             "items": [
               {
                 "subtype": "strider_alien_emitter",
-                "quantity": 300
+                "quantity": 500
               }
             ]
           }
@@ -23491,7 +23589,7 @@
             "items": [
               {
                 "subtype": "strider_alien_emitter",
-                "quantity": 150
+                "quantity": 300
               }
             ]
           }
@@ -23509,6 +23607,270 @@
             "items": [
               {
                 "subtype": "strider_alien_emitter",
+                "quantity": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "challenge_damage_and_defeat_aqua_invaders_event": {
+      "name": "~challenge_damage_and_defeat_target_race_invaders_event",
+      "point_source": 21,
+      "target_race": "aqua",
+      "cross_realm": true,
+      "require_alliance": true,
+      "group": 1,
+      "duration": 259200,
+      "brackets": [
+        {
+          "min_core_level": 0,
+          "max_core_level": 40,
+          "combined": true,
+          "tiers": [
+            {
+              "subtype": "entry",
+              "points_required": 100000000,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 25000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "crafting_aqua",
+                    "quantity": 50
+                  },
+                  {
+                    "subtype": "crafting_aqua_rare",
+                    "quantity": 10
+                  },
+                  {
+                    "subtype": "boost_1h",
+                    "quantity": 3
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "bronze",
+              "points_required": 500000000,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 50000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "crafting_aqua",
+                    "quantity": 100
+                  },
+                  {
+                    "subtype": "crafting_aqua_rare",
+                    "quantity": 25
+                  },
+                  {
+                    "subtype": "boost_1h",
+                    "quantity": 5
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "silver",
+              "points_required": 1500000000,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 100000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "crafting_aqua",
+                    "quantity": 200
+                  },
+                  {
+                    "subtype": "crafting_aqua_rare",
+                    "quantity": 50
+                  },
+                  {
+                    "subtype": "boost_3h",
+                    "quantity": 4
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "gold",
+              "points_required": 3000000000,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 175000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "crafting_aqua",
+                    "quantity": 400
+                  },
+                  {
+                    "subtype": "crafting_aqua_rare",
+                    "quantity": 100
+                  },
+                  {
+                    "subtype": "boost_8h",
+                    "quantity": 2
+                  }
+                ]
+              }
+            },
+            {
+              "subtype": "platinum",
+              "points_required": 6000000000,
+              "reward": {
+                "currencies": [
+                  {
+                    "subtype": "currency8",
+                    "quantity": 250000
+                  }
+                ],
+                "items": [
+                  {
+                    "subtype": "crafting_aqua",
+                    "quantity": 800
+                  },
+                  {
+                    "subtype": "crafting_aqua_rare",
+                    "quantity": 200
+                  },
+                  {
+                    "subtype": "boost_8h",
+                    "quantity": 3
+                  },
+                  {
+                    "subtype": "hero_energy_1000",
+                    "quantity": 2
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "position_bonuses": [
+        {
+          "min_position": 1,
+          "max_position": 1,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 100000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "crafting_aqua",
+                "quantity": 800
+              },
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 400
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 2,
+          "max_position": 3,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 50000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "crafting_aqua",
+                "quantity": 500
+              },
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 250
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 4,
+          "max_position": 5,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 25000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "crafting_aqua",
+                "quantity": 300
+              },
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 6,
+          "max_position": 10,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 15000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "crafting_aqua",
+                "quantity": 200
+              },
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "min_position": 11,
+          "max_position": 20,
+          "reward": {
+            "currencies": [
+              {
+                "subtype": "currency8",
+                "quantity": 10000
+              }
+            ],
+            "items": [
+              {
+                "subtype": "crafting_aqua",
+                "quantity": 100
+              },
+              {
+                "subtype": "crafting_aqua_rare",
                 "quantity": 50
               }
             ]
