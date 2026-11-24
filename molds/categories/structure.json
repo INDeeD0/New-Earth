@@ -30925,6 +30925,108 @@
               "subtype": "execute_random_reward15"
             }
           ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 31
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 135000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 155000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 147500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 142500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 135000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 30
+            }
+          ],
+          "upgrade_cost": 31481050,
+          "power": 3805280,
+          "reward": {
+            "hero_xp": 20000
+          },
+          "execute_rewards": [
+            {
+              "subtype": "execute_random_reward16"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "researchlab",
+              "level": 32
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 182500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 210000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 200000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 192500000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 182500000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 40
+            }
+          ],
+          "upgrade_cost": 44073470,
+          "power": 4780280,
+          "reward": {
+            "hero_xp": 25000
+          },
+          "execute_rewards": [
+            {
+              "subtype": "execute_random_reward17"
+            }
+          ]
         }
       ]
     },
@@ -57441,6 +57543,250 @@
               "modifier": 0.6
             }
           ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "factory",
+              "level": 31
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 205000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 210000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 205000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 210000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 220000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 65
+            }
+          ],
+          "production": [
+            {
+              "subtype": "tier_4_mech_infantry"
+            },
+            {
+              "subtype": "tier_4_mech_vehicle"
+            },
+            {
+              "subtype": "tier_4_mech_antiair"
+            },
+            {
+              "subtype": "tier_4_mech_antipersonnel"
+            },
+            {
+              "subtype": "tier_4_mech_vehicle_attack"
+            },
+            {
+              "subtype": "tier_5_mech_new"
+            },
+            {
+              "subtype": "tier_6_specialized_mech"
+            }
+          ],
+          "production_capacity": 50000,
+          "upgrade_cost": 39000000,
+          "power": 4125000,
+          "reward": {
+            "hero_xp": 525000
+          },
+          "stats": [
+            {
+              "subtype": "mech_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "mech_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "mech_antiair_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "mech_antipersonnel_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "mech_aircraft_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "mech_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "mech_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "mech_antiair_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "mech_antipersonnel_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "mech_aircraft_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "factory",
+              "level": 32
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 245000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 245000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 260000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 80
+            }
+          ],
+          "production": [
+            {
+              "subtype": "tier_4_mech_infantry"
+            },
+            {
+              "subtype": "tier_4_mech_vehicle"
+            },
+            {
+              "subtype": "tier_4_mech_antiair"
+            },
+            {
+              "subtype": "tier_4_mech_antipersonnel"
+            },
+            {
+              "subtype": "tier_4_mech_vehicle_attack"
+            },
+            {
+              "subtype": "tier_5_mech_new"
+            },
+            {
+              "subtype": "tier_6_specialized_mech"
+            }
+          ],
+          "production_capacity": 50000,
+          "upgrade_cost": 46000000,
+          "power": 4925000,
+          "reward": {
+            "hero_xp": 600000
+          },
+          "stats": [
+            {
+              "subtype": "mech_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "mech_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "mech_antiair_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "mech_antipersonnel_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "mech_aircraft_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "mech_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "mech_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "mech_antiair_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "mech_antipersonnel_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "mech_aircraft_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
         }
       ]
     },
@@ -60657,6 +61003,266 @@
               "modifier": 0.6
             }
           ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "engineering",
+              "level": 31
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 205000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 210000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 210000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 205000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 220000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 65
+            }
+          ],
+          "production": [
+            {
+              "subtype": "tier_4_prototype_infantry"
+            },
+            {
+              "subtype": "tier_4_prototype_air"
+            },
+            {
+              "subtype": "tier_4_prototype_sniper"
+            },
+            {
+              "subtype": "tier_4_prototype_vehicle"
+            },
+            {
+              "subtype": "tier_4_prototype_vehicle_speed"
+            },
+            {
+              "subtype": "tier_4_prototype_infantry_defense"
+            },
+            {
+              "subtype": "tier_4_prototype_mech_health"
+            },
+            {
+              "subtype": "tier_4_prototype_air_attack"
+            },
+            {
+              "subtype": "tier_4_prototype_vehicle_attack"
+            },
+            {
+              "subtype": "tier_4_prototype_air_speed"
+            },
+            {
+              "subtype": "tier_4_prototype_air_defense"
+            },
+            {
+              "subtype": "tier_5_prototype_new"
+            },
+            {
+              "subtype": "tier_6_specialized_prototype"
+            }
+          ],
+          "production_capacity": 50000,
+          "upgrade_cost": 39000000,
+          "power": 4125000,
+          "reward": {
+            "hero_xp": 525000
+          },
+          "stats": [
+            {
+              "subtype": "prototype_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "prototype_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "prototype_air_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "prototype_sniper_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "prototype_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "prototype_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "prototype_air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "prototype_sniper_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "engineering",
+              "level": 32
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 245000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 245000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 260000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 80
+            }
+          ],
+          "production": [
+            {
+              "subtype": "tier_4_prototype_infantry"
+            },
+            {
+              "subtype": "tier_4_prototype_air"
+            },
+            {
+              "subtype": "tier_4_prototype_sniper"
+            },
+            {
+              "subtype": "tier_4_prototype_vehicle"
+            },
+            {
+              "subtype": "tier_4_prototype_vehicle_speed"
+            },
+            {
+              "subtype": "tier_4_prototype_infantry_defense"
+            },
+            {
+              "subtype": "tier_4_prototype_mech_health"
+            },
+            {
+              "subtype": "tier_4_prototype_air_attack"
+            },
+            {
+              "subtype": "tier_4_prototype_vehicle_attack"
+            },
+            {
+              "subtype": "tier_4_prototype_air_speed"
+            },
+            {
+              "subtype": "tier_4_prototype_air_defense"
+            },
+            {
+              "subtype": "tier_5_prototype_new"
+            },
+            {
+              "subtype": "tier_6_specialized_prototype"
+            }
+          ],
+          "production_capacity": 50000,
+          "upgrade_cost": 46000000,
+          "power": 4925000,
+          "reward": {
+            "hero_xp": 600000
+          },
+          "stats": [
+            {
+              "subtype": "prototype_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "prototype_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "prototype_air_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "prototype_sniper_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "prototype_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "prototype_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "prototype_air_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "prototype_sniper_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
         }
       ]
     },
@@ -63241,6 +63847,224 @@
               "subtype": "alien_air_vehicle_defense_modifier",
               "value": 0,
               "modifier": 0.6
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hostilecontainment",
+              "level": 31
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 210000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 205000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 210000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 205000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 220000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 65
+            }
+          ],
+          "production": [
+            {
+              "subtype": "tier_4_alien_light_infantry"
+            },
+            {
+              "subtype": "tier_4_alien_air_vehicle"
+            },
+            {
+              "subtype": "tier_4_alien_heavy_infantry"
+            },
+            {
+              "subtype": "tier_4_alien_vehicle"
+            },
+            {
+              "subtype": "tier_5_alien_new"
+            },
+            {
+              "subtype": "tier_6_specialized_alien"
+            }
+          ],
+          "production_capacity": 50000,
+          "upgrade_cost": 39000000,
+          "power": 4125000,
+          "reward": {
+            "hero_xp": 525000
+          },
+          "stats": [
+            {
+              "subtype": "alien_light_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "alien_heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "alien_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "alien_air_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.62
+            },
+            {
+              "subtype": "alien_light_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "alien_heavy_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "alien_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "alien_air_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hostilecontainment",
+              "level": 32
+            }
+          ],
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency4",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency6",
+              "quantity": 245000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency3",
+              "quantity": 250000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency5",
+              "quantity": 245000000
+            },
+            {
+              "subtype": "currency",
+              "target_subtype": "currency7",
+              "quantity": 260000000
+            },
+            {
+              "subtype": "item",
+              "target_subtype": "core_neutronium_crystal",
+              "quantity": 80
+            }
+          ],
+          "production": [
+            {
+              "subtype": "tier_4_alien_light_infantry"
+            },
+            {
+              "subtype": "tier_4_alien_air_vehicle"
+            },
+            {
+              "subtype": "tier_4_alien_heavy_infantry"
+            },
+            {
+              "subtype": "tier_4_alien_vehicle"
+            },
+            {
+              "subtype": "tier_5_alien_new"
+            },
+            {
+              "subtype": "tier_6_specialized_alien"
+            }
+          ],
+          "production_capacity": 50000,
+          "upgrade_cost": 46000000,
+          "power": 4925000,
+          "reward": {
+            "hero_xp": 600000
+          },
+          "stats": [
+            {
+              "subtype": "alien_light_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "alien_heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "alien_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "alien_air_vehicle_defense_modifier",
+              "value": 0,
+              "modifier": 0.64
+            },
+            {
+              "subtype": "alien_light_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "alien_heavy_infantry_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "alien_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "alien_air_vehicle_produce_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
             }
           ]
         }

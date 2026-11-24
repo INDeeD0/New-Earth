@@ -17033,6 +17033,1154 @@
           ]
         }
       ]
+    },
+    "hero_skill_alien_bug_hunter": {
+      "name": "~hero_skill_alien_bug_hunter",
+      "category": {
+        "subtype": "category2"
+      },
+      "source": 1,
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "hero_skill",
+              "target_subtype": "hero_skill_attack_2",
+              "level": 3
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.005
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0125
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.015
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0175
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0225
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0275
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.03
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0325
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.035
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.0375
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.045
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.055
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.065
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.07
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.085
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.09
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.11
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.12
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_alien_bug_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    "hero_skill_ufo_hunter": {
+      "name": "~hero_skill_ufo_hunter",
+      "category": {
+        "subtype": "category2"
+      },
+      "source": 1,
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "hero_skill",
+              "target_subtype": "hero_skill_alien_bug_hunter",
+              "level": 3
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.005
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0125
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.015
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0175
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0225
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0275
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.03
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0325
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.035
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.0375
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.045
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.055
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.065
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.07
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.085
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.09
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.11
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.12
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_ufo_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    "hero_skill_xenosaur_hunter": {
+      "name": "~hero_skill_xenosaur_hunter",
+      "category": {
+        "subtype": "category2"
+      },
+      "source": 1,
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "hero_skill",
+              "target_subtype": "hero_skill_max_energy_3",
+              "level": 3
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.005
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0125
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.015
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0175
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0225
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0275
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.03
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0325
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.035
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.0375
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.045
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.055
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.065
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.07
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.085
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.09
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.11
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.12
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_xenosaur_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    "hero_skill_plasma_strider_hunter": {
+      "name": "~hero_skill_plasma_strider_hunter",
+      "category": {
+        "subtype": "category2"
+      },
+      "source": 1,
+      "levels": [
+        {},
+        {
+          "requirements": [
+            {
+              "subtype": "hero_skill",
+              "target_subtype": "hero_skill_energy_usage_3",
+              "level": 3
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.005
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.01
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0125
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.015
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0175
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0225
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.025
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0275
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.03
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0325
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.035
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.0375
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.045
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.05
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.055
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.065
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.07
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.075
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.085
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.09
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.11
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.12
+            }
+          ]
+        },
+        {
+          "stats": [
+            {
+              "subtype": "hero_hunting_race_plasma_strider_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        }
+      ]
     }
   }
 }

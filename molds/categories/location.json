@@ -3789,13 +3789,13 @@
           "subtype": "lootable_hive_tier8_reward_f"
         },
         {
-          "subtype": "lootable_hive_tier8_reward_e"
+          "subtype": "lootable_hive_tier8_reward_c"
         },
         {
           "subtype": "lootable_hive_tier8_reward_d"
         },
         {
-          "subtype": "lootable_hive_tier8_reward_c"
+          "subtype": "lootable_hive_tier8_reward_e"
         },
         {
           "subtype": "lootable_hive_tier8_reward_b"
@@ -4002,10 +4002,10 @@
           "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier10_reward_d"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier10_reward_c"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
           "subtype": "lootable_hive_tier10_reward_b"
@@ -4116,10 +4116,10 @@
           "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier10_reward_d"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier10_reward_c"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
           "subtype": "lootable_hive_tier10_reward_b"
@@ -4222,10 +4222,10 @@
           "subtype": "lootable_hive_tier10_reward_e"
         },
         {
-          "subtype": "lootable_hive_tier10_reward_d"
+          "subtype": "lootable_hive_tier10_reward_c"
         },
         {
-          "subtype": "lootable_hive_tier10_reward_c"
+          "subtype": "lootable_hive_tier10_reward_d"
         },
         {
           "subtype": "lootable_hive_tier10_reward_b"
@@ -4244,7 +4244,203 @@
       "activate_cooldown": 86400,
       "points_required": 2500,
       "secure_seconds": 86400,
+      "secure_radius": 1,
       "activate_condition": 1,
+      "activate_effect": "nuke",
+      "activate_range": 2,
+      "activate_target_relation": "any",
+      "activate_buffs": [
+        {
+          "subtype": "currency3_generate_modifier",
+          "value": 0,
+          "modifier": -0.6,
+          "source": 3,
+          "duration": 14400
+        },
+        {
+          "subtype": "currency4_generate_modifier",
+          "value": 0,
+          "modifier": -0.6,
+          "source": 3,
+          "duration": 14400
+        },
+        {
+          "subtype": "currency5_generate_modifier",
+          "value": 0,
+          "modifier": -0.6,
+          "source": 3,
+          "duration": 14400
+        },
+        {
+          "subtype": "currency6_generate_modifier",
+          "value": 0,
+          "modifier": -0.6,
+          "source": 3,
+          "duration": 14400
+        }
+      ],
+      "valid_tiles": [
+        {
+          "x": 48,
+          "y": 63
+        },
+        {
+          "x": 52,
+          "y": 301
+        },
+        {
+          "x": 113,
+          "y": 488
+        },
+        {
+          "x": 241,
+          "y": 83
+        },
+        {
+          "x": 248,
+          "y": 438
+        },
+        {
+          "x": 301,
+          "y": 327
+        },
+        {
+          "x": 440,
+          "y": 444
+        },
+        {
+          "x": 469,
+          "y": 275
+        },
+        {
+          "x": 507,
+          "y": 55
+        }
+      ]
+    },
+    "securable_booster": {
+      "name": "~location_securable_booster",
+      "level": 1,
+      "spawn_amount": 0,
+      "spawn_chance": 0.001,
+      "activates": 1,
+      "activate_cooldown": 86400,
+      "points_required": 2500,
+      "secure_seconds": 86400,
+      "secure_radius": 1,
+      "activate_condition": 1,
+      "activate_effect": "buff",
+      "activate_range": 2,
+      "activate_target_relation": "own",
+      "activate_buffs": [
+        {
+          "subtype": "research_speed_modifier",
+          "value": 0,
+          "modifier": 0.1,
+          "source": 4,
+          "duration": 14400
+        },
+        {
+          "subtype": "structure_speed_modifier",
+          "value": 0,
+          "modifier": 0.1,
+          "source": 4,
+          "duration": 14400
+        }
+      ],
+      "cache": {
+        "subtype": "aliens_epic_alliance_cache"
+      },
+      "valid_tiles": [
+        {
+          "x": 48,
+          "y": 63
+        },
+        {
+          "x": 52,
+          "y": 301
+        },
+        {
+          "x": 113,
+          "y": 488
+        },
+        {
+          "x": 241,
+          "y": 83
+        },
+        {
+          "x": 248,
+          "y": 438
+        },
+        {
+          "x": 301,
+          "y": 327
+        },
+        {
+          "x": 440,
+          "y": 444
+        },
+        {
+          "x": 469,
+          "y": 275
+        },
+        {
+          "x": 507,
+          "y": 55
+        }
+      ]
+    },
+    "securable_spawner": {
+      "name": "~location_securable_spawner",
+      "level": 1,
+      "spawn_amount": 0,
+      "spawn_chance": 0.001,
+      "activates": 3,
+      "activate_cooldown": 600,
+      "points_required": 2500,
+      "secure_seconds": 86400,
+      "secure_radius": 1,
+      "activate_condition": 1,
+      "activate_effect": "spawn",
+      "activate_range": 3,
+      "activate_spawn_mode": "all",
+      "activate_spawn_locations": [
+        {
+          "target_subtype": "farm_6",
+          "min_quantity": 1,
+          "max_quantity": 3,
+          "chance": 0.25,
+          "lifetime_min": 172800,
+          "lifetime_max": 172800
+        },
+        {
+          "target_subtype": "alloy_mine_6",
+          "min_quantity": 1,
+          "max_quantity": 3,
+          "chance": 0.25,
+          "lifetime_min": 172800,
+          "lifetime_max": 172800
+        },
+        {
+          "target_subtype": "oil_field_6",
+          "min_quantity": 1,
+          "max_quantity": 3,
+          "chance": 0.25,
+          "lifetime_min": 172800,
+          "lifetime_max": 172800
+        },
+        {
+          "target_subtype": "abandoned_warehouse_6",
+          "min_quantity": 1,
+          "max_quantity": 3,
+          "chance": 0.25,
+          "lifetime_min": 172800,
+          "lifetime_max": 172800
+        }
+      ],
+      "cache": {
+        "subtype": "aliens_epic_alliance_cache"
+      },
       "valid_tiles": [
         {
           "x": 48,
@@ -8888,6 +9084,8 @@
       "activate_cooldown": 0,
       "points_required": 25000,
       "secure_seconds": 172800,
+      "secure_radius": 2,
+      "secure_perimeter_only": true,
       "singular_control": true,
       "activate_condition": 1,
       "valid_tiles": [
@@ -8964,9 +9162,6 @@
           "subtype": "lootable_invader_attack_reward_crafting_box_2"
         },
         {
-          "subtype": "lootable_invader_attack_reward_2a"
-        },
-        {
           "subtype": "lootable_invader_attack_reward_2b"
         },
         {
@@ -8986,6 +9181,9 @@
         },
         {
           "subtype": "lootable_invader_attack_reward_2h"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_2a"
         }
       ]
     },
@@ -9016,7 +9214,16 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_invader_attack_reward_crafting_box_3"
+          "subtype": "lootable_invader_attack_reward_3k"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_3l"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_3m"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_3n"
         },
         {
           "subtype": "lootable_invader_attack_reward_3a"
@@ -9049,16 +9256,7 @@
           "subtype": "lootable_invader_attack_reward_3j"
         },
         {
-          "subtype": "lootable_invader_attack_reward_3k"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_3l"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_3m"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_3n"
+          "subtype": "lootable_invader_attack_reward_crafting_box_3"
         }
       ]
     },
@@ -9088,9 +9286,6 @@
         ]
       },
       "random_rewards": [
-        {
-          "subtype": "lootable_invader_attack_reward_crafting_box_4"
-        },
         {
           "subtype": "lootable_invader_attack_reward_4a"
         },
@@ -9132,6 +9327,9 @@
         },
         {
           "subtype": "lootable_invader_attack_reward_4n"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_crafting_box_4"
         }
       ]
     },
@@ -9161,12 +9359,6 @@
         ]
       },
       "random_rewards": [
-        {
-          "subtype": "lootable_invader_attack_reward_crafting_box_5"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_5a"
-        },
         {
           "subtype": "lootable_invader_attack_reward_5b"
         },
@@ -9202,6 +9394,12 @@
         },
         {
           "subtype": "lootable_invader_attack_reward_5m"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_5a"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_crafting_box_5"
         }
       ]
     },
@@ -9232,19 +9430,13 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_invader_attack_reward_6a"
+          "subtype": "lootable_invader_attack_reward_6l"
         },
         {
-          "subtype": "lootable_invader_attack_reward_6b"
+          "subtype": "lootable_invader_attack_reward_6m"
         },
         {
-          "subtype": "lootable_invader_attack_reward_6c"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_6d"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_6e"
+          "subtype": "lootable_invader_attack_reward_6n"
         },
         {
           "subtype": "lootable_invader_attack_reward_6f"
@@ -9265,13 +9457,19 @@
           "subtype": "lootable_invader_attack_reward_6k"
         },
         {
-          "subtype": "lootable_invader_attack_reward_6l"
+          "subtype": "lootable_invader_attack_reward_6a"
         },
         {
-          "subtype": "lootable_invader_attack_reward_6m"
+          "subtype": "lootable_invader_attack_reward_6b"
         },
         {
-          "subtype": "lootable_invader_attack_reward_6n"
+          "subtype": "lootable_invader_attack_reward_6c"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_6d"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_6e"
         }
       ]
     },
@@ -9301,6 +9499,24 @@
         ]
       },
       "random_rewards": [
+        {
+          "subtype": "lootable_invader_attack_reward_7o"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_7p"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_7q"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_7l"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_7m"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_7n"
+        },
         {
           "subtype": "lootable_invader_attack_reward_7a"
         },
@@ -9333,24 +9549,6 @@
         },
         {
           "subtype": "lootable_invader_attack_reward_7k"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_7l"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_7m"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_7n"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_7o"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_7p"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_7q"
         }
       ]
     },
@@ -9399,6 +9597,9 @@
           "subtype": "lootable_invader_attack_reward_8f"
         },
         {
+          "subtype": "lootable_invader_attack_reward_8u"
+        },
+        {
           "subtype": "lootable_invader_attack_reward_8g"
         },
         {
@@ -9414,13 +9615,13 @@
           "subtype": "lootable_invader_attack_reward_8k"
         },
         {
-          "subtype": "lootable_invader_attack_reward_8l"
+          "subtype": "lootable_invader_attack_reward_8r"
         },
         {
-          "subtype": "lootable_invader_attack_reward_8m"
+          "subtype": "lootable_invader_attack_reward_8s"
         },
         {
-          "subtype": "lootable_invader_attack_reward_8n"
+          "subtype": "lootable_invader_attack_reward_8t"
         },
         {
           "subtype": "lootable_invader_attack_reward_8o"
@@ -9432,16 +9633,13 @@
           "subtype": "lootable_invader_attack_reward_8q"
         },
         {
-          "subtype": "lootable_invader_attack_reward_8r"
+          "subtype": "lootable_invader_attack_reward_8l"
         },
         {
-          "subtype": "lootable_invader_attack_reward_8s"
+          "subtype": "lootable_invader_attack_reward_8m"
         },
         {
-          "subtype": "lootable_invader_attack_reward_8t"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_8u"
+          "subtype": "lootable_invader_attack_reward_8n"
         }
       ]
     },
@@ -9457,11 +9655,11 @@
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 35000,
+        "hero_xp": 105000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_epic",
-            "quantity": 6
+            "quantity": 20
           }
         ],
         "caches": [
@@ -9490,6 +9688,9 @@
           "subtype": "lootable_invader_attack_reward_9f"
         },
         {
+          "subtype": "lootable_invader_attack_reward_9v"
+        },
+        {
           "subtype": "lootable_invader_attack_reward_9g"
         },
         {
@@ -9503,6 +9704,18 @@
         },
         {
           "subtype": "lootable_invader_attack_reward_9k"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9u"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9r"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9s"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_9t"
         },
         {
           "subtype": "lootable_invader_attack_reward_9l"
@@ -9521,21 +9734,6 @@
         },
         {
           "subtype": "lootable_invader_attack_reward_9q"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_9r"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_9s"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_9t"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_9u"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_9v"
         }
       ]
     },
@@ -9551,11 +9749,11 @@
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 160000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_epic",
-            "quantity": 12
+            "quantity": 30
           }
         ],
         "caches": [
@@ -9599,6 +9797,12 @@
           "subtype": "lootable_invader_attack_reward_10k"
         },
         {
+          "subtype": "lootable_invader_attack_reward_10u"
+        },
+        {
+          "subtype": "lootable_invader_attack_reward_10v"
+        },
+        {
           "subtype": "lootable_invader_attack_reward_10l"
         },
         {
@@ -9624,12 +9828,6 @@
         },
         {
           "subtype": "lootable_invader_attack_reward_10t"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_10u"
-        },
-        {
-          "subtype": "lootable_invader_attack_reward_10v"
         }
       ]
     },
@@ -9756,11 +9954,11 @@
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 35000,
+        "hero_xp": 85000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_ufo",
-            "quantity": 5
+            "quantity": 10
           }
         ],
         "caches": [
@@ -9796,11 +9994,11 @@
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 140000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_ufo",
-            "quantity": 6
+            "quantity": 20
           }
         ],
         "caches": [
@@ -9814,16 +10012,16 @@
           "subtype": "lootable_invader_ufo_attack_reward_10e"
         },
         {
-          "subtype": "lootable_invader_ufo_attack_reward_10d"
-        },
-        {
-          "subtype": "lootable_invader_ufo_attack_reward_10c"
+          "subtype": "lootable_invader_ufo_attack_reward_10a"
         },
         {
           "subtype": "lootable_invader_ufo_attack_reward_10b"
         },
         {
-          "subtype": "lootable_invader_ufo_attack_reward_10a"
+          "subtype": "lootable_invader_ufo_attack_reward_10d"
+        },
+        {
+          "subtype": "lootable_invader_ufo_attack_reward_10c"
         }
       ]
     },
@@ -9854,13 +10052,13 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_invader_strider_attack_reward_5a"
-        },
-        {
           "subtype": "lootable_invader_strider_attack_reward_5b"
         },
         {
           "subtype": "lootable_invader_strider_attack_reward_5c"
+        },
+        {
+          "subtype": "lootable_invader_strider_attack_reward_5a"
         }
       ]
     },
@@ -9891,13 +10089,13 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_invader_strider_attack_reward_6a"
-        },
-        {
           "subtype": "lootable_invader_strider_attack_reward_6b"
         },
         {
           "subtype": "lootable_invader_strider_attack_reward_6c"
+        },
+        {
+          "subtype": "lootable_invader_strider_attack_reward_6a"
         }
       ]
     },
@@ -9928,13 +10126,13 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_invader_strider_attack_reward_7a"
-        },
-        {
           "subtype": "lootable_invader_strider_attack_reward_7b"
         },
         {
           "subtype": "lootable_invader_strider_attack_reward_7c"
+        },
+        {
+          "subtype": "lootable_invader_strider_attack_reward_7a"
         }
       ]
     },
@@ -9987,11 +10185,11 @@
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 35000,
+        "hero_xp": 85000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
-            "quantity": 5
+            "quantity": 10
           }
         ],
         "caches": [
@@ -10027,11 +10225,11 @@
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 40000,
+        "hero_xp": 145000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
-            "quantity": 10
+            "quantity": 20
           }
         ],
         "caches": [
@@ -10061,17 +10259,17 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 20000000,
-      "monster_energy_cost": 1250,
+      "monster_energy_cost": 1050,
       "race": {
         "subtype": "plasma_strider"
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 50000,
+        "hero_xp": 225000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
-            "quantity": 15
+            "quantity": 35
           }
         ],
         "caches": [
@@ -10101,17 +10299,17 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 30000000,
-      "monster_energy_cost": 1500,
+      "monster_energy_cost": 1200,
       "race": {
         "subtype": "plasma_strider"
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 60000,
+        "hero_xp": 345000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
-            "quantity": 25
+            "quantity": 60
           }
         ],
         "caches": [
@@ -10141,17 +10339,17 @@
       "spawn_amount": 0,
       "spawn_chance": 1,
       "monster_health": 40000000,
-      "monster_energy_cost": 1750,
+      "monster_energy_cost": 1350,
       "race": {
         "subtype": "plasma_strider"
       },
       "neutralize": true,
       "reward": {
-        "hero_xp": 70000,
+        "hero_xp": 390000,
         "items": [
           {
             "subtype": "bundle_crafting_loot_strider",
-            "quantity": 35
+            "quantity": 70
           }
         ],
         "caches": [
@@ -11782,6 +11980,7 @@
       "level": 10,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 15000000,
       "monster_energy_cost": 1100,
       "neutralize": true,
@@ -11822,6 +12021,7 @@
       "level": 15,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 20000000,
       "monster_energy_cost": 1500,
       "neutralize": true,
@@ -11865,6 +12065,7 @@
       "level": 20,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 25000000,
       "monster_energy_cost": 2250,
       "neutralize": true,
@@ -11908,6 +12109,7 @@
       "level": 25,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 30000000,
       "monster_energy_cost": 2500,
       "neutralize": true,
@@ -11951,6 +12153,7 @@
       "level": 25,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 30000000,
       "monster_energy_cost": 2000,
       "neutralize": true,
@@ -11973,13 +12176,13 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_evolved_xenosaur_tier25_e"
-        },
-        {
           "subtype": "lootable_evolved_xenosaur_tier25_d"
         },
         {
           "subtype": "lootable_evolved_xenosaur_tier25_c"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier25_e"
         },
         {
           "subtype": "lootable_evolved_xenosaur_tier25_a"
@@ -11994,6 +12197,7 @@
       "level": 30,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 40000000,
       "monster_energy_cost": 2500,
       "neutralize": true,
@@ -12016,13 +12220,13 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_evolved_xenosaur_tier30_e"
-        },
-        {
           "subtype": "lootable_evolved_xenosaur_tier30_d"
         },
         {
           "subtype": "lootable_evolved_xenosaur_tier30_c"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier30_e"
         },
         {
           "subtype": "lootable_evolved_xenosaur_tier30_a"
@@ -12037,6 +12241,7 @@
       "level": 35,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 50000000,
       "monster_energy_cost": 3000,
       "neutralize": true,
@@ -12059,13 +12264,13 @@
       },
       "random_rewards": [
         {
-          "subtype": "lootable_evolved_xenosaur_tier35_e"
-        },
-        {
           "subtype": "lootable_evolved_xenosaur_tier35_d"
         },
         {
           "subtype": "lootable_evolved_xenosaur_tier35_c"
+        },
+        {
+          "subtype": "lootable_evolved_xenosaur_tier35_e"
         },
         {
           "subtype": "lootable_evolved_xenosaur_tier35_a"
@@ -12378,13 +12583,13 @@
           "subtype": "lootable_alien_titanic_strider_tier35_a"
         },
         {
+          "subtype": "lootable_alien_titanic_strider_tier35_d"
+        },
+        {
           "subtype": "lootable_alien_titanic_strider_tier35_b"
         },
         {
           "subtype": "lootable_alien_titanic_strider_tier35_c"
-        },
-        {
-          "subtype": "lootable_alien_titanic_strider_tier35_d"
         }
       ]
     },
@@ -12551,6 +12756,7 @@
       "level": 20,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 25000000,
       "monster_energy_cost": 1200,
       "neutralize": true,
@@ -12582,13 +12788,13 @@
           "subtype": "lootable_aqua_tier20_d"
         },
         {
-          "subtype": "lootable_aqua_tier20_c"
-        },
-        {
           "subtype": "lootable_aqua_tier20_a"
         },
         {
           "subtype": "lootable_aqua_tier20_b"
+        },
+        {
+          "subtype": "lootable_aqua_tier20_c"
         }
       ]
     },
@@ -12598,6 +12804,7 @@
       "level": 40,
       "spawn_amount": 0,
       "spawn_chance": 1,
+      "despawn": true,
       "monster_health": 60000000,
       "monster_energy_cost": 2000,
       "neutralize": true,
@@ -12629,13 +12836,13 @@
           "subtype": "lootable_aqua_tier40_d"
         },
         {
-          "subtype": "lootable_aqua_tier40_c"
-        },
-        {
           "subtype": "lootable_aqua_tier40_a"
         },
         {
           "subtype": "lootable_aqua_tier40_b"
+        },
+        {
+          "subtype": "lootable_aqua_tier40_c"
         }
       ]
     }

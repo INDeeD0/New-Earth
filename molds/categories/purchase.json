@@ -13431,6 +13431,576 @@
       "epic_id": "81914a72e995404bba1ac574fbb9bbfb",
       "epic_audience_id": "e7fb226dcabd4ceb800bdebc68b1c842"
     },
+    "skybreaker_carrier_pack_tier_50": {
+      "name": "~purchase_skybreaker_carrier_pack_tier_50",
+      "sku": "dz_skybreaker_carrier_pack_tier_5",
+      "style": 44,
+      "tier": 50,
+      "extra_value": 2800,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "gold_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 130000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 25
+          },
+          {
+            "subtype": "city_teleport",
+            "quantity": 4
+          },
+          {
+            "subtype": "currency3_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency4_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency5_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency6_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 10
+          },
+          {
+            "subtype": "currency2_250k",
+            "quantity": 1
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_6_specialized_mech_air",
+            "quantity": 25000
+          }
+        ],
+        "purchase_xp": 130000
+      },
+      "epic_id": "71182eb064aa47658a374c24b99c76b8",
+      "epic_audience_id": "8726635e11e24860ab790a882339e396"
+    },
+    "skybreaker_carrier_pack_tier_60": {
+      "name": "~purchase_skybreaker_carrier_pack_tier_60",
+      "sku": "dz_skybreaker_carrier_pack_tier_6",
+      "style": 44,
+      "tier": 60,
+      "extra_value": 3050,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "platinum_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 395000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 25
+          },
+          {
+            "subtype": "city_teleport",
+            "quantity": 4
+          },
+          {
+            "subtype": "currency3_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency4_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency5_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency6_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 12
+          },
+          {
+            "subtype": "boost_15h",
+            "quantity": 10
+          },
+          {
+            "subtype": "currency2_250k",
+            "quantity": 1
+          },
+          {
+            "subtype": "march_50_percent_capacity",
+            "quantity": 5
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_6_specialized_mech_air",
+            "quantity": 57500
+          }
+        ],
+        "purchase_xp": 395000
+      },
+      "epic_id": "b582660020b349da932c27b4ff35e99b",
+      "epic_audience_id": "5e842fdfbcb64b278c58f7aa723780f2"
+    },
+    "zenith_interceptor_pack_tier_50": {
+      "name": "~purchase_zenith_interceptor_pack_tier_50",
+      "sku": "dz_zenith_interceptor_pack_tier_5",
+      "style": 45,
+      "tier": 50,
+      "extra_value": 2800,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "gold_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 130000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 25
+          },
+          {
+            "subtype": "city_teleport",
+            "quantity": 4
+          },
+          {
+            "subtype": "currency3_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency4_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency5_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency6_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 10
+          },
+          {
+            "subtype": "currency2_250k",
+            "quantity": 1
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_6_specialized_prototype_air",
+            "quantity": 25000
+          }
+        ],
+        "purchase_xp": 130000
+      },
+      "epic_id": "6d86b8ad7b4f4a86ba7473ecf904a7c5",
+      "epic_audience_id": "3cdebd163a8b4b50a37f95a4261b073d"
+    },
+    "zenith_interceptor_pack_tier_60": {
+      "name": "~purchase_zenith_interceptor_pack_tier_60",
+      "sku": "dz_zenith_interceptor_pack_tier_6",
+      "style": 45,
+      "tier": 60,
+      "extra_value": 3050,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "platinum_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 395000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 25
+          },
+          {
+            "subtype": "city_teleport",
+            "quantity": 4
+          },
+          {
+            "subtype": "currency3_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency4_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency5_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency6_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 12
+          },
+          {
+            "subtype": "boost_15h",
+            "quantity": 10
+          },
+          {
+            "subtype": "currency2_250k",
+            "quantity": 1
+          },
+          {
+            "subtype": "march_50_percent_capacity",
+            "quantity": 5
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_6_specialized_prototype_air",
+            "quantity": 57500
+          }
+        ],
+        "purchase_xp": 395000
+      },
+      "epic_id": "ecdf0419a95a4cc18e1c14f521e105ff",
+      "epic_audience_id": "223f6884b9be4eedad8b74abb50ea911"
+    },
+    "renegade_harrier_pack_tier_50": {
+      "name": "~purchase_renegade_harrier_pack_tier_50",
+      "sku": "dz_renegade_harrier_pack_tier_5",
+      "style": 46,
+      "tier": 50,
+      "extra_value": 2800,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "gold_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 130000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 25
+          },
+          {
+            "subtype": "city_teleport",
+            "quantity": 4
+          },
+          {
+            "subtype": "currency3_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency4_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency5_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency6_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 10
+          },
+          {
+            "subtype": "currency2_250k",
+            "quantity": 1
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_6_specialized_alien_air",
+            "quantity": 25000
+          }
+        ],
+        "purchase_xp": 130000
+      },
+      "epic_id": "5d3376729b1f4106bae8206f362ff51a",
+      "epic_audience_id": "653cf197b0ba40ee84b10e58916d1578"
+    },
+    "renegade_harrier_pack_tier_60": {
+      "name": "~purchase_renegade_harrier_pack_tier_60",
+      "sku": "dz_renegade_harrier_pack_tier_6",
+      "style": 46,
+      "tier": 60,
+      "extra_value": 3050,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "platinum_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 395000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "hero_energy_1000",
+            "quantity": 25
+          },
+          {
+            "subtype": "city_teleport",
+            "quantity": 4
+          },
+          {
+            "subtype": "currency3_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency4_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency5_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency6_2m",
+            "quantity": 1
+          },
+          {
+            "subtype": "currency7_200k",
+            "quantity": 2
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 12
+          },
+          {
+            "subtype": "boost_15h",
+            "quantity": 10
+          },
+          {
+            "subtype": "currency2_250k",
+            "quantity": 1
+          },
+          {
+            "subtype": "march_50_percent_capacity",
+            "quantity": 5
+          }
+        ],
+        "units": [
+          {
+            "subtype": "tier_6_specialized_alien_air",
+            "quantity": 57500
+          }
+        ],
+        "purchase_xp": 395000
+      },
+      "epic_id": "a18d4d3989d548d89d51cc6febe77a46",
+      "epic_audience_id": "9af5078b100d4c599826ee88fd66f3bb"
+    },
+    "retrofit_kit_pack_tier_20": {
+      "name": "~purchase_retrofit_kit_pack_tier_20",
+      "sku": "dz_retrofit_pack_tier_3",
+      "style": 47,
+      "tier": 20,
+      "extra_value": 1827,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "silver_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 45000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "retrofit_kits",
+            "quantity": 25
+          },
+          {
+            "subtype": "hero_xp_100k",
+            "quantity": 1
+          },
+          {
+            "subtype": "march_50_percent_boost",
+            "quantity": 3
+          },
+          {
+            "subtype": "march_50_percent_capacity",
+            "quantity": 3
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 10
+          }
+        ],
+        "purchase_xp": 45000
+      },
+      "epic_id": "e2c7d2ca82c143d19860536eea3f3e91",
+      "epic_audience_id": "ac017d340dd945c9a0a144f48316d35e"
+    },
+    "retrofit_kit_pack_tier_50": {
+      "name": "~purchase_retrofit_kit_pack_tier_50",
+      "sku": "dz_retrofit_pack_tier_5",
+      "style": 47,
+      "tier": 50,
+      "extra_value": 2118,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "gold_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 130000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "retrofit_kits",
+            "quantity": 100
+          },
+          {
+            "subtype": "hero_xp_100k",
+            "quantity": 3
+          },
+          {
+            "subtype": "march_50_percent_boost",
+            "quantity": 8
+          },
+          {
+            "subtype": "march_50_percent_capacity",
+            "quantity": 8
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 30
+          }
+        ],
+        "purchase_xp": 130000
+      },
+      "epic_id": "f79923cd0fc94ac1a38586c6e5c2006a",
+      "epic_audience_id": "fd46ac8e51e34c759260b84b4469140b"
+    },
+    "retrofit_kit_pack_tier_60": {
+      "name": "~purchase_retrofit_kit_pack_tier_60",
+      "sku": "dz_retrofit_pack_tier_6",
+      "style": 47,
+      "tier": 60,
+      "extra_value": 2438,
+      "require_unlock": true,
+      "reward": {
+        "caches": [
+          {
+            "subtype": "platinum_alliance_cache"
+          }
+        ],
+        "currencies": [
+          {
+            "subtype": "currency1",
+            "quantity": 395000
+          }
+        ],
+        "items": [
+          {
+            "subtype": "retrofit_kits",
+            "quantity": 260
+          },
+          {
+            "subtype": "hero_xp_500k",
+            "quantity": 2
+          },
+          {
+            "subtype": "march_50_percent_boost",
+            "quantity": 15
+          },
+          {
+            "subtype": "march_50_percent_capacity",
+            "quantity": 15
+          },
+          {
+            "subtype": "boost_8h",
+            "quantity": 75
+          }
+        ],
+        "purchase_xp": 395000
+      },
+      "epic_id": "24236d13b56142dab64ac2f22e513e65",
+      "epic_audience_id": "93dd46252da64a11ae380de58383ca63"
+    },
     "daily_offer_tier1_bundle": {
       "name": "~tier_1_daily_offer_bundle",
       "sku": "dz_daily_offer_tier1_bundle",
@@ -14509,26 +15079,84 @@
     },
     "battle_pass_premium_1": {
       "name": "~purchase_battle_pass_premium",
-      "sku": "dz_tier1",
-      "tier": 10,
+      "sku": "dz_tier7_pass",
+      "tier": 7,
       "style": 999,
       "require_unlock": true,
       "reward": {
         "battle_pass_premium": "battle_pass_1",
         "purchase_xp": 100
-      }
+      },
+      "epic_id": "964f7b1c33854332824a1f94381225d4",
+      "epic_audience_id": "08ffabfbae8d4b1ebfd19920ee6fc522"
     },
     "battle_pass_premium_1_advanced": {
       "name": "~purchase_battle_pass_premium_advanced",
-      "sku": "dz_tier1",
-      "tier": 20,
+      "sku": "dz_tier15_pass",
+      "tier": 15,
       "style": 999,
       "require_unlock": true,
       "reward": {
         "battle_pass_premium": "battle_pass_1",
         "battle_pass_points": 8000,
         "purchase_xp": 100
-      }
+      },
+      "epic_id": "00e41692dcf045bf973846dea45211df",
+      "epic_audience_id": "f9b33b43d75d4c29919a7b68b203c29e"
+    },
+    "battle_pass_premium_2": {
+      "name": "~purchase_battle_pass_premium",
+      "sku": "dz_tier7_pass",
+      "tier": 7,
+      "style": 999,
+      "require_unlock": true,
+      "reward": {
+        "battle_pass_premium": "battle_pass_2",
+        "purchase_xp": 100
+      },
+      "epic_id": "964f7b1c33854332824a1f94381225d4",
+      "epic_audience_id": "08ffabfbae8d4b1ebfd19920ee6fc522"
+    },
+    "battle_pass_premium_2_advanced": {
+      "name": "~purchase_battle_pass_premium_advanced",
+      "sku": "dz_tier15_pass",
+      "tier": 15,
+      "style": 999,
+      "require_unlock": true,
+      "reward": {
+        "battle_pass_premium": "battle_pass_2",
+        "battle_pass_points": 8000,
+        "purchase_xp": 100
+      },
+      "epic_id": "00e41692dcf045bf973846dea45211df",
+      "epic_audience_id": "f9b33b43d75d4c29919a7b68b203c29e"
+    },
+    "battle_pass_premium_3": {
+      "name": "~purchase_battle_pass_premium",
+      "sku": "dz_tier7_pass",
+      "tier": 7,
+      "style": 999,
+      "require_unlock": true,
+      "reward": {
+        "battle_pass_premium": "battle_pass_3",
+        "purchase_xp": 100
+      },
+      "epic_id": "964f7b1c33854332824a1f94381225d4",
+      "epic_audience_id": "08ffabfbae8d4b1ebfd19920ee6fc522"
+    },
+    "battle_pass_premium_3_advanced": {
+      "name": "~purchase_battle_pass_premium_advanced",
+      "sku": "dz_tier15_pass",
+      "tier": 15,
+      "style": 999,
+      "require_unlock": true,
+      "reward": {
+        "battle_pass_premium": "battle_pass_3",
+        "battle_pass_points": 8000,
+        "purchase_xp": 100
+      },
+      "epic_id": "00e41692dcf045bf973846dea45211df",
+      "epic_audience_id": "f9b33b43d75d4c29919a7b68b203c29e"
     }
   }
 }

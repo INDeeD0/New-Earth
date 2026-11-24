@@ -4494,6 +4494,26 @@
               "level": 30
             }
           ]
+        },
+        {
+          "power": 595535,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hostilecontainment",
+              "level": 31
+            }
+          ]
+        },
+        {
+          "power": 700535,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "hostilecontainment",
+              "level": 32
+            }
+          ]
         }
       ]
     },
@@ -36629,6 +36649,26 @@
               "level": 30
             }
           ]
+        },
+        {
+          "power": 2650000,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "robotics_bay",
+              "level": 31
+            }
+          ]
+        },
+        {
+          "power": 3050000,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "robotics_bay",
+              "level": 32
+            }
+          ]
         }
       ]
     },
@@ -36936,6 +36976,26 @@
               "subtype": "structure",
               "target_subtype": "alien_genetics_lab",
               "level": 30
+            }
+          ]
+        },
+        {
+          "power": 2650000,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "alien_genetics_lab",
+              "level": 31
+            }
+          ]
+        },
+        {
+          "power": 3050000,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "alien_genetics_lab",
+              "level": 32
             }
           ]
         }
@@ -37247,11 +37307,31 @@
               "level": 30
             }
           ]
+        },
+        {
+          "power": 2650000,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "experimentation_chamber",
+              "level": 31
+            }
+          ]
+        },
+        {
+          "power": 3050000,
+          "requirements": [
+            {
+              "subtype": "structure",
+              "target_subtype": "experimentation_chamber",
+              "level": 32
+            }
+          ]
         }
       ]
     },
     "objective_advent_calendar": {
-      "name": "~objective_10_year_anniversary_calendar",
+      "name": "~objective_advent_calendar",
       "temporary": true,
       "category": {
         "subtype": "hidden"
@@ -37263,7 +37343,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1786924800
+              "level": 1797552000
             }
           ],
           "reward": {
@@ -37280,14 +37360,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787011200
+              "level": 1797638400
             }
           ],
           "reward": {
             "items": [
               {
-                "subtype": "march_50_percent_capacity",
-                "quantity": 3
+                "subtype": "bundle_crafting_loot_aqua",
+                "quantity": 5
               }
             ]
           }
@@ -37297,7 +37377,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787097600
+              "level": 1797724800
             }
           ],
           "reward": {
@@ -37314,7 +37394,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787184000
+              "level": 1797811200
             }
           ],
           "reward": {
@@ -37331,7 +37411,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787270400
+              "level": 1797897600
             }
           ],
           "reward": {
@@ -37348,7 +37428,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787356800
+              "level": 1797984000
             }
           ],
           "reward": {
@@ -37365,7 +37445,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787443200
+              "level": 1798070400
             }
           ],
           "reward": {
@@ -37382,14 +37462,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787529600
+              "level": 1798156800
             }
           ],
           "reward": {
-            "units": [
+            "items": [
               {
-                "subtype": "tier_5_prototype_new",
-                "quantity": 6000
+                "subtype": "retrofit_kits",
+                "quantity": 15
               }
             ]
           }
@@ -37399,7 +37479,7 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787616000
+              "level": 1798243200
             }
           ],
           "reward": {
@@ -37416,14 +37496,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787702400
+              "level": 1798329600
             }
           ],
           "reward": {
             "items": [
               {
                 "subtype": "strider_alien_emitter",
-                "quantity": 150
+                "quantity": 225
               }
             ]
           }
@@ -37433,14 +37513,14 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787788800
+              "level": 1798416000
             }
           ],
           "reward": {
             "currencies": [
               {
                 "subtype": "currency1",
-                "quantity": 5000
+                "quantity": 10000
               }
             ]
           }
@@ -37450,12 +37530,12 @@
             {
               "subtype": "global",
               "target_subtype": "server_time_gte",
-              "level": 1787875200
+              "level": 1798502400
             },
             {
               "subtype": "global",
               "target_subtype": "server_time_lte",
-              "level": 1788220800
+              "level": 1798848000
             }
           ],
           "reward": {

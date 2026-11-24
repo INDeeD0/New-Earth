@@ -2291,6 +2291,384 @@
         }
       ]
     },
+    "retrofit_kits": {
+      "name": "~item_retrofit_kits",
+      "rarity": 1,
+      "category": {
+        "subtype": "category_coreupgrades"
+      },
+      "item_costs": [
+        {
+          "costs": [
+            {
+              "subtype": "currency",
+              "target_subtype": "currency1",
+              "quantity": 1500
+            }
+          ]
+        }
+      ]
+    },
+    "default_city_skin": {
+      "name": "~item_default_city_skin",
+      "level": 1,
+      "max_quantity": 1,
+      "category": {
+        "subtype": "category_city_skins"
+      },
+      "slot": {
+        "subtype": "city_skin"
+      },
+      "levels": [
+        {},
+        {
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.01
+            },
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.02
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 250
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.03
+            },
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.05
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.09
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.1
+            },
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.16
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.16
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.16
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.16
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.12
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 1000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "structure_speed_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "basic_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "advanced_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "experimental_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "air_defense_defense_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "heavy_infantry_defense_modifier",
+              "value": 0,
+              "modifier": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    "red_bastion_city_skin": {
+      "name": "~item_red_bastion_city_skin",
+      "level": 1,
+      "max_quantity": 1,
+      "category": {
+        "subtype": "category_city_skins"
+      },
+      "slot": {
+        "subtype": "city_skin"
+      },
+      "item_costs": [
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 250
+            }
+          ]
+        }
+      ],
+      "levels": [
+        {},
+        {
+          "stats": [
+            {
+              "subtype": "vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.04
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.03
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 0,
+              "modifier": 0.02
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 500
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.08
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.06
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 0,
+              "modifier": 0.04
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 750
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.12
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.09
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 0,
+              "modifier": 0.06
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 1000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.16
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.12
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 0,
+              "modifier": 0.08
+            }
+          ]
+        },
+        {
+          "costs": [
+            {
+              "subtype": "item",
+              "target_subtype": "retrofit_kits",
+              "quantity": 2000
+            }
+          ],
+          "stats": [
+            {
+              "subtype": "vehicle_attack_modifier",
+              "value": 0,
+              "modifier": 0.2
+            },
+            {
+              "subtype": "march_speed_modifier",
+              "value": 0,
+              "modifier": 0.15
+            },
+            {
+              "subtype": "march_unit_capacity",
+              "value": 0,
+              "modifier": 0.1
+            }
+          ]
+        }
+      ]
+    },
     "core_dark_matter": {
       "name": "~item_dark_matter",
       "rarity": 4,

@@ -2529,6 +2529,195 @@
         }
       ]
     },
+    "purchase_skybreaker_carrier_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "skybreaker_carrier_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_skybreaker_carrier_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "skybreaker_carrier_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_zenith_interceptor_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "zenith_interceptor_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_zenith_interceptor_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "zenith_interceptor_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_renegade_harrier_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "renegade_harrier_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_renegade_harrier_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "renegade_harrier_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_retrofit_kit_tier_20": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "retrofit_kit_pack_tier_20",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_retrofit_kit_tier_50": {
+      "repurchasable": true,
+      "purchase_limit": 3,
+      "target_purchase": "retrofit_kit_pack_tier_50",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
+    "purchase_retrofit_kit_tier_60": {
+      "repurchasable": true,
+      "purchase_limit": 5,
+      "target_purchase": "retrofit_kit_pack_tier_60",
+      "duration": 259200,
+      "reoffer_expire_delay": 604800,
+      "reoffer_purchase_delay": 604800,
+      "active": false,
+      "requirements": [
+        {
+          "subtype": "player",
+          "target_subtype": "last_sale_seconds_passed",
+          "level": 10800
+        },
+        {
+          "subtype": "player",
+          "target_subtype": "highest_purchase_tier_lte",
+          "level": 60
+        }
+      ]
+    },
     "purchase_new_option_0_0": {
       "discount": 20,
       "target_purchase": "tier3a_mega1_discount",

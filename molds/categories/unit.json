@@ -5130,6 +5130,183 @@
       ],
       "power": 225,
       "build_cost": 720
+    },
+    "tier_6_specialized_mech_air": {
+      "name": "~unit_mech_tier_6_specialized_air",
+      "requirements": [],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 1750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 10000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 6500
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 2750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 3750
+        }
+      ],
+      "unit_type": {
+        "subtype": "mech_aircraft"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 7
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 7
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 275,
+      "build_cost": 900
+    },
+    "tier_6_specialized_prototype_air": {
+      "name": "~unit_prototype_tier_6_specialized_air",
+      "requirements": [],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 6000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 2250
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 8750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 3000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 3750
+        }
+      ],
+      "unit_type": {
+        "subtype": "prototype_air"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 6
+        },
+        {
+          "subtype": "defense",
+          "value": 8
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 8
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 275,
+      "build_cost": 900
+    },
+    "tier_6_specialized_alien_air": {
+      "name": "~unit_alien_tier_6_specialized_air",
+      "requirements": [],
+      "costs": [
+        {
+          "subtype": "currency",
+          "target_subtype": "currency4",
+          "quantity": 8000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency6",
+          "quantity": 2750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency3",
+          "quantity": 8000
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency5",
+          "quantity": 2750
+        },
+        {
+          "subtype": "currency",
+          "target_subtype": "currency7",
+          "quantity": 3750
+        }
+      ],
+      "unit_type": {
+        "subtype": "alien_air_vehicle"
+      },
+      "tier": 6,
+      "attributes": [
+        {
+          "subtype": "attack",
+          "value": 8
+        },
+        {
+          "subtype": "defense",
+          "value": 6
+        },
+        {
+          "subtype": "health",
+          "value": 6
+        },
+        {
+          "subtype": "speed",
+          "value": 9
+        },
+        {
+          "subtype": "load",
+          "value": 12
+        }
+      ],
+      "power": 275,
+      "build_cost": 900
     }
   }
 }

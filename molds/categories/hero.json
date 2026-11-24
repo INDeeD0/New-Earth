@@ -2830,6 +2830,171 @@
           ],
           "power": 1000000,
           "revive_seconds": 144000
+        },
+        {
+          "xp_required": 260000000000,
+          "skill_points": 699,
+          "monster_skill_points": 299,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 110000
+            },
+            {
+              "subtype": "defense",
+              "value": 172
+            },
+            {
+              "subtype": "health",
+              "value": 560
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 105000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 160000
+            }
+          ],
+          "power": 1250000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 320000000000,
+          "skill_points": 704,
+          "monster_skill_points": 302,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 115000
+            },
+            {
+              "subtype": "defense",
+              "value": 174
+            },
+            {
+              "subtype": "health",
+              "value": 570
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 110000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 170000
+            }
+          ],
+          "power": 1500000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 390000000000,
+          "skill_points": 709,
+          "monster_skill_points": 305,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 120000
+            },
+            {
+              "subtype": "defense",
+              "value": 176
+            },
+            {
+              "subtype": "health",
+              "value": 580
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 115000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 180000
+            }
+          ],
+          "power": 1750000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 480000000000,
+          "skill_points": 714,
+          "monster_skill_points": 308,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 125000
+            },
+            {
+              "subtype": "defense",
+              "value": 178
+            },
+            {
+              "subtype": "health",
+              "value": 590
+            },
+            {
+              "subtype": "speed",
+              "value": 11
+            },
+            {
+              "subtype": "load",
+              "value": 120000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 190000
+            }
+          ],
+          "power": 2000000,
+          "revive_seconds": 144000
+        },
+        {
+          "xp_required": 600000000000,
+          "skill_points": 719,
+          "monster_skill_points": 311,
+          "attributes": [
+            {
+              "subtype": "attack",
+              "value": 130000
+            },
+            {
+              "subtype": "defense",
+              "value": 180
+            },
+            {
+              "subtype": "health",
+              "value": 600
+            },
+            {
+              "subtype": "speed",
+              "value": 12
+            },
+            {
+              "subtype": "load",
+              "value": 125000
+            },
+            {
+              "subtype": "monster_attack",
+              "value": 200000
+            }
+          ],
+          "power": 2500000,
+          "revive_seconds": 144000
         }
       ]
     }
