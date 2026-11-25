@@ -23,7 +23,7 @@ body {
   border: 0px solid #ffffff;
 }
 #map1 {
-    grid-template-columns: repeat(6, 150px);
+    grid-template-columns: repeat(21, 150px);
     grid-template-rows: repeat(5, 100px);
     column-gap: 20px;
     row-gap: 5px;
@@ -476,4 +476,22 @@ table.dataTable tbody tr.even { background-color: #ffffff; }
 
 .container {
     cursor: grab;
+}
+@media (max-width: 900px) {
+
+  .container {
+    overflow-x: auto;
+  }
+  .dataTables_wrapper {
+    overflow-x: auto !important;
+    width: 100% !important;
+    justify-content: left;
+  }
+  .dataTables_scrollBody {
+    overflow-x: auto !important;
+  }
+  table {
+    font-size: 20px;   
+    white-space: nowrap;
+  }
 }

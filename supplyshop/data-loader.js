@@ -27,7 +27,25 @@ const DataLoader = (function(Helpers){
         "Armory Blueprints 2":"supplyshop_armory_blueprints_1_b",
         "Armory Blueprints 3":"supplyshop_armory_blueprints_2_a",
         "Armory Blueprints 4":"supplyshop_armory_blueprints_2_b",
-        
+        "Leather 1":"supplyshop_salvage_leather_1_a",
+        "Plastic 1":"supplyshop_salvage_plastic_1_a",
+        "Durable Fabric 1":"supplyshop_salvage_durable_fabric_1_a",
+        "Rubber 1":"supplyshop_salvage_rubber_1_a",
+        "Gunpowder 1":"supplyshop_salvage_gunpowder_1_a",
+        "Gunmetal 1":"supplyshop_salvage_gunmetal_1_a",
+        "Grip 1":"supplyshop_salvage_grip_1_a",
+        "Magazine 1":"supplyshop_salvage_magazine_1_a",
+        "Ballistic Plates 1":"supplyshop_salvage_ballistic_plates_1_a",
+        "Synthetic Fiber 1":"supplyshop_salvage_synthetic_fiber_1_a",
+        "Ceramics 1":"supplyshop_salvage_ceramics_1_a",
+        "Chrome Alloy 1":"supplyshop_premium_chrome_alloy_1_a",
+        "Chrome Alloy 2":"supplyshop_premium_chrome_alloy_1_b",
+        "Carbon Fiber 1":"supplyshop_premium_carbon_fiber_1_a",
+        "Carbon Fiber 2":"supplyshop_premium_carbon_fiber_1_b",
+        "Steel 1":"supplyshop_premium_steel_1_a",
+        "Steel 2":"supplyshop_premium_steel_1_b",
+        "Alien Fiber 1":"supplyshop_premium_alien_fiber_1_a",
+        "Alien Fiber 2":"supplyshop_premium_alien_fiber_1_b",
         
     };
     const reverseKeyMap = Object.fromEntries(
