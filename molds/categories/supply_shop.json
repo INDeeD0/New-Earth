@@ -33,6 +33,12 @@
           "target_subtype": "crafting_biomesh",
           "available_quantity": 15,
           "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_xenosaur_fang",
+          "available_quantity": 3,
+          "cost": 2500
         }
       ],
       "currencies": [
@@ -75,6 +81,12 @@
           "target_subtype": "combat_defense_boost_12h",
           "available_quantity": 5,
           "cost": 400
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_xenosaur_fang",
+          "available_quantity": 3,
+          "cost": 2500
         }
       ],
       "currencies": [
@@ -201,6 +213,12 @@
           "target_subtype": "currency7_15k",
           "available_quantity": 15,
           "cost": 100
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_xenosaur_hide",
+          "available_quantity": 3,
+          "cost": 2500
         }
       ],
       "currencies": [
@@ -243,6 +261,12 @@
           "target_subtype": "crafting_biomesh",
           "available_quantity": 15,
           "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_xenosaur_hide",
+          "available_quantity": 3,
+          "cost": 2500
         }
       ],
       "currencies": [
@@ -369,6 +393,12 @@
           "target_subtype": "currency4_150k",
           "available_quantity": 15,
           "cost": 120
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_xenosaur_venom",
+          "available_quantity": 3,
+          "cost": 2500
         }
       ],
       "currencies": [
@@ -411,6 +441,12 @@
           "target_subtype": "crafting_shells",
           "available_quantity": 15,
           "cost": 160
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_xenosaur_venom",
+          "available_quantity": 3,
+          "cost": 2500
         }
       ],
       "currencies": [
@@ -1005,6 +1041,810 @@
         {
           "subtype": "item",
           "target_subtype": "armory_blueprints"
+        }
+      ]
+    },
+    "supplyshop_salvage_leather_1_a": {
+      "group": "salvage_leather",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 10,
+          "cost": 150
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 10,
+          "cost": 150
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_steel",
+          "available_quantity": 10,
+          "cost": 150
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_leather"
+        }
+      ]
+    },
+    "supplyshop_salvage_plastic_1_a": {
+      "group": "salvage_plastic",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 10,
+          "cost": 150
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 10,
+          "cost": 150
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_steel",
+          "available_quantity": 10,
+          "cost": 150
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_plastic"
+        }
+      ]
+    },
+    "supplyshop_salvage_durable_fabric_1_a": {
+      "group": "salvage_durable_fabric",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 10,
+          "cost": 150
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 10,
+          "cost": 150
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_steel",
+          "available_quantity": 10,
+          "cost": 150
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_durable_fabric"
+        }
+      ]
+    },
+    "supplyshop_salvage_rubber_1_a": {
+      "group": "salvage_rubber",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_kevlar_fiber",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 300
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_rubber"
+        }
+      ]
+    },
+    "supplyshop_salvage_gunpowder_1_a": {
+      "group": "salvage_gunpowder",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_kevlar_fiber",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 300
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_gunpowder"
+        }
+      ]
+    },
+    "supplyshop_salvage_gunmetal_1_a": {
+      "group": "salvage_gunmetal",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_kevlar_fiber",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 300
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_gunmetal"
+        }
+      ]
+    },
+    "supplyshop_salvage_grip_1_a": {
+      "group": "salvage_grip",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 10,
+          "cost": 100
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 10,
+          "cost": 100
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_steel",
+          "available_quantity": 10,
+          "cost": 100
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_grip"
+        }
+      ]
+    },
+    "supplyshop_salvage_magazine_1_a": {
+      "group": "salvage_magazine",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy",
+          "available_quantity": 10,
+          "cost": 100
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber",
+          "available_quantity": 10,
+          "cost": 100
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_steel",
+          "available_quantity": 10,
+          "cost": 100
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_magazine"
+        }
+      ]
+    },
+    "supplyshop_salvage_ballistic_plates_1_a": {
+      "group": "salvage_ballistic_plates",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_kevlar_fiber",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_ballistic_plates"
+        }
+      ]
+    },
+    "supplyshop_salvage_synthetic_fiber_1_a": {
+      "group": "salvage_synthetic_fiber",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_kevlar_fiber",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_synthetic_fiber"
+        }
+      ]
+    },
+    "supplyshop_salvage_ceramics_1_a": {
+      "group": "salvage_ceramics",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_kevlar_fiber",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_doron_plate",
+          "available_quantity": 5,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_shells",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_ceramics"
+        }
+      ]
+    },
+    "supplyshop_premium_chrome_alloy_1_a": {
+      "group": "premium_chrome_alloy",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_24h",
+          "available_quantity": 5,
+          "cost": 500
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "shield_8h",
+          "available_quantity": 5,
+          "cost": 100
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy"
+        }
+      ]
+    },
+    "supplyshop_premium_chrome_alloy_1_b": {
+      "group": "premium_chrome_alloy",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "retrofit_kits",
+          "available_quantity": 1,
+          "cost": 10000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "core_dark_matter",
+          "available_quantity": 1,
+          "cost": 8750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_gather_boost_24h",
+          "available_quantity": 5,
+          "cost": 500
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "shield_8h",
+          "available_quantity": 5,
+          "cost": 100
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_chrome_alloy"
+        }
+      ]
+    },
+    "supplyshop_premium_carbon_fiber_1_a": {
+      "group": "premium_carbon_fiber",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_500",
+          "available_quantity": 5,
+          "cost": 500
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_25_percent_boost",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber"
+        }
+      ]
+    },
+    "supplyshop_premium_carbon_fiber_1_b": {
+      "group": "premium_carbon_fiber",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "retrofit_kits",
+          "available_quantity": 1,
+          "cost": 10000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "megaship_component",
+          "available_quantity": 1,
+          "cost": 15000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_500",
+          "available_quantity": 5,
+          "cost": 500
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "march_25_percent_boost",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_carbon_fiber"
+        }
+      ]
+    },
+    "supplyshop_premium_steel_1_a": {
+      "group": "premium_steel",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_xp_5k",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "combat_defense_boost_12h",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_steel"
+        }
+      ]
+    },
+    "supplyshop_premium_steel_1_b": {
+      "group": "premium_steel",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "megaship_component",
+          "available_quantity": 1,
+          "cost": 15000
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "core_dark_matter",
+          "available_quantity": 1,
+          "cost": 8750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_xp_5k",
+          "available_quantity": 5,
+          "cost": 300
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "combat_defense_boost_12h",
+          "available_quantity": 5,
+          "cost": 200
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_steel"
+        }
+      ]
+    },
+    "supplyshop_premium_alien_fiber_1_a": {
+      "group": "premium_alien_fiber",
+      "tier": 0,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_1000",
+          "available_quantity": 5,
+          "cost": 900
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "new_missions_category1",
+          "available_quantity": 5,
+          "cost": 120
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_fiber"
+        }
+      ]
+    },
+    "supplyshop_premium_alien_fiber_1_b": {
+      "group": "premium_alien_fiber",
+      "tier": 1,
+      "supply_items": [
+        {
+          "subtype": "item",
+          "target_subtype": "strider_alien_emitter",
+          "available_quantity": 2,
+          "cost": 750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "core_dark_matter",
+          "available_quantity": 1,
+          "cost": 8750
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_titanium",
+          "available_quantity": 2,
+          "cost": 600
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_points_150",
+          "available_quantity": 1,
+          "cost": 2250
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "vip_time_1d",
+          "available_quantity": 12,
+          "cost": 200
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "boost_hospital_3h",
+          "available_quantity": 5,
+          "cost": 130
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "hero_energy_1000",
+          "available_quantity": 5,
+          "cost": 900
+        },
+        {
+          "subtype": "item",
+          "target_subtype": "new_missions_category1",
+          "available_quantity": 5,
+          "cost": 120
+        }
+      ],
+      "currencies": [
+        {
+          "subtype": "item",
+          "target_subtype": "crafting_alien_fiber"
         }
       ]
     }

@@ -126,6 +126,97 @@
     "daily_trials_claimed": {
       "name": "~counter_daily_trials_claimed"
     },
+    "battle_pass_tiers_collected": {
+      "name": "~counter_battle_pass_tiers_collected"
+    },
+    "alliance_trials_claimed": {
+      "alliance": true,
+      "name": "~counter_alliance_trials_claimed"
+    },
+    "max_power": {
+      "alliance": true,
+      "name": "~counter_max_power"
+    },
+    "max_territory": {
+      "alliance": true,
+      "name": "~counter_max_territory"
+    },
+    "help_requests": {
+      "alliance": true,
+      "name": "~counter_help_requests"
+    },
+    "assist_units_sent": {
+      "alliance": true,
+      "name": "~counter_assist_units_sent"
+    },
+    "currency3_sent": {
+      "alliance": true,
+      "name": "~counter_currency3_sent"
+    },
+    "currency4_sent": {
+      "alliance": true,
+      "name": "~counter_currency4_sent"
+    },
+    "currency5_sent": {
+      "alliance": true,
+      "name": "~counter_currency5_sent"
+    },
+    "currency6_sent": {
+      "alliance": true,
+      "name": "~counter_currency6_sent"
+    },
+    "currency7_sent": {
+      "alliance": true,
+      "name": "~counter_currency7_sent"
+    },
+    "caches_claimed": {
+      "alliance": true,
+      "name": "~counter_caches_claimed"
+    },
+    "rally_created": {
+      "alliance": true,
+      "name": "~counter_rally_created"
+    },
+    "player_victories": {
+      "alliance": true,
+      "name": "~counter_player_victories"
+    },
+    "npc_victories": {
+      "alliance": true,
+      "name": "~counter_npc_victories"
+    },
+    "hunting_kills": {
+      "alliance": true,
+      "name": "~counter_hunting_kills"
+    },
+    "rally_only_locations": {
+      "alliance": true,
+      "name": "~counter_rally_only_locations"
+    },
+    "securables_secured": {
+      "alliance": true,
+      "name": "~counter_securables_secured"
+    },
+    "challenge_position_1": {
+      "alliance": true,
+      "name": "~counter_challenge_position_1"
+    },
+    "challenge_position_10": {
+      "alliance": true,
+      "name": "~counter_challenge_position_10"
+    },
+    "challenge_position_25": {
+      "alliance": true,
+      "name": "~counter_challenge_position_25"
+    },
+    "challenge_position_50": {
+      "alliance": true,
+      "name": "~counter_challenge_position_50"
+    },
+    "challenge_position_100": {
+      "alliance": true,
+      "name": "~counter_challenge_position_100"
+    },
     "objectives_collected": {
       "name": "~counter_objectives_collected"
     },
@@ -408,11 +499,17 @@
     "items_category_rallyitems_bought": {
       "name": "~counter_items_category_rallyitems_bought"
     },
+    "items_category_city_skins_bought": {
+      "name": "~counter_items_category_city_skins_bought"
+    },
     "items_upgraded": {
       "name": "~counter_items_upgraded"
     },
     "items_category_gear_upgraded": {
       "name": "~counter_items_category_gear_upgraded"
+    },
+    "items_category_city_skins_upgraded": {
+      "name": "~counter_items_category_city_skins_upgraded"
     },
     "drone_missions_collected": {
       "name": "~counter_drone_missions_collected"
@@ -795,6 +892,12 @@
     "air_t6_produced": {
       "name": "~counter_air_t6_produced"
     },
+    "mech_aircraft_t6_produced": {
+      "name": "~counter_mech_aircraft_t6_produced"
+    },
+    "alien_air_vehicle_t6_produced": {
+      "name": "~counter_alien_air_vehicle_t6_produced"
+    },
     "units_killed": {
       "name": "~counter_units_killed"
     },
@@ -1002,6 +1105,12 @@
     "air_t6_killed": {
       "name": "~counter_air_t6_killed"
     },
+    "mech_aircraft_t6_killed": {
+      "name": "~counter_mech_aircraft_t6_killed"
+    },
+    "alien_air_vehicle_t6_killed": {
+      "name": "~counter_alien_air_vehicle_t6_killed"
+    },
     "basic_defense_t0_lost": {
       "name": "~counter_basic_defense_t0_lost"
     },
@@ -1202,6 +1311,12 @@
     },
     "air_t6_lost": {
       "name": "~counter_air_t6_lost"
+    },
+    "mech_aircraft_t6_lost": {
+      "name": "~counter_mech_aircraft_t6_lost"
+    },
+    "alien_air_vehicle_t6_lost": {
+      "name": "~counter_alien_air_vehicle_t6_lost"
     }
   }
 }

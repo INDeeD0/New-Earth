@@ -23,15 +23,9 @@
             ]
           },
           "premium_reward": {
-            "currencies": [
-              {
-                "subtype": "currency1",
-                "quantity": 100
-              }
-            ],
             "items": [
               {
-                "subtype": "boost_8h",
+                "subtype": "boost_3h",
                 "quantity": 1
               }
             ],
@@ -43,36 +37,15 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_1h",
+                "quantity": 1
               }
-            ],
-            "units": [
-              {
-                "subtype": "tier_5_heavy_infantry",
-                "quantity": 3
-              }
-            ],
-            "currencies": [
-              {
-                "subtype": "currency2",
-                "quantity": 2
-              },
-              {
-                "subtype": "currency7",
-                "quantity": 7
-              },
-              {
-                "subtype": "currency8",
-                "quantity": 8
-              }
-            ],
-            "hero_xp": 5000
+            ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "hero_energy_500",
+                "subtype": "currency3_150k",
                 "quantity": 1
               }
             ]
@@ -91,12 +64,8 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency4_150k",
+                "subtype": "hero_energy_100",
                 "quantity": 1
-              },
-              {
-                "subtype": "march_25_percent_boost",
-                "quantity": 2
               }
             ]
           }
@@ -106,15 +75,15 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_currency4_1d",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "boost_hospital_8h",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -125,7 +94,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3h",
+                "subtype": "retrofit_kits",
                 "quantity": 1
               }
             ]
@@ -133,8 +102,8 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency5_150k",
-                "quantity": 1
+                "subtype": "retrofit_kits",
+                "quantity": 5
               },
               {
                 "subtype": "boost_8h",
@@ -148,7 +117,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "hero_xp_5k",
+                "subtype": "boost_15m",
                 "quantity": 1
               }
             ]
@@ -156,11 +125,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 5
-              },
-              {
-                "subtype": "hero_energy_500",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -171,7 +136,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "currency6_150k",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -179,11 +144,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency6_150k",
-                "quantity": 1
-              },
-              {
-                "subtype": "march_gather_boost_24h",
+                "subtype": "currency4_150k",
                 "quantity": 1
               }
             ]
@@ -194,16 +155,16 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_currency6_1d",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "boost_3d",
-                "quantity": 5
+                "subtype": "boost_3h",
+                "quantity": 1
               }
             ]
           }
@@ -213,7 +174,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "currency7_50k",
+                "subtype": "boost_15m",
                 "quantity": 1
               }
             ]
@@ -221,12 +182,8 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency7_50k",
-                "quantity": 2
-              },
-              {
-                "subtype": "march_25_percent_boost",
-                "quantity": 3
+                "subtype": "currency7_15k",
+                "quantity": 1
               }
             ]
           }
@@ -236,25 +193,23 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "retrofit_kits",
+                "quantity": 2
+              },
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
-            "currencies": [
-              {
-                "subtype": "currency1",
-                "quantity": 250
-              }
-            ],
             "items": [
               {
-                "subtype": "boost_8h",
-                "quantity": 1
+                "subtype": "retrofit_kits",
+                "quantity": 10
               },
               {
-                "subtype": "city_teleport",
+                "subtype": "boost_8h",
                 "quantity": 1
               }
             ]
@@ -265,7 +220,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "currency3_150k",
+                "subtype": "boost_currency3_1d",
                 "quantity": 1
               }
             ]
@@ -273,11 +228,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency3_150k",
-                "quantity": 2
-              },
-              {
-                "subtype": "boost_hospital_8h",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -288,7 +239,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "hero_xp_5k",
+                "subtype": "boost_15m",
                 "quantity": 1
               }
             ]
@@ -296,11 +247,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 5
-              },
-              {
-                "subtype": "hero_energy_500",
+                "subtype": "hero_energy_100",
                 "quantity": 1
               }
             ]
@@ -319,11 +266,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency4_150k",
-                "quantity": 2
-              },
-              {
-                "subtype": "boost_3d",
+                "subtype": "boost_3h",
                 "quantity": 1
               }
             ]
@@ -334,16 +277,16 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_currency5_1d",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "march_25_percent_boost",
-                "quantity": 3
+                "subtype": "boost_1h",
+                "quantity": 1
               }
             ]
           }
@@ -353,7 +296,11 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
+                "subtype": "retrofit_kits",
+                "quantity": 1
+              },
+              {
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -361,12 +308,12 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency5_150k",
-                "quantity": 1
+                "subtype": "retrofit_kits",
+                "quantity": 10
               },
               {
                 "subtype": "boost_8h",
-                "quantity": 2
+                "quantity": 1
               }
             ]
           }
@@ -376,23 +323,15 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_15m",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "shield_8h",
-                "quantity": 1
-              },
-              {
-                "subtype": "boost_3d",
-                "quantity": 5
-              },
-              {
-                "subtype": "hero_energy_500",
+                "subtype": "currency7_15k",
                 "quantity": 1
               }
             ]
@@ -403,7 +342,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "currency6_150k",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -411,11 +350,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency6_150k",
-                "quantity": 1
-              },
-              {
-                "subtype": "boost_3d",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -426,16 +361,16 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_currency4_1d",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
-            "currencies": [
+            "items": [
               {
-                "subtype": "currency1",
-                "quantity": 10
+                "subtype": "boost_3h",
+                "quantity": 1
               }
             ]
           }
@@ -445,7 +380,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
+                "subtype": "boost_15m",
                 "quantity": 1
               }
             ]
@@ -453,11 +388,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency7_50k",
-                "quantity": 3
-              },
-              {
-                "subtype": "march_gather_boost_24h",
+                "subtype": "boost_currency7_1d",
                 "quantity": 1
               }
             ]
@@ -468,30 +399,24 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3h",
-                "quantity": 1
+                "subtype": "retrofit_kits",
+                "quantity": 2
               },
               {
-                "subtype": "city_teleport",
+                "subtype": "boost_3h",
                 "quantity": 1
               }
             ]
           },
           "premium_reward": {
-            "currencies": [
-              {
-                "subtype": "currency1",
-                "quantity": 500
-              }
-            ],
             "items": [
               {
-                "subtype": "boost_8h",
-                "quantity": 2
+                "subtype": "retrofit_kits",
+                "quantity": 10
               },
               {
-                "subtype": "boost_3d",
-                "quantity": 10
+                "subtype": "boost_1d",
+                "quantity": 1
               }
             ]
           }
@@ -501,7 +426,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "march_gather_boost_24h",
+                "subtype": "boost_currency6_1d",
                 "quantity": 1
               }
             ]
@@ -509,12 +434,8 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency3_500k",
+                "subtype": "currency3_150k",
                 "quantity": 1
-              },
-              {
-                "subtype": "march_50_percent_boost",
-                "quantity": 2
               }
             ]
           }
@@ -524,19 +445,15 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_1h",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "boost_3d",
-                "quantity": 5
-              },
-              {
-                "subtype": "hero_energy_500",
+                "subtype": "hero_energy_100",
                 "quantity": 1
               }
             ]
@@ -547,7 +464,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "currency4_500k",
+                "subtype": "boost_currency3_1d",
                 "quantity": 1
               }
             ]
@@ -555,11 +472,7 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency4_500k",
-                "quantity": 1
-              },
-              {
-                "subtype": "boost_hospital_8h",
+                "subtype": "boost_3h",
                 "quantity": 1
               }
             ]
@@ -570,16 +483,16 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_15m",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "boost_3d",
-                "quantity": 5
+                "subtype": "boost_1h",
+                "quantity": 1
               }
             ]
           }
@@ -589,11 +502,11 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3h",
+                "subtype": "retrofit_kits",
                 "quantity": 1
               },
               {
-                "subtype": "boost_3m",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
@@ -601,15 +514,15 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency5_500k",
-                "quantity": 1
+                "subtype": "retrofit_kits",
+                "quantity": 15
               },
               {
-                "subtype": "boost_8h",
-                "quantity": 2
+                "subtype": "boost_3h",
+                "quantity": 1
               }
             ],
-            "battle_pass_points": 4000
+            "battle_pass_points": 5000
           }
         },
         {
@@ -617,20 +530,16 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_15m",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "shield_8h",
-                "quantity": 2
-              },
-              {
-                "subtype": "boost_3d",
-                "quantity": 5
+                "subtype": "currency5_150k",
+                "quantity": 1
               }
             ]
           }
@@ -640,7 +549,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "currency6_500k",
+                "subtype": "boost_15m",
                 "quantity": 1
               }
             ]
@@ -648,12 +557,8 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency6_500k",
+                "subtype": "hero_energy_100",
                 "quantity": 1
-              },
-              {
-                "subtype": "boost_3d",
-                "quantity": 2
               }
             ]
           }
@@ -663,16 +568,16 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
-                "quantity": 3
+                "subtype": "boost_currency5_1d",
+                "quantity": 1
               }
             ]
           },
           "premium_reward": {
             "items": [
               {
-                "subtype": "boost_3d",
-                "quantity": 65
+                "subtype": "currency6_150k",
+                "quantity": 1
               }
             ]
           }
@@ -682,7 +587,7 @@
           "reward": {
             "items": [
               {
-                "subtype": "currency7_200k",
+                "subtype": "boost_15m",
                 "quantity": 1
               }
             ]
@@ -690,12 +595,8 @@
           "premium_reward": {
             "items": [
               {
-                "subtype": "currency7_200k",
+                "subtype": "currency7_15k",
                 "quantity": 1
-              },
-              {
-                "subtype": "boost_3d",
-                "quantity": 2
               }
             ]
           }
@@ -705,29 +606,1399 @@
           "reward": {
             "items": [
               {
-                "subtype": "boost_3m",
+                "subtype": "retrofit_kits",
                 "quantity": 3
               },
               {
-                "subtype": "hero_xp_20k",
+                "subtype": "boost_1h",
                 "quantity": 1
               }
             ]
           },
           "premium_reward": {
-            "currencies": [
-              {
-                "subtype": "currency1",
-                "quantity": 750
-              }
-            ],
             "items": [
               {
-                "subtype": "boost_15h",
+                "subtype": "retrofit_kits",
+                "quantity": 25
+              },
+              {
+                "subtype": "boost_1d",
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "battle_pass_2": {
+      "name": "~battle_pass",
+      "purchases": [
+        {
+          "subtype": "battle_pass_premium_2"
+        },
+        {
+          "subtype": "battle_pass_premium_2_advanced"
+        }
+      ],
+      "duration": 2592000,
+      "tiers": [
+        {
+          "points_required": 0,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ],
+            "battle_pass_points": 1250
+          }
+        },
+        {
+          "points_required": 250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency5_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency4_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 1250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
                 "quantity": 2
               },
               {
-                "subtype": "city_teleport",
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 5
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 5
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 10
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 25
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 25
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 1750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency5_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 2250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency4_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 2750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency6_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 3250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_15k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 4000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 4
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 10
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 10
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 20
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 50
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 50
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 4750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency3_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 5500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 6250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 7000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency5_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 8000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 2
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 5
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 5
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 20
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 50
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 50
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 9000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency4_150k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_15k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 10000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 11000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency4_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 12000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_currency7_1d",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 13500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 4
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 10
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 10
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 20
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 50
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 50
+              },
+              {
+                "subtype": "hero_energy_1000",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 15000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency6_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 16500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency4_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 18000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency3_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 19500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 21500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 2
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 5
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 5
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 30
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 75
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 75
+              },
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ],
+            "battle_pass_points": 5000
+          }
+        },
+        {
+          "points_required": 23500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency4_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency5_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 25500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 27500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency5_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 29500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency6_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_15k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 31500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 6
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 15
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 15
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_xenosaur_fang",
+                "quantity": 50
+              },
+              {
+                "subtype": "crafting_xenosaur_hide",
+                "quantity": 125
+              },
+              {
+                "subtype": "crafting_xenosaur_venom",
+                "quantity": 125
+              },
+              {
+                "subtype": "hero_energy_1000",
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "battle_pass_3": {
+      "name": "~battle_pass",
+      "purchases": [
+        {
+          "subtype": "battle_pass_premium_3"
+        },
+        {
+          "subtype": "battle_pass_premium_3_advanced"
+        }
+      ],
+      "duration": 2592000,
+      "tiers": [
+        {
+          "points_required": 0,
+          "reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              }
+            ],
+            "battle_pass_points": 1250
+          }
+        },
+        {
+          "points_required": 250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency4_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 1250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_titanium",
+                "quantity": 4
+              },
+              {
+                "subtype": "crafting_scope",
+                "quantity": 5
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 15
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 1750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_15m",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 2250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency4_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 2750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency6_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 3250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_15k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 4000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_titanium",
+                "quantity": 8
+              },
+              {
+                "subtype": "crafting_scope",
+                "quantity": 10
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 30
+              },
+              {
+                "subtype": "boost_8h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 4750,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency3_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 5500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 6250,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 7000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency5_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 8000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_titanium",
+                "quantity": 4
+              },
+              {
+                "subtype": "crafting_scope",
+                "quantity": 5
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 30
+              },
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 9000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_15k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 10000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 11000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency4_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_500",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 12000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_15m",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_currency7_1d",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 13500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_titanium",
+                "quantity": 8
+              },
+              {
+                "subtype": "crafting_scope",
+                "quantity": 10
+              },
+              {
+                "subtype": "crafting_power_cell",
+                "quantity": 25
+              },
+              {
+                "subtype": "crafting_alien_alloy",
+                "quantity": 25
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 30
+              },
+              {
+                "subtype": "megaship_component",
+                "quantity": 15
+              },
+              {
+                "subtype": "boost_1d",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 15000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency6_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency3_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 16500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 18000,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 19500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency3_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 21500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_titanium",
+                "quantity": 4
+              },
+              {
+                "subtype": "crafting_scope",
+                "quantity": 5
+              },
+              {
+                "subtype": "crafting_power_cell",
+                "quantity": 25
+              },
+              {
+                "subtype": "crafting_alien_alloy",
+                "quantity": 25
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 45
+              },
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ],
+            "battle_pass_points": 5000
+          }
+        },
+        {
+          "points_required": 23500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_3h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency5_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 25500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "hero_energy_100",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 27500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_currency5_1d",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency6_150k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 29500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "boost_1h",
+                "quantity": 1
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "currency7_15k",
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "points_required": 31500,
+          "reward": {
+            "items": [
+              {
+                "subtype": "crafting_titanium",
+                "quantity": 12
+              },
+              {
+                "subtype": "crafting_scope",
+                "quantity": 15
+              },
+              {
+                "subtype": "crafting_power_cell",
+                "quantity": 50
+              },
+              {
+                "subtype": "crafting_alien_alloy",
+                "quantity": 50
+              },
+              {
+                "subtype": "megaship_component",
+                "quantity": 5
+              }
+            ]
+          },
+          "premium_reward": {
+            "items": [
+              {
+                "subtype": "crafting_aqua_rare",
+                "quantity": 75
+              },
+              {
+                "subtype": "megaship_component",
+                "quantity": 25
+              },
+              {
+                "subtype": "hero_energy_1000",
                 "quantity": 1
               }
             ]

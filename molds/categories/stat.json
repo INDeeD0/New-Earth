@@ -1973,6 +1973,30 @@
       "modifier": 0,
       "lock_value": true
     },
+    "aqua_combat_modifier": {
+      "name": "~stat_aqua_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_bug_combat_modifier": {
+      "name": "~stat_alien_bug_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "ufo_combat_modifier": {
+      "name": "~stat_ufo_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "plasma_strider_combat_modifier": {
+      "name": "~stat_plasma_strider_combat_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
     "hero_hunting_race_dropship_down_modifier": {
       "name": "~stat_hero_hunting_race_dropship_down_modifier",
       "value": 1,
@@ -2407,6 +2431,18 @@
     },
     "air_t6_cost_modifier": {
       "name": "~stat_air_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "mech_aircraft_t6_cost_modifier": {
+      "name": "~stat_mech_aircraft_t6_cost_modifier",
+      "value": 1,
+      "modifier": 0,
+      "lock_value": true
+    },
+    "alien_air_vehicle_t6_cost_modifier": {
+      "name": "~stat_alien_air_vehicle_t6_cost_modifier",
       "value": 1,
       "modifier": 0,
       "lock_value": true
