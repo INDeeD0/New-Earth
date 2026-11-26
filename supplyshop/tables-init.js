@@ -161,6 +161,7 @@ const Tables = (function(Helpers){
         { title:'<span class="info-icon" data-tip="Shells"><img src="pictures/Shells.png" class="col-icon"></span>5', dataKey: "crafting_shells@value" },
         { title:'<span class="info-icon" data-tip="Strider Emitter"><img src="pictures/Strider Emitter.png" class="col-icon"></span>2', dataKey: "strider_alien_emitter@value" },
         { title:'<span class="info-icon" data-tip="Retrofit Kits"><img src="pictures/Retrofit Kits.png" class="col-icon"></span>5', dataKey: "retrofit_kits@value" },/////
+        { title:'<span class="info-icon" data-tip="Hyper Thruster"><img src="pictures/Hyper Thruster.png" class="col-icon"></span>5', dataKey: "megaship_component@value" },
         { title:'<span class="info-icon" data-tip="Dark Matter"><img src="pictures/Dark Matter.png" class="col-icon"></span>5', dataKey: "core_dark_matter@value" },
         { title:'<span class="info-icon" data-tip="Titanium"><img src="pictures/Titanium.png" class="col-icon"></span>2', dataKey: "crafting_titanium@value" },
         { title:'<span class="info-icon" data-tip="VIP 150"><img src="pictures/VIP 150.png" class="col-icon"></span>1', dataKey: "vip_points_150@value" }, /////
@@ -168,6 +169,12 @@ const Tables = (function(Helpers){
         { title:'<span class="info-icon" data-tip="Healing Speedup 3H"><img src="pictures/Healing Speedup 3H.png" class="col-icon"></span>5', dataKey: "boost_hospital_3h@value" },
         { title:'<span class="info-icon" data-tip="Gathering Boost 24H"><img src="pictures/Gathering Boost 24H.png" class="col-icon"></span>5', dataKey: "march_gather_boost_24h@value" },
         { title:'<span class="info-icon" data-tip="Shield 8H"><img src="pictures/Shield 8H.png" class="col-icon"></span>5', dataKey: "shield_8h@value" },
+        { title:'<span class="info-icon" data-tip="Stim-Pack 500"><img src="pictures/Stim-Pack 500.png" class="col-icon"></span>5', dataKey: "hero_energy_500@value" },
+        { title:'<span class="info-icon" data-tip="Rocket Fuel"><img src="pictures/Rocket Fuel.png" class="col-icon"></span>5', dataKey: "march_25_percent_boost@value" },
+        { title:'<span class="info-icon" data-tip="Hero XP 5K"><img src="pictures/Hero XP 5K.png" class="col-icon"></span>5', dataKey: "hero_xp_5k@value" },
+        { title:'<span class="info-icon" data-tip="Defense Boost 12H"><img src="pictures/Defense Boost 12H.png" class="col-icon"></span>5', dataKey: "combat_defense_boost_12h@value" },
+        { title:'<span class="info-icon" data-tip="Stim-Pack 1K"><img src="pictures/Stim-Pack 1K.png" class="col-icon"></span>5', dataKey: "hero_energy_1000@value" },
+        { title:'<span class="info-icon" data-tip="Player Mission Refresh"><img src="pictures/Player Mission Refresh.png" class="col-icon"></span>5', dataKey: "new_missions_category1@value" },
         
     ];
     const missionsCols =[
@@ -239,14 +246,14 @@ const Tables = (function(Helpers){
         supplyshop_salvage_ballistic_plates_1_a: [133,134,135],
         supplyshop_salvage_synthetic_fiber_1_a: [133,134,135],
         supplyshop_salvage_ceramics_1_a: [133,134,135],
-        supplyshop_premium_chrome_alloy_1_a: [136,139,140,141,142,143,144],
-        supplyshop_premium_chrome_alloy_1_b: [136,137,138,139,140,141,142,143,144],
-        supplyshop_premium_carbon_fiber_1_a: [],
-        supplyshop_premium_carbon_fiber_1_b: [],
-        supplyshop_premium_steel_1_a: [],
-        supplyshop_premium_steel_1_b: [],
-        supplyshop_premium_alien_fiber_1_a: [],
-        supplyshop_premium_alien_fiber_1_b: [],
+        supplyshop_premium_chrome_alloy_1_a: [136,140,141,142,143,144,145],
+        supplyshop_premium_chrome_alloy_1_b: [136,137,139,140,141,142,143,144,145],
+        supplyshop_premium_carbon_fiber_1_a: [136,140,141,142,143,146,147],
+        supplyshop_premium_carbon_fiber_1_b: [136,137,138,140,141,142,143,146,147],
+        supplyshop_premium_steel_1_a: [136,140,141,142,143,148,149],
+        supplyshop_premium_steel_1_b: [136,138,139,140,141,142,143,148,149],
+        supplyshop_premium_alien_fiber_1_a: [136,140,141,142,143,150,151],
+        supplyshop_premium_alien_fiber_1_b: [136,139,140,141,142,143,150,151],
     };
     const missionsColumnMap = {
         '*': [1,2],     
