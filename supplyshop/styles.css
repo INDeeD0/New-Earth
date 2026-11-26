@@ -9,25 +9,31 @@ body {
   padding: 20px;
 }
 
-/* === Tree Grid === */
+/* === Tree Grid Container === */
 .container {
   justify-content: left;
   margin: 20px auto;
   position: relative;
-  width: 1340px;
+  width: 1800px;
+  max-width: 100%;
   overflow-y: auto;
-  overflow-x: auto; /* required for horizontal scroll with sticky */
-  display: grid; /* ensure grid so ::before can use grid lines */
+  overflow-x: auto;
+  display: block;
 }
 .researchroot {
   border: 0px solid #ffffff;
 }
 #map1 {
+    display: grid;
+    min-width: 1800px;
+
     grid-template-columns: repeat(21, 150px);
     grid-template-rows: repeat(5, 100px);
+
     column-gap: 20px;
     row-gap: 5px;
-    justify-content: center;
+
+    justify-content: start;
 }
 #map2 {
     grid-template-columns: repeat(8, 150px);
